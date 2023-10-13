@@ -1,0 +1,70 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+### search_filters = {FOCUS_FILTER_XINSHIJIE}
+### search_filters = {FOCUS_FILTER_FANGXIAN}
+
+focus_tree = {
+	id = mlc_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MLC
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = MLC_junshixuanze
+		icon = GFX_goal_generic_build_tank
+		x = 3
+		y = 0
+		cost = 10
+		search_filters = {  }
+		completion_reward = {
+			air_experience = 20
+			navy_experience = 20
+			army_experience = 20
+		}
+	}
+
+	focus = {
+		id = MLC_zhongshikongjun
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = MLC_junshixuanze }
+		x = 3
+		y = 1
+		cost = 7.2
+		search_filters = {  }
+		completion_reward = {
+			air_experience = 10
+		}
+	}
+
+	focus = {
+		id = MLC_zhongshizhandouji
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = MLC_zhongshikongjun }
+		x = 1
+		y = 2
+		cost = 10
+		search_filters = {  }
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				category = light_fighter
+				category = cat_heavy_fighter
+			}
+		}
+	}
+}

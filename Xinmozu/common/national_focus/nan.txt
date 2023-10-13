@@ -1,0 +1,711 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+### search_filters = {FOCUS_FILTER_XINSHIJIE}
+### search_filters = {FOCUS_FILTER_FANGXIAN}
+
+focus_tree = {
+	id = nangua_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NAN
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = NAN_chongfanxindalu
+		icon = GFX_goal_generic_position_armies
+		x = 13
+		y = 0
+		cost = 5
+		search_filters = {  }
+		mutually_exclusive = { focus = NAN_chedidingju }
+		completion_reward = {
+			add_war_support = 0.25
+			36 = {
+				add_claim_by = NAN
+			}
+			35 = {
+				add_claim_by = NAN
+			}
+			7 = {
+				add_claim_by = NAN
+			}
+			6 = {
+				add_claim_by = NAN
+			}
+			34 = {
+				add_claim_by = NAN
+			}
+			8 = {
+				add_claim_by = NAN
+                        }
+                        29 = {
+				add_claim_by = NAN
+                        }
+                        785 = {
+				add_claim_by = NAN
+                        }
+                        15 = {
+				add_claim_by = NAN
+                        }
+                        14 = {
+				add_claim_by = NAN
+                        }
+                        18 = {
+				add_claim_by = NAN
+                        }
+                        16 = {
+				add_claim_by = NAN
+                        }
+                        30 = {
+				add_claim_by = NAN
+                        }
+                        24 = {
+				add_claim_by = NAN
+			}
+		}
+	}
+	focus = {
+		id = NAN_wohuilaile
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		x = 13
+		y = 1
+		cost = 1.43
+		search_filters = {  }
+		prerequisite = { focus = NAN_chongfanxindalu }
+		completion_reward = {
+ 			create_wargoal = {
+ 				type = fu_chou
+ 				target = PIN
+ 				expire = 0
+ 				#generator = { 28 }
+ 			}
+		}
+	}
+	focus = {
+		id = NAN_diguodehuigui
+		icon = GFX_focus_ger_reichskommisariats
+		x = 13
+		y = 2
+		cost = 1.43
+		search_filters = {  }
+		prerequisite = { focus = NAN_wohuilaile }
+		completion_reward = {
+			add_ideas = NAN_i_diguodehuigui
+			36 = {
+				add_core_of = NAN
+			}
+			35 = {
+				add_core_of = NAN
+			}
+			7 = {
+				add_core_of = NAN
+			}
+			6 = {
+				add_core_of = NAN
+			}
+			34 = {
+				add_core_of = NAN
+			}
+			8 = {
+				add_core_of = NAN
+                        }
+                        29 = {
+				add_core_of = NAN
+                        }
+                        785 = {
+				add_core_of = NAN
+                        }
+                        15 = {
+				add_core_of = NAN
+                        }
+                        14 = {
+				add_core_of = NAN
+                        }
+                        18 = {
+				add_core_of = NAN
+                        }
+                        16 = {
+				add_core_of = NAN
+                        }
+                        30 = {
+				add_core_of = NAN
+                        }
+                        24 = {
+				add_core_of = NAN
+			}
+		}
+	}
+
+	focus = {
+		id = NAN_geleilidouhuiyi
+		icon = GFX_focus_generic_self_management
+		x = 15
+		y = 2
+		cost = 5
+		search_filters = {  }
+		prerequisite = { focus =  NAN_wohuilaile }
+		completion_reward = {
+			36 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+			}
+			35 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+			}
+			7 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+			}
+			6 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+			}
+			34 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+			}
+			8 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        29 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        785 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        15 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        14 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        18 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        16 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        30 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+                        }
+                        24 = {
+				remove_core_of = PIN
+				add_claim_by = PIN
+			}
+		}
+	}
+
+
+	focus = {
+		id = NAN_dingju
+		icon = GFX_goal_generic_build_tank
+		x = 21
+		y = 0
+		cost = 5
+		search_filters = {  }
+		completion_reward = {
+			add_war_support = -0.1
+			273 = {
+				add_claim_by = NAN
+			}
+			448 = {
+				add_claim_by = NAN
+			}
+			449 = {
+				add_claim_by = NAN
+			}
+			490 = {
+				add_claim_by = NAN
+			}
+			451 = {
+				add_claim_by = NAN
+			}
+			663 = {
+				add_claim_by = NAN
+			}
+			662 = {
+				add_claim_by = NAN
+			}
+			661 = {
+				add_claim_by = NAN
+			}
+		}
+	}
+	focus = {
+		id = NAN_chedidingju
+		icon = GFX_goal_generic_national_unity
+		x = 19
+		y = 0
+		cost = 5
+		search_filters = {  }
+		prerequisite = { focus = NAN_dingju }
+		mutually_exclusive = { focus = NAN_chongfanxindalu }
+		completion_reward = {
+			273 = {
+				add_core_of = NAN
+			}
+			448 = {
+				add_core_of = NAN
+			}
+			449 = {
+				add_core_of = NAN
+			}
+			490 = {
+				add_core_of = NAN
+			}
+			451 = {
+				add_core_of = NAN
+			}
+			663 = {
+				add_core_of = NAN
+			}
+			662 = {
+				add_core_of = NAN
+			}
+			661 = {
+				add_core_of = NAN
+			}
+		}
+	}
+	focus = {
+		id = NAN_subsiderehuiyi
+		icon = GFX_focus_generic_self_management
+		x = 21
+		y = 1
+		cost = 5
+		search_filters = {  }
+		prerequisite = { focus = NAN_chedidingju }
+		completion_reward = {
+			273 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			448 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			449 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			490 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			451 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			663 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			662 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+			661 = {
+				remove_core_of = FLB
+				add_claim_by = FLB
+			}
+		}
+	}
+
+
+	focus = {
+		id = NAN_gongyezhuigan
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NAN_dingju  focus = NAN_chongfanxindalu }
+
+		x = 17
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 15
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NAN_diyicigongyegeming
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NAN_gongyezhuigan }
+
+		x = 17
+		y = 2
+		cost = 7.143
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			remove_ideas = NAN_i_zhongshiji
+			add_ideas = NAN_i_diyicigongyegeming
+		}
+	}
+
+	focus = {
+		id = NAN_diercigongyegeming
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NAN_diyicigongyegeming }
+
+		x = 17
+		y = 3
+		cost = 7.143
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			remove_ideas = NAN_i_diyicigongyegeming
+		}
+	}
+
+	focus = {
+		id = NAN_zhengzhijueze
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = {  }
+
+		x = 11
+		y = 0
+		cost = 3.6
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			add_political_power = 125
+		}
+	}
+
+	focus = {
+		id = NAN_xianghouzou
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = NAN_zhengzhijueze }
+		mutually_exclusive = { focus = NAN_zaicifanduidiguotongzhi }
+
+		x = 11
+		y = 1
+		cost = 3.6
+		search_filters = {  }
+
+		bypass = {
+			OR = {
+				has_government = neutrality
+			}
+		}
+
+		completion_reward = {
+			add_ruling_to_neu = yes
+			set_politics = {
+				ruling_party = neutrality
+			}
+
+			hidden_effect = {
+				news_event = { hours = 1 id = nangua.1 }
+			}
+		}
+	}
+	focus = {
+		id = NAN_fuchouzhuyikuangre
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = NAN_zhengzhijueze }
+		mutually_exclusive = { focus = NAN_zaicifanduidiguotongzhi }
+
+		x = 5
+		y = 1
+		cost = 1.5
+		search_filters = {  }
+
+		completion_reward = {
+			add_ideas = NAN_i_fuchouzhuyikuangre
+		}
+	}
+
+	focus = {
+		id = NAN_zaicifanduidiguotongzhi
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = NAN_zhengzhijueze }
+		mutually_exclusive = { focus = NAN_xianghouzou }
+		mutually_exclusive = { focus = NAN_fuchouzhuyikuangre }
+
+		x = 7
+		y = 1
+		cost = 7.2
+		search_filters = {  }
+
+		bypass = {
+			AND = {
+				NOT = {
+					has_government = fascism
+				}
+				NOT = {
+					has_government = neutrality
+				}
+			}
+		}
+
+		completion_reward = {
+			#set_cosmetic_tag = NAN_2
+			#add_popularity = {
+    			#	ideology = neutrality
+    			#	popularity = 1
+			#}
+			#set_politics = {
+			#	ruling_party = neutrality
+			#}
+
+			country_event = { id = nangua.2 }
+			add_country_leader_role = {
+				character = NAN_ngfdgzx
+				country_leader = {
+					expire = "9999.1.1"
+					ideology = despotism
+					#traits = {
+					#	emergency_powers
+					#}
+				}
+				promote_leader = yes
+			}
+		}
+	}
+	focus = {
+		id = NAN_yugongheguohebing
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = NAN_zaicifanduidiguotongzhi }
+		#mutually_exclusive = { focus = NAN_yugongheguohebing }
+		mutually_exclusive = { focus = NAN_xingongheguo }
+		mutually_exclusive = { focus = NAN_xiangzuozou }
+		mutually_exclusive = { focus = NAN_tulongzhezhongchengelong }
+
+		x = 7
+		y = 2
+		cost = 3.6
+		search_filters = {  }
+
+		completion_reward = {
+
+100 = { add_core_of = PIN }
+101 = { add_core_of = PIN }
+113 = { add_core_of = PIN }
+119 = { add_core_of = PIN }
+120 = { add_core_of = PIN }
+121 = { add_core_of = PIN }
+122 = { add_core_of = PIN }
+123 = { add_core_of = PIN }
+125 = { add_core_of = PIN }
+126 = { add_core_of = PIN }
+127 = { add_core_of = PIN }
+128 = { add_core_of = PIN }
+129 = { add_core_of = PIN }
+130 = { add_core_of = PIN }
+131 = { add_core_of = PIN }
+132 = { add_core_of = PIN }
+133 = { add_core_of = PIN }
+134 = { add_core_of = PIN }
+135 = { add_core_of = PIN }
+136 = { add_core_of = PIN }
+337 = { add_core_of = PIN }
+338 = { add_core_of = PIN }
+			PIN = {
+				annex_country = {
+    					target = NAN
+    					transfer_troops = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NAN_xingongheguo
+		icon = GFX_goal_support_democracy
+		prerequisite = { focus = NAN_zaicifanduidiguotongzhi }
+		mutually_exclusive = { focus = NAN_yugongheguohebing }
+		#mutually_exclusive = { focus = NAN_xingongheguo }
+		mutually_exclusive = { focus = NAN_xiangzuozou }
+		mutually_exclusive = { focus = NAN_tulongzhezhongchengelong }
+
+		x = 5
+		y = 2
+		cost = 3.6
+		search_filters = {  }
+
+		completion_reward = {
+			set_cosmetic_tag = NAN_3
+			add_ruling_to_dem = yes
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = NAN_xiangzuozou
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = NAN_zaicifanduidiguotongzhi }
+		mutually_exclusive = { focus = NAN_yugongheguohebing }
+		mutually_exclusive = { focus = NAN_xingongheguo }
+		#mutually_exclusive = { focus = NAN_xiangzuozou }
+		mutually_exclusive = { focus = NAN_tulongzhezhongchengelong }
+
+		x = 3
+		y = 2
+		cost = 3.6
+		search_filters = {  }
+
+		completion_reward = {
+			add_ruling_to_com = yes
+			#add_stability = 0.05
+			set_cosmetic_tag = NAN_4
+			add_popularity = {
+    				ideology = communism
+    				popularity = 1
+			}
+			set_politics = {
+				ruling_party = communism
+			}
+
+		}
+	}
+
+	focus = {
+		id = NAN_shejixinguoqi
+		icon = GFX_focus_por_workers_of_iberia
+		prerequisite = { focus = NAN_xiangzuozou }
+
+		x = 3
+		y = 3
+		cost = 0.72
+		search_filters = {  }
+
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 10
+			set_cosmetic_tag = NAN_5
+		}
+	}
+
+	focus = {
+		id = NAN_tulongzhezhongchengelong
+		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = { focus = NAN_zaicifanduidiguotongzhi }
+		mutually_exclusive = { focus = NAN_yugongheguohebing }
+		mutually_exclusive = { focus = NAN_xingongheguo }
+		mutually_exclusive = { focus = NAN_xiangzuozou }
+		#mutually_exclusive = { focus = NAN_tulongzhezhongchengelong }
+
+		x = 1
+		y = 2
+		cost = 3.6
+		search_filters = {  }
+
+		completion_reward = {
+			add_ruling_to_fas = yes
+			#add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = NAN_huiguiwangxirongyao
+		icon = GFX_focus_eng_imperial_federation
+		prerequisite = { focus = NAN_xianghouzou }
+		prerequisite = { focus = NAN_diguodehuigui }
+
+		x = 11
+		y = 3
+		cost = 3.6
+		search_filters = {  }
+
+		completion_reward = {
+			set_cosmetic_tag = NAN_1
+			25 = {
+				add_core_of = NAN
+			}
+			23 = {
+				add_core_of = NAN
+			}
+			19 = {
+				add_core_of = NAN
+			}
+			33 = {
+				add_core_of = NAN
+			}
+			26 = {
+				add_core_of = NAN
+			}
+			20 = {
+				add_core_of = NAN
+			}
+			27 = {
+				add_core_of = NAN
+			}
+			28 = {
+				add_core_of = NAN
+			}
+			42 = {
+				add_core_of = NAN
+			}
+			51 = {
+				add_core_of = NAN
+			}
+			55 = {
+				add_core_of = NAN
+			}
+			57 = {
+				add_core_of = NAN
+			}
+			56 = {
+				add_core_of = NAN
+			}
+			17 = {
+				add_core_of = NAN
+			}
+
+		}
+	}
+
+	focus = {
+		id = NAN_zhijiewudi
+		icon = GFX_focus_eng_global_defense
+		x = 5
+		y = 0
+		cost = 5
+		search_filters = {  }
+		available = {
+			is_ai = no
+		}
+		completion_reward = {
+			remove_ideas = HOL_aloof_neutrality
+			add_ideas = ZAN_i_bolanghao
+			air_experience = 500
+			army_experience = 500
+			navy_experience = 500
+		}
+	}
+}

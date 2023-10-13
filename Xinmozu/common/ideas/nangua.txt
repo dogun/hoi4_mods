@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+		NAN_i_zhanzhengmiwu = {
+			name = NAN_i_zhanzhengmiwu
+			picture = GFX_goal_generic_position_armies
+			allowed = { original_tag = NAN }
+			removal_cost = -1
+			modifier = {
+				#industrial_capacity_factory = -0.15
+				#production_speed_buildings_factor = -0.5
+				political_power_factor = -1
+			}
+		}
+		
+		NAN_i_zhongshiji = {
+			name = NAN_i_zhongshiji
+			picture = SOV_second_five_year_plan
+			allowed = { original_tag = NAN }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = -0.5
+				industrial_capacity_factory = -0.8
+			}
+		}
+		
+		NAN_i_diyicigongyegeming = {
+			name = NAN_i_diyicigongyegeming
+			picture = SOV_second_five_year_plan
+			allowed = { original_tag = NAN }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = -0.3
+				industrial_capacity_factory = -0.5
+			}
+		}
+		NAN_i_diguodehuigui = {
+			name = NAN_i_diguodehuigui
+			picture = POL_april_constitution
+			allowed = { original_tag = NAN }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.1
+				political_power_factor = 0.25
+				army_attack_factor = 0.25
+				surrender_limit = 0.10
+			}
+		}
+		NAN_i_fuchouzhuyikuangre = {
+			name = NAN_i_fuchouzhuyikuangre
+			picture = POL_april_constitution
+			allowed = { original_tag = NAN }
+			removal_cost = -1
+			targeted_modifier = {
+				tag = PIN
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.05
+			}
+
+		}
+
+	}
+}

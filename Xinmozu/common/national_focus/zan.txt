@@ -1,0 +1,186 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+### search_filters = {FOCUS_FILTER_XINSHIJIE}
+### search_filters = {FOCUS_FILTER_FANGXIAN}
+
+focus_tree = {
+	id = zan_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZAN
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = ZAN_focus_1
+		icon = GFX_goal_generic_build_tank
+		x = 9
+		y = 0
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ZAN_focus_2
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_1 }
+		x = 9
+		y = 1
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = ZAN_focus_3
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_2 }
+		x = 9
+		y = 2
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = ZAN_focus_4
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_3 }
+		x = 9
+		y = 3
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ZAN_focus_5
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_4 }
+		x = 9
+		y = 4
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ZAN_focus_6
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_5 }
+		x = 9
+		y = 5
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ZAN_focus_7
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_6 }
+		x = 9
+		y = 6
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ZAN_focus_8
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_7 }
+		x = 9
+		y = 7
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ZAN_focus_9
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_8 }
+		x = 9
+		y = 8
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ZAN_focus_10
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ZAN_focus_9 }
+		x = 9
+		y = 9
+		cost = 0
+		search_filters = {  }
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ZAN_zhijiewudi
+		icon = GFX_focus_eng_global_defense
+		x = 5
+		y = 0
+		cost = 5
+		search_filters = {  }
+		available = {
+			is_ai = no
+		}
+		completion_reward = {
+			remove_ideas = HOL_aloof_neutrality
+			add_ideas = ZAN_i_bolanghao
+			air_experience = 500
+			army_experience = 500
+			navy_experience = 500
+		}
+	}
+	
+	focus = {
+		id = ZAN_jinkela
+		icon = GFX_focus_SOV_the_supreme_soviet
+		x = 13
+		y = 0
+		cost = 5
+		search_filters = {  }
+		available = {
+			is_ai = no
+		}
+		completion_reward = {
+			add_ideas = ZAN_i_jinkela
+		}
+	}
+
+}

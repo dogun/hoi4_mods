@@ -1,0 +1,26 @@
+﻿add_namespace = flb
+
+country_event = {
+	id = flb.1
+	title = flb.1.t
+	desc = flb.1.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+	
+	option = {
+		name = flb.1.a
+		add_stability = -0.1
+		add_war_support = -0.1
+		add_political_power = -50
+	}
+	option = {
+		name = flb.1.b
+ 		create_wargoal = {
+ 			type = take_core_state
+ 			target = NAN
+ 			expire = 0
+ 			generator = { 273 448 449 490 451 663 662 661 }
+ 		}
+	}
+}

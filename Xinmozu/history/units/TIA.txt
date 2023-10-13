@@ -1,0 +1,3497 @@
+﻿	division_template={
+		id={ id=158 type=52 }
+		name="FBI"
+		country="TIA"
+		original_tag="TIA"
+		foreign_template_tag="---"
+		priority=0
+		allow_new_equipment=yes
+		allow_foreign_equipment=yes
+		regiments={
+			cavalry={ x=0 y=0 }
+			cavalry={ x=0 y=1 }
+			cavalry={ x=0 y=2 }
+		}
+		template_counter=67
+		origin_type=master_host
+	}
+	division_template={
+		id={ id=159 type=52 }
+		name="地龙"
+		country="TIA"
+		original_tag="TIA"
+		foreign_template_tag="---"
+		priority=1
+		allow_new_equipment=yes
+		allow_foreign_equipment=yes
+		support={
+			engineer={ x=0 y=0 }
+		}
+		regiments={
+			infantry={ x=0 y=0 }
+			infantry={ x=0 y=1 }
+			infantry={ x=0 y=2 }
+			infantry={ x=0 y=3 }
+			infantry={ x=0 y=4 }
+			artillery_brigade={ x=1 y=0 }
+			artillery_brigade={ x=1 y=1 }
+			artillery_brigade={ x=1 y=2 }
+			artillery_brigade={ x=1 y=3 }
+		}
+		template_counter=46
+		origin_type=master_host
+	}
+
+
+
+
+		units={
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=680
+				logical_country="TIA"
+				officers={
+					seed=1449724244
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="19. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=58.970
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=9644
+				logical_country="TIA"
+				officers={
+					seed=1278435644
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="10. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=58.694
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=3506
+				logical_country="TIA"
+				officers={
+					seed=877765493
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="9. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=58.663
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=9559
+				logical_country="TIA"
+				officers={
+					seed=878479610
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="8. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=9631
+				logical_country="TIA"
+				officers={
+					seed=1087517252
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="7. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=3659
+				logical_country="TIA"
+				officers={
+					seed=2069541024
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="6. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=3669
+				logical_country="TIA"
+				officers={
+					seed=823429499
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="5. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=58.669
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=11516
+				logical_country="TIA"
+				officers={
+					seed=1123354295
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="4. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=669
+				logical_country="TIA"
+				officers={
+					seed=109634696
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="3. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=9629
+				logical_country="TIA"
+				officers={
+					seed=134587574
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="2. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=3655
+				logical_country="TIA"
+				officers={
+					seed=1794617895
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="1. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=9658
+				logical_country="TIA"
+				officers={
+					seed=1312004610
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="12. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=11488
+				logical_country="TIA"
+				officers={
+					seed=1653128909
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="13. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=11600
+				logical_country="TIA"
+				officers={
+					seed=1907985214
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="14. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=11596
+				logical_country="TIA"
+				officers={
+					seed=1163724463
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="15. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=6644
+				logical_country="TIA"
+				officers={
+					seed=61814990
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="16. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=44.829
+				supply_gain=0.040
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=9609
+				logical_country="TIA"
+				officers={
+					seed=841779852
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="17. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=59.773
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=667
+				logical_country="TIA"
+				officers={
+					seed=1425202584
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="18. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=300.000
+				army_current_supply_ratio=59.300
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.134
+				move_priority=14269
+				location=6560
+				logical_country="TIA"
+				officers={
+					seed=1394345897
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="22. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.103
+				move_priority=14269
+				location=6598
+				logical_country="TIA"
+				officers={
+					seed=1695498583
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="23. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=1.070
+				move_priority=14269
+				location=11506
+				logical_country="TIA"
+				officers={
+					seed=1130772598
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="24. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.621
+				move_priority=14269
+				location=11483
+				logical_country="TIA"
+				officers={
+					seed=307179141
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="25. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.754
+				move_priority=14269
+				location=6536
+				logical_country="TIA"
+				officers={
+					seed=275992455
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="26. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=1.121
+				move_priority=14269
+				location=11563
+				logical_country="TIA"
+				officers={
+					seed=499076716
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="27. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.103
+				move_priority=14269
+				location=11519
+				logical_country="TIA"
+				officers={
+					seed=1404341157
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="28. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.052
+				move_priority=14269
+				location=9490
+				logical_country="TIA"
+				officers={
+					seed=370747646
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="29. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.371
+				move_priority=14269
+				location=6241
+				logical_country="TIA"
+				officers={
+					seed=742719078
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="30. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.937
+				move_priority=14269
+				location=3262
+				logical_country="TIA"
+				officers={
+					seed=1967504627
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="31. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.003
+				move_priority=14269
+				location=11465
+				logical_country="TIA"
+				officers={
+					seed=1349152499
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="32. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.421
+				move_priority=14269
+				location=11420
+				logical_country="TIA"
+				officers={
+					seed=2099927586
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="33. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.788
+				move_priority=14269
+				location=6583
+				logical_country="TIA"
+				officers={
+					seed=1269408157
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="34. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.637
+				move_priority=14269
+				location=391
+				logical_country="TIA"
+				officers={
+					seed=1435131568
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="35. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.036
+				move_priority=14269
+				location=516
+				logical_country="TIA"
+				officers={
+					seed=1533231107
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="36. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.421
+				move_priority=14269
+				location=11548
+				logical_country="TIA"
+				officers={
+					seed=1444577172
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="37. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.455
+				move_priority=14269
+				location=3552
+				logical_country="TIA"
+				officers={
+					seed=1122078150
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="38. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.254
+				move_priority=14269
+				location=9434
+				logical_country="TIA"
+				officers={
+					seed=896217412
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="39. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.435
+				move_priority=14269
+				location=13068
+				logical_country="TIA"
+				officers={
+					seed=1380276334
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="11. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=62.400
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.087
+				move_priority=14269
+				location=3211
+				logical_country="TIA"
+				officers={
+					seed=1124121025
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="20. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=62.400
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.637
+				move_priority=14269
+				location=575
+				logical_country="TIA"
+				officers={
+					seed=1220482618
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="21. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.187
+				move_priority=14269
+				location=9495
+				logical_country="TIA"
+				officers={
+					seed=1600185284
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="40. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.989
+				move_priority=14269
+				location=6449
+				logical_country="TIA"
+				officers={
+					seed=958964376
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="41. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.287
+				move_priority=14269
+				location=9536
+				logical_country="TIA"
+				officers={
+					seed=366478631
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="42. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.322
+				move_priority=14269
+				location=3560
+				logical_country="TIA"
+				officers={
+					seed=1257152561
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="43. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.673
+				move_priority=14269
+				location=9363
+				logical_country="TIA"
+				officers={
+					seed=1554445280
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="44. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.122
+				move_priority=14269
+				location=11562
+				logical_country="TIA"
+				officers={
+					seed=721928680
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="45. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.938
+				move_priority=14269
+				location=3576
+				logical_country="TIA"
+				officers={
+					seed=1055209041
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="46. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.371
+				move_priority=14269
+				location=485
+				logical_country="TIA"
+				officers={
+					seed=1280258477
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="47. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.354
+				move_priority=14269
+				location=3516
+				logical_country="TIA"
+				officers={
+					seed=923853048
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="48. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.404
+				move_priority=14269
+				location=13011
+				logical_country="TIA"
+				officers={
+					seed=1964149950
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="49. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.507
+				move_priority=14269
+				location=6336
+				logical_country="TIA"
+				officers={
+					seed=1662637807
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="50. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.222
+				move_priority=14269
+				location=6496
+				logical_country="TIA"
+				officers={
+					seed=242778044
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="51. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.173
+				move_priority=14269
+				location=9498
+				logical_country="TIA"
+				officers={
+					seed=2129577130
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="52. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.673
+				move_priority=14269
+				location=9335
+				logical_country="TIA"
+				officers={
+					seed=1396639406
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="53. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				acclimatization={
+					cold_climate=158.850
+					max_acclimatization=3000.000
+				}
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.102
+				move_priority=14269
+				location=3671
+				logical_country="TIA"
+				officers={
+					seed=1091703501
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="54. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.369
+				move_priority=14269
+				location=512
+				logical_country="TIA"
+				officers={
+					seed=566007227
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=158 type=52 }
+				division_name={
+					type=0
+					override="55. FBI"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=70.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=360.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=3000 }
+					}
+				}
+				experience=60.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.070
+				move_priority=14270
+				location=9748
+				logical_country="TIA"
+				officers={
+					seed=1653720127
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="1. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=45.012
+				supply_gain=0.040
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.070
+				move_priority=14270
+				location=9748
+				logical_country="TIA"
+				officers={
+					seed=929146099
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="15. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.923
+				supply_gain=0.020
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.091
+				move_priority=14270
+				location=3770
+				logical_country="TIA"
+				officers={
+					seed=1026537268
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="14. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=58.877
+				supply_gain=0.000
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.112
+				move_priority=14270
+				location=3770
+				logical_country="TIA"
+				officers={
+					seed=2051949128
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="13. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=58.877
+				supply_gain=0.000
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.050
+				move_priority=14270
+				location=6613
+				logical_country="TIA"
+				officers={
+					seed=1080590711
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="12. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=1.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=56.712
+				supply_gain=0.030
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.050
+				move_priority=14270
+				location=6613
+				logical_country="TIA"
+				officers={
+					seed=1124203730
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="11. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=1.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=56.772
+				supply_gain=0.020
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.072
+				move_priority=14270
+				location=11593
+				logical_country="TIA"
+				officers={
+					seed=543950071
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="10. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=58.877
+				supply_gain=0.000
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				move_priority=14269
+				location=11593
+				logical_country="TIA"
+				officers={
+					seed=651675074
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="9. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=58.877
+				supply_gain=0.000
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.059
+				move_priority=14270
+				location=769
+				logical_country="TIA"
+				officers={
+					seed=1040556166
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="8. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=1.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.816
+				supply_gain=0.010
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.059
+				move_priority=14270
+				location=769
+				logical_country="TIA"
+				officers={
+					seed=600276868
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="7. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=1.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.816
+				supply_gain=0.010
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.155
+				move_priority=14270
+				location=3594
+				logical_country="TIA"
+				officers={
+					seed=654954631
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="6. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=4.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.928
+				supply_gain=0.040
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.155
+				move_priority=14270
+				location=3594
+				logical_country="TIA"
+				officers={
+					seed=262904227
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="5. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=4.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.928
+				supply_gain=0.040
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.156
+				move_priority=14270
+				location=3594
+				logical_country="TIA"
+				officers={
+					seed=638583825
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="4. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.835
+				supply_gain=0.000
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.156
+				move_priority=14270
+				location=3594
+				logical_country="TIA"
+				officers={
+					seed=1578486655
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="3. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=44.835
+				supply_gain=0.000
+			}
+			division={
+ 
+				last_combat_date="1.1.1.1"
+				movement_progress=0.156
+				move_priority=14270
+				location=3594
+				logical_country="TIA"
+				officers={
+					seed=1681994297
+					male=yes
+					portraits={
+					}
+				}
+ 
+				motorization_level=0
+				division_template_id={ id=159 type=52 }
+				division_name={
+					type=0
+					override="2. 地龙"
+					override_set_programmatically=yes
+				}
+				max_supply=120.000
+				organisation=32.000
+				strength=129.400
+				equipment={
+					equipment={
+						id={ id=3158 type=70 }
+						amount=144.000
+					}
+					equipment={
+						id={ id=3155 type=70 }
+						amount=510.000
+					}
+					equipment={
+						id={ id=3156 type=70 }
+						amount=30.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="TIA" value=7300 }
+					}
+					army_manpower_need={
+						value={ tag="TIA" value=7300 }
+					}
+				}
+				experience=730.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=45.028
+				supply_gain=0.060
+			}
+		}
+

@@ -1,0 +1,75 @@
+characters={
+	NRG_DaSHa1={
+		name=NRG_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+    NRG_DaSHa2={
+		name=NRG_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+    NRG_DaSHa3={
+		name=NRG_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+    NRG_DaSHa4={
+		name=NRG_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	NRG_ErSHa={
+		name=NRG_ErSha
+		portraits={
+			army={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={  }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	
+}

@@ -1,0 +1,26 @@
+wargoal_types = {
+
+	fu_chou = {
+		# PREV = original target country
+		# ROOT = goal owner country
+
+		war_name = WAR_NAME
+
+		allowed = {
+			always = no
+		}
+
+		available = {
+
+		}
+
+		take_states = {
+
+		}
+
+		#take_states_limit = 1
+		#take_states_cost = -50 		#50% cheaper warcost for states
+
+		threat = 0.5
+	}
+}

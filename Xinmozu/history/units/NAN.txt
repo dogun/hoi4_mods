@@ -1,0 +1,531 @@
+﻿	division_template={
+		name="御林军"
+		country="NAN"
+		original_tag="NAN"
+		priority=1
+		allow_new_equipment=yes
+		allow_foreign_equipment=yes
+		regiments={
+			cavalry={ x=0 y=0 }
+			cavalry={ x=0 y=1 }
+			cavalry={ x=0 y=2 }
+			artillery_brigade={ x=1 y=0 }
+			infantry={ x=1 y=1 }
+			artillery_brigade={ x=1 y=2 }
+			mountaineers={ x=1 y=3 }
+			cavalry={ x=2 y=0 }
+			cavalry={ x=2 y=1 }
+			cavalry={ x=2 y=2 }
+		}
+		template_counter=20
+		origin_type=master_host
+	}
+	division_template={
+		name="民兵"
+		country="NAN"
+		original_tag="NAN"
+		priority=0
+		allow_new_equipment=yes
+		allow_foreign_equipment=yes
+		regiments={
+			infantry={ x=0 y=0 }
+			infantry={ x=0 y=1 }
+			infantry={ x=0 y=2 }
+		}
+		template_counter=3
+		origin_type=master_host
+	}
+
+		division_template_id={ id=156 type=52 }
+		division_template_id={ id=157 type=52 }
+		division_names_tracker={
+		}
+
+
+		units={
+			division={
+				location=3379
+				logical_country="NAN"
+				division_template = "御林军"
+				max_supply=120.000
+				organisation=55.000
+				strength=196.200
+				equipment={
+					equipment={
+						id={ id=3134 type=70 }
+						amount=72.000
+					}
+					equipment={
+						id={ id=3131 type=70 }
+						amount=960.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=9000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=9000 }
+					}
+				}
+				experience=187.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=385
+				logical_country="NAN"
+				motorization_level=0
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=75.900
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=385
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=75.900
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=11371
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=72.600
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=11371
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=66.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=9303
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=62.700
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=9303
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=69.300
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=303
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=66.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=303
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=62.700
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=6313
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=82.500
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=6313
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=79.200
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=11293
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=75.900
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=11293
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=69.300
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=285
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=66.000
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=285
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=60.000
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=62.700
+				dig_in=5.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=120.000
+				supply_gain=0.150
+			}
+			division={
+				location=7394
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=47.921
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=72.600
+				dig_in=1.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=91.350
+				supply_gain=0.150
+			}
+			division={
+				location=7394
+				logical_country="NAN"
+				division_template = "民兵"
+				max_supply=120.000
+				organisation=47.921
+				strength=75.000
+				equipment={
+					equipment={
+						id={ id=3131 type=70 }
+						amount=300.000
+					}
+				}
+				unit_medals={
+				}
+				script_id=-1
+				army_manpower={
+					army_manpower_value={
+						value={ tag="NAN" value=3000 }
+					}
+					army_manpower_need={
+						value={ tag="NAN" value=3000 }
+					}
+				}
+				experience=72.600
+				dig_in=1.000
+				dig_in_cap=5.000
+				army_current_supply_ratio=91.350
+				supply_gain=0.150
+			}
+		}

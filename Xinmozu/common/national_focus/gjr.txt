@@ -1,0 +1,51 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+### search_filters = {FOCUS_FILTER_XINSHIJIE}
+### search_filters = {FOCUS_FILTER_FANGXIAN}
+
+focus_tree = {
+	id = gjr_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GJR
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GJR_jiabeng
+		icon = GFX_goal_generic_build_tank
+		x = 1
+		y = 0
+		cost = 20
+		search_filters = {  }
+		completion_reward = {
+			news_event = { hours = 1 id = mlc.1 }
+		}
+	}
+
+	focus = {
+		id = GJR_xinanjiaoxianruhunluan
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = GJR_jiabeng }
+		x = 1
+		y = 1
+		cost = 1.5
+		search_filters = {  }
+		completion_reward = {
+			news_event = { hours = 1 id = mlc.2 }
+		}
+	}
+
+
+}

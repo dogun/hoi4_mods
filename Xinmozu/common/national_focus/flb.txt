@@ -1,0 +1,40 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+### search_filters = {FOCUS_FILTER_XINSHIJIE}
+### search_filters = {FOCUS_FILTER_FANGXIAN}
+
+focus_tree = {
+	id = zan_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FLB
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = FLB_suoquweidanse
+		icon = GFX_goal_generic_build_tank
+		x = 9
+		y = 0
+		#cost = 14.3
+		cost = 1
+		search_filters = {  }
+		completion_reward = {
+			NAN = {
+				country_event = { id = nangua.3 }
+			}
+		}
+	}
+
+}

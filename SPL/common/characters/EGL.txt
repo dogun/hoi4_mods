@@ -1,0 +1,16 @@
+characters={
+	EGL_ailaoba={
+		name=EGL_ailaoba
+		portraits={
+			civilian={
+				large=GFX_portrait_Edward_VIII
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ inexperienced_imperialist }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

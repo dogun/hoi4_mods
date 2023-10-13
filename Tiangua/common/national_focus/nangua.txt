@@ -1,0 +1,429 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+### search_filters = {FOCUS_FILTER_XINSHIJIE}
+### search_filters = {FOCUS_FILTER_FANGXIAN}
+
+focus_tree = {
+	id = nangua_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NRG
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = NRG_chongzhengjunbei
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 0
+		cost = 5
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			#add_ideas = NRG_chongzhengjunbei
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+			add_war_support = 0.1
+		}
+	}
+	
+	focus = {
+		id = NRG_kuozhangjunbei
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = NRG_chongzhengjunbei }
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 10
+				add_building_construction = {
+					type = arms_factory
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NRG_maniubi
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = NRG_chongzhengjunbei }
+		prerequisite = { focus = NRG_shiyinghuanjing }
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 12674 #原初
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 4861 #想不出来
+					instant_build = yes
+				}
+				#鞋
+			}
+		}
+	}
+
+	focus = {
+		id = NRG_kuozhangfangxian
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = NRG_maniubi }
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+			
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 12674 #原初
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 4861 #想不出来
+					instant_build = yes
+				}
+				#鞋
+			}
+		}
+	}
+
+	focus = {
+		id = NRG_shaqima
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = NRG_maniubi }
+		
+		available = {
+			FRA = { has_capitulated = yes }
+		}
+
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 5
+					province = 12689 #鞋
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NRG_jiaqiangshaqima
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = NRG_shaqima }
+
+		x = 9
+		y = 3
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 12689 #鞋
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NRG_shaqimahaianfangxian
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = NRG_shaqima }
+
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 12689 #鞋
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NRG_maniubihaishangfangxian
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = NRG_maniubi }
+
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 12674 #原初
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 4861 #想不出来
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NRG_jiaqianganfang
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = NRG_maniubihaishangfangxian focus = NRG_shaqimahaianfangxian }
+
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = { FOCUS_FILTER_FANGXIAN }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 12674 #原初
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 4861 #想不出来
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 3
+					province = 12689 #鞋
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = NRG_shiyinghuanjing
+		icon = GFX_goal_generic_propaganda
+		x = 13
+		y = 0
+		cost = 5
+		search_filters = { FOCUS_FILTER_XINSHIJIE }
+		completion_reward = {
+			remove_ideas = NRG_i_zhanzhengmiwu
+		}
+	}
+	
+	focus = {
+		id = NRG_lishidechelungungunxiangqian
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = NRG_shiyinghuanjing }
+
+		x = 13
+		y = 1
+		cost = 5
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 25
+			add_war_support = 0.30
+		}
+	}
+	
+	focus = {
+		id = NRG_geming  #TODO
+		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = { focus = NRG_lishidechelungungunxiangqian }
+		mutually_exclusive = { focus = NRG_xinshijiezhongli }
+		mutually_exclusive = { focus = NRG_nacuixuanchuan }
+
+	 	available = {
+	 		OR = {
+	 			has_government = fascism
+	 			fascism < 0.6
+	 		}
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+
+		x = 13
+		y = 2
+		cost = 7.143
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			hidden_effect = { #offset from fascist reasons on 00_on_actions
+				add_ai_strategy = {
+				   type = alliance
+				   id = POL
+				   value = 2000
+				}
+				POL = {
+					add_ai_strategy = {
+					   type = alliance
+					   id = GER
+					   value = 2000
+					}
+				}
+			}
+			custom_effect_tooltip = GER_oppose_hitler_civil_war
+			set_politics = { ruling_party = neutrality elections_allowed = no }
+			add_popularity = { ideology = neutrality popularity = 1 }
+		}
+	}
+	
+	focus = {
+		id = NRG_xinshijiezhongli
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = NRG_lishidechelungungunxiangqian }
+		mutually_exclusive = { focus = NRG_geming }
+		mutually_exclusive = { focus = NRG_nacuixuanchuan }
+
+	 	available = {
+	 		OR = {
+	 			neutrality > 0.25
+	 		}
+		}
+		cancel_if_invalid = no
+
+		x = 15
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_XINSHIJIE }
+
+		completion_reward = {
+			#set_politics = { ruling_party = neutrality elections_allowed = no }
+			#add_popularity = { ideology = neutrality popularity = 1 }
+		}
+	}
+	
+	focus = {
+		id = NRG_nacuixuanchuan
+		icon = GFX_focus_generic_rubber
+		prerequisite = { focus = NRG_lishidechelungungunxiangqian }
+		mutually_exclusive = { focus = NRG_geming }
+		mutually_exclusive = { focus = NRG_xinshijiezhongli }
+
+		x = 17
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		completion_reward = {
+			#set_politics = { ruling_party = neutrality elections_allowed = no }
+			#add_popularity = { ideology = neutrality popularity = 1 }
+		}
+	}
+	
+	
+	focus = {
+		id = NRG_gongyezhuigan
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NRG_shiyinghuanjing }
+
+		x = 11
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 15
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = NRG_diyicigongyegeming
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NRG_gongyezhuigan }
+
+		x = 11
+		y = 2
+		cost = 7.143
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			remove_ideas = NRG_i_zhongshiji
+			add_ideas = NRG_i_diyicigongyegeming
+		}
+	}
+
+	focus = {
+		id = NRG_diercigongyegeming
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = NRG_diyicigongyegeming }
+
+		x = 11
+		y = 3
+		cost = 7.143
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			remove_ideas = NRG_i_diyicigongyegeming
+		}
+	}
+
+}

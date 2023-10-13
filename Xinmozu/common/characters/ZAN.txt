@@ -1,0 +1,72 @@
+characters={
+	ZAN_dayuanshuai={
+		name=ZAN_dayuanshuai
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_philippe_petain
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ chamberlain_appeaser}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	ZAN_dayuanshuai1={
+		name=ZAN_dayuanshuai1
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_philippe_petain
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ chamberlain_appeaser}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	ZAN_dayuanshuai2={
+		name=ZAN_dayuanshuai2
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_philippe_petain
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ chamberlain_appeaser}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	ZAN_dayuanshuai3={
+		name=ZAN_dayuanshuai3
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_philippe_petain
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ chamberlain_appeaser}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	ZAN_dayuanshuai4={
+		name=ZAN_dayuanshuai4
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_philippe_petain
+			}
+		}
+		country_leader={
+			ideology=lvdang
+			traits={ chamberlain_appeaser}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

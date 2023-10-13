@@ -1,0 +1,7 @@
+EGL = "countries/EGL.txt"
+EBM = "countries/EBM.txt"
+EIN = "countries/EIN.txt"
+RMZ = "countries/RMZ.txt"
+SHR = "countries/SHR.txt"
+PHG = "countries/PHG.txt"
+LUO = "countries/LUO.txt"

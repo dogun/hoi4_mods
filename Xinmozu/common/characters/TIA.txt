@@ -1,0 +1,44 @@
+characters={
+	TIA_aba={
+		name=TIA_aba
+		portraits={
+			civilian={
+				large=GFX_portrait_CHI_chiang_kaishek
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ inexperienced_zongtong  fascist_sympathies }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	TIA_aba1={
+		name=TIA_aba
+		portraits={
+			civilian={
+				large=GFX_portrait_CHI_chiang_kaishek
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ inexperienced_zongtong  fascist_sympathies }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	TIA_aba2={
+		name=TIA_aba
+		portraits={
+			civilian={
+				large=GFX_portrait_CHI_chiang_kaishek
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ inexperienced_zongtong  fascist_sympathies }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

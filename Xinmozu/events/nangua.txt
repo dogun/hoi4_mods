@@ -1,0 +1,101 @@
+﻿add_namespace = nangua
+
+news_event = {
+	id = nangua.1
+	title = nangua.1.t
+	desc = nangua.1.desc
+	picture = GFX_news_event_chinese_soldiers_march
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nangua.1.a
+		trigger = {
+			NOT = {
+				#TAG = CHI
+				#TAG = PRC
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = nangua.2
+	title = nangua.2.t
+	desc = nangua.2.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+	
+	#civil war starts
+	option = {
+		name = nangua.2.a
+		hidden_effect = {
+			set_capital = { state = 126 }
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = fascism
+				size = 0.5
+				capital = 119
+				#states = { 123 122 128 338 127 132 130 129 125 126 }
+				states = { 100 101 113 119 120 121 131 133 134 135 136 273 337 448 449 450 451 661 662 663 }
+			}
+
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.11
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.67
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.12
+			}
+			set_stability = 0.9
+			set_war_support = 0.8
+		}
+		add_stability = -0.25
+		hidden_effect = {
+			set_cosmetic_tag = NAN_2
+		}
+	}
+}
+
+
+country_event = {
+	id = nangua.3
+	title = nangua.3.t
+	desc = nangua.3.d
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+	
+	option = {
+		name = nangua.3.a
+		FLB = {
+			set_state_owner = 273
+			set_state_owner = 448
+			set_state_owner = 449
+			set_state_owner = 490
+			set_state_owner = 451
+			set_state_owner = 663
+			set_state_owner = 662
+			set_state_owner = 661
+		}
+	}
+	option = {
+		name = nangua.3.b
+		FLB = {
+			country_event = { id = flb.1 }
+		}
+	}
+}

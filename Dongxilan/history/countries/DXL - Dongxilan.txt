@@ -6,13 +6,6 @@ oob = "NZL_1936"
 set_stability = 0.8
 set_war_support = 0.3
 
-	add_ideas = {
-		#laws
-		#low_economic_mobilisation
-		#limited_conscription
-		DXL_F_NONGYE
-	}
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -33,7 +26,11 @@ recruit_character = DXL_Xiaogong
 	add_command_power = 100
 	oob = "NZL_1939"
 
-
+	add_ideas = {
+		#laws
+		low_economic_mobilisation
+		limited_conscription
+	}
 
 	
 	set_technology = {

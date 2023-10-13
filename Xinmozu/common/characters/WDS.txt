@@ -1,0 +1,16 @@
+characters={
+	WDS_dashabi={
+		name=WDS_dashabi
+		portraits={
+			civilian={
+				large=GFX_portrait_SOV_lev_trotsky
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ unpopular_monarch wangluozhiguo }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

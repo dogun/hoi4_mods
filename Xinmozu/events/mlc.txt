@@ -1,0 +1,46 @@
+﻿add_namespace = mlc
+
+news_event = {
+	id = mlc.1
+	title = mlc.1.t
+	desc = mlc.1.desc
+	picture = GFX_news_event_chinese_soldiers_march
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mlc.1.a
+		trigger = {
+			NOT = {
+				TAG = MLC
+			}
+		}
+	}
+	option = {
+		name = mlc.1.b
+		trigger = { TAG = MLC }
+	}
+}
+
+news_event = {
+	id = mlc.2
+	title = mlc.2.t
+	desc = mlc.2.desc
+	picture = GFX_news_event_chinese_soldiers_march
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mlc.2.a
+		trigger = {
+			NOT = {
+				#TAG = MLC
+			}
+		}
+	}
+}
+

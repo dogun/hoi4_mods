@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		TIA_i_xiejiao = {
+			name = TIA_i_xiejiao
+			picture = generic_morale_bonus
+			allowed = { original_tag = TIA }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				#conscription_factor = -0.001
+				conscription = -0.01
+			}
+		}
+	}
+}

@@ -1,0 +1,109 @@
+characters={
+	NAN_DaSHa1={
+		name=NAN_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+				#large=GFX_ngfdgzx
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+	NAN_ngfdgzx={
+		name=NAN_ngfdgzx
+		portraits={
+			civilian={
+				large=GFX_ngfdgzx
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ emergency_powers }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+    NAN_DaSHa2={
+		name=NAN_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+    NAN_DaSHa3={
+		name=NAN_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+    NAN_DaSHa4={
+		name=NAN_DaSha
+		portraits={
+			civilian={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ dictator inexperienced_monarch}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	NAN_ErSHa={
+		name=NAN_ErSha
+		portraits={
+			army={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			#legacy_id=3
+		}
+	}
+	NAN_DaSHaYJQZ={
+		name=NAN_DaSHaYJQZ
+		portraits={
+			army={
+				large=GFX_portrait_GER_adolf_hitler
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_reckless }
+			skill=1
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			#legacy_id=3
+		}
+	}
+	
+}
