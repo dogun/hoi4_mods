@@ -1,0 +1,31 @@
+characters={
+	DXL_Laonong={
+		name=DXL_Laonong
+		portraits={
+			civilian={
+				large=GFX_NZL_michael_joseph_savage
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	NRG_Xiaogong={
+		name=NRG_Xiaogong
+		portraits={
+			army={
+				large=GFX_NZL_john_ormond
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={  }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

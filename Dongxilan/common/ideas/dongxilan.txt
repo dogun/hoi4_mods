@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+
+		DXL_F_NONGYE = {
+
+			name = DXL_F_NONGYE
+
+			picture = prc_the_long_march
+
+			allowed = { original_tag = DXL }
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.5
+				#production_speed_buildings_factor = -0.5
+			}
+		}
+	}
+}
