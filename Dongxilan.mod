@@ -5,4 +5,4 @@ tags={
 }
 name="东西兰"
 supported_version="1.12.*"
-path="E:/documents/Paradox Interactive/Hearts of Iron IV/mod/Dongxilan"
+path="F:/documents/Paradox Interactive/Hearts of Iron IV/mod/Dongxilan"
