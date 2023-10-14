@@ -47,4 +47,9 @@ spriteTypes = {
 		name = "GFX_SSV_loadingstatus_bg"
 		texturefile = "gfx/interface/loadingstatus.dds"
 	}
+
+	spriteType = {
+		name = "GFX_SSV_loadingtips_bg"
+		texturefile = "gfx/interface/loadingtips.dds"
+	}
 }
