@@ -1334,7 +1334,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_tiled_window2_1b_border"
+			quadTextureSprite = "GFX_SSV_window2_1b_border"
 		}
 
 		containerWindowType = {

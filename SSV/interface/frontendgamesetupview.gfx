@@ -333,4 +333,13 @@ spriteTypes = {
                 texturefile = "gfx/interface/difficulty_button_blank.dds"
 				noOfFrames = 2
         }
+		
+	corneredTileSpriteType = {
+		name = "GFX_SSV_window2_1b_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/custom_game.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
 }
