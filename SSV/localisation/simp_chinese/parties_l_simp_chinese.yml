@@ -3,7 +3,22 @@
  BDG:0 "半岛国"
  BDG_ADJ:0 "半岛国"
  BDG_DEF:0 "半岛国"
- BDG_democratic:0 ""
+ 
+ BDG_xinziyouzhuyi:0 "半岛共和国"
+ BDG_xinziyouzhuyi_DEF:0 "半岛共和国"
+ BDG_xinziyouzhuyi_ADJ:0 "半岛共和国"
+ 
+ BDG_xinbaoshouzhuyi:0 "半岛共和国"
+ BDG_xinbaoshouzhuyi_DEF:0 "半岛共和国"
+ BDG_xinbaoshouzhuyi_ADJ:0 "半岛共和国"
+ 
+ BDG_baoshouzhuyi:0 "半岛共和国"
+ BDG_baoshouzhuyi_DEF:0 "半岛共和国"
+ BDG_baoshouzhuyi_ADJ:0 "半岛共和国"
+ 
+ BDG_democratic:0 "半岛共和国"
+ BDG_democratic_DEF:0 "半岛共和国"
+ BDG_democratic_ADJ:0 "半岛共和国"
  
  baoshouzhuyi: "保守主义"
  baoshouzhuyi_noun: "保守主义"
