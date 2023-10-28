@@ -1,14 +1,28 @@
 ﻿l_simp_chinese:
 
- BDG:0 "半岛共和国"
- BDG_ADJ:0 "半岛共和国"
- BDG_DEF:0 "半岛共和国"
-
+ BDG:0 "半岛国"
+ BDG_ADJ:0 "半岛国"
+ BDG_DEF:0 "半岛国"
+ BDG_democratic:0 ""
+ 
+ baoshouzhuyi: "保守主义"
+ baoshouzhuyi_noun: "保守主义"
+ baoshouzhuyi_desc: "保守主义政体"
+ baoshouzhuyi_c: "保守主义"
+ baoshouzhuyi_c_desc: ""
+ 
+ xinbaoshouzhuyi: "新保守主义"
+ xinbaoshouzhuyi_noun: "新保守主义"
+ xinbaoshouzhuyi_desc: "新保守主义政体"
+ xinbaoshouzhuyi_c: "新保守主义"
+ xinbaoshouzhuyi_c_desc: ""
+ 
  xinziyouzhuyi: "新自由主义"
  xinziyouzhuyi_noun: "新自由主义"
  xinziyouzhuyi_desc: "新自由主义政体"
  xinziyouzhuyi_c: "新自由主义"
  xinziyouzhuyi_c_desc: "自由的斗士不可战胜"
+
  communism: "共产主义"
  communism_noun: "共产主义"
  democratic: "自由主义"

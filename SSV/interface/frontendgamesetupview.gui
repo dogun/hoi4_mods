@@ -977,7 +977,7 @@ guiTypes = {
 			slotsize = { width = 60 height = 68 }
 			max_slots = { x = 5 y = 1 }
 			format = "UPPER_LEFT"
-			scale=0.5
+			#scale=0.5
 		}
 
 		gridboxtype = {
@@ -987,7 +987,7 @@ guiTypes = {
 			slotsize = { width = 33 height = 34 }
 			max_slots = { x = 6 y = 2 }
 			format = "UPPER_LEFT"
-			scale=0.5
+			#scale=0.5
 		}
 
 		containerWindowType = {
