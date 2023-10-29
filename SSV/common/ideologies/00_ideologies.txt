@@ -4,14 +4,14 @@ ideologies = {
 
 		types = {
 
-#			conservatism = {
-#			}
+			conservatism = {
+			}
 
 			liberalism = {
 			}
 
-#			socialism = {
-#			}
+			socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
