@@ -40,9 +40,39 @@
  
  xiaozhengfuzhuyi: "小政府主义"
  xiaozhengfuzhuyi_noun: "小政府主义"
- xiaozhengfuzhuyi_desc: "小政府主义"
+ xiaozhengfuzhuyi_desc: "小政府主义政体"
  xiaozhengfuzhuyi_c: "小政府主义"
  xiaozhengfuzhuyi_c_desc: "小政府主义"
+ 
+ jiduanziyouzhuyi: "极端自由主义"
+ jiduanziyouzhuyi_noun: "极端自由主义"
+ jiduanziyouzhuyi_desc: "极端自由主义政体"
+ jiduanziyouzhuyi_c: "极端自由主义"
+ jiduanziyouzhuyi_c_desc: "极端自由主义"
+
+ jiejifenliezhuyi: "阶级分裂主义"
+ jiejifenliezhuyi_noun: "阶级分裂主义"
+ jiejifenliezhuyi_desc: "阶级分裂主义政体"
+ jiejifenliezhuyi_c: "阶级分裂主义"
+ jiejifenliezhuyi_c_desc: "阶级分裂主义"
+
+ qiaozhizhuyi: "乔治主义"
+ qiaozhizhuyi_noun: "乔治主义"
+ qiaozhizhuyi_desc: "乔治主义政体"
+ qiaozhizhuyi_c: "乔治主义"
+ qiaozhizhuyi_c_desc: "乔治主义"
+ 
+ gaigezhuyi: "改革主义"
+ gaigezhuyi_noun: "改革主义"
+ gaigezhuyi_desc: "改革主义政体"
+ gaigezhuyi_c: "改革主义"
+ gaigezhuyi_c_desc: "改革主义"
+ 
+ minzhushehuizhuyi: "民主社会主义"
+ minzhushehuizhuyi_noun: "民主社会主义"
+ minzhushehuizhuyi_desc: "民主社会主义政体"
+ minzhushehuizhuyi_c: "民主社会主义"
+ minzhushehuizhuyi_c_desc: "民主社会主义"
 
  communism: "共产主义"
  communism_noun: "共产主义"
