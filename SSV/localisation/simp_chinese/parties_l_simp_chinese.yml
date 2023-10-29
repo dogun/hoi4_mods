@@ -68,11 +68,11 @@
  gaigezhuyi_c: "改革主义"
  gaigezhuyi_c_desc: "改革主义"
  
- minzhushehuizhuyi: "民主社会主义"
- minzhushehuizhuyi_noun: "民主社会主义"
- minzhushehuizhuyi_desc: "民主社会主义政体"
- minzhushehuizhuyi_c: "民主社会主义"
- minzhushehuizhuyi_c_desc: "民主社会主义"
+ shehuiminzhuzhuyi: "社会民主主义"
+ shehuiminzhuzhuyi_noun: "社会民主主义"
+ shehuiminzhuzhuyi_desc: "社会民主主义政体"
+ shehuiminzhuzhuyi_c: "社会民主主义"
+ shehuiminzhuzhuyi_c_desc: "社会民主主义"
 
  communism: "共产主义"
  communism_noun: "共产主义"

@@ -345,9 +345,9 @@ ideologies = {
 		}
 	}
 	
-	minzhushehuizhuyi = {
+	shehuiminzhuzhuyi = {
 		types = {
-			minzhushehuizhuyi_c = {
+			shehuiminzhuzhuyi_c = {
 			}
 		}
 
