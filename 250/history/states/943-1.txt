@@ -1,6 +1,11 @@
 state={
 	id=943
 	name="STATE_943"
+	state_category = city
+	history={
+		owner = USA
+		add_core_of = USA
+	}
 	provinces={
 		1915 1998 2055 3875 3972 5085 8064 9773 9908 12301 12848 12875 12893 
 	}

@@ -1,6 +1,12 @@
 state={
 	id=938
 	name="STATE_938"
+	state_category = city
+	history={
+		owner = ENG
+		add_core_of = ISR
+		add_core_of = PAL
+	}
 	provinces={
 		4088 
 	}

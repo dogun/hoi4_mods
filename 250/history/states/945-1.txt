@@ -1,6 +1,18 @@
 state={
 	id=945
 	name="STATE_945"
+	state_category = pastoral
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
 	provinces={
 		846 916 930 1499 1558 1567 1638 4503 4572 4642 6893 6951 9788 9831 9927 11836 11903 12337 12469 
 	}
