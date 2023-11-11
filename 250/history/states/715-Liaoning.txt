@@ -1,0 +1,27 @@
+
+state={
+	id=715
+	name="STATE_715"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		836 887 892 934 945 964 987 3783 3839 3849 3895 3934 3970 6804 6837 6860 6868 6898 6910 6918 6981 9781 9835 9848 9854 9885 11764 11771 11808 11815 11855 11886 
+	}
+	manpower=3643373
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
