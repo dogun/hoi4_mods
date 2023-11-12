@@ -1,0 +1,24 @@
+
+state={
+	id=935
+	name="STATE_935"
+	manpower = 100
+	
+	state_category = town
+
+	history={
+		owner = USA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 2
+		}
+	}
+
+	provinces={
+		9609
+	}
+
+	local_supplies=0.0 
+}
