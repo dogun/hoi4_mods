@@ -1,0 +1,16 @@
+state={
+	id=956
+	name="STATE_956"
+	state_category = city
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+	provinces={
+		968 5090 7583 9996 12325 12384 12498 
+	}
+	#state_category = city
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
