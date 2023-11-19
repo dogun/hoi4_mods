@@ -4,3 +4,4 @@ tags={
 }
 name="地图测试"
 supported_version="1.13.5"
+picture="thumbnail.png"
