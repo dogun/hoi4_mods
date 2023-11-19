@@ -1,7 +1,7 @@
 state={
 	id=945
 	name="STATE_945"
-	state_category = pastoral
+	state_category = city
 
 	history={
 		owner = MAN
@@ -16,7 +16,8 @@ state={
 	provinces={
 		846 916 930 1499 1558 1567 1638 4503 4572 4642 6893 6951 9788 9831 9927 11836 11903 12337 12469 
 	}
-	manpower=0
+
+	manpower=10000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

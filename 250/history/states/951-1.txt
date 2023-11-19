@@ -1,0 +1,17 @@
+state={
+	id=951
+	name="STATE_951"
+	state_category = city
+	history={
+		owner = USA
+		add_core_of = USA
+		#add_claim_by = TUR
+	}
+	provinces={
+		880 3687 3802 3880 6705 6899 9662 9789 9836 11648 11789 11800 
+	}
+	#state_category = city
+	manpower=10000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

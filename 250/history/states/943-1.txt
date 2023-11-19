@@ -1,15 +1,19 @@
 state={
 	id=943
 	name="STATE_943"
-	state_category = city
+
 	history={
 		owner = USA
 		add_core_of = USA
+
 	}
+
 	provinces={
-		1915 1998 2055 3875 3972 5085 8064 9773 9908 12301 12848 12875 12893 
+		1915 1998 2055 3875 3972 4955 5085 8064 9773 9908 12301 12848 12875 12893 
 	}
-	manpower=0
+	state_category = city
+	manpower=10000
 	buildings_max_level_factor=1.000
+	state_category=city
 	local_supplies=0.000
 }
