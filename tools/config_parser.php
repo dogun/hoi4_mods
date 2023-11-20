@@ -1,4 +1,20 @@
 <?php
+/*
+基本数据结构：
+map{
+	key = list{value1, value2, value3...}
+}
+
+value1 = map{
+		key = list{value5, value6, value7...}
+	}
+
+or
+
+value1 = string
+
+*/
+
 class config_parser {
 	public $kv = array();
 	private $control_c = array(' ', "\t", "\n", "\r", '#', '{', '}', '"', '=');
@@ -6,6 +22,10 @@ class config_parser {
 	private $config;
 	private $str;
 	private $index = 0;
+	
+	function _log($str) {
+		//echo $str;
+	}
 	
 	function _is_control($c) {
 		foreach($this->control_c as $v) {
@@ -89,15 +109,15 @@ class config_parser {
 			if ($c == "\t") $c = ' ';
 			if (!$this->_is_control($c)) {
 				$word = $this->_read_word_n();
-				echo "--- $word ---\n";
+				$this->_log("--- $word ---\n");
 			}
 			if ($c == '"') {
 				$word = $this->_read_word();
-				echo "---\" $word \"---\n";
+				$this->_log("---\" $word \"---\n");
 			}
 			if ($this->_is_control($c)) {
 				if ($word != '') {
-					echo "*** $word \n";
+					$this->_log("*** $word \n");
 					if ($scope == 'key') {
 						$kv = array();
 						$kv[$word] = array();
@@ -154,7 +174,7 @@ class config_parser {
 					$str .= $this->_space($deep).$k;
 					$str .= ' =';
 				} else {
-					echo "## $_i \n";
+					$this->_log("## $_i \n");
 					if ($_i == 0) $str .= $this->_space($deep);
 					else $str .= ' ';
 					$str .= $k;
@@ -184,6 +204,5 @@ class config_parser {
 $p = new config_parser();
 $p->set_config('test.txt');
 $p->parse();
-var_dump($p->kv);
 
 echo $p->to_string();
