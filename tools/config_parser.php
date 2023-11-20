@@ -201,8 +201,10 @@ class config_parser {
 }
 
 
+/*
 $p = new config_parser();
 $p->set_config('test.txt');
 $p->parse();
 
 echo $p->to_string();
+*/
