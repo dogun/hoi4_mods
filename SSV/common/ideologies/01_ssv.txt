@@ -100,9 +100,10 @@ ideologies = {
 #			embargo_threshold_factor = -0.5
 #			enemy_justify_war_goal_time = -0.1
 #			justify_war_goal_time = -0.1
-			political_power_gain = 0.5
+			political_power_gain = 0.25
 			stability_factor = 10
-			weekly_manpower = -1
+			weekly_manpower = -0.5
+			local_non_core_manpower = -0.6
 		}
 
 		faction_modifiers = {
@@ -372,10 +373,1018 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			political_advisor_cost_factor = -0.15
-			political_power_gain = -0.1
+			consumer_goods_factor = 0.07
+			political_power_gain = 0.1
+			stability_factor = 10
 		}
 
+		faction_modifiers = {
+		}
+	}
+
+
+	xiuyilangzhuyi = {
+		types = {
+			xiuyilangzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 130 130 130 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = 0.07
+			political_power_gain = 0.15
+			stability_factor = 5
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	renminzhuyi = {
+		types = {
+			renminzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			political_advisor_cost_factor = 0.1
+			stability_factor = 5
+			industrial_capacity_factory = 0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	gongshezhuyi = {
+		types = {
+			gongshezhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.5
+			stability_factor = -15
+			industrial_capacity_factory = -0.25
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	gongtuanzhuyi = {
+		types = {
+			gongtuanzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.2
+			industrial_capacity_factory = -0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	gerenzhuyi = {
+		types = {
+			gerenzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			army_org_factor = -0.99
+			stability_factor = -9999
+			production_factory_max_efficiency_factor = -0.99
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	diguozhuyi = {
+		types = {
+			diguozhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			justify_war_goal_time = -0.1
+			enemy_justify_war_goal_time = -0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	keerwenzhuyi = {
+		types = {
+			keerwenzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			political_advisor_cost_factor = -0.25
+			research_speed_factor = -0.1
+			political_power_gain = 0.5
+			stability_factor = 10
+			weekly_manpower = -1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	huopuzhuyi = {
+		types = {
+			huopuzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			huopuzhuyi_drift = 0.1
+			drift_defence_factor = 0.25
+			stability_factor = -25
+			industrial_capacity_factory = -0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	guojiafaxisi = {
+		types = {
+			guojiafaxisi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			justify_war_goal_time = -0.25
+			enemy_justify_war_goal_time = -0.25
+			opinion_gain_monthly_factor = -0.5
+			industrial_capacity_factory = 0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	shehuifaxisi = {
+		types = {
+			shehuifaxisi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.1
+			political_advisor_cost_factor = -0.5
+			political_power_gain = -0.5
+
+			justify_war_goal_time = -0.25
+			enemy_justify_war_goal_time = -0.25
+			opinion_gain_monthly_factor = -0.5
+			industrial_capacity_factory = 0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	tongyifaxisi = {
+		types = {
+			tongyifaxisi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.9
+			industrial_capacity_factory = 0.1
+			stability_factor = -25
+			tongyifaxisi_drift = -0.5
+			justify_war_goal_time = -0.25
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	kongzhifaxisi = {
+		types = {
+			kongzhifaxisi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			political_advisor_cost_factor = -0.9
+			political_power_gain = -0.5
+			production_factory_efficiency_gain_factor = -0.25
+			weekly_manpower = -1
+			justify_war_goal_time = -0.25
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	jiazhangzhi = {
+		types = {
+			jiazhangzhi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			industrial_capacity_factory = 0.1
+			political_advisor_cost_factor = 0.1
+			political_power_gain = 0.1
+			
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	cixizhuyi = {
+		types = {
+			cixizhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			political_power_gain = 0.25
+			stability_factor = 10
+			weekly_manpower = -0.5
+			local_non_core_manpower = -0.6
+			industrial_capacity_factory = 0.1
+			political_advisor_cost_factor = 0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	pinuoqietezhuyi = {
+		types = {
+			pinuoqietezhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			pinuoqietezhuyi_drift = 0.1
+			communism_drift = -0.5
+			drift_defence_factor = 0.25
+			stability_factor = -20
+			
+			army_org_factor = 0.1
+			political_power_gain = -0.1
+			political_advisor_cost_factor = -0.1
+		}
+
+		faction_modifiers = {
+		}
+	}
+
+	junzhengfu = {
+		types = {
+			junzhengfu_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			army_org_factor = 0.1
+			stability_factor = -10
+			political_power_gain = -0.1
+			political_advisor_cost_factor = -0.1
+		}
+		faction_modifiers = {
+		}
+	}
+
+	wuzhengfuzibenzhuyi = {
+		types = {
+			wuzhengfuzibenzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -1
+			stability_factor = -9999
+			army_org_factor = -0.4
+			conscription = 1
+		}
+		faction_modifiers = {
+		}
+	}
+
+	daerwenzhuyi = {
+		types = {
+			daerwenzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			weekly_manpower = -5
+			army_attack_factor = 0.25
+			army_defence_factor = 0.25
+		}
+		faction_modifiers = {
+		}
+	}
+
+	nuodunzhuyi = {
+		types = {
+			nuodunzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.5
+			stability_factor = -50
+			political_power_gain = 0.1
+			political_advisor_cost_factor = -0.05
+		}
+		faction_modifiers = {
+		}
+	}
+
+	wuzhengfujunzhuzhuyi = {
+		types = {
+			wuzhengfujunzhuzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.5
+			stability_factor = -35
+			political_power_gain = -0.1
+			political_advisor_cost_factor = -0.025
+		}
+		faction_modifiers = {
+		}
+	}
+
+	ziyuanzhuyi = {
+		types = {
+			ziyuanzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			stability_factor = -25
+			political_power_gain = 0.1
+			weekly_manpower = -5
+			industrial_capacity_factory = 0.25
+		}
+		faction_modifiers = {
+		}
+	}
+
+	hayekezhuyi = {
+		types = {
+			hayekezhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			stability_factor = -25
+			political_power_gain = -0.1
+			political_advisor_cost_factor = -0.25
+			consumer_goods_factor = -0.30
+		}
+		faction_modifiers = {
+		}
+	}
+
+	ziwozhuyi = {
+		types = {
+			ziwozhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 140 140 140 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			stability_factor = -80
+			political_power_gain = -0.1
+			army_org_factor = -0.4
+			consumer_goods_factor = -0.5
+			ziwozhuyi_drift = 0.1
+		}
+		faction_modifiers = {
+		}
+	}
+
+	jiaohuizhuyi = {
+		types = {
+			jiaohuizhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			stability_factor = 25
+			political_power_gain = -0.25
+			army_org_factor = 0.30
+			consumer_goods_factor = -0.35
+			jiaohuizhuyi_drift = 0.25
+			research_speed_factor = -0.2
+		}
+		faction_modifiers = {
+		}
+	}
+
+	jiefangzhuyi = {
+		types = {
+			jiefangzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			justify_war_goal_time = -0.5
+			offence = 0.15
+			defence = 0.15
+			army_org_factor = 0.25
+			acclimatization_cold_climate_gain_factor = 0.25
+			acclimatization_hot_climate_gain_factor = 0.25
+
+			stability_factor = 25
+			political_power_gain = -0.25
+		}
+		faction_modifiers = {
+		}
+	}
+
+	junzhubuershiweike = {
+		types = {
+			junzhubuershiweike_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			political_advisor_cost_factor = -0.25
+			research_speed_factor = -0.1
+
+			consumer_goods_factor = -0.5
+			stability_factor = 25
+			political_power_gain = -0.25
+		}
+		faction_modifiers = {
+		}
+	}
+
+	boerbotezhuyi = {
+		types = {
+			boerbotezhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			global_building_slots_factor = -0.50
+			research_speed_factor = -0.2
+			weekly_manpower = -10
+			political_advisor_cost_factor = -0.5
+			drift_defence_factor = 0.25
+
+			consumer_goods_factor = -0.5
+			stability_factor = 25
+			political_power_gain = -0.25
+		}
 		faction_modifiers = {
 		}
 	}

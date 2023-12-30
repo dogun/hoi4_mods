@@ -475,6 +475,11 @@ spriteTypes = {
 	}		
 
 	spriteType = {
+		name = "GFX_ideology_guojiafaxisi_group"
+		texturefile = "gfx/interface/ideologies/guojiafaxisi_group.dds"
+	}	
+
+	spriteType = {
 		name = "GFX_ideology_communism_group"
 		texturefile = "gfx/interface/ideologies/communism_group.dds"
 	}

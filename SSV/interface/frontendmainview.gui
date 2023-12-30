@@ -48,7 +48,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_left"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 35 y = 22 }
+			position = { x= 3500 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -56,7 +56,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_left_overlay"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 35 y = 22 }
+			position = { x= 3500 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -64,7 +64,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_right"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 245 y = 22 }
+			position = { x= 2450 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -72,7 +72,7 @@ guiTypes = {
 		iconType = {
 			name = "sp_continue_flag_right_overlay"
 			quadTextureSprite ="GFX_flag_small2_not_masked"
-			position = { x= 245 y = 22 }
+			position = { x= 2450 y = 22 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -161,7 +161,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="version_label"
-			position = { x = 35 y = 396 }
+			position = { x = 250 y = 436 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -199,7 +199,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "career_profile_button_star"
-			position = { x = -37 y = 260 }
+			position = { x = 1111 y = 260 }
 			spriteType = "GFX_icon_best_in_career"
 			centerposition = yes
 			orientation = upper_right
