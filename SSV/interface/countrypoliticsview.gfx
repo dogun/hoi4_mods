@@ -470,6 +470,26 @@ spriteTypes = {
 	}	
 
 	spriteType = {
+		name = "GFX_ideology_boerbotezhuyi_group"
+		texturefile = "gfx/interface/ideologies/boerbotezhuyi_group.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ideology_shehuifaxisi_group"
+		texturefile = "gfx/interface/ideologies/shehuifaxisi_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_diguozhuyi_group"
+		texturefile = "gfx/interface/ideologies/diguozhuyi_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_xinbaoshouzhuyi_group"
+		texturefile = "gfx/interface/ideologies/xinbaoshouzhuyi_group.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_xinziyouzhuyi_group"
 		texturefile = "gfx/interface/ideologies/xinziyouzhuyi_group.dds"
 	}		
