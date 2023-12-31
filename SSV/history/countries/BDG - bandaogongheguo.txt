@@ -1,13 +1,13 @@
 ﻿capital = 14
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = junzhengfu
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 80
+	junzhengfu = 80
 #	fascism = 0
 #	communism = 0
 #	neutrality = 0
