@@ -1388,4 +1388,173 @@ ideologies = {
 		faction_modifiers = {
 		}
 	}
+
+	jiefangshenxue = {
+		types = {
+			jiefangshenxue_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			jiaohuizhuyi_drift = 0.1
+			army_org_factor = 0.30
+			consumer_goods_factor = -0.35
+
+			stability_factor = 25
+			political_power_gain = -0.25
+			
+		}
+		faction_modifiers = {
+		}
+	}
+
+	yuanshizhuyi = {
+		types = {
+			yuanshizhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			research_speed_factor = 0.5
+			consumer_goods_factor = 0.55
+
+			stability_factor = 25
+			political_power_gain = -0.25
+		}
+		faction_modifiers = {
+		}
+	}
+
+	sitelasezhuyi = {
+		types = {
+			sitelasezhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			justify_war_goal_time = -0.5 #正当化战争目标
+			stability_factor = 25   #稳定度
+			generate_wargoal_tension = 0.5  #增加产生战争目标所需的紧张度。
+			enemy_justify_war_goal_time = 0.5 #敌人正当化战争目标
+			army_org_factor = 0.1 #军队组织度
+			political_power_gain = -0.15 #政治点数增加
+
+		}
+		faction_modifiers = {
+		}
+	}
+
+	lieningzhuyi = {
+		types = {
+			lieningzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			offence = 0.15
+			defence = 0.15
+			army_org_factor = 0.25
+			political_advisor_cost_factor = 25
+
+			stability_factor = 25
+			political_power_gain = -0.35
+		}
+		faction_modifiers = {
+		}
+	}
 }
+
+
+#			justify_war_goal_time = -0.5 #正当化战争目标
+#			stability_factor = 25   #稳定度
+#			generate_wargoal_tension = 0.5  #增加产生战争目标所需的紧张度。
+#			enemy_justify_war_goal_time = 0.5 #敌人正当化战争目标
+#			army_org_factor = 0.1 #军队组织度
+#			political_power_gain = -0.15 #政治点数增加
+#			consumer_goods_factor = -0.1 #消费品工厂
+#			research_speed_factor = -0.1 #科研速度
+#			global_building_slots_factor = -0.50 #当地的建筑槽位数量增加一定百分比。
+#			weekly_manpower = -10 #周人口变化
+#			political_advisor_cost_factor = -0.5 #政治点数消耗
+#			drift_defence_factor = 0.25 #意识形态变化抵制力度
+#			xxx_drift = 0.1 #xxx意识形态漂移
