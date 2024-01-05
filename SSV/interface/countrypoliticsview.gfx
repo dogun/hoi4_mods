@@ -468,7 +468,12 @@ spriteTypes = {
 		name = "GFX_ideology_neutrality_group"
 		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_ideology_lieningzhuyi_group"
+		texturefile = "gfx/interface/ideologies/lieningzhuyi_group.dds"
+	}	
+
 	spriteType = {
 		name = "GFX_ideology_yuanshizhuyi_group"
 		texturefile = "gfx/interface/ideologies/yuanshizhuyi_group.dds"
