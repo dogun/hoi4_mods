@@ -475,6 +475,16 @@ spriteTypes = {
 	}	
 
 	spriteType = {
+		name = "GFX_ideology_sidalinzhuyi_group"
+		texturefile = "gfx/interface/ideologies/sidalinzhuyi_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_maozedongzhuyi_group"
+		texturefile = "gfx/interface/ideologies/maozedongzhuyi_group.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_yuanshizhuyi_group"
 		texturefile = "gfx/interface/ideologies/yuanshizhuyi_group.dds"
 	}	

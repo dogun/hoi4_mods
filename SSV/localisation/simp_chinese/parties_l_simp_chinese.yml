@@ -151,6 +151,46 @@
  BDG_lieningzhuyi:0 "半岛人民联盟"
  BDG_lieningzhuyi_DEF:0 "半岛人民联盟"
  BDG_lieningzhuyi_ADJ:0 "半岛人民联盟"
+ 
+ BDG_sidalinzhuyi:0 "半岛人民联盟"
+ BDG_sidalinzhuyi_DEF:0 "半岛人民联盟"
+ BDG_sidalinzhuyi_ADJ:0 "半岛人民联盟"
+
+ BDG_maozedongzhuyi:0 "半岛人民联盟"
+ BDG_maozedongzhuyi_DEF:0 "半岛人民联盟"
+ BDG_maozedongzhuyi_ADJ:0 "半岛人民联盟"
+
+ BDG_renminyihui:0 "半岛人民联盟"
+ BDG_renminyihui_DEF:0 "半岛人民联盟"
+ BDG_renminyihui_ADJ:0 "半岛人民联盟"
+
+ BDG_tietuozhuyi:0 "半岛人民联盟"
+ BDG_tietuozhuyi_DEF:0 "半岛人民联盟"
+ BDG_tietuozhuyi_ADJ:0 "半岛人民联盟"
+
+ tietuozhuyi: "铁托主义"
+ tietuozhuyi_noun: "铁托主义"
+ tietuozhuyi_desc: "铁托主义"
+ tietuozhuyi_c: "铁托主义"
+ tietuozhuyi_c_desc: "铁托主义"
+
+ renminyihui: "人民议会"
+ renminyihui_noun: "人民议会"
+ renminyihui_desc: "人民议会"
+ renminyihui_c: "人民议会"
+ renminyihui_c_desc: "人民议会"
+
+ maozedongzhuyi: "毛泽东主义"
+ maozedongzhuyi_noun: "毛泽东主义"
+ maozedongzhuyi_desc: "毛泽东主义"
+ maozedongzhuyi_c: "毛泽东主义"
+ maozedongzhuyi_c_desc: "毛泽东主义"
+
+ sidalinzhuyi: "斯大林主义"
+ sidalinzhuyi_noun: "斯大林主义"
+ sidalinzhuyi_desc: "斯大林主义"
+ sidalinzhuyi_c: "斯大林主义"
+ sidalinzhuyi_c_desc: "斯大林主义"
 
  lieningzhuyi: "列宁主义"
  lieningzhuyi_noun: "列宁主义"

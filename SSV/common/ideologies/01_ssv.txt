@@ -1536,8 +1536,120 @@ ideologies = {
 			army_org_factor = 0.25
 			political_advisor_cost_factor = 25
 
-			stability_factor = 25
+			stability_factor = 25  #共产主义通用
 			political_power_gain = -0.35
+		}
+		faction_modifiers = {
+		}
+	}
+
+	sidalinzhuyi = {
+		types = {
+			sidalinzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			production_speed_arms_factory_factor = 0.5
+			production_speed_industrial_complex_factor = 0.25
+			political_advisor_cost_factor = 0.25
+
+			stability_factor = 25  #共产主义通用
+			political_power_gain = -0.35
+		}
+		faction_modifiers = {
+		}
+	}
+
+	maozedongzhuyi = {
+		types = {
+			maozedongzhuyi_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			consumer_goods_factor = -0.1
+			conscription_factor = 0.5
+			production_factory_efficiency_gain_factor = -0.25
+			
+			stability_factor = 25  #共产主义通用
+			political_power_gain = -0.35
+		}
+		faction_modifiers = {
+		}
+	}
+
+	renminyihui = {
+		types = {
+			renminyihui_c = {
+			}
+		}
+
+		dynamic_faction_names = {
+		}
+
+		color = { 105 13 173 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = yes
+		}
+
+
+		can_host_government_in_exile = yes
+
+		modifiers = {
+			political_advisor_cost_factor = 0.25
+			stability_factor = 10
+			industrial_capacity_factory = 0.1
+			political_power_gain = -0.1
 		}
 		faction_modifiers = {
 		}
@@ -1558,3 +1670,20 @@ ideologies = {
 #			political_advisor_cost_factor = -0.5 #政治点数消耗
 #			drift_defence_factor = 0.25 #意识形态变化抵制力度
 #			xxx_drift = 0.1 #xxx意识形态漂移
+#			production_speed_<building>_factor  #某类建筑的建造速度
+#			production_speed_buildings_factor #所有建筑的建筑速度
+#			conscription_factor #适役人口百分比
+#			industrial_capacity_factory 军工产出
+#			production_factory_efficiency_gain_factor 生产效率增长
+
+#				production_speed_industrial_complex_factor #民用工厂建造速度
+#				production_speed_arms_factory_factor = 0.25
+#				production_speed_dockyard_factor = 0.25
+#				production_speed_naval_base_factor = 0.25
+#				production_speed_coastal_bunker_factor = 0.25
+#				production_speed_bunker_factor = 0.25
+#				production_speed_air_base_factor = 0.25
+#				production_speed_anti_air_building_factor = 0.25
+#				production_speed_radar_station_factor = 0.25
+#				production_speed_fuel_silo_factor = 0.25
+#				production_speed_synthetic_refinery_factor = 0.15
