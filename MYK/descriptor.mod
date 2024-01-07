@@ -3,8 +3,5 @@ tags={
 	"Alternative History"
 	"Map"
 }
-dependencies={
-	"魔影框架"
-}
-name="这个系列好像是丧尸危机"
+name="魔影框架"
 supported_version="*"
