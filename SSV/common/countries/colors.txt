@@ -1,4 +1,9 @@
 #reload countrycolors
+TGG= {
+	color = rgb { 119  153  34 }
+	color_ui = rgb { 119  153  34 }
+}
+
 BDG = {
 	color = rgb { 0 0 171 }
 	color_ui = rgb { 0 0 171 }

@@ -1,1 +1,2 @@
 BDG = "countries/BDG.txt"
+TGG = "countries/TGG.txt"

@@ -1,0 +1,17 @@
+﻿capital = 28
+
+set_politics = {
+	ruling_party = renminyihui
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	renminyihui = 80
+#	fascism = 0
+#	communism = 0
+#	neutrality = 0
+	gongshezhuyi = 10
+	xinbaoshouzhuyi = 5
+	baoshouzhuyi = 5
+}
