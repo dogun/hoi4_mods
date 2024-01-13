@@ -1,0 +1,279 @@
+focus_tree = {
+	id = FocusTree_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	focus = {
+		id = 政治决策
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		x = 3
+		y = 0
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	focus = {
+		id = ~
+		icon = GFX_goal_generic_secret_weapon
+		cost = 0.00
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = 国际纵队
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5.00
+		prerequisite = {
+			focus = 政治决策
+		}
+		mutually_exclusive = {
+			focus = 宣布中立
+		}
+		x = 1
+		y = 1
+		completion_reward = {
+			add_ideas = volunteer_corps_focus
+			add_ideas = foreign_expeditions_focus
+		}
+	}
+	focus = {
+		id = 宣布中立
+		icon = GFX_goal_generic_defence
+		cost = 1.00
+		prerequisite = {
+			focus = 政治决策
+		}
+		mutually_exclusive = {
+			focus = 国际纵队
+		}
+		x = 3
+		y = 1
+		completion_reward = {
+			if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
+		}
+	}
+	focus = {
+		id = 政治武装
+		icon = GFX_goal_generic_demand_territory
+		cost = 1.00
+		prerequisite = {
+			focus = 国际纵队
+			focus = 宣布中立
+		}
+		x = 1
+		y = 2
+		completion_reward = {
+			add_ideas = myk_idea_zzwz
+		}
+	}
+	focus = {
+		id = 武装中立
+		icon = GFX_goal_generic_military_sphere
+		cost = 4.00
+		prerequisite = {
+			focus = 宣布中立
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			swap_ideas = { remove_idea = neutrality_idea add_idea = myk_idea_wzzl }
+		}
+	}
+	focus = {
+		id = 政治偏移
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5.00
+		prerequisite = {
+			focus = 宣布中立
+		}
+		prerequisite = {
+			focus = 武装中立
+		}
+		available = {
+				threat > 0.5
+		}
+
+		x = 2
+		y = 3
+		completion_reward = {
+			remove_ideas = neutrality_idea
+			remove_ideas = myk_idea_wzzl
+		}
+	}
+	focus = {
+		id = 民族主义崛起
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = 政治决策
+		}
+		mutually_exclusive = {
+			focus = 国家主义崛起
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+			add_timed_idea = { idea = myk_idea_mzzyjq days = 365 }
+		}
+	}
+	focus = {
+		id = 政变
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 1.00
+		prerequisite = {
+			focus = 民族主义崛起
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = 建立优等民族
+		icon = GFX_goal_generic_military_deal
+		cost = 0.00
+		prerequisite = {
+			focus = 政变
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = 国家主义崛起
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = 政治决策
+		}
+		mutually_exclusive = {
+			focus = 民族主义崛起
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = 加入轴心国
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 1.00
+		prerequisite = {
+			focus = 民族主义崛起
+			focus = 国家主义崛起
+		}
+		mutually_exclusive = {
+			focus = 法西斯乌托邦
+		}
+		x = 9
+		y = 2
+		completion_reward = {
+			GER = {
+				country_event = generic.2
+			}
+		}
+	}
+	focus = {
+		id = 法西斯乌托邦
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 5.00
+		prerequisite = {
+			focus = 国家主义崛起
+		}
+		mutually_exclusive = {
+			focus = 加入轴心国
+			focus = 政变
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = 邪恶同盟
+		icon = GFX_goal_generic_attack_allies
+		cost = 10.00
+		prerequisite = {
+			focus = 法西斯乌托邦
+		}
+
+		x = 10
+		y = 3
+		completion_reward = {
+			if = {
+				limit = {
+					SOV = {
+						exists = yes
+						has_government = communism
+						is_faction_leader = yes
+					}
+				}
+				SOV = {
+					country_event = generic.2
+				}
+			}
+			else = {
+				get_best_alliance_match_communism_effect = yes
+				var:best_leader = {
+					country_event = generic.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = 政变
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 1.00
+		prerequisite = {
+			focus = 国家主义崛起
+		}
+		mutually_exclusive = {
+			focus = 法西斯乌托邦
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = 侵略主义
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 5.00
+		prerequisite = {
+			focus = 政变
+			focus = 法西斯乌托邦
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = 清洗
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = 建立优等民族
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = 清洗它国
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = 建立优等民族
+		}
+		x = 5
+		y = 4
+
+	}
+}
