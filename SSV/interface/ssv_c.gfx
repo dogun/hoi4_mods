@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_TGG_KING_NO1
+		texturefile = "gfx/leaders/TGG_KING_NO1.dds"
+	}
+}

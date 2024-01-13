@@ -1,0 +1,31 @@
+﻿focus_tree = {
+	id = ssv_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TGG
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = TGG_guowangwansui
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 1
+		y = 0
+		cost = 0
+		available = {
+	 		OR = {
+	 			has_government = fascism
+	 		}
+		}
+
+		search_filters = {  }
+		completion_reward = {
+			
+		}
+	}
+}

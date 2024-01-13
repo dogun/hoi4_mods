@@ -1,9 +1,9 @@
 characters = {
-	TGG_ = {
-		name = "King Zog"
+	TGG_KING_NO1 = {
+		name = "TGG_KING_NO1"
 		portraits = {
 			civilian = {
-				large = GFX_portrait_King_Zog
+				large = GFX_TGG_KING_NO1
 			}
 		}
 		country_leader = {
