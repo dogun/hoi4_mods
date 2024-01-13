@@ -54,5 +54,75 @@ ideas = {
 				fascism_drift = 0.05
 			}
 		}
+		myk_idea_gjzyjq = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				guojiafaxisi_drift = 0.05
+			}
+		}
+		myk_idea_ydmz = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				army_org_factor = 0.1
+				consumer_goods_factor = -0.2
+			}
+		}
+		myk_idea_ldmzdfd = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription_factor = -0.5
+				weekly_manpower = -100
+				fascism_drift = -0.05
+			}
+		}
+		myk_idea_qingxi = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				weekly_manpower = -200
+			}
+		}
+		myk_idea_qingxitaguo = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				justify_war_goal_time = -0.1
+				local_non_core_manpower = -0.3
+			}
+		}
 	}
 }

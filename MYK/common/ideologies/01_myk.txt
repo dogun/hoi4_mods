@@ -101,7 +101,7 @@ ideologies = {
 #			enemy_justify_war_goal_time = -0.1
 #			justify_war_goal_time = -0.1
 			political_power_gain = 0.25
-			stability_factor = 10
+			stability_factor = 0.1
 			weekly_manpower = -0.5
 			local_non_core_manpower = -0.6
 		}
@@ -160,7 +160,7 @@ ideologies = {
 #			enemy_justify_war_goal_time = -0.1
 			justify_war_goal_time = -0.1
 			political_power_gain = 0.5
-			stability_factor = 10
+			stability_factor = 0.1
 			weekly_manpower = -1
 		}
 
@@ -198,7 +198,7 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			stability_factor = -5
+			stability_factor = -0.05
 			consumer_goods_factor = -0.1
 		}
 
@@ -233,7 +233,7 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			stability_factor = -5
+			stability_factor = -0.05
 			drift_defence_factor = 0.1
 		}
 
@@ -375,7 +375,7 @@ ideologies = {
 		modifiers = {
 			consumer_goods_factor = 0.07
 			political_power_gain = 0.1
-			stability_factor = 10
+			stability_factor = 0.10
 		}
 
 		faction_modifiers = {
@@ -412,7 +412,7 @@ ideologies = {
 		modifiers = {
 			consumer_goods_factor = 0.07
 			political_power_gain = 0.15
-			stability_factor = 5
+			stability_factor = 0.05
 		}
 
 		faction_modifiers = {
@@ -447,7 +447,7 @@ ideologies = {
 
 		modifiers = {
 			political_advisor_cost_factor = 0.1
-			stability_factor = 5
+			stability_factor = 0.05
 			industrial_capacity_factory = 0.1
 		}
 
@@ -483,7 +483,7 @@ ideologies = {
 
 		modifiers = {
 			consumer_goods_factor = -0.5
-			stability_factor = -15
+			stability_factor = -0.15
 			industrial_capacity_factory = -0.25
 		}
 
@@ -627,7 +627,7 @@ ideologies = {
 			political_advisor_cost_factor = -0.25
 			research_speed_factor = -0.1
 			political_power_gain = 0.5
-			stability_factor = 10
+			stability_factor = 0.10
 			weekly_manpower = -1
 		}
 
@@ -664,7 +664,7 @@ ideologies = {
 		modifiers = {
 			huopuzhuyi_drift = 0.1
 			drift_defence_factor = 0.25
-			stability_factor = -25
+			stability_factor = -0.25
 			industrial_capacity_factory = -0.1
 		}
 
@@ -779,7 +779,7 @@ ideologies = {
 		modifiers = {
 			consumer_goods_factor = -0.9
 			industrial_capacity_factory = 0.1
-			stability_factor = -25
+			stability_factor = -0.25
 			tongyifaxisi_drift = -0.5
 			justify_war_goal_time = -0.25
 		}
@@ -891,7 +891,7 @@ ideologies = {
 
 		modifiers = {
 			political_power_gain = 0.25
-			stability_factor = 10
+			stability_factor = 0.10
 			weekly_manpower = -0.5
 			local_non_core_manpower = -0.6
 			industrial_capacity_factory = 0.1
@@ -932,7 +932,7 @@ ideologies = {
 			pinuoqietezhuyi_drift = 0.1
 			communism_drift = -0.5
 			drift_defence_factor = 0.25
-			stability_factor = -20
+			stability_factor = -0.20
 			
 			army_org_factor = 0.1
 			political_power_gain = -0.1
@@ -971,7 +971,7 @@ ideologies = {
 
 		modifiers = {
 			army_org_factor = 0.1
-			stability_factor = -10
+			stability_factor = -0.10
 			political_power_gain = -0.1
 			political_advisor_cost_factor = -0.1
 		}
@@ -1078,7 +1078,7 @@ ideologies = {
 
 		modifiers = {
 			consumer_goods_factor = -0.5
-			stability_factor = -50
+			stability_factor = -0.50
 			political_power_gain = 0.1
 			political_advisor_cost_factor = -0.05
 		}
@@ -1114,7 +1114,7 @@ ideologies = {
 
 		modifiers = {
 			consumer_goods_factor = -0.5
-			stability_factor = -35
+			stability_factor = -0.35
 			political_power_gain = -0.1
 			political_advisor_cost_factor = -0.025
 		}
@@ -1149,7 +1149,7 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			stability_factor = -25
+			stability_factor = -0.25
 			political_power_gain = 0.1
 			weekly_manpower = -5
 			industrial_capacity_factory = 0.25
@@ -1185,7 +1185,7 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			stability_factor = -25
+			stability_factor = -0.25
 			political_power_gain = -0.1
 			political_advisor_cost_factor = -0.25
 			consumer_goods_factor = -0.30
@@ -1221,7 +1221,7 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			stability_factor = -80
+			stability_factor = -0.80
 			political_power_gain = -0.1
 			army_org_factor = -0.4
 			consumer_goods_factor = -0.5
@@ -1258,7 +1258,7 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.25
 			army_org_factor = 0.30
 			consumer_goods_factor = -0.35
@@ -1303,7 +1303,7 @@ ideologies = {
 			acclimatization_cold_climate_gain_factor = 0.25
 			acclimatization_hot_climate_gain_factor = 0.25
 
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.25
 		}
 		faction_modifiers = {
@@ -1341,7 +1341,7 @@ ideologies = {
 			research_speed_factor = -0.1
 
 			consumer_goods_factor = -0.5
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.25
 		}
 		faction_modifiers = {
@@ -1382,7 +1382,7 @@ ideologies = {
 			drift_defence_factor = 0.25
 
 			consumer_goods_factor = -0.5
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.25
 		}
 		faction_modifiers = {
@@ -1420,7 +1420,7 @@ ideologies = {
 			army_org_factor = 0.30
 			consumer_goods_factor = -0.35
 
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.25
 			
 		}
@@ -1458,7 +1458,7 @@ ideologies = {
 			research_speed_factor = 0.5
 			consumer_goods_factor = 0.55
 
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.25
 		}
 		faction_modifiers = {
@@ -1493,7 +1493,7 @@ ideologies = {
 
 		modifiers = {
 			justify_war_goal_time = -0.5 #正当化战争目标
-			stability_factor = 25   #稳定度
+			stability_factor = 0.25   #稳定度
 			generate_wargoal_tension = 0.5  #增加产生战争目标所需的紧张度。
 			enemy_justify_war_goal_time = 0.5 #敌人正当化战争目标
 			army_org_factor = 0.1 #军队组织度
@@ -1536,7 +1536,7 @@ ideologies = {
 			army_org_factor = 0.25
 			political_advisor_cost_factor = 25
 
-			stability_factor = 25  #共产主义通用
+			stability_factor = 0.25  #共产主义通用
 			political_power_gain = -0.35
 		}
 		faction_modifiers = {
@@ -1574,7 +1574,7 @@ ideologies = {
 			production_speed_industrial_complex_factor = 0.25
 			political_advisor_cost_factor = 0.25
 
-			stability_factor = 25  #共产主义通用
+			stability_factor = 0.25  #共产主义通用
 			political_power_gain = -0.35
 		}
 		faction_modifiers = {
@@ -1612,7 +1612,7 @@ ideologies = {
 			conscription_factor = 0.5
 			production_factory_efficiency_gain_factor = -0.25
 			
-			stability_factor = 25  #共产主义通用
+			stability_factor = 0.25  #共产主义通用
 			political_power_gain = -0.35
 		}
 		faction_modifiers = {
@@ -1647,7 +1647,7 @@ ideologies = {
 
 		modifiers = {
 			political_advisor_cost_factor = 0.25
-			stability_factor = 10
+			stability_factor = 0.1
 			industrial_capacity_factory = 0.1
 			political_power_gain = -0.1
 		}
@@ -1658,7 +1658,7 @@ ideologies = {
 
 
 #			justify_war_goal_time = -0.5 #正当化战争目标
-#			stability_factor = 25   #稳定度
+#			stability_factor = 0.25   #稳定度
 #			generate_wargoal_tension = 0.5  #增加产生战争目标所需的紧张度。
 #			enemy_justify_war_goal_time = 0.5 #敌人正当化战争目标
 #			army_org_factor = 0.1 #军队组织度
