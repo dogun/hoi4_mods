@@ -142,8 +142,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = 国家主义崛起
-			focus = 组织大罢工
 			focus = 维持现状
+			focus = 组织大罢工
 			focus = 加强政府权力
 			focus = 适当放权
 		}
@@ -182,23 +182,25 @@ focus_tree = {
 		}
 		x = 5
 		y = 3
-		completion_reward = {
-			add_ideas = military_youth_focus
-		}
+			completion_reward = {
+					add_ideas = military_youth_focus
+				}
+
 	}
 	focus = {
 		id = 建立优等民族
 		icon = GFX_goal_generic_military_deal
-		cost = 10
+		cost = 10.00
 		prerequisite = {
 			focus = 纳粹主义政变
 		}
 		x = 7
 		y = 3
-		completion_reward = {
-			add_ideas = myk_idea_ydmz
-			add_ideas = myk_idea_ldmzdfd
-		}
+			completion_reward = {
+					add_ideas = myk_idea_ydmz
+					add_ideas = myk_idea_ldmzdfd
+				}
+
 	}
 	focus = {
 		id = 清洗
@@ -209,14 +211,15 @@ focus_tree = {
 		}
 		x = 7
 		y = 4
-		completion_reward = {
-			add_manpower = -2000
-			remove_ideas = myk_idea_ldmzdfd
+			completion_reward = {
+					add_manpower = -2000
+					remove_ideas = myk_idea_ldmzdfd
 					add_timed_idea = {
 							idea = myk_idea_qingxi
 							days = 365
 						}
-		}
+				}
+
 	}
 	focus = {
 		id = 国家主义崛起
@@ -227,8 +230,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = 民族主义崛起
-			focus = 组织大罢工
 			focus = 维持现状
+			focus = 组织大罢工
 			focus = 加强政府权力
 			focus = 适当放权
 		}
@@ -378,8 +381,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = 国家主义崛起
-			focus = 组织大罢工
 			focus = 民族主义崛起
+			focus = 组织大罢工
 			focus = 加强政府权力
 			focus = 适当放权
 		}
@@ -465,8 +468,8 @@ focus_tree = {
 			focus = 世界革命
 		}
 		mutually_exclusive = {
-			focus = 加入共产国际
 			focus = 革命军
+			focus = 加入共产国际
 		}
 		x = 16
 		y = 4
@@ -636,6 +639,68 @@ focus_tree = {
 
 	}
 	focus = {
+		id = 适当放权
+		icon = GFX_goal_support_democracy
+		cost = 5.00
+		prerequisite = {
+			focus = 政治决策
+		}
+		mutually_exclusive = {
+			focus = 组织大罢工
+			focus = 维持现状
+			focus = 国家主义崛起
+			focus = 民族主义崛起
+			focus = 加强政府权力
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = 无效政府
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = 适当放权
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = 购买政府
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = 无效政府
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = 企业联合体
+		icon = GFX_goal_generic_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = 购买政府
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = 恶意收购即将发生
+		icon = GFX_goal_generic_attack_allies
+		cost = 5.00
+		prerequisite = {
+			focus = 购买政府
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
 		id = 清洗它国
 		icon = GFX_goal_generic_position_armies
 		cost = 5.00
@@ -644,9 +709,10 @@ focus_tree = {
 		}
 		x = 5
 		y = 4
-		completion_reward = {
-			add_ideas = myk_idea_qingxitaguo
-		}
+			completion_reward = {
+					add_ideas = myk_idea_qingxitaguo
+				}
+
 	}
 	focus = {
 		id = 索取法属北非
@@ -694,24 +760,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 适当放权
-		icon = GFX_goal_support_democracy
-		cost = 5.00
-		prerequisite = {
-			focus = 政治决策
-		}
-		mutually_exclusive = {
-			focus = 组织大罢工
-			focus = 维持现状
-			focus = 国家主义崛起
-			focus = 民族主义崛起
-			focus = 加强政府权力
-		}
-		x = 31
-		y = 1
-
-	}
-	focus = {
 		id = 索取马达加斯加
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 10.00
@@ -735,14 +783,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 无效政府
-		icon = GFX_goal_generic_national_unity
-		cost = 10.00
+		id = 宣布国家解体
+		icon = GFX_goal_generic_trade
+		cost = 1.00
 		prerequisite = {
-			focus = 适当放权
+			focus = 无效政府
 		}
-		x = 31
-		y = 2
+		x = 34
+		y = 3
 
 	}
 }
