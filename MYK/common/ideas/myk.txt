@@ -83,7 +83,7 @@ ideas = {
 			}
 		}
 		myk_idea_ldmzdfd = {
-			picture = generic_war_preparation
+			picture = generic_secret_police
 
 			allowed = {
 			}
@@ -98,7 +98,7 @@ ideas = {
 			}
 		}
 		myk_idea_qingxi = {
-			picture = generic_war_preparation
+			picture = generic_secret_police
 
 			allowed = {
 			}
@@ -111,7 +111,7 @@ ideas = {
 			}
 		}
 		myk_idea_qingxitaguo = {
-			picture = generic_war_preparation
+			picture = MEX_politicised_army_2
 
 			allowed = {
 			}
@@ -152,7 +152,7 @@ ideas = {
 			}
 		}
 		myk_idea_nlz = {
-			picture = LIT_iron_wolf_bad_1
+			picture = SPA_recovering_from_civil_war
 
 			allowed = {
 			}
@@ -166,6 +166,39 @@ ideas = {
 				stability_factor = -0.05
 				conscription_factor = -0.2
 				fascism_drift = -0.05
+			}
+		}
+		myk_idea_ydmzdwtb = {
+			picture = SPA_recovering_from_civil_war
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.2
+				army_org_factor = 0.1
+				consumer_goods_factor = -0.25
+				industrial_capacity_factory = 0.1
+				drift_defence_factor = 0.1
+			}
+		}
+		myk_idea_dbg = {
+			picture =  chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = -0.8
+				industrial_capacity_factory = -0.5
+				production_speed_buildings_factor = -0.8
+				army_org_factor = -0.6
 			}
 		}
 	}

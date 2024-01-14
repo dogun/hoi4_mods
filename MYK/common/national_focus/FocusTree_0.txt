@@ -230,7 +230,9 @@ focus_tree = {
 		}
 		x = 5
 		y = 4
-
+		completion_reward = {
+			add_ideas = myk_idea_nlz
+		}
 	}
 	focus = {
 		id = 优等民族的乌托邦
@@ -244,10 +246,15 @@ focus_tree = {
 		}
 		x = 7
 		y = 5
-
+		completion_reward = {
+					swap_ideas = {
+							remove_idea = myk_idea_ydmz
+							add_idea = myk_idea_ydmzdwtb
+						}
+		}
 	}
 	focus = {
-		id = 消灭共产主义
+		id = 消灭共产主义发源地
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		cost = 10.00
 		prerequisite = {
@@ -255,7 +262,28 @@ focus_tree = {
 		}
 		x = 7
 		y = 6
-
+		completion_reward = {
+			IF = {
+				limit = { SOV = { has_civil_war = no } }
+				create_wargoal = {
+					type = annex_everything
+					target = SOV
+					expire = 0
+				}
+			}
+			ELSE = {
+				every_country = {
+					limit = { original_tag = SOV }
+					GER = {
+						create_wargoal = {
+							type = annex_everything
+							target = PREV
+							expire = 0
+						}
+					}
+				}
+			}
+		}
 	}
 	focus = {
 		id = 国家主义崛起
@@ -487,7 +515,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 1
-
+		completion_reward = {
+			add_ideas = myk_idea_dbg
+		}
 	}
 	focus = {
 		id = 组织革命
