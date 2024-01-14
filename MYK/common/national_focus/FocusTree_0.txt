@@ -222,6 +222,42 @@ focus_tree = {
 
 	}
 	focus = {
+		id = 进行奴隶制
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = 建立优等民族
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = 优等民族的乌托邦
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = 进行奴隶制
+		}
+		prerequisite = {
+			focus = 清洗
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = 消灭共产主义
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = 优等民族的乌托邦
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
 		id = 国家主义崛起
 		icon = GFX_goal_demand_sudetenland
 		cost = 10.00
@@ -289,6 +325,7 @@ focus_tree = {
 							ruling_party = shehuifaxisi
 						}
 				}
+
 	}
 	focus = {
 		id = 邪恶同盟
@@ -361,6 +398,21 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
+			completion_reward = {
+					add_political_power = 50
+					add_ideas = myk_idea_zmswj
+				}
+
+	}
+	focus = {
+		id = 索取意属利比亚
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = 建立殖民事务局
+		}
+		x = 11
+		y = 5
 
 	}
 	focus = {
@@ -377,6 +429,18 @@ focus_tree = {
 			completion_reward = {
 					add_ideas = myk_idea_qlzy
 				}
+
+	}
+	focus = {
+		id = 索取法属北非
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = 建立殖民事务局
+		}
+		x = 13
+		y = 5
+
 	}
 	focus = {
 		id = 维持现状
@@ -506,9 +570,42 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = 托司机万岁
+			focus = 采用新经济政策
 		}
 		x = 18
 		y = 4
+			completion_reward = {
+					if = {
+							limit = {
+									SOV = {
+											exists = yes
+											has_government = communism
+											is_faction_leader = yes
+										}
+								}
+							SOV = {
+									country_event = generic.2
+								}
+						}
+					else = {
+							get_best_alliance_match_communism_effect = yes
+							var:best_leader = {
+									country_event = generic.2
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = 消灭殖民主义霸权
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = 革命军
+			focus = 托司机万岁
+		}
+		x = 18
+		y = 6
 
 	}
 	focus = {
@@ -528,6 +625,33 @@ focus_tree = {
 
 	}
 	focus = {
+		id = 采用新经济政策
+		icon = GFX_goal_generic_production2
+		cost = 5.00
+		prerequisite = {
+			focus = 工人代表大会
+		}
+		mutually_exclusive = {
+			focus = 采用斯大林政策
+			focus = 加入共产国际
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = 公开反对斯大林
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = 托司机万岁
+			focus = 采用新经济政策
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
 		id = 无政府永存
 		icon = GFX_goal_molotov_ribbentrop_pact
 		cost = 10.00
@@ -541,6 +665,67 @@ focus_tree = {
 		}
 		x = 21
 		y = 3
+
+	}
+	focus = {
+		id = 废除阶级
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = 无政府永存
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = 废除货币
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = 废除阶级
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = 缩小政府
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = 废除阶级
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = 废除政府
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5.00
+		prerequisite = {
+			focus = 废除货币
+		}
+		prerequisite = {
+			focus = 缩小政府
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = 采用斯大林政策
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		prerequisite = {
+			focus = 工人代表大会
+		}
+		mutually_exclusive = {
+			focus = 采用新经济政策
+		}
+		x = 22
+		y = 4
 
 	}
 	focus = {
@@ -566,14 +751,103 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 第二次五年计划
-		icon = GFX_goal_generic_soviet_construction
+		id = 实行集体农庄
+		icon = GFX_goal_generic_build_tank
+		cost = 5.00
+		prerequisite = {
+			focus = 采用斯大林政策
+		}
+		prerequisite = {
+			focus = 进行五年计划
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = 废除集体农庄
+		icon = GFX_goal_generic_construction2
+		cost = 5.00
+		prerequisite = {
+			focus = 实行集体农庄
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = 扩建军工
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 进行五年计划
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = 基础设施建设
+		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
 			focus = 进行五年计划
 		}
 		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = 扩建工业
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 进行五年计划
+		}
+		x = 26
 		y = 4
+
+	}
+	focus = {
+		id = 国防建设
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = 进行五年计划
+		}
+		x = 27
+		y = 5
+
+	}
+	focus = {
+		id = 第二次五年计划
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = 扩建军工
+		}
+		prerequisite = {
+			focus = 扩建工业
+		}
+		prerequisite = {
+			focus = 基础设施建设
+		}
+		prerequisite = {
+			focus = 国防建设
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = 共同建设
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = 组织革命
+		}
+		x = 27
+		y = 3
 
 	}
 	focus = {
@@ -590,7 +864,7 @@ focus_tree = {
 			focus = 民族主义崛起
 			focus = 适当放权
 		}
-		x = 28
+		x = 30
 		y = 1
 
 	}
@@ -604,7 +878,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = 任命军事将领
 		}
-		x = 27
+		x = 29
 		y = 2
 
 	}
@@ -615,8 +889,36 @@ focus_tree = {
 		prerequisite = {
 			focus = 削弱军队权力
 		}
-		x = 27
+		x = 29
 		y = 3
+
+	}
+	focus = {
+		id = 宣布称王
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 7.00
+		prerequisite = {
+			focus = 集权政府
+		}
+		mutually_exclusive = {
+			focus = 总统独裁
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = 总统独裁
+		icon = GFX_goal_support_fascism
+		cost = 1.00
+		prerequisite = {
+			focus = 集权政府
+		}
+		mutually_exclusive = {
+			focus = 宣布称王
+		}
+		x = 30
+		y = 4
 
 	}
 	focus = {
@@ -629,7 +931,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = 削弱军队权力
 		}
-		x = 29
+		x = 31
 		y = 2
 
 	}
@@ -640,7 +942,7 @@ focus_tree = {
 		prerequisite = {
 			focus = 任命军事将领
 		}
-		x = 29
+		x = 31
 		y = 3
 
 	}
@@ -658,7 +960,7 @@ focus_tree = {
 			focus = 民族主义崛起
 			focus = 加强政府权力
 		}
-		x = 32
+		x = 33
 		y = 1
 
 	}
@@ -669,7 +971,7 @@ focus_tree = {
 		prerequisite = {
 			focus = 适当放权
 		}
-		x = 32
+		x = 33
 		y = 2
 
 	}
@@ -680,7 +982,7 @@ focus_tree = {
 		prerequisite = {
 			focus = 无效政府
 		}
-		x = 32
+		x = 33
 		y = 3
 
 	}
@@ -691,7 +993,7 @@ focus_tree = {
 		prerequisite = {
 			focus = 购买政府
 		}
-		x = 30
+		x = 32
 		y = 4
 
 	}
@@ -702,7 +1004,32 @@ focus_tree = {
 		prerequisite = {
 			focus = 购买政府
 		}
-		x = 32
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = 宣布国家解体
+		icon = GFX_goal_generic_trade
+		cost = 1.00
+		prerequisite = {
+			focus = 无效政府
+		}
+		x = 36
+		y = 3
+
+	}
+	focus = {
+		id = 自由地区建立
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = 宣布国家解体
+		}
+		mutually_exclusive = {
+			focus = 黑暗↑森林↓
+		}
+		x = 36
 		y = 4
 
 	}
@@ -711,35 +1038,13 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		cost = 5.00
 		prerequisite = {
-			focus = 建立优等民族
+			focus = 清洗
 		}
 		x = 5
-		y = 4
+		y = 5
 			completion_reward = {
 					add_ideas = myk_idea_qingxitaguo
 				}
-
-	}
-	focus = {
-		id = 索取法属北非
-		icon = GFX_goal_generic_intelligence_exchange
-		cost = 10.00
-		prerequisite = {
-			focus = 建立殖民事务局
-		}
-		x = 13
-		y = 5
-
-	}
-	focus = {
-		id = 索取意属利比亚
-		icon = GFX_goal_generic_intelligence_exchange
-		cost = 10.00
-		prerequisite = {
-			focus = 建立殖民事务局
-		}
-		x = 11
-		y = 5
 
 	}
 	focus = {
@@ -786,17 +1091,73 @@ focus_tree = {
 		}
 		x = 15
 		y = 5
+			completion_reward = {
+					create_wargoal = {
+							type = topple_government
+							target = GER
+							expire = 0
+						}
+				}
 
 	}
 	focus = {
-		id = 宣布国家解体
-		icon = GFX_goal_generic_trade
-		cost = 1.00
+		id = 黑暗↑森林↓
+		icon = GFX_goal_generic_wolf_pack
+		cost = 0.00
 		prerequisite = {
-			focus = 无效政府
+			focus = 宣布国家解体
 		}
-		x = 34
-		y = 3
+		mutually_exclusive = {
+			focus = 自由地区建立
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = 重新解放俄罗斯
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = 革命军
+			focus = 托司机万岁
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = 解放巴黎
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = 革命军
+			focus = 托司机万岁
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = 消灭集权政府
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = 第一次苏维埃选举
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = 无政府，无国界
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = 废除政府
+		}
+		x = 21
+		y = 8
 
 	}
 }

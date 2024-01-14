@@ -126,7 +126,7 @@ ideas = {
 		}
 
 		myk_idea_qlzy = {
-			picture = generic_war_preparation
+			picture = LIT_iron_wolf_bad_1
 
 			allowed = {
 			}
@@ -136,6 +136,36 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = 0.1
+			}
+		}
+		myk_idea_zmswj = {
+			picture = LIT_iron_wolf_bad_1
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				#political_power_gain = -0.15
+			}
+		}
+		myk_idea_nlz = {
+			picture = LIT_iron_wolf_bad_1
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.2
+				industrial_capacity_factory = 0.1
+				stability_factor = -0.05
+				conscription_factor = -0.2
+				fascism_drift = -0.05
 			}
 		}
 	}
