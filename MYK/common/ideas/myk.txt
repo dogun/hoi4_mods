@@ -51,7 +51,7 @@ ideas = {
 			}
 
 			modifier = {
-				fascism_drift = 0.05
+				fascism_drift = 0.1
 			}
 		}
 		myk_idea_gjzyjq = {
@@ -64,7 +64,7 @@ ideas = {
 			}
 
 			modifier = {
-				guojiafaxisi_drift = 0.05
+				guojiafaxisi_drift = 0.1
 			}
 		}
 		myk_idea_ydmz = {
@@ -199,6 +199,7 @@ ideas = {
 				industrial_capacity_factory = -0.5
 				production_speed_buildings_factor = -0.8
 				army_org_factor = -0.6
+				communism_drift = 0.1
 			}
 		}
 	}

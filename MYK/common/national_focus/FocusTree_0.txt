@@ -516,7 +516,10 @@ focus_tree = {
 		x = 18
 		y = 1
 		completion_reward = {
-			add_ideas = myk_idea_dbg
+					add_timed_idea = {
+							idea = myk_idea_dbg
+							days = 182.5
+						}
 		}
 	}
 	focus = {
