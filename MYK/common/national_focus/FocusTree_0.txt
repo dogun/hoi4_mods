@@ -28,6 +28,54 @@ focus_tree = {
 
 	}
 	focus = {
+		id = 工厂建设
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		x = 46
+		y = 0
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = 电报科技
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		x = 48
+		y = 0
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+				#category = nuclear
+				#category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = 军事研究
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		x = 58
+		y = 0
+
+	}
+	focus = {
 		id = 国际纵队
 		icon = GFX_goal_generic_more_territorial_claims
 		cost = 5.00
@@ -230,9 +278,10 @@ focus_tree = {
 		}
 		x = 5
 		y = 4
-		completion_reward = {
-			add_ideas = myk_idea_nlz
-		}
+			completion_reward = {
+					add_ideas = myk_idea_nlz
+				}
+
 	}
 	focus = {
 		id = 优等民族的乌托邦
@@ -246,12 +295,13 @@ focus_tree = {
 		}
 		x = 7
 		y = 5
-		completion_reward = {
+			completion_reward = {
 					swap_ideas = {
 							remove_idea = myk_idea_ydmz
 							add_idea = myk_idea_ydmzdwtb
 						}
-		}
+				}
+
 	}
 	focus = {
 		id = 消灭共产主义发源地
@@ -262,28 +312,35 @@ focus_tree = {
 		}
 		x = 7
 		y = 6
-		completion_reward = {
-			IF = {
-				limit = { SOV = { has_civil_war = no } }
-				create_wargoal = {
-					type = annex_everything
-					target = SOV
-					expire = 0
-				}
-			}
-			ELSE = {
-				every_country = {
-					limit = { original_tag = SOV }
-					GER = {
-						create_wargoal = {
-							type = annex_everything
-							target = PREV
-							expire = 0
+			completion_reward = {
+					IF = {
+							limit = {
+									SOV = {
+											has_civil_war = no
+										}
+								}
+							create_wargoal = {
+									type = annex_everything
+									target = SOV
+									expire = 0
+								}
 						}
-					}
+					ELSE = {
+							every_country = {
+									limit = {
+											original_tag = SOV
+										}
+									GER = {
+											create_wargoal = {
+													type = annex_everything
+													target = PREV
+													expire = 0
+												}
+										}
+								}
+						}
 				}
-			}
-		}
+
 	}
 	focus = {
 		id = 国家主义崛起
@@ -515,12 +572,13 @@ focus_tree = {
 		}
 		x = 18
 		y = 1
-		completion_reward = {
+			completion_reward = {
 					add_timed_idea = {
 							idea = myk_idea_dbg
 							days = 182.5
 						}
-		}
+				}
+
 	}
 	focus = {
 		id = 组织革命
@@ -665,8 +723,8 @@ focus_tree = {
 			focus = 工人代表大会
 		}
 		mutually_exclusive = {
-			focus = 采用斯大林政策
 			focus = 加入共产国际
+			focus = 采用斯大林政策
 		}
 		x = 20
 		y = 4
@@ -941,6 +999,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = 科研共享
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = 共同建设
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
 		id = 总统独裁
 		icon = GFX_goal_support_fascism
 		cost = 1.00
@@ -1067,6 +1136,508 @@ focus_tree = {
 
 	}
 	focus = {
+		id = 黑暗↑森林↓
+		icon = GFX_goal_generic_wolf_pack
+		cost = 0.00
+		prerequisite = {
+			focus = 宣布国家解体
+		}
+		mutually_exclusive = {
+			focus = 自由地区建立
+		}
+		x = 38
+		y = 4
+
+	}
+	focus = {
+		id = 重视民用
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 工厂建设
+		}
+		mutually_exclusive = {
+			focus = 重视军用
+		}
+		x = 45
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 扩建建筑部门
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5
+		prerequisite = {
+			focus = 重视民用
+		}
+		x = 44
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 工业研发
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = 工厂建设
+		}
+		x = 46
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = 重视军用
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 工厂建设
+		}
+		mutually_exclusive = {
+			focus = 重视民用
+		}
+		x = 47
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 扩建军火库
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 5.00
+		prerequisite = {
+			focus = 重视军用
+		}
+		x = 48
+		y = 2
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 基础设施1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = 扩建建筑部门
+			focus = 扩建军火库
+		}
+		x = 42
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 重视建设
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 扩建建筑部门
+			focus = 扩建军火库
+		}
+		x = 44
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 机械研究
+		icon = GFX_goal_generic_production2
+		cost = 5.00
+		prerequisite = {
+			focus = 扩建建筑部门
+			focus = 扩建军火库
+		}
+		prerequisite = {
+			focus = 工业研发
+		}
+		x = 46
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = 重视军备Ⅰ
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 50.00
+		prerequisite = {
+			focus = 扩建军火库
+			focus = 扩建建筑部门
+		}
+		x = 48
+		y = 3
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 重视军备Ⅱ
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 重视军备Ⅰ
+		}
+		x = 48
+		y = 4
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 重视军备Ⅲ
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 重视军备Ⅱ
+		}
+		x = 48
+		y = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 电报科技Ⅱ
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		prerequisite = {
+			focus = 电报科技
+		}
+		x = 49
+		y = 1
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+				#category = nuclear
+				#category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = 电报科技Ⅲ
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		prerequisite = {
+			focus = 电报科技Ⅱ
+		}
+		x = 50
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+				#category = nuclear
+				#category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = 扩招科学家
+		icon = GFX_focus_research
+		cost = 0.00
+		prerequisite = {
+			focus = 重视军用
+			focus = 重视民用
+		}
+		prerequisite = {
+			focus = 工业研发
+		}
+		x = 50
+		y = 3
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = 增大科研支出
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = 扩招科学家
+		}
+		available = {
+			num_of_factories > 50
+		}
+		x = 50
+		y = 4
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = 奇迹武器
+		icon = GFX_focus_research
+		cost = 5.00
+		prerequisite = {
+			focus = 扩招科学家
+		}
+		x = 52
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = 导弹科技
+		icon = GFX_focus_rocketry
+		cost = 5.00
+		prerequisite = {
+			focus = 奇迹武器
+		}
+		x = 50
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 2
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+
+	}
+	focus = {
+		id = 电报科技Ⅳ
+		icon = GFX_goal_generic_radar
+		cost = 5.00
+		prerequisite = {
+			focus = 电报科技Ⅲ
+		}
+		x = 52
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 1.0
+				uses = 2
+				category = electronics
+				#category = nuclear
+				#category = rocketry
+			}
+		}
+	}
+	focus = {
+		id = 核科技
+		icon = GFX_focus_wonderweapons
+		cost = 5.00
+		prerequisite = {
+			focus = 奇迹武器
+		}
+		x = 52
+		y = 5
+		completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 2
+				category = nuclear
+			}
+		}
+	}
+	focus = {
+		id = 重视普通部队
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = 军事研究
+		}
+		mutually_exclusive = {
+			focus = 重视特种部队
+		}
+		x = 57
+		y = 1
+
+	}
+	focus = {
+		id = 火炮研究
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = 重视普通部队
+		}
+		x = 56
+		y = 2
+
+	}
+	focus = {
+		id = 重视特种部队
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = 军事研究
+		}
+		mutually_exclusive = {
+			focus = 重视普通部队
+		}
+		x = 59
+		y = 1
+
+	}
+	focus = {
+		id = 军事宣传
+		icon = GFX_goal_generic_propaganda
+		cost = 5.00
+		prerequisite = {
+			focus = 重视普通部队
+			focus = 重视特种部队
+		}
+		x = 56
+		y = 3
+
+	}
+	focus = {
+		id = 步枪研究
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = 重视普通部队
+			focus = 重视特种部队
+		}
+		x = 58
+		y = 2
+
+	}
+	focus = {
 		id = 清洗它国
 		icon = GFX_goal_generic_position_armies
 		cost = 5.00
@@ -1134,20 +1705,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 黑暗↑森林↓
-		icon = GFX_goal_generic_wolf_pack
-		cost = 0.00
-		prerequisite = {
-			focus = 宣布国家解体
-		}
-		mutually_exclusive = {
-			focus = 自由地区建立
-		}
-		x = 38
-		y = 4
-
-	}
-	focus = {
 		id = 重新解放俄罗斯
 		icon = GFX_goal_generic_political_pressure
 		cost = 10.00
@@ -1191,6 +1748,230 @@ focus_tree = {
 		}
 		x = 21
 		y = 8
+
+	}
+	focus = {
+		id = 基础设施2
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = 基础设施1
+		}
+		x = 42
+		y = 4
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 基础设施3
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5.00
+		prerequisite = {
+			focus = 基础设施2
+		}
+		x = 42
+		y = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 海军建设
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = 重视军用
+			focus = 重视民用
+		}
+		x = 46
+		y = 4
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 海军建设Ⅱ
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = 海军建设
+		}
+		x = 46
+		y = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 重视建设Ⅱ
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 重视建设
+		}
+		x = 44
+		y = 4
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 重视建设Ⅲ
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = 重视建设Ⅱ
+		}
+		x = 44
+		y = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 扩招特种部队
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = 重视特种部队
+		}
+		x = 60
+		y = 2
 
 	}
 }
