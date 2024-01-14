@@ -42,7 +42,7 @@ ideas = {
 			}
 		}
 		myk_idea_mzzyjq = {
-			picture = generic_war_preparation
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 			}
@@ -55,7 +55,7 @@ ideas = {
 			}
 		}
 		myk_idea_gjzyjq = {
-			picture = generic_war_preparation
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 			}
@@ -122,6 +122,20 @@ ideas = {
 			modifier = {
 				justify_war_goal_time = -0.1
 				local_non_core_manpower = -0.3
+			}
+		}
+
+		myk_idea_qlzy = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
 			}
 		}
 	}

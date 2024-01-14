@@ -284,7 +284,11 @@ focus_tree = {
 		}
 		x = 12
 		y = 2
-
+			completion_reward = {
+					set_politics = {
+							ruling_party = shehuifaxisi
+						}
+				}
 	}
 	focus = {
 		id = 邪恶同盟
@@ -370,7 +374,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 3
-
+			completion_reward = {
+					add_ideas = myk_idea_qlzy
+				}
 	}
 	focus = {
 		id = 维持现状
