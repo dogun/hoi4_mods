@@ -202,5 +202,49 @@ ideas = {
 				communism_drift = 0.1
 			}
 		}
+		myk_idea_NuBing = {
+			picture =  chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		myk_idea_FaXiSiGeMing = {
+			picture =  chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				justify_war_goal_time = -0.25
+				jiefangzhuyi_drift = 0.05
+				sitelasezhuyi_drift = 0.01
+				guojiafaxisi_drift = 0.025
+			}
+		}
+		myk_idea_QingXiYouYiFaXiSi = {
+			picture =  chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				weekly_manpower = -5
+				fascism_drift = -0.5
+				guojiafaxisi_drift = -0.5
+			}
+		}
 	}
 }
