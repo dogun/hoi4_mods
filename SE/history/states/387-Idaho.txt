@@ -1,0 +1,31 @@
+
+state={
+	id=387
+	name="STATE_387"
+	resources={
+		steel=18.000
+		chromium=1.000
+		tungsten=18.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9616 1 
+		}
+
+	}
+
+	provinces={
+		1736 1789 1854 3781 4838 6742 7688 7779 7845 9695 10556 10602 10672 12535 12651 12676 
+	}
+	manpower=445031
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=7.000
+}

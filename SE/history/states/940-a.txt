@@ -1,0 +1,11 @@
+state={
+	id=940
+	name="STATE_940"
+	provinces={
+		6897 7818 7821 10573 
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

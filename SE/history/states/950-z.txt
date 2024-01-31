@@ -1,0 +1,11 @@
+state={
+	id=950
+	name="STATE_950"
+	provinces={
+		1752 1866 1867 3719 4880 6752 6827 7536 9880 10618 10685 10719 12577 12597 12667 12693 
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

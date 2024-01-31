@@ -25,6 +25,9 @@ focus_tree = {
 		cost = 0.00
 		x = 1
 		y = 0
+			completion_reward = {
+					add_ideas = myk_idea_DisSiTianZai
+				}
 
 	}
 	focus = {
@@ -528,7 +531,16 @@ focus_tree = {
 		}
 		x = 11
 		y = 5
-
+			completion_reward = {
+					661 = {add_claim_by = aus}
+					662 = {add_claim_by = aus}
+					663 = {add_claim_by = aus}
+					448 = {add_claim_by = aus}
+					449 = {add_claim_by = aus}
+					450 = {add_claim_by = aus}
+					451 = {add_claim_by = aus}
+					273 = {add_claim_by = aus}
+			}
 	}
 	focus = {
 		id = 索取马达加斯加
@@ -539,7 +551,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 5
-
+			completion_reward = {
+					543 = {add_claim_by = aus}
+			}
 	}
 	focus = {
 		id = 索取法属北非
@@ -550,7 +564,16 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-
+			completion_reward = {
+					514 = {add_claim_by = aus}
+					462 = {add_claim_by = aus}
+					461 = {add_claim_by = aus}
+					513 = {add_claim_by = aus}
+					459 = {add_claim_by = aus}
+					460 = {add_claim_by = aus}
+					458 = {add_claim_by = aus}
+					665 = {add_claim_by = aus}
+			}
 	}
 	focus = {
 		id = 殖民地科学
@@ -652,6 +675,17 @@ focus_tree = {
 		}
 		x = 18
 		y = 2
+			completion_reward = {
+					remove_ideas = myk_idea_dbg
+					add_timed_idea = {
+							idea = myk_idea_GongCHanZHuYiXvanCHuan
+							days = 365
+					set_politics = {
+							ruling_party = communism
+
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -941,6 +975,12 @@ focus_tree = {
 		}
 		x = 25
 		y = 3
+			completion_reward = {
+					add_timed_idea = {
+							idea = GER_mefo_bills_1
+							days = 1825
+						}
+				}
 
 	}
 	focus = {
@@ -1010,6 +1050,12 @@ focus_tree = {
 		}
 		x = 27
 		y = 5
+			completion_reward = {
+					add_timed_idea = {
+							idea = myk_idea_GuoFangJianSHe
+							days = 365
+						}
+				}
 
 	}
 	focus = {

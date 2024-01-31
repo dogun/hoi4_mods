@@ -1570,8 +1570,8 @@ ideologies = {
 		can_host_government_in_exile = yes
 
 		modifiers = {
-			production_speed_arms_factory_factor = 0.5
-			production_speed_industrial_complex_factor = 0.25
+			#production_speed_arms_factory_factor = 0.5
+			#production_speed_industrial_complex_factor = 0.25
 			political_advisor_cost_factor = 0.25
 
 			stability_factor = 0.25  #共产主义通用
