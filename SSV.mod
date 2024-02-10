@@ -8,4 +8,4 @@ dependencies={
 }
 name="这个系列好像是丧尸危机"
 supported_version="*"
-path="F:/documents/Paradox Interactive/Hearts of Iron IV/mod/SSV"
+path="mod/SSV"

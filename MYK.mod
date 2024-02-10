@@ -5,4 +5,4 @@ tags={
 }
 name="魔影框架"
 supported_version="*"
-path="F:/documents/Paradox Interactive/Hearts of Iron IV/mod/MYK"
+path="mod/MYK"
