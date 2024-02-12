@@ -7,4 +7,4 @@ tags={
 }
 name="真实世界：二战"
 supported_version="1.13.5"
-path="mod/250"
+path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/250"

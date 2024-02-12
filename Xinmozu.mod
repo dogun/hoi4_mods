@@ -5,4 +5,4 @@ tags={
 }
 name="蓝·斯达陆亚·星"
 supported_version="1.12.*"
-path="mod/Xinmozu"
+path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/Xinmozu"

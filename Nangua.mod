@@ -5,4 +5,4 @@ tags={
 }
 name="甜瓜穿越事件"
 supported_version="1.12.*"
-path="mod/Nangua"
+path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/Nangua"

@@ -4,4 +4,4 @@ tags={
 }
 name="干掉哈布斯堡（Kill the Habsburgs）"
 supported_version="1.12.14"
-path="mod/KTH"
+path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/KTH"

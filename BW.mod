@@ -7,5 +7,5 @@ tags={
 	"National Focuses"
 }
 name="两级战争"
-supported_version="1.13.6"
-path="mod/BW"
+supported_version="*"
+path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/BW"

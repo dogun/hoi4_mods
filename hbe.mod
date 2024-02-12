@@ -5,4 +5,4 @@ tags={
 }
 name="祸布瓦尔ᵀᴹ集团"
 supported_version="1.12.*"
-path="mod/hbe"
+path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/hbe"
