@@ -1,0 +1,35 @@
+bookmarks = {
+	bookmark = {
+		name = "DEFAULT_NAME"
+		desc = "DEFAULT_DESC"
+		date = 2001.02.03
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_15
+				GER_autarky_idea
+			}
+			focuses = {
+				GER_weserubung
+				GER_plan_z
+				GER_ussr_war_goal
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
