@@ -1,0 +1,13 @@
+leader_traits = {
+
+	heijunlingdaozhe = {
+		random = no
+		political_power_factor = -0.15
+		ai_desired_divisions_factor = 1
+		ai_focus_aggressive_factor = 0.5
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+		max_planning = 0.1
+	}
+
+}

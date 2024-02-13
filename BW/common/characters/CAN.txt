@@ -1,0 +1,17 @@
+characters = {
+	CAN_philip_arthur = {
+		name = CAN_philip_arthur
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kirill_Bechvaya
+			}
+		}
+		country_leader = {
+			ideology = gongtuanzhuyi_c
+			traits={ heijunlingdaozhe }
+			expire = "1937.5.28.4"
+			id = -1
+		}
+	}
+}
+	

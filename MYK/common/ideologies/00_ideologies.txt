@@ -116,7 +116,7 @@ ideologies = {
 		can_collaborate = yes
 
 		modifiers = {
-			stability_factor = 25
+			stability_factor = 0.25
 			political_power_gain = -0.35
 			justify_war_goal_time = -0.05
 		}

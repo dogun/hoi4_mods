@@ -1,4 +1,9 @@
 ﻿l_simp_chinese:
+ wuzhengfugongchanzhuyi: "无政府共产主义"
+ wuzhengfugongchanzhuyi_noun: "无政府共产主义"
+ wuzhengfugongchanzhuyi_desc: "无政府共产主义"
+ wuzhengfugongchanzhuyi_c: "无政府共产主义"
+ wuzhengfugongchanzhuyi_c_desc: "无政府共产主义"
 
  tietuozhuyi: "铁托主义"
  tietuozhuyi_noun: "铁托主义"
@@ -263,7 +268,7 @@
  shehuiminzhuzhuyi_desc: "社会民主主义政体"
  shehuiminzhuzhuyi_c: "社会民主主义"
  shehuiminzhuzhuyi_c_desc: "社会民主主义"
-
+ 
  communism: "简易共产主义"
  communism_noun: "简易共产主义"
  democratic: "自由主义"
