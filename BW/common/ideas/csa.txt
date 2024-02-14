@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		csa_meizhoudetongzhizhe = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription_factor = 0.05
+				justify_war_goal_time = -0.25
+				stability_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor
+			}
+		}
+	}
+}

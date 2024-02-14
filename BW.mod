@@ -8,4 +8,4 @@ tags={
 }
 name="两级战争"
 supported_version="*"
-path="F:/documents/Paradox Interactive/Hearts of Iron IV/mod/BW"
+path="mod/BW"
