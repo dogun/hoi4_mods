@@ -72,4 +72,5 @@ set_popularities = {
 
 add_ideas = {
 	csa_meizhoudetongzhizhe
+	myk_idea_nlz
 }
