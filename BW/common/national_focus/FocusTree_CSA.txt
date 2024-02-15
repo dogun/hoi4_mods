@@ -1,0 +1,121 @@
+focus_tree = {
+	id = FocusTree_CSA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+	default = no
+	focus = {
+		id = 第二次南北战争
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		mutually_exclusive = {
+			focus = 维护美利坚奴隶制
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+			set_politics = {
+				ruling_party = democratic
+			}
+		}
+	}
+	focus = {
+		id = 维护美利坚奴隶制
+		icon = GFX_goal_support_fascism
+		cost = 5.00
+		mutually_exclusive = {
+			focus = 第二次南北战争
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+			#add_ideas = myk_idea_DisSiTianZai
+		}
+	}
+	focus = {
+		id = 废除奴隶制
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = 第二次南北战争
+		}
+		mutually_exclusive = {
+			focus = 妥协
+		}
+		x = 3
+		y = 2
+		completion_reward = {
+			remove_ideas = myk_idea_nlz
+		}
+	}
+	focus = {
+		id = 妥协
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		prerequisite = {
+			focus = 第二次南北战争
+		}
+		mutually_exclusive = {
+			focus = 废除奴隶制
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			#remove_ideas = myk_idea_nlz
+		}
+	}
+	focus = {
+		id = 昭昭天命
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = 维护美利坚奴隶制
+			focus = 妥协
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_ideas = csa_zhaozhaotianming
+			create_wargoal = {
+    				type = annex_everything
+    				target = ENG
+			}
+			create_wargoal = {
+    				type = annex_everything
+    				target = FRA
+			}
+		}
+	}
+	focus = {
+		id = 自由的斗士
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = 废除奴隶制
+		}
+		mutually_exclusive = {
+			focus = 共产主义万岁！！！
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = 共产主义万岁！！！
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = 废除奴隶制
+		}
+		mutually_exclusive = {
+			focus = 自由的斗士
+		}
+		x = 2
+		y = 3
+
+	}
+}
