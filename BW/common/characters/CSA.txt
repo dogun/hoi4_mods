@@ -1,0 +1,17 @@
+characters = {
+	CSA_john_thompson = {
+		name = CSA_john_thompson
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Kirill_Bechvaya
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			traits={ american_caesar union_man }
+			expire = "1958.3.19.18"
+			id = -1
+		}
+	}
+}
+

@@ -1,0 +1,36 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw
+
+country_event = {
+	id = bw.1
+	title = bw.1.t
+	desc = bw.1.d
+	#hidden = yes
+	trigger = {
+		tag = ENG
+		is_ai = no
+		#has_government = guojiafaxisi
+		#101 = { is_controlled_by = ENG }
+		#100 = { is_controlled_by = ENG }
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.1.a
+	}
+	option = {
+		name = bw.1.b
+		101 = {
+			add_core_of = LUT
+		}
+		100 = {
+			add_core_of = LUT
+		}
+	}
+	option = {
+		name = bw.1.c
+		country_event = bw.2
+	}
+}
