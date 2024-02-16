@@ -1,1 +1,2 @@
 GSR	= "countries/GSR.txt"
+PMN	= "countries/PMN.txt"

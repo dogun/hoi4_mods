@@ -6,6 +6,10 @@
  CAN_wuzhengfugongchanzhuyi: "加拿大自由邦"
  CAN_gongtuanzhuyi: "加拿大自由邦"
  
+ PMN: "南瓜第二帝国"
+ PMN_DEF: "南瓜第二帝国"
+ PMN_ADJ: "南瓜第二帝国"
+  
  CAN_philip_arthur: "菲利普·阿瑟"
 
  heijunlingdaozhe: "黑军领导者"
@@ -17,4 +21,39 @@
  csa_zhaozhaotianming: "昭昭天命"
  csa_zhaozhaotianming_desc: "昭昭天命"
  
+ csa_mimiguancha: "秘密观察"
+ csa_mimiguancha_desc: "秘密观察"
+ 
  CSA_john_thompson: "约翰·汤普森"
+ 
+ 
+ bw.1: "因纽特人暴动"
+ bw.1.t: "因纽特人暴动"
+ bw.1.d: "因纽特人暴动"
+ bw.1.a: "镇压暴动"
+ bw.1.b: "建立自治领"
+ bw.1.c: "正好测试"
+
+ bw.2: "时空紊乱"
+ bw.2.t: "时空紊乱"
+ bw.2.d: "时空紊乱"
+ bw.2.a: "太危险了"
+ bw.2.b: "继续测试"
+
+ bw.3: "维度裂缝"
+ bw.3.t: "维度裂缝"
+ bw.3.d: "维度裂缝"
+ bw.3.a: "关闭它"
+ bw.3.b: "派遣人员"
+ 
+ bw.4: "外星球"
+ bw.4.t: "外星球"
+ bw.4.d: "外星球"
+ bw.4.a: "秘密观察"
+ bw.4.b: "外星球也将臣服于大英帝国"
+ 
+ bw.5: "外星人反攻"
+ bw.5.t: "外星人反攻"
+ bw.5.d: "外星人反攻"
+ bw.5.a: "这只是一个小失误"
+ bw.5.b: "现在学习外星语还来得及吗？"

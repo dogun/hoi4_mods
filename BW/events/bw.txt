@@ -4,7 +4,7 @@
 
 add_namespace = bw
 
-country_event = {
+country_event = { #因纽特人暴动
 	id = bw.1
 	title = bw.1.t
 	desc = bw.1.d
@@ -31,6 +31,94 @@ country_event = {
 	}
 	option = {
 		name = bw.1.c
-		country_event = bw.2
+		country_event = { id = bw.2 days = 1 }
+	}
+}
+
+country_event = { #时空紊乱
+	id = bw.2
+	title = bw.2.t
+	desc = bw.2.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.2.a
+		add_stability = 0.1
+	}
+	option = {
+		name = bw.2.b
+		add_stability = -0.1
+		country_event = { id = bw.3 days = 3 }
+	}
+}
+
+
+country_event = { #维度裂缝
+	id = bw.3
+	title = bw.3.t
+	desc = bw.3.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 3 }
+	option = {
+		name = bw.3.a
+		add_stability = 0.1
+	}
+	option = {
+		name = bw.3.b
+		country_event = { id = bw.4 days = 1 }
+	}
+}
+
+country_event = { #外星球
+	id = bw.4
+	title = bw.4.t
+	desc = bw.4.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.4.a
+		add_ideas = csa_mimiguancha
+	}
+	option = {
+		name = bw.4.b
+		100 = {
+			transfer_state_to = PMN
+		}
+		101 = {
+			transfer_state_to = PMN
+		}
+		120 = {
+			transfer_state_to = PMN
+		}
+		country_event = { id = bw.5 days = 0 }
+	}
+}
+
+country_event = { #外星人反攻
+	id = bw.5
+	title = bw.5.t
+	desc = bw.5.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw.5.a
+		#add_stability = 0.1
+	}
+	option = {
+		name = bw.5.b
+		PMN = {
+			change_tag_from = ENG
+		}
 	}
 }
