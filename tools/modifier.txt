@@ -1,0 +1,36 @@
+
+#			justify_war_goal_time = -0.5 #正当化战争目标
+#			stability_factor = 0.25   #稳定度
+#			generate_wargoal_tension = 0.5  #增加产生战争目标所需的紧张度。
+#			enemy_justify_war_goal_time = 0.5 #敌人正当化战争目标
+#			army_org_factor = 0.1 #军队组织度
+#			political_power_gain = -0.15 #政治点数增加
+#			consumer_goods_factor = -0.1 #消费品工厂
+#			research_speed_factor = -0.1 #科研速度
+#			global_building_slots_factor = -0.50 #当地的建筑槽位数量增加一定百分比。
+#			weekly_manpower = -10 #周人口变化
+#			political_advisor_cost_factor = -0.5 #政治点数消耗
+#			drift_defence_factor = 0.25 #意识形态变化抵制力度
+#			xxx_drift = 0.1 #xxx意识形态漂移
+#			production_speed_<building>_factor  #某类建筑的建造速度
+#			production_speed_buildings_factor #所有建筑的建筑速度
+#			conscription_factor #适役人口百分比
+#			industrial_capacity_factory = 0.1 军工产出
+#			production_factory_efficiency_gain_factor 生产效率增长
+#			army_attack_factor = 0.25  #军队伤害
+#			army_core_attack_factor = 0.1 #核心领土伤害
+#			army_defence_factor = 0.25 #军队防御
+#			army_core_defence_factor = 0.1 #核心领土防御
+#			production_factory_max_efficiency_factor = 0.1  #生产效率上限
+
+#				production_speed_industrial_complex_factor #民用工厂建造速度
+#				production_speed_arms_factory_factor = 0.25
+#				production_speed_dockyard_factor = 0.25
+#				production_speed_naval_base_factor = 0.25
+#				production_speed_coastal_bunker_factor = 0.25
+#				production_speed_bunker_factor = 0.25
+#				production_speed_air_base_factor = 0.25
+#				production_speed_anti_air_building_factor = 0.25
+#				production_speed_radar_station_factor = 0.25
+#				production_speed_fuel_silo_factor = 0.25
+#				production_speed_synthetic_refinery_factor = 0.15
