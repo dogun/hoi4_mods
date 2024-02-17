@@ -122,3 +122,51 @@ country_event = { #外星人反攻
 		}
 	}
 }
+
+##############################维度艺术#####################
+country_event = { #飞机坠毁
+	id = bw.6
+	title = bw.6.t
+	desc = bw.6.d
+	#hidden = yes
+	mean_time_to_happen = { days = 30 }
+	trigger = {
+		tag = ENG
+		is_ai = no
+		357 = { is_controlled_by = ENG }
+	}
+	option = {
+		name = bw.6.a #别管它
+		add_stability = -0.1
+		add_political_power = -0.5
+	}
+	option = {
+		name = bw.6.b #这不正常
+		add_timed_idea = {
+			idea = bw_diaocha
+			days = 30
+		}
+		country_event = { id = bw.7 days = 30 }
+	}
+}
+
+country_event = { #地下实验室
+	id = bw.7
+	title = bw.7.t
+	desc = bw.7.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.7.a  #把它炸了
+		add_political_power = 0.5
+	}
+	option = {
+		name = bw.7.b #继续调查
+		country_event = { id = bw.8 days = 1 }
+	}
+}
+
+#TODO 一张纸条

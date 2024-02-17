@@ -9,6 +9,11 @@
  PMN: "南瓜第二帝国"
  PMN_DEF: "南瓜第二帝国"
  PMN_ADJ: "南瓜第二帝国"
+ 
+ bw_weiduyishu: "维度艺术"
+ bw_weiduyishu_desc: "维度艺术"
+ bw_diaocha: "调查"
+ bw_diaocha_desc: "调查"
   
  CAN_philip_arthur: "菲利普·阿瑟"
 
@@ -57,3 +62,15 @@
  bw.5.d: "外星人反攻"
  bw.5.a: "这只是一个小失误"
  bw.5.b: "现在学习外星语还来得及吗？"
+ 
+ bw.6: "飞机坠毁"
+ bw.6.t: "飞机坠毁"
+ bw.6.d: "飞机坠毁"
+ bw.6.a: "别管它"
+ bw.6.b: "这不正常"
+ 
+ bw.7: "地下实验室"
+ bw.7.t: "地下实验室"
+ bw.7.d: "地下实验室"
+ bw.7.a: "把它炸了"
+ bw.7.b: "继续调查"
