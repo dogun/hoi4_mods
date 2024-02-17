@@ -12,11 +12,11 @@ country_event = { #因纽特人暴动
 	trigger = {
 		tag = ENG
 		is_ai = no
-		#has_government = guojiafaxisi
-		#101 = { is_controlled_by = ENG }
-		#100 = { is_controlled_by = ENG }
+		has_government = guojiafaxisi
+		101 = { is_controlled_by = ENG }
+		100 = { is_controlled_by = ENG }
 	}
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { days = 7 }
 	option = {
 		name = bw.1.a
 	}
