@@ -3,6 +3,6 @@ tags={
 	"Events"
 	"Alternative History"
 }
-name="甜瓜穿越事件"
+name="甜瓜穿越事件（南瓜）"
 supported_version="1.12.*"
-path="E:/document/Paradox Interactive/Hearts of Iron IV/mod/Nangua"
+path="mod/Nangua"
