@@ -28,5 +28,19 @@ ideas = {
 				consumer_goods_factor = 0.15
 			}
 		}
+
+		bw_kexuejiachutao = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				research_speed_factor = -0.5
+			}
+		}
 	}
 }

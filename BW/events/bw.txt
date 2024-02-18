@@ -162,6 +162,7 @@ country_event = { #地下实验室
 	option = {
 		name = bw.7.a  #把它炸了
 		add_political_power = 0.5
+		country_event = { id = bw.10 days = 7 }
 	}
 	option = {
 		name = bw.7.b #继续调查
@@ -169,4 +170,39 @@ country_event = { #地下实验室
 	}
 }
 
-#TODO 一张纸条
+country_event = { #科学家出逃
+	id = bw.10
+	title = bw.10.t
+	desc = bw.10.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.10.a  #把它炸了
+		add_timed_idea = {
+			idea = bw_kexujiachutao
+			days = 365
+		}
+	}
+}
+
+country_event = { #一张纸条
+	id = bw.8
+	title = bw.8.t
+	desc = bw.8.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.8.a  #没什么东西，给他炸了
+		add_political_power = 0.5
+	}
+	option = {
+		name = bw.8.b #研究
+		country_event = { id = bw.9 days = 30 } #TODO纬度艺术事件
+	}
+}

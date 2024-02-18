@@ -14,7 +14,10 @@
  bw_weiduyishu_desc: "维度艺术"
  bw_diaocha: "调查"
  bw_diaocha_desc: "调查"
-  
+ bw_kexuejiachutao: "科学家出逃"
+ bw_kexuejiachutao_desc: "科学家出逃"
+ 
+ 
  CAN_philip_arthur: "菲利普·阿瑟"
 
  heijunlingdaozhe: "黑军领导者"
@@ -74,3 +77,19 @@
  bw.7.d: "地下实验室"
  bw.7.a: "把它炸了"
  bw.7.b: "继续调查"
+ 
+ bw.8: "一张纸条"
+ bw.8.t: "一张纸条"
+ bw.8.d: "一张纸条"
+ bw.8.a: "没什么东西，给他炸了"
+ bw.8.b: "研究"
+ 
+ bw.9: "维度艺术"
+ bw.9.t: "维度艺术"
+ bw.9.d: "维度艺术"
+ bw.9.a: "真漂亮"
+
+ bw.10: "科学家出逃"
+ bw.10.t: "科学家出逃"
+ bw.10.d: "科学家出逃"
+ bw.10.a: "Oh no"
