@@ -30,7 +30,8 @@ country_event = { #因纽特人暴动
 		}
 	}
 	option = {
-		name = bw.1.c
+		name = bw.1.c  #正好测试
+		trigger = { has_idea = bw_weiduyishu  }
 		country_event = { id = bw.2 days = 1 }
 	}
 }
@@ -203,6 +204,24 @@ country_event = { #一张纸条
 	}
 	option = {
 		name = bw.8.b #研究
-		country_event = { id = bw.9 days = 30 } #TODO纬度艺术事件
+		country_event = { id = bw.9 days = 30 } 
+	}
+}
+
+country_event = { #纬度艺术
+	id = bw.9
+	title = bw.9.t
+	desc = bw.9.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.9.a  #真漂亮
+		add_tech_bonus = {
+			ahead_reduction = 0.1
+		}
+		add_ideas = bw_weiduyishu
 	}
 }
