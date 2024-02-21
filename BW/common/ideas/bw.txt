@@ -42,5 +42,23 @@ ideas = {
 				research_speed_factor = -0.5
 			}
 		}
+		bw_FangFanKeLunSiJi = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				research_speed_factor = -0.5
+			}
+			targeted_modifier = {
+				tag = RF
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
 	}
 }
