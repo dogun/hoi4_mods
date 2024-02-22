@@ -52,10 +52,26 @@ ideas = {
 			}
 
 			modifier = {
-				research_speed_factor = -0.5
 			}
 			targeted_modifier = {
 				tag = RF
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		bw_FangFanSHaHuang = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = FER
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
 			}
