@@ -166,7 +166,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 3
-
+		completion_reward = {
+			puppet = CAN
+		}
 	}
 	focus = {
 		id = 建立萨哈防线
@@ -194,7 +196,12 @@ focus_tree = {
 		}
 		x = 8
 		y = 4
-
+		completion_reward = {
+			create_wargoal = { 
+				type = annex_everything
+				target = FER
+			}
+		}
 	}
 	focus = {
 		id = 收复阿拉斯加
@@ -205,7 +212,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
-
+		completion_reward = {
+			set_state_owner = 463
+		}
 	}
 	focus = {
 		id = 托洛斯基的阴谋
@@ -221,6 +230,8 @@ focus_tree = {
 		}
 		x = 5
 		y = 6
-
+		completion_reward = {
+			custom_effect_tooltip = SOV_QieHuanXiaYiJieDuanGuoCe
+		}
 	}
 }

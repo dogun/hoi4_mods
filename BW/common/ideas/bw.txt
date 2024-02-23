@@ -76,5 +76,33 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		bw_HuangSHiWeiDui = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			stability_factor = 0.1
+			training_time_factor = -0.1
+			}
+		}
+		bw_RenMingZongDu = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			stability_factor = 0.1
+			required_garrison_factor = -0.1
+			}
+		}
 	}
 }

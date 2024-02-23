@@ -1,0 +1,135 @@
+focus_tree = {
+	id = FocusTree_FER_ZHengTong_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = FER
+		}
+	}
+	default = no
+
+	focus = {
+		id = 战争计划部
+		icon = GFX_goal_generic_special_forces
+		cost = 5
+
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = 分歧
+		icon = GFX_goal_generic_attack_allies
+		cost = 1.00
+		prerequisite = {
+			focus = 战争计划部
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = 论闪电战
+		icon = GFX_goal_generic_army_motorized
+		cost = 50.00
+		prerequisite = {
+			focus = 分歧
+		}
+		mutually_exclusive = {
+			focus = 论持久战
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = 论持久战
+		icon = GFX_goal_generic_construction2
+		cost = 50.00
+		prerequisite = {
+			focus = 分歧
+		}
+		mutually_exclusive = {
+			focus = 论闪电战
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = 一战的经验
+		icon = GFX_goal_generic_construct_military
+		cost = 5.00
+		prerequisite = {
+			focus = 论持久战
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = 堑壕学说
+		icon = GFX_goal_generic_construct_civilian
+		cost = 5.00
+		prerequisite = {
+			focus = 论持久战
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = 建设堡垒
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = 堑壕学说
+		}
+		prerequisite = {
+			focus = 一战的经验
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = 现代堑壕战
+		icon = GFX_goal_generic_construction
+		cost = 5.00
+		prerequisite = {
+			focus = 一战的经验
+		}
+		prerequisite = {
+			focus = 堑壕学说
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = 计划第二次索姆河
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = 建设堡垒
+		}
+		prerequisite = {
+			focus = 现代堑壕战
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = 开战
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 1.00
+		prerequisite = {
+			focus = 计划第二次索姆河
+		}
+		x = 6
+		y = 6
+
+	}
+}

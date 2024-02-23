@@ -1,11 +1,106 @@
 ﻿l_simp_chinese:
- GSR: "德国"
- GSR_DEF: "德国"
- GSR_ADJ: "德国"
+ GSR: "德意志社会主义苏维埃共和国"
+ GSR_DEF: "德意志社会主义苏维埃共和国"
+ GSR_ADJ: "德意志社会主义苏维埃共和国"
  
  RF: "俄罗斯民主联邦共和国"
  RF_DEF: "俄罗斯民主联邦共和国"
  RF_ADJ: "俄罗斯民主联邦共和国"
+ 
+ FER_fascism: "爱斯基摩民族国"
+ #法西斯
+ FER_fascism_DEF: "爱斯基摩民族国"
+ #法西斯
+ FER_fascism_ADJ: "爱斯基摩"
+ #法西斯
+ FER_democratic: "远东共和国"
+ #民主
+ FER_democratic_DEF: "远东共和国"
+ #民主
+ FER_democratic_ADJ: "远东"
+ #民主
+ FER_communism: "东西伯利亚人民国"
+ #共产
+ FER_communism_DEF: "东西伯利亚人民国"
+ #共产
+ FER_communism_ADJ: "东西伯利亚"
+ #共产
+ FER_neutrality: "沙皇国"
+ #中立
+ FER_neutrality_DEF: "沙皇国"
+ #中立
+ FER_neutrality_ADJ: "沙皇国"
+ #中立
+ FER_gongtuanzhuyi: "远东自由苏维埃"
+ #萨布林
+ FER_gongtuanzhuyi_DEF: "远东自由苏维埃"
+ #萨布林
+ FER_gongtuanzhuyi_ADJ: "布里亚特"
+ #萨布林
+ 
+ FER_SOV_communism_subject: "远东苏维埃共和国"
+ FER_SOV_communism_subject_DEF: "远东苏维埃共和国"
+ FER_SOV_communism_subject_ADJ: "远东"
+ FER_JAP_neutrality_subject: "日属远东保护国"
+ FER_JAP_neutrality_subject_DEF: "日属远东保护国"
+ FER_JAP_neutrality_subject_ADJ: "日属西伯利亚"
+ FER_JAP_fascism_subject: "东西伯利亚方面军"
+ FER_JAP_fascism_subject_DEF: "东西伯利亚方面军"
+ FER_JAP_fascism_subject_ADJ: "东西伯利亚"
+ 
+ SOV: "西伯利亚"
+ SOV_DEF: "西伯利亚"
+ SOV_ADJ: "西伯利亚"
+ 
+ SOV_fascism: "雅库特民族国"
+ #法西斯
+ SOV_fascism_DEF: "雅库特民族国"
+ #法西斯
+ SOV_fascism_ADJ: "雅库特"
+ #法西斯
+ SOV_democratic: "萨哈共和国"
+ #民主
+ SOV_democratic_DEF: "萨哈共和国"
+ #民主
+ SOV_democratic_ADJ: "萨哈"
+ #民主
+ SOV_neutrality: "西伯利亚王国"
+ #中立
+ SOV_neutrality_DEF: "西伯利亚王国"
+ #中立
+ SOV_neutrality_ADJ: "西伯利亚"
+ #中立
+ SOV_communism: "西伯利亚苏维埃"
+ #共产
+ SOV_communism_DEF: "西伯利亚苏维埃"
+ #共产
+ SOV_communism_ADJ: "西伯利亚"
+ #共产
+ SOV_sidalinzhuyi: "西伯利亚苏维埃"
+ #斯大林
+ SOV_sidalinzhuyi_DEF: "西伯利亚苏维埃"
+ #斯大林
+ SOV_sidalinzhuyi_ADJ: "西伯利亚"
+ #斯大林
+ 
+ SOV_autonomy_dominion: "俄罗斯自治领"
+ SOV_autonomy_dominion_DEF: "俄罗斯自治领"
+ SOV_autonomy_colony: "$OVERLORDADJ$属俄罗斯"
+ SOV_autonomy_colony_DEF: "$OVERLORDADJ$属俄罗斯"
+ SOV_autonomy_integrated_puppet: "俄罗斯保护国"
+ SOV_autonomy_integrated_puppet_DEF: "俄罗斯保护国"
+ SOV_autonomy_puppet: "$OVERLORDADJ$属俄罗斯"
+ SOV_autonomy_puppet_DEF: "$OVERLORDADJ$属俄罗斯"
+ SOV_autonomy_reichskommissariat: "俄罗斯专员辖区"
+ SOV_autonomy_reichskommissariat_DEF: "俄罗斯专员辖区"
+ SOV_GER_fascism_autonomy_reichskommissariat: "莫斯科专员辖区"
+ SOV_GER_fascism_autonomy_reichskommissariat_DEF: "莫斯科专员辖区"
+ SOV_autonomy_reichsprotectorate: "俄罗斯保护国"
+ SOV_autonomy_reichsprotectorate_DEF: "俄罗斯保护国"
+ SOV_autonomy_wtt_imperial_protectorate: "露西亚皇国保护国"
+ SOV_autonomy_wtt_imperial_protectorate_DEF: "露西亚皇国保护国"
+ SOV_autonomy_supervised_state: "$OVERLORDADJ$属俄罗斯托管地"
+ SOV_autonomy_supervised_state_DEF: "$OVERLORDADJ$属俄罗斯托管地"
  
  CAN_wuzhengfugongchanzhuyi: "加拿大自由邦"
  CAN_gongtuanzhuyi: "加拿大自由邦"
@@ -97,3 +192,5 @@
  bw.10.t: "科学家出逃"
  bw.10.d: "科学家出逃"
  bw.10.a: "Oh no"
+ 
+ SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"

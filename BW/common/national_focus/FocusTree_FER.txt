@@ -1,0 +1,163 @@
+focus_tree = {
+	id = FocusTree_FER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FER
+		}
+	}
+	default = no
+	focus = {
+		id = 沙皇统治
+		icon = GFX_goal_generic_political_pressure
+		cost = 5.00
+		x = 6
+		y = 0
+		completion_reward = {
+			add_popularity = {
+   				ideology = neutrality
+    				popularity = 0.10
+			}
+		}
+	}
+	focus = {
+		id = 任命黄俄罗斯总督
+		icon = GFX_goal_generic_improve_relations
+		cost = 5.00
+		prerequisite = {
+			focus = 沙皇统治
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+		add_ideas = bw_RenMingZongDu
+		}
+	}
+	focus = {
+		id = 建立皇室卫队
+		icon = GFX_goal_generic_small_arms
+		cost = 5.00
+		prerequisite = {
+			focus = 沙皇统治
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+		add_ideas = bw_HuangSHiWeiDui
+		}
+	}
+	focus = {
+		id = 对西伯利亚政策
+		icon = GFX_goal_generic_major_alliance
+		cost = 1.00
+		prerequisite = {
+			focus = 任命黄俄罗斯总督
+			focus = 建立皇室卫队
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			custom_effect_tooltip = 削弱西伯利亚对你的进攻能力
+		}
+	}
+	focus = {
+		id = 对俄国政策
+		icon = GFX_goal_generic_major_alliance
+		cost = 1.00
+		prerequisite = {
+			focus = 任命黄俄罗斯总督
+			focus = 建立皇室卫队
+		}
+		x = 7
+		y = 2
+		completion_reward = {
+			custom_effect_tooltip = 削弱俄罗斯对你的进攻能力
+		}
+	}
+	focus = {
+		id = 三分天下
+		icon = GFX_goal_generic_national_unity
+		cost = 1.00
+		prerequisite = {
+			focus = 对西伯利亚政策
+		}
+		prerequisite = {
+			focus = 对俄国政策
+		}
+		mutually_exclusive = {
+			focus = 瓜分西伯利亚
+			focus = 我才是正统
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = SOV_QieHuanXiaYiJieDuanGuoCe
+		}
+	}
+	focus = {
+		id = 瓜分西伯利亚
+		icon = GFX_goal_generic_demand_territory
+		cost = 1.00
+		prerequisite = {
+			focus = 对俄国政策
+		}
+		prerequisite = {
+			focus = 对西伯利亚政策
+		}
+		mutually_exclusive = {
+			focus = 三分天下
+			focus = 大西伯利亚与苏维埃俄国
+			focus = 我才是正统
+			focus = 我才是正统
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = SOV_QieHuanXiaYiJieDuanGuoCe
+		}
+	}
+	focus = {
+		id = 我才是正统
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 1.00
+		prerequisite = {
+			focus = 对俄国政策
+		}
+		prerequisite = {
+			focus = 对西伯利亚政策
+		}
+		mutually_exclusive = {
+			focus = 大西伯利亚与苏维埃俄国
+			focus = 三分天下
+			focus = 瓜分西伯利亚
+			focus = 瓜分西伯利亚
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = SOV_QieHuanXiaYiJieDuanGuoCe
+			load_focus_tree = FocusTree_FER_ZHengTong_0
+		}
+	}
+	focus = {
+		id = 大西伯利亚与苏维埃俄国
+		icon = GFX_goal_anti_comintern_pact
+		cost = 1.00
+		prerequisite = {
+			focus = 对西伯利亚政策
+		}
+		prerequisite = {
+			focus = 对俄国政策
+		}
+		mutually_exclusive = {
+			focus = 我才是正统
+			focus = 瓜分西伯利亚
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = SOV_QieHuanXiaYiJieDuanGuoCe
+		}
+	}
+}
