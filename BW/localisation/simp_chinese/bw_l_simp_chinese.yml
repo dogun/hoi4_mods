@@ -109,6 +109,14 @@
  PMN_DEF: "南瓜第二帝国"
  PMN_ADJ: "南瓜第二帝国"
  
+ RBA: "布里亚特方面军"
+ RBA_DEF: "布里亚特方面军"
+ RBA_ADJ: "布里亚特方面军"
+ 
+ RBB: "布里亚特红军"
+ RBB_DEF: "布里亚特红军"
+ RBB_ADJ: "布里亚特红军"
+ 
  bw_weiduyishu: "维度艺术"
  bw_weiduyishu_desc: "维度艺术"
  bw_diaocha: "调查"
