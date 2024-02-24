@@ -54,7 +54,7 @@ ideas = {
 			modifier = {
 			}
 			targeted_modifier = {
-				tag = RF
+				tag = RFE
 				attack_bonus_against = 0.1
 				defense_bonus_against = 0.1
 			}
@@ -116,6 +116,25 @@ ideas = {
 			modifier = {
 				max_planning_factor = 0.1
 				planning_speed = 0.1
+			}
+		}
+		bw_BeiBingYangJiHua = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				max_planning_factor = 0.1
+				planning_speed = 0.1
+				}
+			targeted_modifier = {
+				tag = FER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
 			}
 		}
 	}

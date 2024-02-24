@@ -65,7 +65,7 @@ country_event = { #维度裂缝
 
 	is_triggered_only = yes
 
-	mean_time_to_happen = { days = 3 }
+	#mean_time_to_happen = { days = 3 }
 	option = {
 		name = bw.3.a
 		add_stability = 0.1
@@ -183,7 +183,7 @@ country_event = { #科学家出逃
 	option = {
 		name = bw.10.a  #把它炸了
 		add_timed_idea = {
-			idea = bw_kexujiachutao
+			idea = bw_kexuejiachutao
 			days = 365
 		}
 	}
@@ -223,5 +223,24 @@ country_event = { #纬度艺术
 			ahead_reduction = 0.1
 		}
 		add_ideas = bw_weiduyishu
+	}
+}
+
+country_event = { #分歧
+	id = bw.11
+	title = bw.11.t
+	desc = bw.11.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.11.a  #支持闪电战
+		#TODO
+	}
+	option = {
+		name = bw.11.a  #支持持久战
+		#TODO
 	}
 }

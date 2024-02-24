@@ -1,0 +1,188 @@
+focus_tree = {
+	id = FocusTree_SOV_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = 制订北冰洋计划
+		icon = GFX_goal_generic_position_armies
+		cost = 5.00
+		x = 6
+		y = 0
+		completion_reward = {
+			add_ideas = bw_BeiBingYangJiHua
+		}
+	}
+	focus = {
+		id = 煽动工人
+		icon = GFX_goal_generic_production
+		cost = 2.00
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = 修正计划
+		icon = GFX_goal_generic_army_doctrines
+		cost = 5.00
+		prerequisite = {
+			focus = 制订北冰洋计划
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = 新武器
+		icon = GFX_goal_generic_army_artillery
+		cost = 1.00
+		prerequisite = {
+			focus = 修正计划
+		}
+		x = 2
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = infantry_tech
+			}
+		}
+	}
+	focus = {
+		id = 钢铁巨兽
+		icon = GFX_goal_generic_army_tanks
+		cost = 1.00
+		prerequisite = {
+			focus = 新武器
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = 联络中国
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1.00
+		prerequisite = {
+			focus = 制订北冰洋计划
+		}
+		mutually_exclusive = {
+			focus = 联络日本
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = 承诺黄俄罗斯
+		icon = GFX_goal_generic_political_pressure
+		cost = 1.00
+		prerequisite = {
+			focus = 联络中国
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = 联络日本
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1.00
+		prerequisite = {
+			focus = 制订北冰洋计划
+		}
+		mutually_exclusive = {
+			focus = 联络中国
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = 承诺满洲
+		icon = GFX_goal_generic_major_alliance
+		cost = 1.00
+		prerequisite = {
+			focus = 联络日本
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = 联络远东共产党
+		icon = GFX_goal_anti_comintern_pact
+		cost = 1.00
+		prerequisite = {
+			focus = 煽动工人
+		}
+		prerequisite = {
+			focus = 制订北冰洋计划
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = 接触无政府主义
+		icon = GFX_goal_generic_national_unity
+		cost = 2.00
+		prerequisite = {
+			focus = 联络远东共产党
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = 粉碎它们
+		icon = GFX_goal_generic_territory_or_war
+		cost = 5.00
+		prerequisite = {
+			focus = 承诺黄俄罗斯
+			focus = 承诺满洲
+			focus = 接触无政府主义
+		}
+		prerequisite = {
+			focus = 钢铁巨兽
+		}
+		x = 7
+		y = 5
+		completion_reward = {
+			create_wargoal = { 
+				type = annex_everything
+				target = FER
+			}
+		}
+	}
+	focus = {
+		id = 暗杀沙皇
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = 联络远东共产党
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = 公审沙皇
+		icon = GFX_goal_demand_sudetenland
+		cost = 1.00
+		prerequisite = {
+			focus = 粉碎它们
+		}
+		x = 7
+		y = 6
+
+	}
+}

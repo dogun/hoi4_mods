@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+#国家
  GSR: "德意志社会主义苏维埃共和国"
  GSR_DEF: "德意志社会主义苏维埃共和国"
  GSR_ADJ: "德意志社会主义苏维埃共和国"
@@ -116,14 +117,15 @@
  RBB: "布里亚特红军"
  RBB_DEF: "布里亚特红军"
  RBB_ADJ: "布里亚特红军"
- 
+ #民族精神
  bw_weiduyishu: "维度艺术"
  bw_weiduyishu_desc: "维度艺术"
  bw_diaocha: "调查"
  bw_diaocha_desc: "调查"
  bw_kexuejiachutao: "科学家出逃"
  bw_kexuejiachutao_desc: "科学家出逃"
- 
+ bw_BeiBingYangJiHua: "北冰洋计划"
+ bw_BeiBingYangJiHua_desc: "北冰洋计划是一个战争计划"
  
  CAN_philip_arthur: "菲利普·阿瑟"
 
@@ -201,4 +203,11 @@
  bw.10.d: "科学家出逃"
  bw.10.a: "Oh no"
  
+ bw.11: "分歧"
+ bw.11.t: "分歧"
+ bw.11.d: "分歧"
+ bw.11.a: "支持闪电战"
+ bw.11.b: "支持持久战"
+ 
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
+ FocusTree_SOV_1: "先发制人"
