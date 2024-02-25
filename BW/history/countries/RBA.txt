@@ -17,3 +17,9 @@ set_popularities = {
 	junzhengfu = 40
 	neutrality = 60
 }
+
+declare_war_on = {
+	target = RBB
+	type = annex_everything
+}
+give_guarantee = FER

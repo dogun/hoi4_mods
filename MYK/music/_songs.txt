@@ -293,10 +293,10 @@ music = {
 	}
 }
 
-music_station = "base_music"
+#music_station = "base_music"
 
 music = {
-	song = "Maréchal, nous voilà !（大元帅我™来啦！）"
+	song = "大元帅我来啦"
 	chance = {
 		modifier = {
 			factor = 0.5
