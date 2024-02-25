@@ -97,6 +97,9 @@ set_popularities = {
 	junzhengfu = 30
 }
 
+set_power_balance = {
+id = FER_Tsar_KBKV
+}
 
 
 

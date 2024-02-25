@@ -219,3 +219,14 @@
  
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
  FocusTree_SOV_1: "先发制人"
+ #权力平衡
+ FER_Tsar_KBKV: "权力分布"
+ Tsar_KBKV: "平衡"
+ Tsar: "国王"
+ Tsar_1: "分权"
+ Tsar_2: "正常"
+ Tsar_3: "独裁"
+ KBKV: "哥萨克"
+ KBKV_1: "哥萨克传统"
+ KBKV_2: "阿斗"
+ KBKV_3: "军政府"
