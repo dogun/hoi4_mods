@@ -974,3 +974,6 @@ add_to_faction = TAN
 		}
 	}
 }
+set_power_balance = {
+id = SOV_Stalin_Trotsky
+}
