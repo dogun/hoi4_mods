@@ -1,20 +1,33 @@
 ﻿l_simp_chinese:
+
 #地区
  STATE_195: "圣彼得堡"
  STATE_195_SOV: "列宁格勒"
  
 #国家
+  
  GSR: "德意志社会主义苏维埃共和国"
  GSR_DEF: "德意志社会主义苏维埃共和国"
  GSR_ADJ: "德意志社会主义苏维埃共和国"
  
  RFE: "俄罗斯"
+ #通用
  RFE_DEF: "俄罗斯"
+ #通用
  RFE_ADJ: "俄罗斯"
- 
+ #通用
+ RFE_fascism: "神圣俄罗斯雅利安国"
+ #法西斯
+ RFE_fascism_DEF: "神圣俄罗斯雅利安国"
+ #法西斯
+ RFE_fascism_ADJ: "俄罗斯"
+ #法西斯
  RFE_democratic: "俄罗斯民主联邦共和国"
+ #民主
  RFE_democratic_DEF: "俄罗斯民主联邦共和国"
- RFE_democratic_ADJ: "俄罗斯民主联邦共和国"
+ #民主
+ RFE_democratic_ADJ: "俄罗斯"
+ #民主
  
  FER_fascism: "爱斯基摩民族国"
  #法西斯
