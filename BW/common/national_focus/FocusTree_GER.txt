@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 1
 			tag = GER
 		}
 	}
@@ -44,7 +44,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = 结束内战
+		id = 劝降
 		icon = GFX_goal_demand_sudetenland
 		cost = 1.00
 		prerequisite = {
@@ -59,7 +59,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		cost = 3.00
 		prerequisite = {
-			focus = 结束内战
+			focus = 劝降
 		}
 		prerequisite = {
 			focus = 元首万岁
@@ -115,7 +115,7 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 5.00
 		prerequisite = {
-			focus = 结束内战
+			focus = 劝降
 		}
 		prerequisite = {
 			focus = 元首万岁
@@ -563,7 +563,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_doctrines
 		cost = 5.00
 		prerequisite = {
-			focus = 结束内战
+			focus = 劝降
 		}
 		prerequisite = {
 			focus = 元首万岁
@@ -580,7 +580,7 @@ focus_tree = {
 		icon = GFX_goal_generic_attack_allies
 		cost = 2.00
 		prerequisite = {
-			focus = 结束内战
+			focus = 劝降
 		}
 		prerequisite = {
 			focus = 元首万岁
@@ -667,7 +667,7 @@ focus_tree = {
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 5.00
 		prerequisite = {
-			focus = 结束内战
+			focus = 劝降
 		}
 		prerequisite = {
 			focus = 元首万岁

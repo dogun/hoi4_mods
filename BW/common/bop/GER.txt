@@ -1,0 +1,78 @@
+
+GER_Xi = {
+	initial_value = 0.25
+	left_side = Adolf_Hitler
+	right_side = Heinrich_Luitpold_Himmler
+	decision_category = GER_mefo_bills_category
+	range = {
+		id = Tsar_KBKV
+		min = -0.15
+		max = 0.15
+		modifier = {
+
+		}
+	}
+	side = {
+		id = Adolf_Hitler
+		icon = GFX_idea_generic_agrarian_society
+		range = {
+			id = Adolf_Hitler_1
+			min = -0.5
+			max = -0.15
+			modifier = {
+				stability_factor = 0.1
+				party_popularity_stability_factor = 0.15
+			}
+		}
+		range = {
+			id = Adolf_Hitler_2
+			min = -0.90
+			max = -0.5
+			modifier = {
+				stability_factor = 0.2
+				party_popularity_stability_factor = 0.3
+			}
+		}
+		range = {
+			id = Adolf_Hitler_3
+			min = -1
+			max = -0.90
+			modifier = {
+				stability_factor = 0.3
+				party_popularity_stability_factor = 0.45
+			}
+		}
+	}
+	side = {
+		id = Heinrich_Luitpold_Himmler
+		icon = GFX_idea_generic_degauss_ship_hulls
+		range = {
+			id = Heinrich_Luitpold_Himmler_1
+			min = 0.15
+			max = 0.5
+			modifier = {
+				stability_factor = -0.1
+				army_attack_factor = 0.2
+				army_defence_factor = 0.2
+			}
+		}
+		range = {
+			id = Heinrich_Luitpold_Himmler_2
+			min = 0.5
+			max = 0.9
+			modifier = {
+				stability_factor = -0.2
+				army_attack_factor = 0.4
+				army_defence_factor = 0.4
+			}
+		}
+		range = {
+			id = Heinrich_Luitpold_Himmler_3
+			min = 0.9
+			max = 1
+			modifier = {
+				army_attack_factor = 0.5
+			}
+		}
+	}
+}

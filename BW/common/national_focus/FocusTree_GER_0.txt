@@ -1,0 +1,308 @@
+focus_tree = {
+	id = FocusTree_GER_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = 选票无效
+		icon = GFX_goal_demand_sudetenland
+		cost = 50.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = “希”与“希”
+		icon = GFX_goal_generic_military_deal
+		cost = 0
+		x = 17
+		y = 0
+		completion_reward = {
+			set_power_balance = {
+				id = GER_Xi
+			}
+		}
+	}
+	focus = {
+		id = 动员冲锋队
+		icon = GFX_goal_generic_small_arms
+		cost = 0.50
+		prerequisite = {
+			focus = 选票无效
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = 动员党卫军
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 0.50
+		prerequisite = {
+			focus = 选票无效
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = 团结一致
+		icon = GFX_goal_generic_national_unity
+		cost = 1.00
+		prerequisite = {
+			focus = 动员冲锋队
+		}
+		prerequisite = {
+			focus = 动员党卫军
+		}
+		x = 3
+		y = 2
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = 斯特拉瑟派？只要能打仗就行
+		icon = GFX_goal_generic_attack_allies
+		cost = 5.00
+		prerequisite = {
+			focus = 团结一致
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+			add_manpower = 2000
+			add_stability = -0.05
+			add_popularity = {
+			ideology = sitelasezhuyi
+				popularity = 0.1
+			}
+		}
+	}
+	focus = {
+		id = 整合巴伐利亚
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = 动员党卫军
+		}
+		prerequisite = {
+			focus = 动员冲锋队
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = 多瑙防线
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = 整合巴伐利亚
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+		50 = {
+			add_building_construction = {
+				type = bunker
+				province = 3679
+				level = 2
+				instant_build = yes
+				}
+			add_building_construction = {
+				type = bunker
+				province = 6934
+				level = 2
+				instant_build = yes
+				}
+			add_building_construction = {
+				type = bunker
+				province = 3690
+				level = 2
+				instant_build = yes
+				}
+			}
+		52 = {
+			add_building_construction = {
+				type = bunker
+				province = 708
+				level = 2
+				instant_build = yes
+				}
+			add_building_construction = {
+				type = bunker
+				province = 3705
+				level = 2
+				instant_build = yes
+				}
+			}
+		53 = {
+			add_building_construction = {
+				type = bunker
+				province = 9515
+				level = 2
+				instant_build = yes
+				}
+			add_building_construction = {
+				type = bunker
+				province = 9681
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 威悉行动
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = 整合巴伐利亚
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = 希姆莱将军
+		icon = GFX_goal_generic_demand_territory
+		cost = 0.50
+		prerequisite = {
+			focus = 动员党卫军
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = 与英法谈判
+		icon = GFX_goal_generic_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = 选票无效
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = 签署日内瓦条约
+		icon = GFX_goal_generic_major_alliance
+		cost = 0.15
+		prerequisite = {
+			focus = 与英法谈判
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = 以萨尔换取支援
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 2.00
+		prerequisite = {
+			focus = 签署日内瓦条约
+		}
+		prerequisite = {
+			focus = 整合巴伐利亚
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = 赎回萨尔
+		icon = GFX_goal_generic_trade
+		cost = 1.00
+		prerequisite = {
+			focus = 以萨尔换取支援
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = 加强冲锋队
+		icon = GFX_goal_demand_sudetenland
+		cost = 3.00
+		prerequisite = {
+			focus = “希”与“希”
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = 渗透党卫军
+		icon = GFX_goal_generic_major_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = “希”与“希”
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = 海德里希？
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 1.00
+		prerequisite = {
+			focus = 渗透党卫军
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = 第三方
+		icon = GFX_goal_generic_demand_territory
+		cost = 3.43
+		prerequisite = {
+			focus = 加强冲锋队
+		}
+		prerequisite = {
+			focus = 海德里希？
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = 第二次国会纵火案
+		icon = GFX_goal_generic_attack_allies
+		cost = 1.00
+		prerequisite = {
+			focus = 第三方
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = 结束内战
+		icon = GFX_goal_generic_territory_or_war
+		cost = 1.00
+		prerequisite = {
+			focus = 第二次国会纵火案
+		}
+		prerequisite = {
+			focus = 赎回萨尔
+		}
+		prerequisite = {
+			focus = 威悉行动
+		}
+		x = 12
+		y = 7
+		completion_reward = {
+			load_focus_tree = FocusTree_GER
+		}
+	}
+}
