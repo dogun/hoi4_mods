@@ -1,0 +1,31 @@
+characters={
+	RBD_Alsat1 = {
+		name = RBD_Alsat
+		portraits={
+			civilian={
+				large=gfx\leaders\Alsat.dds
+			}
+		}
+		country_leader={
+			ideology=baoshouzhuyi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	RBD_Alsat2 = {
+		name = RBD_Alsat
+		portraits={
+			civilian={
+				large=gfx\leaders\Alsat.dds
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

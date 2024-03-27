@@ -1,10 +1,13 @@
 ﻿l_simp_chinese:
 
-#地区
+ #地区
  STATE_195: "圣彼得堡"
  STATE_195_SOV: "列宁格勒"
+ STATE_970: "萨尔"
+ STATE_971: "马祖伦"
+ STATE_5: "埃姆兰"
  
-#国家
+ #国家
   
  GSR: "德意志社会主义苏维埃共和国"
  GSR_DEF: "德意志社会主义苏维埃共和国"
@@ -138,17 +141,116 @@
  RBB: "布里亚特红军"
  RBB_DEF: "布里亚特红军"
  RBB_ADJ: "布里亚特红军"
+ 
+ RBD: "莱茵联邦"
+ #通用
+ RBD_DEF: "莱茵联邦"
+ #通用
+ RBD_ADJ: "莱茵"
+ #通用
+ 
+ Bei_De_G: "北德意志联邦"
+ #通用
+ Bei_De_G_DEF: "北德意志联邦"
+ #通用
+ Bei_De_G_ADJ: "北德"
+ #通用
+ 
+ De_G: "德意志联邦"
+ #通用
+ De_G_DEF: "德意志联邦"
+ #通用
+ De_G_ADJ: "德"
+ #通用
+ 
+ De4_G: "德意志第四帝国"
+ #通用
+ De4_G_DEF: "德意志第四帝国"
+ #通用
+ De4_G_ADJ: "德"
+ #通用
+ 
+ GER_fascism:0 "德意志民族临时政府"
+ #法西斯
+ GER_fascism_DEF:0 "德意志民族临时政府"
+ #法西斯
+ GER_fascism_ADJ: "临时政府"
+ #法西斯
+ 
+ De3_G_fascism: "德意志第三帝国"
+ #通用
+ De3_G_fascism_DEF: "德意志第三帝国"
+ #通用
+ De3_G_fascism_ADJ: "德三"
+ #通用
+ 
+ CZE: "捷克斯洛伐克"
+ #通用
+ CZE_DEF: "捷克斯洛伐克"
+ #通用
+ CZE_ADJ: "捷斯"
+ #通用
+ CZE_fascism: "波希米亚帝国"
+ #法西斯
+ CZE_fascism_DEF: "波希米亚帝国"
+ #法西斯
+ CZE_fascism_ADJ: "波西米亚"
+ #法西斯
+ CZE_democratic: "捷克斯洛伐克联邦"
+ #民主
+ CZE_democratic_DEF: "捷克斯洛伐克联邦"
+ #民主
+ CZE_democratic_ADJ: "捷斯"
+ #民主
+ CZE_neutrality: "波希米亚王国"
+ #中立
+ CZE_neutrality_DEF: "波希米亚王国"
+ #中立
+ CZE_neutrality_ADJ: "波西米亚"
+ CZE_communism: "捷克斯洛伐克联盟"
+ #共产
+ CZE_communism_DEF: "捷克斯洛伐克联盟"
+ #共产
+ CZE_communism_ADJ: "捷斯"
+ #共产
+ CZE_subject: "$OVERLORDADJ$属$CZE$"
+ #傀儡
+ CZE_subject_DEF: "$OVERLORDADJ$属$CZE$"
+ #傀儡
+ 
  #民族精神
  bw_weiduyishu: "维度艺术"
  bw_weiduyishu_desc: "维度艺术"
+ 
  bw_diaocha: "调查"
  bw_diaocha_desc: "调查"
+ 
  bw_kexuejiachutao: "科学家出逃"
  bw_kexuejiachutao_desc: "科学家出逃"
+ 
  bw_BeiBingYangJiHua: "北冰洋计划"
  bw_BeiBingYangJiHua_desc: "北冰洋计划是一个战争计划"
  
+ bw_FaFa: "一个彩蛋"
+ bw_FaFa_desc: "彩蛋之一"
+ 
+ bw_QiangXingFenLieZHiKu_CZE: "分裂之苦"
+ #bw_QiangXingFenLieZHiKu_CZE_desc: "捷克和斯洛伐克想要成为一个国家，但特里亚农条约的签署粉碎了这件事。"
+ bw_QiangXingFenLieZHiKu_CZE_desc: "在奥匈帝国解体时捷克人和斯洛伐克人因为不管在哪方面讲都极其相似，所以捷克和斯洛伐克组成了捷克斯洛伐克联邦，但特里亚农条约的签署让捷克斯洛伐克联邦分裂成捷克和斯洛伐克。"
+ 
+ bw_QiangXingFenLieZHiKu_SLO: "分裂之苦"
+ #bw_QiangXingFenLieZHiKu_SLO_desc: "捷克和斯洛伐克想要成为一个国家，但特里亚农条约的签署粉碎了这件事。"
+ bw_QiangXingFenLieZHiKu_SLO_desc: "在奥匈帝国解体时捷克人和斯洛伐克人因为不管在哪方面讲都极其相似，所以捷克和斯洛伐克组成了捷克斯洛伐克联邦，但特里亚农条约的签署让捷克斯洛伐克联邦分裂成捷克和斯洛伐克。"
+ 
+ #人
+ 
  CAN_philip_arthur: "菲利普·阿瑟"
+
+ RBD_Alsat: "阿尔萨特"
+
+ CSA_john_thompson: "约翰·汤普森"
+
+ GER_Gregor_Strasser: "格雷戈尔·施特拉塞"
 
  heijunlingdaozhe: "黑军领导者"
  union_man: "迪克西"
@@ -161,10 +263,9 @@
  
  csa_mimiguancha: "秘密观察"
  csa_mimiguancha_desc: "秘密观察"
- 
- CSA_john_thompson: "约翰·汤普森"
- 
- 
+
+ #事件
+
  bw.1: "因纽特人暴动"
  bw.1.t: "因纽特人暴动"
  bw.1.d: "因纽特人暴动"
@@ -230,9 +331,18 @@
  bw.11.a: "支持闪电战"
  bw.11.b: "支持持久战"
  
+ bw.12: "第三帝国"
+ bw.12.t: "第三帝国"
+ bw.12.d: "就在今日，魏玛政府宣布停止抵抗恩斯特·台尔曼已逃往西伯利亚。\n德意志民族国的领袖阿道夫·希特勒宣布成立德意志第三帝国，并成为元首。"
+ bw.12.a: "第三？一和二呢？"
+ 
+ #文本
+ Treaty_of_Trianon_CZE_W: "捷克将被称为$CZE$"
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
  FocusTree_SOV_1: "先发制人"
+ 
  #权力平衡
+ 
  FER_Tsar_KBKV: "权力分布"
  Tsar_KBKV: "平衡"
  Tsar: "国王"
@@ -243,3 +353,15 @@
  KBKV_1: "哥萨克传统"
  KBKV_2: "阿斗"
  KBKV_3: "军政府"
+
+ #决议
+
+ Tong_Yi_De: "德意志再一统"
+ Bei_De: "建立北德联邦"
+ De: "统一的德意志"
+ De4: "再次奋斗"
+ 
+ De3: "德意志第三帝国"
+ De3_T: "宣布德意志第三帝国建立"
+ 
+ Treaty_of_Trianon_CZE: "否认特里亚农条约"

@@ -51,14 +51,15 @@ set_popularities = {
 
 
 add_ideas = {
-	sour_loser
-	general_staff
+#	sour_loser
+#	general_staff
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 #	SWE_historical_trade_with_Germany_dummy CUT
+	bw_LinSHiZHengFu
 }
-add_ideas = GER_mefo_bills_1
+#add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 
@@ -149,4 +150,6 @@ declare_war_on = {
 	type = annex_everything
 }
 #give_guarantee = ALB
+
+recruit_character = GER_Gregor_Strasser
 

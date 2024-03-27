@@ -1,0 +1,13 @@
+Treaty_of_Trianon_CZE = {
+#决议组id
+	icon = ger_mefo_bills
+#图片
+	picture = Treaty_of_Trianon_CZE
+#不知道有啥用，最好和id一样
+	allowed = {
+		original_tag =CZE
+#国家
+	}
+	priority = 99999
+#位置，越大越上，越小越下
+}

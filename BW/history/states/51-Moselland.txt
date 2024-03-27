@@ -32,6 +32,7 @@ state={
 
 		}
 		add_core_of = GSR
+		add_core_of = RBD
 
 		1939.1.1 = {
 			buildings = {

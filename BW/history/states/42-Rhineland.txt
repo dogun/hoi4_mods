@@ -2,7 +2,7 @@
 state={
 	id=42
 	name="STATE_42"
-	manpower = 3027739
+	manpower = 2354908
 	resources={
 		steel=50 #was 21 #was 35 was 59 # was: 100
 		aluminium=14 # was: 24
@@ -15,13 +15,14 @@ state={
 		victory_points = { 11435 1 }
 		#victory_points = { 3423 3 }
 		#victory_points = { 9575 3 }
-		victory_points = { 11531 5 }
+		#victory_points = { 11531 5 }
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
 
 		}
 		add_core_of = GSR
+		add_core_of = RBD
 	
 		set_demilitarized_zone = yes
 		
@@ -38,7 +39,7 @@ state={
 	}
 
 	provinces={
-		563 3423 3558 9575 11435 11470 11494 11531 11547 
+		563 3423 3558 11435 11470 11494  11547 
 	}
 	
 	

@@ -244,3 +244,17 @@ country_event = { #分歧
 		#TODO
 	}
 }
+
+news_event = { #第三帝国
+	id = bw.12
+	title = bw.12.t
+	desc = bw.12.d
+	#hidden = yes
+	picture = BW_GER_12
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.12.a  #第三？一和二呢？
+	}
+}

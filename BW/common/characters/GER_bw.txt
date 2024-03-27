@@ -1,0 +1,16 @@
+characters={
+	GER_Gregor_Strasser = {
+		name = GER_Gregor_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/Gregor Strasser.dds"
+			}
+		}
+		country_leader={
+			ideology=sitelasezhuyi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+}

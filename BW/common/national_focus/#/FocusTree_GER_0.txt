@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 999
 			tag = GER
 		}
 	}
@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 50.00
 		x = 5
 		y = 0
-
+		bypass = {
+			always = yes
+		}
 	}
 	focus = {
 		id = “希”与“希”
@@ -22,6 +24,10 @@ focus_tree = {
 		cost = 0
 		x = 17
 		y = 0
+		available = {
+			always = no
+		}
+
 		completion_reward = {
 			set_power_balance = {
 				id = GER_Xi
@@ -53,7 +59,7 @@ focus_tree = {
 	focus = {
 		id = 团结一致
 		icon = GFX_goal_generic_national_unity
-		cost = 1.00
+		cost = 0.6
 		prerequisite = {
 			focus = 动员冲锋队
 		}
@@ -70,7 +76,7 @@ focus_tree = {
 	focus = {
 		id = 斯特拉瑟派？只要能打仗就行
 		icon = GFX_goal_generic_attack_allies
-		cost = 5.00
+		cost = 1
 		prerequisite = {
 			focus = 团结一致
 		}
@@ -97,7 +103,15 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
+		available = {
+			controls_state = 52
+			controls_state = 53
 
+		}
+		completion_reward = {
+			add_state_core = 52
+			add_state_core = 53
+		}
 	}
 	focus = {
 		id = 多瑙防线
@@ -184,7 +198,7 @@ focus_tree = {
 	focus = {
 		id = 与英法谈判
 		icon = GFX_goal_generic_alliance
-		cost = 5.00
+		cost = 3.6
 		prerequisite = {
 			focus = 选票无效
 		}
@@ -206,26 +220,15 @@ focus_tree = {
 	focus = {
 		id = 以萨尔换取支援
 		icon = GFX_goal_generic_forceful_treaty
-		cost = 2.00
+		cost = 1
 		prerequisite = {
 			focus = 签署日内瓦条约
 		}
 		prerequisite = {
-			focus = 整合巴伐利亚
+			focus = 希姆莱将军
 		}
 		x = 8
 		y = 3
-
-	}
-	focus = {
-		id = 赎回萨尔
-		icon = GFX_goal_generic_trade
-		cost = 1.00
-		prerequisite = {
-			focus = 以萨尔换取支援
-		}
-		x = 10
-		y = 4
 
 	}
 	focus = {
@@ -273,7 +276,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
-
+		completion_reward = {
+			create_intelligence_agency = yes
+		}
 	}
 	focus = {
 		id = 第二次国会纵火案
@@ -294,15 +299,12 @@ focus_tree = {
 			focus = 第二次国会纵火案
 		}
 		prerequisite = {
-			focus = 赎回萨尔
-		}
-		prerequisite = {
 			focus = 威悉行动
 		}
 		x = 12
 		y = 7
 		completion_reward = {
-			load_focus_tree = FocusTree_GER
+			load_focus_tree = germany
 		}
 	}
 }

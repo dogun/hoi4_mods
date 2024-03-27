@@ -1,0 +1,48 @@
+Treaty_of_Trianon_CZE = {
+#决议组id
+	Treaty_of_Trianon_CZE = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+#			is_subject = yes
+				controls_state = 70
+				controls_state = 71
+				controls_state = 664
+				SLO = { exists = no }
+		}
+
+		cost = 100
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+
+		visible = {
+#展示条件
+
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			custom_effect_tooltip = Treaty_of_Trianon_CZE_W
+			drop_cosmetic_tag = yes
+			add_state_core = 70
+			add_state_core = 71
+			add_state_core = 664
+			remove_ideas = {
+				bw_QiangXingFenLieZHiKu_CZE
+			}
+		}
+
+#		ai_will_do = {
+#这个也不知道有啥用（教程没讲）
+#			factor = 0
+		}
+	}

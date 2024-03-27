@@ -137,5 +137,62 @@ ideas = {
 				defense_bonus_against = 0.1
 			}
 		}
+		bw_QiangXingFenLieZHiKu_CZE = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.25
+				political_power_factor =-0.1
+				stability_weekly = -0.001
+				}
+			targeted_modifier = {
+				tag = SLO
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+		bw_QiangXingFenLieZHiKu_SLO = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.25
+				political_power_factor =-0.1
+				stability_weekly = -0.001
+				}
+			targeted_modifier = {
+				tag = CZE
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+		bw_LinSHiZHengFu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor =-0.1
+				stability_weekly = -0.001
+				}
+			}
+		}
 	}
 }
