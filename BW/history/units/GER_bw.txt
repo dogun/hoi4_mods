@@ -1,25 +1,24 @@
 ﻿division_template = {
-	name = "Infanterie-Division"
+#编制
+	name = "冲锋队"
+#名称
 
 	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
 
 	regiments = {
+#部队内容 ###左上是 x0 y0
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 	}
-	
 	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
+#支援连
+
 	}
 }
+
+
 division_template = {
 	name = "Panzer-Division"
 
@@ -95,19 +94,16 @@ division_template = {
 }
 
 units = {
-
+#部队
+	division = {
+#部队
+		name = "{ 新 } 冲锋队第Ⅰ队 “闪电”"
+#名称
+		location = 11547
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.1
+#经验
+	}
 }
-
-### Air oob in its own file
-
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-
-instant_effect = {
-
-
-}
-
-#####################

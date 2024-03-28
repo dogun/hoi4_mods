@@ -242,6 +242,9 @@
  #bw_QiangXingFenLieZHiKu_SLO_desc: "捷克和斯洛伐克想要成为一个国家，但特里亚农条约的签署粉碎了这件事。"
  bw_QiangXingFenLieZHiKu_SLO_desc: "在奥匈帝国解体时捷克人和斯洛伐克人因为不管在哪方面讲都极其相似，所以捷克和斯洛伐克组成了捷克斯洛伐克联邦，但特里亚农条约的签署让捷克斯洛伐克联邦分裂成捷克和斯洛伐克。"
  
+ bw_LinSHiZHengFu: "临时政府"
+ bw_LinSHiZHengFu_desc: "这个国家是临时政府"
+ 
  #人
  
  CAN_philip_arthur: "菲利普·阿瑟"
@@ -365,3 +368,6 @@
  De3_T: "宣布德意志第三帝国建立"
  
  Treaty_of_Trianon_CZE: "否认特里亚农条约"
+ 
+ 
+ GER_rhineland:0 "改组政府"

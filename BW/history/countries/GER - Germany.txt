@@ -1,4 +1,5 @@
 ﻿capital = 52
+	set_oob = "GER_bw"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
