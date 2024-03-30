@@ -258,3 +258,64 @@ news_event = { #第三帝国
 		name = bw.12.a  #第三？一和二呢？
 	}
 }
+
+country_event = { #皮埃尔·赖伐尔辞职
+	id = bw.13
+	title = bw.13.t
+	desc = bw.13.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.13.a  #布鲁姆会接替他的
+			add_country_leader_role = {
+				character = FRA_leon_blum
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = socialism
+					traits = {
+						reluctant_interventionist
+						stout_defender
+					}
+				}
+				promote_leader = yes
+			}
+			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } #fires strike event if labour laws not reformed in time
+
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+	}
+}
+
+country_event = { #国民联盟要求加入内阁
+	id = bw.14
+	title = bw.14.t
+	desc = bw.14.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.14.a  #他们总比共产党要好
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.15
+		}
+	}
+	option = {
+		name = bw.14.b  #法西斯还想玷污共和国？
+			custom_effect_tooltip = TaMenKeNengHuiBaoFuNi
+	}
+}

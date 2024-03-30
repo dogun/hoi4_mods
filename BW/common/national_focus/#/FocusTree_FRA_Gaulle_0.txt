@@ -1,0 +1,124 @@
+focus_tree = {
+	id = FocusTree_FRA_Gaulle_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	focus = {
+		id = 最后的三色旗
+		icon = GFX_goal_generic_demand_territory
+		cost = 0.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = 将保守派踢出去
+		icon = GFX_goal_generic_military_sphere
+		cost = 5.00
+		prerequisite = {
+			focus = 最后的三色旗
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = 闪！电！战！
+		icon = GFX_goal_generic_army_tanks
+		cost = 3.00
+		prerequisite = {
+			focus = 将保守派踢出去
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = 进行集权化改革
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5.00
+		prerequisite = {
+			focus = 最后的三色旗
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = 效仿联盟国模式
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 7.00
+		prerequisite = {
+			focus = 进行集权化改革
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = 崇拜圣女贞德
+		icon = GFX_goal_anschluss
+		cost = 4.00
+		prerequisite = {
+			focus = 最后的三色旗
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = 新高卢信仰
+		icon = GFX_goal_generic_propaganda
+		cost = 5.00
+		prerequisite = {
+			focus = 崇拜圣女贞德
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = 军队万岁！
+		icon = GFX_goal_generic_army_doctrines
+		cost = 4.00
+		prerequisite = {
+			focus = 效仿联盟国模式
+		}
+		prerequisite = {
+			focus = 新高卢信仰
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = 夺回巴黎
+		icon = GFX_goal_generic_major_war
+		cost = 3.00
+		prerequisite = {
+			focus = 军队万岁！
+		}
+		prerequisite = {
+			focus = 闪！电！战！
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = 结束临时政府时期
+		icon = GFX_goal_generic_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = 夺回巴黎
+		}
+		x = 5
+		y = 5
+
+	}
+}

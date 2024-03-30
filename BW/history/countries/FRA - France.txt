@@ -351,6 +351,10 @@ add_ideas = {
 	FRA_full_employment
 	FRA_political_violence
 	FRA_inefficient_economy_2
+
+	bw_Czechoslovakia_Gun
+	bw_la_Commune_de_Paris_HuiYi
+	bw_YouYiZHunJunSHi
 }
 
 give_guarantee = CZE

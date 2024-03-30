@@ -195,5 +195,45 @@ ideas = {
 				max_surrender_limit_offset = 0.1
 			}
 		}
+		bw_Czechoslovakia_Gun = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = -0.001
+			}
+		}
+		bw_la_Commune_de_Paris_HuiYi = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				communism_drift = 0.03
+			}
+		}
+		bw_YouYiZHunJunSHi = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
 	}
 }

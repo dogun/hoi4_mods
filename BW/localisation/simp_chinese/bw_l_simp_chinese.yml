@@ -245,6 +245,15 @@
  bw_LinSHiZHengFu: "临时政府"
  bw_LinSHiZHengFu_desc: "这个国家是临时政府"
  
+ bw_Czechoslovakia_Gun: "捷克 - 斯洛伐克军"
+ bw_Czechoslovakia_Gun_desc: "泛西斯拉夫主义者因为法国强迫捷克斯洛伐克分裂组建的军团，致力于通过武装袭击的方式逼迫法国妥协。"
+ 
+ bw_la_Commune_de_Paris_HuiYi: "巴黎公社的回忆"
+ bw_la_Commune_de_Paris_HuiYi: "巴黎公社的回忆"
+ 
+ bw_YouYiZHunJunSHi: "右翼准军事组织"
+ bw_YouYiZHunJunSHi: "右翼准军事组织"
+ 
  #人
  
  CAN_philip_arthur: "菲利普·阿瑟"
@@ -339,10 +348,23 @@
  bw.12.d: "就在今日，魏玛政府宣布停止抵抗恩斯特·台尔曼已逃往西伯利亚。\n德意志民族国的领袖阿道夫·希特勒宣布成立德意志第三帝国，并成为元首。"
  bw.12.a: "第三？一和二呢？"
  
+ bw.13: "皮埃尔·赖伐尔辞职"
+ bw.13.t: "皮埃尔·赖伐尔辞职"
+ bw.13.d: "法国国会宣布允许法国共产党（PCF）参加国会选举，法国总理皮埃尔·赖伐尔因为他的右翼倾向宣布辞职。"
+ bw.13.a: "布鲁姆会接替他的"
+ 
+ bw.14: "国民联盟要求加入内阁"
+ bw.14.t: "国民联盟要求加入内阁"
+ bw.14.d: "国民联盟要求加入内阁"
+ bw.14.a: "他们总比共产党要好"
+ bw.14.b: "法西斯还想玷污共和国？"
+ 
  #文本
  Treaty_of_Trianon_CZE_W: "捷克将被称为$CZE$"
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
  FocusTree_SOV_1: "先发制人"
+ TaMenKeNengHuiDeCuenJinCHi: "\n§R它们可能会得寸进尺§!\n"
+ TaMenKeNengHuiBaoFuNi: "\n§R它们可能会进行报复§!\n"
  
  #权力平衡
  
@@ -369,5 +391,11 @@
  
  Treaty_of_Trianon_CZE: "否认特里亚农条约"
  
+ HunLuanDeZHengFu: "混乱的政府"
+ RN_JieJin: "解禁国民联盟"
+ 
+ #国策
  
  GER_rhineland:0 "改组政府"
+ 
+ 允许RN进入内阁_desc: "虽然人民阵线是为了防范国民联盟尔成立的，但是红色威胁已经到了我们的后花园 莱茵兰，他们公开撕毁法尔赛条约让以我们领导的法尔赛体系颜面无存"

@@ -60,8 +60,15 @@ De3 = {
 			add_state_core = 68
 			add_state_core = 62
 			add_state_core = 67
-			add_state_core = 58
-			add_state_core = 909
+			add_state_core = 63
+
+			add_state_core = 50
+			add_state_core = 54
+			add_state_core = 53
+			add_state_core = 52
+
+			add_state_core = 970
+
 			set_capital = { state = 64 }
 				news_event = {
 					id = bw.12
