@@ -1,0 +1,406 @@
+focus_tree = {
+	id = FocusTree_FRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	focus = {
+		id = 股市问题
+		icon = GFX_goal_generic_trade
+		cost = 5.00
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = 组建人民阵线
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5.00
+		x = 12
+		y = 0
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = 调整股市
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 1.00
+		prerequisite = {
+			focus = 股市问题
+		}
+		mutually_exclusive = {
+			focus = 解决股市
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = 允许RN进入内阁
+		icon = GFX_goal_generic_political_pressure
+		cost = 3.00
+		prerequisite = {
+			focus = 组建人民阵线
+		}
+		mutually_exclusive = {
+			focus = 封禁RN
+			focus = 允许PCF进入内阁
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = 解决股市
+		icon = GFX_goal_generic_major_war
+		cost = 1.00
+		prerequisite = {
+			focus = 股市问题
+		}
+		prerequisite = {
+			focus = 允许RN进入内阁
+		}
+		mutually_exclusive = {
+			focus = 调整股市
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = 关闭股市
+		icon = GFX_goal_generic_construction2
+		cost = 2.00
+		prerequisite = {
+			focus = 解决股市
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = 安抚民众
+		icon = GFX_goal_generic_national_unity
+		cost = 0.00
+		prerequisite = {
+			focus = 关闭股市
+		}
+		mutually_exclusive = {
+			focus = 解决反对
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = 解决反对
+		icon = GFX_goal_generic_small_arms
+		cost = 0.00
+		prerequisite = {
+			focus = 关闭股市
+		}
+		mutually_exclusive = {
+			focus = 安抚民众
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = 接纳奴隶制
+		icon = GFX_goal_generic_cavalry
+		cost = 5.00
+		prerequisite = {
+			focus = 解决反对
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = 封禁RN
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 3.00
+		prerequisite = {
+			focus = 组建人民阵线
+		}
+		mutually_exclusive = {
+			focus = 允许RN进入内阁
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = 封禁PCF
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 3.00
+		prerequisite = {
+			focus = 组建人民阵线
+		}
+		mutually_exclusive = {
+			focus = 允许PCF进入内阁
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = 法国就是自由。自由就是法国
+		icon = GFX_goal_support_democracy
+		cost = 5.00
+		prerequisite = {
+			focus = 封禁RN
+		}
+		prerequisite = {
+			focus = 封禁PCF
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = 允许PCF进入内阁
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 3.00
+		prerequisite = {
+			focus = 组建人民阵线
+		}
+		mutually_exclusive = {
+			focus = 封禁PCF
+			focus = 允许RN进入内阁
+		}
+		x = 15
+		y = 1
+		completion_reward = {
+			FRA = {
+				country_event = {
+					id = bw.13
+					days = 0
+    					random = 0
+				}
+			}
+		}
+		completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+			}
+		}
+	}
+	focus = {
+		id = 重拾巴黎公社的遗产
+		icon = GFX_goal_tripartite_pact
+		cost = 5.00
+		prerequisite = {
+			focus = 允许PCF进入内阁
+		}
+		x = 14
+		y = 2
+		completion_reward = {
+			add_stability = 0.1
+		}
+
+	}
+	focus = {
+		id = 签署马提尼翁协定
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 3.00
+		prerequisite = {
+			focus = 重拾巴黎公社的遗产
+			focus = 法国就是自由。自由就是法国
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = 批准许妇女选举权
+		icon = GFX_goal_generic_build_tank
+		cost = 3.00
+		prerequisite = {
+			focus = 重拾巴黎公社的遗产
+			focus = 法国就是自由。自由就是法国
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = 允许共产党游行
+		icon = GFX_goal_generic_demand_territory
+		cost = 3.00
+		prerequisite = {
+			focus = 允许PCF进入内阁
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = 任命共产主义者
+		icon = GFX_goal_support_communism
+		cost = 4.00
+		prerequisite = {
+			focus = 允许共产党游行
+		}
+		prerequisite = {
+			focus = 重拾巴黎公社的遗产
+		}
+		x = 16
+		y = 3
+		completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+			}
+		}
+	}
+	focus = {
+		id = 平等法案
+		icon = GFX_goal_generic_national_unity
+		cost = 4.00
+		prerequisite = {
+			focus = 批准许妇女选举权
+		}
+		prerequisite = {
+			focus = 任命共产主义者
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = 用工人遏制右派
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = 任命共产主义者
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = 强迫抉择
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 平等法案
+		}
+		prerequisite = {
+			focus = 用工人遏制右派
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = 资本主义公社？
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = 强迫抉择
+		}
+		mutually_exclusive = {
+			focus = 重建公社
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = 重新开放
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1.00
+		prerequisite = {
+			focus = 安抚民众
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = 采纳凯恩斯学派
+		icon = GFX_goal_generic_major_alliance
+		cost = 2.00
+		prerequisite = {
+			focus = 重新开放
+			focus = 调整股市
+		}
+		mutually_exclusive = {
+			focus = 采纳奥地利学派
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = 采纳奥地利学派
+		icon = GFX_goal_generic_consumer_goods
+		cost = 2.00
+		prerequisite = {
+			focus = 调整股市
+			focus = 重新开放
+		}
+		mutually_exclusive = {
+			focus = 采纳凯恩斯学派
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = 重建公社
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = 强迫抉择
+		}
+		mutually_exclusive = {
+			focus = 资本主义公社？
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = 投资南方
+		icon = GFX_goal_generic_construct_civilian
+		cost = 4.00
+		prerequisite = {
+			focus = 采纳凯恩斯学派
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = 进行国有化
+		icon = GFX_goal_anti_comintern_pact
+		cost = 3.00
+		prerequisite = {
+			focus = 采纳凯恩斯学派
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = 建立法兰西™有限公司
+		icon = GFX_goal_unknown
+		cost = 50.00
+		prerequisite = {
+			focus = 资本主义公社？
+		}
+		x = 14
+		y = 7
+
+	}
+}
