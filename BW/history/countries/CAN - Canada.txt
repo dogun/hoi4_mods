@@ -1,5 +1,11 @@
 ﻿capital = 463
 
+	add_ideas = {
+		volunteer_only
+		closed_economy
+		low_economic_mobilisation
+	}
+
 if = {
 	limit = {
 		NOT = {
@@ -38,9 +44,11 @@ if = {
 set_research_slots = 3
 set_country_flag = monroe_doctrine
 set_stability = 0.8
-set_war_support = 0.1
+set_war_support = 0.78
 
 recruit_character = CAN_philip_arthur
+recruit_character = CAN_evelina
+recruit_character = CAN_SOV
 
 # Starting tech
 set_technology = {
@@ -146,11 +154,7 @@ if = {
 		}
 	}
 
-	add_ideas = {
-		#laws
-		volunteer_only
-		low_economic_mobilisation
-	}
+
 
 	
 	oob = "CAN_1939"
@@ -236,15 +240,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = gongtuanzhuyi
+	ruling_party = GuongTuanZHuYi
 	last_election = "1935.10.14"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	gongtuanzhuyi = 50
-	wuzhengfugongchanzhuyi = 50
+	GuongTuanZHuYi = 50
+	WuZHengFuGuongCHanZHuYi = 50
 }
 
 set_convoys = 100

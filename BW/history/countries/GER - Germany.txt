@@ -39,15 +39,16 @@ set_stability = 0.75
 set_war_support = 0.3
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1933.3.5"
+	ruling_party = MinZuSHeHuiZHuYi
+	last_election = "1935.3.4"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 60
-	communism = 20
+	MinZuSHeHuiZHuYi = 57.84
+	BoGenDiTiZHi = 26.96
+	SiTeLaSeZHuYi = 4.27
+	SHeHuiFaXiSi = 10.93
 }
 
 
@@ -148,9 +149,10 @@ recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled 
 
 declare_war_on = {
 	target = GSR
-	type = annex_everything
+	type = civil_war
 }
 #give_guarantee = ALB
 
 recruit_character = GER_Gregor_Strasser
-
+recruit_character = GER_adolf_hitler_BW
+recruit_character = GER_Heinrich_Himmler_BW

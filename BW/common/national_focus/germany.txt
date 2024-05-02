@@ -3124,6 +3124,9 @@ focus_tree = {
 #对苏作战
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = GER_anti_comitern_pact }
+#bw
+		prerequisite = { focus = GER_danzig_or_war }
+#bw
 		mutually_exclusive = { focus = GER_soviet_ally }
 		available_if_capitulated = no
 		will_lead_to_war_with = SOV
@@ -3548,8 +3551,10 @@ focus_tree = {
 
 	focus = {
 		id = GER_demand_memel
+#重申东方领土主张
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = GER_anschluss }
+		prerequisite = { focus = 统一的德意志 }
 		available = { is_subject = no }
 		x = 1
 		y = 1
@@ -3591,6 +3596,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_danzig_or_war
+#但泽或战争
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = GER_demand_memel }
 		mutually_exclusive = { focus = GER_danzig_vs_slovakia }
@@ -4094,6 +4100,7 @@ focus_tree = {
 	
 	focus = {
 		id = GER_demand_sudetenland
+#索取苏台德
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = GER_anschluss }
 		mutually_exclusive = { focus = GER_czech_friend }

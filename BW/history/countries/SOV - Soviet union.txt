@@ -902,18 +902,20 @@ add_ideas = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = sidalinzhuyi
+	ruling_party = SiDaLingZHuYi
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	sidalinzhuyi = 36
-	jiefangzhuyi = 12
-	democratic = 10
-	communism = 31
-	shehuifaxisi = 9
-	neutrality = 2
+	SiDaLingZHuYi = 36.38
+	TuoLuoSiJiZHuYi = 12.53
+	democratic = 10.11
+#	communism = 31.67
+	MaKeSi_LieNingZHuYi = 31.67
+#	shehuifaxisi = 9.58
+	SHeHuiFaXiSi = 9.31
+#	neutrality = 2.31
 }
 
 create_faction = Comintern

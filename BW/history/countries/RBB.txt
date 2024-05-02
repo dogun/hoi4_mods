@@ -10,9 +10,10 @@ set_convoys = 20
 #recruit_character = GAB_acr
 
 set_politics = {
-	ruling_party = sidalinzhuyi
+	ruling_party = SiDaLingZHuYi
 }
 
 set_popularities = {
-	sidalinzhuyi = 100
+	SiDaLingZHuYi = 68.23
+	JunZHengGuongCHanZHuYi = 31.77
 }

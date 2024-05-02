@@ -1,0 +1,43 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_GER
+
+country_event = { #魏玛政府倒台
+	id = bw_GER.1
+	title = bw_GER.1.t
+	desc = bw_GER.1.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		tag =GER
+		NOT = {
+			has_war_with = GSR
+		}
+#		has_civil_war = no
+#		GSR = { has_capitulated = yes }
+	}
+	mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw_GER.1.a #德意志万岁！元首万岁！第三帝国万岁！
+			add_country_leader_trait = WeiDaDeYuanSHou
+			annex_country = {
+				target = GSR
+				transfer_troops = no
+			}
+		}
+	}
+}
+
+country_event = { #北德地区党卫军集结
+	id = bw_GER.2
+	title = bw_GER.2.t
+	desc = bw_GER.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.2.a #他要干什么！！！
+
+	}
+}

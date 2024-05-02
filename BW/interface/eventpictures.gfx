@@ -3567,9 +3567,11 @@ spriteTypes = {
 		name = "GFX_report_event_BOL_bolivian_socialist_revolution"
 		texturefile = "gfx/event_pictures/report_event_BOL_bolivian_socialist_revolution.dds"
 	}
-	spriteType = {
-		name = "BW_GER_12"
-		texturefile = "gfx/bw12.dds"
+	
+	#bw
+	SpriteType = {
+		name = "GFX_free_state_47"
+		texturefile = "gfx/interface/goals/free_state_47.dds"
 	}
 }
 

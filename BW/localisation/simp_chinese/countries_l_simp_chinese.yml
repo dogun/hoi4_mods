@@ -1,41 +1,71 @@
 ﻿l_simp_chinese:
- GER_fascism: "德意志民族临时政府"
- GER_fascism_DEF: "德意志民族临时政府"
- GER_democratic: "德意志共和国"
- GER_democratic_DEF: "德意志共和国"
- GER_neutrality: "德意志帝国"
- GER_neutrality_DEF: "德意志帝国"
- GER_communism: "德意志社会主义共和国"
- GER_communism_DEF: "德意志社会主义共和国"
- GER_fascism_ADJ: "德国"
- GER_democratic_ADJ: "德国"
- GER_neutrality_ADJ: "德国"
- GER_communism_ADJ: "德国"
- GER_autonomy_supervised_state: "$OVERLORDADJ$占领区"
- GER_autonomy_supervised_state_DEF: "$OVERLORDADJ$占领区"
- GER_autonomy_puppet: "$OVERLORDADJ$属德国"
- GER_autonomy_puppet_DEF: "$OVERLORDADJ$属德国"
- GER_SOV_communism_autonomy_puppet: "$OVERLORDADJ$属德国占领区"
- GER_SOV_communism_autonomy_puppet_DEF: "$OVERLORDADJ$属德国占领区"
- GER_SOV_communism_autonomy_puppet_ADJ: "$OVERLORDADJ$属德国"
+ 
  GER: "德国"
+ #通用
  GER_DEF: "德国"
+ #通用
  GER_ADJ: "德国"
- ENG_fascism: "不列颠帝国"
- ENG_fascism_DEF: "不列颠帝国"
- ENG_democratic: "联合王国"
- ENG_democratic_DEF: "联合王国"
- ENG_neutrality: "大不列颠"
- ENG_neutrality_DEF: "大不列颠"
- ENG_communism: "不列颠联盟"
- ENG_communism_DEF: "不列颠联盟"
- ENG_fascism_ADJ: "英国"
- ENG_democratic_ADJ: "英国"
- ENG_neutrality_ADJ: "英国"
- ENG_communism_ADJ: "英国"
+ #通用
+ GER_fascism: "德意志民族临时政府"
+ #法西斯（原版）
+ GER_fascism_DEF: "德意志民族临时政府"
+ #法西斯（原版）
+ GER_fascism_ADJ: "临时政府"
+ #法西斯（原版）
+ GER_democratic: "德意志共和国"
+ #民主（原版）
+ GER_democratic_DEF: "德意志共和国"
+ #民主（原版）
+ GER_democratic_ADJ: "德国"
+ #民主（原版）
+ GER_neutrality: "德意志帝国"
+ #中立（原版）
+ GER_neutrality_DEF: "德意志帝国"
+ #中立（原版）
+ GER_neutrality_ADJ: "德国"
+ #中立（原版）
+ GER_communism: "德意志社会主义共和国"
+ #共产（原版）
+ GER_communism_DEF: "德意志社会主义共和国"
+ #共产（原版）
+ GER_communism_ADJ: "德国"
+ #共产（原版）
+ GER_autonomy_puppet: "$OVERLORDADJ$属德国"
+ #傀儡
+ GER_autonomy_puppet_DEF: "$OVERLORDADJ$属德国"
+ #傀儡
+ 
  ENG: "英国"
+ #通用
  ENG_DEF: "英国"
+ #通用
  ENG_ADJ: "英国"
+ #通用
+ ENG_fascism: "不列颠帝国"
+ #法西斯（原版）
+ ENG_fascism_DEF: "不列颠帝国"
+ #法西斯（原版）
+ ENG_fascism_ADJ: "英国"
+ #法西斯（原版）
+ ENG_democratic: "联合王国"
+ #民主（原版）
+ ENG_democratic_DEF: "联合王国"
+ #民主（原版）
+ ENG_democratic_ADJ: "英国"
+ #民主（原版）
+ ENG_neutrality: "大不列颠"
+ #中立（原版）
+ ENG_neutrality_DEF: "大不列颠"
+ #中立（原版）
+ ENG_neutrality_ADJ: "英国"
+ #中立（原版）
+ ENG_communism: "不列颠联盟"
+ #共产（原版）
+ ENG_communism_DEF: "不列颠联盟"
+ #共产（原版）
+ ENG_communism_ADJ: "英国"
+ #共产（原版）
+ 
  ENG_democratic_subject: "$OVERLORDADJ$属不列颠"
  ENG_democratic_subject_DEF: "$OVERLORDADJ$属不列颠"
  ENG_neutrality_subject: "$OVERLORDADJ$属不列颠"
@@ -46,6 +76,7 @@
  ENG_communism_subject_DEF: "大不列颠社会主义共和国"
  ENG_SOV_communism_subject: "不列颠苏维埃社会主义共和国"
  ENG_SOV_communism_subject_DEF: "不列颠苏维埃社会主义共和国"
+ 
  SOV_fascism: "俄罗斯帝国"
  SOV_fascism_DEF: "俄罗斯帝国"
  SOV_democratic: "俄罗斯联邦"
@@ -522,23 +553,44 @@
  FIN_ADJ: "芬兰"
  FIN_subject: "$OVERLORDADJ$属$FIN$"
  FIN_subject_DEF: "$OVERLORDADJ$属$FIN$"
- IRE_fascism: "复兴党爱尔兰"
- IRE_fascism_DEF: "复兴党爱尔兰"
- IRE_democratic: "爱尔兰"
- IRE_democratic_DEF: "爱尔兰"
- IRE_neutrality: "自由爱尔兰"
- IRE_neutrality_DEF: "自由爱尔兰"
- IRE_communism: "爱尔兰人民联盟"
- IRE_communism_DEF: "爱尔兰人民联盟"
- IRE_fascism_ADJ: "爱尔兰"
- IRE_democratic_ADJ: "爱尔兰"
- IRE_neutrality_ADJ: "爱尔兰"
- IRE_communism_ADJ: "爱尔兰"
- IRE: "爱尔兰"
- IRE_DEF: "爱尔兰"
- IRE_ADJ: "爱尔兰"
- IRE_subject: "$OVERLORDADJ$属$IRE$"
- IRE_subject_DEF: "$OVERLORDADJ$属$IRE$"
+ 
+  IRE:0 "爱尔兰"
+ #通用
+ IRE_DEF:0 "爱尔兰"
+ #通用
+ IRE_ADJ:0 "爱尔兰"
+ #通用
+ IRE_fascism:0 "爱尔兰凯尔特国"
+ #法西斯（原版）
+ IRE_fascism_DEF:0 "爱尔兰凯尔特国"
+ #法西斯（原版）
+ IRE_fascism_ADJ:0 "爱尔兰"
+ #法西斯（原版）
+ IRE_democratic:0 "爱尔兰共和国"
+ #民主（原版）
+ IRE_democratic_DEF:0 "爱尔兰共和国"
+ #民主（原版）
+ IRE_democratic_ADJ:0 "爱尔兰"
+ #民主（原版）
+ IRE_neutrality:0 "爱尔兰王国"
+ #中立（原版）
+ IRE_neutrality_DEF:0 "爱尔兰王国"
+ #中立（原版）
+ IRE_neutrality_ADJ:0 "爱尔兰"
+ #中立（原版）
+ IRE_communism:0 "爱尔兰人民联盟"
+ #共产（原版）
+ IRE_communism_DEF:0 "爱尔兰人民联盟"
+ #共产（原版）
+ IRE_communism_ADJ:0 "爱尔兰"
+ #共产（原版）
+ IRE_subject:0 "$OVERLORDADJ$属$IRE$"
+ #傀儡
+ IRE_subject_DEF:0 "$OVERLORDADJ$属$IRE$"
+ #傀儡
+ IRE_subject_ADJ:0 "非独立爱尔兰"
+ #傀儡
+ 
  HUN_fascism: "匈牙利"
  HUN_fascism_DEF: "匈牙利"
  HUN_democratic: "匈牙利共和国"

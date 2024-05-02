@@ -319,3 +319,210 @@ country_event = { #国民联盟要求加入内阁
 			custom_effect_tooltip = TaMenKeNengHuiBaoFuNi
 	}
 }
+
+country_event = { #菲利普去世
+	id = bw.15
+	title = bw.15.t
+	desc = bw.15.d
+	#hidden = yes
+
+#	is_triggered_only = yes
+#	mean_time_to_happen = { days = 0 }
+	fire_only_once = yes
+	trigger = {
+		original_tag = CAN
+		date = 1937.05.28
+	}
+	option = {
+		name = bw.15.a  #哦不
+			kill_ideology_leader = gongtuanzhuyi
+			recruit_character = CAN_evelina
+			hidden_effect = {
+				CAN = {
+					country_event = { id = bw.16 days = 30 }
+			}
+		}
+	}
+}
+
+country_event = { #政局不稳
+	id = bw.16
+	title = bw.16.t
+	desc = bw.16.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.16.a  #埃维琳娜稳定住了局势
+			add_stability = 0.1
+			hidden_effect = {
+				CAN = {
+					country_event = { id = bw.17 days = 30 }
+			}
+		}
+	}
+	option = {
+		name = bw.16.b  #黑军的时代结束了，苏维埃的时代开始了
+			add_stability = -0.05
+			set_politics = {
+				ruling_party = wuzhengfugongchanzhuyi
+		}
+	}
+}
+
+country_event = { #刺客袭击埃维琳娜
+	id = bw.17
+	title = bw.17.t
+	desc = bw.17.d
+	#hidden = yes
+
+	is_triggered_only = yes
+
+	#mean_time_to_happen = { days = 1 }
+	option = {
+		name = bw.17.a  #刺客失败了
+
+	}
+	option = {
+		name = bw.17b  #刺客成功了
+
+	}
+	option = {
+		name = bw.17.c  #埃维琳娜被蕨了（？？？
+		trigger = { is_debug = yes  }
+			custom_effect_tooltip = evelina_Jue  #欧，你居然用debug模式来玩我的模组，真的太令人震惊了！\n\n\n\n\n奖励你一个彩蛋[doge]
+	}
+}
+
+country_event = { #巴黎股市彻底崩盘
+	id = bw.18
+	title = bw.18.t
+	desc = bw.18.d
+	#hidden = yes
+
+#	is_triggered_only = yes
+#	mean_time_to_happen = { days = 0 }
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date = 1937.04.05
+	}
+	option = {
+		name = bw.18.a  #这不怪我
+			hidden_effect = {
+				CSA = {
+					country_event = { id = bw.19 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { #第二次南北战争
+	id = bw.19
+	title = bw.19.t
+	desc = bw.19.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw.19.a  #竟有人敢阻挡美利坚的昭昭天命
+			remove_state_core = 386
+			remove_state_core = 385
+			remove_state_core = 387
+			remove_state_core = 388
+			remove_state_core = 381
+			remove_state_core = 390
+			remove_state_core = 389
+			remove_state_core = 384
+			remove_state_core = 391
+			remove_state_core = 392
+			remove_state_core = 394
+			remove_state_core = 393
+			remove_state_core = 357
+			remove_state_core = 358
+		USA = {
+			transfer_state = 386
+			add_state_core = 386
+			transfer_state = 385
+			add_state_core = 385
+			transfer_state = 387
+			add_state_core = 387
+			transfer_state = 388
+			add_state_core = 388
+			transfer_state = 381
+			add_state_core = 381
+			transfer_state = 390
+			add_state_core = 390
+			transfer_state = 389
+			add_state_core = 389
+			transfer_state = 384
+			add_state_core = 384
+			transfer_state = 391
+			add_state_core = 391
+			transfer_state = 392
+			add_state_core = 392
+			transfer_state = 394
+			add_state_core = 394
+			transfer_state = 393
+			add_state_core = 393
+			transfer_state = 357
+			add_state_core = 357
+			transfer_state = 358
+			add_state_core = 358
+			declare_war_on = {
+				target = CSA
+				type = annex_everything
+			}
+			hidden_effect = {
+				CAN = {
+					country_event = { id = bw.20 days = 30 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #归乡
+	id = bw.20
+	title = bw.20.t
+	desc = bw.20.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw.20.a  #这太危险了
+			add_war_support = -0.1
+	}
+	option = {
+		name = bw.20.b  #终于
+			transfer_state = 864
+			transfer_state = 471
+			transfer_state = 473
+			transfer_state = 472
+			transfer_state = 470
+			transfer_state = 865
+			transfer_state = 469
+			transfer_state = 683
+			transfer_state = 867
+			transfer_state = 467
+			transfer_state = 866
+			transfer_state = 682
+			transfer_state = 466
+			transfer_state = 862
+			transfer_state = 276
+			transfer_state = 861
+			transfer_state = 863
+			transfer_state = 468
+			transfer_state = 332
+			transfer_state = 860
+			transfer_state = 465
+			transfer_state = 464
+			transfer_state = 331
+	}
+}

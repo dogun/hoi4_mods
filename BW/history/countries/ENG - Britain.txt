@@ -446,7 +446,7 @@ set_popularities = {
 }
 
 
-create_faction = Allies
+create_faction = 联合王国
 add_to_faction = ENG
 #add_to_faction = FRA
 add_to_faction = AST

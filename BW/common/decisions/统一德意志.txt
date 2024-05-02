@@ -301,8 +301,10 @@ Tong_Yi_De = {
 			add_state_core = 5
 			add_state_core = 807
 
-			add_state_core = 38
-			add_state_claim = 8
+			add_state_core = 28
+			add_state_core = 8
+			add_state_core = 973
+			add_state_core = 974
 		}
 
 		ai_will_do = {

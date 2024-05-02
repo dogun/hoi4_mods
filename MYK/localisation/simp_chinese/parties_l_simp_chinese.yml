@@ -1,81 +1,111 @@
 ﻿l_simp_chinese:
- wuzhengfugongchanzhuyi: "无政府共产主义"
- wuzhengfugongchanzhuyi_noun: "无政府共产主义"
- wuzhengfugongchanzhuyi_desc: "无政府共产主义"
- wuzhengfugongchanzhuyi_c: "无政府共产主义"
- wuzhengfugongchanzhuyi_c_desc: "无政府共产主义"
-
- tietuozhuyi: "铁托主义"
- tietuozhuyi_noun: "铁托主义"
- tietuozhuyi_desc: "铁托主义"
- tietuozhuyi_c: "铁托主义"
- tietuozhuyi_c_desc: "铁托主义"
-
- renminyihui: "人民议会"
- renminyihui_noun: "人民议会"
- renminyihui_desc: "人民议会"
- renminyihui_c: "人民议会"
- renminyihui_c_desc: "人民议会"
-
- maozedongzhuyi: "毛泽东主义"
- maozedongzhuyi_noun: "毛泽东主义"
- maozedongzhuyi_desc: "毛泽东主义"
- maozedongzhuyi_c: "毛泽东主义"
- maozedongzhuyi_c_desc: "毛泽东主义"
-
- sidalinzhuyi: "斯大林主义"
- sidalinzhuyi_noun: "斯大林主义"
- sidalinzhuyi_desc: "斯大林主义"
- sidalinzhuyi_c: "斯大林主义"
- sidalinzhuyi_c_desc: "斯大林主义"
-
- lieningzhuyi: "列宁主义"
- lieningzhuyi_noun: "列宁主义"
- lieningzhuyi_desc: "列宁主义"
- lieningzhuyi_c: "列宁主义"
- lieningzhuyi_c_desc: "列宁主义"
-
- sitelasezhuyi: "斯特拉瑟主义"
- sitelasezhuyi_noun: "斯特拉瑟主义"
- sitelasezhuyi_desc: "斯特拉瑟主义"
- sitelasezhuyi_c: "斯特拉瑟主义"
- sitelasezhuyi_c_desc: "斯特拉瑟主义"
-
- yuanshizhuyi: "远视主义"
- yuanshizhuyi_noun: "远视主义"
- yuanshizhuyi_desc: "远视主义"
- yuanshizhuyi_c: "远视主义"
- yuanshizhuyi_c_desc: "物！物！物！"
-
- jiefangshenxue: "解放神学"
- jiefangshenxue_noun: "解放神学"
- jiefangshenxue_desc: "解放神学"
- jiefangshenxue_c: "解放神学"
- jiefangshenxue_c_desc: "解放神学"
-
- boerbotezhuyi: "波尔布特主义"
- boerbotezhuyi_noun: "波尔布特主义"
- boerbotezhuyi_desc: "波尔布特主义"
- boerbotezhuyi_c: "波尔布特主义"
- boerbotezhuyi_c_desc: "波尔布特主义"
-
- junzhubuershiweike: "君主布尔什维克"
- junzhubuershiweike_noun: "君主布尔什维克"
- junzhubuershiweike_desc: "君主布尔什维克"
- junzhubuershiweike_c: "君主布尔什维克"
- junzhubuershiweike_c_desc: "君主布尔什维克"
-
- jiefangzhuyi: "解放主义"
- jiefangzhuyi_noun: "解放主义"
- jiefangzhuyi_desc: "解放主义"
- jiefangzhuyi_c: "先锋队"
- jiefangzhuyi_c_desc: "解放主义"
-
- jiaohuizhuyi: "教会主义"
- jiaohuizhuyi_noun: "教会主义"
- jiaohuizhuyi_desc: "教会主义"
- jiaohuizhuyi_c: "宗教国"
- jiaohuizhuyi_c_desc: "教会主义"
+ 
+ #意识形态
+ 
+ # # #左翼
+ 
+ WuZHengFuGuongCHanZHuYi: "无政府共产主义"
+ WuZHengFuGuongCHanZHuYi_noun: "无政府共产主义"
+ WuZHengFuGuongCHanZHuYi_desc: "无政府共产主义是由委员会领导的共产主义。"
+ WuZHengFuGuongCHanZHuYi_c: "共产主义无政府公社"
+ WuZHengFuGuongCHanZHuYi_c_desc: "无政府共产主义是由委员会领导的共产主义
+ 
+ GuongTuanZHuYi: "工团主义"
+ GuongTuanZHuYi_noun: "工团主义"
+ GuongTuanZHuYi_desc: "工团主义是以小政府主义为基础的共产主义。"
+ GuongTuanZHuYi_c: "工团国"
+ GuongTuanZHuYi_c_desc: "工团主义是以小政府主义为基础的共产主义"
+ 
+ MaKeSi_LieNingZHuYi: "马克思 - 列宁主义"
+ MaKeSi_LieNingZHuYi_noun: "马克思 - 列宁主义"
+ MaKeSi_LieNingZHuYi_desc: "家长制委员会国是以委员会共和制为基础的家长制政体。"
+ MaKeSi_LieNingZHuYi_c: "家长制委员会国"
+ MaKeSi_LieNingZHuYi_c_desc: "马克思 - 列宁主义是以马克思主义和列宁主义建立起来的，是一种标准共产主义政体。"
+ 
+ TuoLuoSiJiZHuYi: "托洛斯基主义"
+ TuoLuoSiJiZHuYi_noun: "托洛斯基主义"
+ TuoLuoSiJiZHuYi_desc: "革命独裁国是托洛斯基主义为基础的独裁政体。"
+ TuoLuoSiJiZHuYi_c: "革命独裁国"
+ TuoLuoSiJiZHuYi_c_desc: "托洛斯基主义是以全球革命为基础建立起来的，他们认为在一个国家发生革命后其他国家的革命热情会高涨，此时应该进行全球革命。"
+ 
+ SiDaLingZHuYi: "斯大林主义"
+ SiDaLingZHuYi_noun: "斯大林主义"
+ SiDaLingZHuYi_desc: "委员会独裁国是以委员会共和制为基础的独裁政体。"
+ SiDaLingZHuYi_c: "委员会独裁国"
+ SiDaLingZHuYi_c_desc: "斯大林主义是以独裁制和个人崇拜为基础建立起来的，并且是以重工业优先和计划经济为经济模式的。"
+ 
+ YuanSHiZHuYi: "远视主义"
+ YuanSHiZHuYi_noun: "远视主义"
+ YuanSHiZHuYi_desc: "共产主义研究所是以共产主义为基础的加速主义"
+ YuanSHiZHuYi_c: "共产主义研究所"
+ YuanSHiZHuYi_c_desc: "物！物！物！"
+ 
+ JunZHengGuongCHanZHuYi: "军政共产主义"
+ JunZHengGuongCHanZHuYi_noun: "军政共产主义"
+ JunZHengGuongCHanZHuYi_desc: "军政共产主义是以军政府为基础建立的共产主义。"
+ JunZHengGuongCHanZHuYi_c: "委员会独裁国"
+ JunZHengGuongCHanZHuYi_c_desc: "委员会独裁国是以委员会共和制为基础的独裁政体。"
+ 
+ # # #中间派
+ 
+ JunZHuBuErSHiWeiKe: "君主布尔什维克"
+ JunZHuBuErSHiWeiKe_noun: "君主布尔什维克"
+ JunZHuBuErSHiWeiKe_desc: "君主布尔什维克认为斯大林应该称帝。"
+ JunZHuBuErSHiWeiKe_c: "委员会君主国"
+ JunZHuBuErSHiWeiKe_c_desc: "有皇帝的共产主义。"
+ 
+ SHeHuiMinZHuZHuYi: "社会民主主义"
+ SHeHuiMinZHuZHuYi_noun: "社会民主主义"
+ SHeHuiMinZHuZHuYi_desc: "社会民主主义政体"
+ SHeHuiMinZHuZHuYi_c: "共和国"
+ SHeHuiMinZHuZHuYi_c_desc: "社会民主主义是一种社会主义思想，支持通过在自由民主体制和资本主义经济体系下，通过经济干预和社会干预的手段促进社会正义的意识形态。 社会民主主义支持代议制和参与民主制。 社会民主主义主张实行收入再分配，通过调控手段使经济发展符合大众共同利益。"
+ 
+ MinZHuSHeHuiZHuYi: "民主社会主义"
+ MinZHuSHeHuiZHuYi_noun: "民主社会主义"
+ MinZHuSHeHuiZHuYi_desc: "社会民主主义政体。"
+ MinZHuSHeHuiZHuYi_c: "共和国"
+ MinZHuSHeHuiZHuYi_c_desc: "民主社會主義是一種把现代民主宪政和社会主义经济合为一体的政治意識形態，它的本意就是指民主的社会主义形态。 可以认为，社会民主主义是社会主义加入了一些“民主主义”的元素。 但由于何为“民主”、何为“社会主义”存在很大争议，民主社会主义也是一个相当宽泛的概念。"
+ 
+ # # #右翼
+ 
+ SHeHuiFaXiSi: "社会法西斯"
+ SHeHuiFaXiSi_noun: "社会法西斯"
+ SHeHuiFaXiSi_desc: "社会法西斯"
+ SHeHuiFaXiSi_c: "委员会制法西斯国"
+ SHeHuiFaXiSi_c_desc: "委员会制法西斯国是以委员会共和制为基础的法西斯政体."
+ 
+ SiTeLaSeZHuYi: "斯特拉瑟主义"
+ SiTeLaSeZHuYi_noun: "斯特拉瑟主义"
+ SiTeLaSeZHuYi_desc: "斯特拉瑟主义"
+ SiTeLaSeZHuYi_c: "委员会民族国"
+ SiTeLaSeZHuYi_c_desc: "委员会民族国是以委员会共和制为基础的纳粹政体。"
+ 
+ FaXiSiZHuYi: "法西斯主义"
+ FaXiSiZHuYi_noun: "法西斯主义"
+ FaXiSiZHuYi_desc: "法西斯主义政体"
+ FaXiSiZHuYi_c: "战争机器"
+ FaXiSiZHuYi_c_desc: "法西斯主义是一种威权的国家主义形式，其特点是对国家领导的个人崇拜、重视国家意识形态的宣传，公共机构拥有过度的公权力，强大的社会和经济统一执行力，以及强制镇压反对意见。"
+ 
+ MinZuSHeHuiZHuYi: "民族社会主义"
+ MinZuSHeHuiZHuYi_noun: "民族社会主义"
+ #MinZuSHeHuiZHuYi_desc: "民族社会主义是由『阿道夫·希特勒』以法西斯主义为蓝本融合了极端民族主义创建的。"
+ MinZuSHeHuiZHuYi_desc: "民族社会主义植根于极端民族主义，并且受到了种族至上理念的推动。其积极推行侵略性扩张政策并主张建立极权国家，在此基础上，人民都将被团结在拥有绝对权力的领袖之下。"
+ MinZuSHeHuiZHuYi_c: "民族国"
+ MinZuSHeHuiZHuYi_c_desc: "民族国是由极端民族主义和军国主义驱动的战争机器。"
+ 
+ BoGenDiTiZHi: "勃艮第体制"
+ BoGenDiTiZHi_noun: "勃艮第体制"
+ BoGenDiTiZHi_desc: "勃艮第体制政体"
+ BoGenDiTiZHi_c: "民族斯巴达国"
+ BoGenDiTiZHi_c_desc: "勃艮第体制是希莱姆提出的比纳粹主义还右的极端民族主义，他将全人类按照勃艮第葡萄酒那样进行分级，不仅将外族人分成三六九等，就连本族也要进行分级。 最高级的“精英”雅利安人将掌握国家的命运。 在希莱姆的设想下，未经国家批准，任何人都不得结婚，更不用说生育了。"
+ 
+ # # #？？？
+ 
+ jiaohuizhuyi: "贵族保守主义"
+ jiaohuizhuyi_noun: "贵族保守主义"
+ jiaohuizhuyi_desc: "贵族保守主义"
+ jiaohuizhuyi_c: "寡头国"
+ jiaohuizhuyi_c_desc: "这个国家执行着名义上民主制，实际上民众只能在一群寡头和另一群寡头之间选择。"
  
  ziwozhuyi: "自我主义"
  ziwozhuyi_noun: "自我主义"
@@ -317,13 +347,30 @@
  centrism_desc: "国王万岁"
  anarchism: "王国"
  anarchism_desc: "国王万岁"
- GER_fascism_party: "国家社会主义德意志工人党"
- GER_fascism_party_long: "国家社会主义德意志工人党"
+ 
+ #政党
+ 
+ # # #德国
+ 
+ GER_MinZuSHeHuiZHuYi_party: "纳粹党（右派）"
+ GER_MinZuSHeHuiZHuYi_party_long: "民族社会主义德国工人党（右派）"
+ GER_FaXiSiZHuYi_party: "纳粹党（中间派）"
+ GER_FaXiSiZHuYi_party_long: "民族社会主义德国工人党（中间派）"
+ GER_SHeHuiFaXiSi_party: "纳粹党（左派）"
+ GER_SHeHuiFaXiSi_party_long: "民族社会主义德国工人党（左派）"
+ GER_SiTeLaSeZHuYi_party: "纳粹党（斯特拉瑟派）"
+ GER_SiTeLaSeZHuYi_party_long: "民族社会主义德国工人党（斯特拉瑟派）"
+ GER_BoGenDiTiZHi_party: "纳粹党（党卫军派）"
+ GER_BoGenDiTiZHi_party_long: "民族社会主义德国工人党（党卫军派）"
+ 
  GER_communism_party: "德国共产党"
  GER_democratic_party: "中央党"
  GER_neutrality_party_civil_war: "军政府"
  GER_neutrality_party_kaiserreich: "国家人民党"
  GER_neutrality_party_kaiserreich_long: "德意志国家人民党"
+ 
+ # # #波兰
+ 
  POL_fascism_party: "民族激进阵营-长枪党"
  POL_fascism_party_long: "民族激进阵营-长枪党"
  POL_natdem_party: "民族民主党"

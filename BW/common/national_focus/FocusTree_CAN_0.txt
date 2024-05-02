@@ -1,0 +1,35 @@
+focus_tree = {
+	id = FocusTree_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAN
+		}
+	}
+	default = no
+	focus = {
+		id = free_state_30 #自由邦的第30年
+		icon = GFX_free_state_47
+		cost =4.3
+		x = 5
+		y = 1
+		completion_reward = {
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = MiHeMaoDuen
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = free_state_30 #自由邦的第30年
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			custom_effect_tooltip = MiHeMaoDuen_Z
+		}
+
+	}
+}

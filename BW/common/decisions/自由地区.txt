@@ -1,0 +1,84 @@
+ZiYouDiQv = {
+#决议组id
+	BeiMei = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+#			is_subject = yes
+				controls_state = 51
+				controls_state = 42
+				controls_state = 55
+				controls_state = 57
+				controls_state = 56
+				controls_state = 60
+				controls_state = 59
+				controls_state = 65
+				controls_state = 64
+				controls_state = 61
+				controls_state = 66
+				controls_state = 68
+				controls_state = 62
+				controls_state = 67
+				controls_state = 58
+				controls_state = 909
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+
+		visible = {
+#展示条件
+			AND = {
+				original_tag = CAN
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			set_cosmetic_tag = BeiMei_G
+			add_state_core = 51
+			add_state_core = 42
+			add_state_core = 55
+			add_state_core = 57
+			add_state_core = 56
+			add_state_core = 60
+			add_state_core = 59
+			add_state_core = 65
+			add_state_core = 64
+			add_state_core = 61
+			add_state_core = 66
+			add_state_core = 68
+			add_state_core = 62
+			add_state_core = 67
+			add_state_core = 63
+
+			add_state_core = 50
+			add_state_core = 54
+			add_state_core = 53
+			add_state_core = 52
+
+			add_state_core = 970
+
+			set_capital = { state = 64 }
+				news_event = {
+					id = bw.12
+					days = 0
+					random = 0
+			}
+		}
+
+		ai_will_do = {
+#这个也不知道有啥用（教程没讲）
+			factor = 0
+		}
+	}

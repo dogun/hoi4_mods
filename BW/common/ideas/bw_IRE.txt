@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		bw_IRE_Celt = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription = 0.05
+				war_support_factor = 0.2
+				stability_factor = 0.05
+				offence = 0.05
+				defence = 0.05
+				industrial_capacity_dockyard = 1
+
+				fascism_drift = 0.05
+				fascism_acceptance = 50
+
+#				fascism_drift = 0.01
+#				fascism_acceptance = 50
+			}
+			targeted_modifier = {
+#				hidden_effect = {
+					tag = ENG
+					offence = 0.25
+					defence = 0.1
+#				}
+			}
+		}
+	}
+}

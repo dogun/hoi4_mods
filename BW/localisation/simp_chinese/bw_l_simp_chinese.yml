@@ -14,6 +14,11 @@
  STATE_195_SOV: "列宁格勒"
  STATE_970: "萨尔"
  STATE_971: "马祖伦"
+ STATE_972: "外卢森堡"
+ STATE_973: "下阿尔萨斯"
+ STATE_974: "莫雷斯内特"
+ STATE_975: "威廉港"
+ STATE_976: "不来梅"
  STATE_5: "埃姆兰"
  
  #国家
@@ -193,6 +198,53 @@
  De3_G_fascism_ADJ: "德三"
  #通用
  
+ BeiMei_G: "北美国"
+ #通用
+ BeiMei_G_DEF: "北美国"
+ #通用
+ BeiMei_G_ADJ: "北美"
+ #通用
+ BeiMei_G_fascism: "北美帝国"
+ #法西斯
+ BeiMei_G_fascism_DEF: "北美帝国"
+ #法西斯
+ BeiMei_G_fascism_ADJ: "北美"
+ #法西斯
+ BeiMei_G_democratic: "北美共和国"
+ #民主
+ BeiMei_G_democratic_DEF: "北美共和国"
+ #民主
+ BeiMei_G_democratic_ADJ: "北美"
+ #民主
+ BeiMei_G_neutrality: "加拿大-美利坚-墨西哥联合王国"
+ #中立
+ BeiMei_G_neutrality_DEF: "加拿大-美利坚-墨西哥联合王国"
+ #中立
+ BeiMei_G_neutrality_ADJ: "北美洲联合王国"
+ #中立
+ BeiMei_G_communism: "北美洲联合体"
+ #共产
+ BeiMei_G_communism_DEF: "北美洲联合体"
+ #共产
+ BeiMei_G_communism_ADJ: "北美"
+ #共产
+ BeiMei_GCAN_wuzhengfugongchanzhuyi: "北美自由邦"
+ #安康
+ BeiMei_G_wuzhengfugongchanzhuyi_DEF: "北美自由邦"
+ #安康
+ BeiMei_G_wuzhengfugongchanzhuyi_ADJ: "北美"
+ #安康
+ BeiMei_G_gongtuanzhuyi: "北美自由邦"
+ #工团
+ BeiMei_G_gongtuanzhuyi_DEF: "北美自由邦"
+ #工团
+ BeiMei_G_gongtuanzhuyi_ADJ: "北美"
+ #工团
+ BeiMei_G_subject: "$OVERLORDADJ$属北美"
+ #傀儡
+ BeiMei_G_subject_DEF: "$OVERLORDADJ$属北美"
+ #傀儡
+ 
  CZE: "捷克斯洛伐克"
  #通用
  CZE_DEF: "捷克斯洛伐克"
@@ -227,7 +279,52 @@
  CZE_subject_DEF: "$OVERLORDADJ$属$CZE$"
  #傀儡
  
+ IRE:0 "爱尔兰"
+ #通用
+ IRE_DEF:0 "爱尔兰"
+ #通用
+ IRE_ADJ:0 "爱尔兰"
+ #通用
+ IRE_fascism:0 "爱尔兰凯尔特国"
+ #法西斯
+ IRE_fascism_DEF:0 "爱尔兰凯尔特国"
+ #法西斯
+ IRE_fascism_ADJ:0 "爱尔兰"
+ #法西斯
+ IRE_democratic:0 "爱尔兰共和国"
+ #民主
+ IRE_democratic_DEF:0 "爱尔兰共和国"
+ #民主
+ IRE_democratic_ADJ:0 "爱尔兰"
+ #民主
+ IRE_neutrality:0 "爱尔兰王国"
+ #中立
+ IRE_neutrality_DEF:0 "爱尔兰王国"
+ #中立
+ IRE_neutrality_ADJ:0 "爱尔兰"
+ #中立
+ IRE_communism:0 "爱尔兰人民联盟"
+ #共产
+ IRE_communism_DEF:0 "爱尔兰人民联盟"
+ #共产
+ IRE_communism_ADJ:0 "爱尔兰"
+ #共产
+ IRE_subject:0 "$OVERLORDADJ$属$IRE$"
+ #傀儡
+ IRE_subject_DEF:0 "$OVERLORDADJ$属$IRE$"
+ #傀儡
+ IRE_subject_ADJ:0 "非独立爱尔兰"
+ #傀儡
+ 
  #民族精神
+ 
+ # # #大不列颠
+ 
+ bw_IRE_Celt: "泛凯尔特主义"
+ bw_IRE_Celt_desc: "在独立战争胜利后爱尔兰出现了泛凯尔特主义；既然爱尔兰已经从英格兰的统治下独立，那么为什么不把苏格兰、威尔士、布列塔尼，甚至是中西欧，这些凯尔特人的土地从日耳曼蛮子的手里解放出来。"
+ 
+ # # #阿巴阿巴
+ 
  bw_weiduyishu: "维度艺术"
  bw_weiduyishu_desc: "维度艺术"
  
@@ -275,9 +372,20 @@
  CSA_john_thompson: "约翰·汤普森"
 
  GER_Gregor_Strasser: "格雷戈尔·施特拉塞"
+ 
+ CAN_evelina: "埃维琳娜"
+ 
+ CAN_SOV: "加拿大苏维埃"
 
- heijunlingdaozhe: "黑军领导者"
+#个人特征
+
+ heijunlingdaozhe: "黑军领袖"
+ 
  union_man: "迪克西"
+ 
+ WeiDaDeYuanSHou: "伟大的元首"
+
+#国民精神
 
  csa_meizhoudetongzhizhe: "美洲的统治者"
  csa_meizhoudetongzhizhe_desc: "美洲的统治者"
@@ -289,6 +397,8 @@
  csa_mimiguancha_desc: "秘密观察"
 
  #事件
+
+ # # #彩蛋
 
  bw.1: "因纽特人暴动"
  bw.1.t: "因纽特人暴动"
@@ -344,9 +454,19 @@
  bw.9.d: "维度艺术"
  bw.9.a: "真漂亮"
 
- bw.10: "科学家出逃" * bw.10.t: "科学家出逃"
+ bw.10: "科学家出逃" 
+ bw.10.t: "科学家出逃"
  bw.10.d: "科学家出逃"
  bw.10.a: "Oh no"
+ 
+ # # #大不列颠
+ 
+ bw_ENG.1: "不列颠要求削减自治权"
+ bw_ENG.1.t: "不列颠要求削减自治权"
+ bw_ENG.1.d: "今日不列颠政府通过了《1935年印度政府法案》要求我们加入王国"
+ bw_ENG.1.a: "谁叫他是我们的宗主"
+ 
+ # # #阿巴阿巴
  
  bw.11: "分歧"
  bw.11.t: "分歧"
@@ -375,12 +495,49 @@
  bw.14.a: "他们总比共产党要好"
  bw.14.b: "法西斯还想玷污共和国？"
  
- #文本d
+ bw.15: "菲利普去世"
+ bw.15.t: "菲利普去世"
+ bw.15.d: "菲利普·阿瑟于今日与世长辞。"
+ bw.15.a: "哦不"
+ 
+ bw.16: "政局不稳"
+ bw.16.t: "政局不稳"
+ bw.16.d: "因为菲利普·阿瑟的去世$CAN$的政局陷入混乱。"
+ bw.16.a: "埃维琳娜稳定住了局势"
+ bw.16.b: "黑军的时代结束了，苏维埃的时代开始了"
+ 
+ bw.17: "刺客袭击埃维琳娜"
+ bw.17.t: "刺客袭击埃维琳娜"
+ bw.17.d: "今晚有一个人加入了埃维琳娜房间."
+ bw.17.a: "刺客失败了"
+ bw.17.b: "刺客成功了"
+ bw.17.c: "埃维琳娜被蕨了（？？？"
+ 
+ bw.18: "巴黎股市彻底崩盘"
+ bw.18.t: "巴黎股市彻底崩盘"
+ bw.18.d: "巴黎股市的小范围崩盘已经演化成了彻底崩盘."
+ bw.18.a: "这不怪法国"
+ 
+ bw.19: "第二次南北战争"
+ bw.19.t: "第二次南北战争"
+ bw.19.d: "在朗集团的领导下华盛顿州、俄勒冈州、爱达荷州、蒙大拿州、怀俄明州、南北达科他州、内布拉斯加州、明尼苏达州、艾奥瓦州、威斯康星州、密歇根州和新英格兰各州宣布美利坚合众国得到重建。"
+ bw.19.a: "竟有人敢阻挡美利坚的昭昭天命"
+ 
+ bw.20: "归乡"
+ bw.20.t: "归乡"
+ bw.20.d: ""
+ bw.20.a: "这太危险了"
+ bw.20.b: "终于"
+ 
+ #文本
+ 
  Treaty_of_Trianon_CZE_W: "捷克将被称为$CZE$"
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
  FocusTree_SOV_1: "先发制人"
  TaMenKeNengHuiDeCuenJinCHi: "\n§R它们可能会得寸进尺§!\n"
  TaMenKeNengHuiBaoFuNi: "\n§R它们可能会进行报复§!\n"
+ evelina_Jue: "欧，你居然用§Rdebug§!模式来玩我的模组，真的太令人震惊了！\n\n\n\n\n奖励你一个彩蛋 doge"
+ MiHeMaoDuen_Z: "解锁§Y矛盾§!决议组\n\n解锁决议§Y向委员会让步§!\n解锁决议§Y给予委员会更多权力§!"
  
  #权力平衡
  
@@ -412,7 +569,20 @@
  
  #国策
  
+ # # #大不列颠
+ 
+ Government_of_India_Act_1935: "最终通过《1935年印度政府法案》"
+ Government_of_India_Act_1935_desc: "《1935年印度政府法案》听名字就知道是1935年提出的，结果到现在都没通过。\n“和这群虫豸在一起，怎么能搞好政治！”"
+ 
+ # # #阿巴阿巴
+ 
  GER_rhineland:0 "改组政府"
  
- 允许RN进入内阁_desc: "虽然人民阵线是为了防范国民联盟尔成立的，但是红色威胁已经到了我们的后花园 莱茵兰，他们公开撕毁法尔赛条约让以我们领导的法尔赛体系颜面无存"7*/
+ free_state_30: "自由邦的第30年"
+ free_state_30_desc: "自由邦. . . . . . 30年了"
+ 
+ MiHeMaoDuen: "弥合矛盾"
+ MiHeMaoDuen_desc: "黑军和苏维埃一直以来都有很强的矛盾，苏维埃认为黑军权力太大。如果§Y菲利普§!一死§Y埃维琳娜§!恐怕无法稳定局势。所以弥合黑军和苏维埃矛盾是重中之重。"
+ 
+ #允许RN进入内阁_desc: "虽然人民阵线是为了防范国民联盟尔成立的，但是红色威胁已经到了我们的后花园 莱茵兰，他们公开撕毁法尔赛条约让以我们领导的法尔赛体系颜面无存"
  

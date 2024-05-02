@@ -1,5 +1,10 @@
 #reload countrycolors
 
+CND = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 233  59  59 }
+}
+
 GSR = {
 	color = rgb { 220  105  12 }
 	color_ui = rgb { 220  105  12 }

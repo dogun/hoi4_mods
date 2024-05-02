@@ -24,7 +24,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = sidalinzhuyi_c
+			ideology = SiDaLingZHuYi_c
 			traits = { stalin_heart_of_steel }
 			expire = "1953.3.1.1"
 			id = -1
@@ -43,7 +43,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = lieningzhuyi_c
+			ideology = MaKeSi_LieNingZHuYi_c
 			traits = { stalin_heart_of_steel }
 			expire = "1953.3.1.1"
 			id = -1

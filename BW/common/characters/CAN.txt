@@ -7,11 +7,53 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = gongtuanzhuyi_c
+			ideology = GuongTuanZHuYi_c
 			traits={ heijunlingdaozhe }
 			expire = "1937.5.28.4"
 			id = -1
 		}
 	}
+	CAN_evelina = {
+		name = CAN_evelina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Эвелина（图像（无帽））.dds"
+			}
+		}
+		country_leader = {
+			ideology = GuongTuanZHuYi_c
+			traits={ heijunlingdaozhe }
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	CAN_SOV = {
+		name = CAN_SOV
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/portrait_spr_anarchist_commune.dds"
+			}
+		}
+		country_leader = {
+			ideology = WuZHengFuGuongCHanZHuYi_c
+			traits={  }
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	CAN_DaweiYuanHuei_1 = {
+		name = CAN_DaweiYuanHuei
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/portrait_spr_anarchist_commune.dds"
+			}
+		}
+		country_leader = {
+			ideology = WuZHengFuGuongCHanZHuYi_c
+			traits={  }
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+
 }
-	

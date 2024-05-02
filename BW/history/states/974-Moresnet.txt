@@ -1,0 +1,31 @@
+state=
+{
+	id=974
+	name="STATE_974"
+	
+	state_category = rural
+	
+	manpower = 2572
+	resources={
+#		steel=1 # was: 8
+	}
+
+	history=
+	{
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+#			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = { 3488 1 }
+		add_core_of = BEL
+		set_demilitarized_zone = yes
+	}
+
+	provinces=
+	{
+3488 	}
+
+	local_supplies=0.0 
+}
