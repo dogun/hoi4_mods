@@ -24,6 +24,7 @@ state = {
 		add_core_of = SLV
 		add_core_of = LBV
 		add_core_of = AUS
+		add_core_of = FSO
 
 		#CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
 		set_province_name = { id = 11564 name = VICTORY_POINTS_11564_ITA }

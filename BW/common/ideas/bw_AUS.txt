@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		bw_AUS_Third_Way = {	#第三条路
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				JiaZHangZHi_drift = 0.25
+				JunZHuZHuYi_drift = 0.5
+				
+				WuZHengFuGuongCHanZHuYi_drift = -0.05
+				GuongTuanZHuYi_drift = -0.05
+				MaKeSi_LieNingZHuYi_drift = -0.05
+				TuoLuoSiJiZHuYi_drift = -0.05
+				SiDaLingZHuYi_drift = -0.05
+				YuanSHiZHuYi_drift = -0.05
+				
+				SHeHuiMinZHuZHuYi_drift = -0.05
+				MinZHuSHeHuiZHuYi_drift = -0.05
+			}
+		}
+	}
+}

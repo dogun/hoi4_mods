@@ -1,0 +1,405 @@
+focus_tree = {
+	id = FocusTree_GER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	continuous_focus_position = { x = 0 y = 1750 }
+
+#政治线
+
+	default = no
+	focus = {
+		id = GER_YuanSHou #元首
+		icon = GFX_goal_unknown
+		cost = 2.00
+		x = 6
+		y = 0
+		completion_reward = {
+			add_country_leader_trait = YuanSHou
+		}
+	}
+	focus = {
+		id = GER_WaiJiaoBu #外交部
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 14
+		y = 1
+		available = {
+			has_completed_focus = GER_NaCuiDeDeYiZHi
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = GER_ErDuGongSHi #二度攻势
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = GER_YuanSHou #元首
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_BoLin #柏林！
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_ErDuGongSHi #二度攻势
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = GER_DaYaDangWeiJun #打压党卫军
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = GER_YuanSHou #元首
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+			add_popularity = {
+				ideology = BoGenDiTiZHi
+				popularity = -0.1
+			}
+		}
+	}
+	focus = {
+		id = GER_HaiDelLxi #海德里希
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_DaYaDangWeiJun #打压党卫军
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = GER_DiSanFang #第三方
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_HaiDelLxi #海德里希
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			create_intelligence_agency = yes
+		}
+	}
+	focus = {
+		id = GER_NaCuiDeDeYiZHi #纳粹的德意志
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_BoLin #柏林！
+		}
+		prerequisite = {
+			focus = GER_DiSanFang #第三方
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = GER_DeAoHeBing #德奥合并
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = GER_YvYiDaLiJiaoHao #对意大利示好
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_DeAoHeBing #德奥合并
+		}
+		mutually_exclusive = {
+			focus = GER_SuoQvQiYvAoDiLi #索取其余奥地利
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = GER_SuoQvQiYvAoDiLi #索取其余奥地利
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = GER_DeAoHeBing #德奥合并
+		}
+		mutually_exclusive = {
+			focus = GER_YvYiDaLiJiaoHao #对意大利示好
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = GER_SuoQvSuTaiDe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_NaCuiDeDeYiZHi
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = GER_JieKeDeMingYun
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SuoQvSuTaiDe
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = GER_JiangXiongYaLiBangShangZHanCHe
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SuoQvSuTaiDe
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = GER_GuaFenSiLuoFaKe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_JiangXiongYaLiBangShangZHanCHe
+		}
+		prerequisite = {
+			focus = GER_JieKeDeMingYun
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = GER_YiSiLuoFaKeHuanQvCHenFu
+		icon = GFX_goal_unknown
+		cost = 6.00
+		prerequisite = {
+			focus = GER_GuaFenSiLuoFaKe
+		}
+		mutually_exclusive = {
+			focus = GER_YaoQiuCHenFu
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = GER_DuiRiSHiHao
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_WaiJiaoBu
+		}
+		mutually_exclusive = {
+			focus = GER_DuiHuaSHiHao
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = GER_DuiHuaSHiHao
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_WaiJiaoBu
+		}
+		mutually_exclusive = {
+			focus = GER_DuiRiSHiHao
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = GER_TongYiDeDeYiZHi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_NaCuiDeDeYiZHi
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = GER_GuDongDanZe
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_TongYiDeDeYiZHi
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = GER_DeGuo_RuiDianMaoYiXieDin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_WaiJiaoBu
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = GER_BoMeiLaniYaHuoZHanZHeng
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_TongYiDeDeYiZHi
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = GER_MaZuLuenHuoZHanZHeng
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_GuDongDanZe
+		}
+		prerequisite = {
+			focus = GER_BoMeiLaniYaHuoZHanZHeng
+		}
+		x = 16
+		y = 8
+
+	}
+	focus = {
+		id = GER_YaoQiuCHenFu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_MaZuLuenHuoZHanZHeng
+		}
+		mutually_exclusive = {
+			focus = GER_YiSiLuoFaKeHuanQvCHenFu
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = GER_YvYiDaYiJieMeng
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_YvYiDaLiJiaoHao
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = GER_DaDeYiZHi
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_SuoQvQiYvAoDiLi
+		}
+		prerequisite = {
+			focus = GER_JieKeDeMingYun
+		}
+		x = 6
+		y = 8
+
+	}
+	focus = {
+		id = GER_XinZHiXv
+		icon = GFX_goal_unknown
+		cost = 20.00
+		prerequisite = {
+			focus = GER_YvYiDaYiJieMeng
+			focus = GER_DaDeYiZHi
+		}
+		x = 6
+		y = 11
+
+	}
+	focus = {
+		id = GER_SuoQvMeiMeiEr
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_MaZuLuenHuoZHanZHeng
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = GER_DuiFaZuoZHan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_YiSiLuoFaKeHuanQvCHenFu
+			focus = GER_YaoQiuCHenFu
+		}
+		prerequisite = {
+			focus = GER_SuoQvMeiMeiEr
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = GER_BaoRaoMaQiNuo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_DuiFaZuoZHan
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = GER_SHengDanSHuXingDong
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_DuiFaZuoZHan
+		}
+		x = 13
+		y = 11
+
+	}
+
+#经济线
+
+}

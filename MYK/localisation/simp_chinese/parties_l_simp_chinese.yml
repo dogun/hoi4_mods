@@ -368,6 +368,24 @@
  GER_neutrality_party_civil_war: "军政府"
  GER_neutrality_party_kaiserreich: "国家人民党"
  GER_neutrality_party_kaiserreich_long: "德意志国家人民党"
+  
+ # # #德共
+ 
+ GSR_MaKeSi_LieNingZHuYi_party: "德国共产党（中间派）"
+ GSR_MaKeSi_LieNingZHuYi_party_long: "德意志共产党（中间派）"
+ GSR_TuoLuoSiJiZHuYi_party: "德国共产党（左派）"
+ GSR_TuoLuoSiJiZHuYi_party_long: "德意志共产党（左派）"
+ GSR_SHeHuiFaXiSi_party: "德国共产党（右派）"
+ GSR_SHeHuiFaXiSi_party_long: "德意志共产党（右派）"
+ GSR_GuongTuanZHuYi_party: "德国共产党（卢森堡派）"
+ GSR_GuongTuanZHuYi_party_long: "德意志共产党（卢森堡派）"
+ GSR_SiDaLingZHuYi_party: "德国共产党（共产国际派）"
+ GSR_SiDaLingZHuYi_party_long: "德意志共产党（共产国际派）"
+ 
+ GSR_JiaZHangZHi_party: "德国国家人民党（左派）"
+ GSR_JiaZHangZHi_party_long: "德意志国家人民党（左派）"
+ GSR_FaXiSiZHuYi_party: "德国国家人民党（右派）"
+ GSR_FaXiSiZHuYi_party_long: "德意志国家人民党（右派）"
  
  # # #波兰
  
@@ -386,6 +404,9 @@
  POL_POS_party_long: "社会共同组织" #Common Organization of Society
  POL_exile_democratic_party: "自由民主党"
  POL_exile_democratic_party_long: "自由民主党"
+ 
+ #英国
+ 
  ENG_communism_party: "大不列颠共产党"
  ENG_democratic_party: "保守党"
  ENG_fascism_party: "不列颠法西斯联盟"
@@ -394,6 +415,9 @@
  ENG_neutrality_party_queens_party: "不列颠女王党"
  ENG_neutrality_party_queens_party_long: "不列颠女王党"
  ITA_communism_party: "意大利共产党"
+ 
+ #意大利
+ 
  ITA_communism_party_long: "意大利共产党"
  ITA_democratic_party: "意大利人民党"
  ITA_democratic_party_long: "意大利人民党"
@@ -426,12 +450,39 @@
  SOV_fascism_party: "俄罗斯法西斯党"
  SOV_fascism_party_russian: "全俄法西斯党"
  SOV_fascism_party_russian_long: "全俄罗斯法西斯党"
+ 
+ #奥地利
+ 
+ AUS_MinZuSHeHuiZHuYi_party: "奥地利纳粹党"
+ AUS_MinZuSHeHuiZHuYi_party_long: "德意志民族社会主义工人党（奥地利）"
+ AUS_JiaZHangZHi_party: "祖国阵线（左派）"
+ AUS_JiaZHangZHi_party_long: "祖国阵线（左派）"
+ AUS_FaXiSiZHuYi_party: "祖国阵线（右派）"
+ AUS_FaXiSiZHuYi_party_long: "祖国阵线（右派）"
+ AUS_JunZHuZHuYi_party: "哈布斯堡王朝"
+ AUS_JunZHuZHuYi_party_long: "哈布斯堡王朝"
+ 
+ AUS_SHeHuiMinZHuZHuYi_party: "奥地利社会民主党（右派）"
+ AUS_SHeHuiMinZHuZHuYi_party_long: "奥地利社会民主党（右派）"
+ AUS_MinZHuSHeHuiZHuYi_party: "奥地利社会民主党（左派）"
+ AUS_MinZHuSHeHuiZHuYi_party_long: "奥地利社会民主党（左派）"
+ 
+ AUS_TuoLuoSiJiZHuYi_party: "奥地利共产党（左派）"
+ AUS_TuoLuoSiJiZHuYi_party_long: "奥地利共产党（左派）"
+ AUS_MaKeSi_LieNingZHuYi_party: "奥地利共产党（中间派）"
+ AUS_MaKeSi_LieNingZHuYi_party_long: "奥地利共产党（中间派）"
+ AUS_SiDaLingZHuYi_party: "奥地利共产党（右派）"
+ AUS_SiDaLingZHuYi_party_long: "奥地利共产党（右派）"
+ 
  AUS_communism_party: "奥地利共产党"
  AUS_communism_party_long: "奥地利共产党"
  AUS_democratic_party: "奥地利社会民主党"
  AUS_democratic_party_long: "奥地利社会民主党"
  AUS_fascism_party: "德意志国家社会主义工人党"
  AUS_neutrality_party: "祖国阵线"
+ 
+ #中共
+ 
  CHI_communism_party: "中国共产党"
  CHI_communism_party_long: "中国共产党"
  CHI_democratic_party: "中国民主同盟"

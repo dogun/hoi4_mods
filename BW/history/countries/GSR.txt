@@ -10,12 +10,15 @@ set_convoys = 20
 #recruit_character = GAB_acr
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = MaKeSi_LieNingZHuYi
 }
 
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 50
-	neutrality = 5
+	MaKeSi_LieNingZHuYi = 53.03 #48.22 #2=53.39
+	SHeHuiMinZHuZHuYi = 27.53
+	MinZHuSHeHuiZHuYi = 13.87
+	FaXiSiZHuYi = 5.57
+}
+add_ideas = {
+	bw_GSR_RongKeGuiZu
 }

@@ -8,12 +8,12 @@ state = {
 		victory_points = {
 			317 3 
 		}
-		owner = GSR
+		owner = DEN
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
-		add_core_of = GSR
+		add_core_of = DEN
 	}
 
 	provinces = {

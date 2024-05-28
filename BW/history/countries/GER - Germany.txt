@@ -153,6 +153,8 @@ declare_war_on = {
 }
 #give_guarantee = ALB
 
+set_cosmetic_tag = GER_LinSHiZHengFu
+
 recruit_character = GER_Gregor_Strasser
 recruit_character = GER_adolf_hitler_BW
 recruit_character = GER_Heinrich_Himmler_BW

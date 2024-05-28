@@ -1,16 +1,23 @@
 ﻿l_simp_chinese:
  
+ #德国
+ 
  GER: "德国"
  #通用
  GER_DEF: "德国"
  #通用
  GER_ADJ: "德国"
  #通用
- GER_fascism: "德意志民族临时政府"
+ GER_autonomy_puppet: "$OVERLORDADJ$属德国"
+ #傀儡
+ GER_autonomy_puppet_DEF: "$OVERLORDADJ$属德国"
+ #傀儡
+ 
+ GER_fascism: "德意志国"
  #法西斯（原版）
- GER_fascism_DEF: "德意志民族临时政府"
+ GER_fascism_DEF: "德意志国"
  #法西斯（原版）
- GER_fascism_ADJ: "临时政府"
+ GER_fascism_ADJ: "德国"
  #法西斯（原版）
  GER_democratic: "德意志共和国"
  #民主（原版）
@@ -30,10 +37,654 @@
  #共产（原版）
  GER_communism_ADJ: "德国"
  #共产（原版）
- GER_autonomy_puppet: "$OVERLORDADJ$属德国"
+ ###
+ GER_WuZHengFuGuongCHanZHuYi: "德意志无政府联盟"
+ #无政府共产主义
+ GER_WuZHengFuGuongCHanZHuYi_DEF: "德意志无政府联盟"
+ #无政府共产主义
+ GER_WuZHengFuGuongCHanZHuYi_ADJ: "德意志联盟"
+ #无政府共产主义
+ 
+ GER_GuongTuanZHuYi: "柏林公社"
+ #工团主义
+ GER_GuongTuanZHuYi_DEF: "柏林公社"
+ #工团主义
+ GER_GuongTuanZHuYi_ADJ: "柏林"
+ #工团主义
+ 
+ GER_MaKeSi_LieNingZHuYi: "德意志社会主义共和国"
+ #马克思 - 列宁主义
+ GER_MaKeSi_LieNingZHuYi_DEF: "德意志社会主义共和国"
+ #马克思 - 列宁主义
+ GER_MaKeSi_LieNingZHuYi_ADJ: "德国"
+ #马克思 - 列宁主义
+ 
+ GER_TuoLuoSiJiZHuYi: "德国革命军"
+ #托洛斯基
+ GER_TuoLuoSiJiZHuYi_DEF: "德国革命军"
+ #托洛斯基
+ GER_TuoLuoSiJiZHuYi_ADJ: "德国"
+ #托洛斯基
+  
+ GER_SiDaLingZHuYi: "德意志社会主义共和国"
+ #斯大林主义
+ GER_SiDaLingZHuYi_DEF: "德意志社会主义共和国"
+ #斯大林主义
+ GER_SiDaLingZHuYi_ADJ: "德国"
+ #斯大林主义
+ 
+ GER_YuanSHiZHuYi: "德意志社会技官国"
+ #远视主义
+ GER_YuanSHiZHuYi_DEF: "德意志社会技官国"
+ #远视主义
+ GER_YuanSHiZHuYi_ADJ: "德国"
+ #远视主义
+ 
+ GER_JunZHengGuongCHanZHuYi: "德意志共产主义军区"
+ #军政共产主义
+ GER_JunZHengGuongCHanZHuYi_DEF: "德意志共产主义军区"
+ #军政共产主义
+ GER_JunZHengGuongCHanZHuYi_ADJ: "德共军"
+ #军政共产主义
+ 
+ GER_JunZHuBuErSHiWeiKe: "德意志君主共和国"
+ #君主布尔什维克
+ GER_JunZHuBuErSHiWeiKe_DEF: "德意志君主共和国"
+ #君主布尔什维克
+ GER_JunZHuBuErSHiWeiKe_ADJ: "德国"
+ #君主布尔什维克
+ 
+ GER_SHeHuiMinZHuZHuYi: "德意志共和国"
+ #社会民主主义
+ GER_SHeHuiMinZHuZHuYi_DEF: "德意志共和国"
+ #社会民主主义
+ GER_SHeHuiMinZHuZHuYi_ADJ: "德国"
+ #社会民主主义
+ 
+ GER_MinZHuSHeHuiZHuYi: "德意志共和国"
+ #民主社会主义
+ GER_MinZHuSHeHuiZHuYi_DEF: "德意志共和国"
+ #民主社会主义
+ GER_MinZHuSHeHuiZHuYi_ADJ: "德国"
+ #民主社会主义
+ 
+ GER_JiaSuZHuYi: "德意志先锋国"
+ #加速主义
+ GER_JiaSuZHuYi_DEF: "德意志先锋国"
+ #加速主义
+ GER_JiaSuZHuYi_ADJ: "德国"
+ #加速主义
+ 
+ GER_JiaZHangZHi: "德意志国"
+ #家长制
+ GER_JiaZHangZHi_DEF: "德意志国"
+ #家长制
+ GER_JiaZHangZHi_ADJ: "德国"
+ #家长制
+ 
+ GER_JunZHuZHuYi: "德意志帝国"
+ #君主主义
+ GER_JunZHuZHuYi_DEF: "德意志帝国"
+ #君主主义
+ GER_JunZHuZHuYi_ADJ: "德国"
+ #君主主义
+ 
+ GER_ZiBenGuongCHanZHuYi: "德意志企业帝国"
+ #资本共产主义
+ GER_ZiBenGuongCHanZHuYi_DEF: "德意志企业帝国"
+ #资本共产主义
+ GER_ZiBenGuongCHanZHuYi_ADJ: "德国"
+ #资本共产主义
+ 
+ GER_SHeHuiFaXiSi: "德意志国"
+ #社会法西斯
+ GER_SHeHuiFaXiSi_DEF: "德意志国"
+ #社会法西斯
+ GER_SHeHuiFaXiSi_ADJ: "德国"
+ #社会法西斯
+ 
+ GER_SiTeLaSeZHuYi: "德意志国"
+ #斯特拉瑟主义
+ GER_SiTeLaSeZHuYi_DEF: "德意志国"
+ #斯特拉瑟主义
+ GER_SiTeLaSeZHuYi_ADJ: "德国"
+ #斯特拉瑟主义
+ 
+ GER_FaXiSiZHuYi: "德意志国"
+ #法西斯主义
+ GER_FaXiSiZHuYi_DEF: "德意志国"
+ #法西斯主义
+ GER_FaXiSiZHuYi_ADJ: "德国"
+ #法西斯主义
+ 
+ GER_MinZuSHeHuiZHuYi: "德意志国"
+ #纳粹
+ GER_MinZuSHeHuiZHuYi_DEF: "德意志国"
+ #纳粹
+ GER_MinZuSHeHuiZHuYi_ADJ: "德国"
+ #纳粹
+ 
+ GER_BoGenDiTiZHi: "党卫军德意志国"
+ #勃艮第体制
+ GER_BoGenDiTiZHi_DEF: "党卫军德意志国"
+ #勃艮第体制
+ GER_BoGenDiTiZHi_ADJ: "德国"
+ #勃艮第体制
+ 
+ #德国临时政府
+ 
+ GER_LinSHiZHengFu: "德国临时政府"
+ #通用
+ GER_LinSHiZHengFu_DEF: "德国临时政府"
+ #通用
+ GER_LinSHiZHengFu_ADJ: "德国临时政府"
+ #通用
+ #GER_autonomy_puppet: "$OVERLORDADJ$属德国临时政府"
  #傀儡
- GER_autonomy_puppet_DEF: "$OVERLORDADJ$属德国"
+ #GER_autonomy_puppet_DEF: "$OVERLORDADJ$属德国临时政府"
  #傀儡
+ 
+ GER_LinSHiZHengFu_fascism: "德意志国"
+ #法西斯（原版）
+ GER_LinSHiZHengFu_fascism_DEF: "德意志国"
+ #法西斯（原版）
+ GER_LinSHiZHengFu_fascism_ADJ: "德国"
+ #法西斯（原版）
+ GER_LinSHiZHengFu_democratic: "德意志共和国"
+ #民主（原版）
+ GER_LinSHiZHengFu_democratic_DEF: "德意志共和国"
+ #民主（原版）
+ GER_LinSHiZHengFu_democratic_ADJ: "德国"
+ #民主（原版）
+ GER_LinSHiZHengFu_neutrality: "德意志帝国"
+ #中立（原版）
+ GER_LinSHiZHengFu_neutrality_DEF: "德意志帝国"
+ #中立（原版）
+ GER_LinSHiZHengFu_neutrality_ADJ: "德国"
+ #中立（原版）
+ GER_LinSHiZHengFu_communism: "德意志社会主义共和国"
+ #共产（原版）
+ GER_LinSHiZHengFu_communism_DEF: "德意志社会主义共和国"
+ #共产（原版）
+ GER_LinSHiZHengFu_communism_ADJ: "德国"
+ #共产（原版）
+ ###
+ GER_LinSHiZHengFu_WuZHengFuGuongCHanZHuYi: "德意志无政府联盟"
+ #无政府共产主义
+ GER_LinSHiZHengFu_WuZHengFuGuongCHanZHuYi_DEF: "德意志无政府联盟"
+ #无政府共产主义
+ GER_LinSHiZHengFu_WuZHengFuGuongCHanZHuYi_ADJ: "德意志联盟"
+ #无政府共产主义
+ 
+ GER_LinSHiZHengFu_GuongTuanZHuYi: "慕尼黑公社"
+ #工团主义
+ GER_LinSHiZHengFu_GuongTuanZHuYi_DEF: "慕尼黑公社"
+ #工团主义
+ GER_LinSHiZHengFu_GuongTuanZHuYi_ADJ: "慕尼黑"
+ #工团主义
+ 
+ GER_LinSHiZHengFu_MaKeSi_LieNingZHuYi: "德意志共产主义联盟"
+ #马克思 - 列宁主义
+ GER_LinSHiZHengFu_MaKeSi_LieNingZHuYi_DEF: "德意志共产主义联盟"
+ #马克思 - 列宁主义
+ GER_LinSHiZHengFu_MaKeSi_LieNingZHuYi_ADJ: "德意志共产主义者"
+ #马克思 - 列宁主义
+ 
+ GER_LinSHiZHengFu_TuoLuoSiJiZHuYi: "德意志共产主义联盟"
+ #托洛斯基
+ GER_LinSHiZHengFu_TuoLuoSiJiZHuYi_DEF: "德意志共产主义联盟"
+ #托洛斯基
+ GER_LinSHiZHengFu_TuoLuoSiJiZHuYi_ADJ: "德意志共产主义者"
+ #托洛斯基
+  
+ GER_LinSHiZHengFu_SiDaLingZHuYi: "德意志共产主义联盟"
+ #斯大林主义
+ GER_LinSHiZHengFu_SiDaLingZHuYi_DEF: "德意志共产主义联盟"
+ #斯大林主义
+ GER_LinSHiZHengFu_SiDaLingZHuYi_ADJ: "德意志共产主义者"
+ #斯大林主义
+ 
+ GER_LinSHiZHengFu_YuanSHiZHuYi: "德意志共产主义联盟"
+ #远视主义
+ GER_LinSHiZHengFu_YuanSHiZHuYi_DEF: "德意志共产主义联盟"
+ #远视主义
+ GER_LinSHiZHengFu_YuanSHiZHuYi_ADJ: "德意志共产主义者"
+ #远视主义
+ 
+ GER_LinSHiZHengFu_JunZHengGuongCHanZHuYi: "德意志共产主义联盟"
+ #军政共产主义
+ GER_LinSHiZHengFu_JunZHengGuongCHanZHuYi_DEF: "德意志共产主义联盟"
+ #军政共产主义
+ GER_LinSHiZHengFu_JunZHengGuongCHanZHuYi_ADJ: "德意志共产主义者"
+ #军政共产主义
+ 
+ GER_LinSHiZHengFu_JunZHuBuErSHiWeiKe: "德意志共产主义联盟"
+ #君主布尔什维克
+ GER_LinSHiZHengFu_JunZHuBuErSHiWeiKe_DEF: "德意志共产主义联盟"
+ #君主布尔什维克
+ GER_LinSHiZHengFu_JunZHuBuErSHiWeiKe_ADJ: "德意志共产主义者"
+ #君主布尔什维克
+ 
+ GER_LinSHiZHengFu_SHeHuiMinZHuZHuYi: "德意志自由主义者起义"
+ #社会民主主义
+ GER_LinSHiZHengFu_SHeHuiMinZHuZHuYi_DEF: "德意志自由主义者起义"
+ #社会民主主义
+ GER_LinSHiZHengFu_SHeHuiMinZHuZHuYi_ADJ: "自由德意志"
+ #社会民主主义
+ 
+ GER_LinSHiZHengFu_MinZHuSHeHuiZHuYi: "德意志自由主义者起义"
+ #民主社会主义
+ GER_LinSHiZHengFu_MinZHuSHeHuiZHuYi_DEF: "德意志自由主义者起义"
+ #民主社会主义
+ GER_LinSHiZHengFu_MinZHuSHeHuiZHuYi_ADJ: "自由德意志"
+ #民主社会主义
+ 
+ GER_LinSHiZHengFu_JiaSuZHuYi: "加速！加速！加速！"
+ #加速主义
+ GER_LinSHiZHengFu_JiaSuZHuYi_DEF: "加速！加速！加速！"
+ #加速主义
+ GER_LinSHiZHengFu_JiaSuZHuYi_ADJ: "加速"
+ #加速主义
+ 
+ GER_LinSHiZHengFu_JiaZHangZHi: "德意志军政府"
+ #家长制
+ GER_LinSHiZHengFu_JiaZHangZHi_DEF: "德意志军政府"
+ #家长制
+ GER_LinSHiZHengFu_JiaZHangZHi_ADJ: "德国"
+ #家长制
+ 
+ GER_LinSHiZHengFu_JunZHuZHuYi: "德国保皇派"
+ #君主主义
+ GER_LinSHiZHengFu_JunZHuZHuYi_DEF: "德国保皇派"
+ #君主主义
+ GER_LinSHiZHengFu_JunZHuZHuYi_ADJ: "德国"
+ #君主主义
+ 
+ GER_LinSHiZHengFu_ZiBenGuongCHanZHuYi: "德意志资本家起义"
+ #资本共产主义
+ GER_LinSHiZHengFu_ZiBenGuongCHanZHuYi_DEF: "德意志资本家起义"
+ #资本共产主义
+ GER_LinSHiZHengFu_ZiBenGuongCHanZHuYi_ADJ: "德国资本家"
+ #资本共产主义
+ 
+ GER_LinSHiZHengFu_SHeHuiFaXiSi: "全德法西斯临时政府"
+ #社会法西斯
+ GER_LinSHiZHengFu_SHeHuiFaXiSi_DEF: "全德法西斯临时政府"
+ #社会法西斯
+ GER_LinSHiZHengFu_SHeHuiFaXiSi_ADJ: "法西斯德国"
+ #社会法西斯
+ 
+ GER_LinSHiZHengFu_SiTeLaSeZHuYi: "全德法西斯临时政府"
+ #斯特拉瑟主义
+ GER_LinSHiZHengFu_SiTeLaSeZHuYi_DEF: "全德法西斯临时政府"
+ #斯特拉瑟主义
+ GER_LinSHiZHengFu_SiTeLaSeZHuYi_ADJ: "法西斯德国"
+ #斯特拉瑟主义
+ 
+ GER_LinSHiZHengFu_FaXiSiZHuYi: "全德法西斯临时政府"
+ #法西斯主义
+ GER_LinSHiZHengFu_FaXiSiZHuYi_DEF: "全德法西斯临时政府"
+ #法西斯主义
+ GER_LinSHiZHengFu_FaXiSiZHuYi_ADJ: "法西斯德国"
+ #法西斯主义
+ 
+ GER_LinSHiZHengFu_MinZuSHeHuiZHuYi: "全德法西斯临时政府"
+ #纳粹
+ GER_LinSHiZHengFu_MinZuSHeHuiZHuYi_DEF: "全德法西斯临时政府"
+ #纳粹
+ GER_LinSHiZHengFu_MinZuSHeHuiZHuYi_ADJ: "法西斯德国"
+ #纳粹
+ 
+ GER_LinSHiZHengFu_BoGenDiTiZHi: "全德法西斯临时政府"
+ #勃艮第体制
+ GER_LinSHiZHengFu_BoGenDiTiZHi_DEF: "全德法西斯临时政府"
+ #勃艮第体制
+ GER_LinSHiZHengFu_BoGenDiTiZHi_ADJ: "法西斯德国"
+ #勃艮第体制
+ 
+ #德共
+ 
+ GSR: "德国"
+ #通用
+ GSR_DEF: "德国"
+ #通用
+ GSR_ADJ: "德国"
+ #通用
+ GSR_autonomy_puppet: "$OVERLORDADJ$属德国"
+ #傀儡
+ GSR_autonomy_puppet_DEF: "$OVERLORDADJ$属德国"
+ #傀儡
+ 
+ GSR_fascism: "德意志国"
+ #法西斯（原版）
+ GSR_fascism_DEF: "德意志国"
+ #法西斯（原版）
+ GSR_fascism_ADJ: "德国"
+ #法西斯（原版）
+ GSR_democratic: "德意志共和国"
+ #民主（原版）
+ GSR_democratic_DEF: "德意志共和国"
+ #民主（原版）
+ GSR_democratic_ADJ: "德国"
+ #民主（原版）
+ GSR_neutrality: "德意志帝国"
+ #中立（原版）
+ GSR_neutrality_DEF: "德意志帝国"
+ #中立（原版）
+ GSR_neutrality_ADJ: "德国"
+ #中立（原版）
+ GSR_communism: "德意志社会主义共和国"
+ #共产（原版）
+ GSR_communism_DEF: "德意志社会主义共和国"
+ #共产（原版）
+ GSR_communism_ADJ: "德国"
+ #共产（原版）
+ ###
+ GSR_WuZHengFuGuongCHanZHuYi: "德意志自由邦"
+ #无政府共产主义
+ GSR_WuZHengFuGuongCHanZHuYi_DEF: "德意志自由邦"
+ #无政府共产主义
+ GSR_WuZHengFuGuongCHanZHuYi_ADJ: "德意志"
+ #无政府共产主义
+ 
+ GSR_GuongTuanZHuYi: "德意志自由邦"
+ #工团主义
+ GSR_GuongTuanZHuYi_DEF: "德意志自由邦"
+ #工团主义
+ GSR_GuongTuanZHuYi_ADJ: "德意志"
+ #工团主义
+ 
+ GSR_MaKeSi_LieNingZHuYi: "德意志社会主义苏维埃共和国"
+ #马克思 - 列宁主义
+ GSR_MaKeSi_LieNingZHuYi_DEF: "德意志社会主义苏维埃共和国"
+ #马克思 - 列宁主义
+ GSR_MaKeSi_LieNingZHuYi_ADJ: "德国"
+ #马克思 - 列宁主义
+ 
+ GSR_TuoLuoSiJiZHuYi: "德意志社会主义苏维埃共和国"
+ #托洛斯基
+ GSR_TuoLuoSiJiZHuYi_DEF: "德意志社会主义苏维埃共和国"
+ #托洛斯基
+ GSR_TuoLuoSiJiZHuYi_ADJ: "德国"
+ #托洛斯基
+  
+ GSR_SiDaLingZHuYi: "德意志社会主义苏维埃共和国"
+ #斯大林主义
+ GSR_SiDaLingZHuYi_DEF: "德意志社会主义苏维埃共和国"
+ #斯大林主义
+ GSR_SiDaLingZHuYi_ADJ: "德国"
+ #斯大林主义
+ 
+ GSR_YuanSHiZHuYi: "德意志社会技官国"
+ #远视主义
+ GSR_YuanSHiZHuYi_DEF: "德意志社会技官国"
+ #远视主义
+ GSR_YuanSHiZHuYi_ADJ: "德国"
+ #远视主义
+ 
+ GSR_JunZHengGuongCHanZHuYi: "德意志共产主义军区"
+ #军政共产主义
+ GSR_JunZHengGuongCHanZHuYi_DEF: "德意志共产主义军区"
+ #军政共产主义
+ GSR_JunZHengGuongCHanZHuYi_ADJ: "德共军"
+ #军政共产主义
+ 
+ GSR_JunZHuBuErSHiWeiKe: "德意志君主共和国"
+ #君主布尔什维克
+ GSR_JunZHuBuErSHiWeiKe_DEF: "德意志君主共和国"
+ #君主布尔什维克
+ GSR_JunZHuBuErSHiWeiKe_ADJ: "德国"
+ #君主布尔什维克
+ 
+ GSR_SHeHuiMinZHuZHuYi: "德意志国"
+ #社会民主主义
+ GSR_SHeHuiMinZHuZHuYi_DEF: "魏玛共和国"
+ #社会民主主义
+ GSR_SHeHuiMinZHuZHuYi_ADJ: "德国"
+ #社会民主主义
+ 
+ GSR_MinZHuSHeHuiZHuYi: "德意志国"
+ #民主社会主义
+ GSR_MinZHuSHeHuiZHuYi_DEF: "魏玛共和国"
+ #民主社会主义
+ GSR_MinZHuSHeHuiZHuYi_ADJ: "德国"
+ #民主社会主义
+ 
+ GSR_JiaSuZHuYi: "德意志先锋国"
+ #加速主义
+ GSR_JiaSuZHuYi_DEF: "德意志先锋国"
+ #加速主义
+ GSR_JiaSuZHuYi_ADJ: "德国"
+ #加速主义
+ 
+ GSR_JiaZHangZHi: "德意志国"
+ #家长制
+ GSR_JiaZHangZHi_DEF: "德意志国"
+ #家长制
+ GSR_JiaZHangZHi_ADJ: "德国"
+ #家长制
+ 
+ GSR_JunZHuZHuYi: "德意志帝国"
+ #君主主义
+ GSR_JunZHuZHuYi_DEF: "德意志帝国"
+ #君主主义
+ GSR_JunZHuZHuYi_ADJ: "德国"
+ #君主主义
+ 
+ GSR_ZiBenGuongCHanZHuYi: "德意志自由地区"
+ #资本共产主义
+ GSR_ZiBenGuongCHanZHuYi_DEF: "德意志自由地区"
+ #资本共产主义
+ GSR_ZiBenGuongCHanZHuYi_ADJ: "德意志"
+ #资本共产主义
+ 
+ GSR_SHeHuiFaXiSi: "德意志国"
+ #社会法西斯
+ GSR_SHeHuiFaXiSi_DEF: "魏玛共和国"
+ #社会法西斯
+ GSR_SHeHuiFaXiSi_ADJ: "德国"
+ #社会法西斯
+ 
+ GSR_SiTeLaSeZHuYi: "德意志国"
+ #斯特拉瑟主义
+ GSR_SiTeLaSeZHuYi_DEF: "魏玛共和国"
+ #斯特拉瑟主义
+ GSR_SiTeLaSeZHuYi_ADJ: "德国"
+ #斯特拉瑟主义
+ 
+ GSR_FaXiSiZHuYi: "德意志国"
+ #法西斯主义
+ GSR_FaXiSiZHuYi_DEF: "魏玛共和国"
+ #法西斯主义
+ GSR_FaXiSiZHuYi_ADJ: "德国"
+ #法西斯主义
+ 
+ GSR_MinZuSHeHuiZHuYi: "德意志日耳曼国"
+ #纳粹
+ GSR_MinZuSHeHuiZHuYi_DEF: "德意志日耳曼国"
+ #纳粹
+ GSR_MinZuSHeHuiZHuYi_ADJ: "德国"
+ #纳粹
+ 
+ GSR_BoGenDiTiZHi: "德意志日耳曼国"
+ #勃艮第体制
+ GSR_BoGenDiTiZHi_DEF: "德意志日耳曼国"
+ #勃艮第体制
+ GSR_BoGenDiTiZHi_ADJ: "德国"
+ #勃艮第体制
+ 
+ #中欧
+ 
+ GSR: "中欧"
+ #通用
+ GSR_DEF: "中欧"
+ #通用
+ GSR_ADJ: "中欧"
+ #通用
+ GSR_autonomy_puppet: "$OVERLORDADJ$属中欧"
+ #傀儡
+ GSR_autonomy_puppet_DEF: "$OVERLORDADJ$属中欧"
+ #傀儡
+ 
+ GSR_ZHonOu_fascism: "大中欧骑士团"
+ #法西斯（原版）
+ GSR_ZHonOu_fascism_DEF: "大中欧骑士团"
+ #法西斯（原版）
+ GSR_ZHonOu_fascism_ADJ: "中欧"
+ #法西斯（原版）
+ GSR_ZHonOu_democratic: "中欧民主共和国"
+ #民主（原版）
+ GSR_ZHonOu_democratic_DEF: "中欧民主共和国"
+ #民主（原版）
+ GSR_ZHonOu_democratic_ADJ: "中欧"
+ #民主（原版）
+ GSR_ZHonOu_neutrality: "神圣罗马帝国"
+ #中立（原版）
+ GSR_ZHonOu_neutrality_DEF: "神圣罗马帝国"
+ #中立（原版）
+ GSR_ZHonOu_neutrality_ADJ: "罗马"
+ #中立（原版）
+ GSR_ZHonOu_communism: "中欧社会主义共和国"
+ #共产（原版）
+ GSR_ZHonOu_communism_DEF: "中欧社会主义共和国"
+ #共产（原版）
+ GSR_ZHonOu_communism_ADJ: "中欧"
+ #共产（原版）
+ ###
+ GSR_ZHonOu_WuZHengFuGuongCHanZHuYi: "中欧自由邦"
+ #无政府共产主义
+ GSR_ZHonOu_WuZHengFuGuongCHanZHuYi_DEF: "中欧自由邦"
+ #无政府共产主义
+ GSR_ZHonOu_WuZHengFuGuongCHanZHuYi_ADJ: "中欧"
+ #无政府共产主义
+ 
+ GSR_ZHonOu_GuongTuanZHuYi: "中欧志自由邦"
+ #工团主义
+ GSR_ZHonOu_GuongTuanZHuYi_DEF: "中欧自由邦"
+ #工团主义
+ GSR_ZHonOu_GuongTuanZHuYi_ADJ: "中欧"
+ #工团主义
+ 
+ GSR_ZHonOu_MaKeSi_LieNingZHuYi: "中欧社会主义共和国"
+ #马克思 - 列宁主义
+ GSR_ZHonOu_MaKeSi_LieNingZHuYi_DEF: "中欧社会主义共和国"
+ #马克思 - 列宁主义
+ GSR_ZHonOu_MaKeSi_LieNingZHuYi_ADJ: "中欧"
+ #马克思 - 列宁主义
+ 
+ GSR_ZHonOu_TuoLuoSiJiZHuYi: "中欧社会主义共和国"
+ #托洛斯基
+ GSR_ZHonOu_TuoLuoSiJiZHuYi_DEF: "中欧社会主义共和国"
+ #托洛斯基
+ GSR_ZHonOu_TuoLuoSiJiZHuYi_ADJ: "中欧"
+ #托洛斯基
+  
+ GSR_ZHonOu_SiDaLingZHuYi: "中欧社会主义共和国"
+ #斯大林主义
+ GSR_ZHonOu_SiDaLingZHuYi_DEF: "中欧社会主义共和国"
+ #斯大林主义
+ GSR_ZHonOu_SiDaLingZHuYi_ADJ: "中欧"
+ #斯大林主义
+ 
+ GSR_ZHonOu_YuanSHiZHuYi: "中欧社会主义共和国"
+ #远视主义
+ GSR_ZHonOu_YuanSHiZHuYi_DEF: "中欧社会主义共和国"
+ #远视主义
+ GSR_ZHonOu_YuanSHiZHuYi_ADJ: "中欧"
+ #远视主义
+ 
+ GSR_ZHonOu_JunZHengGuongCHanZHuYi: "中欧共产主义军区"
+ #军政共产主义
+ GSR_ZHonOu_JunZHengGuongCHanZHuYi_DEF: "中欧共产主义军区"
+ #军政共产主义
+ GSR_ZHonOu_JunZHengGuongCHanZHuYi_ADJ: "中欧"
+ #军政共产主义
+ 
+ GSR_ZHonOu_JunZHuBuErSHiWeiKe: "中欧君主共和国"
+ #君主布尔什维克
+ GSR_ZHonOu_JunZHuBuErSHiWeiKe_DEF: "中欧君主共和国"
+ #君主布尔什维克
+ GSR_ZHonOu_JunZHuBuErSHiWeiKe_ADJ: "中欧"
+ #君主布尔什维克
+ 
+ GSR_ZHonOu_SHeHuiMinZHuZHuYi: "中欧民主共和国"
+ #社会民主主义
+ GSR_ZHonOu_SHeHuiMinZHuZHuYi_DEF: "中欧民主共和国"
+ #社会民主主义
+ GSR_ZHonOu_SHeHuiMinZHuZHuYi_ADJ: "中欧"
+ #社会民主主义
+ 
+ GSR_ZHonOu_MinZHuSHeHuiZHuYi: "中欧民主共和国"
+ #民主社会主义
+ GSR_ZHonOu_MinZHuSHeHuiZHuYi_DEF: "中欧民主共和国"
+ #民主社会主义
+ GSR_ZHonOu_MinZHuSHeHuiZHuYi_ADJ: "中欧"
+ #民主社会主义
+ 
+ GSR_ZHonOu_JiaSuZHuYi: "中欧先锋国"
+ #加速主义
+ GSR_ZHonOu_JiaSuZHuYi_DEF: "中欧先锋国"
+ #加速主义
+ GSR_ZHonOu_JiaSuZHuYi_ADJ: "中欧"
+ #加速主义
+ 
+ GSR_ZHonOu_JiaZHangZHi: "中欧国"
+ #家长制
+ GSR_ZHonOu_JiaZHangZHi_DEF: "中欧国"
+ #家长制
+ GSR_ZHonOu_JiaZHangZHi_ADJ: "中欧"
+ #家长制
+ 
+ GSR_ZHonOu_JunZHuZHuYi: "大中欧帝国"
+ #君主主义
+ GSR_ZHonOu_JunZHuZHuYi_DEF: "大中欧帝国"
+ #君主主义
+ GSR_ZHonOu_JunZHuZHuYi_ADJ: "中欧"
+ #君主主义
+ 
+ GSR_ZHonOu_ZiBenGuongCHanZHuYi: "中欧企业"
+ #资本共产主义
+ GSR_ZHonOu_ZiBenGuongCHanZHuYi_DEF: "中欧企业"
+ #资本共产主义
+ GSR_ZHonOu_ZiBenGuongCHanZHuYi_ADJ: "中欧"
+ #资本共产主义
+ 
+ GSR_ZHonOu_SHeHuiFaXiSi: "大中欧帝国"
+ #社会法西斯
+ GSR_ZHonOu_SHeHuiFaXiSi_DEF: "大中欧帝国"
+ #社会法西斯
+ GSR_ZHonOu_SHeHuiFaXiSi_ADJ: "中欧"
+ #社会法西斯
+ 
+ GSR_ZHonOu_SiTeLaSeZHuYi: "大中欧帝国"
+ #斯特拉瑟主义
+ GSR_ZHonOu_SiTeLaSeZHuYi_DEF: "大中欧帝国"
+ #斯特拉瑟主义
+ GSR_ZHonOu_SiTeLaSeZHuYi_ADJ: "中欧"
+ #斯特拉瑟主义
+ 
+ GSR_ZHonOu_FaXiSiZHuYi: "大中欧帝国"
+ #法西斯主义
+ GSR_ZHonOu_FaXiSiZHuYi_DEF: "大中欧帝国"
+ #法西斯主义
+ GSR_ZHonOu_FaXiSiZHuYi_ADJ: "中欧"
+ #法西斯主义
+ 
+ GSR_ZHonOu_MinZuSHeHuiZHuYi: "日耳曼尼亚"
+ #纳粹
+ GSR_ZHonOu_MinZuSHeHuiZHuYi_DEF: "日耳曼尼亚"
+ #纳粹
+ GSR_ZHonOu_MinZuSHeHuiZHuYi_ADJ: "日耳曼"
+ #纳粹
+ 
+ GSR_ZHonOu_BoGenDiTiZHi: "日耳曼尼亚"
+ #勃艮第体制
+ GSR_ZHonOu_BoGenDiTiZHi_DEF: "日耳曼尼亚"
+ #勃艮第体制
+ GSR_ZHonOu_BoGenDiTiZHi_ADJ: "日耳曼"
+ #勃艮第体制
+ 
+ #英国
  
  ENG: "英国"
  #通用
@@ -41,6 +692,31 @@
  #通用
  ENG_ADJ: "英国"
  #通用
+ ENG_democratic: "$OVERLORDADJ$属不列颠"
+ #傀儡
+ ENG_democratic_DEF: "$OVERLORDADJ$属不列颠"
+ #傀儡
+ ENG_democratic_subject: "$OVERLORDADJ$属不列颠"
+ #傀儡（民主）
+ ENG_democratic_subject_DEF: "$OVERLORDADJ$属不列颠"
+ #傀儡（民主）
+ ENG_neutrality_subject: "$OVERLORDADJ$属不列颠"
+ #傀儡（中立）
+ ENG_neutrality_subject_DEF: "$OVERLORDADJ$属不列颠"
+ #傀儡（中立）
+ ENG_fascism_subject: "$OVERLORDADJ$属不列颠保护国"
+ #傀儡（法西斯）
+ ENG_fascism_subject_DEF: "$OVERLORDADJ$属不列颠保护国"
+ #傀儡（法西斯）
+ ENG_communism_subject: "大不列颠社会主义共和国"
+ #傀儡（共产）
+ ENG_communism_subject_DEF: "大不列颠社会主义共和国"
+ #傀儡（共产）
+ ENG_SOV_communism_subject: "不列颠苏维埃社会主义共和国"
+ #傀儡（共产苏联）
+ ENG_SOV_communism_subject_DEF: "不列颠苏维埃社会主义共和国"
+ #傀儡（共产苏联）
+ 
  ENG_fascism: "不列颠帝国"
  #法西斯（原版）
  ENG_fascism_DEF: "不列颠帝国"
@@ -66,16 +742,7 @@
  ENG_communism_ADJ: "英国"
  #共产（原版）
  
- ENG_democratic_subject: "$OVERLORDADJ$属不列颠"
- ENG_democratic_subject_DEF: "$OVERLORDADJ$属不列颠"
- ENG_neutrality_subject: "$OVERLORDADJ$属不列颠"
- ENG_neutrality_subject_DEF: "$OVERLORDADJ$属不列颠"
- ENG_fascism_subject: "$OVERLORDADJ$属不列颠保护国"
- ENG_fascism_subject_DEF: "$OVERLORDADJ$属不列颠保护国"
- ENG_communism_subject: "大不列颠社会主义共和国"
- ENG_communism_subject_DEF: "大不列颠社会主义共和国"
- ENG_SOV_communism_subject: "不列颠苏维埃社会主义共和国"
- ENG_SOV_communism_subject_DEF: "不列颠苏维埃社会主义共和国"
+ #俄罗斯
  
  SOV_fascism: "俄罗斯帝国"
  SOV_fascism_DEF: "俄罗斯帝国"
@@ -110,6 +777,9 @@
  SOV: "俄罗斯"
  SOV_DEF: "俄罗斯"
  SOV_ADJ: "俄罗斯"
+ 
+ #美国
+ 
  USA_fascism: "美利坚自由帝国"
  USA_fascism_DEF: "美利坚自由帝国"
  USA_democratic: "美利坚合众国"
@@ -133,6 +803,9 @@
  USA_fascism_subject_DEF: "$OVERLORDADJ$属美利坚保护国"
  USA_communism_subject: "北美社会主义共和国"
  USA_communism_subject_DEF: "北美社会主义共和国"
+ 
+ #瑞典
+ 
  SWE_fascism: "斯韦阿国"
  SWE_fascism_DEF: "斯韦阿国"
  SWE_democratic: "瑞典"
@@ -152,6 +825,9 @@
  SWE_ADJ: "瑞典"
  SWE_subject: "$OVERLORDADJ$属$SWE$"
  SWE_subject_DEF: "$OVERLORDADJ$属$SWE$"
+ 
+ #法国
+ 
  FRA_fascism: "法兰西国"
  FRA_fascism_DEF: "法兰西国"
  FRA_democratic: "法国"
@@ -169,6 +845,9 @@
  FRA_ADJ: "法国"
  FRA_subject: "$OVERLORDADJ$属$FRA$"
  FRA_subject_DEF: "$OVERLORDADJ$属$FRA$"
+ 
+ #卢森堡
+ 
  LUX_fascism: "卢森堡"
  LUX_fascism_DEF: "卢森堡"
  LUX_democratic: "卢森堡"
@@ -184,6 +863,9 @@
  LUX: "卢森堡"
  LUX_DEF: "卢森堡"
  LUX_ADJ: "卢森堡"
+ 
+ #比利时
+ 
  BEL_fascism: "雷克斯比利时"
  BEL_fascism_DEF: "雷克斯比利时"
  BEL_democratic: "比利时"
@@ -201,6 +883,9 @@
  BEL_ADJ: "比利时"
  BEL_subject: "$OVERLORDADJ$属$BEL$"
  BEL_subject_DEF: "$OVERLORDADJ$属$BEL$"
+ 
+ #河南
+ 
  HOL_fascism: "荷兰国"
  HOL_fascism_DEF: "荷兰国"
  HOL_democratic: "荷兰"
@@ -220,6 +905,9 @@
  HOL_subject_DEF: "$OVERLORDADJ$属$HOL$"
  HOL_FRA_democratic_subject: "巴达维亚共和国"
  HOL_FRA_democratic_subject_DEF: "巴达维亚共和国"
+ 
+ #捷克斯洛伐克
+ 
  CZE_fascism: "波希米亚帝国"
  CZE_fascism_DEF: "波希米亚帝国"
  CZE_democratic: "捷克斯洛伐克"
@@ -237,6 +925,9 @@
  CZE_ADJ: "捷克斯洛伐克"
  CZE_subject: "$OVERLORDADJ$属$CZE$"
  CZE_subject_DEF: "$OVERLORDADJ$属$CZE$"
+ 
+ #波兰
+ 
  POL_fascism: "长枪党波兰"
  POL_fascism_DEF: "长枪党波兰"
  POL_democratic: "波兰共和国"
@@ -260,23 +951,335 @@
  POL_communism_subject_DEF: "波兰社会主义共和国"
  POL_SOV_communism_subject: "波兰苏维埃社会主义共和国"
  POL_SOV_communism_subject_DEF: "波兰苏维埃社会主义共和国"
- AUS_fascism: "德意志社会党奥地利"
- AUS_fascism_DEF: "德意志社会党奥地利"
- AUS_democratic: "奥地利共和国"
- AUS_democratic_DEF: "奥地利共和国"
- AUS_neutrality: "奥地利"
- AUS_neutrality_DEF: "奥地利"
- AUS_communism: "奥地利苏维埃共和国"
- AUS_communism_DEF: "奥地利苏维埃共和国"
- AUS_fascism_ADJ: "奥地利"
- AUS_democratic_ADJ: "奥地利"
- AUS_neutrality_ADJ: "奥地利"
- AUS_communism_ADJ: "奥地利"
+ 
+ #奥地利
+ 
  AUS: "奥地利"
+ #通用
  AUS_DEF: "奥地利"
+ #通用
  AUS_ADJ: "奥地利"
+ #通用
  AUS_subject: "$OVERLORDADJ$属$AUS$"
+ #傀儡
  AUS_subject_DEF: "$OVERLORDADJ$属$AUS$"
+ #傀儡
+ 
+ AUS_fascism: "德意志社会党奥地利"
+ #法西斯（原版）
+ AUS_fascism_DEF: "德意志社会党奥地利"
+ #法西斯（原版）
+ AUS_fascism_ADJ: "奥地利"
+ #法西斯（原版）
+ AUS_democratic: "奥地利共和国"
+ #民主（原版）
+ AUS_democratic_DEF: "奥地利共和国"
+ #民主（原版）
+ AUS_democratic_ADJ: "奥地利"
+ #民主（原版）
+ AUS_neutrality: "奥地利"
+ #中立（原版）
+ AUS_neutrality_DEF: "奥地利"
+ #中立（原版）
+ AUS_neutrality_ADJ: "奥地利"
+ #中立（原版）
+ AUS_communism: "奥地利苏维埃共和国"
+ #共产（原版）
+ AUS_communism_DEF: "奥地利苏维埃共和国"
+ #共产（原版）
+ AUS_communism_ADJ: "奥地利"
+ #共产（原版）
+ ###
+ AUS_WuZHengFuGuongCHanZHuYi: "奥地利自由邦"
+ #无政府共产主义
+ AUS_WuZHengFuGuongCHanZHuYi_DEF: "奥地利自由邦"
+ #无政府共产主义
+ AUS_WuZHengFuGuongCHanZHuYi_ADJ: "奥地利"
+ #无政府共产主义
+ 
+ AUS_GuongTuanZHuYi: "奥地利志自由邦"
+ #工团主义
+ AUS_GuongTuanZHuYi_DEF: "奥地利自由邦"
+ #工团主义
+ AUS_GuongTuanZHuYi_ADJ: "奥地利"
+ #工团主义
+ 
+ AUS_MaKeSi_LieNingZHuYi: "奥地利社会主义共和国"
+ #马克思 - 列宁主义
+ AUS_MaKeSi_LieNingZHuYi_DEF: "奥地利社会主义共和国"
+ #马克思 - 列宁主义
+ AUS_MaKeSi_LieNingZHuYi_ADJ: "奥地利"
+ #马克思 - 列宁主义
+ 
+ AUS_TuoLuoSiJiZHuYi: "奥地利社会主义共和国"
+ #托洛斯基
+ AUS_TuoLuoSiJiZHuYi_DEF: "奥地利社会主义共和国"
+ #托洛斯基
+ AUS_TuoLuoSiJiZHuYi_ADJ: "奥地利"
+ #托洛斯基
+  
+ AUS_SiDaLingZHuYi: "奥地利社会主义共和国"
+ #斯大林主义
+ AUS_SiDaLingZHuYi_DEF: "奥地利社会主义共和国"
+ #斯大林主义
+ AUS_SiDaLingZHuYi_ADJ: "奥地利"
+ #斯大林主义
+ 
+ AUS_YuanSHiZHuYi: "奥地利社会主义共和国"
+ #远视主义
+ AUS_YuanSHiZHuYi_DEF: "奥地利社会主义共和国"
+ #远视主义
+ AUS_YuanSHiZHuYi_ADJ: "奥地利"
+ #远视主义
+ 
+ AUS_JunZHengGuongCHanZHuYi: "奥地利军管苏维埃"
+ #军政共产主义
+ AUS_JunZHengGuongCHanZHuYi_DEF: "奥地利军管苏维埃"
+ #军政共产主义
+ AUS_JunZHengGuongCHanZHuYi_ADJ: "奥地利"
+ #军政共产主义
+ 
+ AUS_JunZHuBuErSHiWeiKe: "奥地利大公国"
+ #君主布尔什维克
+ AUS_JunZHuBuErSHiWeiKe_DEF: "奥地利大公国"
+ #君主布尔什维克
+ AUS_JunZHuBuErSHiWeiKe_ADJ: "奥地利"
+ #君主布尔什维克
+ 
+ AUS_SHeHuiMinZHuZHuYi: "奥地利共和国"
+ #社会民主主义
+ AUS_SHeHuiMinZHuZHuYi_DEF: "奥地利共和国"
+ #社会民主主义
+ AUS_SHeHuiMinZHuZHuYi_ADJ: "奥地利"
+ #社会民主主义
+ 
+ AUS_MinZHuSHeHuiZHuYi: "奥地利共和国"
+ #民主社会主义
+ AUS_MinZHuSHeHuiZHuYi_DEF: "奥地利共和国"
+ #民主社会主义
+ AUS_MinZHuSHeHuiZHuYi_ADJ: "奥地利"
+ #民主社会主义
+ 
+ AUS_JiaSuZHuYi: "北阜姆"
+ #加速主义
+ AUS_JiaSuZHuYi_DEF: "奥地利先锋国"
+ #加速主义
+ AUS_JiaSuZHuYi_ADJ: "奥地利"
+ #加速主义
+ 
+ AUS_JiaZHangZHi: "奥地利联邦国"
+ #家长制
+ AUS_JiaZHangZHi_DEF: "奥地利联邦国"
+ #家长制
+ AUS_JiaZHangZHi_ADJ: "奥地利"
+ #家长制
+ 
+ AUS_JunZHuZHuYi: "奥地利大公国"
+ #君主主义
+ AUS_JunZHuZHuYi_DEF: "奥地利大公国"
+ #君主主义
+ AUS_JunZHuZHuYi_ADJ: "奥地利"
+ #君主主义
+ 
+ AUS_ZiBenGuongCHanZHuYi: "奥地利™ 有限公司"
+ #资本共产主义
+ AUS_ZiBenGuongCHanZHuYi_DEF: "奥地利™ 有限公司"
+ #资本共产主义
+ AUS_ZiBenGuongCHanZHuYi_ADJ: "奥地利"
+ #资本共产主义
+ 
+ AUS_SHeHuiFaXiSi: "奥地利帝国"
+ #社会法西斯
+ AUS_SHeHuiFaXiSi_DEF: "奥地利帝国"
+ #社会法西斯
+ AUS_SHeHuiFaXiSi_ADJ: "奥地利"
+ #社会法西斯
+ 
+ AUS_SiTeLaSeZHuYi: "奥地利帝国"
+ #斯特拉瑟主义
+ AUS_SiTeLaSeZHuYi_DEF: "奥地利帝国"
+ #斯特拉瑟主义
+ AUS_SiTeLaSeZHuYi_ADJ: "奥地利"
+ #斯特拉瑟主义
+ 
+ AUS_FaXiSiZHuYi: "奥地利帝国"
+ #法西斯主义
+ AUS_FaXiSiZHuYi_DEF: "奥地利帝国"
+ #法西斯主义
+ AUS_FaXiSiZHuYi_ADJ: "奥地利"
+ #法西斯主义
+ 
+ AUS_MinZuSHeHuiZHuYi: "奥地利帝国"
+ #纳粹
+ AUS_MinZuSHeHuiZHuYi_DEF: "奥地利帝国"
+ #纳粹
+ AUS_MinZuSHeHuiZHuYi_ADJ: "奥地利"
+ #纳粹
+ 
+ AUS_BoGenDiTiZHi: "奥地利帝国"
+ #勃艮第体制
+ AUS_BoGenDiTiZHi_DEF: "奥地利帝国"
+ #勃艮第体制
+ AUS_BoGenDiTiZHi_ADJ: "奥地利"
+ #勃艮第体制
+ 
+ #奥匈帝国
+ 
+ HUN_EMPIRE: "奥匈帝国"
+ #通用
+ HUN_EMPIRE_DEF: "奥匈帝国"
+ #通用
+ HUN_EMPIRE_ADJ: "奥匈"
+ #通用
+ HUN_EMPIRE_subject: "$OVERLORDADJ$属奥匈"
+ #傀儡
+ HUN_EMPIRE_subject_DEF: "$OVERLORDADJ$属奥匈"
+ #傀儡
+ 
+ HUN_EMPIRE_fascism: "奥匈帝国"
+ #法西斯（原版）
+ HUN_EMPIRE_democratic: "多瑙河邦联"
+ #民主（原版）
+ HUN_EMPIRE_neutrality: "奥匈帝国"
+ #中立（原版）
+ HUN_EMPIRE_communism: "自治邦联合会"
+ #共产（原版）
+ # # #
+ HUN_EMPIRE_WuZHengFuGuongCHanZHuYi: "多瑙公社"
+ #无政府共产主义
+ HUN_EMPIRE_WuZHengFuGuongCHanZHuYi_DEF: "多瑙公社"
+ #无政府共产主义
+ HUN_EMPIRE_WuZHengFuGuongCHanZHuYi_ADJ: "多瑙"
+ #无政府共产主义
+ 
+ HUN_EMPIRE_GuongTuanZHuYi: "多瑙公社"
+ #工团主义
+ HUN_EMPIRE_GuongTuanZHuYi_DEF: "多瑙公社"
+ #工团主义
+ HUN_EMPIRE_GuongTuanZHuYi_ADJ: "多瑙"
+ #工团主义
+ 
+ HUN_EMPIRE_MaKeSi_LieNingZHuYi: "奥地利社会主义共和国"
+ #马克思 - 列宁主义
+ HUN_EMPIRE_MaKeSi_LieNingZHuYi_DEF: "奥地利社会主义共和国"
+ #马克思 - 列宁主义
+ HUN_EMPIRE_MaKeSi_LieNingZHuYi_ADJ: "奥地利"
+ #马克思 - 列宁主义
+ 
+ HUN_EMPIRE_TuoLuoSiJiZHuYi: "奥地利社会主义共和国"
+ #托洛斯基
+ HUN_EMPIRE_TuoLuoSiJiZHuYi_DEF: "奥地利社会主义共和国"
+ #托洛斯基
+ HUN_EMPIRE_TuoLuoSiJiZHuYi_ADJ: "奥地利"
+ #托洛斯基
+  
+ HUN_EMPIRE_SiDaLingZHuYi: "奥地利社会主义共和国"
+ #斯大林主义
+ HUN_EMPIRE_SiDaLingZHuYi_DEF: "奥地利社会主义共和国"
+ #斯大林主义
+ HUN_EMPIRE_SiDaLingZHuYi_ADJ: "奥地利"
+ #斯大林主义
+ 
+ HUN_EMPIRE_YuanSHiZHuYi: "奥地利社会主义共和国"
+ #远视主义
+ HUN_EMPIRE_YuanSHiZHuYi_DEF: "奥地利社会主义共和国"
+ #远视主义
+ HUN_EMPIRE_YuanSHiZHuYi_ADJ: "奥地利"
+ #远视主义
+ 
+ HUN_EMPIRE_JunZHengGuongCHanZHuYi: "奥地利军管苏维埃"
+ #军政共产主义
+ HUN_EMPIRE_JunZHengGuongCHanZHuYi_DEF: "奥地利军管苏维埃"
+ #军政共产主义
+ HUN_EMPIRE_JunZHengGuongCHanZHuYi_ADJ: "奥地利"
+ #军政共产主义
+ 
+ HUN_EMPIRE_JunZHuBuErSHiWeiKe: "帝国议会所代表的王国和皇室领地以及匈牙利圣斯蒂芬王冠领"
+ #君主布尔什维克
+ HUN_EMPIRE_JunZHuBuErSHiWeiKe_DEF: "帝国议会所代表的王国和皇室领地以及匈牙利圣斯蒂芬王冠领"
+ #君主布尔什维克
+ HUN_EMPIRE_JunZHuBuErSHiWeiKe_ADJ: "奥匈"
+ #君主布尔什维克
+ 
+ HUN_EMPIRE_SHeHuiMinZHuZHuYi: "多瑙联邦"
+ #社会民主主义
+ HUN_EMPIRE_SHeHuiMinZHuZHuYi_DEF: "多瑙联邦"
+ #社会民主主义
+ HUN_EMPIRE_SHeHuiMinZHuZHuYi_ADJ: "多瑙"
+ #社会民主主义
+ 
+ HUN_EMPIRE_MinZHuSHeHuiZHuYi: "多瑙联邦"
+ #民主社会主义
+ HUN_EMPIRE_MinZHuSHeHuiZHuYi_DEF: "多瑙联邦"
+ #民主社会主义
+ HUN_EMPIRE_MinZHuSHeHuiZHuYi_ADJ: "多瑙"
+ #民主社会主义
+ 
+ HUN_EMPIRE_JiaSuZHuYi: "多瑙先锋国"
+ #加速主义
+ HUN_EMPIRE_JiaSuZHuYi_DEF: "多瑙先锋国"
+ #加速主义
+ HUN_EMPIRE_JiaSuZHuYi_ADJ: "多瑙"
+ #加速主义
+ 
+ HUN_EMPIRE_JiaZHangZHi: "奥地利 - 匈牙利"
+ #家长制
+ HUN_EMPIRE_JiaZHangZHi_DEF: "奥地利 - 匈牙利"
+ #家长制
+ HUN_EMPIRE_JiaZHangZHi_ADJ: "奥匈"
+ #家长制
+ 
+ HUN_EMPIRE_JunZHuZHuYi: "帝国议会所代表的王国和皇室领地以及匈牙利圣斯蒂芬王冠领"
+ #君主主义
+ HUN_EMPIRE_JunZHuZHuYi_DEF: "帝国议会所代表的王国和皇室领地以及匈牙利圣斯蒂芬王冠领"
+ #君主主义
+ HUN_EMPIRE_JunZHuZHuYi_ADJ: "奥匈"
+ #君主主义
+ 
+ HUN_EMPIRE_ZiBenGuongCHanZHuYi: "奥地利和匈牙利™ 有限公司"
+ #资本共产主义
+ HUN_EMPIRE_ZiBenGuongCHanZHuYi_DEF: "奥地利和匈牙利™ 有限公司"
+ #资本共产主义
+ HUN_EMPIRE_ZiBenGuongCHanZHuYi_ADJ: "奥匈"
+ #资本共产主义
+ 
+ HUN_EMPIRE_SHeHuiFaXiSi: "大奥地利帝国"
+ #社会法西斯
+ HUN_EMPIRE_SHeHuiFaXiSi_DEF: "大奥地利帝国"
+ #社会法西斯
+ HUN_EMPIRE_SHeHuiFaXiSi_ADJ: "奥地利"
+ #社会法西斯
+ 
+ HUN_EMPIRE_SiTeLaSeZHuYi: "大奥地利帝国"
+ #斯特拉瑟主义
+ HUN_EMPIRE_SiTeLaSeZHuYi_DEF: "大奥地利帝国"
+ #斯特拉瑟主义
+ HUN_EMPIRE_SiTeLaSeZHuYi_ADJ: "奥地利"
+ #斯特拉瑟主义
+ 
+ HUN_EMPIRE_FaXiSiZHuYi: "大奥地利帝国"
+ #法西斯主义
+ HUN_EMPIRE_FaXiSiZHuYi_DEF: "大奥地利帝国"
+ #法西斯主义
+ HUN_EMPIRE_FaXiSiZHuYi_ADJ: "奥地利"
+ #法西斯主义
+ 
+ HUN_EMPIRE_MinZuSHeHuiZHuYi: "大奥地利帝国"
+ #纳粹
+ HUN_EMPIRE_MinZuSHeHuiZHuYi_DEF: "大奥地利帝国"
+ #纳粹
+ HUN_EMPIRE_MinZuSHeHuiZHuYi_ADJ: "奥地利"
+ #纳粹
+ 
+ HUN_EMPIRE_BoGenDiTiZHi: "大奥地利帝国"
+ #勃艮第体制
+ HUN_EMPIRE_BoGenDiTiZHi_DEF: "大奥地利帝国"
+ #勃艮第体制
+ HUN_EMPIRE_BoGenDiTiZHi_ADJ: "奥地利"
+ #勃艮第体制
+ 
+ #立陶宛
+ 
  LIT_fascism: "铁狼团立陶宛"
  LIT_fascism_DEF: "铁狼团立陶宛"
  LIT_democratic: "立陶宛共和国"
@@ -554,7 +1557,7 @@
  FIN_subject: "$OVERLORDADJ$属$FIN$"
  FIN_subject_DEF: "$OVERLORDADJ$属$FIN$"
  
-  IRE:0 "爱尔兰"
+ IRE:0 "爱尔兰"
  #通用
  IRE_DEF:0 "爱尔兰"
  #通用

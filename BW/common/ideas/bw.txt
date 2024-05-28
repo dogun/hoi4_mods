@@ -236,5 +236,60 @@ ideas = {
 				conscription = -0.01
 			}
 		}
+		bw_GSR_FenSuiXiTeLe = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
+		bw_GSR_RongKeGuiZu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.5
+				global_building_slots_factor = -0.25
+				production_speed_buildings_factor = -0.5 
+				production_speed_industrial_complex_factor = -0.25 
+			}
+		}
+
+		bw_GSR_XiongDiXiQiang = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
 	}
 }

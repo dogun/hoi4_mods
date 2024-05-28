@@ -4,8 +4,8 @@ De3 = {
 #图片
 	picture = De3
 #不知道有啥用，最好和id一样
-	allowed = {
-		original_tag =GER
+#	allowed = {
+#		original_tag =GER
 #国家
 	}
 	priority = 99999

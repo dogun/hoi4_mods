@@ -47,4 +47,17 @@ leader_traits = {
 #		custom_effect_tooltip = may_happen_some
 	}
 
+	Habsburg = {
+		random = no
+		political_power_factor = 0.1
+		stability_factor = 0.1
+		justify_war_goal_time = -0.1
+	}
+
+	YuanSHou = {
+		random = no
+		political_power_factor = 0.1
+		army_core_attack_factor = 0.05
+	}
+	
 }

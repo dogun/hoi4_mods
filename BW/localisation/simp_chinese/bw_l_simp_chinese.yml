@@ -323,6 +323,22 @@
  bw_IRE_Celt: "泛凯尔特主义"
  bw_IRE_Celt_desc: "在独立战争胜利后爱尔兰出现了泛凯尔特主义；既然爱尔兰已经从英格兰的统治下独立，那么为什么不把苏格兰、威尔士、布列塔尼，甚至是中西欧，这些凯尔特人的土地从日耳曼蛮子的手里解放出来。"
  
+ # # #GSR
+ 
+ bw_GSR_FenSuiXiTeLe: "粉碎希特勒"
+ bw_GSR_FenSuiXiTeLe_desc: "希特勒和他的法西斯政权必将毁灭！！！"
+ 
+ bw_GSR_RongKeGuiZu: "容克贵族"
+ bw_GSR_RongKeGuiZu_desc: " "
+ 
+ bw_GSR_XiongDiXiQiang: "兄弟阋墙"
+ bw_GSR_XiongDiXiQiang_desc: " "
+ 
+ 
+ # # #奥地利
+ 
+ bw_AUS_Third_Way: "第三条路"
+ 
  # # #阿巴阿巴
  
  bw_weiduyishu: "维度艺术"
@@ -376,7 +392,13 @@
  CAN_evelina: "埃维琳娜"
  
  CAN_SOV: "加拿大苏维埃"
-
+ 
+ Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
+ 
+ AUS_Kurt_Schuschnigg_BW: "库尔特·舒施尼格"
+ 
+ AUS_Karl_von_Habsburg_BW: "卡尔·冯·哈布斯堡-洛林"
+ 
 #个人特征
 
  heijunlingdaozhe: "黑军领袖"
@@ -384,6 +406,8 @@
  union_man: "迪克西"
  
  WeiDaDeYuanSHou: "伟大的元首"
+ 
+ Habsburg: "哈布斯堡"
 
 #国民精神
 
@@ -465,6 +489,18 @@
  bw_ENG.1.t: "不列颠要求削减自治权"
  bw_ENG.1.d: "今日不列颠政府通过了《1935年印度政府法案》要求我们加入王国"
  bw_ENG.1.a: "谁叫他是我们的宗主"
+ 
+ # # #德三
+ 
+ bw_GER.1: "魏玛政府倒台"
+ bw_GER.1.t: "魏玛政府倒台"
+ bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
+ bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
+ 
+ bw_GER.2: "普鲁士，重归我手！"
+ bw_GER.2.t: "普鲁士，重归我手！"
+ bw_GER.2.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ bw_GER.2.a: "欢迎回家"
  
  # # #阿巴阿巴
  
@@ -573,6 +609,35 @@
  
  Government_of_India_Act_1935: "最终通过《1935年印度政府法案》"
  Government_of_India_Act_1935_desc: "《1935年印度政府法案》听名字就知道是1935年提出的，结果到现在都没通过。\n“和这群虫豸在一起，怎么能搞好政治！”"
+ 
+ KaiSHiCHongZHengJunBei: "开始重整军备"
+ KaiSHiCHongZHengJunBei_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ 
+ # # #德国
+ 
+ GER_YuanSHou: "元首"
+ GER_YuanSHou_desc: ""
+ 
+ GER_WaiJiaoBu: "外交部"
+ GER_WaiJiaoBu_desc: "新生的德国，得有一个外交部，虽然没什么用，\n但它可以用来外交谈判、改善关系、同盟等……\n好吧，他确实没什么用。"
+ 
+ GER_ErDuGongSHi: "二度攻势"
+ GER_ErDuGongSHi_desc: ""
+ 
+ GER_BoLin: "柏林"
+ GER_ErDuGongSHi_desc: ""
+ 
+ GER_DaYaDangWeiJun: "打压党卫军"
+ GER_DaYaDangWeiJun_desc: ""
+ 
+ GER_HaiDelLxi: "海德里希"
+ GER_HaiDelLxi_desc: ""
+ 
+ GER_DiSanFang: "第三方"
+ GER_DiSanFang_desc: ""
+ 
+ GER_NaCuiDeDeYiZHi: "纳粹的德意志"
+ GER_NaCuiDeDeYiZHi_desc: ""
  
  # # #阿巴阿巴
  
