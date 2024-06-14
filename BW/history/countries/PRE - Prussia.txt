@@ -147,16 +147,18 @@ set_stability = 0.75
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = JunZHuZHuYi
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 
 }
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	JiaZHangZHi = 40
+	JunZHuZHuYi = 40
+	SHeHuiMinZHuZHuYi = 10
+	MaKeSi_LieNingZHuYi = 5
+	GuongTuanZHuYi = 5
 }
 
 add_ideas = {

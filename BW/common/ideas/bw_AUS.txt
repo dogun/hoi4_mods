@@ -24,5 +24,24 @@ ideas = {
 				MinZHuSHeHuiZHuYi_drift = -0.05
 			}
 		}
+
+
+		bw_AUS_GongHeGuoDeYiCHan = {	#共和国的遗产
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				party_popularity_stability_factor = -0.25
+
+				SHeHuiMinZHuZHuYi_drift = 0.01
+			}
+		}
+
 	}
 }

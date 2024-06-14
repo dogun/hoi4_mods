@@ -2,7 +2,7 @@
 
 oob = "USA_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0
 set_variable = { var = senators_support value = 48 }
@@ -43,6 +43,15 @@ recruit_character = CSA_john_thompson
 
 set_convoys = 100
 
+set_autonomy = {
+	target = ANT
+	autonomous_state =  autonomy_puppet
+}
+
+set_autonomy = {
+	target = ADS
+	autonomous_state =  autonomy_puppet
+}
 
 set_politics = {
 	ruling_party = fascism

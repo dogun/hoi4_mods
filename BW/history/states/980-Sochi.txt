@@ -1,0 +1,24 @@
+state={
+	id=980
+	name="STATE_980"
+	manpower = 110854
+	
+	state_category = rural
+	
+	history=
+	{
+#		victory_points = {
+#			577 1 
+#		}
+		owner = TUR
+		buildings = {
+
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		3698 9663
+	}
+
+	local_supplies=0.0 
+}

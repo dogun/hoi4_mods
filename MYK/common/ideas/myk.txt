@@ -227,9 +227,9 @@ ideas = {
 
 			modifier = {
 				justify_war_goal_time = -0.25
-				jiefangzhuyi_drift = 0.05
+				#jiefangzhuyi_drift = 0.05
 				sitelasezhuyi_drift = 0.01
-				guojiafaxisi_drift = 0.025
+				#guojiafaxisi_drift = 0.025
 			}
 		}
 		myk_idea_QingXiYouYiFaXiSi = {
@@ -244,7 +244,7 @@ ideas = {
 			modifier = {
 				weekly_manpower = -5
 				fascism_drift = -0.5
-				guojiafaxisi_drift = -0.5
+				#guojiafaxisi_drift = -0.5
 			}
 		}
 		myk_idea_DisSiTianZai = {

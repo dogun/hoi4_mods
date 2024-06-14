@@ -42,6 +42,59 @@ division_template = {
 
 division_template = {
 #编制
+	name = "轻装甲掷弹兵团"
+#名称
+
+	division_names_group = GER_MOT_02
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		armored_car = { x = 0 y = 0 }
+		armored_car = { x = 0 y = 1 }
+		armored_car = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+#编制
+	name = "装甲掷弹兵团"
+#名称
+
+	division_names_group = GER_MOT_02
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor= { x = 1 y = 2 }
+		
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x =2 y = 1 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+#编制
 	name = "瓦尔基里师"
 #名称
 
@@ -68,37 +121,6 @@ division_template = {
 	}
 }
 
-division_template = {
-	name = "Gebirgs-Brigade"		# Gebirgsbrigade
-	#Note: precursor to Gebirgs-Divisions
-	division_names_group = GER_Mnt_01
-
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-	    mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 1 y = 1 }
-		mountaineers = { x = 1 y = 2 }
-	}
-}
-division_template = {
-	name = "Kavallerie-Brigade"
-
-	division_names_group = GER_Cav_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-        cavalry = { x = 0 y = 1 }
-        cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-	}
-	support = {
-	    recon = { x = 0 y = 0 }
-	    artillery = { x = 0 y = 1 }
-	}
-}
-
 units = {
 #部队
 	division = {
@@ -113,6 +135,7 @@ units = {
 #经验
 
 	}
+
 	division = {
 #部队
 		name = "{ 新 } 冲锋队第Ⅱ队 “威廉”"
@@ -158,6 +181,103 @@ units = {
 		division_template = "冲锋队"
 #编制
 		start_experience_factor = 0.1
+#经验
+	}
+###
+	division = {
+#部队
+		name = "瓦尔基里第Ⅰ师 “火枪手”"
+#名称
+		location = 11404
+#位置 ###ps：要写地块
+		division_template = "瓦尔基里师"
+#编制
+		start_experience_factor = 0.4
+#经验
+
+	}
+###
+	division = {
+#部队
+		name = "轻装甲掷弹兵团第Ⅰ团 “女妖”"
+#名称
+		location = 6469
+#位置 ###ps：要写地块
+		division_template = "轻装甲掷弹兵团"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "轻装甲掷弹兵团第Ⅱ团 “凯尔特”"
+#名称
+		location = 6513
+#位置 ###ps：要写地块
+		division_template = "轻装甲掷弹兵团"
+#编制
+		start_experience_factor = 0.1
+#经验
+	}
+
+	division = {
+#部队
+		name = "轻装甲掷弹兵团第Ⅲ团 “俾斯麦”"
+#名称
+		location = 6568
+#位置 ###ps：要写地块
+		division_template = "轻装甲掷弹兵团"
+#编制
+		start_experience_factor = 0.3
+#经验
+	}
+
+	division = {
+#部队
+		name = "轻装甲掷弹兵团第Ⅳ团 “长枪”"
+#名称
+		location = 9375
+#位置 ###ps：要写地块
+		division_template = "轻装甲掷弹兵团"
+#编制
+		start_experience_factor = 0.3
+#经验
+	}
+
+	division = {
+#部队
+		name = "轻装甲掷弹兵团第Ⅴ团 “腓特烈”"
+#名称
+		location = 526
+#位置 ###ps：要写地块
+		division_template = "轻装甲掷弹兵团"
+#编制
+		start_experience_factor = 0
+#经验
+	}
+
+	division = {
+#部队
+		name = "轻装甲掷弹兵团第Ⅵ团 “阁下”"
+#名称
+		location = 13116
+#位置 ###ps：要写地块
+		division_template = "轻装甲掷弹兵团"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+###
+	division = {
+#部队
+		name = "装甲掷弹兵团 “日耳曼勇士”"
+#名称
+		location = 11493
+#位置 ###ps：要写地块
+		division_template = "装甲掷弹兵团"
+#编制
+		start_experience_factor = 0.6
 #经验
 	}
 

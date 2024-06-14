@@ -19,7 +19,18 @@
  STATE_974: "莫雷斯内特"
  STATE_975: "威廉港"
  STATE_976: "不来梅"
+ STATE_977: "下布科维纳"
+ STATE_978: "耶德察" #丘吉尔之嗝
+ STATE_979: "新罗西斯克"
+ STATE_980: "索契"
+ STATE_981: "巴统"
  STATE_5: "埃姆兰"
+ STATE_233:0 "索契山区"
+ 
+ #城市
+ 
+ VICTORY_POINTS_3151: "圣彼得堡"
+ VICTORY_POINTS_3151_SOV: "列宁格勒"
  
  #国家
   
@@ -318,6 +329,27 @@
  
  #民族精神
  
+ # # #GER
+ 
+ 
+ bw_GER_TongYiDeDeYiZH: "统一的德意志"
+ bw_GER_TongYiDeDeYiZH_desc: " "
+ 
+ bw_GER_DaDeYiZHi: "大德意志？"
+ bw_GER_DaDeYiZHi_desc: " "
+ 
+ bw_GER_XinZHiXv: "新秩序"
+ bw_GER_XinZHiXv_desc: " "
+ 
+ bw_GER_GaiSHiTaiBao: "盖世太保"
+ bw_GER_GaiSHiTaiBao_desc: " "
+ 
+ bw_GER_NiuNaiYvMianBao: "牛奶与面包"
+ bw_GER_NiuNaiYvMianBao_desc: " "
+ 
+ bw_GER_SiNianJiHua: "四年计划"
+ bw_GER_SiNianJiHua_desc: " "
+ 
  # # #大不列颠
  
  bw_IRE_Celt: "泛凯尔特主义"
@@ -338,6 +370,8 @@
  # # #奥地利
  
  bw_AUS_Third_Way: "第三条路"
+ 
+ bw_AUS_GongHeGuoDeYiCHan: "共和国的遗产"
  
  # # #阿巴阿巴
  
@@ -389,11 +423,13 @@
 
  GER_Gregor_Strasser: "格雷戈尔·施特拉塞"
  
+ Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
+ 
+ GER_Reinhard_Heydrich: "莱因哈德·特里斯坦·欧根·海德里希"
+ 
  CAN_evelina: "埃维琳娜"
  
  CAN_SOV: "加拿大苏维埃"
- 
- Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
  
  AUS_Kurt_Schuschnigg_BW: "库尔特·舒施尼格"
  
@@ -408,6 +444,8 @@
  WeiDaDeYuanSHou: "伟大的元首"
  
  Habsburg: "哈布斯堡"
+ 
+ YuanSHou: "元首"
 
 #国民精神
 
@@ -421,22 +459,22 @@
  csa_mimiguancha_desc: "秘密观察"
 
  #事件
-
+ 
  # # #彩蛋
-
+ 
  bw.1: "因纽特人暴动"
  bw.1.t: "因纽特人暴动"
  bw.1.d: "因纽特人暴动"
  bw.1.a: "镇压暴动"
  bw.1.b: "建立自治领"
  bw.1.c: "正好测试"
-
+ 
  bw.2: "时空紊乱"
  bw.2.t: "时空紊乱"
  bw.2.d: "时空紊乱"
  bw.2.a: "太危险了"
  bw.2.b: "继续测试"
-
+ 
  bw.3: "维度裂缝"
  bw.3.t: "维度裂缝"
  bw.3.d: "维度裂缝"
@@ -492,15 +530,114 @@
  
  # # #德三
  
- bw_GER.1: "魏玛政府倒台"
- bw_GER.1.t: "魏玛政府倒台"
+ #bw_GER.1: "魏玛政府倒台"
+ #bw_GER.1.t: "魏玛政府倒台"
+ #bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
+ #bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
+ 
+ bw_GER.1: "改组政府"
+ bw_GER.1.t: "改组政府"
  bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
  bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
  
  bw_GER.2: "普鲁士，重归我手！"
  bw_GER.2.t: "普鲁士，重归我手！"
  bw_GER.2.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
- bw_GER.2.a: "欢迎回家"
+ bw_GER.2.a: "德意志终于完整了"
+ 
+ bw_GER.3: "普鲁士，重归我手！"
+ bw_GER.3.t: "普鲁士，重归我手！"
+ bw_GER.3.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ bw_GER.3.a: "欢迎回家"
+ 
+ bw_GER.4: "普鲁士，重归我手！"
+ bw_GER.4.t: "普鲁士，重归我手！"
+ bw_GER.4.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ bw_GER.4.a: "德意志终于完整了"
+ 
+ bw_GER.5: "最后通牒"
+ bw_GER.5.t: "最后通牒"
+ bw_GER.5.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ bw_GER.5.a: "我...我同意"
+ bw_GER.5.b: "捷克命不该绝！"
+ 
+ bw_GER.6: "捷克的命运"
+ bw_GER.6.t: "捷克的命运"
+ bw_GER.6.d_2: "我的元首，捷克接受了我们的最后通牒，现在我们可以任意摆弄它，康斯坦丁希望建立一个保护国进行管理。\n\n\n但更多人认为应该直接吞并，毕竟捷克也是在大德意志的范围之中的。"
+ bw_GER.6.a: "建立保护国"
+ bw_GER.6.b: "全境归帝国所有"
+ 
+ bw_GER.7: "神秘人"
+ bw_GER.7.t: "神秘人"
+ bw_GER.7.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
+ bw_GER.7.a: "谁？"
+ 
+ bw_GER.8: "$GER$索取南蒂罗尔和滨海区"
+ bw_GER.8.t: "$GER$索取南蒂罗尔和滨海区"
+ bw_GER.8.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
+ bw_GER.8.a: "几块烂地？可以"
+ bw_GER.8.b: "滚"
+ 
+ # # #南北战争
+ 
+ bw_American_Civil_War.1: "巴黎股市彻底崩盘"
+ bw_American_Civil_War.1.t: "巴黎股市彻底崩盘"
+ bw_American_Civil_War.1.d: "巴黎股市的小范围崩盘已经演化成了彻底崩盘."
+ bw_American_Civil_War.1.a: "这不怪法国"
+ 
+ bw_American_Civil_War.2: "第二次南北战争"
+ bw_American_Civil_War.2.t: "第二次南北战争"
+ bw.2.d: "在朗集团的领导下华盛顿州、俄勒冈州、爱达荷州、蒙大拿州、怀俄明州、南北达科他州、内布拉斯加州、明尼苏达州、艾奥瓦州、威斯康星州、密歇根州和新英格兰各州宣布美利坚合众国得到重建。"
+ bw_American_Civil_War.2.a: "竟有人敢阻挡美利坚的昭昭天命"
+ 
+ bw_American_Civil_War.3: "归乡"
+ bw_American_Civil_War.3.t: "归乡"
+ bw_American_Civil_War.3.d: ""
+ bw_American_Civil_War.3.a: "这太危险了"
+ bw_American_Civil_War.3.b: "终于"
+ 
+ bw_American_Civil_War.4: "演讲"
+ bw_American_Civil_War.4.t: "演讲"
+ bw_American_Civil_War.4.d: "“总统阁下，西弗吉尼亚发生了一间大事。”\n\n“什么事？”\n\n“你…看看这张纸吧”\n\n我们接到举报说西弗吉尼亚出现反联盟言论，他们自称§R联邦党§!\n\n“美国是什么？现在美国是什么？一个是联邦，另一个是虚假的联邦，以前的美国呢？它是邦联它是“自由”现在我们要将自由带回美利坚”"
+ bw_American_Civil_War.4.a: "抓住他"
+ 
+ bw_American_Civil_War.5: "公开叛乱"
+ bw_American_Civil_War.5.t: "公开叛乱"
+ bw_American_Civil_War.5.d: ""
+ bw_American_Civil_War.5.a: "叛徒！"
+ 
+ bw_American_Civil_War.6: "西海岸独立"
+ bw_American_Civil_War.6.t: "西海岸独立"
+ bw_American_Civil_War.6.d: ""
+ bw_American_Civil_War.6.a: "他们真的会打仗吗？"
+ 
+ bw_American_Civil_War.7: "德克萨斯独立"
+ bw_American_Civil_War.7.t: "德克萨斯独立"
+ bw_American_Civil_War.7.d: ""
+ bw_American_Civil_War.7.a: "德克萨斯人，别捣乱！"
+ bw_American_Civil_War.7.b: "孤星崛起！（控制德克萨斯）"
+ 
+ bw_American_Civil_War.8: "迪克西人起义"
+ bw_American_Civil_War.8.t: "迪克西人起义"
+ bw_American_Civil_War.8.d: ""
+ bw_American_Civil_War.8.a: "啊？"
+ 
+ bw_American_Civil_War.9: "奴隶暴动"
+ bw_American_Civil_War.9.t: "奴隶暴动"
+ bw_American_Civil_War.9.d: ""
+ bw_American_Civil_War.9.a: "他妈的"
+ 
+ bw_American_Civil_War.10: "总督辖区的崩溃"
+ bw_American_Civil_War.10.t: "总督辖区的崩溃"
+ bw_American_Civil_War.10.d: ""
+ bw_American_Civil_War.10.a: "不！！！" #BU======
+ # # #疯子希特勒
+ 
+ bw_GER_XiTeLe.1: "疯子"
+ bw_GER_XiTeLe.1.t: "疯子"
+ bw_GER_XiTeLe.1.d: "新秩序…………新……世界大战…………世界………………战争…………纳粹……德意志…………德…………第三帝国………………第三帝国永存！……永存………………第三帝&%@!#$##$*&^()@$"
+ bw_GER_XiTeLe.1.a: "第三帝国永存"
+ bw_GER_XiTeLe.1.b: "我……我…"
  
  # # #阿巴阿巴
  
@@ -568,13 +705,19 @@
  #文本
  
  Treaty_of_Trianon_CZE_W: "捷克将被称为$CZE$"
+ 
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
  FocusTree_SOV_1: "先发制人"
+ 
  TaMenKeNengHuiDeCuenJinCHi: "\n§R它们可能会得寸进尺§!\n"
+ 
  TaMenKeNengHuiBaoFuNi: "\n§R它们可能会进行报复§!\n"
+ 
  evelina_Jue: "欧，你居然用§Rdebug§!模式来玩我的模组，真的太令人震惊了！\n\n\n\n\n奖励你一个彩蛋 doge"
+ 
  MiHeMaoDuen_Z: "解锁§Y矛盾§!决议组\n\n解锁决议§Y向委员会让步§!\n解锁决议§Y给予委员会更多权力§!"
  
+ bw_American_Civil_War_10: "总督辖区将会崩溃，你将接管剩余领土。"
  #权力平衡
  
  FER_Tsar_KBKV: "权力分布"
@@ -613,6 +756,10 @@
  KaiSHiCHongZHengJunBei: "开始重整军备"
  KaiSHiCHongZHengJunBei_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
  
+ 
+ ZongBeiHouSHou: "准备后手"
+ ZongBeiHouSHou_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ 
  # # #德国
  
  GER_YuanSHou: "元首"
@@ -637,7 +784,88 @@
  GER_DiSanFang_desc: ""
  
  GER_NaCuiDeDeYiZHi: "纳粹的德意志"
- GER_NaCuiDeDeYiZHi_desc: ""
+ GER_NaCuiDeDeYiZHi_desc: "我们赢了！"
+ 
+ GER_DeAoHeBing: "德奥合并"
+ GER_DeAoHeBing_desc: "奥地利自从1866年的普奥战争以后就被排除在德意志里面，很明显这是错误的，大德意志万岁！"
+ 
+ GER_YvYiDaLiJiaoHao: "对意大利示好"
+ GER_YvYiDaLiJiaoHao_desc: ""
+ 
+ GER_SuoQvQiYvAoDiLi: "索取其余奥地利"
+ GER_SuoQvQiYvAoDiLi_desc: ""
+ 
+ GER_SuoQvSuTaiDe: "索取苏台德"
+ GER_SuoQvSuTaiDe_desc: ""
+ 
+ GER_JieKeDeMingYun: "捷克的命运"
+ GER_JieKeDeMingYun_desc: ""
+ 
+ GER_JiangXiongYaLiBangShangZHanCHe: "将匈牙利绑上战车"
+ GER_JiangXiongYaLiBangShangZHanCHe_desc: ""
+ 
+ GER_GuaFenSiLuoFaKe: "瓜分斯洛伐克"
+ GER_GuaFenSiLuoFaKe_desc: ""
+ 
+ GER_YiSiLuoFaKeHuanQvCHenFu: "以斯洛伐克换取臣服"
+ GER_YiSiLuoFaKeHuanQvCHenFu_desc: ""
+ 
+ GER_DuiRiSHiHao: "对日示好"
+ GER_DuiRiSHiHao_desc: ""
+ 
+ GER_DuiHuaSHiHao: "对华示好"
+ GER_DuiHuaSHiHao_desc: ""
+ 
+ GER_TongYiDeDeYiZHi: "统一的德意志"
+ GER_TongYiDeDeYiZHi_desc: ""
+ 
+ GER_GuDongDanZe: "鼓动但泽"
+ GER_GuDongDanZe_desc: ""
+ 
+ GER_DeGuo_RuiDianMaoYiXieDin: "德国-瑞典贸易协定"
+ GER_DeGuo_RuiDianMaoYiXieDin_desc: ""
+ 
+ GER_BoMeiLaniYaHuoZHanZHeng: "波美拉尼亚或战争"
+ GER_BoMeiLaniYaHuoZHanZHeng_desc: ""
+ 
+ GER_MaZuLuenHuoZHanZHeng: "马祖伦或战争"
+ GER_MaZuLuenHuoZHanZHeng_desc: ""
+ 
+ GER_YaoQiuCHenFu: "要求臣服"
+ GER_YaoQiuCHenFu_desc: ""
+ 
+ GER_YvYiDaYiJieMeng: "与意大利结盟"
+ GER_YvYiDaYiJieMeng_desc: ""
+ 
+ GER_DaDeYiZHi: "大德意志？"
+ GER_DaDeYiZHi_desc: ""
+ 
+ GER_XinZHiXv: "新秩序"
+ GER_XinZHiXv_desc: ""
+ 
+ GER_SuoQvMeiMeiEr: "索取梅梅尔"
+ GER_SuoQvMeiMeiEr_desc: ""
+ 
+ GER_DuiFaZuoZHan: "对法作战"
+ GER_DuiFaZuoZHan_desc: ""
+ 
+ GER_BaoRaoMaQiNuo: "包绕马奇诺"
+ GER_BaoRaoMaQiNuo_desc: ""
+ 
+ GER_SHengDanSHuXingDong: "圣诞树行动"
+ GER_SHengDanSHuXingDong_desc: ""
+ 
+ GER_BaBaLuoSa: "巴巴罗萨"
+ GER_BaBaLuoSa_desc: ""
+ 
+ GER_SiNianJiHua: "四年计划"
+ GER_SiNianJiHua_desc: ""
+ 
+ GER_NiuNaiYvMianBao: "牛奶与面包"
+ GER_NiuNaiYvMianBao_desc: ""
+ 
+ GER_MeiFuQvan: "梅福券"
+ GER_MeiFuQvan_desc: ""
  
  # # #阿巴阿巴
  

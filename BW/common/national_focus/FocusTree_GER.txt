@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 
-	continuous_focus_position = { x = 0 y = 1750 }
+	continuous_focus_position = { x = 0 y = 2000 }
 
 #政治线
 
@@ -98,6 +98,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 			create_intelligence_agency = yes
+			add_ideas = bw_GER_GaiSHiTaiBao
 		}
 	}
 	focus = {
@@ -112,18 +113,61 @@ focus_tree = {
 		}
 		x = 6
 		y = 4
-
+		completion_reward = {
+			create_faction = 轴心国
+		}
 	}
 	focus = {
 		id = GER_DeAoHeBing #德奥合并
-		icon = GFX_goal_unknown
+		icon = GFX_DeAoHeBing
 		cost = 10.00
 		prerequisite = {
 			focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
 		}
 		x = 3
 		y = 6
+		bypass = {
+#			AND = {
+				controls_state = 848
+				controls_state = 153
+				controls_state = 152
+				controls_state = 4
+				controls_state = 102
+				controls_state = 853
+#			}
+		}
 
+		continue_if_invalid = no
+		cancel_if_invalid = no
+		available = {
+			is_subject = no
+			has_army_manpower = { size > 499999 }
+
+			check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
+			custom_trigger_tooltip = {
+			 	tooltip = GER_anschluss_eq_trigger_tt
+			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
+			 }
+			 
+#			NOT = { has_idea = rhineland_challenge_met }
+			if = {
+				limit = {
+					SWI = { has_completed_focus = SWI_gotthard_union }
+				}
+				NOT = { 
+					AUS = { has_idea = SWI_swiss_democratic_propaganda }
+				}
+			}
+		}
+
+		completion_reward = {
+			AUS = {
+				country_event = {
+					id = germany.28
+					days = 1
+				}
+			}
+		}
 	}
 	focus = {
 		id = GER_YvYiDaLiJiaoHao #对意大利示好
@@ -137,11 +181,20 @@ focus_tree = {
 		}
 		x = 2
 		y = 7
+		available = {
+			NOT = { has_war_with = ITA }
+		}
+
+		completion_reward = {
+			ITA = {
+				add_opinion_modifier = { target = GER modifier = ger_ita_alliance_focus }
+			}
+		}
 
 	}
 	focus = {
 		id = GER_SuoQvQiYvAoDiLi #索取其余奥地利
-		icon = GFX_goal_unknown
+		icon = GFX_SuoQvQiYvAoDiLi
 		cost = 5
 		prerequisite = {
 			focus = GER_DeAoHeBing #德奥合并
@@ -151,32 +204,80 @@ focus_tree = {
 		}
 		x = 4
 		y = 7
+		bypass = {
+#			AND = {
+				controls_state = 39
+				controls_state = 850
+				controls_state = 736
+				controls_state = 852
+#			}
+		}
 
+		available = {
+			is_subject = no
+			has_army_manpower = { size > 999999 }
+		}
+
+		completion_reward = {
+			ITA = {
+				country_event = {
+					id = bw_GER.8
+					days = 1
+				}
+			}
+		}
 	}
 	focus = {
-		id = GER_SuoQvSuTaiDe
-		icon = GFX_goal_unknown
+		id = GER_SuoQvSuTaiDe #索取苏台德
+		icon = GFX_SuoQvSuTaiDe
 		cost = 10.00
 		prerequisite = {
 			focus = GER_NaCuiDeDeYiZHi
 		}
 		x = 9
 		y = 6
+		continue_if_invalid = no
+		cancel_if_invalid = no
+		available = {
+			is_subject = no
+			has_army_manpower = { size > 724999 } #80 div		
+		}
 
+		completion_reward = {
+			CZE = {
+				country_event = {
+					id = germany.122
+					days = 1
+				}
+			}
+		}
 	}
 	focus = {
-		id = GER_JieKeDeMingYun
-		icon = GFX_goal_unknown
+		id = GER_JieKeDeMingYun #捷克的命运
+		icon = GFX_JieKeDeMingYun
 		cost = 5.00
 		prerequisite = {
-			focus = GER_SuoQvSuTaiDe
+			focus = GER_SuoQvSuTaiDe #索取苏台德
+		}
+		prerequisite = {
+			focus = GER_DeAoHeBing #德奥合并
 		}
 		x = 8
 		y = 7
-
+		continue_if_invalid = no
+		cancel_if_invalid = no
+		available = {
+			AND = {
+				controls_state = 69
+				controls_state = 74
+			}
+		}
+		completion_reward = {
+			CZE = { country_event = bw_GER.5 }
+		}
 	}
 	focus = {
-		id = GER_JiangXiongYaLiBangShangZHanCHe
+		id = GER_JiangXiongYaLiBangShangZHanCHe #将匈牙利绑上战车
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -187,219 +288,414 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_GuaFenSiLuoFaKe
+		id = GER_GuaFenSiLuoFaKe #瓜分斯洛伐克
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = GER_JiangXiongYaLiBangShangZHanCHe
+			focus = GER_JiangXiongYaLiBangShangZHanCHe #将匈牙利绑上战车
 		}
 		prerequisite = {
-			focus = GER_JieKeDeMingYun
+			focus = GER_JieKeDeMingYun #捷克的命运
 		}
 		x = 9
 		y = 8
 
 	}
 	focus = {
-		id = GER_YiSiLuoFaKeHuanQvCHenFu
+		id = GER_YiSiLuoFaKeHuanQvCHenFu #以斯洛伐克换取臣服
 		icon = GFX_goal_unknown
 		cost = 6.00
 		prerequisite = {
-			focus = GER_GuaFenSiLuoFaKe
+			focus = GER_GuaFenSiLuoFaKe #瓜分斯洛伐克
 		}
 		mutually_exclusive = {
-			focus = GER_YaoQiuCHenFu
+			focus = GER_YaoQiuCHenFu #要求臣服
 		}
 		x = 9
-		y = 9
-
-	}
-	focus = {
-		id = GER_DuiRiSHiHao
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_WaiJiaoBu
-		}
-		mutually_exclusive = {
-			focus = GER_DuiHuaSHiHao
-		}
-		x = 11
-		y = 2
-
-	}
-	focus = {
-		id = GER_DuiHuaSHiHao
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_WaiJiaoBu
-		}
-		mutually_exclusive = {
-			focus = GER_DuiRiSHiHao
-		}
-		x = 13
-		y = 2
-
-	}
-	focus = {
-		id = GER_TongYiDeDeYiZHi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_NaCuiDeDeYiZHi
-		}
-		x = 16
-		y = 6
-
-	}
-	focus = {
-		id = GER_GuDongDanZe
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_TongYiDeDeYiZHi
-		}
-		x = 15
-		y = 7
-
-	}
-	focus = {
-		id = GER_DeGuo_RuiDianMaoYiXieDin
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_WaiJiaoBu
-		}
-		x = 16
-		y = 2
-
-	}
-	focus = {
-		id = GER_BoMeiLaniYaHuoZHanZHeng
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_TongYiDeDeYiZHi
-		}
-		x = 17
-		y = 7
-
-	}
-	focus = {
-		id = GER_MaZuLuenHuoZHanZHeng
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_GuDongDanZe
-		}
-		prerequisite = {
-			focus = GER_BoMeiLaniYaHuoZHanZHeng
-		}
-		x = 16
-		y = 8
-
-	}
-	focus = {
-		id = GER_YaoQiuCHenFu
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_MaZuLuenHuoZHanZHeng
-		}
-		mutually_exclusive = {
-			focus = GER_YiSiLuoFaKeHuanQvCHenFu
-		}
-		x = 15
-		y = 9
-
-	}
-	focus = {
-		id = GER_YvYiDaYiJieMeng
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_YvYiDaLiJiaoHao
-		}
-		x = 2
-		y = 8
-
-	}
-	focus = {
-		id = GER_DaDeYiZHi
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = GER_SuoQvQiYvAoDiLi
-		}
-		prerequisite = {
-			focus = GER_JieKeDeMingYun
-		}
-		x = 6
-		y = 8
-
-	}
-	focus = {
-		id = GER_XinZHiXv
-		icon = GFX_goal_unknown
-		cost = 20.00
-		prerequisite = {
-			focus = GER_YvYiDaYiJieMeng
-			focus = GER_DaDeYiZHi
-		}
-		x = 6
-		y = 11
-
-	}
-	focus = {
-		id = GER_SuoQvMeiMeiEr
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_MaZuLuenHuoZHanZHeng
-		}
-		x = 17
-		y = 9
-
-	}
-	focus = {
-		id = GER_DuiFaZuoZHan
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_YiSiLuoFaKeHuanQvCHenFu
-			focus = GER_YaoQiuCHenFu
-		}
-		prerequisite = {
-			focus = GER_SuoQvMeiMeiEr
-		}
-		x = 12
 		y = 10
 
 	}
 	focus = {
-		id = GER_BaoRaoMaQiNuo
-		icon = GFX_goal_unknown
+		id = GER_DuiRiSHiHao #对日示好
+		icon = GFX_DuiRiSHiHao
 		cost = 5.00
 		prerequisite = {
-			focus = GER_DuiFaZuoZHan
+			focus = GER_WaiJiaoBu #外交部
+		}
+		mutually_exclusive = {
+			focus = GER_DuiHuaSHiHao #对华示好
 		}
 		x = 11
-		y = 11
+		y = 2
 
 	}
 	focus = {
-		id = GER_SHengDanSHuXingDong
+		id = GER_DuiHuaSHiHao #对华示好
+		icon = GFX_DuiHuaSHiHao
+		cost = 5.00
+		prerequisite = {
+			focus = GER_WaiJiaoBu #外交部
+		}
+		mutually_exclusive = {
+			focus = GER_DuiRiSHiHao #对日示好
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = GER_TongYiDeDeYiZHi #统一的德意志
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = GER_DuiFaZuoZHan
+			focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
+		}
+		x = 16
+		y = 6
+		completion_reward = {
+			add_ideas = bw_GER_TongYiDeDeYiZH #统一的德意志
+
+			add_state_claim = 807
+			add_state_claim = 763
+			add_state_claim = 5
+			add_state_claim = 971
+		}
+
+	}
+	focus = {
+		id = GER_GuDongDanZe #鼓动但泽
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_TongYiDeDeYiZHi #统一的德意志
+		}
+		x = 15
+		y = 7
+		available = {
+			is_subject = no
+
+			check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
+			custom_trigger_tooltip = {
+			 	tooltip = GER_anschluss_eq_trigger_tt
+			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
+			 }
+			 
+#			NOT = { has_idea = rhineland_challenge_met }
+			if = {
+				limit = {
+					SWI = { has_completed_focus = SWI_gotthard_union }
+				}
+				NOT = { 
+					AUS = { has_idea = SWI_swiss_democratic_propaganda }
+				}
+			}
+		}
+
+		completion_reward = {
+			DNZ = {
+				country_event = {
+					id = bw_GER.7
+					days = 1
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_DeGuo_RuiDianMaoYiXieDin #德国-瑞典贸易协定
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_WaiJiaoBu #外交部
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = GER_BoMeiLaniYaHuoZHanZHeng #波美拉尼亚或战争
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_TongYiDeDeYiZHi #统一的德意志
+		}
+		x = 17
+		y = 7
+		completion_reward = {
+			create_wargoal = {
+				type = take_core_state
+				target = PRE
+				generator = { 63 }
+			}
+		}
+	}
+	focus = {
+		id = GER_MaZuLuenHuoZHanZHeng #马祖伦或战争
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_GuDongDanZe #鼓动但泽
+		}
+		prerequisite = {
+			focus = GER_BoMeiLaniYaHuoZHanZHeng #波美拉尼亚或战争
+		}
+		x = 16
+		y = 9
+		bypass = {
+			NOT = {
+				POL = {
+					controls_state = 971
+				}
+			}
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = take_core_state
+				target = POL
+				generator = { 971 }
+			}
+		}
+	}
+	focus = {
+		id = GER_YaoQiuCHenFu #要求臣服
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_MaZuLuenHuoZHanZHeng #马祖伦或战争
+		}
+		mutually_exclusive = {
+			focus = GER_YiSiLuoFaKeHuanQvCHenFu #以斯洛伐克换取臣服
+		}
+		bypass = {
+			OR = {
+				POL = {
+					is_puppet_of = GER
+				}
+				has_war_with = POL
+			}
+		}
+		x = 15
+		y = 10
+		available = {
+			is_subject = no
+			has_army_manpower = { size > 799999 }
+		}
+
+		completion_reward = {
+			create_wargoal = {
+    				type = puppet_wargoal_focus
+    				target = POL
+			}
+		}
+	}
+	focus = {
+		id = GER_YvYiDaYiJieMeng #与意大利结盟
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_YvYiDaLiJiaoHao #对意大利示好
+		}
+		x = 2
+		y = 8
+		available = {
+			NOT = { has_war_with = ITA }
+		}
+
+		completion_reward = {
+			ITA = {
+				country_event = { id = generic.5 }
+			}
+		}
+	}
+	focus = {
+		id = GER_DaDeYiZHi #大德意志？
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_SuoQvQiYvAoDiLi #索取其余奥地利
+		}
+		prerequisite = {
+			focus = GER_JieKeDeMingYun #捷克的命运
+		}
+		x = 6
+		y = 8
+		completion_reward = {
+			add_ideas = bw_GER_DaDeYiZHi
+		}
+	}
+	focus = {
+		id = GER_XinZHiXv #新秩序
+		icon = GFX_goal_unknown
+		cost = 20.00
+		prerequisite = {
+			focus = GER_YvYiDaYiJieMeng #与意大利结盟
+			focus = GER_DaDeYiZHi #大德意志？
+		}
+		prerequisite = {
+			focus = GER_BaBaLuoSa #巴巴罗萨
+		}
+		x = 6
+		y = 14
+		available = {
+			controls_state = 64
+			controls_state = 16
+			controls_state = 126
+			controls_state = 219
+			controls_state = 195
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_GER_DaDeYiZHi
+				add_idea = bw_GER_XinZHiXv
+			}
+		}
+	}
+	focus = {
+		id = GER_SuoQvMeiMeiEr #索取梅梅尔
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_MaZuLuenHuoZHanZHeng #马祖伦或战争
+		}
+		x = 17
+		y = 10
+		completion_reward = {
+			random_other_country = {
+				limit = {
+					owns_state = 188
+					controls_state = 188 
+				}
+				country_event = { 
+					id = baltic.4 
+					days = 1
+					random_days = 3
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_DuiFaZuoZHan #对法作战
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_YiSiLuoFaKeHuanQvCHenFu #以斯洛伐克换取臣服
+			focus = GER_YaoQiuCHenFu #要求臣服
+		}
+		prerequisite = {
+			focus = GER_SuoQvMeiMeiEr #索取梅梅尔
+		}
+		x = 12
+		y = 11
+		completion_reward = {
+ 			create_wargoal = {
+ 				type = take_state_focus
+ 				target = FRA
+ 				expire = 0
+ 				generator = { 28 970 }
+ 			}
+		}
+	}
+	focus = {
+		id = GER_BaoRaoMaQiNuo #包绕马奇诺
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_DuiFaZuoZHan #对法作战
+		}
+		x = 11
+		y = 12
+		completion_reward = {
+ 			create_wargoal = {
+ 				type = annex_everything
+ 				target = HOL
+ 			}
+			create_wargoal = {
+ 				type = annex_everything
+ 				target =BEL
+ 			}
+			create_wargoal = {
+ 				type = annex_everything
+ 				target = LUX
+ 			}
+		}
+	}
+	focus = {
+		id = GER_SHengDanSHuXingDong #圣诞树行动
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_DuiFaZuoZHan #对法作战
 		}
 		x = 13
-		y = 11
-
+		y = 12
+		completion_reward = {
+ 			create_wargoal = {
+ 				type = annex_everything
+ 				target = SWI
+ 			}
+		}
+	}
+	focus = {
+		id = GER_BaBaLuoSa #巴巴罗萨
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_BaoRaoMaQiNuo #包绕马奇诺
+		}
+		x = 11
+		y = 13
+		completion_reward = {
+ 			create_wargoal = {
+ 				type = annex_everything
+ 				target = RFE
+ 			}
+			create_wargoal = {
+ 				type = annex_everything
+ 				target =SOV
+ 			}
+			create_wargoal = {
+ 				type = annex_everything
+ 				target = FER
+ 			}
+		}
 	}
 
 #经济线
+	focus = {
+		id = GER_SiNianJiHua #四年计划
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 25
+		y = 1
+		available = {
+			has_completed_focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
+		}
+		completion_reward = {
+			add_ideas = bw_GER_SiNianJiHua
+		}
+	}
+	focus = {
+		id = GER_NiuNaiYvMianBao #牛奶与面包
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SiNianJiHua #四年计划
+		}
+		x = 25
+		y = 2
+		completion_reward = {
+			add_ideas = bw_GER_NiuNaiYvMianBao
+		}
+	}
+	focus = {
+		id = GER_MeiFuQvan #梅福券
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SiNianJiHua #四年计划
+		}
+		x = 20
+		y = 2
+
+	}
 
 }

@@ -51,8 +51,16 @@
  JunZHuBuErSHiWeiKe: "君主布尔什维克"
  JunZHuBuErSHiWeiKe_noun: "君主布尔什维克"
  JunZHuBuErSHiWeiKe_desc: "君主布尔什维克认为斯大林应该称帝。"
- JunZHuBuErSHiWeiKe_c: "委员会君主国"
- JunZHuBuErSHiWeiKe_c_desc: "有皇帝的共产主义。"
+ #JunZHuBuErSHiWeiKe_c: "委员会君主国"
+ #JunZHuBuErSHiWeiKe_c_desc: "有皇帝的共产主义。"
+ JunZHuBuErSHiWeiKe_c: "君主布尔什维克"
+ JunZHuBuErSHiWeiKe_c_desc: "君主布尔什维克认为斯大林应该称帝。"
+ 
+ GuDianZiYouZHuYi: "古典自由主义"
+ GuDianZiYouZHuYi_noun: "古典自由主义"
+ GuDianZiYouZHuYi_desc: "真伟大啊___"
+ GuDianZiYouZHuYi_c: "古典自由主义"
+ GuDianZiYouZHuYi_c_desc: "基本介绍：\n古典自由主义（classical liberalism）是一\n种在18世纪由小资产阶级建立的意识形态，认为应该遵循自由市场，政府的干预会障碍经济的发展，总之§Y真伟大啊哈耶克§!\n\n\n政治主张：\n古典自由主义认为个人先于国家，强调私有财产不可侵犯，政府不可干预经济并保护每个人的自由，反对君权神授、世袭君主、国教\n\n\n近代影响：\n影响法国大革命和美国独立战争"
  
  SHeHuiMinZHuZHuYi: "社会民主主义"
  SHeHuiMinZHuZHuYi_noun: "社会民主主义"
@@ -90,8 +98,10 @@
  MinZuSHeHuiZHuYi_noun: "民族社会主义"
  #MinZuSHeHuiZHuYi_desc: "民族社会主义是由『阿道夫·希特勒』以法西斯主义为蓝本融合了极端民族主义创建的。"
  MinZuSHeHuiZHuYi_desc: "民族社会主义植根于极端民族主义，并且受到了种族至上理念的推动。其积极推行侵略性扩张政策并主张建立极权国家，在此基础上，人民都将被团结在拥有绝对权力的领袖之下。"
- MinZuSHeHuiZHuYi_c: "民族国"
- MinZuSHeHuiZHuYi_c_desc: "民族国是由极端民族主义和军国主义驱动的战争机器。"
+ #MinZuSHeHuiZHuYi_c: "民族国"
+ #MinZuSHeHuiZHuYi_c_desc: "民族国是由极端民族主义和军国主义驱动的战争机器。"
+ MinZuSHeHuiZHuYi_c: "民族社会主义"
+ MinZuSHeHuiZHuYi_c_desc: "基本介绍：\n古典自由主义（classical liberalism）是一\n种在18世纪由小资产阶级建立的意识形态，认为应该遵循自由市场，政府的干预会障碍经济的发展，总之§Y真伟大啊哈耶克§!\n\n\n政治主张：\n古典自由主义认为个人先于国家，强调私有财产不可侵犯，政府不可干预经济并保护每个人的自由，反对君权神授、世袭君主、国教\n\n\n近代影响：\n影响法国大革命和美国独立战争。"
  
  BoGenDiTiZHi: "勃艮第体制"
  BoGenDiTiZHi_noun: "勃艮第体制"
@@ -407,6 +417,28 @@
  
  #英国
  
+ ENG_GuDianZiYouZHuYi_party: "自由党"
+ ENG_JunZHuZHuYi_party: "温莎王朝"
+ ENG_GuiZuBaoSHouZHuYi_party: "保守党（右派）" #丘吉尔
+ ENG_GuiZuBaoSHouZHuYi_party_long: "保守与统一党（右派）"
+ ENG_BaoSHouZHuYi_party: "保守党（左派）" #鲍德温
+ ENG_BaoSHouZHuYi_party_long: "保守与统一党（左派）"
+ ENG_MinZHuSHeHuiZHuYi_party: "独立工党（右派）"
+ #ENG_GuongTuanZHuYi_party: "独立工党（左派）"
+ ENG_SHeHuiMinZHuZHuYi_party: "工党"
+ ENG_SiTeLaSeZHuYi_party: "不列颠法西斯联盟（左派）" #莫斯里
+ ENG_SiTeLaSeZHuYi_party_long: "不列颠法西斯与民族社会主义联盟（左派）"
+ ENG_FaXiSiZHuYi_party: "不列颠法西斯联盟（中间派）" #罗瑟·琳唐-奥曼
+ ENG_FaXiSiZHuYi_party_long: "不列颠法西斯与民族社会主义联盟（中间派）"
+ ENG_MinZuSHeHuiZHuYi_party: "不列颠法西斯联盟（右派）" #罗特梅勋爵
+ ENG_MinZuSHeHuiZHuYi_party_long: "不列颠法西斯与民族社会主义联盟（右派）"
+ ENG_TuoLuoSiJiZHuYi_party: "英国共产党（左派）" #阿尔伯特·英克平
+ ENG_TuoLuoSiJiZHuYi_party_long: "大不列颠共产党（左派）"
+ ENG_MaKeSi_LieNingZHuYi_party: "英国共产党（中间派）"
+ ENG_MaKeSi_LieNingZHuYi_party_long: "大不列颠共产党（中间派）"
+ ENG_SiDaLingZHuYi_party: "英国共产党（右派）" #哈里·波利特
+ ENG_SiDaLingZHuYi_party_long: "大不列颠共产党（右派）"
+ 
  ENG_communism_party: "大不列颠共产党"
  ENG_democratic_party: "保守党"
  ENG_fascism_party: "不列颠法西斯联盟"
@@ -414,10 +446,10 @@
  ENG_neutrality_party_kings_party_long: "不列颠王党"
  ENG_neutrality_party_queens_party: "不列颠女王党"
  ENG_neutrality_party_queens_party_long: "不列颠女王党"
- ITA_communism_party: "意大利共产党"
  
  #意大利
  
+ ITA_communism_party: "意大利共产党"
  ITA_communism_party_long: "意大利共产党"
  ITA_democratic_party: "意大利人民党"
  ITA_democratic_party_long: "意大利人民党"

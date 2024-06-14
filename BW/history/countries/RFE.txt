@@ -9,6 +9,15 @@ set_convoys = 20
 
 #recruit_character = GAB_acr
 
+set_autonomy = {
+	target = UKR
+	autonomous_state =  autonomy_puppet
+}
+set_autonomy = {
+	target = DON
+	autonomous_state =  autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = democratic
 }

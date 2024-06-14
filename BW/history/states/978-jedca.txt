@@ -1,0 +1,26 @@
+state={
+	id=978
+	name="STATE_978"
+	manpower = 474600
+	
+	state_category = rural
+	
+	history=
+	{
+#		victory_points = {
+#			577 1 
+#		}
+		owner = SAU
+		buildings = {
+
+		}
+		add_core_of = SAU
+		add_core_of = JOR
+#		add_core_of = UKR
+	}
+	provinces={
+		4562 4603 11976 4115
+	}
+
+	local_supplies=0.0 
+}

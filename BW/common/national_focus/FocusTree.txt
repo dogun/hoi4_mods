@@ -367,6 +367,8 @@ focus_tree = {
 			add_state_core = 88
 			add_state_core = 89
 			add_state_core = 91
+			add_state_core = 80
+			add_state_core = 977
 		}
 	}
 	focus = {
@@ -412,6 +414,10 @@ focus_tree = {
 			add_state_core = 104
 			add_state_core = 109
 			add_state_core = 163
+			add_state_core = 804
+			
+			add_state_core = 39
+			add_state_core = 850
 			set_cosmetic_tag = HUN_EMPIRE
 		}
 	}

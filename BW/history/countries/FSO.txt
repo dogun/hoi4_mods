@@ -33,7 +33,7 @@ set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
 set_variable = { GER_narvik_shipments = 0 }
 set_variable = { GER_narvik_civs = 0 }
-set_research_slots = 4
+set_research_slots = 10
 set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
@@ -57,14 +57,9 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 #	SWE_historical_trade_with_Germany_dummy CUT
-	bw_LinSHiZHengFu
 }
 #add_ideas = GER_mefo_bills_1
 
-declare_war_on = {
-	target = GSR
-	type = civil_war
-}
 #give_guarantee = ALB
 
 recruit_character = FSO_WenHao

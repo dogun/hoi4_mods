@@ -6,12 +6,12 @@ state = {
 	}
 
 	history = {
-		owner = RFE
+		owner = GSK
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = RFE
+		add_core_of = GSK
 		add_core_of = KBK
 		victory_points = {
 			11614 1

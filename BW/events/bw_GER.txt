@@ -28,6 +28,8 @@ country_event = { #魏玛政府倒台
 				target = GSR
 				transfer_troops = no
 			}
+			remove_ideas = bw_LinSHiZHengFu
+			remove_country_leader_trait = nationalist_symbol
 #			set_cosmetic_tag = De3_G
 			add_state_core = 51
 			add_state_core = 42
@@ -86,10 +88,8 @@ country_event = { #魏玛政府倒台
 					remove_state_core = 976
 
 					remove_state_core = 58
-					}
 				}
 			}
-		}
 	}
 }
 
@@ -108,7 +108,7 @@ country_event = { #普鲁士，重归我手！
 	}
 	mean_time_to_happen = { days = 1 }
 	option = {
-		name = bw_GER.2.a #欢迎回家
+		name = bw_GER.2.a #德意志终于完整了		#欢迎回家
 			add_state_core = 807
 			add_state_core = 5
 			add_state_core = 971
@@ -140,5 +140,368 @@ country_event = { #北德地区党卫军集结
 	option = {
 		name = bw_GER.4.a #他要干什么！！！
 
+	}
+}
+
+country_event = {
+	id = bw_GER.5 #最后通牒 
+	title = bw_GER.5.t
+	desc = bw_GER.5.d
+	picture = GFX_report_event_german_politician_speech
+
+	is_triggered_only = yes
+
+	option = { # Agree
+		name = bw_GER.5.a
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_in_faction_with = ENG
+					is_in_faction_with = FRA
+					is_puppet = yes
+					GER = {
+						AND = {
+							has_war_with = ENG
+							has_war_with = FRA
+						}
+					}
+					GER = {
+						AND = {
+							has_war_with = SOV
+							OR = {
+								has_war_with = ENG
+								has_war_with = FRA
+							}
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				GER = {
+					OR = {
+						AND = {
+							has_war_with = ENG
+							NOT = {
+								has_war_with = FRA
+							}
+						}
+						AND = {
+							has_war_with = FRA
+							NOT = {
+								has_war_with = ENG
+							}
+						}
+					}
+				}
+			}
+		}
+		GER = { country_event = bw_GER.6 }
+		if = {
+			limit = {
+				ENG = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			ENG = {
+				add_war_support = 0.1
+			}
+		}
+		if = {
+			limit = {
+				FRA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			FRA = {
+				add_war_support = 0.1
+			}
+		}
+		if = {
+			limit = {
+				has_DLC = "Death or Dishonor"
+				country_exists = YUG
+				YUG = { has_war = no }
+			}
+			GER = {
+				country_event = {
+					id = DOD_yugoslavia.32
+					hours = 6
+				}
+			}
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+	option = { # Refuse
+		name = bw_GER.5.b
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				NOT = { is_in_faction_with = ENG }
+				NOT = { is_in_faction_with = FRA }
+				is_puppet = no
+				NOT = {
+					GER = {
+						has_war_with = ENG
+						has_war_with = FRA
+					}
+				}
+				NOT = {
+					GER = {
+						has_war_with = SOV
+						OR = {
+							has_war_with = ENG
+							has_war_with = FRA
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				GER = {
+					OR = {
+						AND = {
+							has_war_with = ENG
+							NOT = {
+								has_war_with = FRA
+							}
+						}
+						AND = {
+							has_war_with = FRA
+							NOT = {
+								has_war_with = ENG
+							}
+						}
+					}
+				}
+			}
+		}
+		GER = {
+			country_event = { id = germany.54 days = 1 }
+		}
+		if = {
+			limit = {
+				ENG = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			ENG = {
+				add_war_support = 0.1
+			}
+		}
+		if = {
+			limit = {
+				FRA = {
+					NOT = {
+						is_in_faction_with = GER
+					}
+				}
+			}
+			FRA = {
+				add_war_support = 0.1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = bw_GER.6 #捷克的命运
+	title = bw_GER.6.t
+	desc = {
+		text = bw_GER.6.d
+		trigger = { has_global_flag = end_of_czechoslovakia }
+	}
+	desc = {
+		text = bw_GER.6.d_2
+		trigger = { NOT = { has_global_flag = end_of_czechoslovakia } }
+	}
+	picture = GFX_report_event_german_inspect_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.6.a
+		ai_chance = { factor = 80 }
+
+		if = {
+			limit = { country_exists = CZE }
+
+			puppet = CZE
+			add_war_support = 0.1
+		}
+#如果捷克存在，傀儡捷克，战争支持度+10
+
+#		puppet = SLO
+#		every_state = {
+#			limit = {
+#				is_core_of = CZE
+#				is_controlled_by = ROOT
+#			}
+#			set_compliance = 50
+#		}
+
+		if = {
+			limit = {
+				72 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
+				country_exists = POL
+			}
+#			POL = { transfer_state = 72 } # Give Poland Zaolzie
+		}
+#如果扎奥尔杰（72）是捷克控制或者德国控制，并且波兰存在，那么波兰获得扎奥尔杰（72）
+
+#		every_state = {
+#			limit = {
+#				is_core_of = CZE
+#				NOT = { is_core_of = SLO }
+#				NOT = { state = 72 }
+#			}
+#			add_claim_by = GER
+#		}
+
+		if = {
+			limit = { has_global_flag = GER_HUN_CZE_split }
+			HUN = { country_event = DOD_hungary.106 }
+		}
+#如果拥有变量GER_HUN_CZE_split，那么匈牙利：触发事件（？）国防部匈牙利106（？）
+
+#		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
+#		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
+#		GER_mefo_bills_level_down = yes
+
+		hidden_effect = {
+#隐藏效果
+			country_event = { hours = 6 id = news.60 } #mtth6触发新闻事件捷克斯洛伐克的命运
+		}
+	}
+	option = {
+		name = bw_GER.6.b
+		add_political_power = -50
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		if = {
+			limit = { country_exists = CZE }
+			annex_country = { target = CZE }
+			add_war_support = 0.1
+		}
+		if = {
+			limit = { has_global_flag = GER_HUN_CZE_split }
+			HUN = { country_event = DOD_hungary.106 }
+		}
+		hidden_effect = {
+			country_event = { hours = 6 id = news.62 }
+		}
+		custom_effect_tooltip = end_of_czechoslovakia_mefo_bills_tt
+		add_to_variable = { var = GER_mefo_bill_counter value = -5 }
+		GER_mefo_bills_level_down = yes
+	}
+}
+
+country_event = { #神秘人
+	id = bw_GER.7
+	title = bw_GER.7.t
+	desc = bw_GER.7.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.7.a #该死的
+			set_politics = {
+				ruling_party = MinZuSHeHuiZHuYi
+			}
+			GER = {
+				annex_country = {
+					target = DNZ
+					transfer_troops = yes
+			}
+		}
+	}
+}
+
+country_event = { #德国索取南蒂罗尔和滨海区
+	id = bw_GER.8
+	title = bw_GER.8.t
+	desc = bw_GER.8.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.8.a #几块烂地？可以
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = GER
+					value = 25
+				}
+			}
+			modifier = {
+				add = 30
+				has_opinion = {
+					target = GER
+					value = 50
+				}
+			}
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > -1
+				}
+			}
+			modifier = {
+				add = 40
+				has_war = yes
+			}
+		}
+
+		GER = {
+			transfer_state = 39
+			transfer_state = 850
+			transfer_state = 736
+			transfer_state = 852
+
+			add_state_core = 39
+			add_state_core = 850
+			add_state_core = 736
+			add_state_core = 852
+		}
+	}
+
+	option = {
+		name = bw_GER.8.b #滚
+
+		ai_chance = {
+			factor = 80
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > 1
+				}
+			}
+			modifier = {
+				add = -10
+				has_war = yes
+			}
+		}
 	}
 }

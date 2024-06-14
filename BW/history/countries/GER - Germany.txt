@@ -15,16 +15,21 @@ set_technology = {
 	tech_engineers = 1
 	tech_mountaineers = 1
 	tech_trucks = 1
-	motorised_infantry = 1
+	#motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
-	synth_oil_experiments = 1
-	fuel_silos = 1
-	fuel_refining = 1
+	#synth_oil_experiments = 1
+	#fuel_silos = 1
+	#fuel_refining = 1
+
+	armored_car1 = 1
+	interwar_artillery = 1
+
+	gwtank_chassis = 1
 }
 
 set_variable = { var = ger_gateway_to_europe_influence value = 0 }
@@ -158,3 +163,5 @@ set_cosmetic_tag = GER_LinSHiZHengFu
 recruit_character = GER_Gregor_Strasser
 recruit_character = GER_adolf_hitler_BW
 recruit_character = GER_Heinrich_Himmler_BW
+
+recruit_character = GER_Reinhard_Heydrich

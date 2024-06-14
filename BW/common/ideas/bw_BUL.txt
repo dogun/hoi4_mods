@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+		bw_BUL_XiaoXinYiYiDeZHongLi = {	#小心翼翼的中立
+			picture = SuGeLanFanDuiPai
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_core_defence_factor = -0.05
+				mobilization_speed = -0.1
+				consumer_goods_factor = 0.05
+				conscription = -0.3
+				stability_factor = -0.2
+				stability_weekly = -0.001
+			}
+			targeted_modifier = {
+
+			}
+		}
+
+	}
+}

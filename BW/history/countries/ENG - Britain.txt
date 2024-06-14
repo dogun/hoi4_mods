@@ -1,4 +1,6 @@
-﻿capital = 126
+﻿set_cosmetic_tag = EBG_monarchy
+
+capital = 126
 
 if = {
 	limit = {
@@ -173,9 +175,10 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-	stiff_upper_lip
+	#stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
+	bw_ENG_SuGeLanFanDuiPai
 }
 	
 
@@ -433,16 +436,27 @@ if = {
 	set_convoys = 200
 }
 
+set_autonomy = {
+	target = IRQ
+	autonomous_state =  autonomy_puppet
+}
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = BaoSHouZHuYi
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
+	#BaoSHouZHuYi = 37.84 #47.84
+	BaoSHouZHuYi = 15.97
+	GuiZuBaoSHouZHuYi = 21.87
+	SHeHuiMinZHuZHuYi = 38.02
+	GuDianZiYouZHuYi = 6.72
+	MinZHuSHeHuiZHuYi = 0.7
+	SiTeLaSeZHuYi = 7.57 #5.57
+	FaXiSiZHuYi = 6.38 #4.38
+	MinZuSHeHuiZHuYi = 2.77
 }
 
 

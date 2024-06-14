@@ -1,0 +1,551 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_American_Civil_War
+
+country_event = { #巴黎股市彻底崩盘
+	id = bw_American_Civil_War.1
+	title = bw_American_Civil_War.1.t
+	desc = bw_American_Civil_War.1.d
+	#hidden = yes
+
+#	is_triggered_only = yes
+#	mean_time_to_happen = { days = 0 }
+	fire_only_once = yes
+	trigger = {
+		original_tag = FRA
+		date = "1937.04.05"
+	}
+	option = {
+		name = bw_American_Civil_War.1.a  #这不怪我
+		hidden_effect = {
+			CSA = {
+#				country_event = { id = bw_American_Civil_War.2 days = 1 }
+				news_event = {
+					id = bw_American_Civil_War.2
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #第二次南北战争
+	id = bw_American_Civil_War.2
+	title = bw_American_Civil_War.2.t
+	desc = bw_American_Civil_War.2.d
+	#hidden = yes
+
+	is_triggered_only = yes
+#	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.2.a  #竟有人敢阻挡美利坚的昭昭天命
+		remove_state_core = 386
+		remove_state_core = 385
+		remove_state_core = 387
+		remove_state_core = 388
+		remove_state_core = 381
+		remove_state_core = 390
+		remove_state_core = 389
+		remove_state_core = 384
+		remove_state_core = 391
+		remove_state_core = 392
+		remove_state_core = 394
+		remove_state_core = 393
+		remove_state_core = 357
+		remove_state_core = 358
+		USA = {
+			transfer_state = 386
+			add_state_core = 386
+			transfer_state = 385
+			add_state_core = 385
+			transfer_state = 387
+			add_state_core = 387
+			transfer_state = 388
+			add_state_core = 388
+			transfer_state = 381
+			add_state_core = 381
+			transfer_state = 390
+			add_state_core = 390
+			transfer_state = 389
+			add_state_core = 389
+			transfer_state = 384
+			add_state_core = 384
+			transfer_state = 391
+			add_state_core = 391
+			transfer_state = 392
+			add_state_core = 392
+			transfer_state = 394
+			add_state_core = 394
+			transfer_state = 393
+			add_state_core = 393
+			transfer_state = 357
+			add_state_core = 357
+			transfer_state = 358
+			add_state_core = 358
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+			hidden_effect = {
+				CAN = {
+#					country_event = { id = bw_American_Civil_War.3 days = 15 } #30
+#						}
+#					}
+					news_event = {
+						id = bw_American_Civil_War.3
+						days = 10
+						random = 0
+					}
+				}
+				CSA = {
+#					country_event = { id = bw_American_Civil_War.4 days = 25 } #50
+#						}
+#					}
+					news_event = {
+						id = bw_American_Civil_War.4
+						days = 42 #47
+						random = 0
+					}
+					news_event = {
+						id = bw_American_Civil_War.6
+						days = 59
+						random = 0
+					}
+					news_event = {
+						id = bw_American_Civil_War.7
+						days = 160
+						random = 0
+					}
+					news_event = {
+						id = bw_American_Civil_War.8
+						days = 178
+						random = 0
+					}
+					news_event = {
+						id = bw_American_Civil_War.9
+						days = 225
+						random = 0
+					}
+					news_event = {
+						id = bw_American_Civil_War.10
+						days = 114
+						random = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #归乡
+	id = bw_American_Civil_War.3
+	title = bw_American_Civil_War.3.t
+	desc = bw_American_Civil_War.3.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.3.a  #这太危险了
+
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+
+		add_war_support = -0.1
+	}
+	option = {
+		name = bw_American_Civil_War.3.b  #终于
+
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 1000
+				is_historical_focus_on = yes
+			}
+		}
+
+		transfer_state = 864
+		transfer_state = 471
+		transfer_state = 473
+		transfer_state = 472
+		transfer_state = 470
+		transfer_state = 865
+		transfer_state = 469
+		transfer_state = 683
+		transfer_state = 867
+		transfer_state = 467
+		transfer_state = 866
+		transfer_state = 682
+		transfer_state = 466
+		transfer_state = 862
+		transfer_state = 276
+		transfer_state = 861
+		transfer_state = 863
+		transfer_state = 468
+		transfer_state = 332
+		transfer_state = 860
+		transfer_state = 465
+		transfer_state = 464
+		transfer_state = 331
+	}
+}
+
+country_event = { #演讲
+	id = bw_American_Civil_War.4
+	title = bw_American_Civil_War.4.t
+	desc = bw_American_Civil_War.4.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.4.a  #抓住他
+		add_war_support = -0.1
+		add_stability = -0.1
+		add_popularity = {
+			ideology = GuDianZiYouZHuYi
+			popularity = 0.05
+		}
+		hidden_effect = {
+			CSA = {
+				#country_event = { id = bw_American_Civil_War.5 days = 5 }
+					#}
+				#}
+				news_event = {
+					id = bw_American_Civil_War.5
+					days = 5
+					random = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #公开叛乱
+	id = bw_American_Civil_War.5
+	title = bw_American_Civil_War.5.t
+	desc = bw_American_Civil_War.5.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.5.a  #叛徒！
+		add_stability = -0.1
+		remove_state_core = 357
+		remove_state_core = 358
+		remove_state_core = 359
+		remove_state_core = 360
+		remove_state_core = 816
+		remove_state_core = 362
+		URA = {
+			transfer_state = 357
+			add_state_core = 357
+			transfer_state = 358
+			add_state_core = 358
+			transfer_state = 359
+			add_state_core = 359
+			transfer_state = 360
+			add_state_core = 360
+			transfer_state = 816
+			add_state_core = 816
+			transfer_state = 362
+			add_state_core = 362
+			transfer_state = 369
+			add_state_core = 369
+
+			add_state_core = 361
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+		}
+	}
+}
+
+country_event = { #西海岸独立
+	id = bw_American_Civil_War.6
+	title = bw_American_Civil_War.6.t
+	desc = bw_American_Civil_War.6.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.6.a  #他们真的会打仗吗？
+		add_stability = -0.1
+		remove_state_core = 378
+		SCP = {
+			transfer_state = 378
+			add_state_core = 378
+			transfer_state = 385
+			add_state_core = 385
+			transfer_state = 386
+			add_state_core = 386
+
+			add_state_core = 484
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+		}
+	}
+}
+
+country_event = { #德克萨斯独立
+	id = bw_American_Civil_War.7
+	title = bw_American_Civil_War.7.t
+	desc = bw_American_Civil_War.7.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.7.a  #德克萨斯人，别捣乱！
+		add_stability = -0.1
+		remove_state_core = 375
+		ROT = {
+			transfer_state = 375
+			add_state_core = 375
+
+			add_state_core = 376
+			add_state_core = 382
+			add_state_core = 380
+
+			add_state_core = 374
+			add_state_core = 377
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+		}
+	}
+	option = {
+		name = bw_American_Civil_War.7.b  #孤星崛起！（控制德克萨斯）
+		add_stability = -0.1
+		remove_state_core = 375
+		ROT = {
+			transfer_state = 375
+			add_state_core = 375
+
+			add_state_core = 376
+			add_state_core = 382
+			add_state_core = 380
+
+			add_state_core = 374
+			add_state_core = 377
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+		ROT = { change_tag_from = ROOT }
+		}
+	}
+}
+
+country_event = { #迪克西人起义
+	id = bw_American_Civil_War.8
+	title = bw_American_Civil_War.8.t
+	desc = bw_American_Civil_War.8.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.8.a  #啊？
+		add_stability = -0.1
+		remove_state_core = 366
+		remove_state_core = 367
+		remove_state_core = 365
+		remove_state_core = 364
+		remove_state_core = 363
+		remove_state_core = 368
+		SUS = {
+			transfer_state = 366
+			add_state_core = 366
+			transfer_state = 367
+			add_state_core = 367
+			transfer_state = 365
+			add_state_core =365
+			transfer_state = 364
+			add_state_core =364
+			transfer_state = 363
+			add_state_core =363
+			transfer_state = 368
+			add_state_core =368
+
+			add_state_core = 372
+			add_state_core = 371
+			add_state_core = 375
+			add_state_core = 374
+			add_state_core = 369
+			add_state_core = 362
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+		}
+	}
+}
+
+country_event = { #奴隶暴动
+	id = bw_American_Civil_War.9
+	title = bw_American_Civil_War.9.t
+	desc = bw_American_Civil_War.9.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.9.a  #他妈的
+		add_stability = -0.1
+		remove_state_core = 371
+		remove_state_core = 372
+		remove_state_core = 370
+		BPN = {
+			transfer_state = 371
+			add_state_core = 371
+			transfer_state = 372
+			add_state_core = 372
+			transfer_state = 370
+			add_state_core =370
+			declare_war_on = {
+				target = CSA
+				type = civil_war
+			}
+		}
+	}
+}
+
+country_event = { #总督辖区的崩溃
+	id = bw_American_Civil_War.10
+	title = bw_American_Civil_War.10.t
+	desc = bw_American_Civil_War.10.d
+	#hidden = yes
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_American_Civil_War.10.a  #不！！！
+		add_war_support = -0.1
+		custom_effect_tooltip = bw_American_Civil_War_10
+
+		hidden_effect = {
+			CGC = {
+				transfer_state = 499
+				add_state_core = 499
+				transfer_state = 941
+				add_state_core = 941
+				transfer_state = 497
+				add_state_core = 497
+				transfer_state = 937
+				add_state_core = 937
+				transfer_state = 936
+				add_state_core = 936
+				transfer_state = 935
+				add_state_core = 935
+				transfer_state = 498
+				add_state_core = 498
+			}
+			BRA = {
+				transfer_state = 495
+				add_state_core = 495
+				transfer_state = 961
+				add_state_core = 961
+				transfer_state = 962
+				add_state_core = 962
+				transfer_state = 963
+				add_state_core = 963
+				transfer_state = 964
+				add_state_core = 964
+				transfer_state = 965
+				add_state_core = 965
+				transfer_state = 966
+				add_state_core = 966
+				transfer_state = 967
+				add_state_core = 967
+				transfer_state = 968
+				add_state_core = 968
+
+				transfer_state = 938
+				add_state_core = 938
+				transfer_state = 939
+				add_state_core = 939
+				transfer_state = 310
+				add_state_core = 310
+				transfer_state = 309
+				add_state_core = 309 
+				transfer_state = 687
+				add_state_core = 687
+				transfer_state = 969
+				add_state_core = 969
+				transfer_state = 488
+				add_state_core = 488
+
+				transfer_state = 942
+				add_state_core = 942
+			}
+			LAP = {
+				transfer_state = 507
+				add_state_core = 507
+				transfer_state = 949
+				add_state_core = 949
+				transfer_state = 950
+				add_state_core = 950
+				transfer_state = 279
+				add_state_core = 279
+				transfer_state = 952
+				add_state_core = 952
+				transfer_state = 506
+				add_state_core = 506
+				transfer_state = 951
+				add_state_core = 951
+
+				transfer_state = 954
+				add_state_core = 954
+				transfer_state = 955
+				add_state_core = 955
+				transfer_state = 512
+				add_state_core = 512
+				transfer_state = 278
+				add_state_core = 278
+				transfer_state = 956
+				add_state_core = 956
+				transfer_state = 958
+				add_state_core = 958
+				transfer_state = 511
+				add_state_core = 511
+				transfer_state = 509
+				add_state_core = 509
+				transfer_state = 960
+				add_state_core = 960
+				transfer_state = 508
+				add_state_core = 508
+				transfer_state = 959
+				add_state_core = 959
+				transfer_state = 957
+				add_state_core = 957
+				transfer_state = 688
+				add_state_core = 688
+				transfer_state = 302
+				add_state_core = 302
+			}
+			annex_country = {
+				target = ADS
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = ANT
+				transfer_troops = yes
+			#}
+		}
+	}
+}

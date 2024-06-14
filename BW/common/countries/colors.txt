@@ -1,5 +1,70 @@
 #reload countrycolors
 
+LAP = {
+	color = rgb { 224 224 224 }
+	color_ui = rgb { 224 224 224 }
+}
+
+BPN = {
+	color = rgb { 130 100 90 }
+	color_ui = rgb { 130 100 90 }
+}
+
+PAU = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+GSK = {
+	color = rgb { 16 109 31 }
+	color_ui = rgb { 16 109 31 }
+}
+
+#RFE = {
+#	color = rgb { 0 54 168 }
+#	color_ui = rgb { 0 54 168 }
+#}
+
+ADS = {
+	color = rgb { 145 163 176 }
+	color_ui = rgb { 186 205 219 }
+}
+
+ANT = {
+	color = rgb { 145 163 176 }
+	color_ui = rgb { 186 205 219 }
+}
+
+SUS = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}
+
+ROT = {
+	color = rgb { 17 57 96 }
+	color_ui = rgb { 17 57 96 }
+}
+
+SCP = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+
+URA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+
+CGC = {
+	color = rgb { 41  31 22 }
+	color_ui = rgb { 41  31 22 }
+}
+
+FSO = {
+	color = rgb { 255  255 255 }
+	color_ui = rgb { 255  255  255 }
+}
+
 CND = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 233  59  59 }
@@ -284,8 +349,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 9  58 103 }
+	color_ui = rgb { 9  58 103 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }

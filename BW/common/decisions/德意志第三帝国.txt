@@ -37,6 +37,7 @@ De3 = {
 #展示条件
 			AND = {
 				original_tag = GER
+				always = no
 			}
 		}
 

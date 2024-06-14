@@ -49,11 +49,9 @@ focus_tree = {
 				annex_country = {
 					target = GSR
 					transfer_troops = yes
-						}
-					}
 				}
 			}
-		）
+		}
 	}
 	focus = {
 		id = 吸取苏俄红军经验

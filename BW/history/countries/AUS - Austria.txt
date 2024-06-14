@@ -73,4 +73,8 @@ set_popularities = {
 	SiDaLingZHuYi = 1
 }
 
+add_ideas = {
+	bw_AUS_GongHeGuoDeYiCHan
+}
+
 set_stability = 0.50

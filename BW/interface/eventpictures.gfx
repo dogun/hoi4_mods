@@ -3569,9 +3569,39 @@ spriteTypes = {
 	}
 	
 	#bw
+	# # #国策
 	SpriteType = {
 		name = "GFX_free_state_47"
 		texturefile = "gfx/interface/goals/free_state_47.dds"
+	}
+	SpriteType = {
+		name = "GFX_DeAoHeBing"
+		texturefile = "gfx/interface/goals/德奥合并.png"
+	}
+	SpriteType = {
+		name = "GFX_SuoQvSuTaiDe"
+		texturefile = "gfx/interface/goals/索取苏台德.png"
+	}
+	SpriteType = {
+		name = "GFX_JieKeDeMingYun"
+		texturefile = "gfx/interface/goals/捷克斯洛伐克的命运.png"
+	}
+	SpriteType = {
+		name = "GFX_SuoQvQiYvAoDiLi"
+		texturefile = "gfx/interface/goals/索取其余奥地利.png"
+	}
+	SpriteType = {
+		name = "GFX_DuiRiSHiHao"
+		texturefile = "gfx/interface/goals/对日友好.png"
+	}
+	SpriteType = {
+		name = "GFX_DuiHuaSHiHao"
+		texturefile = "gfx/interface/goals/对中友好.png"
+	}
+	# # #国民精神
+	SpriteType = {
+		name = "GFX_idea_SuGeLanFanDuiPai"
+		texturefile = "gfx/interface/ideas/苏格兰反对派.png"
 	}
 }
 

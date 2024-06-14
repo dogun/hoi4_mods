@@ -94,6 +94,13 @@
  GER_JunZHuBuErSHiWeiKe_ADJ: "德国"
  #君主布尔什维克
  
+ GER_GuDianZiYouZHuYi: "德意志共和国"
+ #古典自由主义
+ GER_GuDianZiYouZHuYi_DEF: "德意志共和国"
+ #古典自由主义
+ GER_GuDianZiYouZHuYi_ADJ: "德国"
+ #古典自由主义
+ 
  GER_SHeHuiMinZHuZHuYi: "德意志共和国"
  #社会民主主义
  GER_SHeHuiMinZHuZHuYi_DEF: "德意志共和国"
@@ -114,6 +121,20 @@
  #加速主义
  GER_JiaSuZHuYi_ADJ: "德国"
  #加速主义
+ 
+ GER_BaoSHouZHuYi: "德意志共和国"
+ #保守主义
+ GER_BaoSHouZHuYi_DEF: "德意志共和国"
+ #保守主义
+ GER_BaoSHouZHuYi_ADJ: "德国"
+ #保守主义
+ 
+ GER_GuiZuBaoSHouZHuYi: "德意志共和国"
+ #贵族保守主义
+ GER_GuiZuBaoSHouZHuYi_DEF: "德意志共和国"
+ #贵族保守主义
+ GER_GuiZuBaoSHouZHuYi_ADJ: "德国"
+ #贵族保守主义
  
  GER_JiaZHangZHi: "德意志国"
  #家长制
@@ -265,6 +286,13 @@
  GER_LinSHiZHengFu_JunZHuBuErSHiWeiKe_ADJ: "德意志共产主义者"
  #君主布尔什维克
  
+ GER_LinSHiZHengFu_GuDianZiYouZHuYi: "德意志自由主义者起义"
+ #古典自由主义
+ GER_LinSHiZHengFu_GuDianZiYouZHuYi_DEF: "德意志自由主义者起义"
+ #古典自由主义
+ GER_LinSHiZHengFu_GuDianZiYouZHuYi_ADJ: "自由德意志"
+ #古典自由主义
+ 
  GER_LinSHiZHengFu_SHeHuiMinZHuZHuYi: "德意志自由主义者起义"
  #社会民主主义
  GER_LinSHiZHengFu_SHeHuiMinZHuZHuYi_DEF: "德意志自由主义者起义"
@@ -285,6 +313,20 @@
  #加速主义
  GER_LinSHiZHengFu_JiaSuZHuYi_ADJ: "加速"
  #加速主义
+ 
+ GER_LinSHiZHengFu_BaoSHouZHuYi: "德意志自由主义者起义"
+ #保守主义
+ GER_LinSHiZHengFu_BaoSHouZHuYi_DEF: "德意志自由主义者起义"
+ #保守主义
+ GER_LinSHiZHengFu_BaoSHouZHuYi_ADJ: "自由德意志"
+ #保守主义
+ 
+ GER_LinSHiZHengFu_GuiZuBaoSHouZHuYi: "德意志自由主义者起义"
+ #贵族保守主义
+ GER_LinSHiZHengFu_GuiZuBaoSHouZHuYi_DEF: "德意志自由主义者起义"
+ #贵族保守主义
+ GER_LinSHiZHengFu_GuiZuBaoSHouZHuYi_ADJ: "自由德意志"
+ #贵族保守主义
  
  GER_LinSHiZHengFu_JiaZHangZHi: "德意志军政府"
  #家长制
@@ -436,6 +478,13 @@
  GSR_JunZHuBuErSHiWeiKe_ADJ: "德国"
  #君主布尔什维克
  
+ GSR_GuDianZiYouZHuYi: "德意志国"
+ #古典自由主义
+ GSR_GuDianZiYouZHuYi_DEF: "魏玛共和国"
+ #古典自由主义
+ GSR_GuDianZiYouZHuYi_ADJ: "德国"
+ #古典自由主义
+ 
  GSR_SHeHuiMinZHuZHuYi: "德意志国"
  #社会民主主义
  GSR_SHeHuiMinZHuZHuYi_DEF: "魏玛共和国"
@@ -456,6 +505,20 @@
  #加速主义
  GSR_JiaSuZHuYi_ADJ: "德国"
  #加速主义
+ 
+ GSR_BaoSHouZHuYi: "德意志国"
+ #保守主义
+ GSR_BaoSHouZHuYi_DEF: "魏玛共和国"
+ #保守主义
+ GSR_BaoSHouZHuYi_ADJ: "德国"
+ #保守主义
+ 
+ GSR_GuiZuBaoSHouZHuYi: "德意志国"
+ #贵族保守主义
+ GSR_GuiZuBaoSHouZHuYi_DEF: "魏玛共和国"
+ #贵族保守主义
+ GSR_GuiZuBaoSHouZHuYi_ADJ: "德国"
+ #贵族保守主义
  
  GSR_JiaZHangZHi: "德意志国"
  #家长制
@@ -607,6 +670,13 @@
  GSR_ZHonOu_JunZHuBuErSHiWeiKe_ADJ: "中欧"
  #君主布尔什维克
  
+ GSR_ZHonOu_GuDianZiYouZHuYi: "中欧民主共和国"
+ #古典自由主义
+ GSR_ZHonOu_GuDianZiYouZHuYi_DEF: "中欧民主共和国"
+ #古典自由主义
+ GSR_ZHonOu_GuDianZiYouZHuYi_ADJ: "中欧"
+ #古典自由主义
+ 
  GSR_ZHonOu_SHeHuiMinZHuZHuYi: "中欧民主共和国"
  #社会民主主义
  GSR_ZHonOu_SHeHuiMinZHuZHuYi_DEF: "中欧民主共和国"
@@ -627,6 +697,20 @@
  #加速主义
  GSR_ZHonOu_JiaSuZHuYi_ADJ: "中欧"
  #加速主义
+ 
+ GSR_ZHonOu_BaoSHouZHuYi: "中欧民主共和国"
+ #保守主义
+ GSR_ZHonOu_BaoSHouZHuYi_DEF: "中欧民主共和国"
+ #保守主义
+ GSR_ZHonOu_BaoSHouZHuYi_ADJ: "中欧"
+ #保守主义
+ 
+ GSR_ZHonOu_GuiZuBaoSHouZHuYi: "中欧民主共和国"
+ #贵族保守主义
+ GSR_ZHonOu_GuiZuBaoSHouZHuYi_DEF: "中欧民主共和国"
+ #贵族保守主义
+ GSR_ZHonOu_GuiZuBaoSHouZHuYi_ADJ: "中欧"
+ #贵族保守主义
  
  GSR_ZHonOu_JiaZHangZHi: "中欧国"
  #家长制
@@ -692,9 +776,9 @@
  #通用
  ENG_ADJ: "英国"
  #通用
- ENG_democratic: "$OVERLORDADJ$属不列颠"
+ ENG_subject: "$OVERLORDADJ$属不列颠"
  #傀儡
- ENG_democratic_DEF: "$OVERLORDADJ$属不列颠"
+ ENG_subject_DEF: "$OVERLORDADJ$属不列颠"
  #傀儡
  ENG_democratic_subject: "$OVERLORDADJ$属不列颠"
  #傀儡（民主）
@@ -741,6 +825,323 @@
  #共产（原版）
  ENG_communism_ADJ: "英国"
  #共产（原版）
+ ###
+ ENG_WuZHengFuGuongCHanZHuYi: "不列颠公社"
+ #无政府共产主义
+ ENG_WuZHengFuGuongCHanZHuYi_DEF: "不列颠公社"
+ #无政府共产主义
+ ENG_WuZHengFuGuongCHanZHuYi_ADJ: "不列颠"
+ #无政府共产主义
+ 
+ ENG_GuongTuanZHuYi: "不列颠公社"
+ #工团主义
+ ENG_GuongTuanZHuYi_DEF: "不列颠公社"
+ #工团主义
+ ENG_GuongTuanZHuYi_ADJ: "不列颠"
+ #工团主义
+ 
+ ENG_MaKeSi_LieNingZHuYi: "大不列颠社会主义共和国"
+ #马克思 - 列宁主义
+ ENG_MaKeSi_LieNingZHuYi_DEF: "大不列颠社会主义共和国"
+ #马克思 - 列宁主义
+ ENG_MaKeSi_LieNingZHuYi_ADJ: "大不列颠"
+ #马克思 - 列宁主义
+ 
+ ENG_TuoLuoSiJiZHuYi: "大不列颠社会主义共和国"
+ #托洛斯基
+ ENG_TuoLuoSiJiZHuYi_DEF: "大不列颠社会主义共和国"
+ #托洛斯基
+ ENG_TuoLuoSiJiZHuYi_ADJ: "大不列颠"
+ #托洛斯基
+  
+ ENG_SiDaLingZHuYi: "大不列颠社会主义共和国"
+ #斯大林主义
+ ENG_SiDaLingZHuYi_DEF: "大不列颠社会主义共和国"
+ #斯大林主义
+ ENG_SiDaLingZHuYi_ADJ: "大不列颠"
+ #斯大林主义
+ 
+ ENG_YuanSHiZHuYi: "大不列颠社会主义共和国"
+ #远视主义
+ ENG_YuanSHiZHuYi_DEF: "大不列颠社会主义共和国"
+ #远视主义
+ ENG_YuanSHiZHuYi_ADJ: "大不列颠"
+ #远视主义
+ 
+ ENG_JunZHengGuongCHanZHuYi: "大不列颠军管政府"
+ #军政共产主义
+ ENG_JunZHengGuongCHanZHuYi_DEF: "大不列颠军管政府"
+ #军政共产主义
+ ENG_JunZHengGuongCHanZHuYi_ADJ: "大不列颠"
+ #军政共产主义
+ 
+ ENG_JunZHuBuErSHiWeiKe: "大不列颠共和王国"
+ #君主布尔什维克
+ ENG_JunZHuBuErSHiWeiKe_DEF: "大不列颠共和王国"
+ #君主布尔什维克
+ ENG_JunZHuBuErSHiWeiKe_ADJ: "大不列颠"
+ #君主布尔什维克
+ 
+ ENG_GuDianZiYouZHuYi: "不列颠共和国"
+ #古典自由主义
+ ENG_GuDianZiYouZHuYi_DEF: "不列颠共和国"
+ #古典自由主义
+ ENG_GuDianZiYouZHuYi_ADJ: "不列颠"
+ #古典自由主义
+ 
+ ENG_SHeHuiMinZHuZHuYi: "不列颠共和国"
+ #社会民主主义
+ ENG_SHeHuiMinZHuZHuYi_DEF: "不列颠共和国"
+ #社会民主主义
+ ENG_SHeHuiMinZHuZHuYi_ADJ: "不列颠"
+ #社会民主主义
+ 
+ ENG_MinZHuSHeHuiZHuYi: "不列颠共和国"
+ #民主社会主义
+ ENG_MinZHuSHeHuiZHuYi_DEF: "不列颠共和国"
+ #民主社会主义
+ ENG_MinZHuSHeHuiZHuYi_ADJ: "不列颠"
+ #民主社会主义
+ 
+ ENG_JiaSuZHuYi: "不列颠先锋国"
+ #加速主义
+ ENG_JiaSuZHuYi_DEF: "不列颠先锋国"
+ #加速主义
+ ENG_JiaSuZHuYi_ADJ: "不列颠"
+ #加速主义
+ 
+ ENG_BaoSHouZHuYi: "不列颠共和国"
+ #保守主义
+ ENG_BaoSHouZHuYi_DEF: "不列颠共和国"
+ #保守主义
+ ENG_BaoSHouZHuYi_ADJ: "不列颠"
+ #保守主义
+ 
+ ENG_GuiZuBaoSHouZHuYi: "不列颠共和国"
+ #贵族保守主义
+ ENG_GuiZuBaoSHouZHuYi_DEF: "不列颠共和国"
+ #贵族保守主义
+ ENG_GuiZuBaoSHouZHuYi_ADJ: "不列颠"
+ #贵族保守主义
+ 
+ ENG_JiaZHangZHi: "不列颠国"
+ #家长制
+ ENG_JiaZHangZHi_DEF: "不列颠国"
+ #家长制
+ ENG_JiaZHangZHi_ADJ: "不列颠"
+ #家长制
+ 
+ ENG_JunZHuZHuYi: "不列颠王国"
+ #君主主义
+ ENG_JunZHuZHuYi_DEF: "不列颠王国"
+ #君主主义
+ ENG_JunZHuZHuYi_ADJ: "不列颠"
+ #君主主义
+ 
+ ENG_ZiBenGuongCHanZHuYi: "不列颠群岛™ 有限公司"
+ #资本共产主义
+ ENG_ZiBenGuongCHanZHuYi_DEF: "不列颠群岛™ 有限公司"
+ #资本共产主义
+ ENG_ZiBenGuongCHanZHuYi_ADJ: "不列颠"
+ #资本共产主义
+ 
+ ENG_SHeHuiFaXiSi: "大不列颠帝国"
+ #社会法西斯
+ ENG_SHeHuiFaXiSi_DEF: "大不列颠帝国"
+ #社会法西斯
+ ENG_SHeHuiFaXiSi_ADJ: "大不列颠"
+ #社会法西斯
+ 
+ ENG_SiTeLaSeZHuYi: "大不列颠帝国"
+ #斯特拉瑟主义
+ ENG_SiTeLaSeZHuYi_DEF: "大不列颠帝国"
+ #斯特拉瑟主义
+ ENG_SiTeLaSeZHuYi_ADJ: "大不列颠"
+ #斯特拉瑟主义
+ 
+ ENG_FaXiSiZHuYi: "大不列颠帝国"
+ #法西斯主义
+ ENG_FaXiSiZHuYi_DEF: "大不列颠帝国"
+ #法西斯主义
+ ENG_FaXiSiZHuYi_ADJ: "大不列颠"
+ #法西斯主义
+ 
+ ENG_MinZuSHeHuiZHuYi: "大不列颠帝国"
+ #纳粹
+ ENG_MinZuSHeHuiZHuYi_DEF: "大不列颠帝国"
+ #纳粹
+ ENG_MinZuSHeHuiZHuYi_ADJ: "大不列颠"
+ #纳粹
+ 
+ ENG_BoGenDiTiZHi: "大不列颠帝国"
+ #勃艮第体制
+ ENG_BoGenDiTiZHi_DEF: "大不列颠帝国"
+ #勃艮第体制
+ ENG_BoGenDiTiZHi_ADJ: "大不列颠"
+ #勃艮第体制
+ 
+ #联合王国
+ 
+ EBG_monarchy: "大不列颠王国"
+ #通用
+ EBG_monarchy_DEF: "不列颠王国"
+ #通用
+ EBG_monarchy_ADJ: "不列颠"
+ #通用
+ ###
+ EBG_monarchy_WuZHEBG_monarchyFuGuongCHanZHuYi: "不列颠王国"
+ #无政府共产主义
+ EBG_monarchy_WuZHEBG_monarchyFuGuongCHanZHuYi_DEF: "不列颠王国"
+ #无政府共产主义
+ EBG_monarchy_WuZHEBG_monarchyFuGuongCHanZHuYi_ADJ: "不列颠"
+ #无政府共产主义
+ 
+ EBG_monarchy_GuongTuanZHuYi: "不列颠王国"
+ #工团主义
+ EBG_monarchy_GuongTuanZHuYi_DEF: "不列颠王国"
+ #工团主义
+ EBG_monarchy_GuongTuanZHuYi_ADJ: "不列颠"
+ #工团主义
+ 
+ EBG_monarchy_MaKeSi_LieNingZHuYi: "不列颠王国"
+ #马克思 - 列宁主义
+ EBG_monarchy_MaKeSi_LieNingZHuYi_DEF: "不列颠王国"
+ #马克思 - 列宁主义
+ EBG_monarchy_MaKeSi_LieNingZHuYi_ADJ: "不列颠"
+ #马克思 - 列宁主义
+ 
+ EBG_monarchy_TuoLuoSiJiZHuYi: "不列颠王国"
+ #托洛斯基
+ EBG_monarchy_TuoLuoSiJiZHuYi_DEF: "不列颠王国"
+ #托洛斯基
+ EBG_monarchy_TuoLuoSiJiZHuYi_ADJ: "不列颠"
+ #托洛斯基
+  
+ EBG_monarchy_SiDaLingZHuYi: "不列颠王国"
+ #斯大林主义
+ EBG_monarchy_SiDaLingZHuYi_DEF: "不列颠王国"
+ #斯大林主义
+ EBG_monarchy_SiDaLingZHuYi_ADJ: "不列颠"
+ #斯大林主义
+ 
+ EBG_monarchy_YuanSHiZHuYi: "不列颠王国"
+ #远视主义
+ EBG_monarchy_YuanSHiZHuYi_DEF: "不列颠王国"
+ #远视主义
+ EBG_monarchy_YuanSHiZHuYi_ADJ: "不列颠"
+ #远视主义
+ 
+ EBG_monarchy_JunZHEBG_monarchyGuongCHanZHuYi: "不列颠王国"
+ #军政共产主义
+ EBG_monarchy_JunZHEBG_monarchyGuongCHanZHuYi_DEF: "不列颠王国"
+ #军政共产主义
+ EBG_monarchy_JunZHEBG_monarchyGuongCHanZHuYi_ADJ: "不列颠"
+ #军政共产主义
+ 
+ EBG_monarchy_JunZHuBuErSHiWeiKe: "不列颠王国"
+ #君主布尔什维克
+ EBG_monarchy_JunZHuBuErSHiWeiKe_DEF: "不列颠王国"
+ #君主布尔什维克
+ EBG_monarchy_JunZHuBuErSHiWeiKe_ADJ: "不列颠"
+ #君主布尔什维克
+ 
+ EBG_monarchy_GuDianZiYouZHuYi: "不列颠王国"
+ #古典自由主义
+ EBG_monarchy_GuDianZiYouZHuYi_DEF: "不列颠王国"
+ #古典自由主义
+ EBG_monarchy_GuDianZiYouZHuYi_ADJ: "不列颠"
+ #古典自由主义
+ 
+ EBG_monarchy_SHeHuiMinZHuZHuYi: "不列颠王国"
+ #社会民主主义
+ EBG_monarchy_SHeHuiMinZHuZHuYi_DEF: "不列颠王国"
+ #社会民主主义
+ EBG_monarchy_SHeHuiMinZHuZHuYi_ADJ: "不列颠"
+ #社会民主主义
+ 
+ EBG_monarchy_MinZHuSHeHuiZHuYi: "不列颠共和国"
+ #民主社会主义
+ EBG_monarchy_MinZHuSHeHuiZHuYi_DEF: "不列颠王国"
+ #民主社会主义
+ EBG_monarchy_MinZHuSHeHuiZHuYi_ADJ: "不列颠"
+ #民主社会主义
+ 
+ EBG_monarchy_JiaSuZHuYi: "不列颠王国"
+ #加速主义
+ EBG_monarchy_JiaSuZHuYi_DEF: "不列颠王国"
+ #加速主义
+ EBG_monarchy_JiaSuZHuYi_ADJ: "不列颠"
+ #加速主义
+ 
+ EBG_monarchy_BaoSHouZHuYi: "不列颠王国"
+ #保守主义
+ EBG_monarchy_BaoSHouZHuYi_DEF: "不列颠王国"
+ #保守主义
+ EBG_monarchy_BaoSHouZHuYi_ADJ: "不列颠"
+ #保守主义
+ 
+ EBG_monarchy_GuiZuBaoSHouZHuYi: "不列颠王国"
+ #贵族保守主义
+ EBG_monarchy_GuiZuBaoSHouZHuYi_DEF: "不列颠王国"
+ #贵族保守主义
+ EBG_monarchy_GuiZuBaoSHouZHuYi_ADJ: "不列颠"
+ #贵族保守主义
+ 
+ EBG_monarchy_JiaZHangZHi: "不列颠王国"
+ #家长制
+ EBG_monarchy_JiaZHangZHi_DEF: "不列颠王国"
+ #家长制
+ EBG_monarchy_JiaZHangZHi_ADJ: "不列颠"
+ #家长制
+ 
+ EBG_monarchy_JunZHuZHuYi: "不列颠王国"
+ #君主主义
+ EBG_monarchy_JunZHuZHuYi_DEF: "不列颠王国"
+ #君主主义
+ EBG_monarchy_JunZHuZHuYi_ADJ: "不列颠"
+ #君主主义
+ 
+ EBG_monarchy_ZiBEBG_monarchyuongCHanZHuYi: "不列颠王国"
+ #资本共产主义
+ EBG_monarchy_ZiBEBG_monarchyuongCHanZHuYi_DEF: "不列颠王国"
+ #资本共产主义
+ EBG_monarchy_ZiBEBG_monarchyuongCHanZHuYi_ADJ: "不列颠"
+ #资本共产主义
+ 
+ EBG_monarchy_SHeHuiFaXiSi: "不列颠王国"
+ #社会法西斯
+ EBG_monarchy_SHeHuiFaXiSi_DEF: "不列颠王国"
+ #社会法西斯
+ EBG_monarchy_SHeHuiFaXiSi_ADJ: "不列颠"
+ #社会法西斯
+ 
+ EBG_monarchy_SiTeLaSeZHuYi: "不列颠王国"
+ #斯特拉瑟主义
+ EBG_monarchy_SiTeLaSeZHuYi_DEF: "不列颠王国"
+ #斯特拉瑟主义
+ EBG_monarchy_SiTeLaSeZHuYi_ADJ: "不列颠"
+ #斯特拉瑟主义
+ 
+ EBG_monarchy_FaXiSiZHuYi: "不列颠王国"
+ #法西斯主义
+ EBG_monarchy_FaXiSiZHuYi_DEF: "不列颠王国"
+ #法西斯主义
+ EBG_monarchy_FaXiSiZHuYi_ADJ: "不列颠"
+ #法西斯主义
+ 
+ EBG_monarchy_MinZuSHeHuiZHuYi: "不列颠王国"
+ #纳粹
+ EBG_monarchy_MinZuSHeHuiZHuYi_DEF: "不列颠王国"
+ #纳粹
+ EBG_monarchy_MinZuSHeHuiZHuYi_ADJ: "不列颠"
+ #纳粹
+ 
+ EBG_monarchy_BoGenDiTiZHi: "不列颠王国"
+ #勃艮第体制
+ EBG_monarchy_BoGenDiTiZHi_DEF: "不列颠王国"
+ #勃艮第体制
+ EBG_monarchy_BoGenDiTiZHi_ADJ: "不列颠"
+ #勃艮第体制
  
  #俄罗斯
  
@@ -926,6 +1327,11 @@
  CZE_subject: "$OVERLORDADJ$属$CZE$"
  CZE_subject_DEF: "$OVERLORDADJ$属$CZE$"
  
+ CZE_GER_MinZuSHeHuiZHuYi_subject: "波西米亚和摩拉维亚保护国"
+ #法西斯德国傀儡
+ CZE_GER_MinZuSHeHuiZHuYi_subject_DEF: "波西米亚和摩拉维亚保护国"
+ #法西斯德国傀儡
+ 
  #波兰
  
  POL_fascism: "长枪党波兰"
@@ -1046,6 +1452,13 @@
  AUS_JunZHuBuErSHiWeiKe_ADJ: "奥地利"
  #君主布尔什维克
  
+ AUS_GuDianZiYouZHuYi: "奥地利共和国"
+ #古典自由主义
+ AUS_GuDianZiYouZHuYi_DEF: "奥地利共和国"
+ #古典自由主义
+ AUS_GuDianZiYouZHuYi_ADJ: "奥地利"
+ #古典自由主义
+ 
  AUS_SHeHuiMinZHuZHuYi: "奥地利共和国"
  #社会民主主义
  AUS_SHeHuiMinZHuZHuYi_DEF: "奥地利共和国"
@@ -1066,6 +1479,20 @@
  #加速主义
  AUS_JiaSuZHuYi_ADJ: "奥地利"
  #加速主义
+ 
+ AUS_BaoSHouZHuYi: "奥地利共和国"
+ #保守主义
+ AUS_BaoSHouZHuYi_DEF: "奥地利共和国"
+ #保守主义
+ AUS_BaoSHouZHuYi_ADJ: "奥地利"
+ #保守主义
+ 
+ AUS_GuiZuBaoSHouZHuYi: "奥地利共和国"
+ #贵族保守主义
+ AUS_GuiZuBaoSHouZHuYi_DEF: "奥地利共和国"
+ #贵族保守主义
+ AUS_GuiZuBaoSHouZHuYi_ADJ: "奥地利"
+ #贵族保守主义
  
  AUS_JiaZHangZHi: "奥地利联邦国"
  #家长制
@@ -1201,6 +1628,13 @@
  HUN_EMPIRE_JunZHuBuErSHiWeiKe_ADJ: "奥匈"
  #君主布尔什维克
  
+ HUN_EMPIRE_GuDianZiYouZHuYi: "多瑙联邦"
+ #古典自由主义
+ HUN_EMPIRE_GuDianZiYouZHuYi_DEF: "多瑙联邦"
+ #古典自由主义
+ HUN_EMPIRE_GuDianZiYouZHuYi_ADJ: "多瑙"
+ #古典自由主义
+ 
  HUN_EMPIRE_SHeHuiMinZHuZHuYi: "多瑙联邦"
  #社会民主主义
  HUN_EMPIRE_SHeHuiMinZHuZHuYi_DEF: "多瑙联邦"
@@ -1221,6 +1655,20 @@
  #加速主义
  HUN_EMPIRE_JiaSuZHuYi_ADJ: "多瑙"
  #加速主义
+ 
+ HUN_EMPIRE_BaoSHouZHuYi: "多瑙联邦"
+ #保守主义
+ HUN_EMPIRE_BaoSHouZHuYi_DEF: "多瑙联邦"
+ #保守主义
+ HUN_EMPIRE_BaoSHouZHuYi_ADJ: "多瑙"
+ #保守主义
+ 
+ HUN_EMPIRE_GuiZuBaoSHouZHuYi: "多瑙联邦"
+ #贵族保守主义
+ HUN_EMPIRE_GuiZuBaoSHouZHuYi_DEF: "多瑙联邦"
+ #贵族保守主义
+ HUN_EMPIRE_GuiZuBaoSHouZHuYi_ADJ: "多瑙"
+ #贵族保守主义
  
  HUN_EMPIRE_JiaZHangZHi: "奥地利 - 匈牙利"
  #家长制
@@ -1297,6 +1745,9 @@
  LIT_ADJ: "立陶宛"
  LIT_subject: "$OVERLORDADJ$属$LIT$"
  LIT_subject_DEF: "$OVERLORDADJ$属$LIT$"
+ 
+ #爱沙尼亚
+ 
  EST_fascism: "瓦普运动爱沙尼亚"
  EST_fascism_DEF: "瓦普运动爱沙尼亚"
  EST_democratic: "爱沙尼亚共和国"
@@ -1314,6 +1765,9 @@
  EST_ADJ: "爱沙尼亚"
  EST_subject: "$OVERLORDADJ$属$EST$"
  EST_subject_DEF: "$OVERLORDADJ$属$EST$"
+ 
+ #拉脱维亚
+ 
  LAT_fascism: "雷霆十字拉脱维亚"
  LAT_fascism_DEF: "雷霆十字拉脱维亚"
  LAT_democratic: "拉脱维亚共和国"
@@ -1331,6 +1785,9 @@
  LAT_ADJ: "拉脱维亚"
  LAT_subject: "$OVERLORDADJ$属$LAT$"
  LAT_subject_DEF: "$OVERLORDADJ$属$LAT$"
+ 
+ #西班牙
+ 
  SPR_fascism: "西班牙国"
  SPR_fascism_DEF: "西班牙国"
  SPR_democratic: "西班牙"
@@ -1348,6 +1805,9 @@
  SPR_ADJ: "西班牙"
  SPR_subject: "$OVERLORDADJ$属$SPR$"
  SPR_subject_DEF: "$OVERLORDADJ$属$SPR$"
+ 
+ #意大利
+ 
  ITA_fascism: "意大利"
  ITA_fascism_DEF: "意大利"
  ITA_democratic: "意大利共和国"
@@ -1365,6 +1825,9 @@
  ITA_ADJ: "意大利"
  ITA_subject: "$OVERLORDADJ$属$ITA$"
  ITA_subject_DEF: "$OVERLORDADJ$属$ITA$"
+ 
+ #罗马尼亚
+ 
  ROM_fascism: "罗马尼亚军团国"
  ROM_fascism_DEF: "罗马尼亚军团国"
  ROM_democratic: "罗马尼亚"
@@ -1382,6 +1845,9 @@
  ROM_ADJ: "罗马尼亚"
  ROM_subject: "$OVERLORDADJ$属$ROM$"
  ROM_subject_DEF: "$OVERLORDADJ$属$ROM$"
+ 
+ #南斯拉夫
+ 
  YUG_fascism: "激进党南斯拉夫"
  YUG_fascism_DEF: "激进党南斯拉夫"
  YUG_democratic: "南斯拉夫邦联"
@@ -1399,6 +1865,9 @@
  YUG_ADJ: "南斯拉夫"
  YUG_subject: "$OVERLORDADJ$属$YUG$"
  YUG_subject_DEF: "$OVERLORDADJ$属$YUG$"
+ 
+ #瑞士
+ 
  SWI_fascism: "赫尔维蒂帝国"
  SWI_fascism_DEF: "赫尔维蒂帝国邦联"
  SWI_democratic: "瑞士"
@@ -1418,6 +1887,9 @@
  SWI: "瑞士"
  SWI_DEF: "瑞士"
  SWI_ADJ: "瑞士"
+ 
+ #土耳其
+ 
  TUR_fascism: "土耳其帝国"
  TUR_fascism_DEF: "土耳其帝国"
  TUR_democratic: "土耳其共和国"
@@ -1435,6 +1907,9 @@
  TUR_ADJ: "土耳其"
  TUR_subject: "$OVERLORDADJ$属$TUR$"
  TUR_subject_DEF: "$OVERLORDADJ$属$TUR$"
+ 
+ #希腊
+ 
  GRE_fascism: "希腊国"
  GRE_fascism_DEF: "希腊国"
  GRE_democratic: "希腊共和国"
@@ -1452,6 +1927,9 @@
  GRE_ADJ: "希腊"
  GRE_subject: "$OVERLORDADJ$属$GRE$"
  GRE_subject_DEF: "$OVERLORDADJ$属$GRE$"
+ 
+ #阿尔巴尼亚
+ 
  ALB_fascism: "大阿尔巴尼亚"
  ALB_fascism_DEF: "大阿尔巴尼亚"
  ALB_ITA_fascism_subject: "阿尔巴尼亚保护国"
@@ -1471,6 +1949,9 @@
  ALB_ADJ: "阿尔巴尼亚"
  ALB_subject: "$OVERLORDADJ$属$ALB$"
  ALB_subject_DEF: "$OVERLORDADJ$属$ALB$"
+ 
+ #挪威
+ 
  NOR_fascism: "挪威民族政府"
  NOR_fascism_DEF: "挪威民族政府"
  NOR_democratic: "挪威"
@@ -1488,6 +1969,9 @@
  NOR_ADJ: "挪威"
  NOR_subject: "$OVERLORDADJ$属$NOR$"
  NOR_subject_DEF: "$OVERLORDADJ$属$NOR$"
+ 
+ #丹麦
+ 
  DEN_fascism: "丹麦国"
  DEN_fascism_DEF: "丹麦国"
  DEN_democratic: "丹麦"
@@ -1505,6 +1989,9 @@
  DEN: "丹麦"
  DEN_DEF: "丹麦"
  DEN_ADJ: "丹麦"
+ 
+ #保加利亚
+ 
  BUL_fascism: "保加利亚军团国"
  BUL_fascism_DEF: "保加利亚军团国"
  BUL_democratic: "保加利亚共和国"
@@ -1563,6 +2050,13 @@
  #通用
  IRE_ADJ:0 "爱尔兰"
  #通用
+ IRE_subject:0 "$OVERLORDADJ$属$IRE$"
+ #傀儡
+ IRE_subject_DEF:0 "$OVERLORDADJ$属$IRE$"
+ #傀儡
+ IRE_subject_ADJ:0 "非独立爱尔兰"
+ #傀儡
+ 
  IRE_fascism:0 "爱尔兰凯尔特国"
  #法西斯（原版）
  IRE_fascism_DEF:0 "爱尔兰凯尔特国"
@@ -1587,13 +2081,162 @@
  #共产（原版）
  IRE_communism_ADJ:0 "爱尔兰"
  #共产（原版）
- IRE_subject:0 "$OVERLORDADJ$属$IRE$"
- #傀儡
- IRE_subject_DEF:0 "$OVERLORDADJ$属$IRE$"
- #傀儡
- IRE_subject_ADJ:0 "非独立爱尔兰"
- #傀儡
+ ###
+ IRE_WuZHengFuGuongCHanZHuYi: "德意志无政府联盟"
+ #无政府共产主义
+ IRE_WuZHengFuGuongCHanZHuYi_DEF: "德意志无政府联盟"
+ #无政府共产主义
+ IRE_WuZHengFuGuongCHanZHuYi_ADJ: "德意志联盟"
+ #无政府共产主义
  
+ IRE_GuongTuanZHuYi: "柏林公社"
+ #工团主义
+ IRE_GuongTuanZHuYi_DEF: "柏林公社"
+ #工团主义
+ IRE_GuongTuanZHuYi_ADJ: "柏林"
+ #工团主义
+ 
+ IRE_MaKeSi_LieNingZHuYi: "德意志社会主义共和国"
+ #马克思 - 列宁主义
+ IRE_MaKeSi_LieNingZHuYi_DEF: "德意志社会主义共和国"
+ #马克思 - 列宁主义
+ IRE_MaKeSi_LieNingZHuYi_ADJ: "德国"
+ #马克思 - 列宁主义
+ 
+ IRE_TuoLuoSiJiZHuYi: "德国革命军"
+ #托洛斯基
+ IRE_TuoLuoSiJiZHuYi_DEF: "德国革命军"
+ #托洛斯基
+ IRE_TuoLuoSiJiZHuYi_ADJ: "德国"
+ #托洛斯基
+  
+ IRE_SiDaLingZHuYi: "德意志社会主义共和国"
+ #斯大林主义
+ IRE_SiDaLingZHuYi_DEF: "德意志社会主义共和国"
+ #斯大林主义
+ IRE_SiDaLingZHuYi_ADJ: "德国"
+ #斯大林主义
+ 
+ IRE_YuanSHiZHuYi: "德意志社会技官国"
+ #远视主义
+ IRE_YuanSHiZHuYi_DEF: "德意志社会技官国"
+ #远视主义
+ IRE_YuanSHiZHuYi_ADJ: "德国"
+ #远视主义
+ 
+ IRE_JunZHengGuongCHanZHuYi: "德意志共产主义军区"
+ #军政共产主义
+ IRE_JunZHengGuongCHanZHuYi_DEF: "德意志共产主义军区"
+ #军政共产主义
+ IRE_JunZHengGuongCHanZHuYi_ADJ: "德共军"
+ #军政共产主义
+ 
+ IRE_JunZHuBuErSHiWeiKe: "德意志君主共和国"
+ #君主布尔什维克
+ IRE_JunZHuBuErSHiWeiKe_DEF: "德意志君主共和国"
+ #君主布尔什维克
+ IRE_JunZHuBuErSHiWeiKe_ADJ: "德国"
+ #君主布尔什维克
+ 
+ IRE_GuDianZiYouZHuYi: "爱尔兰共和国"
+ #古典自由主义
+ IRE_GuDianZiYouZHuYi_DEF: "爱尔兰共和国"
+ #古典自由主义
+ IRE_GuDianZiYouZHuYi_ADJ: "爱尔兰"
+ #古典自由主义
+ 
+ IRE_SHeHuiMinZHuZHuYi: "爱尔兰共和国"
+ #社会民主主义
+ IRE_SHeHuiMinZHuZHuYi_DEF: "爱尔兰共和国"
+ #社会民主主义
+ IRE_SHeHuiMinZHuZHuYi_ADJ: "爱尔兰"
+ #社会民主主义
+ 
+ IRE_MinZHuSHeHuiZHuYi: "爱尔兰共和国"
+ #民主社会主义
+ IRE_MinZHuSHeHuiZHuYi_DEF: "爱尔兰共和国"
+ #民主社会主义
+ IRE_MinZHuSHeHuiZHuYi_ADJ: "爱尔兰"
+ #民主社会主义
+ 
+ IRE_JiaSuZHuYi: "德意志先锋国"
+ #加速主义
+ IRE_JiaSuZHuYi_DEF: "德意志先锋国"
+ #加速主义
+ IRE_JiaSuZHuYi_ADJ: "爱尔兰"
+ #加速主义
+ 
+ IRE_BaoSHouZHuYi: "爱尔兰共和国"
+ #保守主义
+ IRE_BaoSHouZHuYi_DEF: "爱尔兰共和国"
+ #保守主义
+ IRE_BaoSHouZHuYi_ADJ: "爱尔兰"
+ #保守主义
+ 
+ IRE_GuiZuBaoSHouZHuYi: "爱尔兰共和国"
+ #贵族保守主义
+ IRE_GuiZuBaoSHouZHuYi_DEF: "爱尔兰共和国"
+ #贵族保守主义
+ IRE_GuiZuBaoSHouZHuYi_ADJ: "爱尔兰"
+ #贵族保守主义
+ 
+ IRE_JiaZHangZHi: "爱尔兰国"
+ #家长制
+ IRE_JiaZHangZHi_DEF: "爱尔兰国"
+ #家长制
+ IRE_JiaZHangZHi_ADJ: "爱尔兰"
+ #家长制
+ 
+ IRE_JunZHuZHuYi: "爱尔兰王国"
+ #君主主义
+ IRE_JunZHuZHuYi_DEF: "爱尔兰王国"
+ #君主主义
+ IRE_JunZHuZHuYi_ADJ: "爱尔兰"
+ #君主主义
+ 
+ IRE_ZiBenGuongCHanZHuYi: "西方岛屿"
+ #资本共产主义
+ IRE_ZiBenGuongCHanZHuYi_DEF: "西方岛屿"
+ #资本共产主义
+ IRE_ZiBenGuongCHanZHuYi_ADJ: "西方岛屿"
+ #资本共产主义
+ 
+ IRE_SHeHuiFaXiSi: "爱尔兰凯尔特国"
+ #社会法西斯
+ IRE_SHeHuiFaXiSi_DEF: "爱尔兰凯尔特国"
+ #社会法西斯
+ IRE_SHeHuiFaXiSi_ADJ: "爱尔兰"
+ #社会法西斯
+ 
+ IRE_SiTeLaSeZHuYi: "爱尔兰凯尔特国"
+ #斯特拉瑟主义
+ IRE_SiTeLaSeZHuYi_DEF: "爱尔兰凯尔特国"
+ #斯特拉瑟主义
+ IRE_SiTeLaSeZHuYi_ADJ: "爱尔兰"
+ #斯特拉瑟主义
+ 
+ IRE_FaXiSiZHuYi: "爱尔兰凯尔特国"
+ #法西斯主义
+ IRE_FaXiSiZHuYi_DEF: "爱尔兰凯尔特国"
+ #法西斯主义
+ IRE_FaXiSiZHuYi_ADJ: "爱尔兰"
+ #法西斯主义
+ 
+ IRE_MinZuSHeHuiZHuYi: "爱尔兰凯尔特国"
+ #纳粹
+ IRE_MinZuSHeHuiZHuYi_DEF: "爱尔兰凯尔特国"
+ #纳粹
+ IRE_MinZuSHeHuiZHuYi_ADJ: "爱尔兰"
+ #纳粹
+ 
+ IRE_BoGenDiTiZHi: "爱尔兰凯尔特国"
+ #勃艮第体制
+ IRE_BoGenDiTiZHi_DEF: "爱尔兰凯尔特国"
+ #勃艮第体制
+ IRE_BoGenDiTiZHi_ADJ: "爱尔兰"
+ #勃艮第体制
+ 
+ # # #匈牙利
  HUN_fascism: "匈牙利"
  HUN_fascism_DEF: "匈牙利"
  HUN_democratic: "匈牙利共和国"
@@ -1660,25 +2303,50 @@
  BOL_ADJ: "玻利维亚"
  BOL_subject: "$OVERLORDADJ$属$BOL$"
  BOL_subject_DEF: "$OVERLORDADJ$属$BOL$"
+ 
+ #巴西
+ 
+ BRA: "巴西"
+ #通用
+ BRA_DEF: "巴西"
+ #通用
+ BRA_ADJ: "巴西"
+ #通用
+ BRA_subject: "$OVERLORDADJ$属$BRA$"
+ #傀儡
+ BRA_subject_DEF: "$OVERLORDADJ$属$BRA$"
+ #傀儡
+ 
  BRA_fascism: "整合主义巴西"
+ #法西斯（原版）
  BRA_fascism_DEF: "整合主义巴西"
- BRA_democratic: "巴西第二共和国"
- BRA_democratic_DEF: "巴西第二共和国"
- BRA_neutrality: "巴西"
- BRA_neutrality_DEF: "巴西"
- BRA_communism: "巴西社会主义共和国"
- BRA_communism_DEF: "巴西社会主义共和国"
+ #法西斯（原版）
  BRA_fascism_ADJ: "巴西"
+ #法西斯（原版）
+ BRA_democratic: "巴西第二共和国"
+ #民主（原版）
+ BRA_democratic_DEF: "巴西第二共和国"
+ #民主（原版）
  BRA_democratic_ADJ: "巴西"
+ #民主（原版）
+ BRA_neutrality: "巴西"
+ #中立（原版）
+ BRA_neutrality_DEF: "巴西"
+ #中立（原版）
  BRA_neutrality_ADJ: "巴西"
+ #中立（原版）
+ BRA_communism: "巴西社会主义共和国"
+ #共产（原版）
+ BRA_communism_DEF: "巴西社会主义共和国"
+ #共产（原版）
  BRA_communism_ADJ: "巴西"
+ #共产（原版）
  BRA_anarchist_communism: "巴西坎加索国"
  BRA_anarchist_communism_DEF: "巴西坎加索国"
- BRA: "巴西"
- BRA_DEF: "巴西"
- BRA_ADJ: "巴西"
- BRA_subject: "$OVERLORDADJ$属$BRA$"
- BRA_subject_DEF: "$OVERLORDADJ$属$BRA$"
+ ###
+ 
+ #加拿大
+ 
  CAN_fascism: "统合加拿大"
  CAN_fascism_DEF: "统合加拿大"
  CAN_democratic: "加拿大"
@@ -1846,6 +2514,9 @@
  HON: "洪都拉斯"
  HON_DEF: "洪都拉斯"
  HON_ADJ: "洪都拉斯"
+ 
+ #伊拉克
+ 
  IRQ_fascism: "穆萨纳伊拉克"
  IRQ_fascism_DEF: "穆萨纳伊拉克"
  IRQ_democratic: "伊拉克共和国"
@@ -1863,6 +2534,12 @@
  IRQ_ADJ: "伊拉克"
  IRQ_subject: "$OVERLORDADJ$属$IRQ$"
  IRQ_subject_DEF: "$OVERLORDADJ$属$IRQ$"
+ 
+ IRQ_ENG_subject: "美索不达米亚托管领"
+ IRQ_ENG_subject_DEF: "美索不达米亚托管领"
+ 
+ #日本
+ 
  JAP_fascism: "日本"
  JAP_fascism_DEF: "日本"
  JAP_democratic: "日本国"
@@ -2548,6 +3225,9 @@
  WGR: "德国"
  WGR_DEF: "德国"
  WGR_ADJ: "西德"
+ 
+ #东德
+ 
  DDR_fascism: "德意志国家社会主义共和国"
  DDR_fascism_DEF: "德意志国家社会主义共和国"
  DDR_democratic: "宪政德国"
@@ -2563,6 +3243,9 @@
  DDR: "德国"
  DDR_DEF: "德国"
  DDR_ADJ: "东德"
+ 
+ #巴勒斯坦
+ 
  PAL_fascism: "巴勒斯坦军"
  PAL_fascism_DEF: "巴勒斯坦军"
  PAL_democratic: "巴勒斯坦"
@@ -4213,21 +4896,201 @@
  MEK: "梅克伦堡"
  MEK_DEF: "梅克伦堡"
  MEK_ADJ: "梅克伦堡"
- PRE_fascism: "大普鲁士"
- PRE_fascism_DEF: "大普鲁士"
- PRE_democratic: "普鲁士自由邦"
- PRE_democratic_DEF: "普鲁士自由邦"
- PRE_neutrality: "普鲁士王国"
- PRE_neutrality_DEF: "普鲁士王国"
- PRE_communism: "普鲁士民主共和国"
- PRE_communism_DEF: "普鲁士民主共和国"
- PRE_fascism_ADJ: "普鲁士"
- PRE_democratic_ADJ: "普鲁士"
- PRE_neutrality_ADJ: "普鲁士"
- PRE_communism_ADJ: "普鲁士"
+ 
+ #普鲁士
+ 
  PRE: "普鲁士"
+ #通用
  PRE_DEF: "普鲁士"
+ #通用
  PRE_ADJ: "普鲁士"
+ #通用
+ PRE_subject: "$OVERLORDADJ$属$PRE$"
+ #傀儡
+ PRE_subject_DEF: "$OVERLORDADJ$属$PRE$"
+ #傀儡
+ 
+ PRE_fascism: "大普鲁士"
+ #法西斯（原版）
+ PRE_fascism_DEF: "大普鲁士"
+ #法西斯（原版）
+ PRE_fascism_ADJ: "普鲁士"
+ #法西斯（原版）
+ PRE_democratic: "普鲁士自由邦"
+ #民主（原版）
+ PRE_democratic_DEF: "普鲁士自由邦"
+ #民主（原版）
+ PRE_democratic_ADJ: "普鲁士
+ #民主（原版）
+ PRE_neutrality: "普鲁士王国"
+ #中立（原版）
+ PRE_neutrality_DEF: "普鲁士王国"
+ #中立（原版）
+ PRE_neutrality_ADJ: "普鲁士"
+ #中立（原版）
+ PRE_communism: "普鲁士民主共和国"
+ #共产（原版）
+ PRE_communism_DEF: "普鲁士民主共和国"
+ #共产（原版）
+ PRE_communism_ADJ: "普鲁士"
+ #共产（原版）
+ ###
+ PRE_WuZHengFuGuongCHanZHuYi: "普鲁士自由邦"
+ #无政府共产主义
+ PRE_WuZHengFuGuongCHanZHuYi_DEF: "普鲁士自由邦"
+ #无政府共产主义
+ PRE_WuZHengFuGuongCHanZHuYi_ADJ: "普鲁士"
+ #无政府共产主义
+ 
+ PRE_GuongTuanZHuYi: "普鲁士志自由邦"
+ #工团主义
+ PRE_GuongTuanZHuYi_DEF: "普鲁士自由邦"
+ #工团主义
+ PRE_GuongTuanZHuYi_ADJ: "普鲁士"
+ #工团主义
+ 
+ PRE_MaKeSi_LieNingZHuYi: "普鲁士人民国"
+ #马克思 - 列宁主义
+ PRE_MaKeSi_LieNingZHuYi_DEF: "普鲁士人民国"
+ #马克思 - 列宁主义
+ PRE_MaKeSi_LieNingZHuYi_ADJ: "普鲁士"
+ #马克思 - 列宁主义
+ 
+ PRE_TuoLuoSiJiZHuYi: "普鲁士人民国"
+ #托洛斯基
+ PRE_TuoLuoSiJiZHuYi_DEF: "普鲁士人民国"
+ #托洛斯基
+ PRE_TuoLuoSiJiZHuYi_ADJ: "普鲁士"
+ #托洛斯基
+  
+ PRE_SiDaLingZHuYi: "普鲁士人民国"
+ #斯大林主义
+ PRE_SiDaLingZHuYi_DEF: "普鲁士人民国"
+ #斯大林主义
+ PRE_SiDaLingZHuYi_ADJ: "普鲁士"
+ #斯大林主义
+ 
+ PRE_YuanSHiZHuYi: "普鲁士人民国"
+ #远视主义
+ PRE_YuanSHiZHuYi_DEF: "普鲁士人民国"
+ #远视主义
+ PRE_YuanSHiZHuYi_ADJ: "普鲁士"
+ #远视主义
+ 
+ PRE_JunZHengGuongCHanZHuYi: "普鲁士军管区"
+ #军政共产主义
+ PRE_JunZHengGuongCHanZHuYi_DEF: "普鲁士军管区"
+ #军政共产主义
+ PRE_JunZHengGuongCHanZHuYi_ADJ: "普鲁士"
+ #军政共产主义
+ 
+ PRE_JunZHuBuErSHiWeiKe: "普鲁士王国"
+ #君主布尔什维克
+ PRE_JunZHuBuErSHiWeiKe_DEF: "普鲁士王国"
+ #君主布尔什维克
+ PRE_JunZHuBuErSHiWeiKe_ADJ: "普鲁士"
+ #君主布尔什维克
+ 
+ PRE_GuDianZiYouZHuYi: "普鲁士共和国"
+ #古典自由主义
+ PRE_GuDianZiYouZHuYi_DEF: "普鲁士共和国"
+ #古典自由主义
+ PRE_GuDianZiYouZHuYi_ADJ: "普鲁士"
+ #古典自由主义
+ 
+ PRE_SHeHuiMinZHuZHuYi: "普鲁士共和国"
+ #社会民主主义
+ PRE_SHeHuiMinZHuZHuYi_DEF: "普鲁士共和国"
+ #社会民主主义
+ PRE_SHeHuiMinZHuZHuYi_ADJ: "普鲁士"
+ #社会民主主义
+ 
+ PRE_MinZHuSHeHuiZHuYi: "普鲁士共和国"
+ #民主社会主义
+ PRE_MinZHuSHeHuiZHuYi_DEF: "普鲁士共和国"
+ #民主社会主义
+ PRE_MinZHuSHeHuiZHuYi_ADJ: "普鲁士"
+ #民主社会主义
+ 
+ PRE_JiaSuZHuYi: "普鲁士先锋国"
+ #加速主义
+ PRE_JiaSuZHuYi_DEF: "普鲁士先锋国"
+ #加速主义
+ PRE_JiaSuZHuYi_ADJ: "普鲁士"
+ #加速主义
+ 
+ PRE_BaoSHouZHuYi: "普鲁士共和国"
+ #保守主义
+ PRE_BaoSHouZHuYi_DEF: "普鲁士共和国"
+ #保守主义
+ PRE_BaoSHouZHuYi_ADJ: "普鲁士"
+ #保守主义
+ 
+ PRE_GuiZuBaoSHouZHuYi: "普鲁士共和国"
+ #贵族保守主义
+ PRE_GuiZuBaoSHouZHuYi_DEF: "普鲁士共和国"
+ #贵族保守主义
+ PRE_GuiZuBaoSHouZHuYi_ADJ: "普鲁士"
+ #贵族保守主义
+ 
+ PRE_JiaZHangZHi: "普鲁士国"
+ #家长制
+ PRE_JiaZHangZHi_DEF: "普鲁士国"
+ #家长制
+ PRE_JiaZHangZHi_ADJ: "普鲁士"
+ #家长制
+ 
+ PRE_JunZHuZHuYi: "普鲁士王国"
+ #君主主义
+ PRE_JunZHuZHuYi_DEF: "普鲁士王国"
+ #君主主义
+ PRE_JunZHuZHuYi_ADJ: "普鲁士"
+ #君主主义
+ 
+ PRE_ZiBenGuongCHanZHuYi: "普鲁士™ 有限公司"
+ #资本共产主义
+ PRE_ZiBenGuongCHanZHuYi_DEF: "普鲁士™ 有限公司"
+ #资本共产主义
+ PRE_ZiBenGuongCHanZHuYi_ADJ: "普鲁士"
+ #资本共产主义
+ 
+ PRE_SHeHuiFaXiSi: "普鲁士帝国"
+ #社会法西斯
+ PRE_SHeHuiFaXiSi_DEF: "普鲁士帝国"
+ #社会法西斯
+ PRE_SHeHuiFaXiSi_ADJ: "普鲁士"
+ #社会法西斯
+ 
+ PRE_SiTeLaSeZHuYi: "普鲁士帝国"
+ #斯特拉瑟主义
+ PRE_SiTeLaSeZHuYi_DEF: "普鲁士帝国"
+ #斯特拉瑟主义
+ PRE_SiTeLaSeZHuYi_ADJ: "普鲁士"
+ #斯特拉瑟主义
+ 
+ PRE_FaXiSiZHuYi: "普鲁士帝国"
+ #法西斯主义
+ PRE_FaXiSiZHuYi_DEF: "普鲁士帝国"
+ #法西斯主义
+ PRE_FaXiSiZHuYi_ADJ: "普鲁士"
+ #法西斯主义
+ 
+ PRE_MinZuSHeHuiZHuYi: "普鲁士帝国"
+ #纳粹
+ PRE_MinZuSHeHuiZHuYi_DEF: "普鲁士帝国"
+ #纳粹
+ PRE_MinZuSHeHuiZHuYi_ADJ: "普鲁士"
+ #纳粹
+ 
+ PRE_BoGenDiTiZHi: "普鲁士帝国"
+ #勃艮第体制
+ PRE_BoGenDiTiZHi_DEF: "普鲁士帝国"
+ #勃艮第体制
+ PRE_BoGenDiTiZHi_ADJ: "普鲁士"
+ #勃艮第体制
+
+#萨克森
+
  SAX_fascism: "大萨克森"
  SAX_fascism_DEF: "大萨克森"
  SAX_democratic: "萨克森自由邦"
@@ -4837,6 +5700,9 @@
  BSK_SOV_communism_subject: "巴什基尔苏维埃社会主义自治共和国"
  BSK_SOV_communism_subject_DEF: "巴什基尔苏维埃社会主义自治共和国"
  BSK_SOV_communism_subject_ADJ: "巴什基尔"
+ 
+ #布哈拉
+ 
  BUK_fascism: "布哈拉苏菲国"
  BUK_fascism_DEF: "布哈拉苏菲国"
  BUK_democratic: "布哈拉扎吉德共和国"
@@ -4852,6 +5718,163 @@
  BUK_SOV_communism_subject: "布哈拉人民苏维埃共和国"
  BUK_SOV_communism_subject_DEF: "布哈拉人民苏维埃共和国"
  BUK_SOV_communism_subject_ADJ: "布哈拉"
+ ###
+ BUK_WuZHengFuGuongCHanZHuYi: "撒马尔罕公社"
+ #无政府共产主义
+ BUK_WuZHengFuGuongCHanZHuYi_DEF: "撒马尔罕公社"
+ #无政府共产主义
+ BUK_WuZHengFuGuongCHanZHuYi_ADJ: "撒马尔罕"
+ #无政府共产主义
+ 
+ BUK_GuongTuanZHuYi: "撒马尔罕公社"
+ #工团主义
+ BUK_GuongTuanZHuYi_DEF: "撒马尔罕公社"
+ #工团主义
+ BUK_GuongTuanZHuYi_ADJ: "撒马尔罕"
+ #工团主义
+ 
+ BUK_MaKeSi_LieNingZHuYi: "布哈拉人民苏维埃共和国"
+ #马克思 - 列宁主义
+ BUK_MaKeSi_LieNingZHuYi_DEF: "布哈拉人民苏维埃共和国"
+ #马克思 - 列宁主义
+ BUK_MaKeSi_LieNingZHuYi_ADJ: "布哈拉"
+ #马克思 - 列宁主义
+ 
+ BUK_TuoLuoSiJiZHuYi: "布哈拉人民苏维埃共和国"
+ #托洛斯基
+ BUK_TuoLuoSiJiZHuYi_DEF: "布哈拉人民苏维埃共和国"
+ #托洛斯基
+ BUK_TuoLuoSiJiZHuYi_ADJ: "布哈拉"
+ #托洛斯基
+  
+ BUK_SiDaLingZHuYi: "布哈拉人民苏维埃共和国"
+ #斯大林主义
+ BUK_SiDaLingZHuYi_DEF: "布哈拉人民苏维埃共和国"
+ #斯大林主义
+ BUK_SiDaLingZHuYi_ADJ: "布哈拉"
+ #斯大林主义
+ 
+ BUK_YuanSHiZHuYi: "布哈拉人民苏维埃共和国"
+ #远视主义
+ BUK_YuanSHiZHuYi_DEF: "布哈拉人民苏维埃共和国"
+ #远视主义
+ BUK_YuanSHiZHuYi_ADJ: "布哈拉"
+ #远视主义
+ 
+ BUK_JunZHengGuongCHanZHuYi: "布哈拉人民苏维埃共和国"
+ #军政共产主义
+ BUK_JunZHengGuongCHanZHuYi_DEF: "布哈拉人民苏维埃共和国"
+ #军政共产主义
+ BUK_JunZHengGuongCHanZHuYi_ADJ: "布哈拉"
+ #军政共产主义
+ 
+ BUK_JunZHuBuErSHiWeiKe: "布哈拉人民苏维埃共和国"
+ #君主布尔什维克
+ BUK_JunZHuBuErSHiWeiKe_DEF: "布哈拉人民苏维埃共和国"
+ #君主布尔什维克
+ BUK_JunZHuBuErSHiWeiKe_ADJ: "布哈拉"
+ #君主布尔什维克
+ 
+ BUK_GuDianZiYouZHuYi: "布哈拉共和国"
+ #古典自由主义
+ BUK_GuDianZiYouZHuYi_DEF: "布哈拉共和国"
+ #古典自由主义
+ BUK_GuDianZiYouZHuYi_ADJ: "布哈拉"
+ #古典自由主义
+ 
+ BUK_SHeHuiMinZHuZHuYi: "布哈拉共和国"
+ #社会民主主义
+ BUK_SHeHuiMinZHuZHuYi_DEF: "布哈拉共和国"
+ #社会民主主义
+ BUK_SHeHuiMinZHuZHuYi_ADJ: "布哈拉"
+ #社会民主主义
+ 
+ BUK_MinZHuSHeHuiZHuYi: "布哈拉共和国"
+ #民主社会主义
+ BUK_MinZHuSHeHuiZHuYi_DEF: "布哈拉共和国"
+ #民主社会主义
+ BUK_MinZHuSHeHuiZHuYi_ADJ: "布哈拉"
+ #民主社会主义
+ 
+ BUK_JiaSuZHuYi: "布哈拉先锋国"
+ #加速主义
+ BUK_JiaSuZHuYi_DEF: "布哈拉先锋国"
+ #加速主义
+ BUK_JiaSuZHuYi_ADJ: "布哈拉"
+ #加速主义
+ 
+ BUK_BaoSHouZHuYi: "布哈拉共和国"
+ #保守主义
+ BUK_BaoSHouZHuYi_DEF: "布哈拉共和国"
+ #保守主义
+ BUK_BaoSHouZHuYi_ADJ: "布哈拉"
+ #保守主义
+ 
+ BUK_GuiZuBaoSHouZHuYi: "布哈拉共和国"
+ #贵族保守主义
+ BUK_GuiZuBaoSHouZHuYi_DEF: "布哈拉共和国"
+ #贵族保守主义
+ BUK_GuiZuBaoSHouZHuYi_ADJ: "布哈拉"
+ #贵族保守主义
+ 
+ BUK_JiaZHangZHi: "布哈拉国"
+ #家长制
+ BUK_JiaZHangZHi_DEF: "布哈拉国"
+ #家长制
+ BUK_JiaZHangZHi_ADJ: "布哈拉"
+ #家长制
+ 
+ BUK_JunZHuZHuYi: "布哈拉酋长国"
+ #君主主义
+ BUK_JunZHuZHuYi_DEF: "布哈拉酋长国"
+ #君主主义
+ BUK_JunZHuZHuYi_ADJ: "布哈拉"
+ #君主主义
+ 
+ BUK_ZiBenGuongCHanZHuYi: "撒马尔罕企业联合"
+ #资本共产主义
+ BUK_ZiBenGuongCHanZHuYi_DEF: "撒马尔罕企业联合"
+ #资本共产主义
+ BUK_ZiBenGuongCHanZHuYi_ADJ: "撒马尔罕"
+ #资本共产主义
+ 
+ BUK_SHeHuiFaXiSi: "布哈拉帝国"
+ #社会法西斯
+ BUK_SHeHuiFaXiSi_DEF: "布哈拉帝国"
+ #社会法西斯
+ BUK_SHeHuiFaXiSi_ADJ: "布哈拉"
+ #社会法西斯
+ 
+ BUK_SiTeLaSeZHuYi: "布哈拉帝国"
+ #斯特拉瑟主义
+ BUK_SiTeLaSeZHuYi_DEF: "布哈拉帝国"
+ #斯特拉瑟主义
+ BUK_SiTeLaSeZHuYi_ADJ: "布哈拉"
+ #斯特拉瑟主义
+ 
+ BUK_FaXiSiZHuYi: "布哈拉帝国"
+ #法西斯主义
+ BUK_FaXiSiZHuYi_DEF: "布哈拉帝国"
+ #法西斯主义
+ BUK_FaXiSiZHuYi_ADJ: "布哈拉"
+ #法西斯主义
+ 
+ BUK_MinZuSHeHuiZHuYi: "布哈拉伊斯兰国"
+ #纳粹
+ BUK_MinZuSHeHuiZHuYi_DEF: "布哈拉伊斯兰国"
+ #纳粹
+ BUK_MinZuSHeHuiZHuYi_ADJ: "布哈拉"
+ #纳粹
+ 
+ BUK_BoGenDiTiZHi: "布哈拉扎吉德"
+ #勃艮第体制
+ BUK_BoGenDiTiZHi_DEF: "布哈拉扎吉德"
+ #勃艮第体制
+ BUK_BoGenDiTiZHi_ADJ: "布哈拉"
+ #勃艮第体制
+ 
+ #希瓦
+ 
  KHI_fascism: "希瓦巴斯玛奇国"
  KHI_fascism_DEF: "希瓦巴斯玛奇国"
  KHI_democratic: "希瓦扎吉德共和国"
@@ -5443,3 +6466,336 @@
  WLA: "新威尔士"
  WLA_DEF: "新威尔士"
  WLA_ADJ: "威尔士阿根廷"
+ 
+ #北高加索
+ 
+ GSK: "北高加索"
+ #通用
+ GSK_DEF: "北高加索"
+ #通用
+ GSK_ADJ: "高加索"
+ #通用
+ GSK_subject: "$OVERLORDADJ$属高加索"
+ #傀儡
+ GSK_subject_DEF: "$OVERLORDADJ$属高加索"
+ #傀儡
+ ###
+ GSK_WuZHengFuGuongCHanZHuYi: "北高加索山区人民联盟"
+ #无政府共产主义
+ GSK_WuZHengFuGuongCHanZHuYi_DEF: "北高加索山区人民联盟"
+ #无政府共产主义
+ GSK_WuZHengFuGuongCHanZHuYi_ADJ: "高加索"
+ #无政府共产主义
+ 
+ GSK_GuongTuanZHuYi: "北高加索山区人民联盟"
+ #工团主义
+ GSK_GuongTuanZHuYi_DEF: "北高加索山区人民联盟"
+ #工团主义
+ GSK_GuongTuanZHuYi_ADJ: "高加索"
+ #工团主义
+ 
+ GSK_MaKeSi_LieNingZHuYi: "高加索社会主义共和国"
+ #马克思 - 列宁主义
+ GSK_MaKeSi_LieNingZHuYi_DEF: "高加索社会主义共和国"
+ #马克思 - 列宁主义
+ GSK_MaKeSi_LieNingZHuYi_ADJ: "高加索"
+ #马克思 - 列宁主义
+ 
+ GSK_TuoLuoSiJiZHuYi: "高加索社会主义共和国"
+ #托洛斯基
+ GSK_TuoLuoSiJiZHuYi_DEF: "高加索社会主义共和国"
+ #托洛斯基
+ GSK_TuoLuoSiJiZHuYi_ADJ: "高加索"
+ #托洛斯基
+  
+ GSK_SiDaLingZHuYi: "高加索社会主义共和国"
+ #斯大林主义
+ GSK_SiDaLingZHuYi_DEF: "高加索社会主义共和国"
+ #斯大林主义
+ GSK_SiDaLingZHuYi_ADJ: "高加索"
+ #斯大林主义
+ 
+ GSK_YuanSHiZHuYi: "高加索社会技官国"
+ #远视主义
+ GSK_YuanSHiZHuYi_DEF: "高加索社会技官国"
+ #远视主义
+ GSK_YuanSHiZHuYi_ADJ: "高加索"
+ #远视主义
+ 
+ GSK_JunZHengGuongCHanZHuYi: "高加索区"
+ #军政共产主义
+ GSK_JunZHengGuongCHanZHuYi_DEF: "高加索区"
+ #军政共产主义
+ GSK_JunZHengGuongCHanZHuYi_ADJ: "高加索"
+ #军政共产主义
+ 
+ GSK_JunZHuBuErSHiWeiKe: "德意志君主共和国"
+ #君主布尔什维克
+ GSK_JunZHuBuErSHiWeiKe_DEF: "德意志君主共和国"
+ #君主布尔什维克
+ GSK_JunZHuBuErSHiWeiKe_ADJ: "德国"
+ #君主布尔什维克
+ 
+ GSK_GuDianZiYouZHuYi: "北高加索山区共和国"
+ #古典自由主义
+ GSK_GuDianZiYouZHuYi_DEF: "北高加索山区共和国"
+ #古典自由主义
+ GSK_GuDianZiYouZHuYi_ADJ: "高加索"
+ #古典自由主义
+ 
+ GSK_SHeHuiMinZHuZHuYi: "北高加索山区共和国"
+ #社会民主主义
+ GSK_SHeHuiMinZHuZHuYi_DEF: "北高加索山区共和国"
+ #社会民主主义
+ GSK_SHeHuiMinZHuZHuYi_ADJ: "高加索"
+ #社会民主主义
+ 
+ GSK_MinZHuSHeHuiZHuYi: "北高加索山区共和国"
+ #民主社会主义
+ GSK_MinZHuSHeHuiZHuYi_DEF: "北高加索山区共和国"
+ #民主社会主义
+ GSK_MinZHuSHeHuiZHuYi_ADJ: "高加索"
+ #民主社会主义
+ 
+ GSK_JiaSuZHuYi: "高加索先锋国"
+ #加速主义
+ GSK_JiaSuZHuYi_DEF: "高加索先锋国"
+ #加速主义
+ GSK_JiaSuZHuYi_ADJ: "高加索"
+ #加速主义
+ 
+ GSK_BaoSHouZHuYi: "北高加索山区共和国"
+ #保守主义
+ GSK_BaoSHouZHuYi_DEF: "北高加索山区共和国"
+ #保守主义
+ GSK_BaoSHouZHuYi_ADJ: "高加索"
+ #保守主义
+ 
+ GSK_GuiZuBaoSHouZHuYi: "北高加索山区共和国"
+ #贵族保守主义
+ GSK_GuiZuBaoSHouZHuYi_DEF: "北高加索山区共和国"
+ #贵族保守主义
+ GSK_GuiZuBaoSHouZHuYi_ADJ: "高加索"
+ #贵族保守主义
+ 
+ GSK_JiaZHangZHi: "北高加索山区共和国"
+ #家长制
+ GSK_JiaZHangZHi_DEF: "北高加索山区共和国"
+ #家长制
+ GSK_JiaZHangZHi_ADJ: "高加索"
+ #家长制
+ 
+ GSK_JunZHuZHuYi: "高加索阿尔巴尼亚王国"
+ #君主主义
+ GSK_JunZHuZHuYi_DEF: "高加索阿尔巴尼亚王国"
+ #君主主义
+ GSK_JunZHuZHuYi_ADJ: "高加索"
+ #君主主义
+ 
+ GSK_ZiBenGuongCHanZHuYi: "北高加索山区共和国"
+ #资本共产主义
+ GSK_ZiBenGuongCHanZHuYi_DEF: "北高加索山区共和国"
+ #资本共产主义
+ GSK_ZiBenGuongCHanZHuYi_ADJ: "高加索"
+ #资本共产主义
+ 
+ GSK_SHeHuiFaXiSi: "高加索帝国"
+ #社会法西斯
+ GSK_SHeHuiFaXiSi_DEF: "高加索帝国"
+ #社会法西斯
+ GSK_SHeHuiFaXiSi_ADJ: "高加索"
+ #社会法西斯
+ 
+ GSK_SiTeLaSeZHuYi: "高加索帝国"
+ #斯特拉瑟主义
+ GSK_SiTeLaSeZHuYi_DEF: "高加索帝国"
+ #斯特拉瑟主义
+ GSK_SiTeLaSeZHuYi_ADJ: "高加索"
+ #斯特拉瑟主义
+ 
+ GSK_FaXiSiZHuYi: "高加索帝国"
+ #法西斯主义
+ GSK_FaXiSiZHuYi_DEF: "高加索帝国"
+ #法西斯主义
+ GSK_FaXiSiZHuYi_ADJ: "高加索"
+ #法西斯主义
+ 
+ GSK_MinZuSHeHuiZHuYi: "高加索帝国"
+ #纳粹
+ GSK_MinZuSHeHuiZHuYi_DEF: "高加索帝国"
+ #纳粹
+ GSK_MinZuSHeHuiZHuYi_ADJ: "高加索"
+ #纳粹
+ 
+ GSK_BoGenDiTiZHi: "高加索帝国"
+ #勃艮第体制
+ GSK_BoGenDiTiZHi_DEF: "高加索帝国"
+ #勃艮第体制
+ GSK_BoGenDiTiZHi_ADJ: "高加索"
+ #勃艮第体制
+ 
+ #乌克兰黑军
+ 
+ PAU_WuZHengFuGuongCHanZHuYi: "乌克兰革命起义军（马赫诺军）"
+ #无政府共产主义
+ PAU_WuZHengFuGuongCHanZHuYi_DEF: "乌克兰黑军"
+ #无政府共产主义
+ PAU_WuZHengFuGuongCHanZHuYi_ADJ: "乌克兰"
+ #无政府共产主义
+ 
+ PAU_GuongTuanZHuYi: "乌克兰革命起义军（马赫诺军）"
+ #工团主义
+ PAU_GuongTuanZHuYi_DEF: "乌克兰黑军"
+ #工团主义
+ PAU_GuongTuanZHuYi_ADJ: "乌克兰"
+ #工团主义
+ 
+ #阜姆
+ 
+ FSO: "阜姆"
+ #通用
+ FSO_DEF: "阜姆"
+ #通用
+ FSO_ADJ: "阜姆"
+ #通用
+ FSO_subject: "$OVERLORDADJ$属$FSO$"
+ #傀儡
+ FSO_subject_DEF: "$OVERLORDADJ$属$FSO$"
+ #傀儡
+ 
+ #坎加索
+ 
+ CGC: "坎加索"
+ #通用
+ CGC_DEF: "坎加索"
+ #通用
+ CGC_ADJ: "坎加索"
+ #通用
+ CGC_subject: "$OVERLORDADJ$属坎加索"
+ #傀儡
+ CGC_subject_DEF: "$OVERLORDADJ$属坎加索"
+ #傀儡
+ 
+ #美利坚邦联国
+ 
+ URA: "美利坚东海岸"
+ #通用
+ URA_DEF: "美利坚东海岸"
+ #通用
+ URA_ADJ: "东海岸"
+ #通用
+ URA_subject: "$OVERLORDADJ$属东海岸"
+ #傀儡
+ URA_subject_DEF: "$OVERLORDADJ$属东海岸"
+ #傀儡
+ 
+ URA_GuDianZiYouZHuYi: "美利坚邦联国"
+ #古典自由主义
+ URA_GuDianZiYouZHuYi_DEF: "美利坚邦联国"
+ #古典自由主义
+ URA_GuDianZiYouZHuYi_ADJ: "东海岸"
+ #古典自由主义
+ 
+ #西海岸共和国
+ 
+ SCP: "西海岸共和国"
+ #通用
+ SCP_DEF: "西海岸共和国"
+ #通用
+ SCP_ADJ: "西海岸"
+ #通用
+ SCP_subject: "$OVERLORDADJ$属西海岸"
+ #傀儡
+ SCP_subject_DEF: "$OVERLORDADJ$属西海岸"
+ #傀儡
+ 
+ #德克萨斯
+ 
+ ROT: "德克萨斯共和国"
+ #通用
+ ROT_DEF: "德克萨斯共和国"
+ #通用
+ ROT_ADJ: "德克萨斯"
+ #通用
+ ROT_subject: "$OVERLORDADJ$属德克萨斯"
+ #傀儡
+ ROT_subject_DEF: "$OVERLORDADJ$属德克萨斯"
+ #傀儡
+ 
+ #迪克西
+ 
+ SUS: "迪克西国"
+ #通用
+ SUS_DEF: "迪克西国"
+ #通用
+ SUS_ADJ: "迪克西"
+ #通用
+ SUS_subject: "$OVERLORDADJ$属迪克西"
+ #傀儡
+ SUS_subject_DEF: "$OVERLORDADJ$属迪克西"
+ #傀儡
+ 
+ #安第斯
+ 
+ ANT: "安第斯"
+ #通用
+ ANT_DEF: "安第斯"
+ #通用
+ ANT_ADJ: "安第斯"
+ #通用
+ ANT_subject: "$OVERLORDADJ$属安第斯"
+ #傀儡
+ ANT_subject_DEF: "$OVERLORDADJ$属安第斯"
+ #傀儡
+ 
+ ANT_MinZuSHeHuiZHuYi_subject: "安第斯总督辖区"
+ #纳粹傀儡
+ ANT_MinZuSHeHuiZHuYi_subject_DEF: "安第斯总督辖区"
+ #纳粹傀儡
+ 
+ #南美
+ 
+ ADS: "南美"
+ #通用
+ ADS_DEF: "南美"
+ #通用
+ ADS_ADJ: "南美"
+ #通用
+ ADS_subject: "$OVERLORDADJ$属南美"
+ #傀儡
+ ADS_subject_DEF: "$OVERLORDADJ$属南美"
+ #傀儡
+ 
+ ADS_MinZuSHeHuiZHuYi_subject: "南美总督辖区"
+ #纳粹傀儡
+ ADS_MinZuSHeHuiZHuYi_subject_DEF: "南美总督辖区"
+ #纳粹傀儡
+ 
+ #黑人起义
+ 
+ BPN: "黑人起义"
+ #通用
+ BPN_DEF: "黑人起义"
+ #通用
+ BPN_ADJ: "黑人起义"
+ #通用
+ 
+ #拉普拉塔
+ 
+ LAP: "拉普拉塔国"
+ #通用
+ LAP_DEF: "拉普拉塔国"
+ #通用
+ LAP_ADJ: "拉普拉塔"
+ #通用
+ LAP_subject: "$OVERLORDADJ$属拉普拉塔"
+ #傀儡
+ URA_subject_DEF: "$OVERLORDADJ$属拉普拉塔"
+ #傀儡
+ 
+ LAP_JiaSuZHuYi: "拉普拉塔先锋国"
+ #古典自由主义
+ LAP_JiaSuZHuYi_DEF: "拉普拉塔先锋国"
+ #古典自由主义
+ LAP_JiaSuZHuYi_ADJ: "拉普拉塔"
+ #古典自由主义

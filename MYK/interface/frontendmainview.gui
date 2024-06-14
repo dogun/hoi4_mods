@@ -1,7 +1,7 @@
 guiTypes = {
 
 	containerWindowType = { #大背景
-		name ="frontend_background1"
+		name ="frontend_background"
 		position = { x=0 y =0 }	
 		size = { 
 			width = 1920 

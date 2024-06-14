@@ -1,0 +1,47 @@
+﻿capital = 371
+#	set_oob = "GER_bw"
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+
+}
+
+set_variable = { var = ger_gateway_to_europe_influence value = 0 }
+
+set_variable = { var = wehrmacht_anger value = 0 }
+set_variable = { var = ss_anger value = 0 }
+set_variable = { GER_narvik_shipments = 0 }
+set_variable = { GER_narvik_civs = 0 }
+set_research_slots = 1
+set_convoys = 200
+set_stability = 0.75 
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = GuongTuanZHuYi
+	last_election = "1953.3.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	GuongTuanZHuYi = 100
+}
+
+
+add_ideas = {
+#	sour_loser
+#	general_staff
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+#	SWE_historical_trade_with_Germany_dummy CUT
+#	bw_LinSHiZHengFu
+}
+#add_ideas = GER_mefo_bills_1
+
+#give_guarantee = ALB

@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		bw_IRE_Celt = {
+		bw_IRE_Celt = {	#泛凯尔特主义
 			picture = generic_war_preparation
 
 			allowed = {
@@ -17,11 +17,11 @@ ideas = {
 				defence = 0.05
 				industrial_capacity_dockyard = 1
 
-				fascism_drift = 0.05
-				fascism_acceptance = 50
+				MinZuSHeHuiZHuYi_drift = 0.05
+				MinZuSHeHuiZHuYi_acceptance = 50
 
-#				fascism_drift = 0.01
-#				fascism_acceptance = 50
+				BoGenDiTiZHi_drift = 0.01
+#				BoGenDiTiZHi_acceptance =50
 			}
 			targeted_modifier = {
 #				hidden_effect = {

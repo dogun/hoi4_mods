@@ -65,6 +65,20 @@ focus_tree = {
 		prerequisite = {
 			focus = KaiSHiCHongZHengJunBei #开始重整军备
 		}
+		x = 5
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = MiHeMaoDuen_Z
+		}
+	}
+
+	focus = {
+		id = ZHengMianYingDi #正面迎敌
+		icon = GFX_goal_unknown
+		cost = 4.3
+		prerequisite = {
+			focus = KaiSHiCHongZHengJunBei #开始重整军备
+		}
 		x = 7
 		y = 5
 		completion_reward = {
@@ -79,7 +93,7 @@ focus_tree = {
 		x = 6
 		y = 2
 		completion_reward = {
-			custom_effect_tooltip = MiHeMaoDuen_Z
+			add_stability = 0.1
 		}
 	}
 
@@ -99,6 +113,7 @@ focus_tree = {
 				freedom_level = 0.5
 			}
 			set_cosmetic_tag = ENG_england
+			remove_ideas = bw_ENG_SuGeLanFanDuiPai
 		}
 	}
 }

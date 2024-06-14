@@ -172,12 +172,33 @@ ideologies = {
 		}
 	}
 
+	GuDianZiYouZHuYi = { #古典自由主义
+		types = {
+			GuDianZiYouZHuYi_c = {
+			}
+		}
+		color = { 0 100 255 } #216 38 40
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+	
 	SHeHuiMinZHuZHuYi = { #社会民主主义
 		types = {
 			SHeHuiMinZHuZHuYi_c = {
 			}
 		}
-		color = { 0 100 255 } #216 38 40
+		color = { 255 100 200 } #216 38 40
 
 		rules = {
 			can_create_collaboration_government = yes
@@ -235,12 +256,54 @@ ideologies = {
 		}
 	}
 
+	BaoSHouZHuYi = { #保守主义
+		types = {
+			BaoSHouZHuYi_c = {
+			}
+		}
+		color = { 133 133 133 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
+	GuiZuBaoSHouZHuYi = { #贵族保守主义
+		types = {
+			GuiZuBaoSHouZHuYi_c = {
+			}
+		}
+		color = { 100 100 100 }
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+			can_create_factions = no
+			can_join_factions = no
+		}
+	}
+
 	JiaZHangZHi = { #家长制
 		types = {
 			JiaZHangZHi_c = {
 			}
 		}
-		color = { 100 100 100 }
+		color = { 77 77 77 }
 
 		rules = {
 			can_create_collaboration_government = yes

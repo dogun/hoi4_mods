@@ -20,6 +20,7 @@ state = {
 		}
 
 		add_core_of = MON
+		add_core_of = TAN
 	}
 	manpower = 88200
 	buildings_max_level_factor=1.000
