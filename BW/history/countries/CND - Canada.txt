@@ -239,15 +239,15 @@ if = {
 }
 
 set_politics = {
-	ruling_party = gongtuanzhuyi
+	ruling_party = GuongTuanZHuYi
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	gongtuanzhuyi = 50
-	wuzhengfugongchanzhuyi = 50
+	GuongTuanZHuYi = 50
+	WuZHengFuGuongCHanZHuYi = 50
 }
 
 set_convoys = 100

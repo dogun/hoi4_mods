@@ -82,11 +82,11 @@
  #中立
  FER_neutrality_ADJ: "沙皇国"
  #中立
- FER_gongtuanzhuyi: "远东自由苏维埃"
+ FER_GuongTuanZHuYi: "远东自由苏维埃"
  #萨布林
- FER_gongtuanzhuyi_DEF: "远东自由苏维埃"
+ FER_GuongTuanZHuYi_DEF: "远东自由苏维埃"
  #萨布林
- FER_gongtuanzhuyi_ADJ: "布里亚特"
+ FER_GuongTuanZHuYi_ADJ: "布里亚特"
  #萨布林
  
  FER_SOV_communism_subject: "远东苏维埃共和国"
@@ -153,8 +153,8 @@
  SOV_autonomy_supervised_state: "$OVERLORDADJ$属俄罗斯托管地"
  SOV_autonomy_supervised_state_DEF: "$OVERLORDADJ$属俄罗斯托管地"
  
- CAN_wuzhengfugongchanzhuyi: "加拿大自由邦"
- CAN_gongtuanzhuyi: "加拿大自由邦"
+ CAN_WuZHengFuGuongCHanZHuYi: "加拿大自由邦"
+ CAN_GuongTuanZHuYi: "加拿大自由邦"
  
  PMN: "南瓜第二帝国"
  PMN_DEF: "南瓜第二帝国"
@@ -240,17 +240,17 @@
  #共产
  BeiMei_G_communism_ADJ: "北美"
  #共产
- BeiMei_GCAN_wuzhengfugongchanzhuyi: "北美自由邦"
+ BeiMei_GCAN_WuZHengFuGuongCHanZHuYi: "北美自由邦"
  #安康
- BeiMei_G_wuzhengfugongchanzhuyi_DEF: "北美自由邦"
+ BeiMei_G_WuZHengFuGuongCHanZHuYi_DEF: "北美自由邦"
  #安康
- BeiMei_G_wuzhengfugongchanzhuyi_ADJ: "北美"
+ BeiMei_G_WuZHengFuGuongCHanZHuYi_ADJ: "北美"
  #安康
- BeiMei_G_gongtuanzhuyi: "北美自由邦"
+ BeiMei_G_GuongTuanZHuYi: "北美自由邦"
  #工团
- BeiMei_G_gongtuanzhuyi_DEF: "北美自由邦"
+ BeiMei_G_GuongTuanZHuYi_DEF: "北美自由邦"
  #工团
- BeiMei_G_gongtuanzhuyi_ADJ: "北美"
+ BeiMei_G_GuongTuanZHuYi_ADJ: "北美"
  #工团
  BeiMei_G_subject: "$OVERLORDADJ$属北美"
  #傀儡

@@ -46,7 +46,7 @@ set_convoys = 100
 
 set_politics = {
 	ruling_party = MinZuSHeHuiZHuYi
-	last_election = "0000.00.00.00"
+	last_election = "1850.01.01.01"
 	election_frequency = 9999
 	elections_allowed = no
 }

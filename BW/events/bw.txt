@@ -335,7 +335,7 @@ country_event = { #菲利普去世
 	}
 	option = {
 		name = bw.15.a  #哦不
-			kill_ideology_leader = gongtuanzhuyi
+			kill_ideology_leader = GuongTuanZHuYi
 			recruit_character = CAN_evelina
 			hidden_effect = {
 				CAN = {
@@ -367,7 +367,7 @@ country_event = { #政局不稳
 		name = bw.16.b  #黑军的时代结束了，苏维埃的时代开始了
 			add_stability = -0.05
 			set_politics = {
-				ruling_party = wuzhengfugongchanzhuyi
+				ruling_party = WuZHengFuGuongCHanZHuYi
 		}
 	}
 }
