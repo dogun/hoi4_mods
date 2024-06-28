@@ -1,0 +1,92 @@
+﻿division_template = {
+#编制
+	name = "自由军团"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 2 y = 2 }
+	}
+	support = {
+#支援连
+	recon = { x = 0 y = 0}
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "自由军团"
+#名称
+		location = 3535
+#位置 ###ps：要写地块
+		division_template = "自由军团"
+#编制
+		start_experience_factor = 0.4
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "自由军团"
+#名称
+		location = 514
+#位置 ###ps：要写地块
+		division_template = "自由军团"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "自由军团"
+#名称
+		location = 9535
+#位置 ###ps：要写地块
+		division_template = "自由军团"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "自由军团"
+#名称
+		location = 9441
+#位置 ###ps：要写地块
+		division_template = "自由军团"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "自由军团"
+#名称
+		location = 425
+#位置 ###ps：要写地块
+		division_template = "自由军团"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+}

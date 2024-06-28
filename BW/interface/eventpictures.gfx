@@ -3603,6 +3603,22 @@ spriteTypes = {
 		name = "GFX_idea_SuGeLanFanDuiPai"
 		texturefile = "gfx/interface/ideas/苏格兰反对派.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_ZiYouJunTuan"
+		texturefile = "gfx/interface/ideas/自由军团（R）.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_QvanGuoXingJingJiTanHuan"
+		texturefile = "gfx/interface/ideas/全国性经济瘫痪.png"
+	}
+		SpriteType = {
+		name = "GFX_idea_SHeMinDangFanDuiPai"
+		texturefile = "gfx/interface/ideas/社民党反对派.png"
+	}
+		SpriteType = {
+		name = "GFX_idea_FaErSaiTiaoYueDeYvBo"
+		texturefile = "gfx/interface/ideas/法尔赛条约的遗产（RR）.png"
+	}
 }
 
 

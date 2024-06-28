@@ -17,3 +17,6 @@ GSK = "countries/GSK - 北高加索山区共和国.txt"
 PAU = "countries/PAU - 乌克兰黑军（乌克兰革命起义军）.txt"BPN - 黑人起义
 BPN = "countries/BPN - 黑人起义.txt"
 LAP = "countries/LAP - 拉普拉塔先锋国.txt"
+GLR = "countries/GLR - 德意志自由主义者起义.txt"
+SSU = "countries/SSU - “国”（投机者联盟）.txt"
+AIL = "countries/AIL - 拉丁解放军.txt"

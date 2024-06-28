@@ -24,6 +24,7 @@
  STATE_979: "新罗西斯克"
  STATE_980: "索契"
  STATE_981: "巴统"
+ STATE_982: "巴登"
  STATE_5: "埃姆兰"
  STATE_233:0 "索契山区"
  
@@ -366,6 +367,17 @@
  bw_GSR_XiongDiXiQiang: "兄弟阋墙"
  bw_GSR_XiongDiXiQiang_desc: " "
  
+ bw_GSR_ZiYouJunTuan: "自由军团"
+ bw_GSR_ZiYouJunTuan_desc: "自由军团原本是雇佣兵，但在德国内战以后就因其支持纳粹的政治立场改组为反政府武装。"
+ 
+ bw_GSR_QvanGuoXingJingJiTanHuan: "全国性经济瘫痪"
+ bw_GSR_QvanGuoXingJingJiTanHuan_desc: "内战和社民党的反对导致经济瘫痪。"
+ 
+ bw_GSR_SHeMinDangFanDuiPai: "社民党反对派"
+ bw_GSR_SHeMinDangFanDuiPai_desc: "社民党反对我们的专制统治，他们时刻都有可能脱离国家统治。"
+ 
+ bw_GSR_FaErSaiTiaoYueDeYvBo: "法尔赛条约的余波"
+ bw_GSR_FaErSaiTiaoYueDeYvBo_desc: "虽然我们撕毁了法尔赛条约，但军队还受他们影响。"
  
  # # #奥地利
  
@@ -631,6 +643,15 @@
  bw_American_Civil_War.10.t: "总督辖区的崩溃"
  bw_American_Civil_War.10.d: ""
  bw_American_Civil_War.10.a: "不！！！" #BU======
+ 
+ # # #GSR
+ 
+ bw_GSR.1: "西里西亚社民党游行"
+ bw_GSR.1.t: "西里西亚社民党游行"
+ bw_GSR.1.d: "粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！"
+ bw_GSR.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？
+ bw_GSR.1.b: "粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）"
+ 
  # # #疯子希特勒
  
  bw_GER_XiTeLe.1: "疯子"
@@ -746,6 +767,24 @@
  HunLuanDeZHengFu: "混乱的政府"
  RN_JieJin: "解禁国民联盟"
  
+ GSR_DeGuoNeiZHan: "德国内战"
+ GSR_ZHaoJiGuoJiZongDui: "召集国际纵队"
+ 
+ GER_DeGuoNeiZHan: "德国内战"
+ GER_ZHengHeBaDengFuTengBao: "整合巴登-符腾堡"
+ GER_ZHengHeLaiYinLan: "整合莱茵兰"
+ GER_ZHengHeBuLaiMeiJiZHoBian: "整合不来梅及周边"
+ GER_ZHengHeXILiXiYa: "整合西里西亚"
+ GER_ZHengHeSaKeSen: "整合萨克森"
+ GER_ZHengHeTuLinGen: "整合图林根"
+ GER_ZHengHeBoLanDengBao: "整合勃兰登堡"
+ GER_ZHengHeBoLanDengBaoZHoBian: "整合勃兰登堡周边"
+ GER_ZHengHeMeiKeLuenBaoJiZHoBian: "整合梅克伦堡及周边"
+ GER_ZHengHeHanNuoWei: "整合汉诺威"
+ GER_ZHengHeWeiSiTeFaLiYa: "整合威斯特伐利亚"
+ GER_ZHengHeHeiSen: "整合黑森"
+ GER_ZHengHeHeErSiTaiYin: "整合赫尔斯泰因"
+ 
  #国策
  
  # # #大不列颠
@@ -763,7 +802,7 @@
  # # #德国
  
  GER_YuanSHou: "元首"
- GER_YuanSHou_desc: ""
+ GER_YuanSHou_desc: "给洗头老加个baff，随便讲一下剧情，点就完了，反正不点也没法继续"
  
  GER_WaiJiaoBu: "外交部"
  GER_WaiJiaoBu_desc: "新生的德国，得有一个外交部，虽然没什么用，\n但它可以用来外交谈判、改善关系、同盟等……\n好吧，他确实没什么用。"

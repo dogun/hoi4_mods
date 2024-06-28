@@ -1,0 +1,25 @@
+state={
+	id=981
+	name="STATE_981"
+	manpower = 983137
+	
+	state_category = rural
+	
+	history=
+	{
+#		victory_points = {
+#			577 1 
+#		}
+		owner = TUR
+		buildings = {
+
+		}
+		add_core_of = TUR
+		add_core_of = GEO
+	}
+	provinces={
+		654 772 3653 9626 3658 3656
+	}
+
+	local_supplies=0.0 
+}

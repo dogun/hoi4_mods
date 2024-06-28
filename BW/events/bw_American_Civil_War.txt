@@ -346,8 +346,8 @@ country_event = { #德克萨斯独立
 				target = CSA
 				type = civil_war
 			}
-		ROT = { change_tag_from = ROOT }
 		}
+		ROT = { change_tag_from = ROOT }
 	}
 }
 
@@ -538,6 +538,54 @@ country_event = { #总督辖区的崩溃
 				transfer_state = 302
 				add_state_core = 302
 			}
+			SSU = {
+				transfer_state = 947
+				add_state_core = 947
+				transfer_state = 492
+				add_state_core = 492
+				transfer_state = 303
+				add_state_core = 303
+				transfer_state = 494
+				add_state_core = 494
+				transfer_state = 940
+				add_state_core = 940
+				transfer_state = 487
+				add_state_core = 487
+				transfer_state = 942
+				add_state_core = 942
+			}
+			AIL = {
+				transfer_state = 280
+				add_state_core = 280
+				transfer_state = 505
+				add_state_core = 505
+				transfer_state = 496
+				add_state_core = 496
+				transfer_state = 943
+				add_state_core = 943
+				transfer_state = 500
+				add_state_core = 500
+				transfer_state = 501
+				add_state_core = 501
+				transfer_state = 504
+				add_state_core = 504
+				transfer_state = 301
+				add_state_core = 301
+				transfer_state = 944
+				add_state_core = 944
+				transfer_state = 503
+				add_state_core = 503
+				transfer_state = 502
+				add_state_core = 502
+				transfer_state = 510
+				add_state_core = 510
+				transfer_state = 946
+				add_state_core = 946
+				transfer_state = 945
+				add_state_core = 945
+				transfer_state = 300
+				add_state_core = 300
+			}
 			annex_country = {
 				target = ADS
 				transfer_troops = yes
@@ -545,7 +593,7 @@ country_event = { #总督辖区的崩溃
 			annex_country = {
 				target = ANT
 				transfer_troops = yes
-			#}
+			}
 		}
 	}
 }

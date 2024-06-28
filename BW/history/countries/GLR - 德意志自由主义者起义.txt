@@ -1,0 +1,53 @@
+﻿capital = 66
+	#set_oob = "GER_bw"
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+# starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	#infantry_weapons1 = 1
+	gw_artillery = 1
+}
+
+set_variable = { var = ger_gateway_to_europe_influence value = 0 }
+
+set_variable = { var = wehrmacht_anger value = 0 }
+set_variable = { var = ss_anger value = 0 }
+set_variable = { GER_narvik_shipments = 0 }
+set_variable = { GER_narvik_civs = 0 }
+set_research_slots = 4
+set_convoys = 200
+set_stability = 0.75 
+set_war_support = 0.3
+
+set_politics = {
+	ruling_party = SHeHuiMinZHuZHuYi
+	last_election = "1935.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	SHeHuiMinZHuZHuYi = 60
+	GuDianZiYouZHuYi = 40
+}
+
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+	bw_GSR_RongKeGuiZu
+}
+
+
+declare_war_on = {
+	target = GSR
+	type = civil_war
+}
+#give_guarantee = ALB
+
+set_cosmetic_tag = GER_LinSHiZHengFu

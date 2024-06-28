@@ -1,0 +1,554 @@
+﻿division_template = {
+#编制
+	name = "斯巴达克同盟"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+		
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+	support = {
+#支援连
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+#编制
+	name = "国防军"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+#支援连
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+#编制
+	name = "国际纵队"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = {
+#支援连
+
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "红军第Ⅰ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅱ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅲ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅳ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅴ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅵ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅶ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅷ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅸ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅹ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "红军第Ⅺ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "斯巴达克同盟"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+###
+	division = {
+#部队
+		name = "国防军第Ⅰ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅱ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅲ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅳ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅴ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅵ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅶ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅷ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅸ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅹ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅺ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第Ⅻ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第ⅩⅢ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第ⅩⅣ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第ⅩⅤ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第ⅩⅥ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国防军第ⅩⅦ军"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国防军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+#	division = {
+#部队
+#		name = "国防军第ⅩⅧ军"
+#名称
+#		location = 6521
+#位置 ###ps：要写地块
+#		division_template = "国防军"
+#编制
+#		start_experience_factor = 0.4
+#经验
+#	}
+
+#	division = {
+#部队
+#		name = "国防军第ⅩⅨ军"
+#名称
+#		location = 6521
+#位置 ###ps：要写地块
+#		division_template = "国防军"
+#编制
+#		start_experience_factor = 0.4
+#经验
+#	}
+
+#	division = {
+#部队
+#		name = "国防军第ⅩⅩ军"
+#名称
+#		location = 6521
+#位置 ###ps：要写地块
+#		division_template = "国防军"
+#编制
+#		start_experience_factor = 0.4
+#经验
+#	}
+
+#	division = {
+#部队
+#		name = "国防军第ⅩⅪ军"
+#名称
+#		location = 6521
+#位置 ###ps：要写地块
+#		division_template = "国防军"
+#编制
+#		start_experience_factor = 0.4
+#经验
+#	}
+
+#	division = {
+#部队
+#		name = "国防军第ⅩⅫ军"
+#名称
+#		location = 6521
+#位置 ###ps：要写地块
+#		division_template = "国防军"
+#编制
+#		start_experience_factor = 0.4
+#经验
+#	}
+
+#	division = {
+#部队
+#		name = "国防军第ⅩⅩⅠ军"
+#名称
+#		location = 6521
+#位置 ###ps：要写地块
+#		division_template = "国防军"
+#编制
+#		start_experience_factor = 0.4
+#经验
+#	}
+###
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+}

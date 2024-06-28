@@ -1,4 +1,4 @@
-﻿capital = 371
+﻿capital = 279
 #	set_oob = "GER_bw"
 
 starting_train_buffer = 2

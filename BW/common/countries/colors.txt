@@ -1,5 +1,20 @@
 #reload countrycolors
 
+AIL = {
+	color = rgb { 100 0 0 } #77 0 0 #40 0 0
+	color_ui = rgb { 100 0 0 }
+}
+
+SSU = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+GLR = {
+	color = rgb { 255 207 0 }
+	color_ui = rgb { 255 207 0 }
+}
+
 LAP = {
 	color = rgb { 224 224 224 }
 	color_ui = rgb { 224 224 224 }

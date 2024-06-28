@@ -1,0 +1,37 @@
+﻿units = {
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "国际纵队"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "国际纵队"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+}

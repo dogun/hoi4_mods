@@ -1,0 +1,735 @@
+focus_tree = {
+	id = FocusTree_GSR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GSR
+		}
+	}
+
+	continuous_focus_position = { x = 1350 y = 1750 }
+
+	default = no
+	focus = {
+		id = 德国红军
+		icon = GFX_goal_generic_air_production
+		cost = 5.00
+		x = 2
+		y = 0
+
+	}
+	focus = {
+		id = 希特勒的末日
+		icon = GFX_goal_generic_major_war
+		cost = 1.00
+		mutually_exclusive = {
+			focus = 好，投降
+		}
+		x = 13
+		y = 1
+		completion_reward = {
+			add_timed_idea = {
+				idea = bw_GSR_FenSuiXiTeLe
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = 好，投降
+		icon = GFX_goal_anti_comintern_pact
+		cost = 1.00
+		mutually_exclusive = {
+			focus = 希特勒的末日
+		}
+		x = 18
+		y = 1
+		completion_reward = {
+			GER = {
+				annex_country = {
+					target = GSR
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = 吸取苏俄红军经验
+		icon = GFX_goal_generic_major_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = 德国红军
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = 重建轮役制度
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 5.00
+		prerequisite = {
+			focus = 吸取苏俄红军经验
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = 德意志特色红军
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 重建轮役制度
+		}
+		mutually_exclusive = {
+			focus = 人民军队
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = 陆军改革
+		icon = GFX_goal_generic_army_doctrines
+		cost = 5.00
+		prerequisite = {
+			focus = 吸取苏俄红军经验
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = 陆军武器研发
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 德国红军
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = 进行坦克研发
+		icon = GFX_goal_generic_army_tanks
+		cost = 8.00
+		prerequisite = {
+			focus = 陆军武器研发
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = 与苏联交换经验
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 5.00
+		prerequisite = {
+			focus = 进行坦克研发
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = 新红军
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 5.00
+		prerequisite = {
+			focus = 陆军改革
+		}
+		prerequisite = {
+			focus = 与苏联交换经验
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = 轻武器
+		icon = GFX_goal_generic_army_artillery
+		cost = 5.00
+		prerequisite = {
+			focus = 陆军武器研发
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = 建设特种部队
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 陆军武器研发
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = 伞兵师
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 建设特种部队
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = 第一届苏维埃大会
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 希特勒的末日
+		}
+		x = 13
+		y = 3
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = 采取台尔曼方案
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 第一届苏维埃大会
+		}
+		mutually_exclusive = {
+			focus = 与共产国际派妥协
+		}
+		x = 13
+		y = 5
+		completion_reward = {
+			add_popularity = {
+				ideology = MaKeSi_LieNingZHuYi
+				popularity = 0.25
+			}
+		}
+	}
+	focus = {
+		id = 粉碎私有制
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5.00
+		prerequisite = {
+			focus = 采取台尔曼方案
+		}
+		x = 11
+		y = 7
+		completion_reward = {
+			remove_ideas = bw_GSR_RongKeGuiZu
+		}
+	}
+	focus = {
+		id = 人民军队
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 粉碎私有制
+		}
+		prerequisite = {
+			focus = 新红军
+		}
+		mutually_exclusive = {
+			focus = 德意志特色红军
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = 中欧同盟计划
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 粉碎私有制
+		}
+		x = 9
+		y = 9
+		completion_reward = {
+			create_faction = 中欧同盟
+		}
+	}
+	focus = {
+		id = 七省联盟的余波
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 中欧同盟计划
+		}
+		x = 6
+		y = 12
+
+	}
+	focus = {
+		id = 鼓动捷克
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 中欧同盟计划
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = 开设公立学院
+		icon = GFX_focus_research
+		cost = 5.00
+		prerequisite = {
+			focus = 采取台尔曼方案
+		}
+		x = 13
+		y = 7 #8
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+#	focus = {
+#		id = 核武研究
+#		icon = GFX_focus_wonderweapons
+#		cost = 5.00
+#		prerequisite = {
+#			focus = 开设公立学院
+#		}
+#		x = 12
+#		y = 9
+#
+#	}
+	focus = {
+		id = 对奥地利政府发出最后通牒
+		icon = GFX_goal_demand_sudetenland
+		cost = 5.00
+		prerequisite = {
+			focus = 粉碎私有制
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = 在奥地利散播革命
+		icon = GFX_goal_generic_demand_territory
+		cost = 1.00
+		prerequisite = {
+			focus = 对奥地利政府发出最后通牒
+		}
+		mutually_exclusive = {
+			focus = 兄弟阋墙
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = 两面红旗
+		icon = GFX_goal_anschluss
+		cost = 5.00
+		prerequisite = {
+			focus = 在奥地利散播革命
+		}
+		prerequisite = {
+			focus = 中欧同盟计划
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = 德奥合并
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 5.00
+		prerequisite = {
+			focus = 在奥地利散播革命
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = 兄弟阋墙
+		icon = GFX_goal_generic_military_deal
+		cost = 1.00
+		prerequisite = {
+			focus = 对奥地利政府发出最后通牒
+		}
+		mutually_exclusive = {
+			focus = 在奥地利散播革命
+		}
+		x = 20
+		y = 9
+		completion_reward = {
+			add_timed_idea = {
+				idea = bw_GSR_XiongDiXiQiang
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = 俾斯麦行动
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 3.00
+		prerequisite = {
+			focus = 兄弟阋墙
+		}
+		x = 20
+		y = 11
+		completion_reward = {
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = 消除德奥隔阂
+		icon = GFX_goal_generic_national_unity
+		cost = 5.00
+		prerequisite = {
+			focus = 德奥合并
+		}
+		prerequisite = {
+			focus = 俾斯麦行动
+		}
+		x = 18
+		y = 12
+		completion_reward = {
+			custom_effect_tooltip = 获得奥地利全境核心
+			hidden_effect = {
+				add_state_core = 848
+				add_state_core = 153
+				add_state_core = 152
+				add_state_core = 4
+				add_state_core = 102
+				add_state_core = 853
+			}
+		}
+	}
+	focus = {
+		id = 与共产国际派妥协
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 第一届苏维埃大会
+		}
+		mutually_exclusive = {
+			focus = 采取台尔曼方案
+		}
+		x = 29
+		y = 5
+		completion_reward = {
+			set_politics = {
+				ruling_party = SiDaLingZHuYi
+			}
+		}
+	}
+	focus = {
+		id = 宣称德二领土
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 与共产国际派妥协
+		}
+		x = 26
+		y = 7
+		completion_reward = {
+			add_state_core = 909
+			add_state_core = 912
+
+			add_state_core = 63
+			add_state_core = 807
+			add_state_core = 5
+			add_state_core = 971
+			add_state_core = 763
+			add_state_core = 188
+			add_state_core = 85
+			add_state_core = 86
+			add_state_core = 762
+
+			add_state_core = 28
+			add_state_core = 974
+		}
+	}
+	focus = {
+		id = 加入共产国际
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 与共产国际派妥协
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = 斯大林的朋友
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 加入共产国际
+		}
+		x = 28
+		y = 9
+
+	}
+	focus = {
+		id = 斯大林的傀儡
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 加入共产国际
+		}
+		x = 30
+		y = 9
+
+	}
+	focus = {
+		id = 海的那边
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 中欧的统一
+		}
+		x = 9
+		y = 21
+		completion_reward = {
+			declare_war_on = {
+				target = CSA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = 中欧的统一
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 经济统一
+		}
+		prerequisite = {
+			focus = 政治统一
+		}
+		prerequisite = {
+			focus = 军事统一
+		}
+		x = 9
+		y = 17
+		completion_reward = {
+			set_cosmetic_tag = GSR_ZHonOu
+
+
+			add_state_core = 909
+			add_state_core = 912
+
+			add_state_core = 63
+			add_state_core = 807
+			add_state_core = 5
+			add_state_core = 971
+			add_state_core = 763
+			add_state_core = 188
+			add_state_core = 85
+			add_state_core = 86
+			add_state_core = 762
+
+			add_state_core = 28
+			add_state_core = 974
+
+			add_state_core = 69
+			add_state_core = 9
+			add_state_core = 75
+			add_state_core = 74
+
+			add_state_core = 973
+			add_state_core = 17
+
+			add_state_core = 845
+			add_state_core = 3
+			add_state_core = 636
+#			add_state_core = 20
+			add_state_core = 151
+			add_state_core = 846
+
+			add_state_core = 735
+			add_state_core = 851
+
+			add_state_core = 158
+			add_state_core = 159
+			add_state_core = 850
+			add_state_core = 39
+			add_state_core = 160
+			add_state_core = 161
+			add_state_core = 162
+			add_state_core = 736
+			add_state_core = 852
+
+			add_state_core = 8
+			add_state_core = 972
+			add_state_core = 34
+			add_state_core = 6
+			add_state_core = 35
+			add_state_core = 7
+			add_state_core = 36
+		}
+	}
+	focus = {
+		id = 经济统一
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = 谅解备忘录
+		}
+		x = 9
+		y = 16
+		completion_reward = {
+			custom_effect_tooltip = 没啥用
+		}
+	}
+	focus = {
+		id = 政治统一
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = 谅解备忘录
+		}
+		x = 6
+		y = 16
+		completion_reward = {
+			custom_effect_tooltip = 没啥用
+		}
+	}
+	focus = {
+		id = 军事统一
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = 谅解备忘录
+		}
+		x = 12
+		y = 16
+		completion_reward = {
+			custom_effect_tooltip = 没啥用
+		}
+	}
+	focus = {
+		id = 中欧一体化法案
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 两面红旗
+			focus = 消除德奥隔阂
+		}
+		prerequisite = {
+			focus = 北上
+		}
+		prerequisite = {
+			focus = 摧毁资本主义壁垒
+		}
+		prerequisite = {
+			focus = 法西斯的末日
+		}
+		prerequisite = {
+			focus = 鼓动捷克
+		}
+		x = 9
+		y = 14
+
+	}
+	focus = {
+		id = 谅解备忘录
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 中欧一体化法案
+		}
+		x = 9
+		y = 15
+		completion_reward = {
+			custom_effect_tooltip = 没啥用
+		}
+	}
+	focus = {
+		id = 西方共产主义壁垒
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 中欧的统一
+		}
+		x = 11
+		y = 19
+
+	}
+	focus = {
+		id = 法西斯的末日
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 向东革命
+		}
+		x = 10
+		y = 12
+		completion_reward = {
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = 摧毁资本主义壁垒
+		icon = GFX_goal_generic_military_sphere
+		cost = 5.00
+		prerequisite = {
+			focus = 七省联盟的余波
+		}
+		x = 8
+		y = 13
+		completion_reward = {
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SWI
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = 北上
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 向东革命
+		}
+		x = 11
+		y = 13
+
+	}
+	focus = {
+		id = 向东革命
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 中欧同盟计划
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = 开启五年计划
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 与共产国际派妥协
+		}
+		x = 32
+		y = 7
+
+	}
+}

@@ -28,6 +28,10 @@ country_event = { #魏玛政府倒台
 				target = GSR
 				transfer_troops = no
 			}
+			annex_country = {
+				target = GLR
+				transfer_troops = no
+			}
 			remove_ideas = bw_LinSHiZHengFu
 			remove_country_leader_trait = nationalist_symbol
 #			set_cosmetic_tag = De3_G

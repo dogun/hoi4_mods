@@ -1,0 +1,778 @@
+GER_DeGuoNeiZHan = {
+#决议组id
+	GER_ZHengHeBaDengFuTengBao = {	#整合巴登-符腾堡
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 50
+			controls_state = 982
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 50
+			add_state_core = 982
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 50
+			}
+		}
+		on_map_mode = map_only
+#		highlight_states = {
+#			highlight_color_before_active = { 255 255 0 }
+#			highlight_state_targets = { state = 50 }
+#			highlight_state_targets = { state = 982 }
+#			highlight_provinces = { 50 982 }
+#		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 50
+				state = 982
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeLaiYinLan = {	#整合莱茵兰
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 42
+			controls_state = 51
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 42
+			add_state_core = 51
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 42
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 42
+				state = 51
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeBuLaiMeiJiZHoBian = {	#不来梅及周边
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 976
+			controls_state = 975
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 976
+			add_state_core = 975
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 976
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 976
+				state = 975
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeXILiXiYa = {	#整合西里西亚
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 66
+			controls_state = 67
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 66
+			add_state_core = 67
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 66
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 66
+				state = 67
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeSaKeSen = {	#整合萨克森
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 65
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 65
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 65
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 65
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeTuLinGen = {	#整合图林根
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 60
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 60
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 60
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 60
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeBoLanDengBao = {	#整合勃兰登堡
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 64
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 64
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 64
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 64
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeMeiKeLuenBaoJiZHoBian = {	#整合梅克伦堡及周边
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 61
+			controls_state = 62
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 61
+			add_state_core = 62
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 61
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 61
+				state = 62
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeWeiSiTeFaLiYa = {	#整合威斯特伐利亚
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 57
+			controls_state = 56
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 57
+			add_state_core = 56
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 57
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 57
+				state = 56
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeHanNuoWei = {	#整合汉诺威
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 59
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 59
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 59
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 59
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeHeiSen = {	#整合黑森
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 55
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 55
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 55
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 55
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeBoLanDengBaoZHoBian = {	#整合勃兰登堡周边
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 68
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 68
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 68
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 68
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+	GER_ZHengHeHeErSiTaiYin = {	#整合赫尔斯泰因
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			controls_state = 58
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+			add_state_core = 58
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 58
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 58
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+
+###
+
+	GER_GuoYouHuaZiYouJiuTuan = {	#国有化自由军团
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+#			controls_state = 65
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		days_remove = 10 
+		remove_effect = { 
+				custom_effect_tooltip = 在萨克森生成5个六骑
+				hidden_effect = {
+					load_oob = "GER_ZiYouJiuTuan"
+				}
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 65
+			}
+		}
+#		on_map_mode = map_only
+		highlight_states = {
+			highlight_state_targets = {
+				state = 65
+			}
+		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 1
+			modifier = {
+				factor = 99999
+				controls_state = 65
+			}
+		}
+	}
+
+}

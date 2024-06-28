@@ -1,0 +1,42 @@
+GSR_DeGuoNeiZHan = {
+#决议组id
+	GSR_ZHaoJiGuoJiZongDui = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+days_re_enable = 30
+		visible = {
+#展示条件
+			original_tag = GSR
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_manpower = 1000
+			custom_effect_tooltip = 在柏林生成3个国际纵队
+			hidden_effect = {
+				load_oob = "GSR_GuoJiZongDui"
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+		}
+	}
+}

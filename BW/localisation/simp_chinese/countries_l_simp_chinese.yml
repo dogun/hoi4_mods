@@ -578,15 +578,15 @@
  
  #中欧
  
- GSR: "中欧"
+ GSR_ZHonOu: "中欧"
  #通用
- GSR_DEF: "中欧"
+ GSR_ZHonOu_DEF: "中欧"
  #通用
- GSR_ADJ: "中欧"
+ GSR_ZHonOu_ADJ: "中欧"
  #通用
- GSR_autonomy_puppet: "$OVERLORDADJ$属中欧"
+ GSR_ZHonOu_autonomy_puppet: "$OVERLORDADJ$属中欧"
  #傀儡
- GSR_autonomy_puppet_DEF: "$OVERLORDADJ$属中欧"
+ GSR_ZHonOu_autonomy_puppet_DEF: "$OVERLORDADJ$属中欧"
  #傀儡
  
  GSR_ZHonOu_fascism: "大中欧骑士团"
@@ -6790,12 +6790,52 @@
  #通用
  LAP_subject: "$OVERLORDADJ$属拉普拉塔"
  #傀儡
- URA_subject_DEF: "$OVERLORDADJ$属拉普拉塔"
+ LAP_subject_DEF: "$OVERLORDADJ$属拉普拉塔"
  #傀儡
  
  LAP_JiaSuZHuYi: "拉普拉塔先锋国"
- #古典自由主义
+ #加速主义
  LAP_JiaSuZHuYi_DEF: "拉普拉塔先锋国"
- #古典自由主义
+ #加速主义
  LAP_JiaSuZHuYi_ADJ: "拉普拉塔"
- #古典自由主义
+ #加速主义
+ 
+ #国
+ 
+ SSU: ""
+ #通用
+ SSU_DEF: ""
+ #通用
+ SSU_ADJ: ""
+ #通用
+ SSU_subject: "$OVERLORDADJ$属北安第斯-玻利维亚"
+ #傀儡
+ SSU_subject_DEF: "$OVERLORDADJ$属北安第斯-玻利维亚"
+ #傀儡
+ 
+ SSU_JiaZHangZHi: "“国”"
+ #家长制
+ SSU_JiaZHangZHi_DEF: "“国”"
+ #家长制
+ SSU_JiaZHangZHi_ADJ: "“国”"
+ #家长制
+ 
+ #拉丁解放军
+ 
+ AIL: "里奥格兰德"
+ #通用
+ AIL_DEF: "里奥格兰德"
+ #通用
+ AIL_ADJ: "里奥格兰德"
+ #通用
+ AIL_subject: "$OVERLORDADJ$属里奥格兰德"
+ #傀儡
+ AIL_subject_DEF: "$OVERLORDADJ$属里奥格兰德"
+ #傀儡
+ 
+ AIL_JunZHengGuongCHanZHuYi: "拉丁解放军"
+ #军政共产主义
+ AIL_JunZHengGuongCHanZHuYi_DEF: "拉丁解放军"
+ #军政共产主义
+ AIL_JunZHengGuongCHanZHuYi_ADJ: "拉丁解放军"
+ #军政共产主义
