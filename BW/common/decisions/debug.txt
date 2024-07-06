@@ -1,0 +1,42 @@
+debug = {
+#决议组id
+	KaiQiYvLeMoSHi = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		visible = {
+#展示条件
+			is_debug = yes
+			NOT = {
+				has_variable = KaiQiYvLeMoSHi
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			set_variable = { KaiQiYvLeMoSHi = 100 }
+		}
+
+		ai_will_do = {
+#这个也不知道有啥用（教程没讲）
+			factor = 0
+		}
+	}
+
+}

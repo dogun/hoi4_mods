@@ -1,5 +1,24 @@
 ﻿l_simp_chinese:
  
+ #意识形态漂移
+ 
+ WuZHengFuGuongCHanZHuYi_drift: "每日无政府共产主义支持率"
+ GuongTuanZHuYi_drift: "每日工团主义主义支持率"
+ MaKeSi_LieNingZHuYi_drift: "每日马克思 - 列宁主义支持率"
+ TuoLuoSiJiZHuYi_drift: "每日托洛斯基主义支持率"
+ SiDaLingZHuYi_drift: "每日斯大林主义支持率"
+ YuanSHiZHuYi_drift: "每日远视主义支持率"
+ JunZHengGuongCHanZHuYi_drift: "每日军政共产主义主义支持率"
+ JunZHuBuErSHiWeiKe_drift: "每日君主布尔什维克支持率"
+ GuDianZiYouZHuYi_drift: "每日古典自由主义支持率"
+ SHeHuiMinZHuZHuYi_drift: "每日社会民主主义支持率"
+ MinZHuSHeHuiZHuYi_drift: "每日民主社会主义支持率"
+ SHeHuiFaXiSi_drift: "每日远社会法西斯支持率"
+ SiTeLaSeZHuYi_drift: "每日远斯特拉瑟义支持率"
+ FaXiSiZHuYi_drift: "每日法西斯主义支持率"
+ MinZuSHeHuiZHuYi_drift: "每日民族社会主义支持率"
+ YuanSHiZHuYi_drift: "每日远视主义支持率"
+ 
  #意识形态
  
  # # #左翼

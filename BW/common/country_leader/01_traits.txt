@@ -59,5 +59,31 @@ leader_traits = {
 		political_power_factor = 0.1
 		army_core_attack_factor = 0.05
 	}
-	
+
+#顾问
+
+	fascist_demagogue = {
+		random = no
+		sprite = 13
+		MinZuSHeHuiZHuYi_drift = 0.1
+	}
+
+	communist_revolutionary = {
+		random = no
+		sprite = 13
+		MaKeSi_LieNingZHuYi_drift = 0.1
+	}
+
+	SHaHuangZuiZHongCHengDeJinWeiBing = {
+		random = no
+		sprite = 13
+		JunZHuZHuYi_drift = 0.1
+		stability_factor = 0.1
+		intelligence_agency_defense = 0.1
+		root_out_resistance_effectiveness_factor = 0.1
+		encryption_power = 1
+	}
+
 }
+
+

@@ -1,0 +1,13 @@
+LEC_jang_qingz_dadl_decisions = {
+#决议组id
+	icon = GFX_decision_cat_annexation
+#图片
+	picture = GFX_decision_cat_picture_annexation
+#不知道有啥用，最好和id一样
+	allowed = {
+		original_tag =YUN
+#国家
+	}
+	priority = 100
+#位置，越大越上，越小越下
+}

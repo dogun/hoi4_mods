@@ -3611,14 +3611,27 @@ spriteTypes = {
 		name = "GFX_idea_QvanGuoXingJingJiTanHuan"
 		texturefile = "gfx/interface/ideas/全国性经济瘫痪.png"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_idea_SHeMinDangFanDuiPai"
 		texturefile = "gfx/interface/ideas/社民党反对派.png"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_idea_FaErSaiTiaoYueDeYvBo"
 		texturefile = "gfx/interface/ideas/法尔赛条约的遗产（RR）.png"
 	}
+	# # #单位
+	spriteType = { 
+		name = "GFX_unit_QianHaoBuBing_icon_medium"				 
+		TextureFile = "gfx/interface/counters/divisions_large/堑壕步兵_icon.dds"
+		noOfFrames = 2 
+	}
+   spriteType = {
+     name = "GFX_unit_QianHaoBuBing_icon_medium_white"			
+     TextureFile = "gfx/interface/counters/divisions_small/onmap_unit_堑壕步兵_icon.dds"
+     noOfFrames = 2
+   }
+  
+
 }
 
 

@@ -83,23 +83,25 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = JunZHuZHuYi
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 40
+	JunZHuZHuYi = 40
 	SiDaLingZHuYi = 10
-	MaKeSi_LieNingZHuYi = 5
-	communism = 15
-	junzhengfu = 30
+	MaKeSi_LieNingZHuYi = 10
+	WuZHengFuGuongCHanZHuYi = 10
+	JiaZHangZHi = 30
 }
 
 set_power_balance = {
 id = FER_Tsar_KBKV
 }
 
+recruit_character = FER_Nikolay_II
+recruit_character = FER_Taboritsky
 
-
+recruit_character = FER_TABI

@@ -332,7 +332,6 @@
  
  # # #GER
  
- 
  bw_GER_TongYiDeDeYiZH: "统一的德意志"
  bw_GER_TongYiDeDeYiZH_desc: " "
  
@@ -384,6 +383,36 @@
  bw_AUS_Third_Way: "第三条路"
  
  bw_AUS_GongHeGuoDeYiCHan: "共和国的遗产"
+ 
+ # # #通用
+ 
+ bw_JiTiZHuYiJingSHen: "集体主义精神"
+ bw_JiTiZHuYiJingSHen_desc: "我们的敌人或许能分裂并征服那些较小的国家，但我们的人民已经团结一致，人人为我，我为人人。"
+ 
+ bw_DaBaGuang: "大罢工"
+ 
+ bw_GuoJiGe: "国际歌"
+ 
+ bw_YvKeXueJiaHeZuo: "与科学家合作"
+ 
+ bw_GongSHe: "公社"
+ 
+ bw_GongRenWeiYuanHui: "工人委员会"
+ 
+ bw_SHiBingWeiYuanHui: "士兵委员会"
+ 
+ bw_ZHiJieMinZHuZHi: "直接民主制"
+ 
+ bw_QueBaoMeiGeRenDoYouGongZuo: "确保每个人都有工作"
+ bw_QueBaoMeiGeRenDoYouGongZuo: "虽然确保每个人都有工作很难，但为了建立乌托邦，这值得。"
+ 
+ bw_FenSuiSiYouZHi: "粉碎私有制"
+ 
+ bw_FenSuiHuoBi: "粉碎货币"
+ bw_WuZHengFu_WuGuoJie: "无政府，无国界"
+ 
+ bw_WanJvGouHuo: "万具篝火"
+ bw_WanJvGouHuo_desc: "在一个黑暗的世界里一具篝火的力量很微弱，那十具、千具、万具呢？现在每个人都是一具篝火，我们将照亮世界。"
  
  # # #阿巴阿巴
  
@@ -447,8 +476,14 @@
  
  AUS_Karl_von_Habsburg_BW: "卡尔·冯·哈布斯堡-洛林"
  
-#个人特征
-
+ FER_Nikolay_II: "尼古拉二世·亚历山大洛维奇·诺曼诺夫"
+ 
+ FER_TABI: "谢尔盖·弗拉基米尔洛维奇·塔博里斯基"
+ 
+ #个人特征
+ 
+ # # #领导人
+ 
  heijunlingdaozhe: "黑军领袖"
  
  union_man: "迪克西"
@@ -458,7 +493,15 @@
  Habsburg: "哈布斯堡"
  
  YuanSHou: "元首"
-
+ 
+ # # #顾问
+ 
+ fascist_demagogue: "民粹煽动家"
+ 
+ #fascist_demagogue: "反外国宣传者"
+ 
+ SHaHuangZuiZHongCHengDeJinWeiBing: "沙皇最忠诚的近卫兵"
+ 
 #国民精神
 
  csa_meizhoudetongzhizhe: "美洲的统治者"
@@ -785,6 +828,16 @@
  GER_ZHengHeHeiSen: "整合黑森"
  GER_ZHengHeHeErSiTaiYin: "整合赫尔斯泰因"
  
+ debug: "调试模式"
+ KaiQiYvLeMoSHi: "开启娱乐模式"
+ 
+ YvLeMoSHi: "娱乐模式"
+ GuanBiYvLeMoSHi: "关闭娱乐模式"
+ MeiZHouDaBaoZHa: "美洲大爆炸"
+ FaGuoDaBaoZHa: "髪国大爆炸"
+ QunXing_QiDong: "群星，启动！"
+ SHiZHeJunSi: "逝者军势"
+ 
  #国策
  
  # # #大不列颠
@@ -906,6 +959,66 @@
  GER_MeiFuQvan: "梅福券"
  GER_MeiFuQvan_desc: ""
  
+ # # #通用国策
+ 
+ ZHengZHiJueCe: "政治决策"
+ ZHengZHiJueCe_desc: "要想改变世界，就得先改变我们的国家。国家应该走上什么道路？左还是右？"
+ 
+ DuiWeiZHengCe: "对外政策"
+ DuiWeiZHengCe_desc: "世界马上就要陷入混乱，我们在国际中应该扮演什么角色？"
+ 
+ GuoJiZongDui: "国际纵队"
+ GuoJiZongDui_desc: "在混乱的世界中我们可以扶持自己的势力。"
+ 
+ XvanBuZHongLi: "宣布中立"
+ XvanBuZHongLi_desc: "在混乱的世界中如果我们不想被波及的话就只能选择中立。"
+ 
+ ZHengZHiWuZHuang: "政治武装"
+ ZHengZHiWuZHuang_desc: "有些人可能会干扰我们的政治，迫使我们加入他的阵营。"
+ 
+ WuZHuangZHongLi: "武装中立"
+ WuZHuangZHongLi_desc: "如果有人要入侵我们，那我们只能用武力把侵略者赶出去。"
+ 
+ ZHengZHiPianYi: "政治偏移"
+ ZHengZHiPianYi_desc: "现在的国际形势不允许我们继续中立了。"
+ 
+ JiTiZHuYiJingSHen: "集体主义精神"
+ #JiTiZHuYiJingSHen_desc: "国家是一个集体，我们是一体的。"
+ JiTiZHuYiJingSHen_desc: "我们的敌人或许能分裂并征服那些较小的国家，但我们的人民已经团结一致，人人为我，我为人人。"
+ 
+ ZuZHiDaBaGuong: "组织大罢工"
+ ZuZHiDaBaGuong_desc: "我们被资本家剥削太久了，只有罢工才能表达我们的诉求。"
+ 
+ QvanGuoGeDiBoFangGuoJiGe: "在全国各地播放国际歌"
+ QvanGuoGeDiBoFangGuoJiGe_desc: "国际歌：最能代表劳动者的歌曲，我们在全国全国播放他，一定能……好像没什么用？"
+ 
+ XvanCHuanDangZHengCe: "宣传党政策"
+ XvanCHuanDangZHengCe_desc: "为防止德共的惨案，我们要广宣传党的政策。"
+ 
+ DiYiJieSuWeiAiDaiBiaoDaHui: "第一届苏维埃代表大会"
+ DiYiJieSuWeiAiDaiBiaoDaHui_desc: "作为新生的共和国，我们的未来是什么？"
+ 
+ HuanBuHuoDeSHengCHanZiLiao: "缓步获得生产资料"
+ HuanBuHuoDeSHengCHanZiLiao_desc: "缓步获得生产资料。"
+ 
+ DuoQvSHengCHanZiLiao: "夺取生产资料"
+ DuoQvSHengCHanZiLiao_desc: "为了未来不被剥削，我们必须把生产资料公有化。"
+ 
+ NngYJiTiHua: "农业集体化"
+ NngYJiTiHua_desc: "农业集体化。"
+ 
+ YiGuoJianCHengSHeHuiZHuYi: "一国建成社会主义"
+ YiGuoJianCHengSHeHuiZHuYi_desc: "一国建成社会主义。"
+ 
+ CHaoGongYeHua: "超工业化"
+ CHaoGongYeHua_desc: "超工业化。"
+ 
+ WoMenZiJiDeDaoLu: "我们自己的道路"
+ WoMenZiJiDeDaoLu_desc: "列宁式的共产主义是有缺陷的，要不然为什么苏联被赶到西伯利亚？我们得走出自己的道路。"
+ 
+ WanJvGouHuo: "万具篝火"
+ WanJvGouHuo_desc: "在一个黑暗的世界里一具篝火的力量很微弱，那十具、千具、万具呢？现在每个人都是一具篝火，我们将照亮世界。"
+ 
  # # #阿巴阿巴
  
  GER_rhineland:0 "改组政府"
@@ -918,3 +1031,14 @@
  
  #允许RN进入内阁_desc: "虽然人民阵线是为了防范国民联盟尔成立的，但是红色威胁已经到了我们的后花园 莱茵兰，他们公开撕毁法尔赛条约让以我们领导的法尔赛体系颜面无存"
  
+ #部队
+ 
+ WangLinJunTuan: "亡灵军团"
+ 
+ QianHaoBuBing: "堑壕步兵"
+ 
+ SanBing: "散兵"
+ 
+ #变量
+ 
+ add_MaKeSi_LieNingZHuYi_to_SiDaLingZHuYi_tt: "全部的§Y马克思 - 列宁主义§!支持率将转移至§Y斯大林主义§!"

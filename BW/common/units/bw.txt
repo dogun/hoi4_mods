@@ -1,0 +1,494 @@
+sub_units = {
+	WangLinJunTuan = {
+#名称
+		sprite = infantry
+		map_icon_category = infantry
+#图（byd为什么要搞两个图）
+
+		active = no
+#是否开局激活
+		special_forces = no
+#是否是特种部队
+		can_be_parachuted = yes
+#是否能空降
+
+		priority = 100000000
+#图标权重
+		ai_priority = 200
+#ai倾向
+
+		type = {
+#不知道（教程也不知道）
+			infantry
+		}
+
+		group = infantry
+#是什么类型（步兵：infantry、摩托化步兵：mobile、装甲：armor、支援连：support）
+
+		categories = {
+#标签（陆军：category_army、前线部队：category_front_line、步兵和摩托化步兵：category_all_infantry、徒步步兵：category_light_infantry、支援连：category_support_battalions、侦察：category_recon、火炮：category_line_artillery、火炮和轻自火：category_artillery、坦克和装甲：category_all_tanks、坦克：category_tanks、特种部队：category_special_forces、战斗机：category_fighter、重型战斗机：category_heavy_fighter、近距离支援机：category_cas、海军轰炸机：category_nav_bomber、战术轰炸机：category_tac_bomber、战略轰炸机：category_strat_bomber）
+			category_army
+			category_front_line
+			category_light_infantry
+			category_support_battalions
+		}
+
+		combat_width = 2
+#宽度
+
+		#Size Definitions
+		max_strength = 25
+#速度
+		max_organisation = 60
+#组织度
+		default_morale = 0.3
+#组织度恢复
+		manpower = 1
+#人
+
+		#Misc Abilities
+		training_time = 90
+#训练时间
+		suppression = 1.5
+#镇压
+		weight = 0.1
+#海上航行需要运输船
+
+		# Important Ability
+		casualty_trickleback = 1
+#伤兵复原
+		experience_loss_factor = -1
+#经验损耗
+
+		supply_consumption = 0.06
+#补给消耗
+
+		need = {
+#需要装备
+			infantry_equipment = 100
+		}
+
+		defence = 0
+#防御
+		breakthrough = 0
+#突破
+		soft_attack = 0
+#软攻
+		hard_attack = 0
+#硬攻
+		air_attack = 0
+#防空
+
+		mountain = {
+#山地加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		hills = {
+#丘陵加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		river = {
+#河流加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		amphibious = {
+#两栖加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		forest = {
+#森林加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		urban = {
+#城市加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		fort = {
+#要塞加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		marsh = {
+#沼泽加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		jungle = {
+#丛林加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+	}
+
+	QianHaoBuBing = {
+#名称
+		sprite = infantry
+		map_icon_category = infantry
+#图（byd为什么要搞两个图）
+
+		active = yes
+#是否开局激活
+		special_forces = yes
+#是否是特种部队
+		can_be_parachuted = no
+#是否能空降
+
+		priority = 100
+#图标权重
+		ai_priority = 200
+#ai倾向
+
+		type = {
+#不知道（教程也不知道）
+			infantry
+		}
+
+		group = infantry
+#是什么类型（步兵：infantry、摩托化步兵：mobile、装甲：armor、支援连：support）
+
+		categories = {
+#标签（陆军：category_army、前线部队：category_front_line、步兵和摩托化步兵：category_all_infantry、徒步步兵：category_light_infantry、支援连：category_support_battalions、侦察：category_recon、火炮：category_line_artillery、火炮和轻自火：category_artillery、坦克和装甲：category_all_tanks、坦克：category_tanks、特种部队：category_special_forces、战斗机：category_fighter、重型战斗机：category_heavy_fighter、近距离支援机：category_cas、海军轰炸机：category_nav_bomber、战术轰炸机：category_tac_bomber、战略轰炸机：category_strat_bomber）
+			category_army
+			category_front_line
+			category_special_forces
+		}
+
+		combat_width = 3
+#宽度
+
+		#Size Definitions
+		max_strength = 25
+#速度
+		max_organisation = 60
+#组织度
+		default_morale = 0.3
+#组织度恢复
+		manpower = 1000
+#人
+
+		#Misc Abilities
+		training_time = 100
+#训练时间
+		suppression = 1
+#镇压
+		weight = 0.6
+#海上航行需要运输船
+
+		# Important Ability
+		casualty_trickleback = 0
+#伤兵复原
+		experience_loss_factor = 0
+#经验损耗
+		ENTRENCHMENT = 10 #32.8
+#堑壕
+
+		supply_consumption = 0.1
+#补给消耗
+
+		need = {
+#需要装备
+			infantry_equipment = 100
+		}
+
+		defence = 0
+#防御
+		breakthrough = 0
+#突破
+		soft_attack = 0
+#软攻
+		hard_attack = 0
+#硬攻
+		air_attack = 0
+#防空
+
+		mountain = {
+#山地加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		hills = {
+#丘陵加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		river = {
+#河流加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		amphibious = {
+#两栖加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		forest = {
+#森林加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		urban = {
+#城市加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		fort = {
+#要塞加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		marsh = {
+#沼泽加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		jungle = {
+#丛林加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+	}
+
+	SanBing = {
+#名称
+		sprite = infantry
+		map_icon_category = infantry
+#图（byd为什么要搞两个图）
+
+		active = yes
+#是否开局激活
+		special_forces = yes
+#是否是特种部队
+		can_be_parachuted = no
+#是否能空降
+
+		priority = 100
+#图标权重
+		ai_priority = 200
+#ai倾向
+
+		type = {
+#不知道（教程也不知道）
+			infantry
+		}
+
+		group = infantry
+#是什么类型（步兵：infantry、摩托化步兵：mobile、装甲：armor、支援连：support）
+
+		categories = {
+#标签（陆军：category_army、前线部队：category_front_line、步兵和摩托化步兵：category_all_infantry、徒步步兵：category_light_infantry、支援连：category_support_battalions、侦察：category_recon、火炮：category_line_artillery、火炮和轻自火：category_artillery、坦克和装甲：category_all_tanks、坦克：category_tanks、特种部队：category_special_forces、战斗机：category_fighter、重型战斗机：category_heavy_fighter、近距离支援机：category_cas、海军轰炸机：category_nav_bomber、战术轰炸机：category_tac_bomber、战略轰炸机：category_strat_bomber）
+			category_army
+			category_front_line
+			category_light_infantry
+			category_special_forces
+		}
+
+		combat_width = 2
+#宽度
+
+		#Size Definitions
+		max_strength = 25
+#速度
+		max_organisation = 60
+#组织度
+		default_morale = 0.01
+#组织度恢复
+		manpower = 1000
+#人
+
+		#Misc Abilities
+		training_time = 40
+#训练时间
+		suppression = 1
+#镇压
+		weight = 0.5
+#海上航行需要运输船
+
+		# Important Ability
+		casualty_trickleback = 0
+#伤兵复原
+		experience_loss_factor = 0
+#经验损耗
+		ENTRENCHMENT = 0
+#堑壕
+
+		supply_consumption = 0.05
+#补给消耗
+
+		need = {
+#需要装备
+			infantry_equipment = 100
+		}
+
+		defence = 0
+#防御
+		breakthrough = 0
+#突破
+		soft_attack = 0
+#软攻
+		hard_attack = 0
+#硬攻
+		air_attack = 0
+#防空
+
+		mountain = {
+#山地加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		hills = {
+#丘陵加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		river = {
+#河流加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		amphibious = {
+#两栖加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		forest = {
+#森林加成（百分比）
+			attack = 5.0
+#攻击
+			defence = 1.4
+#防御
+			movement = 2.8
+#移速
+		}
+		urban = {
+#城市加成（百分比）
+			attack = 2.8
+#攻击
+			defence = 0.7
+#防御
+			movement = 1.4
+#移速
+		}
+		fort = {
+#要塞加成（百分比）
+			attack = 0
+#攻击
+			defence = 0
+#防御
+			movement = 0
+#移速
+		}
+		marsh = {
+#沼泽加成（百分比）
+			attack = 2.8
+#攻击
+			defence = 0.7
+#防御
+			movement = 1.4
+#移速
+		}
+		jungle = {
+#丛林加成（百分比）
+			attack = 5.0
+#攻击
+			defence = 1.4
+#防御
+			movement = 2.8
+#移速
+		}
+	}
+
+}

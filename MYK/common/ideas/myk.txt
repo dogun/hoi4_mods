@@ -273,6 +273,10 @@ ideas = {
 				army_attack_factor = 10000
 				army_defence_factor = 10000
 				industrial_capacity_dockyard = 10000
+
+				breakthrough_factor = 10000
+				army_speed_factor = 10000
+				army_org_regain = 10000
 			}
 		}
 		myk_idea_GongCHanZHuYiXvanCHuan = {

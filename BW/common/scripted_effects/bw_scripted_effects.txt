@@ -1,0 +1,24 @@
+add_MaKeSi_LieNingZHuYi_to_SiDaLingZHuYi = {
+	custom_effect_tooltip = add_MaKeSi_LieNingZHuYi_to_SiDaLingZHuYi_tt
+	hidden_effect = {
+		set_variable = {
+			var = MaKeSi_LieNingZHuYi_support_var
+			value = party_popularity_100@MaKeSi_LieNingZHuYi
+		}
+		set_variable = {
+			var = SiDaLingZHuYi_support_var
+			value = party_popularity_100@SiDaLingZHuYi
+		}
+		add_to_variable = {
+			SiDaLingZHuYi_support_var = MaKeSi_LieNingZHuYi_support_var
+		}
+		set_political_party = {
+			ideology = SiDaLingZHuYi 
+			popularity = SiDaLingZHuYi_support_var
+		}
+		set_political_party = {
+			ideology = MaKeSi_LieNingZHuYi
+			popularity = 0
+		}
+	}
+}

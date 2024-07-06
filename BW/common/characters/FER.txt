@@ -1,0 +1,64 @@
+characters={
+	FER_Nikolay_II = {
+		name = FER_Nikolay_II
+		portraits={
+			civilian={
+				large="gfx/leaders/Gregor Strasser.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	FER_Taboritsky = {
+		name = FER_TABI
+		portraits={
+			civilian={
+				large="gfx/leaders/TABI.dds"
+			}
+		}
+		country_leader={
+			ideology=MinZuSHeHuiZHuYi_c
+			traits={ 	SHaHuangZuiZHongCHengDeJinWeiBing fascist_demagogue }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	FER_TABI={
+		name=FER_TABI
+		portraits={
+			army={
+				small="gfx/interface/ideas/TABI.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = heinrich_himmler
+			allowed = {
+				original_tag = FER
+			}
+			available = {
+				AND = {
+					OR = {
+						has_government = JunZHuZHuYi 
+#						has_government = MinZuSHeHuiZHuYi
+					}
+				}
+			}
+#			on_add = {
+#				custom_effect_tooltip = GER_SS_himmler_recruit
+#			}
+			traits = {
+				SHaHuangZuiZHongCHengDeJinWeiBing
+#				prince_of_terror 
+				fascist_demagogue
+			}
+		}
+	}
+
+}

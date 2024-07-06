@@ -1,0 +1,47 @@
+LEC_jang_qingz_dadl_decisions = {
+#决议组id
+	LEC_hetong_chi = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+
+		visible = {
+#展示条件
+			has_country_leader = {
+				name = "Jiang Qing"
+				ruling_only = yes
+			}
+			CHI = {
+				exists = yes
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			CHI = {
+				every_unit_leader = {
+					set_nationality = LEC
+				}
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+		}
+	}

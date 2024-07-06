@@ -1143,41 +1143,219 @@
  EBG_monarchy_BoGenDiTiZHi_ADJ: "不列颠"
  #勃艮第体制
  
- #俄罗斯
+ #西伯利亚
+ 
+ SOV: "西伯利亚"
+ #通用
+ SOV_DEF: "西伯利亚"
+ #通用
+ SOV_ADJ: "西伯利亚"
+ #通用
+ ENG_subject: "$OVERLORDADJ$属西伯利亚"
+ #傀儡
+ ENG_subject_DEF: "$OVERLORDADJ$属西伯利亚"
+ #傀儡
+ 
+ #SOV_autonomy_dominion: "俄罗斯自治领"
+ #傀儡（民主）
+ #SOV_autonomy_dominion_DEF: "俄罗斯自治领"
+ #傀儡（民主）
+ #SOV_autonomy_integrated_puppet: "俄罗斯保护国"
+ #SOV_autonomy_integrated_puppet_DEF: "俄罗斯保护国"
+ #SOV_autonomy_puppet: "$OVERLORDADJ$属俄罗斯"
+ #SOV_autonomy_puppet_DEF: "$OVERLORDADJ$属俄罗斯"
+ #SOV_autonomy_reichskommissariat: "俄罗斯专员辖区"
+ #SOV_autonomy_reichskommissariat_DEF: "俄罗斯专员辖区"
+ #SOV_GER_fascism_autonomy_reichskommissariat: "莫斯科专员辖区"
+ #傀儡（法西斯）
+ #SOV_GER_fascism_autonomy_reichskommissariat_DEF: "莫斯科专员辖区"
+ #傀儡（法西斯）
+ #SOV_autonomy_reichsprotectorate: "俄罗斯保护国"
+ #SOV_autonomy_reichsprotectorate_DEF: "俄罗斯保护国"
+ #SOV_autonomy_wtt_imperial_protectorate: "露西亚皇国保护国"
+ #SOV_autonomy_wtt_imperial_protectorate_DEF: "露西亚皇国保护国"
+ #SOV_autonomy_supervised_state: "$OVERLORDADJ$属俄罗斯托管地"
+ #SOV_autonomy_supervised_state_DEF: "$OVERLORDADJ$属俄罗斯托管地"
+ 
  
  SOV_fascism: "俄罗斯帝国"
+ #法西斯（原版）
  SOV_fascism_DEF: "俄罗斯帝国"
- SOV_democratic: "俄罗斯联邦"
- SOV_democratic_DEF: "俄罗斯联邦"
- SOV_neutrality: "俄罗斯"
- SOV_neutrality_DEF: "俄罗斯"
- SOV_communism: "苏维埃联盟"
- SOV_communism_DEF: "苏维埃联盟"
+ #法西斯（原版）
  SOV_fascism_ADJ: "俄罗斯"
+ #法西斯（原版）
+ SOV_democratic: "俄罗斯联邦"
+ #民主（原版）
+ SOV_democratic_DEF: "俄罗斯联邦"
+ #民主（原版）
  SOV_democratic_ADJ: "俄罗斯"
+ #民主（原版）
+ SOV_neutrality: "俄罗斯"
+ #中立（原版）
+ SOV_neutrality_DEF: "俄罗斯"
+ #中立（原版）
  SOV_neutrality_ADJ: "俄罗斯"
+ #中立（原版）
+ SOV_communism: "苏维埃联盟"
+ #共产（原版）
+ SOV_communism_DEF: "苏维埃联盟"
+ #共产（原版）
  SOV_communism_ADJ: "苏联"
- SOV_autonomy_dominion: "俄罗斯自治领"
- SOV_autonomy_dominion_DEF: "俄罗斯自治领"
- SOV_autonomy_colony: "$OVERLORDADJ$属俄罗斯"
- SOV_autonomy_colony_DEF: "$OVERLORDADJ$属俄罗斯"
- SOV_autonomy_integrated_puppet: "俄罗斯保护国"
- SOV_autonomy_integrated_puppet_DEF: "俄罗斯保护国"
- SOV_autonomy_puppet: "$OVERLORDADJ$属俄罗斯"
- SOV_autonomy_puppet_DEF: "$OVERLORDADJ$属俄罗斯"
- SOV_autonomy_reichskommissariat: "俄罗斯专员辖区"
- SOV_autonomy_reichskommissariat_DEF: "俄罗斯专员辖区"
- SOV_GER_fascism_autonomy_reichskommissariat: "莫斯科专员辖区"
- SOV_GER_fascism_autonomy_reichskommissariat_DEF: "莫斯科专员辖区"
- SOV_autonomy_reichsprotectorate: "俄罗斯保护国"
- SOV_autonomy_reichsprotectorate_DEF: "俄罗斯保护国"
- SOV_autonomy_wtt_imperial_protectorate: "露西亚皇国保护国"
- SOV_autonomy_wtt_imperial_protectorate_DEF: "露西亚皇国保护国"
- SOV_autonomy_supervised_state: "$OVERLORDADJ$属俄罗斯托管地"
- SOV_autonomy_supervised_state_DEF: "$OVERLORDADJ$属俄罗斯托管地"
- SOV: "俄罗斯"
- SOV_DEF: "俄罗斯"
- SOV_ADJ: "俄罗斯"
+ #共产（原版）
+ ###
+ SOV_WuZHengFuGuongCHanZHuYi: "西伯利亚黑军"
+ #无政府共产主义
+ SOV_WuZHengFuGuongCHanZHuYi_DEF: "西伯利亚黑军"
+ #无政府共产主义
+ SOV_WuZHengFuGuongCHanZHuYi_ADJ: "西伯利亚"
+ #无政府共产主义
+ 
+ SOV_GuongTuanZHuYi: "西伯利亚黑军"
+ #工团主义
+ SOV_GuongTuanZHuYi_DEF: "西伯利亚黑军"
+ #工团主义
+ SOV_GuongTuanZHuYi_ADJ: "西伯利亚"
+ #工团主义
+ 
+ SOV_MaKeSi_LieNingZHuYi: "西伯利亚苏维埃"
+ #马克思 - 列宁主义
+ SOV_MaKeSi_LieNingZHuYi_DEF: "西伯利亚苏维埃"
+ #马克思 - 列宁主义
+ SOV_MaKeSi_LieNingZHuYi_ADJ: "西伯利亚"
+ #马克思 - 列宁主义
+ 
+ SOV_TuoLuoSiJiZHuYi: "西伯利亚苏维埃"
+ #托洛斯基
+ SOV_TuoLuoSiJiZHuYi_DEF: "西伯利亚苏维埃"
+ #托洛斯基
+ SOV_TuoLuoSiJiZHuYi_ADJ: "西伯利亚"
+ #托洛斯基
+  
+ SOV_SiDaLingZHuYi: "西伯利亚苏维埃"
+ #斯大林主义
+ SOV_SiDaLingZHuYi_DEF: "西伯利亚苏维埃"
+ #斯大林主义
+ SOV_SiDaLingZHuYi_ADJ: "西伯利亚"
+ #斯大林主义
+ 
+ SOV_YuanSHiZHuYi: "西伯利亚苏维埃"
+ #远视主义
+ SOV_YuanSHiZHuYi_DEF: "西伯利亚苏维埃"
+ #远视主义
+ SOV_YuanSHiZHuYi_ADJ: "西伯利亚"
+ #远视主义
+ 
+ SOV_JunZHengGuongCHanZHuYi: "西伯利亚苏维埃"
+ #军政共产主义
+ SOV_JunZHengGuongCHanZHuYi_DEF: "西伯利亚苏维埃"
+ #军政共产主义
+ SOV_JunZHengGuongCHanZHuYi_ADJ: "西伯利亚"
+ #军政共产主义
+ 
+ SOV_JunZHuBuErSHiWeiKe: "西伯利亚苏维埃"
+ #君主布尔什维克
+ SOV_JunZHuBuErSHiWeiKe_DEF: "西伯利亚苏维埃"
+ #君主布尔什维克
+ SOV_JunZHuBuErSHiWeiKe_ADJ: "西伯利亚"
+ #君主布尔什维克
+ 
+ SOV_GuDianZiYouZHuYi: "西伯利亚民主共和国"
+ #古典自由主义
+ SOV_GuDianZiYouZHuYi_DEF: "西伯利亚民主共和国"
+ #古典自由主义
+ SOV_GuDianZiYouZHuYi_ADJ: "西伯利亚"
+ #古典自由主义
+ 
+ SOV_SHeHuiMinZHuZHuYi: "西伯利亚民主共和国"
+ #社会民主主义
+ SOV_SHeHuiMinZHuZHuYi_DEF: "西伯利亚民主共和国"
+ #社会民主主义
+ SOV_SHeHuiMinZHuZHuYi_ADJ: "西伯利亚"
+ #社会民主主义
+ 
+ SOV_MinZHuSHeHuiZHuYi: "西伯利亚民主共和国"
+ #民主社会主义
+ SOV_MinZHuSHeHuiZHuYi_DEF: "西伯利亚民主共和国"
+ #民主社会主义
+ SOV_MinZHuSHeHuiZHuYi_ADJ: "西伯利亚"
+ #民主社会主义
+ 
+ SOV_JiaSuZHuYi: "西伯利亚先锋国"
+ #加速主义
+ SOV_JiaSuZHuYi_DEF: "西伯利亚先锋国"
+ #加速主义
+ SOV_JiaSuZHuYi_ADJ: "西伯利亚"
+ #加速主义
+ 
+ SOV_BaoSHouZHuYi: "西伯利亚民主共和国"
+ #保守主义
+ SOV_BaoSHouZHuYi_DEF: "西伯利亚民主共和国"
+ #保守主义
+ SOV_BaoSHouZHuYi_ADJ: "西伯利亚"
+ #保守主义
+ 
+ SOV_GuiZuBaoSHouZHuYi: "西伯利亚民主共和国"
+ #贵族保守主义
+ SOV_GuiZuBaoSHouZHuYi_DEF: "西伯利亚民主共和国"
+ #贵族保守主义
+ SOV_GuiZuBaoSHouZHuYi_ADJ: "西伯利亚"
+ #贵族保守主义
+ 
+ SOV_JiaZHangZHi: "西伯利亚军政府"
+ #家长制
+ SOV_JiaZHangZHi_DEF: "西伯利亚军政府"
+ #家长制
+ SOV_JiaZHangZHi_ADJ: "西伯利亚"
+ #家长制
+ 
+ SOV_JunZHuZHuYi: "西伯利亚帝国"
+ #君主主义
+ SOV_JunZHuZHuYi_DEF: "西伯利亚帝国"
+ #君主主义
+ SOV_JunZHuZHuYi_ADJ: "西伯利亚"
+ #君主主义
+ 
+ SOV_ZiBenGuongCHanZHuYi: "西伯利亚帝国"
+ #资本共产主义
+ SOV_ZiBenGuongCHanZHuYi_DEF: "西伯利亚帝国"
+ #资本共产主义
+ SOV_ZiBenGuongCHanZHuYi_ADJ: "西伯利亚"
+ #资本共产主义
+ 
+ SOV_SHeHuiFaXiSi: "西伯利亚帝国"
+ #社会法西斯
+ SOV_SHeHuiFaXiSi_DEF: "西伯利亚帝国"
+ #社会法西斯
+ SOV_SHeHuiFaXiSi_ADJ: "西伯利亚"
+ #社会法西斯
+ 
+ SOV_SiTeLaSeZHuYi: "西伯利亚帝国"   #西伯利亚摄政议会
+ #斯特拉瑟主义
+ SOV_SiTeLaSeZHuYi_DEF: "西伯利亚帝国"   #西伯利亚摄政议会
+ #斯特拉瑟主义
+ SOV_SiTeLaSeZHuYi_ADJ: "西伯利亚"
+ #斯特拉瑟主义
+ 
+ SOV_FaXiSiZHuYi: "西伯利亚帝国"   #西伯利亚摄政议会
+ #法西斯主义
+ SOV_FaXiSiZHuYi_DEF: "西伯利亚帝国"   #西伯利亚摄政议会
+ #法西斯主义
+ SOV_FaXiSiZHuYi_ADJ: "西伯利亚"
+ #法西斯主义
+ 
+ SOV_MinZuSHeHuiZHuYi: "西伯利亚帝国"   #西伯利亚摄政议会
+ #纳粹
+ SOV_MinZuSHeHuiZHuYi_DEF: "西伯利亚帝国"   #西伯利亚摄政议会
+ #纳粹
+ SOV_MinZuSHeHuiZHuYi_ADJ: "西伯利亚"
+ #纳粹
+ 
+ SOV_BoGenDiTiZHi: "西伯利亚帝国"   #西伯利亚摄政议会
+ #勃艮第体制
+ SOV_BoGenDiTiZHi_DEF: "西伯利亚帝国"   #西伯利亚摄政议会
+ #勃艮第体制
+ SOV_BoGenDiTiZHi_ADJ: "西伯利亚"
+ #勃艮第体制
  
  #美国
  
@@ -5436,27 +5614,219 @@
  BYA_JAP_fascism_subject: "乌兰乌德自治方面军"
  BYA_JAP_fascism_subject_DEF: "乌兰乌德自治方面军"
  BYA_JAP_fascism_subject_ADJ: "乌兰乌德"
- FER_fascism: "东西伯利亚帝国"
- FER_fascism_DEF: "东西伯利亚帝国"
- FER_democratic: "远东共和国"
- FER_democratic_DEF: "远东共和国"
- FER_communism: "远东公社"
- FER_communism_DEF: "远东公社"
- FER_neutrality: "远东独立国"
- FER_neutrality_DEF: "远东独立国"
- FER_fascism_ADJ: "东西伯利亚"
- FER_democratic_ADJ: "远东"
- FER_communism_ADJ: "远东"
- FER_neutrality_ADJ: "远东"
+ 
+ #沙皇国
+ 
+ FER: "远东"
+ #通用
+ FER_DEF: "远东"
+ #通用
+ FER_ADJ: "远东"
+ #通用
+ FER_subject: "$OVERLORDADJ$属远东"
+ #傀儡
+ FER_subject_DEF: "$OVERLORDADJ$属远东"
+ #傀儡
  FER_SOV_communism_subject: "远东苏维埃共和国"
+ #傀儡（共产苏联）
  FER_SOV_communism_subject_DEF: "远东苏维埃共和国"
+ #傀儡（共产苏联）
  FER_SOV_communism_subject_ADJ: "远东"
+ #傀儡（共产苏联）
  FER_JAP_neutrality_subject: "日属远东保护国"
+ #傀儡（中立日本）
  FER_JAP_neutrality_subject_DEF: "日属远东保护国"
+ #傀儡（中立日本）
  FER_JAP_neutrality_subject_ADJ: "日属西伯利亚"
+ #傀儡（中立日本）
  FER_JAP_fascism_subject: "东西伯利亚方面军"
+ #傀儡（法西斯日本）
  FER_JAP_fascism_subject_DEF: "东西伯利亚方面军"
+ #傀儡（法西斯日本）
  FER_JAP_fascism_subject_ADJ: "东西伯利亚"
+ #傀儡（法西斯日本）
+ 
+ FER_fascism: "东西伯利亚帝国"
+ #法西斯（原版）
+ FER_fascism_DEF: "东西伯利亚帝国"
+ #法西斯（原版）
+ FER_fascism_ADJ: "东西伯利亚"
+ #法西斯（原版）
+ FER_democratic: "远东共和国"
+ #民主（原版）
+ FER_democratic_DEF: "远东共和国"
+ #民主（原版）
+ FER_democratic_ADJ: "远东"
+ #民主（原版）
+ FER_neutrality: "远东独立国"
+ #中立（原版）
+ FER_neutrality_DEF: "远东独立国"
+ #中立（原版）
+ FER_neutrality_ADJ: "远东"
+ #中立（原版）
+ FER_communism: "远东公社"
+ #共产（原版）
+ FER_communism_DEF: "远东公社"
+ #共产（原版）
+ FER_communism_ADJ: "远东"
+ #共产（原版）
+ ###
+ FER_WuZHengFuGuongCHanZHuYi: "东西伯利亚社会主义共和国"
+ #无政府共产主义
+ FER_WuZHengFuGuongCHanZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #无政府共产主义
+ FER_WuZHengFuGuongCHanZHuYi_ADJ: "东西伯利亚"
+ #无政府共产主义
+ 
+ FER_GuongTuanZHuYi: "东西伯利亚社会主义共和国"
+ #工团主义
+ FER_GuongTuanZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #工团主义
+ FER_GuongTuanZHuYi_ADJ: "东西伯利亚"
+ #工团主义
+ 
+ FER_MaKeSi_LieNingZHuYi: "东西伯利亚社会主义共和国"
+ #马克思 - 列宁主义
+ FER_MaKeSi_LieNingZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #马克思 - 列宁主义
+ FER_MaKeSi_LieNingZHuYi_ADJ: "东西伯利亚"
+ #马克思 - 列宁主义
+ 
+ FER_TuoLuoSiJiZHuYi: "东西伯利亚社会主义共和国"
+ #托洛斯基
+ FER_TuoLuoSiJiZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #托洛斯基
+ FER_TuoLuoSiJiZHuYi_ADJ: "东西伯利亚"
+ #托洛斯基
+  
+ FER_SiDaLingZHuYi: "东西伯利亚社会主义共和国"
+ #斯大林主义
+ FER_SiDaLingZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #斯大林主义
+ FER_SiDaLingZHuYi_ADJ: "东西伯利亚"
+ #斯大林主义
+ 
+ FER_YuanSHiZHuYi: "东西伯利亚社会主义共和国"
+ #远视主义
+ FER_YuanSHiZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #远视主义
+ FER_YuanSHiZHuYi_ADJ: "东西伯利亚"
+ #远视主义
+ 
+ FER_JunZHengGuongCHanZHuYi: "东西伯利亚社会主义共和国"
+ #军政共产主义
+ FER_JunZHengGuongCHanZHuYi_DEF: "东西伯利亚社会主义共和国"
+ #军政共产主义
+ FER_JunZHengGuongCHanZHuYi_ADJ: "东西伯利亚"
+ #军政共产主义
+ 
+ FER_JunZHuBuErSHiWeiKe: "东西伯利亚社会主义共和国"
+ #君主布尔什维克
+ FER_JunZHuBuErSHiWeiKe_DEF: "东西伯利亚社会主义共和国"
+ #君主布尔什维克
+ FER_JunZHuBuErSHiWeiKe_ADJ: "东西伯利亚"
+ #君主布尔什维克
+ 
+ FER_GuDianZiYouZHuYi: "远东共和国"
+ #古典自由主义
+ FER_GuDianZiYouZHuYi_DEF: "远东共和国"
+ #古典自由主义
+ FER_GuDianZiYouZHuYi_ADJ: "远东"
+ #古典自由主义
+ 
+ FER_SHeHuiMinZHuZHuYi: "远东共和国"
+ #社会民主主义
+ FER_SHeHuiMinZHuZHuYi_DEF: "远东共和国"
+ #社会民主主义
+ FER_SHeHuiMinZHuZHuYi_ADJ: "远东"
+ #社会民主主义
+ 
+ FER_MinZHuSHeHuiZHuYi: "远东共和国"
+ #民主社会主义
+ FER_MinZHuSHeHuiZHuYi_DEF: "远东共和国"
+ #民主社会主义
+ FER_MinZHuSHeHuiZHuYi_ADJ: "远东"
+ #民主社会主义
+ 
+ FER_JiaSuZHuYi: "远东先锋国"
+ #加速主义
+ FER_JiaSuZHuYi_DEF: "远东先锋国"
+ #加速主义
+ FER_JiaSuZHuYi_ADJ: "远东"
+ #加速主义
+ 
+ FER_BaoSHouZHuYi: "远东共和国"
+ #保守主义
+ FER_BaoSHouZHuYi_DEF: "远东共和国"
+ #保守主义
+ FER_BaoSHouZHuYi_ADJ: "远东"
+ #保守主义
+ 
+ FER_GuiZuBaoSHouZHuYi: "远东共和国"
+ #贵族保守主义
+ FER_GuiZuBaoSHouZHuYi_DEF: "远东共和国"
+ #贵族保守主义
+ FER_GuiZuBaoSHouZHuYi_ADJ: "远东"
+ #贵族保守主义
+ 
+ FER_JiaZHangZHi: "远东军政府"
+ #家长制
+ FER_JiaZHangZHi_DEF: "远东军政府"
+ #家长制
+ FER_JiaZHangZHi_ADJ: "远东"
+ #家长制
+ 
+ FER_JunZHuZHuYi: "远东沙皇国"
+ #君主主义
+ FER_JunZHuZHuYi_DEF: "远东沙皇国"
+ #君主主义
+ FER_JunZHuZHuYi_ADJ: "远东"
+ #君主主义
+ 
+ FER_ZiBenGuongCHanZHuYi: "远东帝国"
+ #资本共产主义
+ FER_ZiBenGuongCHanZHuYi_DEF: "远东帝国"
+ #资本共产主义
+ FER_ZiBenGuongCHanZHuYi_ADJ: "远东"
+ #资本共产主义
+ 
+ FER_SHeHuiFaXiSi: "远东帝国"
+ #社会法西斯
+ FER_SHeHuiFaXiSi_DEF: "远东帝国"
+ #社会法西斯
+ FER_SHeHuiFaXiSi_ADJ: "远东"
+ #社会法西斯
+ 
+ FER_SiTeLaSeZHuYi: "远东摄政议会"
+ #斯特拉瑟主义
+ FER_SiTeLaSeZHuYi_DEF: "远东摄政议会"
+ #斯特拉瑟主义
+ FER_SiTeLaSeZHuYi_ADJ: "远东"
+ #斯特拉瑟主义
+ 
+ FER_FaXiSiZHuYi: "远东摄政议会"
+ #法西斯主义
+ FER_FaXiSiZHuYi_DEF: "远东摄政议会"
+ #法西斯主义
+ FER_FaXiSiZHuYi_ADJ: "远东"
+ #法西斯主义
+ 
+ FER_MinZuSHeHuiZHuYi: "远东摄政议会"
+ #纳粹
+ FER_MinZuSHeHuiZHuYi_DEF: "远东摄政议会"
+ #纳粹
+ FER_MinZuSHeHuiZHuYi_ADJ: "远东"
+ #纳粹
+ 
+ FER_BoGenDiTiZHi: "远东摄政议会"
+ #勃艮第体制
+ FER_BoGenDiTiZHi_DEF: "远东摄政议会"
+ #勃艮第体制
+ FER_BoGenDiTiZHi_ADJ: "远东"
+ #勃艮第体制
+ 
+ #楚科奇
+ 
  CKK_fascism: "楚科奇国"
  CKK_fascism_DEF: "楚科奇国"
  CKK_democratic: "楚科奇共和国"
@@ -6839,3 +7209,43 @@
  #军政共产主义
  AIL_JunZHengGuongCHanZHuYi_ADJ: "拉丁解放军"
  #军政共产主义
+ 
+ #国民联盟
+ 
+ FBN: "激进奥克人"
+ #通用
+ FBN_DEF: "激进奥克人"
+ #通用
+ FBN_ADJ: "奥克"
+ #通用
+ FBN_subject: "$OVERLORDADJ$属奥克"
+ #傀儡
+ FBN_subject_DEF: "$OVERLORDADJ$属奥克"
+ #傀儡
+ 
+ FBN_GuiZuBaoSHouZHuYi: "法兰西国民联盟"
+ #贵族保守主义
+ FBN_GuiZuBaoSHouZHuYi_DEF: "法兰西国民联盟"
+ #贵族保守主义
+ FBN_GuiZuBaoSHouZHuYi_ADJ: "国民联盟"
+ #贵族保守主义
+ 
+ #火十字团
+ 
+ CDF: "北阿基坦"
+ #通用
+ CDF_DEF: "北阿基坦"
+ #通用
+ CDF_ADJ: "阿基坦"
+ #通用
+ CDF_subject: "$OVERLORDADJ$属阿基坦"
+ #傀儡
+ CDF_subject_DEF: "$OVERLORDADJ$属阿基坦"
+ #傀儡
+ 
+ CDF_MinZuSHeHuiZHuYi: "法兰西火十字团"
+ #纳粹
+ CDF_MinZuSHeHuiZHuYi_DEF: "法兰西火十字团"
+ #纳粹
+ CDF_MinZuSHeHuiZHuYi_ADJ: "火十字团"
+ #纳粹

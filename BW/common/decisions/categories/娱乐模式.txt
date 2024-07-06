@@ -1,0 +1,13 @@
+YvLeMoSHi = {
+#决议组id
+	icon = ger_mefo_bills
+#图片
+	picture = YvLeMoSHi
+#不知道有啥用，最好和id一样
+#	allowed = {
+#		original_tag =CAN
+#国家
+	}
+	priority = 100000000
+#位置，越大越上，越小越下
+}
