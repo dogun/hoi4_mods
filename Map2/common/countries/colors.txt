@@ -1,0 +1,6 @@
+#reload countrycolors
+
+TST = {
+	color = rgb { 100 0 0 } #77 0 0 #40 0 0
+	color_ui = rgb { 100 0 0 }
+}

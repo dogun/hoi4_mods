@@ -1,0 +1,9 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		883 905 3019 5330 5829 7202 20101 20125 20201 20296 20385 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

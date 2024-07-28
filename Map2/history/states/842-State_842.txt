@@ -1,0 +1,9 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		2012 2630 3157 3431 4965 5138 6558 8176 8249 9459 19377 19458 19585 19773 19825 19866 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
