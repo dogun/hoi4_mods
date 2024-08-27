@@ -1,0 +1,31 @@
+characters={
+	CHI_JiangJieSHi_1={
+		name=CHI_JiangJieSHi
+		portraits={
+			civilian={
+				large="gfx/leaders/常凯申.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			traits={  }
+			expire="1975.04.05.1"
+			id=-1
+		}
+	}
+
+	CHI_JiangJieSHi_2={
+		name=CHI_JiangJieSHi
+		portraits={
+			civilian={
+				large="gfx/leaders/常凯申.dds"
+			}
+		}
+		country_leader={
+			ideology=FaXiSiZHuYi_c
+			traits={  }
+			expire="1975.04.05.1"
+			id=-1
+		}
+	}
+}

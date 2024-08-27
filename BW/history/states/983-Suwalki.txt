@@ -1,0 +1,29 @@
+state={
+	id=983
+	name="STATE_983"
+	manpower = 69234
+	
+	state_category = rural
+	
+	history=
+	{
+#		victory_points = {
+#			577 1 
+#		}
+		owner = POL
+		buildings = {
+
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = POL
+		add_core_of = BLR
+	}
+	provinces={
+		3254 400 11329 11274
+	}
+
+	local_supplies=0.0 
+}

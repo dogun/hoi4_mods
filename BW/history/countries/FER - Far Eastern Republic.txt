@@ -21,67 +21,11 @@ set_technology = {
 	fleet_in_being = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-		fighter1 = 1
-		early_bomber = 1
-		strategic_bomber1 = 1
-		naval_bomber1 = 1
-	}
+set_autonomy = {
+	target = CKK
+	autonomous_state = MingYiSHangSHuYv
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "No Step Back" }
-	}
-	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-	}
-}
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		mtg_transport = 1
-		basic_battery = 1
-		basic_torpedo = 1
-	}
-}
 set_politics = {
 	ruling_party = JunZHuZHuYi
 	last_election = "1936.1.1"
@@ -97,11 +41,19 @@ set_popularities = {
 	JiaZHangZHi = 30
 }
 
-set_power_balance = {
-id = FER_Tsar_KBKV
+#set_power_balance = {
+#	id = FER_Kozak
+#	initial_value = 0.32
+#}
+add_power_balance_value = {
+	id = FER_Kozak
+	value = 0.32
 }
-
 recruit_character = FER_Nikolay_II
 recruit_character = FER_Taboritsky
 
 recruit_character = FER_TABI
+
+add_ideas = {
+	bw_FER_WoMenWeiDaDeJunZHuWuSuoBuZHi_WuSuoBuNeng_WuLuenWoMenYongYouSengMo_WuLuenWoMenSHiFouJianKang_SuoYouDeZHeiXieDoGuiGongYvWoMenWeiDsDeJunZHu__Ma
+}

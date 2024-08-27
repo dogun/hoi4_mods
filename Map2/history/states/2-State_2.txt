@@ -4,8 +4,10 @@ state={
 	provinces={
 		2232 11258 11802 11815 
 	}
+history = {
 	owner = TST
 	add_core_of = TST
+}
 	manpower=20
 	buildings_max_level_factor=1.000
 }

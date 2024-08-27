@@ -1,0 +1,13 @@
+FER_Kozak = {
+#决议组id
+	icon = ger_mefo_bills
+#图片
+	picture = FER_Kozak
+#不知道有啥用，最好和id一样
+#	allowed = {
+#		original_tag =GSR
+#国家
+	}
+	priority = 99999
+#位置，越大越上，越小越下
+}

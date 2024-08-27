@@ -1,12 +1,17 @@
 #reload countrycolors
 
+SIC = {
+	color = rgb { 87 82 61 } #75 77 41 #52 51 27 #237 28 34
+	color_ui = rgb { 87 82 61 }
+}
+
 FBN = {
-	color = rgb { 2 57 88 } #77 0 0 #40 0 0
+	color = rgb { 2 57 88 }
 	color_ui = rgb { 2 57 88 }
 }
 
 CDF = {
-	color = rgb { 10 0 0 } #77 0 0 #40 0 0
+	color = rgb { 10 0 0 }
 	color_ui = rgb { 10 0 0 }
 }
 

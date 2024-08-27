@@ -164,7 +164,7 @@ set_popularities = {
 add_ideas = {
 }
 
-
+recruit_character = PRE_Wilhelm_II
 
 #create_country_leader = {
 #	name = "Dennis Fredauer"

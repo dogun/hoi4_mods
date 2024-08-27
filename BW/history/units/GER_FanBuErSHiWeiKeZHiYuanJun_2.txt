@@ -1,0 +1,13 @@
+﻿units = {
+	division = {
+#部队
+		name = "反布尔什维克志愿军"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "反布尔什维克志愿军"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+}

@@ -6,3 +6,5 @@ tags={
 name="魔影框架"
 supported_version="*"
 path="mod/MYK"
+
+replace_path="common/autonomous_states"

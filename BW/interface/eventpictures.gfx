@@ -3570,11 +3570,13 @@ spriteTypes = {
 	
 	#bw
 	# # #国策
+	# # # # # #加拿大
 	SpriteType = {
 		name = "GFX_free_state_47"
 		texturefile = "gfx/interface/goals/free_state_47.dds"
 	}
 	SpriteType = {
+	# # # # # #德三
 		name = "GFX_DeAoHeBing"
 		texturefile = "gfx/interface/goals/德奥合并.png"
 	}
@@ -3598,11 +3600,72 @@ spriteTypes = {
 		name = "GFX_DuiHuaSHiHao"
 		texturefile = "gfx/interface/goals/对中友好.png"
 	}
-	# # #国民精神
 	SpriteType = {
-		name = "GFX_idea_SuGeLanFanDuiPai"
-		texturefile = "gfx/interface/ideas/苏格兰反对派.png"
+		name = "GFX_GeRenCHongBai"
+		texturefile = "gfx/interface/goals/个人崇拜.png"
 	}
+	SpriteType = {
+		name = "GFX_DongYuanCHongFengDui"
+		texturefile = "gfx/interface/goals/动员冲锋队.png"
+	}
+	SpriteType = {
+		name = "GFX_DongYuanDangWeiJun"
+		texturefile = "gfx/interface/goals/动员党卫军.png"
+	}
+	SpriteType = {
+		name = "GFX_FaXiSiZHiJian"
+		texturefile = "gfx/interface/goals/法西斯之剑.png"
+	}
+	SpriteType = {
+		name = "GFX_XiMuLaiJiangJun"
+		texturefile = "gfx/interface/goals/希姆莱将军.png"
+	}
+	SpriteType = {
+		name = "GFX_SiTeLaSePai_NengDaZHangJiuXing"
+		texturefile = "gfx/interface/goals/斯特拉瑟派？能打仗就行.png"
+	}
+	SpriteType = {
+		name = "GFX_DuoNaoFangXian"
+		texturefile = "gfx/interface/goals/多瑙防线.png"
+	}
+	SpriteType = {
+		name = "GFX_WeiXiXingDong"
+		texturefile = "gfx/interface/goals/威悉行动.png"
+	}
+	SpriteType = {
+		name = "GFX_ZiYouJunTuan"
+		texturefile = "gfx/interface/goals/自由军团.png"
+	}
+	SpriteType = {
+		name = "GFX_ZHaoMuMinBing"
+		texturefile = "gfx/interface/goals/招募民兵.png"
+	}
+	SpriteType = {
+		name = "GFX_TuanJieYiZHi"
+		texturefile = "gfx/interface/goals/团结一致2.png"
+	}
+	SpriteType = {
+		name = "GFX_YvYingFaTanPan"
+		texturefile = "gfx/interface/goals/与英法谈判.png"
+	}
+	SpriteType = {
+		name = "GFX_YiSaErHuanQvYuanZHu"
+		texturefile = "gfx/interface/goals/以萨尔换取援助.png"
+	}
+	SpriteType = {
+		name = "GFX_QianSHuRiNeiWaTiaoYue"
+		texturefile = "gfx/interface/goals/签署日内瓦条约.png"
+	}
+	SpriteType = {
+		name = "GFX_ZHengHeZHanLingQv"
+		texturefile = "gfx/interface/goals/整合占领区.png"
+	}
+	SpriteType = {
+		name = "GFX_SHuiJingZHiYe"
+		texturefile = "gfx/interface/goals/水晶之夜.png"
+	}
+	# # #国民精神
+	# # # # # #德三
 	SpriteType = {
 		name = "GFX_idea_ZiYouJunTuan"
 		texturefile = "gfx/interface/ideas/自由军团（R）.png"
@@ -3619,19 +3682,77 @@ spriteTypes = {
 		name = "GFX_idea_FaErSaiTiaoYueDeYvBo"
 		texturefile = "gfx/interface/ideas/法尔赛条约的遗产（RR）.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_SHuiJingZHiYe"
+		texturefile = "gfx/interface/ideas/水晶之夜.png"
+	}
+	# # # # # #沙皇
+	SpriteType = {
+		name = "GFX_idea_WoMenWeiDaDeJunZHuWuSuoBuZHi_WuSuoBuNeng_WuLuenWoMenYongYouSengMo_WuLuenWoMenSHiFouJianKang_SuoYouDeZHeiXieDoGuiGongYvWoMenWeiDsDeJunZHu__Ma"
+		texturefile = "gfx/interface/ideas/我们伟大的君主无所不知，无所不能，无论我们拥有什么，无论我们是否健康，所有的这些都归功于我们伟大的君主......吗？（小）.png"
+	}
+	# # # # # #英国
+	SpriteType = {
+		name = "GFX_idea_SuGeLanFanDuiPai"
+		texturefile = "gfx/interface/ideas/苏格兰反对派.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_RiLuoDiGuo"
+		texturefile = "gfx/interface/ideas/日落帝国.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_DengSHanZHiRen"
+		texturefile = "gfx/interface/ideas/登山之人.png"
+	}
+	# # # # # #爱尔兰
+	SpriteType = {
+		name = "GFX_idea_Celt"
+		texturefile = "gfx/interface/ideas/泛凯尔特主义.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_FeiCuiZHiDao"
+		texturefile = "gfx/interface/ideas/翡翠之岛.png"
+	}
+	# # # # # #中国
+	SpriteType = {
+		name = "GFX_idea_YiCuenSHanHeYiCuenXie_SHiWanQingNianSHiWanBing"
+		texturefile = "gfx/interface/ideas/一寸山河一寸血，十万青年十万兵.png"
+	}
+	# # # # # #教宗国
+	SpriteType = {
+		name = "GFX_idea_ALiYaYunDong"
+		texturefile = "gfx/interface/ideas/阿利亚运动.png"
+	}
 	# # #单位
+	# # # # # #堑壕步兵
 	spriteType = { 
 		name = "GFX_unit_QianHaoBuBing_icon_medium"				 
 		TextureFile = "gfx/interface/counters/divisions_large/堑壕步兵_icon.dds"
 		noOfFrames = 2 
 	}
-   spriteType = {
-     name = "GFX_unit_QianHaoBuBing_icon_medium_white"			
-     TextureFile = "gfx/interface/counters/divisions_small/onmap_unit_堑壕步兵_icon.dds"
-     noOfFrames = 2
-   }
-  
-
+	spriteType = {
+		name = "GFX_unit_QianHaoBuBing_icon_medium_white"			
+		TextureFile = "gfx/interface/counters/divisions_small/堑壕步兵_icon.dds"
+		noOfFrames = 2
+	}
+	# # # # # #散兵
+	spriteType = { 
+		name = "GFX_unit_SanBing_icon_medium"				 
+		TextureFile = "gfx/interface/counters/divisions_large/散兵_icon.dds"
+		noOfFrames = 2 
+	}
+	spriteType = {
+		name = "GFX_unit_SanBing_icon_medium_white"			
+		TextureFile = "gfx/interface/counters/divisions_small/散兵_icon.dds"
+		noOfFrames = 2
+	}
+	# # #领导人
+	spriteType = {
+		name = "GER_adolf_hitler_BW"			
+		TextureFile = "gfx/leaders/洗头老.dds"
+		noOfFrames = 2
+	}
+	
 }
 
 

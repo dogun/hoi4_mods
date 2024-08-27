@@ -41,7 +41,7 @@ set_variable = { GER_narvik_civs = 0 }
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 
-set_war_support = 0.3
+set_war_support = 0.5
 
 set_politics = {
 	ruling_party = MinZuSHeHuiZHuYi
@@ -50,10 +50,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	MinZuSHeHuiZHuYi = 57.84
+	MinZuSHeHuiZHuYi = 54.68 #57.84
 	BoGenDiTiZHi = 26.96
 	SiTeLaSeZHuYi = 4.27
 	SHeHuiFaXiSi = 10.93
+	GuiZuBaoSHouZHuYi = 3.16
 }
 
 
@@ -65,6 +66,8 @@ add_ideas = {
 	partial_economic_mobilisation
 #	SWE_historical_trade_with_Germany_dummy CUT
 	bw_LinSHiZHengFu
+	bw_GER_RiNeiWaTiaoYue_1
+	bw_GER_FaErSaiTiXi
 }
 #add_ideas = GER_mefo_bills_1
 
@@ -136,11 +139,11 @@ recruit_character = GER_hans_oster
 recruit_character = GER_theodor_heuss
 recruit_character = GER_fritz_todt
 recruit_character = GER_joachim_von_ribbentrop
-recruit_character = GER_ernst_thalmann
+#recruit_character = GER_ernst_thalmann
 recruit_character = GER_rudolf_hess
 recruit_character = GER_martin_bormann
 recruit_character = GER_wilhelm_canaris
-recruit_character = GER_joseph_goebbels
+#recruit_character = GER_joseph_goebbels
 recruit_character = GER_konstantin_von_neurath
 recruit_character = GER_alfred_hugenberg
 recruit_character = GER_kurt_schumacher
@@ -161,7 +164,10 @@ declare_war_on = {
 set_cosmetic_tag = GER_LinSHiZHengFu
 
 recruit_character = GER_Gregor_Strasser
-recruit_character = GER_adolf_hitler_BW
-recruit_character = GER_Heinrich_Himmler_BW
+recruit_character = GER_otto_Strasser
+recruit_character = GER_Aldert_Speer
+recruit_character = GER_adolf_hitler
+recruit_character = GER_Heinrich_Himmler
 
 recruit_character = GER_Reinhard_Heydrich
+recruit_character = GER_Paul_Joseph_Goebbels

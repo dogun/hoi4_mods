@@ -21,3 +21,37 @@ country_event = { #不列颠削减自治权
 		}
 	}
 }
+
+country_event = { #马祖伦或战争
+	id = bw_ENG.2
+	title = bw_ENG.2.t
+	desc = bw_ENG.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.2.a #欺人太甚
+		give_guarantee = POL
+		FRA = {
+			country_event = {
+				id = bw_ENG.3
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #欺人太甚
+	id = bw_ENG.3
+	title = bw_ENG.3.t
+	desc = bw_ENG.3.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.3.a #旧友
+		ENG = {
+			dismantle_faction = yes
+		}
+		FRA = { add_to_faction = ENG }
+		set_faction_name = 协约国
+	}
+}

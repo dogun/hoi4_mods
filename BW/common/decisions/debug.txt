@@ -39,4 +39,61 @@ debug = {
 		}
 	}
 
+	DaYingDeGuoNeiZHan = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		visible = {
+#展示条件
+			is_debug = yes
+			OR = {
+				original_tag = GER
+				original_tag = GSR
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			if = {
+				limit = {
+					original_tag = GER
+				}
+				annex_country = {
+					target = GSR
+					transfer_troops = no
+				}
+			}
+			if = {
+				limit = {
+					original_tag = GSR
+				}
+				annex_country = {
+					target = GER
+					transfer_troops = no
+				}
+			}
+		}
+
+		ai_will_do = {
+#这个也不知道有啥用（教程没讲）
+			factor = 0
+		}
+	}
+
 }

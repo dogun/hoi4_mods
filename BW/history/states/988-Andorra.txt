@@ -1,0 +1,31 @@
+state=
+{
+	id=988
+	name="STATE_988"
+	
+	state_category = town
+	
+	manpower = 5000
+	resources={
+	}
+
+	history=
+	{
+		owner = LUX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = LUX
+	}
+
+		victory_points = {
+			13365 1 
+		}
+
+	provinces=
+	{
+13365 	}
+
+	local_supplies=0.0 
+}

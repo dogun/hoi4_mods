@@ -1,0 +1,17 @@
+characters={
+	PRC_MaoZeDong={
+		name=PRC_MaoZeDong
+		portraits={
+			civilian={
+				large="gfx/leaders/教员.dds"
+			}
+		}
+		country_leader={
+			ideology=GuongTuanZHuYi_c
+			traits={  }
+			expire="1976.09.09.1"
+			id=-1
+		}
+	}
+
+}

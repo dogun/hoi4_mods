@@ -355,6 +355,24 @@ ideas = {
 
 			modifier = {
 				research_speed_factor = 0.2
+				MaKeSi_LieNingZHuYi_drift = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_DuiKangCHuanTongPai = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				MaKeSi_LieNingZHuYi_drift = -0.1
+				YuanSHiZHuYi_drift = 0.1
 			}
 			targeted_modifier = {
 			}
@@ -393,6 +411,86 @@ ideas = {
 				production_speed_infrastructure_factor = 0.1
 
 				stability_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_HongJun = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_JunDuiYouXian = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+
+				conscription_factor = 0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_BuDuanGeMingLuen = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_stability_factor = 0.2
+				war_support_weekly = 0.01
+
+				justify_war_goal_time = -0.3
+				subjects_autonomy_gain = -0.1
+
+				ai_focus_aggressive_factor = 0.25
+				ai_desired_divisions_factor = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_JingJiHuZHuWeiYuanHui = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				autonomy_manpower_share = -1
+				cic_to_overlord_factor = 0.5
+				mic_to_overlord_factor = 0.5
 			}
 			targeted_modifier = {
 			}
@@ -446,6 +544,40 @@ ideas = {
 				global_building_slots = 1
 				global_building_slots_factor = 0.1
 				production_speed_buildings_factor = 0.5 
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GuongTongMingYun = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.2
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ZHengZHiWeiYuan = {
+			picture = chi_war_of_resistance
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.2
+				army_org_regain = 0.1
 			}
 			targeted_modifier = {
 			}
@@ -619,5 +751,134 @@ ideas = {
 			targeted_modifier = {
 			}
 		}
+
+		bw_WuNianJiHua = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 2
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_FuLiGuoJia = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_MaKeSiHuSHen = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.3
+				army_org_regain = 0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_LeTu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GangTieHuongLiu = {
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+
+			}
+			targeted_modifier = {
+
+			}
+			equipment_bonus = {
+				armor = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+		SOV_soviet_hegemony_idea = {
+
+			picture = SOV_soviet_hegemony
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+
+			}
+			available = {
+
+			}
+
+			modifier = {
+				MaKeSi_LieNingZHuYi_drift = 0.1
+				political_power_factor = 0.1
+				intel_network_gain_factor = 0.15
+				compliance_growth = 0.15
+			}
+		}
+
 	}
 }

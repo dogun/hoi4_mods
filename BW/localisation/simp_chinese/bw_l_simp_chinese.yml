@@ -25,13 +25,40 @@
  STATE_980: "索契"
  STATE_981: "巴统"
  STATE_982: "巴登"
+ STATE_983: "苏瓦乌基"
+ STATE_984: "谢德尔采"
+ STATE_985: "拉多姆"
+ STATE_986: "摩纳哥"
+ STATE_987: "列支敦士登"
+ STATE_988: "安道尔"
+ STATE_989: "加莱"
+ STATE_990: "北巴勒斯坦"
+ STATE_991: "耶路撒冷"
  STATE_5: "埃姆兰"
- STATE_233:0 "索契山区"
+ STATE_233: "索契山区"
+ STATE_454: "南巴勒斯坦"
+ STATE_217: "伏尔加格勒"
+ STATE_227: "顿涅茨克"
+ STATE_742: "杜尚别"
  
  #城市
  
  VICTORY_POINTS_3151: "圣彼得堡"
  VICTORY_POINTS_3151_SOV: "列宁格勒"
+ 
+ VICTORY_POINTS_7405: "阿拉什卡拉"
+ 
+ VICTORY_POINTS_3529: "伏尔加格勒"
+ 
+ VICTORY_POINTS_6474: "顿涅茨克"
+ 
+ VICTORY_POINTS_1384: "杜尚别"
+ 
+ #战略地区
+ 
+ STRATEGICREGION_20: "奥克西塔尼亚"
+ STRATEGICREGION_267: "希瓦"
+ STRATEGICREGION_269: "布哈拉"
  
  #国家
   
@@ -332,6 +359,33 @@
  
  # # #GER
  
+ bw_GER_SHengCunKongJian: "生存空间"
+ bw_GER_SHengCunKongJian_desc: " "
+ 
+ bw_GER_DeYiZHiMinZuDeSHengCunKongJian: "德意志民族的生存空间"
+ bw_GER_DeYiZHiMinZuDeSHengCunKongJian_desc: " "
+ 
+ bw_GER_HaiSHiXingDong: "海狮行动"
+ bw_GER_HaiSHiXingDong_desc: " "
+ 
+ bw_GER_YingFaFanDui: "英法反对"
+ bw_GER_YingFaFanDui_desc: " "
+ 
+ bw_GER_FaErSaiTiXi: "法尔赛体系"
+ bw_GER_FaErSaiTiXi_desc: " "
+ 
+ bw_GER_RiNeiWaTiaoYue_1: "日内瓦条约"
+ bw_GER_RiNeiWaTiaoYue_1_desc: " "
+ 
+ bw_GER_RiNeiWaTiaoYue_2: "日内瓦条约"
+ bw_GER_RiNeiWaTiaoYue_2_desc: " "
+ 
+ bw_GER_RiNeiWaTiaoYue_3: "日内瓦条约"
+ bw_GER_RiNeiWaTiaoYue_3_desc: " "
+ 
+ bw_GER_SHuiJingZHiYe: "水晶之夜"
+ bw_GER_SHuiJingZHiYe_desc: " "
+ 
  bw_GER_TongYiDeDeYiZH: "统一的德意志"
  bw_GER_TongYiDeDeYiZH_desc: " "
  
@@ -350,10 +404,24 @@
  bw_GER_SiNianJiHua: "四年计划"
  bw_GER_SiNianJiHua_desc: " "
  
- # # #大不列颠
+ # # #爱尔兰
  
  bw_IRE_Celt: "泛凯尔特主义"
  bw_IRE_Celt_desc: "在独立战争胜利后爱尔兰出现了泛凯尔特主义；既然爱尔兰已经从英格兰的统治下独立，那么为什么不把苏格兰、威尔士、布列塔尼，甚至是中西欧，这些凯尔特人的土地从日耳曼蛮子的手里解放出来。"
+ 
+ bw_IRE_FeiCuiZHiDao: "翡翠之岛"
+ bw_IRE_FeiCuiZHiDao_desc: " "
+ 
+ # # #大不列颠
+ 
+ bw_ENG_SuGeLanFanDuiPai: "苏格兰反对派"
+ bw_ENG_SuGeLanFanDuiPai_desc: "大不列颠本来就是因利益联合起来的脆弱同盟，以前太阳挂起的时候或许可以统一，现在日落了他们就想独立了。"
+ 
+ bw_ENG_RiLuoDiGuo: "日落帝国"
+ bw_ENG_RiLuoDiGuo_desc: "啊~~日不落帝国，我们击败拿破仑建立了庞大的帝国，虽然在遥远的美洲出了点问题，但我们把德意志人给打败了，现在一切安好，对吗？"
+ 
+ bw_ENG_DengSHanZHiRen: "登山之人"
+ bw_ENG_DengSHanZHiRen_desc: "在1924年我们攀登了珠穆朗玛峰，成为了第一个登顶的国家，事实证明大英帝国荣光仍在！"
  
  # # #GSR
  
@@ -384,6 +452,18 @@
  
  bw_AUS_GongHeGuoDeYiCHan: "共和国的遗产"
  
+ # # #沙皇国
+ 
+ bw_FER_WoMenWeiDaDeJunZHuWuSuoBuZHi_WuSuoBuNeng_WuLuenWoMenYongYouSengMo_WuLuenWoMenSHiFouJianKang_SuoYouDeZHeiXieDoGuiGongYvWoMenWeiDsDeJunZHu__Ma: "我们伟大的君主无所不知，无所不能，无论我们拥有什么，无论我们是否健康，所有的这些都归功于我们伟大的君主......吗？"
+ 
+ # # #中国
+ 
+ bw_CHI_YiCuenSHanHeYiCuenXie_SHiWanQingNianSHiWanBing: "一寸山河一寸血，十万青年十万兵"
+ 
+ # # #教宗国
+ 
+ bw_PAP_ALiYaYunDong: "阿利亚运动"
+ 
  # # #通用
  
  bw_JiTiZHuYiJingSHen: "集体主义精神"
@@ -394,6 +474,26 @@
  bw_GuoJiGe: "国际歌"
  
  bw_YvKeXueJiaHeZuo: "与科学家合作"
+ 
+ bw_HuanBuHuoDeSHengCHanZiLiao: "缓步获得生产资料"
+ 
+ bw_DuoQvSHengCHanZiLiao: "夺取生产资料"
+ 
+ bw_HongJun: "红军"
+ 
+ bw_JunDuiYouXian: "军队优先"
+ 
+ bw_BuDuanGeMingLuen: "不断革命论"
+ 
+ bw_NngYJiTiHua: "农业集体化"
+ 
+ bw_YiGuoJianCHengSHeHuiZHuYi: "一国建成社会主义"
+ 
+ bw_CHaoGongYeHua: "超工业化"
+ 
+ bw_GuongTongMingYun: "共同命运"
+ 
+ bw_ZHengZHiWeiYuan: "政治委员"
  
  bw_GongSHe: "公社"
  
@@ -454,31 +554,85 @@
  bw_YouYiZHunJunSHi: "塔尼亚军团" #R
  bw_YouYiZHunJunSHi_desc: "由国民联盟在1935年建立了名为“塔尼亚军团”的准军事政治。" #R
  
+ # # #政策
+ 
+ bw_GER_LunYiZHiDu: "轮役制度"
+ 
  #人
  
+ # # #加拿大
+ 
  CAN_philip_arthur: "菲利普·阿瑟"
-
- RBD_Alsat: "阿尔萨特"
-
- CSA_john_thompson: "约翰·汤普森"
-
- GER_Gregor_Strasser: "格雷戈尔·施特拉塞"
- 
- Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
- 
- GER_Reinhard_Heydrich: "莱因哈德·特里斯坦·欧根·海德里希"
  
  CAN_evelina: "埃维琳娜"
  
  CAN_SOV: "加拿大苏维埃"
  
+ # # #莱茵联邦
+ 
+ RBD_Alsat: "阿尔萨特"
+
+ # # #美利坚联盟国
+ 
+ CSA_john_thompson: "约翰·汤普森"
+ 
+ # # #德三
+
+ GER_Gregor_Strasser: "格雷戈尔·施特拉塞"
+ 
+ GER_adolf_hitler: "阿道夫·希特勒"
+ 
+ GER_Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
+ 
+ Heinrich_Himmler: "海因里希·卢伊特波尔德·希姆莱"
+ 
+ GER_Reinhard_Heydrich: "莱因哈德·特里斯坦·欧根·海德里希"
+ 
+ GER_Paul_Joseph_Goebbels: "保罗·约瑟夫·戈培尔"
+ 
+ GER_otto_Strasser: "奥托·约翰·马克西米利安·施特拉塞"
+ 
+ GER_Aldert_Speer: "贝特霍尔德·康拉德·赫尔曼·阿尔伯特·施佩尔"
+ 
+ # # #奥地利
+ 
  AUS_Kurt_Schuschnigg_BW: "库尔特·舒施尼格"
  
- AUS_Karl_von_Habsburg_BW: "卡尔·冯·哈布斯堡-洛林"
+ AUS_Karl_von_Habsburg_BW: "卡尔·冯·哈布斯堡-洛林根"
+ 
+ #沙皇国
  
  FER_Nikolay_II: "尼古拉二世·亚历山大洛维奇·诺曼诺夫"
  
  FER_TABI: "谢尔盖·弗拉基米尔洛维奇·塔博里斯基"
+ 
+ # # #俄罗斯
+ 
+ RFE_Aleksandr_Fyodorovich_Kerenskiy: "亚历山大·费奥多罗维奇·克伦斯基"
+ 
+ # # #普鲁士
+ 
+ PRE_Wilhelm_II: "腓特烈·威廉·维克托·阿尔贝特·冯·普鲁士"
+ 
+ # # #英国
+ 
+ ENG_Stanley_Baldwin: "斯坦利·鲍德温"
+ 
+ # # #梵蒂冈
+ 
+ PAP_Pius_PP_XI: "庇护十一世"
+ 
+ # # #中共
+ 
+ PRC_MaoZeDong: "毛泽东"
+ 
+ # # #中国
+ 
+ CHI_JiangJieSHi: "蒋介石"
+ 
+ # # #日本
+ 
+ JAP_ZHaoHe: "昭和天皇"
  
  #个人特征
  
@@ -493,6 +647,11 @@
  Habsburg: "哈布斯堡"
  
  YuanSHou: "元首"
+ 
+ TianCaiDeWaiJiaoGuan: "“天才”的外交官"
+ 
+ YongYuanDeZongTong: "永远的总统"
+ 
  
  # # #顾问
  
@@ -583,6 +742,16 @@
  bw_ENG.1.d: "今日不列颠政府通过了《1935年印度政府法案》要求我们加入王国"
  bw_ENG.1.a: "谁叫他是我们的宗主"
  
+ bw_ENG.2: "马祖伦或战争"
+ bw_ENG.2.t: "马祖伦或战争"
+ bw_ENG.2.d: ""
+ bw_ENG.2.a: "欺人太甚"
+ 
+ bw_ENG.3: "欺人太甚"
+ bw_ENG.3.t: "欺人太甚"
+ bw_ENG.3.d: ""
+ bw_ENG.3.a: "旧友"
+ 
  # # #德三
  
  #bw_GER.1: "魏玛政府倒台"
@@ -590,8 +759,8 @@
  #bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
  #bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
  
- bw_GER.1: "改组政府"
- bw_GER.1.t: "改组政府"
+ bw_GER.1: "胜利"
+ bw_GER.1.t: "胜利"
  bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
  bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
  
@@ -627,11 +796,88 @@
  bw_GER.7.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
  bw_GER.7.a: "谁？"
  
- bw_GER.8: "$GER$索取南蒂罗尔和滨海区"
- bw_GER.8.t: "$GER$索取南蒂罗尔和滨海区"
- bw_GER.8.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
- bw_GER.8.a: "几块烂地？可以"
- bw_GER.8.b: "滚"
+ bw_GER.8: "反布尔什维克志愿军"
+ bw_GER.8.t: "反布尔什维克志愿军"
+ bw_GER.8.d: ""
+ bw_GER.8.a: "我当然愿意帮忙…"
+ bw_GER.8.b: "但是这是德国自己的事情，与我无关"
+ 
+ bw_GER.9: "反布尔什维克志愿军"
+ bw_GER.9.t: "反布尔什维克志愿军"
+ bw_GER.9.d: ""
+ bw_GER.9.a: "非常好"
+ bw_GER.9.b: "希望他们不要脏了慕尼黑的街"
+ 
+ bw_GER.10: "波美拉尼亚或战争"
+ bw_GER.10.t: "波美拉尼亚或战争"
+ bw_GER.10.d: ""
+ bw_GER.10.a: "我们只能妥协"
+ bw_GER.10.b: "奥地利下士别嚣张"
+ 
+ bw_GER.11: "普鲁士妥协"
+ bw_GER.11.t: "普鲁士妥协"
+ bw_GER.11.d: ""
+ bw_GER.11.a: "太好了"
+ 
+ bw_GER.12: "普鲁士拒不退让"
+ bw_GER.12.t: "普鲁士拒不退让"
+ bw_GER.12.d: ""
+ bw_GER.12.a: "开战！"
+ 
+ bw_GER.13: "普鲁士的命运"
+ bw_GER.13.t: "普鲁士的命运"
+ bw_GER.13.d: ""
+ bw_GER.13.a: "我在这也够久了"
+ bw_GER.13.b: "共和派还想把我逼到什么地方？"
+ 
+ bw_GER.14: "$GER$索取南蒂罗尔和滨海区"
+ bw_GER.14.t: "$GER$索取南蒂罗尔和滨海区"
+ bw_GER.14.d: ""
+ bw_GER.14.a: "几块烂地？可以"
+ bw_GER.14.b: "滚"
+ 
+ bw_GER.15: "意大利同意割让领土"
+ bw_GER.15.t: "意大利同意割让领土"
+ bw_GER.15.d: ""
+ bw_GER.15.a: "识时务者为俊杰"
+ 
+ bw_GER.16: "意大利拒绝割让领土"
+ bw_GER.16.t: "意大利拒绝割让领土"
+ bw_GER.16.d: ""
+ bw_GER.16.a: "准备执行撒丁行动"
+ bw_GER.16.b: "现在还不是时候"
+ 
+ bw_GER.17: "马祖伦或战争"
+ bw_GER.17.t: "马祖伦或战争"
+ bw_GER.17.d: ""
+ bw_GER.17.a: "本来也不属于我"
+ bw_GER.17.b: "拿但泽交换如何？"
+ bw_GER.17.c: "已经拿到的领土为什么要吐出来？"
+ 
+ bw_GER.18: "波兰同意归还领土"
+ bw_GER.18.t: "波兰同意归还领土"
+ bw_GER.18.d: ""
+ bw_GER.18.a: "算他识相"
+ 
+ bw_GER.19: "交易"
+ bw_GER.19.t: "交易"
+ bw_GER.19.d: ""
+ bw_GER.19.a: "以后一定让他吐出来"
+ bw_GER.19.b: "算是谈崩了？"
+ 
+ bw_GER.20: "波兰拒绝归还领土"
+ bw_GER.20.t: "波兰拒绝归还领土"
+ bw_GER.20.d: ""
+ bw_GER.20.a: "土匪！！！"
+ bw_GER.20.b: "不能冒险"
+ 
+ # # #波兰
+ 
+ bw_POL.1: "进军马祖伦"
+ bw_POL.1.t: "进军马祖伦"
+ bu_POL.1.d: ""
+ bw_POL.1.a: "正好弥补但泽"
+ bw_POL.1.b: "不能冒激怒德国的险"
  
  # # #南北战争
  
@@ -694,6 +940,59 @@
  bw_GSR.1.d: "粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！"
  bw_GSR.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？
  bw_GSR.1.b: "粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）"
+ 
+ # # #日本
+ 
+ bw_JAP.1: "卢沟桥事变"
+ bw_JAP.1.t: "卢沟桥事变"
+ bw_JAP.1.d: ""
+ bw_JAP.1.a: "就这么干"
+ bw_JAP.1.b: "你忘记日俄战争的教训了？"
+ 
+ bw_JAP.2: "$CHI$拒绝割让领土"
+ bw_JAP.2.t: "$CHI$拒绝割让领土"
+ bw_JAP.2.d: ""
+ bw_JAP.2.a: "开战！"
+ 
+ bw_JAP.3: "$CHI$妥协"
+ bw_JAP.3.t: "$CHI$妥协"
+ bw_JAP.3.d: ""
+ bw_JAP.3.a: "算他们识趣"
+ 
+ # # #沙皇国
+ 
+ bw_FER.1: "$JAP$索取满洲"
+ bw_FER.1.t: "$JAP$索取满洲"
+ bw_FER.1.d: ""
+ bw_FER.1.a: "东北抗联祸害了我们这么久，是时候祸害一下日本了"
+ bw_FER.1.b: "看来他们是忘记日俄战争的教训了"
+ 
+ # # #中国
+ 
+ bw_CHI.1: "卢沟桥事变"
+ bw_CHI.1.t: "卢沟桥事变"
+ bw_CHI.1.d: ""
+ bw_CHI.1.a: "一寸山河一寸血，十万青年十万兵。开战！"
+ bw_CHI.1.b: "我们没有与列强拼的实力"
+ 
+ bw_CHI.2: "中华民族统一战线"
+ bw_CHI.2.t: "中华民族统一战线"
+ bw_CHI.2.d: ""
+ bw_CHI.2.a: "开始动员"
+ 
+ bw_CHI.3: "中华民国战时整合"
+ bw_CHI.3.t: "中华民国战时整合"
+ bw_CHI.3.d: ""
+ bw_CHI.3.a: "抗日是每个中国人的义务"
+ bw_CHI.3.b: "你这么说，那我可就投靠日本人了"
+ 
+ # # #教宗国
+ 
+ bw_PAP.1: "犹太人涌入"
+ bw_PAP.1.t: "犹太人涌入"
+ bw_PAP.1.d: ""
+ bw_PAP.1.a: "他们至少比穆斯林好"
+ bw_PAP.1.b: "异教徒赶紧滚"
  
  # # #疯子希特勒
  
@@ -784,6 +1083,17 @@
  bw_American_Civil_War_10: "总督辖区将会崩溃，你将接管剩余领土。"
  #权力平衡
  
+ FER_Kozak: "哥萨克的威胁"
+ WuWeiXie: "无威胁"
+ WeiXie: "威胁"
+ WuWeiXie_1: "毫无威胁" #毫不起眼
+ WuWeiXie_2: "小有威胁" #小有影响
+ PoJvWeiXie: "颇具威胁"
+ WeiXie_1: "迫在眉睫"
+ WeiXie_2: "掌控一切"
+ 
+ # # #废弃
+ 
  FER_Tsar_KBKV: "权力分布"
  Tsar_KBKV: "平衡"
  Tsar: "国王"
@@ -827,14 +1137,25 @@
  GER_ZHengHeWeiSiTeFaLiYa: "整合威斯特伐利亚"
  GER_ZHengHeHeiSen: "整合黑森"
  GER_ZHengHeHeErSiTaiYin: "整合赫尔斯泰因"
+ GER_GuoYouHuaZiYouJiuTuan: "招募自由军团"
+ GER_ZHaoMuMinBing: "招募民兵"
+ 
+ FER_Kozak: "哥萨克的威胁"
+ FER_AnFuGeSaKe: "安抚哥萨克"
+ 
+ bw_YaoQingXinCHengYuan: "邀请新成员"
+ 
  
  debug: "调试模式"
  KaiQiYvLeMoSHi: "开启娱乐模式"
+ DaYingDeGuoNeiZHan: "打赢德国内战"
  
  YvLeMoSHi: "娱乐模式"
  GuanBiYvLeMoSHi: "关闭娱乐模式"
  MeiZHouDaBaoZHa: "美洲大爆炸"
  FaGuoDaBaoZHa: "髪国大爆炸"
+ WoYaoCHengWeiCiXi: "我要成为慈禧，我要成为慈禧"
+ 
  QunXing_QiDong: "群星，启动！"
  SHiZHeJunSi: "逝者军势"
  
@@ -870,7 +1191,7 @@
  GER_DaYaDangWeiJun_desc: ""
  
  GER_HaiDelLxi: "海德里希"
- GER_HaiDelLxi_desc: ""
+ 3GER_HaiDelLxi_desc: ""
  
  GER_DiSanFang: "第三方"
  GER_DiSanFang_desc: ""
@@ -959,6 +1280,47 @@
  GER_MeiFuQvan: "梅福券"
  GER_MeiFuQvan_desc: ""
  
+ # # #GER
+ 
+ GER_FaXiSiZHiJian: "法西斯之剑"
+ GER_FaXiSiZHiJian_desc: ""
+ 
+ GER_DongYuanCHongFengDui: "动员冲锋队"
+ GER_DongYuanCHongFengDui_desc: ""
+ 
+ GER_DongYuanDangWeiJun: "动员党卫军"
+ GER_DongYuanDangWeiJun_desc: ""
+ 
+ GER_XiMuLaiJiangJun: "任命希姆莱"
+ GER_XiMuLaiJiangJun_desc: ""
+ 
+ GER_ZHaoMuMinBing: "招募民兵"
+ GER_ZHaoMuMinBing_desc: ""
+ 
+ GER_ZiYouJiuTuan: "自由军团"
+ GER_ZiYouJiuTuan_desc: ""
+ 
+ GER_ZHengHeZHanLingQv: "整合占领区"
+ GER_ZHengHeZHanLingQv_desc: ""
+ 
+ GER_JieSHuNeiZHan: "结束内战"
+ GER_JieSHuNeiZHan_desc: ""
+ 
+ GER_DeAoHeBing: "德奥合并"
+ GER_DeAoHeBing_desc: "奥地利自从1866年的普奥战争以后就被排除在德意志里面，很明显这是错误的，大德意志万岁！"
+ 
+ GER_YvYiDaLiJiaoHao: "对意大利示好"
+ GER_YvYiDaLiJiaoHao_desc: ""
+ 
+ GER_SuoQvQiYvAoDiLi: "索取其余奥地利"
+ GER_SuoQvQiYvAoDiLi_desc: ""
+ 
+ GER_SuoQvSuTaiDe: "索取苏台德"
+ GER_SuoQvSuTaiDe_desc: ""
+ 
+ GER_JieKeDeMingYun: "捷克的命运"
+ GER_JieKeDeMingYun_desc: ""
+ 
  # # #通用国策
  
  ZHengZHiJueCe: "政治决策"
@@ -998,11 +1360,40 @@
  DiYiJieSuWeiAiDaiBiaoDaHui: "第一届苏维埃代表大会"
  DiYiJieSuWeiAiDaiBiaoDaHui_desc: "作为新生的共和国，我们的未来是什么？"
  
+ #ZHanXin_MeiHaoDe_ROOT: "崭新，美好的$ROOT$"
+ #ZHanXin_MeiHaoDe_ROOT_desc: "崭新，美好的$ROOT$。"
+ 
+ DiYiJieSuWeiAiDaiBiaoDaHui: "第一届苏维埃代表大会"
+ DiYiJieSuWeiAiDaiBiaoDaHui_desc: "作为新生的共和国，我们的未来是什么？"
+ 
  HuanBuHuoDeSHengCHanZiLiao: "缓步获得生产资料"
  HuanBuHuoDeSHengCHanZiLiao_desc: "缓步获得生产资料。"
  
  DuoQvSHengCHanZiLiao: "夺取生产资料"
  DuoQvSHengCHanZiLiao_desc: "为了未来不被剥削，我们必须把生产资料公有化。"
+ 
+ DuoQvSHengCHanZiLiao: "夺取生产资料"
+ DuoQvSHengCHanZiLiao_desc: "为了未来不被剥削，我们必须把生产资料公有化。"
+ 
+ ZHengZHiWeiYuan: "政治委员"
+ ZHengZHiWeiYuan_desc: "政治委员。"
+ 
+ 
+ TiZHiQvZHongXinHua: "体制去中心化"
+ TiZHiQvZHongXinHua_desc: "体制去中心化。"
+ 
+ HongJun: "红军"
+ HongJun_desc: "红军。"
+ 
+ JunDuiYouXian: "军队优先"
+ JunDuiYouXian_desc: "军队优先。"
+ 
+ BuDuanGeMingLuen: "不断革命论"
+ BuDuanGeMingLuen_desc: "不断革命论。"
+ 
+ JingJiHuZHuWeiYuanHui: "经济互助委员会"
+ JingJiHuZHuWeiYuanHui_desc: "经济互助委员会。"
+ 
  
  NngYJiTiHua: "农业集体化"
  NngYJiTiHua_desc: "农业集体化。"
@@ -1013,8 +1404,31 @@
  CHaoGongYeHua: "超工业化"
  CHaoGongYeHua_desc: "超工业化。"
  
+ GeRenCHongBei: "个人崇拜"
+ GeRenCHongBei_desc: "个人崇拜。"
+ 
+ 
+ XinJingJiZHengCe: "新经济政策"
+ XinJingJiZHengCe_desc: "新经济政策。"
+ 
+ KeCHiXvJingJi: "可持续经济"
+ KeCHiXvJingJi_desc: "可持续经济。"
+ 
+ SuWaiAiQvanWei: "苏维埃权威"
+ SuWaiAiQvanWei_desc: "苏维埃权威。"
+ 
+ GuongTongMingYun: "共同命运"
+ GuongTongMingYun_desc: "共同命运。"
+ 
+ 
  WoMenZiJiDeDaoLu: "我们自己的道路"
  WoMenZiJiDeDaoLu_desc: "列宁式的共产主义是有缺陷的，要不然为什么苏联被赶到西伯利亚？我们得走出自己的道路。"
+ 
+ YvKeXueJiaHeZuo: "与科学家合作"
+ YvKeXueJiaHeZuo_desc: "按道理来说前政府的官员应该被挂路灯的，但我们没有统治的基础，尔其中的科学家的政治立场比较薄弱，所以我们或许可以与他们合作。毕竟搞科研的能有什么问题？"
+ 
+ DuiKangCHuanTongPai: "对抗传统派"
+ DuiKangCHuanTongPai_desc: "虽然我们选择走出自己的道路，但党内的传统派势力依然强大，我们必须与之对抗。\n\n既然我们选择与科学家合作，那为什么不扶持他与传统派对抗？毕竟他现在可是绝对的自己人"
  
  WanJvGouHuo: "万具篝火"
  WanJvGouHuo_desc: "在一个黑暗的世界里一具篝火的力量很微弱，那十具、千具、万具呢？现在每个人都是一具篝火，我们将照亮世界。"
@@ -1042,3 +1456,46 @@
  #变量
  
  add_MaKeSi_LieNingZHuYi_to_SiDaLingZHuYi_tt: "全部的§Y马克思 - 列宁主义§!支持率将转移至§Y斯大林主义§!"
+ 
+ add_MaKeSi_LieNingZHuYi_to_TuoLuoSiJiZHuYi_tt: "全部的§Y马克思 - 列宁主义§!支持率将转移至§托洛斯基主义§!"
+ 
+ #加载
+ 
+ LOADING_GUI: "攀登圣母峰"
+ LOADING_HISTORY: "建立南极定居点"
+ LOADING_SAVEGAME: "火烧国会"
+ LOADING_SAVEGAME_NO_NAME: "建立摄政统治"
+ LOADING_DATABASES: "处决希姆莱"
+ LOADING_MAP_SPRITES: "号召国际纵队"
+ LOAD_GFX_PDXMAP_SHADERS: "建立第四国际"
+ LOAD_GFX_PDXMAP_TERRAIN: "发动圣战"
+ LOAD_GFX_PDXMAP_BORDERS: "迫害犹太人"
+ LOAD_GFX_PDXMAP_TEXTURES: "在亚马逊打游击"
+ LOAD_GFX_PDXMAP_TREES: "发动内战"
+ LOAD_GFX_PDXMAP_RIVERS: "废除奴隶制"
+ LOAD_GFX_PDXMAP_STATIC_OBJECTS: "与保皇党合作"
+ LOAD_EVENTS: "建立德美同盟"
+ LOAD_GFX: "发动革命"
+ LOADING_MAIN_MENU: "V大鸣帝国使者114514元"
+ PRECALC_NAVAL_DIST: "柏林核爆"
+ EXITING_TO_FRONTEND: "签署加莱协定"
+ LOAD_INIT: "改进法尔赛条约"
+ LOAD_FLAGS: "流亡海外"
+ PROC_FLAGS: "建立企业帝国"
+ INIT_MAP_LOGIC: "吊死资本家"
+ INIT_GAMESTATE: "升起旗帜"
+ EXECUTE_HISTORY: "赤化全球"
+ CREATING_CHKSUM: "寻找地下国度"
+ GENERATING_GRADIENT_BORDERS: "探索沙姆巴拉"
+ 
+ #傀儡国
+ 
+ MingYiSHangSHuYv: "名义上属于"
+ BaoHuGuo: "保护国"
+ WeiXingGuo: "卫星国"
+ KuiLeiGuo: "傀儡国"
+ BanTunBingKuiLeiGuo: "半吞并傀儡国"
+ ZiZHiQv: "自治区"
+ ZHou: "州"
+ ZongDuXiaQv: "总督辖区"
+ JunQv: "军区"

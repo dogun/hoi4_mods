@@ -22,5 +22,43 @@ ideas = {
 			}
 		}
 
+		bw_ENG_RiLuoDiGuo = {	#日落帝国
+			picture = RiLuoDiGuo
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor = -0.1
+				stability_factor = -0.03
+				army_org_factor = -0.05
+				Army_org_regain = -0.05
+				naval_critical_score_chance_factor = -0.05
+			}
+			targeted_modifier = {
+
+			}
+		}
+
+		bw_ENG_DengSHanZHiRen = {	#登山之人
+			picture = DengSHanZHiRen
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+			}
+			targeted_modifier = {
+
+			}
+		}
+
 	}
 }

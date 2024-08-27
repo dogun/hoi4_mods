@@ -903,7 +903,7 @@ set_convoys = 50
 
 set_autonomy = {
 	target = ALT
-	autonomous_state =  autonomy_puppet
+	autonomous_state =  ZiZHiQv
 }
 
 set_politics = {

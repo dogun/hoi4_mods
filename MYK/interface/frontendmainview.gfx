@@ -73,7 +73,11 @@ spriteTypes = {
 		name = "GFX_frontend_bg1"
 		textureFile = "gfx/interface/bg.dds"
 	}
-
+	
+	SpriteType = {
+		name = "GFX_gui_cs"
+		texturefile = "gfx/interface/CS.dds"
+	}
 
 	corneredTileSpriteType = {
 		name = "GFX_tiled_window_ssv"

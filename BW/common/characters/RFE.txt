@@ -1,0 +1,17 @@
+characters={
+RFE_Aleksandr_Fyodorovich_Kerenskiy = {
+		name = RFE_Aleksandr_Fyodorovich_Kerenskiy
+		portraits={
+			civilian={
+				large="gfx/leaders/克伦斯基.dds"
+			}
+		}
+		country_leader={
+			ideology=GuiZuBaoSHouZHuYi_c
+			traits={ YongYuanDeZongTong }
+			expire="1970.6.11.1"
+			id=-1
+		}
+	}
+
+}

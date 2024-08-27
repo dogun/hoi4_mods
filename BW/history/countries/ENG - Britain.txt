@@ -1,4 +1,7 @@
-﻿set_cosmetic_tag = EBG_monarchy
+﻿recruit_character = ENG_Stanley_Baldwin
+
+
+set_cosmetic_tag = EBG_monarchy
 
 capital = 126
 
@@ -179,8 +182,13 @@ add_ideas = {
 	ENG_the_war_to_end_all_wars
 	george_v
 	bw_ENG_SuGeLanFanDuiPai
+	bw_ENG_RiLuoDiGuo
 }
-	
+
+add_timed_idea = {
+	idea = bw_ENG_DengSHanZHiRen
+	days = 200
+}
 
 set_convoys = 1000
 

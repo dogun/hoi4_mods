@@ -2,6 +2,7 @@
 
 	add_ideas = {
 		bw_IRE_Celt
+		bw_IRE_FeiCuiZHiDao
 	}
 
 oob = "IRE_1936"

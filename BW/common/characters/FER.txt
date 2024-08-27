@@ -3,12 +3,12 @@ characters={
 		name = FER_Nikolay_II
 		portraits={
 			civilian={
-				large="gfx/leaders/Gregor Strasser.dds"
+				large="gfx/leaders/尼古拉II.dds"
 			}
 		}
 		country_leader={
 			ideology=JunZHuZHuYi_c
-			traits={ dictator }
+			traits={ unpopular_monarch }
 			expire="9999.1.1.1"
 			id=-1
 		}

@@ -46,6 +46,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -102,6 +103,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -158,6 +160,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -214,6 +217,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -267,6 +271,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -320,6 +325,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -373,6 +379,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -429,6 +436,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -485,6 +493,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -538,6 +547,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -591,6 +601,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -644,6 +655,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -697,6 +709,7 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
 		}
 
 #		cancel_if_not_visible = yes
@@ -715,7 +728,7 @@ GER_DeGuoNeiZHan = {
 
 ###
 
-	GER_GuoYouHuaZiYouJiuTuan = {	#国有化自由军团
+	GER_GuoYouHuaZiYouJiuTuan = {	#招募自由军团
 #决议id
 
 		icon = ger_mefo_bills
@@ -733,10 +746,10 @@ GER_DeGuoNeiZHan = {
 #是否一次性
 		days_remove = 10 
 		remove_effect = { 
-				custom_effect_tooltip = 在萨克森生成5个六骑
-				hidden_effect = {
-					load_oob = "GER_ZiYouJiuTuan"
-				}
+			custom_effect_tooltip = 在萨克森生成5个六骑
+			hidden_effect = {
+				load_oob = "GER_ZiYouJiuTuan"
+			}
 		}
 
 		state_target = yes 
@@ -755,6 +768,10 @@ GER_DeGuoNeiZHan = {
 		visible = {
 #展示条件
 			original_tag = GER
+			has_completed_focus = GER_ZiYouJiuTuan #自由军团
+			NOT = {
+				has_completed_focus = GER_JieSHuNeiZHan #结束内战
+			}
 		}
 
 #		cancel_if_not_visible = yes
@@ -775,4 +792,64 @@ GER_DeGuoNeiZHan = {
 		}
 	}
 
-}
+	GER_ZHaoMuMinBing = {	#招募民兵
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+#			controls_state = 65
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_re_enable = 30
+		days_remove = 10
+		remove_effect = { 
+			custom_effect_tooltip = 在慕尼黑生成3个民兵师
+			hidden_effect = {
+				load_oob = "GER_ZHaoMuMinBing"
+			}
+		}
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 52
+			}
+		}
+#		on_map_mode = map_only
+#		highlight_states = {
+#			highlight_state_targets = {
+#				state = 52
+#			}
+#		}
+
+		visible = {
+#展示条件
+			original_tag = GER
+#			has_variable = GER_ZHaoMuMinBing
+			has_completed_focus = GER_ZHaoMuMinBing #招募民兵
+			NOT = {
+				has_completed_focus = GER_JieSHuNeiZHan #结束内战
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 99999
+			}
+		}
+	}

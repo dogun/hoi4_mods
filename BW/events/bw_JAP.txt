@@ -1,0 +1,81 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_JAP
+
+country_event = { #卢沟桥事变
+	id = bw_JAP.1
+	title = bw_JAP.1.t
+	desc = bw_JAP.1.d
+	fire_only_once = yes
+	trigger = {
+		original_tag = JAP
+		date = "1937.07.07"
+	}
+	option = {
+		name = bw_JAP.1.a #就这么干
+
+		FER = {
+			news_event = {
+				id = bw_FER.1
+				days = 1
+				random = 0
+			}
+		}
+		CHI = {
+			news_event = {
+				id = bw_CHI.1
+				days = 1
+				random = 0
+			}
+		}
+
+		ai_chance = {
+			factor = 999
+		}
+	}
+
+	option = {
+		name = bw_JAP.1.b #你忘记日俄战争的教训了？
+
+		CHI = {
+			news_event = {
+				id = bw_CHI.1
+				days = 1
+				random = 0
+			}
+		}
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #中国拒绝割让领土
+	id = bw_JAP.2
+	title = bw_JAP.2.t
+	desc = bw_JAP.2.d
+	is_triggered_only = yes
+	option = {
+		name = bw_JAP.2.a #开战！
+
+		declare_war_on = {
+			target = CHI
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { #中国妥协
+	id = bw_JAP.3
+	title = bw_JAP.3.t
+	desc = bw_JAP.3.d
+	is_triggered_only = yes
+	option = {
+		name = bw_JAP.3.a #算他们识趣
+
+		transfer_state = 608
+	}
+}

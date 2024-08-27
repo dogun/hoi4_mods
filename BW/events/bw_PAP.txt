@@ -1,0 +1,31 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_PAP
+
+country_event = { #犹太人涌入
+	id = bw_PAP.1
+	title = bw_PAP.1.t
+	desc = bw_PAP.1.d
+	fire_only_once = yes
+	trigger = {
+		original_tag = PAP
+		GER = {
+			complete_national_focus = GER_JieSHuNeiZHan #结束内战
+		}
+	}
+	option = {
+		name = bw_PAP.1.a #他们至少比穆斯林好
+
+		add_manpower = 1000
+		add_ideas = bw_PAP_ALiYaYunDong
+	}
+
+	option = {
+		name = bw_PAP.1.b #异教徒赶紧滚
+
+		add_manpower = 1000
+		add_ideas = bw_PAP_ALiYaYunDong
+	}
+}

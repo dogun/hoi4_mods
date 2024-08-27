@@ -263,6 +263,49 @@ focus_tree = {
 			add_political_power = 25
 		}
 	}
+# # # # # # # # #卫国战争小分支
+#	focus = {
+#		id = ZHanXin_MeiHaoDe_ROOT #崭新，美好的<扮演国家>
+#		icon = GFX_goal_unknown
+#		cost = 5.00
+#		prerequisite = {
+#			focus = DiYiJieSuWeiAiDaiBiaoDaHui #第一届苏维埃代表大会
+#		}
+#		x = 10
+#		y = 10
+#		completion_reward = {
+#			add_stability = 0.05
+#			add_political_power = 25
+#		}
+#	}
+#	focus = {
+#		id = WeiDaDeWeiGuoZHanZHeng #伟大的卫国战争
+#		icon = GFX_goal_unknown
+#		cost = 5.00
+#		prerequisite = {
+#			focus = DiYiJieSuWeiAiDaiBiaoDaHui #第一届苏维埃代表大会
+#		}
+#		x = 10
+#		y = 10
+#		completion_reward = {
+#			add_stability = 0.05
+#			add_political_power = 25
+#		}
+#	}
+#	focus = {
+#		id = YiBuYeBuXvHouTui #一步也不许后退
+#		icon = GFX_goal_unknown
+#		cost = 5.00
+#		prerequisite = {
+#			focus = WeiDaDeWeiGuoZHanZHeng #伟大的卫国战争
+#		}
+#		x = 10
+#		y = 11
+#		completion_reward = {
+#			add_stability = 0.05
+#			add_political_power = 25
+#		}
+#	}
 # # # # # # # # #传统共产主义小分支
 	focus = {
 		id = 列宁式政党
@@ -323,6 +366,22 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = ZHengZHiWeiYuan #政治委员
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = GeRenCHongBei #个人崇拜
+			focus = JingJiHuZHuWeiYuanHui #经济互助委员会
+			focus = GuongTongMingYun #共同命运
+		}
+		x = 5
+		y = 19
+		completion_reward = {
+			add_ideas = bw_ZHengZHiWeiYuan
+		}
+	}
+# # # # # # # # # # # #传统托洛斯基迷你分支
+	focus = {
 		id = 托洛斯基主义基础
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -339,6 +398,89 @@ focus_tree = {
 			set_politics = {
 				ruling_party = TuoLuoSiJiZHuYi
 			}
+			add_MaKeSi_LieNingZHuYi_to_TuoLuoSiJiZHuYi = yes
+		}
+	}
+	focus = {
+		id = TiZHiQvZHongXinHua #体制去中心化
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = DuoQvSHengCHanZiLiao #夺取生产资料
+			focus = HuanBuHuoDeSHengCHanZiLiao #缓步获得生产资料
+		}
+		prerequisite = {
+			focus = 托洛斯基主义基础
+		}
+		x = 2
+		y = 15
+		completion_reward = {
+			add_ideas = SOV_system_decentralization_idea
+		}
+	}
+	focus = {
+		id = HongJun #红军
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = TiZHiQvZHongXinHua #体制去中心化
+		}
+		x = 2
+		y = 16
+		completion_reward = {
+			add_ideas = bw_HongJun
+		}
+	}
+	focus = {
+		id = JunDuiYouXian #军队优先
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = HongJun #红军
+		}
+		x = 0
+		y = 17
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_HongJun
+				add_idea = bw_JunDuiYouXian
+			}
+		}
+	}
+	focus = {
+		id = BuDuanGeMingLuen #不断革命论
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = HongJun #红军
+		}
+		x = 2
+		y = 17
+		completion_reward = {
+			add_ideas = bw_BuDuanGeMingLuen
+		}
+	}
+	focus = {
+		id = JingJiHuZHuWeiYuanHui #经济互助委员会
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = BuDuanGeMingLuen #不断革命论
+		}
+		x = 2
+		y = 18
+		completion_reward = {
+			add_ideas = SOV_comecon_sov_default
+			custom_effect_tooltip = SOV_found_the_comecon_subjects_tt
+			if = {
+				every_other_country = {
+					limit = {
+						is_subject_of = ROOT
+					}
+					add_ideas = SOV_comecon_puppet_default
+				}
+			}
+			unlock_decision_tooltip = bw_YaoQingXinCHengYuan
 		}
 	}
 # # # # # # # # # # # #传统斯大林迷你分支
@@ -347,7 +489,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			#focus = 列宁式政党
+			focus = 列宁式政党
 		}
 		mutually_exclusive = {
 			focus = 托洛斯基主义基础
@@ -406,6 +548,20 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GeRenCHongBei #个人崇拜
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = CHaoGongYeHua #超工业化
+		}
+		x = 5
+		y = 18
+		completion_reward = {
+			add_country_leader_trait = nationalist_symbol
+		}
+	}
+# # # # # # # # # # # #传统马列迷你分支
+	focus = {
 		id = 马列主义基础
 		icon = GFX_goal_unknown
 		cost = 5.00
@@ -422,6 +578,65 @@ focus_tree = {
 			set_politics = {
 				ruling_party = MaKeSi_LieNingZHuYi
 			}
+		}
+	}
+	focus = {
+		id = XinJingJiZHengCe #新经济政策
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = DuoQvSHengCHanZiLiao #夺取生产资料
+			focus = HuanBuHuoDeSHengCHanZiLiao #缓步获得生产资料
+		}
+		prerequisite = {
+			focus = 马列主义基础
+		}
+		x = 8
+		y = 15
+		completion_reward = {
+			add_ideas = new_economic_policy
+		}
+	}
+	focus = {
+		id = KeCHiXvJingJi #可持续经济
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = XinJingJiZHengCe #新经济政策
+		}
+		x = 8
+		y = 16
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = new_economic_policy
+				add_idea = new_economic_policy_2
+			}
+		}
+	}
+	focus = {
+		id = SuWaiAiQvanWei #苏维埃权威
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = KeCHiXvJingJi #可持续经济
+		}
+		x = 8
+		y = 17
+		completion_reward = {
+			add_ideas = SOV_soviet_hegemony_idea
+		}
+	}
+	focus = {
+		id = GuongTongMingYun #共同命运
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SuWaiAiQvanWei #苏维埃权威
+		}
+		x = 8
+		y = 18
+		completion_reward = {
+			add_ideas = bw_GuongTongMingYun
 		}
 	}
 # # # # # # # # #特色共产主义小分支
@@ -444,8 +659,9 @@ focus_tree = {
 			}
 		}
 	}
+# # # # # # # # # # # #远视迷你分支
 	focus = {
-		id = 与科学家合作
+		id = YvKeXueJiaHeZuo #与科学家合作
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -464,12 +680,23 @@ focus_tree = {
 			}
 		}
 	}
+#	focus = {
+#		id = 科学委员会
+#		icon = GFX_goal_unknown
+#		cost = 5.00
+#		prerequisite = {
+#			focus = YvKeXueJiaHeZuo #与科学家合作
+#		}
+#		x = 12
+#		y = 14
+#
+#	}
 	focus = {
-		id = 科学委员会
+		id = DuiKangCHuanTongPai #对抗传统派
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = 与科学家合作
+			focus = YvKeXueJiaHeZuo #与科学家合作
 		}
 		x = 12
 		y = 14
@@ -508,7 +735,7 @@ focus_tree = {
 			focus = WoMenZiJiDeDaoLu #我们自己的道路
 		}
 		mutually_exclusive = {
-			focus = 与科学家合作
+			focus = YvKeXueJiaHeZuo #与科学家合作
 			focus = 建立公社集体
 		}
 		x = 15
@@ -549,7 +776,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = 民主的共产主义
-			focus = 与科学家合作
+			focus = YvKeXueJiaHeZuo #与科学家合作
 		}
 		x = 18
 		y = 13
@@ -758,14 +985,48 @@ focus_tree = {
 			add_ideas = bw_WanJvGouHuo
 		}
 	}
+#	focus = {
+#		id = 无政府，无国界
+#		icon = GFX_goal_unknown
+#		cost = 5.00
+#		prerequisite = {
+#			focus = WanJvGouHuo #万具篝火
+#		}
+#		x = 21
+#		y = 20
+#		completion_reward = {
+#			add_ideas = bw_WuZHengFu_WuGuoJie
+#		}
+#	}
+
+#共产通用小分支
+
+	focus = {
+		id = WuNianJiHua #五年计划
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = WanJvGouHuo #万具篝火
+			focus = ZHengZHiWeiYuan #政治委员
+		}
+		x = 7
+		y = 20
+		completion_reward = {
+			add_timed_idea = {
+				idea = bw_WuNianJiHua
+				days = 1825
+			}
+		}
+	}
 	focus = {
 		id = 前进之路
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
 			focus = WanJvGouHuo #万具篝火
+			focus = ZHengZHiWeiYuan #政治委员
 		}
-		x = 10
+		x = 13 #10
 		y = 20
 		completion_reward = {
 			add_research_slot = 1
@@ -773,16 +1034,117 @@ focus_tree = {
 	}
 
 	focus = {
-		id = 无政府，无国界
+		id = 福利国家
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
 			focus = WanJvGouHuo #万具篝火
+			focus = ZHengZHiWeiYuan #政治委员
 		}
-		x = 21
+		x = 19
 		y = 20
 		completion_reward = {
-			add_ideas = bw_WuZHengFu_WuGuoJie
+			add_ideas = bw_FuLiGuoJia
+		}
+	}
+	focus = {
+		id = 马克思护神
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = WuNianJiHua #五年计划
+			focus = 前进之路
+		}
+		x = 10
+		y = 21
+		completion_reward = {
+			add_ideas = bw_MaKeSiHuSHen
+		}
+	}
+	focus = {
+		id = 乐土
+		icon = GFX_goal_unknown
+		cost = 5.00
+#		prerequisite = {
+#			focus = 福利国家
+#			focus = 前进之路
+#		}
+		prerequisite = {
+			focus = 福利国家
+		}
+		prerequisite = {
+			focus = 前进之路
+		}
+		x = 16
+		y = 21
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_FuLiGuoJia
+				add_idea = bw_LeTu
+			}
+		}
+	}
+	focus = {
+		id = 钢铁洪流
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = WuNianJiHua #五年计划
+			focus = 马克思护神
+		}
+		x = 7
+		y = 22
+		completion_reward = {
+			add_ideas = bw_GangTieHuongLiu
+		}
+	}
+	focus = {
+		id = 反修正主义
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 马克思护神
+		}
+		prerequisite = {
+			focus = 乐土
+		}
+		x = 13
+		y = 22
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = 群众运动
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 福利国家
+			focus = 乐土
+		}
+		x = 19
+		y = 22
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = 共产主义乌托邦
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 钢铁洪流
+		}
+		prerequisite = {
+			focus = 反修正主义
+		}
+		prerequisite = {
+			focus = 群众运动
+		}
+		x = 13
+		y = 23
+		completion_reward = {
+
 		}
 	}
 

@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		bw_CHI_YiCuenSHanHeYiCuenXie_SHiWanQingNianSHiWanBing = {	#一寸山河一寸血，十万青年十万兵
+			picture = YiCuenSHanHeYiCuenXie_SHiWanQingNianSHiWanBing
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				surrender_limit = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				conscription = 0.05
+
+				war_support_factor = 0.2
+				defensive_war_stability_factor = 0.1
+
+				mobilization_speed = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+	}
+}

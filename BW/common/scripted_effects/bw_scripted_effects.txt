@@ -22,3 +22,27 @@ add_MaKeSi_LieNingZHuYi_to_SiDaLingZHuYi = {
 		}
 	}
 }
+add_MaKeSi_LieNingZHuYi_to_TuoLuoSiJiZHuYi = {
+	custom_effect_tooltip = add_MaKeSi_LieNingZHuYi_to_TuoLuoSiJiZHuYi_tt
+	hidden_effect = {
+		set_variable = {
+			var = MaKeSi_LieNingZHuYi_support_var
+			value = party_popularity_100@MaKeSi_LieNingZHuYi
+		}
+		set_variable = {
+			var = TuoLuoSiJiZHuYi_support_var
+			value = party_popularity_100@TuoLuoSiJiZHuYi
+		}
+		add_to_variable = {
+			TuoLuoSiJiZHuYi_support_var = MaKeSi_LieNingZHuYi_support_var
+		}
+		set_political_party = {
+			ideology = TuoLuoSiJiZHuYi
+			popularity = TuoLuoSiJiZHuYi_support_var
+		}
+		set_political_party = {
+			ideology = MaKeSi_LieNingZHuYi
+			popularity = 0
+		}
+	}
+}

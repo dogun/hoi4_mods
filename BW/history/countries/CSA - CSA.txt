@@ -45,22 +45,22 @@ set_convoys = 100
 
 set_autonomy = {
 	target = ANT
-	autonomous_state =  autonomy_puppet
+	autonomous_state =  ZongDuXiaQv
 }
 
 set_autonomy = {
 	target = ADS
-	autonomous_state =  autonomy_puppet
+	autonomous_state =  ZongDuXiaQv
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = MinZuSHeHuiZHuYi
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	fascism = 100
+	MinZuSHeHuiZHuYi = 100
 }
 
 add_ideas = {

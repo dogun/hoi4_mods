@@ -1,0 +1,17 @@
+characters={
+	ENG_Stanley_Baldwin={
+		name=ENG_Stanley_Baldwin
+		portraits={
+			civilian={
+				large="gfx/leaders/斯坦利 鲍德温.dds"
+			}
+		}
+		country_leader={
+			ideology=BaoSHouZHuYi_c
+			traits={  }
+			expire="1947.12.14.1"
+			id=-1
+		}
+	}
+
+}

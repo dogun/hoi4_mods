@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		bw_FER_WoMenWeiDaDeJunZHuWuSuoBuZHi_WuSuoBuNeng_WuLuenWoMenYongYouSengMo_WuLuenWoMenSHiFouJianKang_SuoYouDeZHeiXieDoGuiGongYvWoMenWeiDsDeJunZHu__Ma = {	#我们伟大的君主无所不知，无所不能，无论我们拥有什么，无论我们是否健康，所有的这些都归功于我们伟大的君主......吗？
+			picture = WoMenWeiDaDeJunZHuWuSuoBuZHi_WuSuoBuNeng_WuLuenWoMenYongYouSengMo_WuLuenWoMenSHiFouJianKang_SuoYouDeZHeiXieDoGuiGongYvWoMenWeiDsDeJunZHu__Ma
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				army_org_factor = -0.1
+				political_power_factor = -0.1
+				surrender_limit = -0.1
+			}
+			targeted_modifier = {
+
+			}
+		}
+
+	}
+}

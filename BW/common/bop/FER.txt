@@ -1,70 +1,55 @@
 
-FER_Tsar_KBKV = {
-	initial_value = 0.25
-	left_side = Tsar
-	right_side = KBKV
-	decision_category = GER_mefo_bills_category
+FER_Kozak = {
+	initial_value = 0.32
+	left_side = WuWeiXie
+	right_side = WeiXie
+	decision_category = FER_Kozak
 	range = {
-		id = Tsar_KBKV
-		min = -0.15
-		max = 0.15
+		id =PoJvWeiXie
+		min = -0.05
+		max = 0.425
 		modifier = {
-
+			JiaZHangZHi_drift = 0.06
+			offence = 0.06
 		}
 	}
 	side = {
-		id = Tsar
+		id = WuWeiXie
 		icon = GFX_idea_generic_agrarian_society
 		range = {
-			id = Tsar_1
-			min = -0.5
-			max = -0.15
-			modifier = {
-				army_defence_factor = 0.5
-			}
-		}
-		range = {
-			id = Tsar_2
-			min = -0.90
-			max = -0.5
-			modifier = {
-				army_defence_factor = 0.5
-			}
-		}
-		range = {
-			id = Tsar_3
+			id = WuWeiXie_1
 			min = -1
-			max = -0.90
+			max = -0.525
 			modifier = {
-				army_defence_factor = 0.5
+				
+			}
+		}
+		range = {
+			id = WuWeiXie_2
+			min = -0.525
+			max = -0.05
+			modifier = {
+				JiaZHangZHi_drift = 0.03
 			}
 		}
 	}
 	side = {
-		id = KBKV
+		id = WeiXie
 		icon = GFX_idea_generic_degauss_ship_hulls
 		range = {
-			id = KBKV_1
-			min = 0.15
-			max = 0.5
-			modifier = {
-				army_attack_factor = 0.5
-			}
-		}
-		range = {
-			id = KBKV_2
-			min = 0.5
+			id = WeiXie_1
+			min = 0.425
 			max = 0.9
 			modifier = {
-				army_attack_factor = 0.5
+				JiaZHangZHi_drift = 0.09
 			}
 		}
 		range = {
-			id = KBKV_3
+			id = WeiXie_2
 			min = 0.9
 			max = 1
 			modifier = {
-				army_attack_factor = 0.5
+				JiaZHangZHi_drift = 0.12
 			}
 		}
 	}

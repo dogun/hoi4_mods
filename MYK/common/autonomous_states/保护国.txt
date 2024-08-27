@@ -1,0 +1,50 @@
+autonomy_state = {
+#傀儡国
+	id = BaoHuGuo
+#名称
+	use_overlord_color = no
+#是否和宗主国颜色一样
+	min_freedom_level = 0.7
+#等级
+
+	rule = {
+#限制
+		unit_deployed_to_overlord = no
+	}
+	
+	modifier = {
+#修正
+		cic_to_overlord_factor = 0.25
+		overlord_trade_cost_factor = -0.25
+	}
+	
+	ai_subject_wants_higher = {
+#傀儡国提升等级倾向
+		factor = 0.0
+	}
+	
+	ai_overlord_wants_lower = {
+#宗主降低傀儡国等级倾向
+		factor =1.0
+	}
+
+	ai_overlord_wants_garrison = {
+#在什么情况下宗主会抽人
+		always = no
+	}
+
+	allowed = {
+#在什么情况下允许使用
+		always = yes
+	}
+
+	can_take_level = {
+#在什么情况下可以提升等级
+		always = yes
+	}
+
+	can_lose_level = {
+#在什么情况下可以降低等级
+		always = yes
+	}
+}

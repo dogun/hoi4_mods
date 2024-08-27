@@ -4,7 +4,7 @@
 
 add_namespace = bw_GER
 
-country_event = { #魏玛政府倒台
+country_event = { #胜利
 	id = bw_GER.1
 	title = bw_GER.1.t
 	desc = bw_GER.1.d
@@ -21,79 +21,155 @@ country_event = { #魏玛政府倒台
 	mean_time_to_happen = { days = 1 }
 	option = {
 		name = bw_GER.1.a #德意志万岁！元首万岁！第三帝国万岁！
-#			clr_country_flag = GER_LinSHiZHengFu
-			drop_cosmetic_tag = yes
-			add_country_leader_trait = WeiDaDeYuanSHou
-			annex_country = {
-				target = GSR
-				transfer_troops = no
+
+#		clr_country_flag = GER_LinSHiZHengFu
+		drop_cosmetic_tag = yes
+#		add_country_leader_trait = WeiDaDeYuanSHou
+		annex_country = {
+			target = GSR
+			transfer_troops = no
+		}
+		annex_country = {
+			target = GLR
+			transfer_troops = no
+		}
+		remove_ideas = bw_LinSHiZHengFu
+		remove_country_leader_trait = nationalist_symbol
+#		set_cosmetic_tag = De3_G
+#		add_state_core = 51
+#		add_state_core = 42
+#		add_state_core = 55
+#		add_state_core = 57
+#		add_state_core = 56
+#		add_state_core = 60
+#		add_state_core = 59
+#		add_state_core = 65
+#		add_state_core = 64
+#		add_state_core = 61
+#		add_state_core = 66
+#		add_state_core = 68
+#		add_state_core = 62
+#		add_state_core = 67
+#		add_state_core = 63
+#
+#		add_state_core = 50
+#		add_state_core = 54
+#		add_state_core = 53
+#		add_state_core = 52
+#
+#		add_state_core = 970
+#
+#		add_state_core = 975
+#		add_state_core = 976
+#
+#		add_state_core = 58
+
+		hidden_effect = {
+			GSR = {
+				remove_state_core = 51
+				remove_state_core = 42
+				remove_state_core = 55
+				remove_state_core = 57
+				remove_state_core = 56
+				remove_state_core = 60
+				remove_state_core = 59
+				remove_state_core = 65
+				remove_state_core = 64
+				remove_state_core = 61
+				remove_state_core = 66
+				remove_state_core = 68
+				remove_state_core = 62
+				remove_state_core = 67
+				remove_state_core = 63
+
+				remove_state_core = 50
+				remove_state_core = 54
+				remove_state_core = 53
+				remove_state_core = 52
+
+				remove_state_core = 970
+
+				remove_state_core = 975
+				remove_state_core = 976
+
+				remove_state_core = 58
 			}
-			annex_country = {
-				target = GLR
-				transfer_troops = no
-			}
-			remove_ideas = bw_LinSHiZHengFu
-			remove_country_leader_trait = nationalist_symbol
-#			set_cosmetic_tag = De3_G
-			add_state_core = 51
-			add_state_core = 42
-			add_state_core = 55
-			add_state_core = 57
-			add_state_core = 56
-			add_state_core = 60
-			add_state_core = 59
-			add_state_core = 65
-			add_state_core = 64
-			add_state_core = 61
-			add_state_core = 66
-			add_state_core = 68
-			add_state_core = 62
-			add_state_core = 67
-			add_state_core = 63
+		}
+		complete_national_focus = GER_JieSHuNeiZHan #结束内战
 
-			add_state_core = 50
-			add_state_core = 54
-			add_state_core = 53
-			add_state_core = 52
-
-			add_state_core = 970
-
-			add_state_core = 975
-			add_state_core = 976
-
-			add_state_core = 58
-
-			hidden_effect = {
-				GSR = {
-					remove_state_core = 51
-					remove_state_core = 42
-					remove_state_core = 55
-					remove_state_core = 57
-					remove_state_core = 56
-					remove_state_core = 60
-					remove_state_core = 59
-					remove_state_core = 65
-					remove_state_core = 64
-					remove_state_core = 61
-					remove_state_core = 66
-					remove_state_core = 68
-					remove_state_core = 62
-					remove_state_core = 67
-					remove_state_core = 63
-
-					remove_state_core = 50
-					remove_state_core = 54
-					remove_state_core = 53
-					remove_state_core = 52
-
-					remove_state_core = 970
-
-					remove_state_core = 975
-					remove_state_core = 976
-
-					remove_state_core = 58
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = 团结一致
 				}
 			}
+			unlock_national_focus = 团结一致
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = GER_SiTeLaSePai_NengDaZHangJiuXing #斯特拉瑟派？只要能打仗就行
+				}
+			}
+			unlock_national_focus = GER_SiTeLaSePai_NengDaZHangJiuXing #斯特拉瑟派？只要能打仗就行
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = GER_ZHaoMuMinBing #招募民兵
+				}
+			}
+			unlock_national_focus = GER_ZHaoMuMinBing #招募民兵
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = GER_ZiYouJiuTuan #自由军团
+				}
+			}
+			unlock_national_focus = GER_ZiYouJiuTuan #自由军团
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = GER_ZHengHeZHanLingQv #整合占领区
+				}
+			}
+			unlock_national_focus = GER_ZHengHeZHanLingQv #整合占领区
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = GER_DuoNaoFangXian #多瑙防线
+				}
+			}
+			unlock_national_focus = GER_DuoNaoFangXian #多瑙防线
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = 威悉行动
+				}
+			}
+			unlock_national_focus = 威悉行动
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = GER_XiMuLaiJiangJun #希姆莱将军
+				}
+			}
+			unlock_national_focus = GER_XiMuLaiJiangJun #希姆莱将军
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = 反布尔什维克志愿军
+				}
+			}
+			unlock_national_focus = 反布尔什维克志愿军
+		}
+
 	}
 }
 
@@ -439,14 +515,93 @@ country_event = { #神秘人
 	}
 }
 
-country_event = { #德国索取南蒂罗尔和滨海区
+country_event = { #反布尔什维克志愿军
 	id = bw_GER.8
 	title = bw_GER.8.t
 	desc = bw_GER.8.d
 	is_triggered_only = yes
 
 	option = {
-		name = bw_GER.8.a #几块烂地？可以
+		name = bw_GER.8.a #我当然愿意帮忙…
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = GER
+					value = 25
+				}
+			}
+			modifier = {
+				add = 30
+				has_opinion = {
+					target = GER
+					value = 50
+				}
+			}
+		}
+
+		add_manpower = -3000
+		GER = {
+			country_event = {
+				id = bw_GER.9
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = bw_GER.8.b #但是这是德国自己的事情，与我无关
+
+		ai_chance = {
+			factor = 80
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > 1
+				}
+			}
+			modifier = {
+				add = -10
+				has_war = yes
+			}
+		}
+	}
+}
+
+country_event = { #反布尔什维克志愿军
+	id = bw_GER.9
+	title = bw_GER.9.t
+	desc = bw_GER.9.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.9.a #非常好
+
+		custom_effect_tooltip = 在慕尼黑生成1个反布尔什维克志愿军师
+		hidden_effect = {
+			load_oob = "GER_FanBuErSHiWeiKeZHiYuanJun_2"
+		}
+	}
+	option = {
+		name = bw_GER.9.b #希望他们不要脏了慕尼黑的街
+
+		custom_effect_tooltip = 在慕尼黑生成1个反布尔什维克志愿军师
+		hidden_effect = {
+			load_oob = "GER_FanBuErSHiWeiKeZHiYuanJun_2"
+		}
+	}
+}
+
+country_event = { #波美拉尼亚或战争
+	id = bw_GER.10
+	title = bw_GER.10.t
+	desc = bw_GER.10.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.10.a #我们只能妥协
 
 		ai_chance = {
 			factor = 20
@@ -478,20 +633,15 @@ country_event = { #德国索取南蒂罗尔和滨海区
 		}
 
 		GER = {
-			transfer_state = 39
-			transfer_state = 850
-			transfer_state = 736
-			transfer_state = 852
-
-			add_state_core = 39
-			add_state_core = 850
-			add_state_core = 736
-			add_state_core = 852
+			country_event = {
+				id = bw_GER.11
+				days = 1
+			}
 		}
 	}
 
 	option = {
-		name = bw_GER.8.b #滚
+		name = bw_GER.10.b #奥地利下士别嚣张
 
 		ai_chance = {
 			factor = 80
@@ -507,5 +657,393 @@ country_event = { #德国索取南蒂罗尔和滨海区
 				has_war = yes
 			}
 		}
+		GER = {
+			country_event = {
+				id = bw_GER.12
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #普鲁士妥协
+	id = bw_GER.11
+	title = bw_GER.11.t
+	desc = bw_GER.11.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.11.a #太好了
+
+		transfer_state = 63
+		add_state_core = 63
+		hidden_effect = {
+			POL = {
+				country_event = {
+					id = bw_POL.1
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+country_event = { #普鲁士拒不退让
+	id = bw_GER.12
+	title = bw_GER.12.t
+	desc = bw_GER.12.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.12.a #开战！
+
+		declare_war_on = {
+			target = PRE
+			type = annex_everything
+		}
+	}
+}
+
+country_event = { #普鲁士的命运
+	id = bw_GER.13
+	title = bw_GER.13.t
+	desc = bw_GER.13.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.13.a #我在这也够久了
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = GER
+					value = 25
+				}
+			}
+			modifier = {
+				add = 30
+				has_opinion = {
+					target = GER
+					value = 50
+				}
+			}
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > -1
+				}
+			}
+			modifier = {
+				add = 40
+				has_war = yes
+			}
+		}
+
+		GER = {
+			annex_country = {
+				target = PRE
+				transfer_troops = yes
+			}
+		}
+	}
+
+	option = {
+		name = bw_GER.13.b #共和派还想把我逼到什么地方？
+
+		ai_chance = {
+			factor = 80
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > 1
+				}
+			}
+			modifier = {
+				add = -10
+				has_war = yes
+			}
+		}
+		GER = {
+			country_event = {
+				id = bw_GER.12
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #德国索取南蒂罗尔和滨海区
+	id = bw_GER.14
+	title = bw_GER.14.t
+	desc = bw_GER.14.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.14.a #几块烂地？可以
+
+		ai_chance = {
+			factor = 20
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = GER
+					value = 25
+				}
+			}
+			modifier = {
+				add = 30
+				has_opinion = {
+					target = GER
+					value = 50
+				}
+			}
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > -1
+				}
+			}
+			modifier = {
+				add = 40
+				has_war = yes
+			}
+		}
+
+		GER = {
+			country_event = {
+				id = bw_GER.15
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = bw_GER.14.b #滚
+
+		ai_chance = {
+			factor = 80
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > 1
+				}
+			}
+			modifier = {
+				add = -10
+				has_war = yes
+			}
+		}
+
+		GER = {
+			country_event = {
+				id = bw_GER.16
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #意大利同意割让领土
+	id = bw_GER.15
+	title = bw_GER.15.t
+	desc = bw_GER.15.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.15.a #识时务者为俊杰
+		transfer_state = 39
+		transfer_state = 850
+		transfer_state = 736
+		transfer_state = 852
+
+		add_state_core = 39
+		add_state_core = 850
+		add_state_core = 736
+		add_state_core = 852
+	}
+}
+
+country_event = { #意大利拒绝割让领土
+	id = bw_GER.16
+	title = bw_GER.16.t
+	desc = bw_GER.16.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.16.a #准备执行撒丁行动
+		complete_national_focus = 撒丁行动
+	}
+
+	option = {
+		name = bw_GER.16.b #现在还不是时候
+		add_war_support = -0.1
+	}
+}
+
+country_event = { #马祖伦或战争
+	id = bw_GER.17
+	title = bw_GER.17.t
+	desc = bw_GER.17.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.17.a #本来也不属于我
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.8
+				strength_ratio = { tag = GER ratio < 0.5 }
+			}
+			modifier = {
+				factor = 0.8
+				has_opinion = { target = GER value > 99 }
+			}
+			modifier = {
+				factor = 0.8
+				strength_ratio = { tag = GER ratio < 0.3 }
+			}
+			modifier = {
+				factor = 0.8
+				strength_ratio = { tag = GER ratio < 0.2 }
+			}
+			modifier = {
+				factor = 0.5
+				strength_ratio = { tag = GER ratio < 0.1 }
+			}
+		}
+		GER = {
+			country_event = {
+				id = bw_GER.18
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = bw_GER.17.b #拿但泽交换如何？
+		GER = {
+			country_event = {
+				id = bw_GER.19
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = bw_GER.17.c #已经拿到的领土为什么要吐出来？
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.8
+				any_other_country = {
+					is_major = yes
+					has_guaranteed = CZE
+				}
+			}
+			modifier = {
+				factor = 0
+				any_other_country = {
+					is_major = yes
+					is_in_faction_with = CZE
+				}
+			}
+			modifier = {
+				factor = 0.8
+				any_other_country = {
+					is_major = no
+					has_guaranteed = CZE
+				}
+			}
+			modifier = {
+				factor = 0.8
+				is_in_faction = yes
+				NOT = {
+					any_other_country = {
+						is_major = yes
+						is_in_faction_with = CZE
+					}
+				}
+			}
+		}
+		GER = {
+			country_event = {
+				id = bw_GER.20
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #波兰同意归还领土
+	id = bw_GER.18
+	title = bw_GER.18.t
+	desc = bw_GER.18.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.18.a #算他识相
+		transfer_state = 971
+		add_state_core = 971
+		POL = {
+			remove_state_core = 971
+		}
+	}
+}
+
+country_event = { #交易
+	id = bw_GER.19
+	title = bw_GER.19.t
+	desc = bw_GER.19.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.19.a #以后一定让他吐出来
+		transfer_state = 971
+		add_state_core = 971
+		POL = {
+			remove_state_core = 971
+			transfer_state = 807
+			add_state_core = 807
+			transfer_state = 85
+			add_state_core = 85
+		}
+	}
+
+	option = {
+		name = bw_GER.19.b #算是谈崩了？
+		create_wargoal = {
+			type = take_core_state
+			target = POL
+			generator = { 971 }
+		}
+	}
+}
+
+country_event = { #波兰拒绝归还领土
+	id = bw_GER.20
+	title = bw_GER.20.t
+	desc = bw_GER.20.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.20.a #土匪！！！
+		create_wargoal = {
+			type = take_core_state
+			target = POL
+			generator = { 971 }
+		}
+	}
+
+	option = {
+		name = bw_GER.20.b #不能冒险
+		add_war_support = -0.1
 	}
 }

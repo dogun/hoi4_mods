@@ -16,7 +16,15 @@ GSR_DeGuoNeiZHan = {
 
 		fire_only_once = no
 #是否一次性
-days_re_enable = 30
+		days_re_enable = 30
+
+		state_target = yes 
+		target_trigger = {
+			FROM = {
+				state = 64
+			}
+		}
+
 		visible = {
 #展示条件
 			original_tag = GSR

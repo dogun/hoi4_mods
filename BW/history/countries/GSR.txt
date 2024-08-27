@@ -44,4 +44,5 @@ add_ideas = {
 	bw_GSR_QvanGuoXingJingJiTanHuan
 	bw_GSR_SHeMinDangFanDuiPai
 	bw_GSR_FaErSaiTiaoYueDeYvBo
+	bw_GER_YingFaFanDui
 }

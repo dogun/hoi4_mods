@@ -35,6 +35,24 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_window_ssv"
 		}
 		
+		
+		
+	#	iconType = {
+	#		name = "CS"
+ #0
+ 		#	position = { x = 200 y = -1000 }
+ #坐标
+	#		quadTextureSprite ="GFX_gui_cs"
+ #文字
+	#		size = { height = 0}
+ 
+	#		Orientation = "UPPER_LEFT"
+ 	#		#oversound = center
+ #相对位置
+		
+#		}
+		
+		
 		ButtonType = {
 			name = "sp_continue_button"
 			position = { x = 240 y = 120 }

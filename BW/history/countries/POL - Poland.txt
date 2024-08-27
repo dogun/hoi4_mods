@@ -338,20 +338,17 @@ set_convoys = 10
 
 set_autonomy = {
 	target = LIT
-	autonomous_state =  autonomy_puppet
+	autonomous_state =  ZHou
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = JunZHuZHuYi
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 32
-	fascism = 11
-	communism = 19
-	neutrality = 38
+	JunZHuZHuYi = 100
 }
 
 1939.1.1 = {

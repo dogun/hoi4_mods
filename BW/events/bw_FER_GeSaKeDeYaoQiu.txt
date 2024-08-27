@@ -1,0 +1,29 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_FER_GeSaKeDeYaoQiu
+
+country_event = { #哥萨克有要求
+	id = bw_FER_GeSaKeDeYaoQiu.1
+	title = bw_FER_GeSaKeDeYaoQiu.1.t
+	desc = bw_FER_GeSaKeDeYaoQiu.1.d
+	#hidden = yes
+
+#	is_triggered_only = yes
+#	mean_time_to_happen = { days = 0 }
+	fire_only_once = yes
+	trigger = {
+		tag =FER
+	}
+	option = {
+		name = bw_FER_GeSaKeDeYaoQiu.1.a  #
+			clear_variable = GeSHaKeMeiYouYaoQiu
+			news_event = {
+				id = bw_FER_GeSaKeDeYaoQiu.2
+				days = 25
+				random = 0
+			}
+		}
+	}
+}

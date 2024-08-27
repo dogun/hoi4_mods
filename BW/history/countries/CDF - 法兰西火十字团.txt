@@ -1281,8 +1281,3 @@ if = {
 		}
 	}
 }
-create_faction = 小协约国
-add_to_faction = FRA
-add_to_faction = AUS
-add_to_faction = YUG
-add_to_faction = ROM

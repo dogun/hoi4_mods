@@ -1,0 +1,153 @@
+﻿capital = 613 # Nanjing
+
+oob = "CHI_1936"
+
+recruit_character = CHI_chiang_kaishek
+recruit_character = CHI_zhang_guotao
+recruit_character = CHI_wang_jingwei
+recruit_character = CHI_weng_wenhao
+recruit_character = CHI_tu_yuming
+recruit_character = CHI_hsueh_yueh
+recruit_character = CHI_tai_anlan
+recruit_character = CHI_wang_yaowu
+recruit_character = CHI_sun_li_jen
+recruit_character = CHI_hu_zongnan
+recruit_character = CHI_gu_zhutong
+recruit_character = CHI_wei_lihuang
+recruit_character = CHI_fu_zuoyi
+recruit_character = CHI_zhang_xueliang
+recruit_character = CHI_fang_zeyi
+recruit_character = CHI_zhu_de
+recruit_character = CHI_chen_cheng
+recruit_character = CHI_li_zongren
+recruit_character = CHI_bo_yibo
+recruit_character = CHI_huang_shen
+recruit_character = CHI_chen_jitang
+recruit_character = CHI_wang_shuming
+recruit_character = CHI_bai_chongxi
+recruit_character = CHI_zhou_zhirou
+recruit_character = CHI_xiao_yisu
+recruit_character = CHI_chen_shaokuan
+recruit_character = CHI_xiao_jinguang
+recruit_character = CHI_yu_hanmou
+recruit_character = CHI_he_yingqin
+recruit_character = CHI_gao_zhihang
+recruit_character = CHI_h_h_kung
+recruit_character = CHI_chen_guofu
+recruit_character = CHI_chiang_ching_kuo
+recruit_character = CHI_chen_yi
+recruit_character = CHI_soong_mei_ling
+recruit_character = CHI_random_prince_of_terror
+recruit_character = CHI_lin_sen
+
+recruit_character = CHI_JiangJieSHi_1
+recruit_character = CHI_JiangJieSHi_2
+
+set_stability = 0.2
+set_war_support = 0.2
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	basic_train = 1
+}
+
+add_ideas = {
+	german_advisors
+}
+
+600 = { #Jiangxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+749 = { #Huangshan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+606 = { #Anhui
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+607 = { #Henan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+620 = { #Hubei
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+602 = { #Hunan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+750 = { #Changde
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+744 = { #Xian
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+605 = { #Sichuan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+748 = { #Zunyi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+603 = { #Guizhu
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+615 = { #Shanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+622 = { #Shaanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+325 = { #Yunnan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+325 = { #Dali
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+
+save_global_event_target_as = WTT_current_china_leader
+
+set_convoys = 40
+
+
+set_politics = {
+	ruling_party = JiaZHangZHi
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	JiaZHangZHi = 100
+}
+
+add_opinion_modifier = { target = PRC modifier = hostile_status }
+
+set_autonomy = {
+	target = PRC
+	autonomous_state =  ZHou
+}
+set_autonomy = {
+	target = SIC
+	autonomous_state =  JunQv
+}
+set_autonomy = {
+	target = YUN
+	autonomous_state =  MingYiSHangSHuYv
+}
+set_autonomy = {
+	target = TIB
+	autonomous_state =  MingYiSHangSHuYv
+}
+set_autonomy = {
+	target = SHX
+	autonomous_state =  MingYiSHangSHuYv
+}
+set_autonomy = {
+	target = GXC
+	autonomous_state =  MingYiSHangSHuYv
+}
+set_autonomy = {
+	target = XSM
+	autonomous_state =  MingYiSHangSHuYv
+}

@@ -2540,53 +2540,264 @@
  CAN: "加拿大"
  CAN_DEF: "加拿大"
  CAN_ADJ: "加拿大"
- CHI_fascism: "改组派中国"
- CHI_fascism_DEF: "改组派中国"
- CHI_democratic: "中华民国"
- CHI_democratic_DEF: "中华民国"
- CHI_neutrality: "中国"
- CHI_neutrality_DEF: "中国"
- CHI_communism: "中华人民民国"
- CHI_communism_DEF: "中华人民民国"
- CHI_fascism_ADJ: "中国"
- CHI_democratic_ADJ: "中国"
- CHI_neutrality_ADJ: "中国"
- CHI_communism_ADJ: "中国"
+ 
+ #中国
+ 
  CHI: "中国"
+ #通用
  CHI_DEF: "中国"
+ #通用
  CHI_ADJ: "中国"
- CHI_autonomy_dominion: "中华自治领"
- CHI_autonomy_dominion_DEF: "中华自治领"
- CHI_autonomy_colony: "$OVERLORDADJ$属在华殖民领"
- CHI_autonomy_colony_DEF: "$OVERLORDADJ$属在华殖民领"
- CHI_autonomy_integrated_puppet: "$OVERLORDADJ$属中华领地"
- CHI_autonomy_integrated_puppet_DEF: "$OVERLORDADJ$属中华领地"
- CHI_autonomy_puppet: "$OVERLORDADJ$属中国"
- CHI_autonomy_puppet_DEF: "$OVERLORDADJ$属中国"
- CHI_autonomy_reichskommissariat: "中华专员辖区"
- CHI_autonomy_reichskommissariat_DEF: "中华专员辖区"
- CHI_GER_autonomy_reichsprotectorate: "中华保护国 "
- CHI_GER_autonomy_reichsprotectorate_DEF: "中华保护国 "
- CHI_autonomy_reichsprotectorate: "中华保护国"
- CHI_autonomy_reichsprotectorate_DEF: "中华保护国"
- CHI_autonomy_supervised_state: "$OVERLORDADJ$属中国"
- CHI_autonomy_supervised_state_DEF: "$OVERLORDADJ$属中国"
- #For specific Japanese Puppet names, see countries_cosmetic
+ #通用
+ SIC_subject: "$OVERLORDADJ$属中国"
+ #傀儡
+ SIC_subject_DEF: "$OVERLORDADJ$属中国"
+ #傀儡
+ SIC_ZongDuXiaQv: "中华总督辖区"
+ #总督辖区
+ SIC_ZongDuXiaQv_DEF: "中国"
+ #总督辖区
+ 
+ CHI_fascism: "改组派中国"
+ #法西斯（原版）
+ CHI_fascism_DEF: "改组派中国"
+ #法西斯（原版）
+ CHI_fascism_ADJ: "中国"
+ #法西斯（原版）
+ CHI_democratic: "中华民国"
+ #民主（原版）
+ CHI_democratic_DEF: "中华民国"
+ #民主（原版）
+ CHI_democratic_ADJ: "中国"
+ #民主（原版）
+ CHI_neutrality: "中国"
+ #中立（原版）
+ CHI_neutrality_DEF: "中国"
+ #中立（原版）
+ CHI_neutrality_ADJ: "中国"
+ #中立（原版）
+ CHI_communism: "中华人民民国"
+ #共产（原版）
+ CHI_communism_DEF: "中华人民民国"
+ #共产（原版）
+ CHI_communism_ADJ: "中国"
+ #共产（原版）
+ ###
+ CHI_WuZHCHIFuGuongCHanZHuYi: "中华自由地区"
+ #无政府共产主义
+ CHI_WuZHCHIFuGuongCHanZHuYi_DEF: "中华自由地区"
+ #无政府共产主义
+ CHI_WuZHCHIFuGuongCHanZHuYi_ADJ: "中国"
+ #无政府共产主义
+ 
+ CHI_GuongTuanZHuYi: "中华自由地区"
+ #工团主义
+ CHI_GuongTuanZHuYi_DEF: "中华自由地区"
+ #工团主义
+ CHI_GuongTuanZHuYi_ADJ: "中国"
+ #工团主义
+ 
+ CHI_MaKeSi_LieNingZHuYi: "中华工农共和国"
+ #马克思 - 列宁主义
+ CHI_MaKeSi_LieNingZHuYi_DEF: "中华工农共和国"
+ #马克思 - 列宁主义
+ CHI_MaKeSi_LieNingZHuYi_ADJ: "中国"
+ #马克思 - 列宁主义
+ 
+ CHI_TuoLuoSiJiZHuYi: "中华工农共和国"
+ #托洛斯基
+ CHI_TuoLuoSiJiZHuYi_DEF: "中华工农共和国"
+ #托洛斯基
+ CHI_TuoLuoSiJiZHuYi_ADJ: "中国"
+ #托洛斯基
+  
+ CHI_SiDaLingZHuYi: "中华工农共和国"
+ #斯大林主义
+ CHI_SiDaLingZHuYi_DEF: "中华工农共和国"
+ #斯大林主义
+ CHI_SiDaLingZHuYi_ADJ: "中国"
+ #斯大林主义
+ 
+ CHI_YuanSHiZHuYi: "中华工农共和国"
+ #远视主义
+ CHI_YuanSHiZHuYi_DEF: "中华工农共和国"
+ #远视主义
+ CHI_YuanSHiZHuYi_ADJ: "中国"
+ #远视主义
+ 
+ CHI_JunZHCHIGuongCHanZHuYi: "中华工农共和国"
+ #军政共产主义
+ CHI_JunZHCHIGuongCHanZHuYi_DEF: "中华工农共和国"
+ #军政共产主义
+ CHI_JunZHCHIGuongCHanZHuYi_ADJ: "中国"
+ #军政共产主义
+ 
+ CHI_JunZHuBuErSHiWeiKe: "中华工农共和国"
+ #君主布尔什维克
+ CHI_JunZHuBuErSHiWeiKe_DEF: "中华工农共和国"
+ #君主布尔什维克
+ CHI_JunZHuBuErSHiWeiKe_ADJ: "中国"
+ #君主布尔什维克
+ 
+ CHI_GuDianZiYouZHuYi: "中华民国"
+ #古典自由主义
+ CHI_GuDianZiYouZHuYi_DEF: "中华民国"
+ #古典自由主义
+ CHI_GuDianZiYouZHuYi_ADJ: "中国"
+ #古典自由主义
+ 
+ CHI_SHeHuiMinZHuZHuYi: "中华民国"
+ #社会民主主义
+ CHI_SHeHuiMinZHuZHuYi_DEF: "中华民国"
+ #社会民主主义
+ CHI_SHeHuiMinZHuZHuYi_ADJ: "中国"
+ #社会民主主义
+ 
+ CHI_MinZHuSHeHuiZHuYi: "中华民国"
+ #民主社会主义
+ CHI_MinZHuSHeHuiZHuYi_DEF: "中华民国"
+ #民主社会主义
+ CHI_MinZHuSHeHuiZHuYi_ADJ: "中国"
+ #民主社会主义
+ 
+ CHI_JiaSuZHuYi: "中华民国"
+ #加速主义
+ CHI_JiaSuZHuYi_DEF: "中华民国"
+ #加速主义
+ CHI_JiaSuZHuYi_ADJ: "中国"
+ #加速主义
+ 
+ CHI_BaoSHouZHuYi: "中华民国"
+ #保守主义
+ CHI_BaoSHouZHuYi_DEF: "中华民国"
+ #保守主义
+ CHI_BaoSHouZHuYi_ADJ: "中国"
+ #保守主义
+ 
+ CHI_GuiZuBaoSHouZHuYi: "中华民国"
+ #贵族保守主义
+ CHI_GuiZuBaoSHouZHuYi_DEF: "中华民国"
+ #贵族保守主义
+ CHI_GuiZuBaoSHouZHuYi_ADJ: "中国"
+ #贵族保守主义
+ 
+ CHI_JiaZHangZHi: "中华民国"
+ #家长制
+ CHI_JiaZHangZHi_DEF: "中华民国"
+ #家长制
+ CHI_JiaZHangZHi_ADJ: "中国"
+ #家长制
+ 
+ CHI_JunZHuZHuYi: "中华帝国"
+ #君主主义
+ CHI_JunZHuZHuYi_DEF: "中华帝国"
+ #君主主义
+ CHI_JunZHuZHuYi_ADJ: "中国"
+ #君主主义
+ 
+ CHI_ZiBCHIuongCHanZHuYi: "稻子™ 有限公司"
+ #资本共产主义
+ CHI_ZiBCHIuongCHanZHuYi_DEF: "稻子™ 有限公司"
+ #资本共产主义
+ CHI_ZiBCHIuongCHanZHuYi_ADJ: "稻子"
+ #资本共产主义
+ 
+ CHI_SHeHuiFaXiSi: "中华民国"
+ #社会法西斯
+ CHI_SHeHuiFaXiSi_DEF: "中华民国"
+ #社会法西斯
+ CHI_SHeHuiFaXiSi_ADJ: "中国"
+ #社会法西斯
+ 
+ CHI_SiTeLaSeZHuYi: "中华民国"
+ #斯特拉瑟主义
+ CHI_SiTeLaSeZHuYi_DEF: "中华民国"
+ #斯特拉瑟主义
+ CHI_SiTeLaSeZHuYi_ADJ: "中国"
+ #斯特拉瑟主义
+ 
+ CHI_FaXiSiZHuYi: "中华民国"
+ #法西斯主义
+ CHI_FaXiSiZHuYi_DEF: "中华民国"
+ #法西斯主义
+ CHI_FaXiSiZHuYi_ADJ: "中国"
+ #法西斯主义
+ 
+ CHI_MinZuSHeHuiZHuYi: "中华民国"
+ #纳粹
+ CHI_MinZuSHeHuiZHuYi_DEF: "中华民国"
+ #纳粹
+ CHI_MinZuSHeHuiZHuYi_ADJ: "中国"
+ #纳粹
+ 
+ CHI_BoGenDiTiZHi: "白莲教"
+ #勃艮第体制
+ CHI_BoGenDiTiZHi_DEF: "白莲教"
+ #勃艮第体制
+ CHI_BoGenDiTiZHi_ADJ: "白莲教"
+ #勃艮第体制
+ 
+ #中共
+ 
+ PRC: "江西"
+ #通用
+ PRC_DEF: "江西"
+ #通用
+ PRC_ADJ: "江西"
+ #通用
+ PRC_subject: "$OVERLORDADJ$属江西"
+ #傀儡
+ PRC_subject_DEF: "$OVERLORDADJ$属江西"
+ #傀儡
+ PRC_MingYiSHangSHuYv: "中共根据地"
+ #名义上属于
+ PRC_MingYiSHangSHuYv_DEF: "中共"
+ #名义上属于
+ PRC_ZiZHiQv: "江西自治苏维埃"
+ #自治区
+ PRC_ZiZHiQv_DEF: "江西"
+ #自治区
+ PRC_ZHou: "江西苏维埃"
+ #州
+ PRC_ZHou_DEF: "江西"
+ #州
+ PRC_ZongDuXiaQv: "江西总督辖区"
+ #总督辖区
+ PRC_ZongDuXiaQv_DEF: "江西"
+ #总督辖区
+ PRC_JunQv: "八路军"
+ #军区
+ PRC_JunQv_DEF: "八路军"
+ #军区
+ 
  PRC_fascism: "中华帝国"
+ #法西斯（原版）
  PRC_fascism_DEF: "中华帝国"
- PRC_democratic: "中华共和国"
- PRC_democratic_DEF: "中华民国"
- PRC_neutrality: "中国"
- PRC_neutrality_DEF: "中国"
- PRC_communism: "中共"
- PRC_communism_DEF: "中共"
+ #法西斯（原版）
  PRC_fascism_ADJ: "中国"
+ #法西斯（原版）
+ PRC_democratic: "中华共和国"
+ #民主（原版）
+ PRC_democratic_DEF: "中华民国"
+ #民主（原版）
  PRC_democratic_ADJ: "中国"
+ #民主（原版）
+ PRC_neutrality: "中国"
+ #中立（原版）
+ PRC_neutrality_DEF: "中国"
+ #中立（原版）
  PRC_neutrality_ADJ: "中国"
+ #中立（原版）
+ PRC_communism: "中共"
+ #共产（原版）
+ PRC_communism_DEF: "中共"
+ #共产（原版）
  PRC_communism_ADJ: "中国"
- PRC: "中国"
- PRC_DEF: "中国"
- PRC_ADJ: "中国"
+ #共产（原版）
+ ###
+ 
+ #智利
+ 
  CHL_fascism: "先锋党智利"
  CHL_fascism_DEF: "先锋党智利"
  CHL_democratic: "智利"
@@ -2718,23 +2929,198 @@
  
  #日本
  
- JAP_fascism: "日本"
- JAP_fascism_DEF: "日本"
- JAP_democratic: "日本国"
- JAP_democratic_DEF: "日本国"
- JAP_neutrality: "幕政日本"
- JAP_neutrality_DEF: "幕政日本"
- JAP_communism: "日本人民共和国"
- JAP_communism_DEF: "日本人民共和国"
- JAP_fascism_ADJ: "日本"
- JAP_democratic_ADJ: "日本"
- JAP_neutrality_ADJ: "日本"
- JAP_communism_ADJ: "日本"
  JAP: "日本"
+ #通用
  JAP_DEF: "日本"
+ #通用
  JAP_ADJ: "日本"
+ #通用
  JAP_subject: "$OVERLORDADJ$属$JAP$"
+ #傀儡
  JAP_subject_DEF: "$OVERLORDADJ$属$JAP$"
+ #傀儡
+ 
+ JAP_fascism: "日本"
+ #法西斯（原版）
+ JAP_fascism_DEF: "日本"
+ #法西斯（原版）
+ JAP_fascism_ADJ: "日本"
+ #法西斯（原版）
+ JAP_democratic: "日本国"
+ #民主（原版）
+ JAP_democratic_DEF: "日本国"
+ #民主（原版）
+ JAP_democratic_ADJ: "日本"
+ #民主（原版）
+ JAP_neutrality: "幕政日本"
+ #中立（原版）
+ JAP_neutrality_DEF: "幕政日本"
+ #中立（原版）
+ JAP_neutrality_ADJ: "日本"
+ #中立（原版）
+ JAP_communism: "日本人民共和国"
+ #共产（原版）
+ JAP_communism_DEF: "日本人民共和国"
+ #共产（原版）
+ JAP_communism_ADJ: "日本"
+ #共产（原版）
+ ###
+ JAP_WuZHJAPFuGuongCHanZHuYi: "日本自由地区"
+ #无政府共产主义
+ JAP_WuZHJAPFuGuongCHanZHuYi_DEF: "日本自由地区"
+ #无政府共产主义
+ JAP_WuZHJAPFuGuongCHanZHuYi_ADJ: "日本"
+ #无政府共产主义
+ 
+ JAP_GuongTuanZHuYi: "日本自由地区"
+ #工团主义
+ JAP_GuongTuanZHuYi_DEF: "日本自由地区"
+ #工团主义
+ JAP_GuongTuanZHuYi_ADJ: "日本"
+ #工团主义
+ 
+ JAP_MaKeSi_LieNingZHuYi: "日本人民共和国"
+ #马克思 - 列宁主义
+ JAP_MaKeSi_LieNingZHuYi_DEF: "日本人民共和国"
+ #马克思 - 列宁主义
+ JAP_MaKeSi_LieNingZHuYi_ADJ: "日本"
+ #马克思 - 列宁主义
+ 
+ JAP_TuoLuoSiJiZHuYi: "日本人民共和国"
+ #托洛斯基
+ JAP_TuoLuoSiJiZHuYi_DEF: "日本人民共和国"
+ #托洛斯基
+ JAP_TuoLuoSiJiZHuYi_ADJ: "日本"
+ #托洛斯基
+  
+ JAP_SiDaLingZHuYi: "日本人民共和国"
+ #斯大林主义
+ JAP_SiDaLingZHuYi_DEF: "日本人民共和国"
+ #斯大林主义
+ JAP_SiDaLingZHuYi_ADJ: "日本"
+ #斯大林主义
+ 
+ JAP_YuanSHiZHuYi: "日本人民共和国"
+ #远视主义
+ JAP_YuanSHiZHuYi_DEF: "日本人民共和国"
+ #远视主义
+ JAP_YuanSHiZHuYi_ADJ: "日本"
+ #远视主义
+ 
+ JAP_JunZHJAPGuongCHanZHuYi: "日本人民共和国"
+ #军政共产主义
+ JAP_JunZHJAPGuongCHanZHuYi_DEF: "日本人民共和国"
+ #军政共产主义
+ JAP_JunZHJAPGuongCHanZHuYi_ADJ: "日本"
+ #军政共产主义
+ 
+ JAP_JunZHuBuErSHiWeiKe: "日本人民共和国"
+ #君主布尔什维克
+ JAP_JunZHuBuErSHiWeiKe_DEF: "日本人民共和国"
+ #君主布尔什维克
+ JAP_JunZHuBuErSHiWeiKe_ADJ: "日本"
+ #君主布尔什维克
+ 
+ JAP_GuDianZiYouZHuYi: "日本国"
+ #古典自由主义
+ JAP_GuDianZiYouZHuYi_DEF: "日本国"
+ #古典自由主义
+ JAP_GuDianZiYouZHuYi_ADJ: "日本"
+ #古典自由主义
+ 
+ JAP_SHeHuiMinZHuZHuYi: "日本国"
+ #社会民主主义
+ JAP_SHeHuiMinZHuZHuYi_DEF: "日本国"
+ #社会民主主义
+ JAP_SHeHuiMinZHuZHuYi_ADJ: "日本"
+ #社会民主主义
+ 
+ JAP_MinZHuSHeHuiZHuYi: "日本国"
+ #民主社会主义
+ JAP_MinZHuSHeHuiZHuYi_DEF: "日本国"
+ #民主社会主义
+ JAP_MinZHuSHeHuiZHuYi_ADJ: "日本"
+ #民主社会主义
+ 
+ JAP_JiaSuZHuYi: "日本先锋国"
+ #加速主义
+ JAP_JiaSuZHuYi_DEF: "日本先锋国"
+ #加速主义
+ JAP_JiaSuZHuYi_ADJ: "日本"
+ #加速主义
+ 
+ JAP_BaoSHouZHuYi: "日本国"
+ #保守主义
+ JAP_BaoSHouZHuYi_DEF: "日本国"
+ #保守主义
+ JAP_BaoSHouZHuYi_ADJ: "日本"
+ #保守主义
+ 
+ JAP_GuiZuBaoSHouZHuYi: "日本国"
+ #贵族保守主义
+ JAP_GuiZuBaoSHouZHuYi_DEF: "日本国"
+ #贵族保守主义
+ JAP_GuiZuBaoSHouZHuYi_ADJ: "日本"
+ #贵族保守主义
+ 
+ JAP_JiaZHangZHi: "大日本帝国"
+ #家长制
+ JAP_JiaZHangZHi_DEF: "大日本帝国"
+ #家长制
+ JAP_JiaZHangZHi_ADJ: "日本"
+ #家长制
+ 
+ JAP_JunZHuZHuYi: "大日本帝国"
+ #君主主义
+ JAP_JunZHuZHuYi_DEF: "大日本帝国"
+ #君主主义
+ JAP_JunZHuZHuYi_ADJ: "日本"
+ #君主主义
+ 
+ JAP_ZiBJAPuongCHanZHuYi: "荒板集团"
+ #资本共产主义
+ JAP_ZiBJAPuongCHanZHuYi_DEF: "荒板集团"
+ #资本共产主义
+ JAP_ZiBJAPuongCHanZHuYi_ADJ: "日本"
+ #资本共产主义
+ 
+ JAP_SHeHuiFaXiSi: "大日本帝国"
+ #社会法西斯
+ JAP_SHeHuiFaXiSi_DEF: "大日本帝国"
+ #社会法西斯
+ JAP_SHeHuiFaXiSi_ADJ: "日本"
+ #社会法西斯
+ 
+ JAP_SiTeLaSeZHuYi: "大日本帝国"
+ #斯特拉瑟主义
+ JAP_SiTeLaSeZHuYi_DEF: "大日本帝国"
+ #斯特拉瑟主义
+ JAP_SiTeLaSeZHuYi_ADJ: "日本"
+ #斯特拉瑟主义
+ 
+ JAP_FaXiSiZHuYi: "大日本帝国"
+ #法西斯主义
+ JAP_FaXiSiZHuYi_DEF: "大日本帝国"
+ #法西斯主义
+ JAP_FaXiSiZHuYi_ADJ: "日本"
+ #法西斯主义
+ 
+ JAP_MinZuSHeHuiZHuYi: "大日本帝国"
+ #纳粹
+ JAP_MinZuSHeHuiZHuYi_DEF: "大日本帝国"
+ #纳粹
+ JAP_MinZuSHeHuiZHuYi_ADJ: "日本"
+ #纳粹
+ 
+ JAP_BoGenDiTiZHi: "大日本帝国"
+ #勃艮第体制
+ JAP_BoGenDiTiZHi_DEF: "大日本帝国"
+ #勃艮第体制
+ JAP_BoGenDiTiZHi_ADJ: "日本"
+ #勃艮第体制
+ 
+ #墨西哥
+ 
  MEX_fascism: "墨西哥军政府"
  MEX_fascism_DEF: "墨西哥军政府"
  MEX_democratic: "墨西哥合众国"
@@ -2945,21 +3331,67 @@
  TAN: "唐努图瓦"
  TAN_DEF: "唐努图瓦"
  TAN_ADJ: "图瓦"
- TIB_fascism: "吐蕃帝国"
- TIB_fascism_DEF: "吐蕃帝国"
- TIB_democratic: "西藏共和国"
- TIB_democratic_DEF: "西藏共和国"
- TIB_neutrality: "西藏"
- TIB_neutrality_DEF: "西藏"
- TIB_communism: "西藏喇嘛公社"
- TIB_communism_DEF: "西藏喇嘛公社"
- TIB_fascism_ADJ: "吐蕃"
- TIB_democratic_ADJ: "西藏"
- TIB_neutrality_ADJ: "西藏"
- TIB_communism_ADJ: "西藏"
+ 
+ #西藏
+ 
  TIB: "西藏"
+ #通用
  TIB_DEF: "西藏"
+ #通用
  TIB_ADJ: "西藏"
+ #通用
+ TIB_subject: "$OVERLORDADJ$属西藏"
+ #傀儡
+ TIB_subject_DEF: "$OVERLORDADJ$属西藏"
+ #傀儡
+ TIB_MingYiSHangSHuYv: "西藏喇嘛政权"
+ #名义上属于
+ TIB_MingYiSHangSHuYv_DEF: "西藏"
+ #名义上属于
+ TIB_ZiZHiQv: "西藏自治区"
+ #自治区
+ TIB_ZiZHiQv_DEF: "西藏"
+ #自治区
+ TIB_ZHou: "西藏"
+ #州
+ TIB_ZHou_DEF: "西藏"
+ #州
+ TIB_ZongDuXiaQv: "青藏高原总督辖区"
+ #总督辖区
+ TIB_ZongDuXiaQv_DEF: "西藏"
+ #总督辖区
+ TIB_JunQv: "藏区"
+ #军区
+ TIB_JunQv_DEF: "藏区"
+ #军区
+ 
+ TIB_fascism: "吐蕃帝国"
+ #法西斯（原版）
+ TIB_fascism_DEF: "吐蕃帝国"
+ #法西斯（原版）
+ TIB_fascism_ADJ: "吐蕃"
+ #法西斯（原版）
+ TIB_democratic: "西藏共和国"
+ #民主（原版）
+ TIB_democratic_DEF: "西藏共和国"
+ #民主（原版）
+ TIB_democratic_ADJ: "西藏"
+ #民主（原版）
+ TIB_neutrality: "西藏"
+ #中立（原版）
+ TIB_neutrality_DEF: "西藏"
+ #中立（原版）
+ TIB_neutrality_ADJ: "西藏"
+ #中立（原版）
+ TIB_communism: "西藏喇嘛公社"
+ #共产（原版）
+ TIB_communism_DEF: "西藏喇嘛公社"
+ #共产（原版）
+ TIB_communism_ADJ: "西藏"
+ #共产（原版）
+ 
+ #委内瑞拉
+ 
  VEN_fascism: "委内瑞拉"
  VEN_fascism_DEF: "委内瑞拉"
  VEN_democratic: "委内瑞拉联邦共和国"
@@ -2975,21 +3407,68 @@
  VEN: "委内瑞拉"
  VEN_DEF: "委内瑞拉"
  VEN_ADJ: "委内瑞拉"
+ 
+ #滇系军阀
+ 
+ YUN: "云南"
+ #通用
+ YUN_DEF: "云南"
+ #通用
+ YUN_ADJ: "云南"
+ #通用
+ YUN_subject: "$OVERLORDADJ$属云南"
+ #傀儡
+ YUN_subject_DEF: "$OVERLORDADJ$属云南"
+ #傀儡
+ YUN_MingYiSHangSHuYv: "滇系"
+ #名义上属于
+ YUN_MingYiSHangSHuYv_DEF: "滇系"
+ #名义上属于
+ YUN_ZiZHiQv: "云南彝族自治区"
+ #自治区
+ YUN_ZiZHiQv_DEF: "云南"
+ #自治区
+ YUN_ZHou: "云南"
+ #州
+ YUN_ZHou_DEF: "云南"
+ #州
+ YUN_ZongDuXiaQv: "云南总督辖区"
+ #总督辖区
+ YUN_ZongDuXiaQv_DEF: "云南"
+ #总督辖区
+ YUN_JunQv: "滇军"
+ #军区
+ YUN_JunQv_DEF: "滇军"
+ #军区
+ 
  YUN_fascism: "云南自由帝国"
+ #法西斯（原版）
  YUN_fascism_DEF: "云南自由帝国"
- YUN_democratic: "云南独立共和国"
- YUN_democratic_DEF: "云南独立共和国"
- YUN_neutrality: "滇系"
- YUN_neutrality_DEF: "滇系"
- YUN_communism: "云南苏维埃共和国"
- YUN_communism_DEF: "云南苏维埃共和国"
+ #法西斯（原版）
  YUN_fascism_ADJ: "云南"
+ #法西斯（原版）
+ YUN_democratic: "云南独立共和国"
+ #民主（原版）
+ YUN_democratic_DEF: "云南独立共和国"
+ #民主（原版）
  YUN_democratic_ADJ: "云南"
+ #民主（原版）
+ YUN_neutrality: "滇系"
+ #中立（原版）
+ YUN_neutrality_DEF: "滇系"
+ #中立（原版）
  YUN_neutrality_ADJ: "滇系"
+ #中立（原版）
+ YUN_communism: "云南苏维埃共和国"
+ #共产（原版）
+ YUN_communism_DEF: "云南苏维埃共和国"
+ #共产（原版）
  YUN_communism_ADJ: "云南"
- YUN: "滇系"
- YUN_DEF: "滇系"
- YUN_ADJ: "滇系"
+ #共产（原版）
+ ###
+ 
+ #澳大利亚
+ 
  AST_fascism: "集权主义澳大利亚"
  AST_fascism_DEF: "集权主义澳大利亚"
  AST_democratic: "澳大利亚"
@@ -3206,51 +3685,186 @@
  CRO: "克罗地亚"
  CRO_DEF: "克罗地亚"
  CRO_ADJ: "克罗地亚"
+ 
+ #桂系军阀
+ 
+ GXC: "两广"
+ #通用
+ GXC_DEF: "两广"
+ #通用
+ GXC_ADJ: "两广"
+ #通用
+ GXC_subject: "$OVERLORDADJ$属两广"
+ #傀儡
+ GXC_subject_DEF: "$OVERLORDADJ$属两广"
+ #傀儡
+ GXC_MingYiSHangSHuYv: "桂系"
+ #名义上属于
+ GXC_MingYiSHangSHuYv_DEF: "桂系"
+ #名义上属于
+ GXC_ZiZHiQv: "广西壮族自治区"
+ #自治区
+ GXC_ZiZHiQv_DEF: "广西"
+ #自治区
+ GXC_ZHou: "两广"
+ #州
+ GXC_ZHou_DEF: "两广"
+ #州
+ GXC_ZongDuXiaQv: "粤江总督辖区"
+ #总督辖区
+ GXC_ZongDuXiaQv_DEF: "粤江"
+ #总督辖区
+ GXC_JunQv: "桂军"
+ #军区
+ GXC_JunQv_DEF: "桂军"
+ #军区
+ 
  GXC_fascism: "第三桂系"
+ #法西斯（原版）
  GXC_fascism_DEF: "第三桂系"
- GXC_democratic: "广西独立共和国"
- GXC_democratic_DEF: "广西独立共和国"
- GXC_neutrality: "桂系"
- GXC_neutrality_DEF: "桂系"
- GXC_communism: "珠江社会主义共和国"
- GXC_communism_DEF: "珠江社会主义共和国"
+ #法西斯（原版）
  GXC_fascism_ADJ: "广西"
+ #法西斯（原版）
+ GXC_democratic: "广西独立共和国"
+ #民主（原版）
+ GXC_democratic_DEF: "广西独立共和国"
+ #民主（原版）
  GXC_democratic_ADJ: "广西"
+ #民主（原版）
+ GXC_neutrality: "桂系"
+ #中立（原版）
+ GXC_neutrality_DEF: "桂系"
+ #中立（原版）
  GXC_neutrality_ADJ: "桂系"
+ #中立（原版）
+ GXC_communism: "珠江社会主义共和国"
+ #共产（原版）
+ GXC_communism_DEF: "珠江社会主义共和国"
+ #共产（原版）
  GXC_communism_ADJ: "广西"
- GXC: "桂系"
- GXC_DEF: "桂系"
- GXC_ADJ: "桂系"
+ #共产（原版）
+ ###
+ 
+ #晋系军阀
+ 
+ SHX: "山西"
+ #通用
+ SHX_DEF: "山西"
+ #通用
+ SHX_ADJ: "山西"
+ #通用
+ SHX_subject: "$OVERLORDADJ$属山西"
+ #傀儡
+ SHX_subject_DEF: "$OVERLORDADJ$属山西"
+ #傀儡
+ SHX_MingYiSHangSHuYv: "晋系"
+ #名义上属于
+ SHX_MingYiSHangSHuYv_DEF: "晋系"
+ #名义上属于
+ SHX_ZiZHiQv: "山西自治区"
+ #自治区
+ SHX_ZiZHiQv_DEF: "山西"
+ #自治区
+ SHX_ZHou: "山西"
+ #州
+ SHX_ZHou_DEF: "山西"
+ #州
+ SHX_ZongDuXiaQv: "晋西北总督辖区"
+ #总督辖区
+ SHX_ZongDuXiaQv_DEF: "晋西北"
+ #总督辖区
+ SHX_JunQv: "晋绥军"
+ #军区
+ SHX_JunQv_DEF: "晋绥军"
+ #军区
+ 
  SHX_fascism: "山西阎国"
+ #法西斯（原版）
  SHX_fascism_DEF: "山西阎国"
- SHX_democratic: "山西共和国"
- SHX_democratic_DEF: "山西共和国"
- SHX_neutrality: "晋系"
- SHX_neutrality_DEF: "晋系"
- SHX_communism: "山西苏维埃共和国"
- SHX_communism_DEF: "山西苏维埃共和国"
+ #法西斯（原版）
  SHX_fascism_ADJ: "山西"
+ #法西斯（原版）
+ SHX_democratic: "山西共和国"
+ #民主（原版）
+ SHX_democratic_DEF: "山西共和国"
+ #民主（原版）
  SHX_democratic_ADJ: "山西"
+ #民主（原版）
+ SHX_neutrality: "晋系"
+ #中立（原版）
+ SHX_neutrality_DEF: "晋系"
+ #中立（原版）
  SHX_neutrality_ADJ: "晋系"
+ #中立（原版）
+ SHX_communism: "山西苏维埃共和国"
+ #共产（原版）
+ SHX_communism_DEF: "山西苏维埃共和国"
+ #共产（原版）
  SHX_communism_ADJ: "山西"
- SHX: "晋系"
- SHX_DEF: "晋系"
- SHX_ADJ: "晋系"
+ #共产（原版）
+ ###
+ 
+ #马家军
+ 
+ XSM: "青海"
+ #通用
+ XSM_DEF: "青海"
+ #通用
+ XSM_ADJ: "青海"
+ #通用
+ XSM_subject: "$OVERLORDADJ$属青海"
+ #傀儡
+ XSM_subject_DEF: "$OVERLORDADJ$属青海"
+ #傀儡
+ XSM_MingYiSHangSHuYv: "马家军"
+ #名义上属于
+ XSM_MingYiSHangSHuYv_DEF: "马家军"
+ #名义上属于
+ XSM_ZiZHiQv: "青海回族自治区"
+ #自治区
+ XSM_ZiZHiQv_DEF: "青海"
+ #自治区
+ XSM_ZHou: "青海"
+ #州
+ XSM_ZHou_DEF: "青海"
+ #州
+ XSM_ZongDuXiaQv: "青海总督辖区"
+ #总督辖区
+ XSM_ZongDuXiaQv_DEF: "青海"
+ #总督辖区
+ XSM_JunQv: "青海巡防马步全军"
+ #军区
+ XSM_JunQv_DEF: "青海军"
+ #军区
+ 
  XSM_fascism: "西北三马自由邦"
+ #法西斯（原版）
  XSM_fascism_DEF: "西北三马自由邦"
- XSM_democratic: "回族共和国"
- XSM_democratic_DEF: "回族共和国"
- XSM_neutrality: "西北三马"
- XSM_neutrality_DEF: "西北三马"
- XSM_communism: "马家人民共和国"
- XSM_communism_DEF: "马家人民共和国"
+ #法西斯（原版）
  XSM_fascism_ADJ: "马家"
+ #法西斯（原版）
+ XSM_democratic: "回族共和国"
+ #民主（原版）
+ XSM_democratic_DEF: "回族共和国"
+ #民主（原版）
  XSM_democratic_ADJ: "马家"
+ #民主（原版）
+ XSM_neutrality: "西北三马"
+ #中立（原版）
+ XSM_neutrality_DEF: "西北三马"
+ #中立（原版）
  XSM_neutrality_ADJ: "马家"
+ #中立（原版）
+ XSM_communism: "马家人民共和国"
+ #共产（原版）
+ XSM_communism_DEF: "马家人民共和国"
+ #共产（原版）
  XSM_communism_ADJ: "马家"
- XSM: "西北三马"
- XSM_DEF: "西北三马"
- XSM_ADJ: "马家"
+ #共产（原版）
+ ###
+ 
+ #蒙古
+ 
  MEN_fascism: "蒙古国"
  MEN_fascism_DEF: "蒙古国"
  MEN_democratic: "蒙疆共和国"
@@ -3578,21 +4192,201 @@
  GEO: "格鲁吉亚"
  GEO_DEF: "格鲁吉亚"
  GEO_ADJ: "格鲁吉亚"
- KAZ_fascism: "阿拉什汗国"
- KAZ_fascism_DEF: "阿拉什汗国"
- KAZ_democratic: "哈萨克斯坦"
- KAZ_democratic_DEF: "哈萨克斯坦"
- KAZ_neutrality: "哈萨克汗国"
- KAZ_neutrality_DEF: "哈萨克汗国"
- KAZ_communism: "哈萨克苏维埃社会主义共和国"
- KAZ_communism_DEF: "哈萨克苏维埃社会主义共和国"
- KAZ_fascism_ADJ: "哈萨克"
- KAZ_democratic_ADJ: "哈萨克"
- KAZ_neutrality_ADJ: "哈萨克"
- KAZ_communism_ADJ: "哈萨克"
+ 
+ #哈萨克斯坦
+ 
  KAZ: "哈萨克斯坦"
+ #通用
  KAZ_DEF: "哈萨克斯坦"
+ #通用
  KAZ_ADJ: "哈萨克"
+ #通用
+ KAZ_subject: "$OVERLORDADJ$属哈萨克"
+ #傀儡
+ KAZ_subject_DEF: "$OVERLORDADJ$属哈萨克"
+ #傀儡
+ 
+ KAZ_fascism: "阿拉什汗国"
+ #法西斯（原版）
+ KAZ_fascism_DEF: "阿拉什汗国"
+ #法西斯（原版）
+ KAZ_fascism_ADJ: "哈萨克"
+ #法西斯（原版）
+ KAZ_democratic: "哈萨克斯坦"
+ #民主（原版）
+ KAZ_democratic_DEF: "哈萨克斯坦"
+ #民主（原版）
+ KAZ_democratic_ADJ: "哈萨克"
+ #民主（原版）
+ KAZ_neutrality: "哈萨克汗国"
+ #中立（原版）
+ KAZ_neutrality_DEF: "哈萨克汗国"
+ #中立（原版）
+ KAZ_neutrality_ADJ: "哈萨克"
+ #中立（原版）
+ KAZ_communism: "哈萨克苏维埃社会主义共和国"
+ #共产（原版）
+ KAZ_communism_DEF: "哈萨克苏维埃社会主义共和国"
+ #共产（原版）
+ KAZ_communism_ADJ: "哈萨克"
+ #共产（原版）
+ ###
+ KAZ_WuZHKAZFuGuongCHanZHuYi: "哈萨克自由邦"
+ #无政府共产主义
+ KAZ_WuZHKAZFuGuongCHanZHuYi_DEF: "哈萨克自由邦"
+ #无政府共产主义
+ KAZ_WuZHKAZFuGuongCHanZHuYi_ADJ: "哈萨克"
+ #无政府共产主义
+ 
+ KAZ_GuongTuanZHuYi: "哈萨克自由邦"
+ #工团主义
+ KAZ_GuongTuanZHuYi_DEF: "哈萨克自由邦"
+ #工团主义
+ KAZ_GuongTuanZHuYi_ADJ: "哈萨克"
+ #工团主义
+ 
+ KAZ_MaKeSi_LieNingZHuYi: "哈萨克苏维埃社会主义共和国"
+ #马克思 - 列宁主义
+ KAZ_MaKeSi_LieNingZHuYi_DEF: "哈萨克苏维埃社会主义共和国"
+ #马克思 - 列宁主义
+ KAZ_MaKeSi_LieNingZHuYi_ADJ: "哈萨克"
+ #马克思 - 列宁主义
+ 
+ KAZ_TuoLuoSiJiZHuYi: "哈萨克苏维埃社会主义共和国"
+ #托洛斯基
+ KAZ_TuoLuoSiJiZHuYi_DEF: "哈萨克苏维埃社会主义共和国"
+ #托洛斯基
+ KAZ_TuoLuoSiJiZHuYi_ADJ: "哈萨克"
+ #托洛斯基
+  
+ KAZ_SiDaLingZHuYi: "哈萨克苏维埃社会主义共和国"
+ #斯大林主义
+ KAZ_SiDaLingZHuYi_DEF: "哈萨克苏维埃社会主义共和国"
+ #斯大林主义
+ KAZ_SiDaLingZHuYi_ADJ: "哈萨克"
+ #斯大林主义
+ 
+ KAZ_YuanSHiZHuYi: "哈萨克苏维埃社会主义共和国"
+ #远视主义
+ KAZ_YuanSHiZHuYi_DEF: "哈萨克苏维埃社会主义共和国"
+ #远视主义
+ KAZ_YuanSHiZHuYi_ADJ: "哈萨克"
+ #远视主义
+ 
+ KAZ_JunZHKAZGuongCHanZHuYi: "哈萨克苏维埃社会主义共和国"
+ #军政共产主义
+ KAZ_JunZHKAZGuongCHanZHuYi_DEF: "哈萨克苏维埃社会主义共和国"
+ #军政共产主义
+ KAZ_JunZHKAZGuongCHanZHuYi_ADJ: "哈萨克"
+ #军政共产主义
+ 
+ KAZ_JunZHuBuErSHiWeiKe: "哈萨克苏维埃社会主义共和国"
+ #君主布尔什维克
+ KAZ_JunZHuBuErSHiWeiKe_DEF: "哈萨克苏维埃社会主义共和国"
+ #君主布尔什维克
+ KAZ_JunZHuBuErSHiWeiKe_ADJ: "哈萨克"
+ #君主布尔什维克
+ 
+ KAZ_GuDianZiYouZHuYi: "阿拉什共和国"
+ #古典自由主义
+ KAZ_GuDianZiYouZHuYi_DEF: "阿拉什共和国"
+ #古典自由主义
+ KAZ_GuDianZiYouZHuYi_ADJ: "阿拉什"
+ #古典自由主义
+ 
+ KAZ_SHeHuiMinZHuZHuYi: "阿拉什共和国"
+ #社会民主主义
+ KAZ_SHeHuiMinZHuZHuYi_DEF: "阿拉什共和国"
+ #社会民主主义
+ KAZ_SHeHuiMinZHuZHuYi_ADJ: "阿拉什"
+ #社会民主主义
+ 
+ KAZ_MinZHuSHeHuiZHuYi: "阿拉什共和国"
+ #民主社会主义
+ KAZ_MinZHuSHeHuiZHuYi_DEF: "阿拉什共和国"
+ #民主社会主义
+ KAZ_MinZHuSHeHuiZHuYi_ADJ: "阿拉什"
+ #民主社会主义
+ 
+ KAZ_JiaSuZHuYi: "哈萨克先锋国"
+ #加速主义
+ KAZ_JiaSuZHuYi_DEF: "哈萨克先锋国"
+ #加速主义
+ KAZ_JiaSuZHuYi_ADJ: "哈萨克"
+ #加速主义
+ 
+ KAZ_BaoSHouZHuYi: "阿拉什共和国"
+ #保守主义
+ KAZ_BaoSHouZHuYi_DEF: "阿拉什共和国"
+ #保守主义
+ KAZ_BaoSHouZHuYi_ADJ: "阿拉什"
+ #保守主义
+ 
+ KAZ_GuiZuBaoSHouZHuYi: "阿拉什共和国"
+ #贵族保守主义
+ KAZ_GuiZuBaoSHouZHuYi_DEF: "阿拉什共和国"
+ #贵族保守主义
+ KAZ_GuiZuBaoSHouZHuYi_ADJ: "阿拉什"
+ #贵族保守主义
+ 
+ KAZ_JiaZHangZHi: "哈萨克军政府"
+ #家长制
+ KAZ_JiaZHangZHi_DEF: "哈萨克军政府"
+ #家长制
+ KAZ_JiaZHangZHi_ADJ: "哈萨克"
+ #家长制
+ 
+ KAZ_JunZHuZHuYi: "阿拉什汗国"
+ #君主主义
+ KAZ_JunZHuZHuYi_DEF: "阿拉什汗国"
+ #君主主义
+ KAZ_JunZHuZHuYi_ADJ: "阿拉什"
+ #君主主义
+ 
+ KAZ_ZiBKAZuongCHanZHuYi: "希尔河水利公司"
+ #资本共产主义
+ KAZ_ZiBKAZuongCHanZHuYi_DEF: "希尔河水利公司"
+ #资本共产主义
+ KAZ_ZiBKAZuongCHanZHuYi_ADJ: "希尔"
+ #资本共产主义
+ 
+ KAZ_SHeHuiFaXiSi: "哥萨克草原政府"
+ #社会法西斯
+ KAZ_SHeHuiFaXiSi_DEF: "哥萨克草原政府"
+ #社会法西斯
+ KAZ_SHeHuiFaXiSi_ADJ: "哈萨克"
+ #社会法西斯
+ 
+ KAZ_SiTeLaSeZHuYi: "哥萨克草原政府"
+ #斯特拉瑟主义
+ KAZ_SiTeLaSeZHuYi_DEF: "哥萨克草原政府"
+ #斯特拉瑟主义
+ KAZ_SiTeLaSeZHuYi_ADJ: "哈萨克"
+ #斯特拉瑟主义
+ 
+ KAZ_FaXiSiZHuYi: "哥萨克草原政府"
+ #法西斯主义
+ KAZ_FaXiSiZHuYi_DEF: "哥萨克草原政府"
+ #法西斯主义
+ KAZ_FaXiSiZHuYi_ADJ: "哈萨克"
+ #法西斯主义
+ 
+ KAZ_MinZuSHeHuiZHuYi: "哥萨克草原政府"
+ #纳粹
+ KAZ_MinZuSHeHuiZHuYi_DEF: "哥萨克草原政府"
+ #纳粹
+ KAZ_MinZuSHeHuiZHuYi_ADJ: "哈萨克"
+ #纳粹
+ 
+ KAZ_BoGenDiTiZHi: "哥萨克草原政府"
+ #勃艮第体制
+ KAZ_BoGenDiTiZHi_DEF: "哥萨克草原政府"
+ #勃艮第体制
+ KAZ_BoGenDiTiZHi_ADJ: "哈萨克"
+ #勃艮第体制
+ 
+ #阿塞拜疆
+ 
  AZR_fascism: "圣火帝国"
  AZR_fascism_DEF: "圣火帝国"
  AZR_democratic: "阿塞拜疆民主共和国"
@@ -7249,3 +8043,378 @@
  #纳粹
  CDF_MinZuSHeHuiZHuYi_ADJ: "火十字团"
  #纳粹
+ 
+ #川系军阀
+ 
+ SIC: "四川"
+ #通用
+ SIC_DEF: "四川"
+ #通用
+ SIC_ADJ: "四川"
+ #通用
+ SIC_subject: "$OVERLORDADJ$属四川"
+ #傀儡
+ SIC_subject_DEF: "$OVERLORDADJ$属四川"
+ #傀儡
+ SIC_MingYiSHangSHuYv: "川系"
+ #名义上属于
+ SIC_MingYiSHangSHuYv_DEF: "川系"
+ #名义上属于
+ SIC_ZiZHiQv: "四川彝族自治区"
+ #自治区
+ SIC_ZiZHiQv_DEF: "四川"
+ #自治区
+ SIC_ZHou: "四川"
+ #州
+ SIC_ZHou_DEF: "四川"
+ #州
+ SIC_ZongDuXiaQv: "四川总督辖区"
+ #总督辖区
+ SIC_ZongDuXiaQv_DEF: "四川"
+ #总督辖区
+ SIC_JunQv: "川军"
+ #军区
+ SIC_JunQv_DEF: "川军"
+ #军区
+ ###
+ SIC_WuZHSICFuGuongCHanZHuYi: "四川公社"
+ #无政府共产主义
+ SIC_WuZHSICFuGuongCHanZHuYi_DEF: "四川公社"
+ #无政府共产主义
+ SIC_WuZHSICFuGuongCHanZHuYi_ADJ: "四川"
+ #无政府共产主义
+ 
+ SIC_GuongTuanZHuYi: "四川公社"
+ #工团主义
+ SIC_GuongTuanZHuYi_DEF: "四川公社"
+ #工团主义
+ SIC_GuongTuanZHuYi_ADJ: "四川"
+ #工团主义
+ 
+ SIC_MaKeSi_LieNingZHuYi: "四川社会主义共和国"
+ #马克思 - 列宁主义
+ SIC_MaKeSi_LieNingZHuYi_DEF: "四川社会主义共和国"
+ #马克思 - 列宁主义
+ SIC_MaKeSi_LieNingZHuYi_ADJ: "四川"
+ #马克思 - 列宁主义
+ 
+ SIC_TuoLuoSiJiZHuYi: "四川社会主义共和国"
+ #托洛斯基
+ SIC_TuoLuoSiJiZHuYi_DEF: "四川社会主义共和国"
+ #托洛斯基
+ SIC_TuoLuoSiJiZHuYi_ADJ: "四川"
+ #托洛斯基
+  
+ SIC_SiDaLingZHuYi: "四川社会主义共和国"
+ #斯大林主义
+ SIC_SiDaLingZHuYi_DEF: "四川社会主义共和国"
+ #斯大林主义
+ SIC_SiDaLingZHuYi_ADJ: "四川"
+ #斯大林主义
+ 
+ SIC_YuanSHiZHuYi: "四川社会主义共和国"
+ #远视主义
+ SIC_YuanSHiZHuYi_DEF: "四川社会主义共和国"
+ #远视主义
+ SIC_YuanSHiZHuYi_ADJ: "四川"
+ #远视主义
+ 
+ SIC_JunZHSICGuongCHanZHuYi: "四川社会主义共和国"
+ #军政共产主义
+ SIC_JunZHSICGuongCHanZHuYi_DEF: "四川社会主义共和国"
+ #军政共产主义
+ SIC_JunZHSICGuongCHanZHuYi_ADJ: "四川"
+ #军政共产主义
+ 
+ SIC_JunZHuBuErSHiWeiKe: "四川社会主义共和国"
+ #君主布尔什维克
+ SIC_JunZHuBuErSHiWeiKe_DEF: "四川社会主义共和国"
+ #君主布尔什维克
+ SIC_JunZHuBuErSHiWeiKe_ADJ: "四川"
+ #君主布尔什维克
+ 
+ SIC_GuDianZiYouZHuYi: "四川共和国"
+ #古典自由主义
+ SIC_GuDianZiYouZHuYi_DEF: "四川共和国"
+ #古典自由主义
+ SIC_GuDianZiYouZHuYi_ADJ: "四川"
+ #古典自由主义
+ 
+ SIC_SHeHuiMinZHuZHuYi: "四川共和国"
+ #社会民主主义
+ SIC_SHeHuiMinZHuZHuYi_DEF: "四川共和国"
+ #社会民主主义
+ SIC_SHeHuiMinZHuZHuYi_ADJ: "四川"
+ #社会民主主义
+ 
+ SIC_MinZHuSHeHuiZHuYi: "四川共和国"
+ #民主社会主义
+ SIC_MinZHuSHeHuiZHuYi_DEF: "四川共和国"
+ #民主社会主义
+ SIC_MinZHuSHeHuiZHuYi_ADJ: "四川"
+ #民主社会主义
+ 
+ SIC_JiaSuZHuYi: "四川先锋国"
+ #加速主义
+ SIC_JiaSuZHuYi_DEF: "四川先锋国"
+ #加速主义
+ SIC_JiaSuZHuYi_ADJ: "四川"
+ #加速主义
+ 
+ SIC_BaoSHouZHuYi: "四川共和国"
+ #保守主义
+ SIC_BaoSHouZHuYi_DEF: "四川共和国"
+ #保守主义
+ SIC_BaoSHouZHuYi_ADJ: "四川"
+ #保守主义
+ 
+ SIC_GuiZuBaoSHouZHuYi: "四川共和国"
+ #贵族保守主义
+ SIC_GuiZuBaoSHouZHuYi_DEF: "四川共和国"
+ #贵族保守主义
+ SIC_GuiZuBaoSHouZHuYi_ADJ: "四川"
+ #贵族保守主义
+ 
+ SIC_JiaZHangZHi: "四川"
+ #家长制
+ SIC_JiaZHangZHi_DEF: "四川"
+ #家长制
+ SIC_JiaZHangZHi_ADJ: "四川"
+ #家长制
+ 
+ SIC_JunZHuZHuYi: "巴蜀王国"
+ #君主主义
+ SIC_JunZHuZHuYi_DEF: "巴蜀王国"
+ #君主主义
+ SIC_JunZHuZHuYi_ADJ: "巴蜀"
+ #君主主义
+ 
+ SIC_ZiBSICuongCHanZHuYi: "重庆火锅"
+ #资本共产主义
+ SIC_ZiBSICuongCHanZHuYi_DEF: "重庆火锅"
+ #资本共产主义
+ SIC_ZiBSICuongCHanZHuYi_ADJ: "四川"
+ #资本共产主义
+ 
+ SIC_SHeHuiFaXiSi: "彝族帝国"
+ #社会法西斯
+ SIC_SHeHuiFaXiSi_DEF: "彝族帝国"
+ #社会法西斯
+ SIC_SHeHuiFaXiSi_ADJ: "四川"
+ #社会法西斯
+ 
+ SIC_SiTeLaSeZHuYi: "彝族帝国"
+ #斯特拉瑟主义
+ SIC_SiTeLaSeZHuYi_DEF: "彝族帝国"
+ #斯特拉瑟主义
+ SIC_SiTeLaSeZHuYi_ADJ: "四川"
+ #斯特拉瑟主义
+ 
+ SIC_FaXiSiZHuYi: "彝族帝国"
+ #法西斯主义
+ SIC_FaXiSiZHuYi_DEF: "彝族帝国"
+ #法西斯主义
+ SIC_FaXiSiZHuYi_ADJ: "四川"
+ #法西斯主义
+ 
+ SIC_MinZuSHeHuiZHuYi: "彝族帝国"
+ #纳粹
+ SIC_MinZuSHeHuiZHuYi_DEF: "彝族帝国"
+ #纳粹
+ SIC_MinZuSHeHuiZHuYi_ADJ: "四川"
+ #纳粹
+ 
+ SIC_BoGenDiTiZHi: "彝族帝国"
+ #勃艮第体制
+ SIC_BoGenDiTiZHi_DEF: "彝族帝国"
+ #勃艮第体制
+ SIC_BoGenDiTiZHi_ADJ: "四川"
+ #勃艮第体制
+ 
+ #俄罗斯
+ 
+ RFE: "俄罗斯"
+ #通用
+ RFE_DEF: "俄罗斯"
+ #通用
+ RFE_ADJ: "俄罗斯"
+ #通用
+ RFE_subject: "$OVERLORDADJ$属俄罗斯
+ #傀儡
+ RFE_subject_DEF: "$OVERLORDADJ$属俄罗斯"
+ #傀儡
+ RFE_MingYiSHangSHuYv: "俄罗斯"
+ #名义上属于
+ RFE_MingYiSHangSHuYv_DEF: "俄罗斯"
+ #名义上属于
+ RFE_ZiZHiQv: "罗斯自治区"
+ #自治区
+ RFE_ZiZHiQv_DEF: "俄罗斯"
+ #自治区
+ RFE_ZHou: "俄罗斯"
+ #州
+ RFE_ZHou_DEF: "俄罗斯"
+ #州
+ RFE_ZongDuXiaQv: "莫斯科总督辖区"
+ #总督辖区
+ RFE_ZongDuXiaQv_DEF: "莫斯科总督辖区"
+ #总督辖区
+ RFE_JunQv: "莫斯科军区"
+ #军区
+ RFE_JunQv_DEF: "莫斯科军区"
+ #军区
+ ###
+ RFE_WuZHRFEFuGuongCHanZHuYi: "俄罗斯自由地区"
+ #无政府共产主义
+ RFE_WuZHRFEFuGuongCHanZHuYi_DEF: "俄罗斯自由地区"
+ #无政府共产主义
+ RFE_WuZHRFEFuGuongCHanZHuYi_ADJ: "俄罗斯"
+ #无政府共产主义
+ 
+ RFE_GuongTuanZHuYi: "俄罗斯自由地区"
+ #工团主义
+ RFE_GuongTuanZHuYi_DEF: "俄罗斯自由地区"
+ #工团主义
+ RFE_GuongTuanZHuYi_ADJ: "俄罗斯"
+ #工团主义
+ 
+ RFE_MaKeSi_LieNingZHuYi: "俄罗斯社会主义联邦苏维埃共和国"
+ #马克思 - 列宁主义
+ RFE_MaKeSi_LieNingZHuYi_DEF: "俄罗斯社会主义联邦苏维埃共和国"
+ #马克思 - 列宁主义
+ RFE_MaKeSi_LieNingZHuYi_ADJ: "俄罗斯"
+ #马克思 - 列宁主义
+ 
+ RFE_TuoLuoSiJiZHuYi: "俄罗斯社会主义联邦苏维埃共和国"
+ #托洛斯基
+ RFE_TuoLuoSiJiZHuYi_DEF: "俄罗斯社会主义联邦苏维埃共和国"
+ #托洛斯基
+ RFE_TuoLuoSiJiZHuYi_ADJ: "俄罗斯"
+ #托洛斯基
+  
+ RFE_SiDaLingZHuYi: "俄罗斯社会主义联邦苏维埃共和国"
+ #斯大林主义
+ RFE_SiDaLingZHuYi_DEF: "俄罗斯社会主义联邦苏维埃共和国"
+ #斯大林主义
+ RFE_SiDaLingZHuYi_ADJ: "俄罗斯"
+ #斯大林主义
+ 
+ RFE_YuanSHiZHuYi: "俄罗斯社会主义联邦苏维埃共和国"
+ #远视主义
+ RFE_YuanSHiZHuYi_DEF: "俄罗斯社会主义联邦苏维埃共和国"
+ #远视主义
+ RFE_YuanSHiZHuYi_ADJ: "俄罗斯"
+ #远视主义
+ 
+ RFE_JunZHRFEGuongCHanZHuYi: "俄罗斯社会主义联邦苏维埃共和国"
+ #军政共产主义
+ RFE_JunZHRFEGuongCHanZHuYi_DEF: "俄罗斯社会主义联邦苏维埃共和国"
+ #军政共产主义
+ RFE_JunZHRFEGuongCHanZHuYi_ADJ: "俄罗斯"
+ #军政共产主义
+ 
+ RFE_JunZHuBuErSHiWeiKe: "俄罗斯社会主义联邦苏维埃共和国"
+ #君主布尔什维克
+ RFE_JunZHuBuErSHiWeiKe_DEF: "俄罗斯社会主义联邦苏维埃共和国"
+ #君主布尔什维克
+ RFE_JunZHuBuErSHiWeiKe_ADJ: "俄罗斯"
+ #君主布尔什维克
+ 
+ RFE_GuDianZiYouZHuYi: "俄罗斯民主联邦共和国"
+ #古典自由主义
+ RFE_GuDianZiYouZHuYi_DEF: "俄罗斯民主联邦共和国"
+ #古典自由主义
+ RFE_GuDianZiYouZHuYi_ADJ: "俄罗斯"
+ #古典自由主义
+ 
+ RFE_SHeHuiMinZHuZHuYi: "俄罗斯民主联邦共和国"
+ #社会民主主义
+ RFE_SHeHuiMinZHuZHuYi_DEF: "俄罗斯民主联邦共和国"
+ #社会民主主义
+ RFE_SHeHuiMinZHuZHuYi_ADJ: "俄罗斯"
+ #社会民主主义
+ 
+ RFE_MinZHuSHeHuiZHuYi: "俄罗斯民主联邦共和国"
+ #民主社会主义
+ RFE_MinZHuSHeHuiZHuYi_DEF: "俄罗斯民主联邦共和国"
+ #民主社会主义
+ RFE_MinZHuSHeHuiZHuYi_ADJ: "俄罗斯"
+ #民主社会主义
+ 
+ RFE_JiaSuZHuYi: "俄罗斯先锋国"
+ #加速主义
+ RFE_JiaSuZHuYi_DEF: "俄罗斯先锋国"
+ #加速主义
+ RFE_JiaSuZHuYi_ADJ: "俄罗斯"
+ #加速主义
+ 
+ RFE_BaoSHouZHuYi: "俄罗斯民主联邦共和国"
+ #保守主义
+ RFE_BaoSHouZHuYi_DEF: "俄罗斯民主联邦共和国"
+ #保守主义
+ RFE_BaoSHouZHuYi_ADJ: "俄罗斯"
+ #保守主义
+ 
+ RFE_GuiZuBaoSHouZHuYi: "俄罗斯民主联邦共和国"
+ #贵族保守主义
+ RFE_GuiZuBaoSHouZHuYi_DEF: "俄罗斯民主联邦共和国"
+ #贵族保守主义
+ RFE_GuiZuBaoSHouZHuYi_ADJ: "俄罗斯"
+ #贵族保守主义
+ 
+ RFE_JiaZHangZHi: "俄罗斯国"
+ #家长制
+ RFE_JiaZHangZHi_DEF: "俄罗斯国"
+ #家长制
+ RFE_JiaZHangZHi_ADJ: "俄罗斯"
+ #家长制
+ 
+ RFE_JunZHuZHuYi: "俄罗斯沙皇国"
+ #君主主义
+ RFE_JunZHuZHuYi_DEF: "俄罗斯沙皇国"
+ #君主主义
+ RFE_JunZHuZHuYi_ADJ: "俄罗斯"
+ #君主主义
+ 
+ RFE_ZiBRFEuongCHanZHuYi: "罗斯公司"
+ #资本共产主义
+ RFE_ZiBRFEuongCHanZHuYi_DEF: "罗斯公司"
+ #资本共产主义
+ RFE_ZiBRFEuongCHanZHuYi_ADJ: "俄罗斯"
+ #资本共产主义
+ 
+ RFE_SHeHuiFaXiSi: "弥赛亚-俄罗斯国"
+ #社会法西斯
+ RFE_SHeHuiFaXiSi_DEF: "弥赛亚-俄罗斯国"
+ #社会法西斯
+ RFE_SHeHuiFaXiSi_ADJ: "俄罗斯"
+ #社会法西斯
+ 
+ RFE_SiTeLaSeZHuYi: "弥赛亚-俄罗斯国"
+ #斯特拉瑟主义
+ RFE_SiTeLaSeZHuYi_DEF: "弥赛亚-俄罗斯国"
+ #斯特拉瑟主义
+ RFE_SiTeLaSeZHuYi_ADJ: "俄罗斯"
+ #斯特拉瑟主义
+ 
+ RFE_FaXiSiZHuYi: "弥赛亚-俄罗斯国"
+ #法西斯主义
+ RFE_FaXiSiZHuYi_DEF: "弥赛亚-俄罗斯国"
+ #法西斯主义
+ RFE_FaXiSiZHuYi_ADJ: "俄罗斯"
+ #法西斯主义
+ 
+ RFE_MinZuSHeHuiZHuYi: "弥赛亚-俄罗斯国"
+ #纳粹
+ RFE_MinZuSHeHuiZHuYi_DEF: "弥赛亚-俄罗斯国"
+ #纳粹
+ RFE_MinZuSHeHuiZHuYi_ADJ: "俄罗斯"
+ #纳粹
+ 
+ RFE_BoGenDiTiZHi: "弥赛亚-俄罗斯国"
+ #勃艮第体制
+ RFE_BoGenDiTiZHi_DEF: "弥赛亚-俄罗斯国"
+ #勃艮第体制
+ RFE_BoGenDiTiZHi_ADJ: "俄罗斯"
+ #勃艮第体制
+ 

@@ -1,0 +1,46 @@
+bw_decisions = {
+#决议组id
+	bw_YaoQingXinCHengYuan = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			is_subject = no
+			num_subjects > 0
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		visible = {
+#展示条件
+			has_completed_focus = JingJiHuZHuWeiYuanHui
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			custom_effect_tooltip = SOV_found_the_comecon_subjects_tt
+			if = {
+				every_other_country = {
+					limit = {
+						is_subject_of = ROOT
+					}
+					add_ideas = SOV_comecon_puppet_default
+				}
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 10000000
+		}
+	}

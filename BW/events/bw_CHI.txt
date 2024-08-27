@@ -1,0 +1,121 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_CHI
+
+country_event = { #卢沟桥事变
+	id = bw_CHI.1
+	title = bw_CHI.1.t
+	desc = bw_CHI.1.d
+	is_triggered_only = yes
+	option = {
+		name = bw_CHI.1.a #一寸山河一寸血，十万青年十万兵。开战！
+
+		add_ideas = bw_CHI_YiCuenSHanHeYiCuenXie_SHiWanQingNianSHiWanBing
+		news_event = {
+			id = bw_CHI.2
+			days = 1
+			random = 0
+		}
+		JAP = {
+			news_event = {
+				id = bw_JAP.2
+				days = 1
+				random = 0
+			}
+		}
+
+		ai_chance = {
+			factor = 999
+		}
+	}
+
+	option = {
+		name = bw_CHI.1.b #我们没有与列强拼的实力
+
+		JAP = {
+			news_event = {
+				id = bw_JAP.3
+				days = 1
+				random = 0
+			}
+		}
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #中华民族统一战线
+	id = bw_CHI.2
+	title = bw_CHI.2.t
+	desc = bw_CHI.2.d
+	is_triggered_only = yes
+	option = {
+		name = bw_CHI.2.a #开始动员
+
+		add_war_support = 0.2
+		create_faction = 中华民族统一战线
+		add_ideas = tot_economic_mobilisation
+		YUN = {
+			news_event = {
+				id = bw_CHI.3
+				days = 1
+				random = 0
+			}
+		}
+		TIB = {
+			news_event = {
+				id = bw_CHI.3
+				days = 1
+				random = 0
+			}
+		}
+		SHX = {
+			news_event = {
+				id = bw_CHI.3
+				days = 1
+				random = 0
+			}
+		}
+		GXC = {
+			news_event = {
+				id = bw_CHI.3
+				days = 1
+				random = 0
+			}
+		}
+		XSM = {
+			news_event = {
+				id = bw_CHI.3
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #中华民国战时整合
+	id = bw_CHI.3
+	title = bw_CHI.3.t
+	desc = bw_CHI.3.d
+	is_triggered_only = yes
+	option = {
+		name = bw_CHI.3.a #抗日是每个中国人的义务
+
+		CHI = {
+			set_autonomy = {
+				target = ROOT
+				autonomous_state =  JunQv
+			}
+		}
+	}
+
+	option = {
+		name = bw_CHI.3.b #你这么说，那我可就投靠日本人了
+
+		JAP = { add_to_faction = ROOT }
+	}
+}

@@ -9,19 +9,13 @@ set_convoys = 20
 
 #recruit_character = GAB_acr
 
-set_autonomy = {
-	target = UKR
-	autonomous_state =  autonomy_puppet
-}
-set_autonomy = {
-	target = DON
-	autonomous_state =  autonomy_puppet
-}
-
 set_politics = {
-	ruling_party = democratic
+	ruling_party = GuiZuBaoSHouZHuYi
 }
 
 set_popularities = {
-	democratic = 100
+	GuiZuBaoSHouZHuYi = 100
 }
+
+
+recruit_character = RFE_Aleksandr_Fyodorovich_Kerenskiy

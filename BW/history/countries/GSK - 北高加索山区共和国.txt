@@ -42,11 +42,11 @@ set_war_support = 0.3
 
 set_autonomy = {
 	target = GEO
-	autonomous_state =  autonomy_puppet
+	autonomous_state =  WeiXingGuo
 }
 set_autonomy = {
 	target = ARM
-	autonomous_state =  autonomy_puppet
+	autonomous_state =  WeiXingGuo
 }
 
 set_politics = {

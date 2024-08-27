@@ -84,14 +84,22 @@
  SHeHuiMinZHuZHuYi: "社会民主主义"
  SHeHuiMinZHuZHuYi_noun: "社会民主主义"
  SHeHuiMinZHuZHuYi_desc: "社会民主主义政体"
- SHeHuiMinZHuZHuYi_c: "共和国"
- SHeHuiMinZHuZHuYi_c_desc: "社会民主主义是一种社会主义思想，支持通过在自由民主体制和资本主义经济体系下，通过经济干预和社会干预的手段促进社会正义的意识形态。 社会民主主义支持代议制和参与民主制。 社会民主主义主张实行收入再分配，通过调控手段使经济发展符合大众共同利益。"
+ SHeHuiMinZHuZHuYi_c: "古典自由主义"
+ SHeHuiMinZHuZHuYi_c_desc: "基本介绍：\n社会民主主义（Social democracy）是一种在民主体\n制和资本主义内融合社会主义的思想，认为应该在资本主义的框架内通过经济干预实现社会主义。总之§Y真伟大啊凯恩斯§!\n\n\n政治主张：\n社会民主主义认为应该通过政府干预的方式进行收入平衡，建设福利国家，并和其他中左翼一样支持间接民主制，希望让资本主义更加平等。\n\n\n近代影响：\n社会民主主义是在1900年提出的，尔早起的俄国社会民主工党更像民主社会主义，所以没有近代影响"
  
  MinZHuSHeHuiZHuYi: "民主社会主义"
  MinZHuSHeHuiZHuYi_noun: "民主社会主义"
  MinZHuSHeHuiZHuYi_desc: "社会民主主义政体。"
  MinZHuSHeHuiZHuYi_c: "共和国"
  MinZHuSHeHuiZHuYi_c_desc: "民主社會主義是一種把现代民主宪政和社会主义经济合为一体的政治意識形態，它的本意就是指民主的社会主义形态。 可以认为，社会民主主义是社会主义加入了一些“民主主义”的元素。 但由于何为“民主”、何为“社会主义”存在很大争议，民主社会主义也是一个相当宽泛的概念。"
+ 
+ JiaSuZHuYi: "加速主义"
+ JiaSuZHuYi_noun: "加速主义"
+ JiaSuZHuYi_desc: "加速主义政体"
+ #JiaSuZHuYi_c: "原教旨加速主义"
+ JiaSuZHuYi_c: "加速主义"
+ #JiaSuZHuYi_c_desc: "基本介绍：\n加速主义（Accelerationism）是一种比较抽象的概念，大体上就是认为科学优先和激化社会矛盾通过打世界大战的方式进行加速的科学发展。\n\n\n政治主张：\n加速主义分为左翼（原教旨）加速主义和新加速主义。\n\n\n近代影响：\n社会民主主义是在1900年提出的，尔早起的俄国社会民主工党更像民主社会主义，所以没有近代影响"
+ JiaSuZHuYi_c_desc: "基本介绍：\n加速主义（Accelerationism）是一种比较抽象的概念，大体上就是认为科学优先和激化社会矛盾通过打世界大战的方式进行加速的科学发展。\n\n\n政治主张：\n加速主义最开始是一种基于资本主义的意识形态的意识形态，认为资本主义和技术应该进行快速的变革，\n后面分裂出了左翼加速主义，左翼加速主义认为加速主义不应该局限于资本主义，这种社会与技术的变革应该用于解放人类，\n有左就有右，右翼加速主义认为资本主义应该无限强化，因为发展科技是对公司有利的，而按照资本逐利的概念，资本一定会疯狂的研发新技术夺取顾客。\n还有无限制加速主义，它认为加速主义不应该服务于左或者右，应该自成一派，也就是第三条陆。\n\n\n近代影响：\n加速主义在近代还只是个理论，没有任何实践和影响"
  
  # # #右翼
  
@@ -387,8 +395,10 @@
  GER_FaXiSiZHuYi_party_long: "民族社会主义德国工人党（中间派）"
  GER_SHeHuiFaXiSi_party: "纳粹党（左派）"
  GER_SHeHuiFaXiSi_party_long: "民族社会主义德国工人党（左派）"
- GER_SiTeLaSeZHuYi_party: "纳粹党（斯特拉瑟派）"
- GER_SiTeLaSeZHuYi_party_long: "民族社会主义德国工人党（斯特拉瑟派）"
+ GER_SiTeLaSeZHuYi_party: "纳粹党（大斯特拉瑟派）"
+ GER_SiTeLaSeZHuYi_party_long: "民族社会主义德国工人党（大斯特拉瑟派）"
+ GER_GuiZuBaoSHouZHuYi_party: "纳粹党（小斯特拉瑟派）"
+ GER_GuiZuBaoSHouZHuYi_party_long: "民族社会主义德国工人党（小斯特拉瑟派）"
  GER_BoGenDiTiZHi_party: "纳粹党（党卫军派）"
  GER_BoGenDiTiZHi_party_long: "民族社会主义德国工人党（党卫军派）"
  
@@ -417,6 +427,8 @@
  GSR_FaXiSiZHuYi_party_long: "德意志国家人民党（右派）"
  
  # # #波兰
+ 
+ POL_JunZHuZHuYi_party: "韦廷王朝"
  
  POL_fascism_party: "民族激进阵营-长枪党"
  POL_fascism_party_long: "民族激进阵营-长枪党"
@@ -482,18 +494,43 @@
  ITA_partito_democratico_del_lavoro_long: "劳工民主党"
  ITA_democrazia_cristiana: "基督教民主党"
  ITA_democrazia_cristiana_long: "基督教民主党"
+ 
+ #日本
+ 
+ #JAP_BaoSHouZHuYi_party: "立宪政友会（正统派）"
+ #JAP_GuDianZiYouZHuYi_party: "立宪政友会（统一派）"
+ #JAP_SHeHuiMinZHuZHuYi_party: "立宪政友会（革新派）"
+ #JAP_FaXiSiZHuYi_party: "大政翼赞会"（民族派）"
+ #JAP_MinZuSHeHuiZHuYi_party: "大政翼赞会（军国派）"
+ JAP_BaoSHouZHuYi_party: "立宪政友会" #铃木喜三朗
+ JAP_GuDianZiYouZHuYi_party: "立宪民政党" #町田忠治
+ JAP_SHeHuiMinZHuZHuYi_party: "社会大众党" #安部矶雄
+ JAP_JiaZHangZHi_party: "日本军部（皇道派）" #荒木贞夫
+ JAP_FaXiSiZHuYi_party: "日本军部（统制派）" #东条英机
+ JAP_MinZuSHeHuiZHuYi_party: "国民同盟" #安达谦藏
+ JAP_JunZHuZHuYi_party: "菊花王朝" #昭和天皇
+ 
  JAP_communism_party: "日本共产党"
  JAP_democratic_party: "立宪民政党"
  JAP_fascism_party: "大政翼赞会"
  JAP_neutrality_party_kodoha_long: "皇道派"
  JAP_neutrality_party_kodoha: "皇道派"
+ 
+ #美国
+ 
  USA_communism_party: "美国共产党"
  USA_democratic_party: "民主党"
  USA_republican_party: "共和党"
  USA_fascism_party: "美国银衫军"
+ 
+ #法国
+ 
  FRA_communism_party: "法国共产党"
  FRA_democratic_party: "激进党"
  FRA_fascism_party: "“法兰西至上”运动"
+ 
+ #苏联
+ 
  SOV_communism_party: "全联盟共产党"
  SOV_communism_party_russian: "联共(布)"
  SOV_communism_party_russian_long: "全联盟共产党(布尔什维克)"
@@ -532,7 +569,18 @@
  AUS_fascism_party: "德意志国家社会主义工人党"
  AUS_neutrality_party: "祖国阵线"
  
- #中共
+ #中国
+ 
+ CHI_MinZHuSHeHuiZHuYi_party: "国民党（左派）" #汪娘
+ CHI_MinZHuSHeHuiZHuYi_party_long: "中国国民党（左派）"
+ CHI_SHeHuiMinZHuZHuYi_party: "国民党（中间派）" #宋庆龄
+ CHI_SHeHuiMinZHuZHuYi_party_long: "中国国民党（中间派）"
+ CHI_JiaZHangZHi_party: "国民党（右派）" #蒋介石
+ CHI_JiaZHangZHi_party_long: "中国国民党（右派）"
+ CHI_MinZuSHeHuiZHuYi_party: "国民党（帝国派）" #戴笠
+ CHI_MinZuSHeHuiZHuYi_party_long: "中国国民党（帝国派）"
+ CHI_FaXiSiZHuYi_party: "蓝衣社" #蒋介石
+ CHI_ZiBenGuongCHanZHuYi_party: "企业联合" #邓小平
  
  CHI_communism_party: "中国共产党"
  CHI_communism_party_long: "中国共产党"
@@ -540,6 +588,9 @@
  CHI_fascism_party: "蓝衣社"
  CHI_fascism_party_long: "蓝衣社"
  CHI_neutrality_party: "国民党"
+ 
+ #马家军
+ 
  XSM_neutrality_party: "马家军"
  XSM_communism_party: "中国共产党"
  XSM_communism_party_long: "中国共产党"
@@ -1419,10 +1470,25 @@
  LBV_democratic_party: "威尼斯民众党"
  LBV_fascism_party: "阿尔卑斯山南统合党"
  LBV_neutrality_party: "保王派"
+ 
+ # # #梵蒂冈
+ 
+ PAP_JiaZHangZHi_party: "圣座"
+ PAP_JiaZHangZHi_party_long: "圣座教廷"
+ PAP_JunZHuZHuYi_party: "王党"
+ PAP_JunZHuZHuYi_party_long: "耶路撒冷王党"
+ PAP_MinZuSHeHuiZHuYi_party: "犹太复国主义"
+ PAP_MinZuSHeHuiZHuYi_party_long: "犹太复国锡安主义"
+ PAP_BoGenDiTiZHi_party: "伊斯兰民族主义"
+ PAP_BoGenDiTiZHi_party_long: "伊斯兰民族主义"
+ 
  PAP_communism_party: "罗马人民党"
  PAP_democratic_party: "罗马共和党"
  PAP_fascism_party: "十字军党"
  PAP_neutrality_party: "圣座教廷"
+ 
+ # # #托斯卡纳
+ 
  TOS_communism_party: "托斯卡纳布尔什维克党"
  TOS_democratic_party: "托斯卡纳民主联盟"
  TOS_fascism_party: "伊特鲁里亚联盟"

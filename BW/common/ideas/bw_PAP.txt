@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		bw_PAP_ALiYaYunDong = {	#阿利亚运动
+			picture = ALiYaYunDong
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				stability_weekly = -0.001
+				weekly_manpower = 1000
+				conscription_factor = -0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+	}
+}

@@ -60,18 +60,94 @@ leader_traits = {
 		army_core_attack_factor = 0.05
 	}
 
+	TianCaiDeWaiJiaoGuan = {
+		random = no
+		opinion_gain_monthly_factor = -0.3
+	}
+
+	YongYuanDeZongTong = {
+		random = no
+		GuiZuBaoSHouZHuYi_drift = 0.03
+		political_power_factor = 0.1
+		stability_factor = -0.05
+	}
+
 #顾问
 
 	fascist_demagogue = {
 		random = no
 		sprite = 13
+#		if = {
+#			limit = {
+#				has_government = SHeHuiFaXiSi
+#			}
+#			SHeHuiFaXiSi_drift = 0.1
+#		}
+#		if = {
+#			limit = {
+#				has_government = SiTeLaSeZHuYi
+#			}
+#			SiTeLaSeZHuYi_drift = 0.1
+#		}
+#		if = {
+#			limit = {
+#				has_government = FaXiSiZHuYi
+#			}
+#			FaXiSiZHuYi_drift = 0.1
+#		}
+#		if = {
+#			limit = {
+#				has_government = BoGenDiTiZHi
+#			}
+#			BoGenDiTiZHi_drift = 0.1
+#		}
+#		if = {
+#			limit = {
+#				NOT = {
+#					has_government = SHeHuiFaXiSi
+#					has_government = SiTeLaSeZHuYi
+#					has_government = FaXiSiZHuYi
+#					has_government = BoGenDiTiZHi
+#				}
+#			}
+#			MinZuSHeHuiZHuYi_drift = 0.1
+#		}
 		MinZuSHeHuiZHuYi_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				OR = {
+					has_completed_focus = 煽动民粹
+				}
+				factor = 10
+			}
+		}
 	}
 
 	communist_revolutionary = {
 		random = no
 		sprite = 13
 		MaKeSi_LieNingZHuYi_drift = 0.1
+
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				AND = {
+					has_completed_focus = ZuZHiDaBaGuong #组织大罢工
+					NOT = {
+						has_completed_focus = 托洛斯基主义基础
+					}
+					NOT = {
+						has_completed_focus = 斯大林主义基础
+					}
+					NOT = {
+						has_completed_focus = WoMenZiJiDeDaoLu #我们自己的道路
+					}
+				}
+				factor = 10
+			}
+		}
 	}
 
 	SHaHuangZuiZHongCHengDeJinWeiBing = {

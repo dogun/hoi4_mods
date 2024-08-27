@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		bw_IRE_Celt = {	#泛凯尔特主义
-			picture = generic_war_preparation
+			picture = Celt
 
 			allowed = {
 			}
@@ -31,5 +31,23 @@ ideas = {
 #				}
 			}
 		}
+
+		bw_IRE_FeiCuiZHiDao = {	#翡翠之岛
+			picture = FeiCuiZHiDao
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
 	}
 }

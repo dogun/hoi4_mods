@@ -374,7 +374,7 @@ sub_units = {
 #人
 
 		#Misc Abilities
-		training_time = 40
+		training_time = 90
 #训练时间
 		suppression = 1
 #镇压
@@ -389,7 +389,7 @@ sub_units = {
 		ENTRENCHMENT = 0
 #堑壕
 
-		supply_consumption = 0.05
+		supply_consumption = 0.03
 #补给消耗
 
 		need = {
@@ -446,20 +446,20 @@ sub_units = {
 		}
 		forest = {
 #森林加成（百分比）
-			attack = 5.0
+			attack = 0.2
 #攻击
-			defence = 1.4
+			defence = 0.35
 #防御
-			movement = 2.8
+			movement = 0.1
 #移速
 		}
 		urban = {
 #城市加成（百分比）
-			attack = 2.8
+			attack = 0.1
 #攻击
-			defence = 0.7
+			defence = 0.2
 #防御
-			movement = 1.4
+			movement = 0.05
 #移速
 		}
 		fort = {
@@ -473,20 +473,20 @@ sub_units = {
 		}
 		marsh = {
 #沼泽加成（百分比）
-			attack = 2.8
+			attack = 0.1
 #攻击
-			defence = 0.7
+			defence = 0.2
 #防御
-			movement = 1.4
+			movement = 0.05
 #移速
 		}
 		jungle = {
 #丛林加成（百分比）
-			attack = 5.0
+			attack = 0.2
 #攻击
-			defence = 1.4
+			defence = 0.35
 #防御
-			movement = 2.8
+			movement = 0.1
 #移速
 		}
 	}

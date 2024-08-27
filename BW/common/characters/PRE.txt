@@ -1,0 +1,17 @@
+characters={
+	PRE_Wilhelm_II = {
+		name = PRE_Wilhelm_II
+		portraits={
+			civilian={
+				large="gfx/leaders/威威二世.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={ TianCaiDeWaiJiaoGuan }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+characters={
+	PAP_Pius_PP_XI={
+		name=PAP_Pius_PP_XI
+		portraits={
+			army={
+				small="gfx/interface/ideas/庇护十一世.png"
+				large="gfx/leaders/庇护十一世.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			expire="1939.2.10.1"
+			id=-1
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = Pius_PP_XI
+			allowed = {
+				original_tag = PAP
+			}
+			available = {
+				OR = {
+					has_government = JiaZHangZHi 
+					has_government = JunZHuZHuYi 
+				}
+			}
+			traits = {
+				ideological_crusader
+			}
+			ai_will_do = {
+				factor = 24.000
+			}
+		}
+	}
+
+}

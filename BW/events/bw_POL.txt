@@ -1,0 +1,30 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_POL
+
+country_event = { #进军马祖伦
+	id = bw_POL.1
+	title = bw_POL.1.t
+	desc = bw_POL.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_POL.1.a #正好弥补但泽
+
+		ai_chance = {
+			factor = 999
+		}
+		transfer_state = 971
+		add_state_core = 971
+	}
+
+	option = {
+		name = bw_POL.1.b #不能冒激怒德国的险
+
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
