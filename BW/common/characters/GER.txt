@@ -53,7 +53,10 @@ GER_otto_Strasser = {
 		}
 		country_leader={
 			ideology=MinZuSHeHuiZHuYi_c
-			traits={ dictator }
+			traits={
+				dictator
+				great_war_hero
+			}
 			expire="1965.1.1.1"
 			id=-1
 		}

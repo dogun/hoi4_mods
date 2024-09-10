@@ -1,0 +1,608 @@
+focus_tree = {
+	id = FocusTree_SJP
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SJP
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+#第一阶段
+
+	focus = {
+		id = SJP_FengBiGuoJia #封闭国家
+		icon = GFX_idea_closed_economy
+		cost = 5.00
+		x = 7 #5
+		y = 1
+		completion_reward = {
+			add_ideas = SJP_FengBiGuoJia
+			add_ideas = closed_economy
+		}
+	}
+	focus = {
+		id = SJP_CHengFaPanTu #惩罚叛徒
+		icon = GFX_goal_generic_major_war
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_FengBiGuoJia #封闭国家
+		}
+		x = 7 #5
+		y = 2
+		completion_reward = {
+			add_manpower = -2000
+		}
+	}
+	focus = {
+		id = SJP_BaoKuoGuoWaiDe #包括国外的…
+		icon = GFX_focus_jap_manchurian_project
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_CHengFaPanTu #惩罚叛徒
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			create_wargoal = {
+				target = MAN
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = MEN
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = SJP_HeHuangSHi #和皇室…
+		icon = GFX_focus_jap_showa_restoration
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_BaoKuoGuoWaiDe #包括国外的…
+		}
+		x = 5
+		y = 4
+		completion_reward = {
+			add_manpower = -500
+			kill_ideology_leader = neutrality
+			hidden_effect = {
+				remove_ideas = SJP_ZHaoHe
+			}
+		}
+	}
+	focus = {
+		id = SJP_CuLiJunZHongDuiLi #处理军种对立
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_CHengFaPanTu #惩罚叛徒
+		}
+		x = 9
+		y = 4
+		completion_reward = {
+			unlock_decision_tooltip = SJP_PianXiangLuJun
+			unlock_decision_tooltip = SJP_PianXiangHaiJun
+		}
+	}
+	focus = {
+		id = SJP_RuGuoTaMengBuFuCong #如果他们不服从…
+		icon = GFX_focus_generic_military_mission
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_HeHuangSHi #和皇室…
+		}
+		prerequisite = {
+			focus = SJP_CuLiJunZHongDuiLi #处理军种对立
+		}
+		x = 7
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SJP_JunZHongDuiLi_1
+				add_idea = SJP_JunZHongDuiLi_2
+			}
+		}
+	}
+	focus = {
+		id = SJP_NaJiuSHiSiWang #那就是死亡…
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_RuGuoTaMengBuFuCong #如果他们不服从…
+		}
+		x = 7
+		y = 6
+		completion_reward = {
+			add_manpower = -2000
+			remove_ideas = SJP_JunZHongDuiLi_2
+		}
+	}
+	focus = {
+		id = SJP_YaZHouHeiBan #亚洲黑斑
+		icon = GFX_focus_jap_cast_the_die
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_NaJiuSHiSiWang #那就是死亡…
+		}
+		x = 7
+		y = 7
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SJP_FengBiGuoJia
+				add_idea = SJP_YaZHouHeiBan
+			}
+			custom_effect_tooltip = 解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+#第二阶段
+
+	focus = {
+		id = SJP_CHongJianJunDui #重建军队
+		icon = GFX_focus_secret_rearmament
+		cost = 5.00
+		allow_branch = {
+			has_completed_focus = SJP_YaZHouHeiBan #亚洲黑斑
+		}
+		x = 15
+		y = 1
+		completion_reward = {
+			add_timed_idea = {
+				idea = SJP_CHongJianJunDui
+				days = 365
+			}
+		}
+	}
+	focus = {
+		id = SJP_JingSHenDongYuan #精神动员
+		icon = GFX_focus_jap_spiritual_mobilization
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_CHongJianJunDui #重建军队
+		}
+		x = 13
+		y = 2
+		completion_reward = {
+			add_ideas = spiritual_mobilization_idea
+		}
+	}
+	focus = {
+		id = SJP_MiMiJingCHa #秘密警察
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_CHongJianJunDui #重建军队
+		}
+		x = 15
+		y = 2
+		completion_reward = {
+			add_ideas = SJP_MiMiJingCHa
+		}
+	}
+	focus = {
+		id = SJP_XvanCHuanWuSiDaoJingSHen #宣传武士道精神
+		icon = GFX_focus_generic_japanese_imperial_glory
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_CHongJianJunDui #重建军队
+		}
+		x = 17
+		y = 2
+		completion_reward = {
+			hidden_effect = {
+				set_rule = {
+					can_use_kamikaze_pilots = yes
+				}
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
+		}
+	}
+	focus = {
+		id = SJP_BangJiaFanDuiPai #绑架反对派
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_JingSHenDongYuan #精神动员
+		}
+		prerequisite = {
+			focus = SJP_MiMiJingCHa #秘密警察
+		}
+		prerequisite = {
+			focus = SJP_XvanCHuanWuSiDaoJingSHen #宣传武士道精神
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = SJP_GuanYa #关押
+		icon = GFX_focus_CZE_german_puppet
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_BangJiaFanDuiPai #绑架反对派
+		}
+		mutually_exclusive = {
+			focus = SJP_ZHanSHoSHiZHong #斩首示众
+		}
+		x = 14
+		y = 4
+		completion_reward = {
+			retire_ideology_leader = communism
+			retire_ideology_leader = democratic
+		}
+	}
+	focus = {
+		id = SJP_ZHanSHoSHiZHong #斩首示众
+		icon = GFX_focus_focus_fra_fascist_threat
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_BangJiaFanDuiPai #绑架反对派
+		}
+		mutually_exclusive = {
+			focus = SJP_GuanYa #关押
+		}
+		x = 16
+		y = 4
+		completion_reward = {
+			add_stability = 0.1
+			add_manpower = -500
+			kill_ideology_leader = communism
+			kill_ideology_leader = democratic
+		}
+	}
+	focus = {
+		id = SJP_YinYingXiaDeWangGuo #阴影下的王国
+		icon = GFX_focus_jap_cast_the_die
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_ZHanSHoSHiZHong #斩首示众
+			focus = SJP_GuanYa #关押
+		}
+		x = 15
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SJP_YaZHouHeiBan
+				add_idea = SJP_YinYingXiaDeWangGuo
+			}
+			custom_effect_tooltip = 解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+
+#第二阶段
+
+	focus = {
+		id = 确保后方安全
+		icon = GFX_focus_jap_strike_south
+		cost = 5.00
+		allow_branch = {
+			has_completed_focus = SJP_YinYingXiaDeWangGuo #阴影下的王国
+		}
+		x = 23
+		y = 1
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = 威慑中国
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 5.00
+		prerequisite = {
+			focus = 确保后方安全
+		}
+		x = 23
+		y = 2
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 610
+					num_provinces = 5
+#					on_win = 
+#					on_lose = japan_border_conflict.3
+#					on_cancel = japan_border_conflict.4
+				}	
+				defender = {
+					state = 609
+					num_provinces = 4
+#					on_win = japan_border_conflict.3
+#					on_lose = japan_border_conflict.2
+#					on_cancel = japan_border_conflict.4
+				}
+			}
+			diplomatic_relation = {
+				country = CHI
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	focus = {
+		id = 威慑苏联
+		icon = GFX_focus_generic_attack_mongolia
+		cost = 5.00
+		prerequisite = {
+			focus = 威慑中国
+		}
+		x = 23
+		y = 3
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			MON = {
+				leave_faction = yes
+			}
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+			diplomatic_relation = {
+				country = SOV
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	focus = {
+		id = SJP_HeiYueJiJiangDaoLai #黑夜即将到来……
+		icon = GFX_goal_anti_comintern_pact
+		cost = 5.00
+		prerequisite = {
+			focus = 威慑苏联
+		}
+		available = {
+			has_army_manpower = { size > 499999 }
+		}
+		x = 23
+		y = 4
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = SJP_HeiYueJiJiangDaoLai
+				days = 200
+			}
+		}
+	}
+	focus = {
+		id = SJP_DongYuanLuJun #动员陆军
+		icon = GFX_goal_generic_army_doctrines
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_HeiYueJiJiangDaoLai #黑夜即将到来……
+		}
+		x = 21
+		y = 5
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = SJP_DongYuanLuJun
+				days = 200
+			}
+		}
+	}
+	focus = {
+		id = SJP_DongYuanHaiJun #动员海军
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_HeiYueJiJiangDaoLai #黑夜即将到来……
+		}
+		x = 23
+		y = 5
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = SJP_DongYuanHaiJun
+				days = 200
+			}
+		}
+	}
+	focus = {
+		id = SJP_DongYuanKuongJun #动员空军
+		icon = GFX_goal_generic_air_doctrine
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_HeiYueJiJiangDaoLai #黑夜即将到来……
+		}
+		x = 25
+		y = 5
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = SJP_DongYuanKuongJun
+				days = 200
+			}
+		}
+	}
+	focus = {
+		id = 黑夜已至
+		icon = GFX_focus_jap_cast_the_die
+		cost = 5.00
+		prerequisite = {
+			focus = SJP_DongYuanLuJun #动员陆军
+		}
+		prerequisite = {
+			focus = SJP_DongYuanHaiJun #动员海军
+		}
+		prerequisite = {
+			focus = SJP_DongYuanKuongJun #动员空军
+		}
+		x = 23
+		y = 6
+		bypass = {
+			has_war_with = JAP
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = JAP
+				type = annex_everything
+			}
+			custom_effect_tooltip = 解锁下一步国策
+			mark_focus_tree_layout_dirty = yesZa.
+		}
+	}
+	focus = {
+		id = 屠杀游击队
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		available = {
+			OR = {
+				controls_state = 282
+				controls_state = 534
+				controls_state = 533
+				controls_state = 536
+			}
+		}
+		allow_branch = {
+			has_completed_focus = 黑夜已至
+		}
+		x = 28
+		y = 1
+		completion_reward = {
+			if = {
+				limit = {
+					controls_state = 282
+				}
+				282 = {
+					add_manpower = -500
+					add_resistance = -20
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 534
+				}
+				534 = {
+					add_manpower = -500
+					add_resistance = -20
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 533
+				}
+				533 = {
+					add_manpower = -500
+					add_resistance = -20
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 536
+				}
+				536 = {
+					add_manpower = -500
+					add_resistance = -20
+				}
+			}
+		}
+	}
+	focus = {
+		id = 火烧东京
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 屠杀游击队
+		}
+		available = {
+			controls_state = 282
+		}
+		x = 28
+		y = 2
+		completion_reward = {
+			282  = {
+				add_manpower = -10000000
+
+				add_extra_state_shared_building_slots = -999
+
+				remove_building = {
+					type = infrastructure
+					level = 5
+				}
+
+#				remove_building = {
+#					type = arms_factory
+#					level = 999
+#				}
+
+#				remove_building = {
+#					type = industrial_complex
+#					level = 999
+#				}
+
+			}
+			add_offsite_building = { type = arms_factory level = 10 }
+			add_offsite_building = { type = industrial_complex level = 10 }
+		}
+	}
+	focus = {
+		id = 旭日归来
+		icon = GFX_goal_generic_secret_weapon
+		cost = 5.00
+		prerequisite = {
+			focus = 火烧东京
+		}
+		available = {
+			OR = {
+				AND = {
+					owns_state = 282
+					owns_state = 534
+					owns_state = 533
+					owns_state = 536
+				}
+				JAP = {
+					exists = no
+				}
+				JAP = {
+					is_puppet_of = SJP
+				}
+			}
+		}
+		x = 28
+		y = 3
+		completion_reward = {
+			add_state_core = 282
+			add_state_core = 534
+			add_state_core = 533
+			add_state_core = 536
+			if = {
+				limit = {
+					JAP = {
+						is_puppet_of = SJP
+					}
+				}
+				annex_country = {
+					target = JAP
+					transfer_troops = yes
+				}
+			}
+			set_cosmetic_tag = SJP_TongYi
+			set_capital = {state = 531}
+		}
+	}
+
+}

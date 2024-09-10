@@ -1,0 +1,230 @@
+﻿l_simp_chinese:
+
+ #注释
+ #C=测试
+ #F=放弃
+ #R=KR（划掉）新
+
+
+
+
+
+ #国家
+ 
+ # # #日本
+ 
+ SJP: "南日本"
+ #通用
+ SJP_DEF: "南日本"
+ #通用
+ SJP_ADJ: "南日本"
+ #通用
+ SJP_autonomy_puppet: "$OVERLORDADJ$属南日本"
+ #傀儡
+ SJP_autonomy_puppet_DEF: "$OVERLORDADJ$属南日本"
+ #傀儡
+ 
+ SJP_fascism: "大日本帝国陆海军联合部队"
+ #法西斯
+ SJP_fascism_DEF: "大日本帝国陆海军联合部队"
+ #法西斯
+ SJP_fascism_ADJ: "日本"
+ #法西斯
+ SJP_democratic: "日本临时紧急委员会"
+ #民主
+ SJP_democratic_DEF: "日本临时紧急委员会"
+ #民主
+ SJP_democratic_ADJ: "日本"
+ #民主
+ SJP_neutrality: "忠于天皇的部队"
+ #中立
+ SJP_neutrality_DEF: "忠于天皇的部队"
+ #中立
+ SJP_neutrality_ADJ: "日本"
+ #中立
+ SJP_communism: "日本革命临时政府"
+ #共产
+ SJP_communism_DEF: "日本革命临时政府"
+ #共产
+ SJP_communism_ADJ: "日本"
+ #共产
+ 
+ # # #日本（海军）
+ 
+ SJP_HaiJun_fascism: "大日本帝国海军"
+ #法西斯
+ SJP_HaiJun_fascism_DEF: "大日本帝国海军"
+ #法西斯
+ SJP_HaiJun_fascism_ADJ: "日本"
+ #法西斯
+ 
+ #共产
+ 
+ # # #日本（统一）
+ SJP_TongYi: "日本"
+ #通用
+ SJP_TongYi_DEF: "日本"
+ #通用
+ SJP_TongYi_ADJ: "日本"
+ #通用
+ SJP_TongYi_autonomy_puppet: "$OVERLORDADJ$属日本"
+ #傀儡
+ SJP_TongYi_autonomy_puppet_DEF: "$OVERLORDADJ$属日本"
+ #傀儡
+ 
+ SJP_TongYi_fascism: "大日本帝国"
+ #法西斯
+ SJP_TongYi_fascism_DEF: "大日本帝国"
+ #法西斯
+ SJP_TongYi_fascism_ADJ: "日本"
+ #法西斯
+ SJP_TongYi_democratic: "日本国"
+ #民主
+ SJP_TongYi_democratic_DEF: "日本国"
+ #民主
+ SJP_TongYi_democratic_ADJ: "日本"
+ #民主
+ SJP_TongYi_neutrality: "大日本帝国"
+ #中立
+ SJP_TongYi_neutrality_DEF: "大日本帝国"
+ #中立
+ SJP_TongYi_neutrality_ADJ: "日本"
+ #中立
+ SJP_TongYi_communism: "日本社会主义苏维埃"
+ #共产
+ SJP_TongYi_communism_DEF: "日本社会主义苏维埃"
+ #共产
+ SJP_TongYi_communism_ADJ: "日本"
+ #共产
+ 
+ #剧本
+ 
+ BLITZKRIEG_NAME: "日本内战"
+ BLITZKRIEG_DESC: "在1935年东北地区出现大规模罢工，随后在共产党的领导下发展成了革命\n\n现在是1936年，在前几个月双方签订了停战条约，但他们都知道这是不长久的，两年？一年？或者几个月。"
+ 
+ #人
+ 
+ SJP_MoYingLiuLiu: "联合司令部"
+ SJP_ZHaoHe: "昭和天皇"
+ SJP_SenXiaXiaSHi: "森下下士"
+ #SJP_SenXiaXiaSHi_JieSHao: "“我是，四年级学生森下下士”“是来监管你们的”“我们高年级学生”“说你们最好的，老大哥”“好！很有精神！”"
+ 
+ #特质
+ 
+ LianHeSiLingBu: "联合司令部"
+ HaiJun: "海军"
+ 
+ #政党
+ 
+ SJP_neutrality_party: "菊花王朝"
+ SJP_fascism_party: "联合司令部"
+ 
+ #权力平衡
+ 
+ SJP_JunZHongDuiLi: "军种对立"
+ SJP_JunZHongDuiLi_PimgHeng: "平衡"
+ SJP_JunZHongDuiLi_LuJun: "陆军"
+ SJP_JunZHongDuiLi_LuJun_1: "轻微偏向陆军"
+ SJP_JunZHongDuiLi_LuJun_2: "偏向陆军"
+ SJP_JunZHongDuiLi_LuJun_3: "严重偏向陆军"
+ SJP_JunZHongDuiLi_HaiJun: "海军"
+ SJP_JunZHongDuiLi_HaiJun_1: "轻微偏向海军"
+ SJP_JunZHongDuiLi_HaiJun_2: "偏向海军"
+ SJP_JunZHongDuiLi_HaiJun_3: "严重偏向海军"
+ 
+ #决议
+ 
+ SJP_PianXiangLuJun: "倾向陆军"
+ SJP_PianXiangHaiJun: "倾向海军"
+ 
+ #文字
+ 
+ XueRuoJunZHongDuiLi: "§Y军种对立惩罚§!追加效果：\n海军船坞产出：§G-50%§!\n工厂产出：§G-50%§!"
+ YiCHuJunZHongDuiLi: "移除§Y军种对立惩罚§!，其效果为（海军船坞产出：§R-工厂产出50%§!，工厂产出：§R-海军船坞产出50%§!）"
+ ZHaoMuSenXiaXiaSHi: "§Y森下下士§!成为§Y法西斯主义§!领导人。\n  §Y海军§!\n  - 每日权力平衡变化：§Y+100.00§!"
+ 
+ #民族精神
+ 
+ SJP_JunZHongDuiLi_1: "军种对立"
+ SJP_JunZHongDuiLi_2: "军种对立"
+ SJP_FengBiGuoJia: "封闭国家"
+ SJP_YaZHouHeiBan: "亚洲黑斑"
+ SJP_CHongJianJunDui: "重建军队"
+ SJP_MiMiJingCHa: "秘密警察"
+ SJP_YinYingXiaDeWangGuo: "阴影下的王国"
+ SJP_HeiYueJiJiangDaoLai: "黑夜即将到来……"
+ SJP_DongYuanLuJun: "动员陆军"
+ SJP_DongYuanHaiJun: "动员海军"
+ SJP_DongYuanKuongJun: "动员空军"
+ 
+ #事件
+ 
+ SJP.1: "海军部政变"
+ SJP.1.t: "海军部政变"
+ SJP.1.d: "现在的政府与其被称为联合司令部不如叫陆军部，司令部已经被陆军占领，海军的任何诉求都会被否决。\n\n一群海军军官忍受不了这种情况，推举森下下士为领袖，一人一个手枪，准备把司令部轰上天。"
+ SJP.1.a: "海军成功控制了联合司令部"
+ SJP.1.b: "海军的阴谋被提前发现，联合指挥部处决了所有相关人员"
+ 
+ #国策
+ 
+ SJP_FengBiGuoJia: "封闭国家"
+ SJP_FengBiGuoJia_desc: "我们输掉内战一定是因为国内有叛徒，他们现在极有可能逃走，现在得把国内的所有出入口封闭。"
+ 
+ SJP_CHengFaPanTu: "惩罚叛徒"
+ SJP_CHengFaPanTu_desc: "现在他们逃不了了，所以应该断手断脚还是砍头？"
+ 
+ SJP_BaoKuoGuoWaiDe: "包括国外的…"
+ SJP_BaoKuoGuoWaiDe_desc: "国内的叛徒处理完了，那国外的呢？无耻的宣统和德王竟敢脱离我们的统治，他们是忘了谁把他们扶持上位的？"
+ 
+ SJP_HeHuangSHi: "和皇室…"
+ SJP_HeHuangSHi_desc: "据调查皇室居然有贪污行为，他们也是叛徒？"
+ 
+ SJP_CuLiJunZHongDuiLi: "处理军种对立"
+ SJP_CuLiJunZHongDuiLi_desc: "军种对立是日本的传统，但现在这种紧急时刻必须停止对立，如果他们不愿意停止，那就帮他们的停止。"
+ 
+ SJP_RuGuoTaMengBuFuCong: "如果他们不服从…"
+ SJP_RuGuoTaMengBuFuCong_desc: "以平和手段处理军种对立的计划以及破产，联合司令部已经发出强制执行令，如果仍有不听的，那就不得不动用武力。"
+ 
+ SJP_NaJiuSHiSiWang: "那就是死亡…"
+ SJP_NaJiuSHiSiWang_desc: "仍有一部分军官无视我们的命令，联合司令部已经批准处决令，他们会被全部清洗。"
+ 
+ SJP_YaZHouHeiBan: "亚洲黑斑"
+ SJP_YaZHouHeiBan_desc: "亚洲黑斑，不仅是意识形态上的也是情报上的，联合司令部处决了所有可能泄密的人，一点情报都传播不到其他国家，就像一个暗影之国。"
+ 
+ SJP_CHongJianJunDui: "重建军队"
+ SJP_CHongJianJunDui_desc: "在内战中军队被损失殆尽，必须得重建它，要不然在停战期结束后就是末日。"
+ 
+ SJP_JingSHenDongYuan: "精神动员"
+ #SJP_JingSHenDongYuan_desc: "我们的民众应该放弃金钱和奢靡的生活，投身于军队为国家做贡献。"
+ SJP_JingSHenDongYuan_desc: "奢靡的生活是共产主义者才需要的，我们的民众应该投身于军队为国家做贡献。"
+ 
+ SJP_MiMiJingCHa: "秘密警察"
+ #SJP_MiMiJingCHa_desc: "“太多了，叛徒真的太多了，每一户人家里面都有叛徒，森林里面也有。”一位警察说到，其他人都认为他疯了，可联合司令部不这么认为。"
+ SJP_MiMiJingCHa_desc: "“太多了，叛徒真的太多了，每一户人家里面都有叛徒。”\n一位警察说到，其他人都认为他疯了，可联合司令部不这么认为。"
+ 
+ SJP_XvanCHuanWuSiDaoJingSHen: "宣传武士道精神"
+ SJP_XvanCHuanWuSiDaoJingSHen_desc: "我们不怕死，如果能为国家做贡献，我们很乐意死。"
+ 
+ SJP_BangJiaFanDuiPai: "绑架反对派"
+ SJP_BangJiaFanDuiPai_desc: "德田球一和片山哲正在煽动国内的叛乱，秘密警察去抓捕他们，但具体要拿它怎么样……。"
+ 
+ SJP_GuanYa: "关押"
+ SJP_GuanYa_desc: "把他们关在牢里，关键时刻还可以拉他们去填线。"
+ 
+ SJP_ZHanSHoSHiZHong: "斩首示众"
+ SJP_ZHanSHoSHiZHong_desc: "把他们拉到大阪这个不满最高的地方处刑，威慑其他人。"
+ 
+ SJP_YinYingXiaDeWangGuo: "阴影下的王国"
+ SJP_YinYingXiaDeWangGuo_desc: "日本人现在时刻活着阴影里，他们永远不清楚会不会在下一刻被当作外国间谍、叛徒或泄密者，然后被秘密警察抓住。"
+ 
+ SJP_HeiYueJiJiangDaoLai: "黑夜即将到来……"
+ SJP_HeiYueJiJiangDaoLai_desc: "准备工作以及完成，我们马上就要复仇了。"
+ 
+ SJP_DongYuanLuJun: "动员陆军"
+ SJP_DongYuanLuJun_desc: "开始动员……"
+ 
+ SJP_DongYuanHaiJun: "黑夜即将到来……"
+ SJP_DongYuanHaiJun_desc: "开始动员……"
+ 
+ SJP_DongYuanKuongJun: "黑夜即将到来……"
+ SJP_DongYuanKuongJun_desc: "开始动员……"

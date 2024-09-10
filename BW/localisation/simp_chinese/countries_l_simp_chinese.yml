@@ -8418,3 +8418,35 @@
  RFE_BoGenDiTiZHi_ADJ: "俄罗斯"
  #勃艮第体制
  
+ # # #粤系军阀
+ 
+ YUE: "广东"
+ #通用
+ YUE_DEF: "广东"
+ #通用
+ YUE_ADJ: "广东"
+ #通用
+ YUE_subject: "$OVERLORDADJ$属广东"
+ #傀儡
+ YUE_subject_DEF: "$OVERLORDADJ$属广东"
+ #傀儡
+ YUE_MingYiSHangSHuYv: "粤系"
+ #名义上属于
+ YUE_MingYiSHangSHuYv_DEF: "粤系"
+ #名义上属于
+ YUE_ZiZHiQv: "广东自治区"
+ #自治区
+ YUE_ZiZHiQv_DEF: "广东"
+ #自治区
+ YUE_ZHou: "广东"
+ #州
+ YUE_ZHou_DEF: "广东"
+ #州
+ YUE_ZongDuXiaQv: "广东总督辖区"
+ #总督辖区
+ YUE_ZongDuXiaQv_DEF: "广东"
+ #总督辖区
+ YUE_JunQv: "粤军"
+ #军区
+ YUE_JunQv_DEF: "粤军"
+ #军区

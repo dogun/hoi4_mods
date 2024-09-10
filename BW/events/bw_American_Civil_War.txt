@@ -8,17 +8,41 @@ country_event = { #巴黎股市彻底崩盘
 	id = bw_American_Civil_War.1
 	title = bw_American_Civil_War.1.t
 	desc = bw_American_Civil_War.1.d
-	#hidden = yes
+	fire_only_once = yes
+	is_triggered_only = no
 
-#	is_triggered_only = yes
-#	mean_time_to_happen = { days = 0 }
 	fire_only_once = yes
 	trigger = {
-		original_tag = FRA
+		tag = FRA
 		date = "1937.04.05"
 	}
+	mean_time_to_happen = { days = 1 }
 	option = {
 		name = bw_American_Civil_War.1.a  #这不怪我
+		news_event = {
+			id = bw_FRA_XinWen.1
+			days = 1
+			random = 0
+		}
+
+		if = {
+			every_other_country = {
+				limit = {
+					NOT = {
+						has_government = WuZHengFuGuongCHanZHuYi
+						has_government = GuongTuanZHuYi
+						has_government = MaKeSi_LieNingZHuYi
+						has_government = TuoLuoSiJiZHuYi
+						has_government = SiDaLingZHuYi
+						has_government = YuanSHiZHuYi
+						has_government = JunZHengGuongCHanZHuYi
+						tag = FRA
+					}
+				}
+				country_event = { id = bw_FRA.1 days = 1 }
+			}
+		}
+
 		hidden_effect = {
 			CSA = {
 #				country_event = { id = bw_American_Civil_War.2 days = 1 }

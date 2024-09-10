@@ -1,0 +1,46 @@
+characters={
+	SJP_MoYingLiuLiu={
+		name=SJP_MoYingLiuLiu
+		portraits={
+			civilian={
+				large="gfx/leaders/魔影六六.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits={ LianHeSiLingBu }
+			expire="9999.01.01.1"
+			id=-1
+		}
+	}
+
+	SJP_ZHaoHe={
+		name=SJP_ZHaoHe
+		portraits={
+			civilian={
+				large="gfx/leaders/昭和.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ warrior_code emperor_showa imperial_sanction }
+			expire="1989.01.07.1"
+			id=-1
+		}
+	}
+
+	SJP_SenXiaXiaSHi = {
+		name=SJP_SenXiaXiaSHi
+		portraits={
+			civilian={
+				large="gfx/leaders/森下下士.dds"
+			}
+		}
+		country_leader = {
+			ideology = rexism
+			expire = "9999.1.1.1"
+			traits = { HaiJun }
+		}
+	}
+
+}

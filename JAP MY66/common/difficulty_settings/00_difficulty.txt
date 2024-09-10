@@ -1,0 +1,14 @@
+difficulty_settings = {
+	difficulty_setting = {
+		key = "加强南日"
+		modifier = diff_strong_ai_generic
+		countries = { SJP }
+		multiplier = 2.0
+	}
+#	difficulty_setting = {
+#		key = "加强北日"
+#		modifier = diff_strong_ai_generic
+#		countries = { NJP }
+#		multiplier = 2.0
+#	}
+}

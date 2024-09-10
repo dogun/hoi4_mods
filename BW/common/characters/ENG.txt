@@ -8,7 +8,10 @@ characters={
 		}
 		country_leader={
 			ideology=BaoSHouZHuYi_c
-			traits={  }
+			traits={
+				conservative_grandee
+				rearmer
+			}
 			expire="1947.12.14.1"
 			id=-1
 		}

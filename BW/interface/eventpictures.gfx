@@ -3723,6 +3723,11 @@ spriteTypes = {
 		name = "GFX_idea_ALiYaYunDong"
 		texturefile = "gfx/interface/ideas/阿利亚运动.png"
 	}
+	# # # # # #法国
+	SpriteType = {
+		name = "GFX_idea_DaXiaoTiao"
+		texturefile = "gfx/interface/ideas/大萧条.png"
+	}
 	# # #单位
 	# # # # # #堑壕步兵
 	spriteType = { 

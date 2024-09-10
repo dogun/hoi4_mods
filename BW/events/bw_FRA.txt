@@ -1,0 +1,18 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_FRA
+
+country_event = { #大萧条此卷$ROOT$
+	id = bw_FRA.1
+	title = bw_FRA.1.t
+	desc = bw_FRA.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_FRA.1.a #赶快拯救经济
+		add_ideas = bw_FRA_DaXiaoTiao
+	}
+}

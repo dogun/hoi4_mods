@@ -1,0 +1,11 @@
+
+music_station = "bw_music"
+
+music = {
+	song = "超事件：起来战斗"
+	chance = {
+		modifier = {
+			factor = 0
+		}		
+	}
+}

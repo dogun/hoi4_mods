@@ -1,0 +1,21 @@
+﻿capital = 592
+#oob = "SIC"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	PRC_government_corruption
+	CHI_ineffective_bureaucracy_warlord
+}
+
+set_politics = {
+	ruling_party = JiaZHangZHi
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	JiaZHangZHi = 100
+}

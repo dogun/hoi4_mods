@@ -1,0 +1,22 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_FRA_XinWen
+
+news_event = { #巴黎股市崩盘
+	id = bw_FRA_XinWen.1
+	title = bw_FRA_XinWen.1.t
+	desc = bw_FRA_XinWen.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_FRA_XinWen.1.a #法兰西就此陨落
+
+		hidden_effect = {
+			play_song = 超事件：马赛曲
+			set_country_flag = load_bw_FRA.1
+		}
+	}
+}

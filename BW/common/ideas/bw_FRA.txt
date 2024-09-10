@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		bw_FRA_DaXiaoTiao = {	#大萧条
+			picture = DaXiaoTiao
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.2
+				min_export = -0.2
+			}
+			targeted_modifier = {
+			}
+		}
+
+
+	}
+}

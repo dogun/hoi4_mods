@@ -9,7 +9,7 @@ state = {
 	history = {
 
 		owner = ADS
-		add_core_of = BRA
+		add_core_of = PAR
 
 		buildings = {
 			infrastructure = 1

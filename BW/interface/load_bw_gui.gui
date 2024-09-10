@@ -1,0 +1,72 @@
+guiTypes = {
+	containerwindowtype = {
+		name = "load_bw_GER.1"
+#名称
+		orientation = center
+#方向
+		origo = center
+#相对位置
+		position = { x = 0 y = 0 }
+#位置
+		size = { width = 1653 height = 853 }
+#大小
+		moveable = yes
+#是否可以拖动
+		clipping = no
+#剪裁
+#		show_sound = three_principlesz_song
+#声音
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_CHaoSiJian_BeiJing"
+		}
+		
+		ButtonType = {
+			name = "load_bw_GER.1_AnNiu"
+			position = { x = 710 y = 770 }
+			quadTextureSprite ="GFX_CHaoSiJian_AnNiu"
+			font = "hoi_24header"
+			text = "load_bw_GER.1_AnNiu"	
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		instantTextBoxType = {
+			name ="load_bw_GER.1_BiaoTi"
+			position = { x = 370 y = 50 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "load_bw_GER.1_BiaoTi"
+			format = centre
+			maxWidth = 250
+			maxHeight = 50
+		}
+		
+		iconType = {
+			name = "load_bw_GER.1_TuPian"
+			quadTextureSprite ="GFX_CHaoSiJian_HeiDeYingNeiZHan"
+			position = { x= 115 y = 115 }
+			Orientation = "UPPER_LEFT"
+			alwaysTransparent = yes
+		}
+		
+		iconType = {
+			name = "load_bw_GER.1_MingRenMingYan_1"
+			quadTextureSprite ="GFX_CHaoSiJian_MingRenMingYan"
+			position = { x= 435 y = 487 }
+			Orientation = "UPPER_LEFT"
+			alwaysTransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name ="load_bw_GER.1_MingRenMingYan_2"
+			position = { x = 425 y = 600 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "load_bw_GER.1_MingRenMingYan"
+			format = right
+			maxWidth = 500
+			maxHeight = 100
+		}
+	}
+}

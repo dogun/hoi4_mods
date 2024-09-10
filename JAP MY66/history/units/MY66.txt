@@ -1,0 +1,234 @@
+﻿division_template = {
+#编制
+	name = "大日本帝国陆军"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+#支援连
+
+	}
+}
+
+division_template = {
+#编制
+	name = "填线宝宝"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+#支援连
+
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "九州部队"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "大日本帝国陆军"
+#编制
+		start_experience_factor = 1
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "四国部队"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "大日本帝国陆军"
+#编制
+		start_experience_factor = 1
+#经验
+	}
+
+	division = {
+#部队
+		name = "中国部队"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "大日本帝国陆军"
+#编制
+		start_experience_factor = 1
+#经验
+	}
+
+	division = {
+#部队
+		name = "关西部队"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "大日本帝国陆军"
+#编制
+		start_experience_factor = 1
+#经验
+	}
+
+	division = {
+#部队
+		name = "名古屋部队"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "大日本帝国陆军"
+#编制
+		start_experience_factor = 1
+#经验
+	}
+###
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "填线宝宝"
+#名称
+		location = 9950
+#位置 ###ps：要写地块
+		division_template = "填线宝宝"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+}

@@ -1,0 +1,43 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1939"
+	
+		SJP = {
+			history = SJP_JieSHao
+			ideology = fascism
+			ideas={
+				state_shintoism
+				JAP_militarism
+				SJP_ZHaoHe
+			}
+			focuses = {
+				FRA_strengthen_government_support
+				FRA_arms_purchases_in_the_us
+				FRA_french_union
+			}
+		}
+#		NJP = {
+#			history = NJP_JieSHao
+#			ideology = communism
+#			ideas = {
+#				home_of_the_free
+#				great_depression_3
+#				air_war_plans_division_focus
+#				USA_war_department
+#				new_deal
+#			}
+#			focuses = {
+#				USA_war_plan_black
+#				USA_arsenal_of_democracy
+#				USA_selective_training_act
+#			}
+#		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+	}
+}

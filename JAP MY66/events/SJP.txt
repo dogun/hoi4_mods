@@ -1,0 +1,42 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = SJP
+
+country_event = { #海军部政变
+	id = SJP.1
+	title = SJP.1.t
+	desc = SJP.1.d
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		tag =SJP
+		power_balance_value = {
+			id = SJP_JunZHongDuiLi
+			value < -0.75
+		}
+	}
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = SJP.1.a #海军成功控制了联合指挥部
+		add_stability = -0.1
+		set_party_name = {
+			ideology = fascism
+			long_name = 大日本帝国海军部
+			name = 海军部
+		}
+		set_cosmetic_tag = SJP_HaiJun
+		custom_effect_tooltip = ZHaoMuSenXiaXiaSHi
+		hidden_effect = {
+			kill_ideology_leader = fascism
+			recruit_character = SJP_SenXiaXiaSHi
+		}
+	}
+
+	option = {
+		name = SJP.1.b #海军的阴谋被提前发现，联合指挥部处决了所有相关人员
+		add_manpower = -1000
+		add_stability = -0.1
+	}
+}

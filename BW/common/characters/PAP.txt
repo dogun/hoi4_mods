@@ -9,6 +9,7 @@ characters={
 		}
 		country_leader={
 			ideology=JiaZHangZHi_c
+			traits={ ideological_crusader }
 			expire="1939.2.10.1"
 			id=-1
 		}

@@ -1,0 +1,5 @@
+music = {
+	name = "超事件：起来战斗"
+	file = "起来战斗.ogg"
+	volume = 1
+}

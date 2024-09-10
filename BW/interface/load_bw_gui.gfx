@@ -1,0 +1,24 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_CHaoSiJian_BeiJing"
+		size = { x = 1653 y = 853 }
+#		borderSize = { x=1653 y=853 }
+		textureFile = "gfx/interface/超事件：背景.png"
+		tilingCenter = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_CHaoSiJian_AnNiu"
+		texturefile = "gfx/interface/超事件：按钮.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHaoSiJian_HeiDeYingNeiZHan"
+		texturefile = "gfx/interface/超事件：黑德嬴内战.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_CHaoSiJian_MingRenMingYan"
+		texturefile = "gfx/interface/超事件：名人名言.png"
+	}
+}

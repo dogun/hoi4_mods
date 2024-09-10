@@ -7,7 +7,7 @@ state = {
 	state_category = pastoral
 
 	history = {
-		owner = ANT #Used to be PRU but should become theirs through the Peruvian-Ecuadorian War
+		owner = ANT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,7 +18,7 @@ state = {
 			13289 2
 		}
 
-		add_core_of = PRU
+		#add_core_of = PRU
 		add_core_of = ECU
 	}
 

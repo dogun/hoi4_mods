@@ -1,0 +1,166 @@
+focus_tree = {
+	id = FocusTree_ENG
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	focus = {
+		id = 解决经济危机
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = 辞职
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = 国王方案
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 解决经济危机
+		}
+		mutually_exclusive = {
+			focus = 国会方案
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = 实行经济紧缩政策
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 国王方案
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = 鼓励节俭
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 实行经济紧缩政策
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = 全面私有化
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 鼓励节俭
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = 相信无形的大手
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 全面私有化
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = 裁军
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 解决经济危机
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = 国会方案
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 解决经济危机
+		}
+		mutually_exclusive = {
+			focus = 国王方案
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = 国有化外企
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 国会方案
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = 建立经济委员会
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 国有化外企
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = 投资电力发展
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 建立经济委员会
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = 信大手不如信政府
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 投资电力发展
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = 脱离泥沼
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 相信无形的大手
+			focus = 信大手不如信政府
+		}
+		x = 5
+		y = 6
+
+	}
+}

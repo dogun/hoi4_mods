@@ -1,0 +1,85 @@
+SJP_JunZHongDuiLi = {
+#决议组id
+	SJP_PianXiangLuJun = {	#倾向陆军
+#决议id
+
+		icon = GFX_idea_jap_interservice_rivalry_army_strengthened
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_re_enable = 10 
+
+		visible = {
+#展示条件
+			original_tag = SJP
+			has_completed_focus = 处理军种对立
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_power_balance_value = {
+				id = SJP_JunZHongDuiLi
+				value = -0.1
+				tooltip_side = SJP_JunZHongDuiLi_LuJun
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+		}
+	}
+
+	SJP_PianXiangHaiJun = {	#倾向海军
+#决议id
+
+		icon = GFX_idea_jap_interservice_rivalry_navy_strengthened
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_re_enable = 10 
+
+		visible = {
+#展示条件
+			original_tag = SJP
+			has_completed_focus = 处理军种对立
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_power_balance_value = {
+				id = SJP_JunZHongDuiLi
+				value = 0.1
+				tooltip_side = SJP_JunZHongDuiLi_HaiJun
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+		}
+	}
+
+}

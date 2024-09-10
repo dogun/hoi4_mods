@@ -175,8 +175,6 @@ if = {
 	}
 }
 
-set_variable = { var = eng_gateway_to_europe_influence value = 0 }
-
 add_ideas = {
 	#stiff_upper_lip
 	ENG_the_war_to_end_all_wars
@@ -192,42 +190,29 @@ add_timed_idea = {
 
 set_convoys = 1000
 
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-	}
+set_autonomy = {
+	target = MAL
+	autonomous_state = ZiZHiQv
+}
+set_autonomy = {
+	target = RAJ
+	autonomous_state = ZiZHiQv
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = SAF
+	autonomous_state = ZiZHiQv
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = AST
+	autonomous_state = ZiZHiQv
+	freedom_level = 0.2
+}
+set_autonomy = {
+	target = NZL
+	autonomous_state = ZiZHiQv
+	freedom_level = 0.2
 }
 
 
@@ -327,7 +312,7 @@ if = {
 				cv_fighter1 = 1
 			}
 		}
-}
+	}
 
 	set_technology = {
 		

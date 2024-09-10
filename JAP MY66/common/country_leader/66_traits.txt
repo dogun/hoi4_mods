@@ -1,0 +1,13 @@
+leader_traits = {
+
+	LianHeSiLingBu = {
+		random = no
+		planning_speed = 0.25
+		max_planning = 0.1
+	}
+	HaiJun = {
+		random = no
+		power_balance_daily = 1
+	}
+
+}
