@@ -1,5 +1,15 @@
 #reload countrycolors
 
+SAR = {
+	color = rgb { 0 56 132 }
+	color_ui = rgb { 0 56 132 }
+}
+
+YUE = {
+	color = rgb { 40 64 55 }
+	color_ui = rgb { 40 40 55 }
+}
+
 SIC = {
 	color = rgb { 87 82 61 } #75 77 41 #52 51 27 #237 28 34
 	color_ui = rgb { 87 82 61 }

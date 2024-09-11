@@ -2549,13 +2549,13 @@
  #通用
  CHI_ADJ: "中国"
  #通用
- SIC_subject: "$OVERLORDADJ$属中国"
+ CHI_subject: "$OVERLORDADJ$属中国"
  #傀儡
- SIC_subject_DEF: "$OVERLORDADJ$属中国"
+ CHI_subject_DEF: "$OVERLORDADJ$属中国"
  #傀儡
- SIC_ZongDuXiaQv: "中华总督辖区"
+ CHI_ZongDuXiaQv: "中华总督辖区"
  #总督辖区
- SIC_ZongDuXiaQv_DEF: "中国"
+ CHI_ZongDuXiaQv_DEF: "中国"
  #总督辖区
  
  CHI_fascism: "改组派中国"
@@ -8450,3 +8450,170 @@
  #军区
  YUE_JunQv_DEF: "粤军"
  #军区
+ 
+ #中国
+ 
+ SAR: "德兰士瓦"
+ #通用
+ SAR_DEF: "德兰士瓦"
+ #通用
+ SAR_ADJ: "德兰士瓦"
+ #通用
+ SAR_subject: "$OVERLORDADJ$属德兰士瓦"
+ #傀儡
+ SAR_subject_DEF: "$OVERLORDADJ$属德兰士瓦"
+ #傀儡
+ ###
+ SAR_WuZHSARFuGuongCHanZHuYi: "奥兰治自由邦"
+ #无政府共产主义
+ SAR_WuZHSARFuGuongCHanZHuYi_DEF: "奥兰治自由邦"
+ #无政府共产主义
+ SAR_WuZHSARFuGuongCHanZHuYi_ADJ: "奥兰治"
+ #无政府共产主义
+ 
+ SAR_GuongTuanZHuYi: "奥兰治自由邦"
+ #工团主义
+ SAR_GuongTuanZHuYi_DEF: "奥兰治自由邦"
+ #工团主义
+ SAR_GuongTuanZHuYi_ADJ: "奥兰治"
+ #工团主义
+ 
+ SAR_MaKeSi_LieNingZHuYi: "德兰士瓦社会主义共和国"
+ #马克思 - 列宁主义
+ SAR_MaKeSi_LieNingZHuYi_DEF: "德兰士瓦社会主义共和国"
+ #马克思 - 列宁主义
+ SAR_MaKeSi_LieNingZHuYi_ADJ: "德兰士瓦"
+ #马克思 - 列宁主义
+ 
+ SAR_TuoLuoSiJiZHuYi: "德兰士瓦社会主义共和国"
+ #托洛斯基
+ SAR_TuoLuoSiJiZHuYi_DEF: "德兰士瓦社会主义共和国"
+ #托洛斯基
+ SAR_TuoLuoSiJiZHuYi_ADJ: "德兰士瓦"
+ #托洛斯基
+  
+ SAR_SiDaLingZHuYi: "德兰士瓦社会主义共和国"
+ #斯大林主义
+ SAR_SiDaLingZHuYi_DEF: "德兰士瓦社会主义共和国"
+ #斯大林主义
+ SAR_SiDaLingZHuYi_ADJ: "德兰士瓦"
+ #斯大林主义
+ 
+ SAR_YuanSHiZHuYi: "德兰士瓦社会主义共和国"
+ #远视主义
+ SAR_YuanSHiZHuYi_DEF: "德兰士瓦社会主义共和国"
+ #远视主义
+ SAR_YuanSHiZHuYi_ADJ: "德兰士瓦"
+ #远视主义
+ 
+ SAR_JunZHSARGuongCHanZHuYi: "德兰士瓦社会主义共和国"
+ #军政共产主义
+ SAR_JunZHSARGuongCHanZHuYi_DEF: "德兰士瓦社会主义共和国"
+ #军政共产主义
+ SAR_JunZHSARGuongCHanZHuYi_ADJ: "德兰士瓦"
+ #军政共产主义
+ 
+ SAR_JunZHuBuErSHiWeiKe: "德兰士瓦社会主义共和国"
+ #君主布尔什维克
+ SAR_JunZHuBuErSHiWeiKe_DEF: "德兰士瓦社会主义共和国"
+ #君主布尔什维克
+ SAR_JunZHuBuErSHiWeiKe_ADJ: "德兰士瓦"
+ #君主布尔什维克
+ 
+ SAR_GuDianZiYouZHuYi: "德兰士瓦共和国"
+ #古典自由主义
+ SAR_GuDianZiYouZHuYi_DEF: "德兰士瓦共和国"
+ #古典自由主义
+ SAR_GuDianZiYouZHuYi_ADJ: "德兰士瓦"
+ #古典自由主义
+ 
+ SAR_SHeHuiMinZHuZHuYi: "德兰士瓦共和国"
+ #社会民主主义
+ SAR_SHeHuiMinZHuZHuYi_DEF: "德兰士瓦共和国"
+ #社会民主主义
+ SAR_SHeHuiMinZHuZHuYi_ADJ: "德兰士瓦"
+ #社会民主主义
+ 
+ SAR_MinZHuSHeHuiZHuYi: "德兰士瓦共和国"
+ #民主社会主义
+ SAR_MinZHuSHeHuiZHuYi_DEF: "德兰士瓦共和国"
+ #民主社会主义
+ SAR_MinZHuSHeHuiZHuYi_ADJ: "德兰士瓦"
+ #民主社会主义
+ 
+ SAR_JiaSuZHuYi: "德兰士瓦先锋国"
+ #加速主义
+ SAR_JiaSuZHuYi_DEF: "德兰士瓦先锋国"
+ #加速主义
+ SAR_JiaSuZHuYi_ADJ: "德兰士瓦"
+ #加速主义
+ 
+ SAR_BaoSHouZHuYi: "德兰士瓦共和国"
+ #保守主义
+ SAR_BaoSHouZHuYi_DEF: "德兰士瓦共和国"
+ #保守主义
+ SAR_BaoSHouZHuYi_ADJ: "德兰士瓦"
+ #保守主义
+ 
+ SAR_GuiZuBaoSHouZHuYi: "德兰士瓦共和国"
+ #贵族保守主义
+ SAR_GuiZuBaoSHouZHuYi_DEF: "德兰士瓦共和国"
+ #贵族保守主义
+ SAR_GuiZuBaoSHouZHuYi_ADJ: "德兰士瓦"
+ #贵族保守主义
+ 
+ SAR_JiaZHangZHi: "德兰士瓦"
+ #家长制
+ SAR_JiaZHangZHi_DEF: "德兰士瓦"
+ #家长制
+ SAR_JiaZHangZHi_ADJ: "德兰士瓦"
+ #家长制
+ 
+ SAR_JunZHuZHuYi: "德兰士瓦"
+ #君主主义
+ SAR_JunZHuZHuYi_DEF: "德兰士瓦"
+ #君主主义
+ SAR_JunZHuZHuYi_ADJ: "德兰士瓦"
+ #君主主义
+ 
+ SAR_ZiBSARuongCHanZHuYi: "德兰士瓦共和国"
+ #资本共产主义
+ SAR_ZiBSARuongCHanZHuYi_DEF: "德兰士瓦共和国"
+ #资本共产主义
+ SAR_ZiBSARuongCHanZHuYi_ADJ: "德兰士瓦"
+ #资本共产主义
+ 
+ SAR_SHeHuiFaXiSi: "德兰士瓦共和国"
+ #社会法西斯
+ SAR_SHeHuiFaXiSi_DEF: "德兰士瓦共和国"
+ #社会法西斯
+ SAR_SHeHuiFaXiSi_ADJ: "德兰士瓦"
+ #社会法西斯
+ 
+ SAR_SiTeLaSeZHuYi: "德兰士瓦共和国"
+ #斯特拉瑟主义
+ SAR_SiTeLaSeZHuYi_DEF: "德兰士瓦共和国"
+ #斯特拉瑟主义
+ SAR_SiTeLaSeZHuYi_ADJ: "德兰士瓦"
+ #斯特拉瑟主义
+ 
+ SAR_FaXiSiZHuYi: "德兰士瓦共和国"
+ #法西斯主义
+ SAR_FaXiSiZHuYi_DEF: "德兰士瓦共和国"
+ #法西斯主义
+ SAR_FaXiSiZHuYi_ADJ: "德兰士瓦"
+ #法西斯主义
+ 
+ SAR_MinZuSHeHuiZHuYi: "德兰士瓦共和国"
+ #纳粹
+ SAR_MinZuSHeHuiZHuYi_DEF: "德兰士瓦共和国"
+ #纳粹
+ SAR_MinZuSHeHuiZHuYi_ADJ: "德兰士瓦"
+ #纳粹
+ 
+ SAR_BoGenDiTiZHi: "德兰士瓦共和国"
+ #勃艮第体制
+ SAR_BoGenDiTiZHi_DEF: "德兰士瓦共和国"
+ #勃艮第体制
+ SAR_BoGenDiTiZHi_ADJ: "德兰士瓦"
+ #勃艮第体制

@@ -1,0 +1,50 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_SAF
+
+country_event = { #布尔人叛乱
+	id = bw_SAF.1
+	title = bw_SAF.1.t
+	desc = bw_SAF.1.d
+	fire_only_once = yes
+	is_triggered_only = no
+
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+	}
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_SAF.1.a  #在不列颠的统治下好好跪着
+		SAR = {
+			transfer_state = 719
+			declare_war_on = {
+				target = SAF
+				type = independence_wargoal
+			}
+		}
+		news_event = {
+			id = bw_FRA_XinWen.1
+			days = 1
+			random = 0
+		}
+	}
+	option = {
+		name = bw_SAF.1.b  #为了荷兰的荣耀！！！
+		SAR = {
+			transfer_state = 719
+			declare_war_on = {
+				target = SAF
+				type = independence_wargoal
+			}
+		}
+		SAR = { change_tag_from = ROOT }
+		news_event = {
+			id = bw_FRA_XinWen.1
+			days = 1
+			random = 0
+		}
+	}
+}

@@ -94,6 +94,13 @@ country_event = { #中华民族统一战线
 				random = 0
 			}
 		}
+		YUE = {
+			news_event = {
+				id = bw_CHI.3
+				days = 1
+				random = 0
+			}
+		}
 	}
 }
 
@@ -113,9 +120,9 @@ country_event = { #中华民国战时整合
 		}
 	}
 
-	option = {
-		name = bw_CHI.3.b #你这么说，那我可就投靠日本人了
-
-		JAP = { add_to_faction = ROOT }
-	}
+#	option = {
+#		name = bw_CHI.3.b #你这么说，那我可就投靠日本人了
+#
+#		JAP = { add_to_faction = ROOT }
+#	}
 }
