@@ -15,8 +15,10 @@ news_event = { #纳粹党赢得德国内战
 		name = bw_GER_XinWen.1.a #希望他说的是真的
 
 		hidden_effect = {
-			play_song = 超事件：起来战斗
 			set_country_flag = load_bw_GER.1
+			ROOT = {
+				play_song = 超事件：起来战斗
+			}
 		}
 	}
 }

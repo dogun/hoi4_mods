@@ -1,0 +1,19 @@
+characters={
+	KER_Edward_VIII={
+		name=KER_Edward_VIII
+		portraits={
+			civilian={
+				large="gfx/leaders/爱老八.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={
+				
+			}
+			expire="1972.5.28.1"
+			id=-1
+		}
+	}
+
+}

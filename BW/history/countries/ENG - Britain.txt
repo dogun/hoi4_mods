@@ -177,6 +177,8 @@ if = {
 
 add_ideas = {
 	#stiff_upper_lip
+	#limited_conscription
+	volunteer_only
 	ENG_the_war_to_end_all_wars
 	george_v
 	bw_ENG_SuGeLanFanDuiPai
@@ -214,7 +216,11 @@ set_autonomy = {
 	autonomous_state = ZiZHiQv
 	freedom_level = 0.2
 }
-
+set_autonomy = {
+	target = KER
+	autonomous_state = FengCHen
+	freedom_level = 0
+}
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
@@ -443,13 +449,14 @@ set_politics = {
 set_popularities = {
 	#BaoSHouZHuYi = 37.84 #47.84
 	BaoSHouZHuYi = 15.97
-	GuiZuBaoSHouZHuYi = 21.87
+	GuiZuBaoSHouZHuYi = 15.87 #20.87 #21.87
 	SHeHuiMinZHuZHuYi = 38.02
 	GuDianZiYouZHuYi = 6.72
-	MinZHuSHeHuiZHuYi = 0.7
+	MinZHuSHeHuiZHuYi = 3.89 #0.7
 	SiTeLaSeZHuYi = 7.57 #5.57
 	FaXiSiZHuYi = 6.38 #4.38
 	MinZuSHeHuiZHuYi = 2.77
+	JunZHuZHuYi = 2.81 #1
 }
 
 

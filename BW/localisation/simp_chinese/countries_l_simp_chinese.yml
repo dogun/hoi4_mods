@@ -8611,9 +8611,180 @@
  SAR_MinZuSHeHuiZHuYi_ADJ: "德兰士瓦"
  #纳粹
  
- SAR_BoGenDiTiZHi: "德兰士瓦共和国"
+ SAR_BoGenDiTiZHi: "先民共和国"
  #勃艮第体制
- SAR_BoGenDiTiZHi_DEF: "德兰士瓦共和国"
+ SAR_BoGenDiTiZHi_DEF: "先民共和国"
  #勃艮第体制
  SAR_BoGenDiTiZHi_ADJ: "德兰士瓦"
+ #勃艮第体制
+ 
+ #康沃尔
+ 
+ KER: "康沃尔"
+ #通用
+ KER_DEF: "康沃尔"
+ #通用
+ KER_ADJ: "康沃尔"
+ #通用
+ KER_subject: "$OVERLORDADJ$属康沃尔"
+ #傀儡
+ KER_subject_DEF: "$OVERLORDADJ$属康沃尔"
+ #傀儡
+ KER_FengCHen: "康沃尔公国"
+ #封臣
+ KER_FengCHen_DEF: "康沃尔公国"
+ #封臣
+ ###
+ KER_WuZHKERFuGuongCHanZHuYi: "康沃尔自由邦"
+ #无政府共产主义
+ KER_WuZHKERFuGuongCHanZHuYi_DEF: "康沃尔自由邦"
+ #无政府共产主义
+ KER_WuZHKERFuGuongCHanZHuYi_ADJ: "康沃尔"
+ #无政府共产主义
+ 
+ KER_GuongTuanZHuYi: "康沃尔自由邦"
+ #工团主义
+ KER_GuongTuanZHuYi_DEF: "康沃尔自由邦"
+ #工团主义
+ KER_GuongTuanZHuYi_ADJ: "康沃尔"
+ #工团主义
+ 
+ KER_MaKeSi_LieNingZHuYi: "康沃尔自由共和国"
+ #马克思 - 列宁主义
+ KER_MaKeSi_LieNingZHuYi_DEF: "康沃尔自由共和国"
+ #马克思 - 列宁主义
+ KER_MaKeSi_LieNingZHuYi_ADJ: "康沃尔"
+ #马克思 - 列宁主义
+ 
+ KER_TuoLuoSiJiZHuYi: "康沃尔自由共和国"
+ #托洛斯基
+ KER_TuoLuoSiJiZHuYi_DEF: "康沃尔自由共和国"
+ #托洛斯基
+ KER_TuoLuoSiJiZHuYi_ADJ: "康沃尔"
+ #托洛斯基
+  
+ KER_SiDaLingZHuYi: "康沃尔自由共和国"
+ #斯大林主义
+ KER_SiDaLingZHuYi_DEF: "康沃尔自由共和国"
+ #斯大林主义
+ KER_SiDaLingZHuYi_ADJ: "康沃尔"
+ #斯大林主义
+ 
+ KER_YuanSHiZHuYi: "康沃尔自由共和国"
+ #远视主义
+ KER_YuanSHiZHuYi_DEF: "康沃尔自由共和国"
+ #远视主义
+ KER_YuanSHiZHuYi_ADJ: "康沃尔"
+ #远视主义
+ 
+ KER_JunZHKERGuongCHanZHuYi: "康沃尔自由共和国"
+ #军政共产主义
+ KER_JunZHKERGuongCHanZHuYi_DEF: "康沃尔自由共和国"
+ #军政共产主义
+ KER_JunZHKERGuongCHanZHuYi_ADJ: "康沃尔"
+ #军政共产主义
+ 
+ KER_JunZHuBuErSHiWeiKe: "康沃尔自由共和国"
+ #君主布尔什维克
+ KER_JunZHuBuErSHiWeiKe_DEF: "康沃尔自由共和国"
+ #君主布尔什维克
+ KER_JunZHuBuErSHiWeiKe_ADJ: "康沃尔"
+ #君主布尔什维克
+ 
+ KER_GuDianZiYouZHuYi: "康沃尔共和国"
+ #古典自由主义
+ KER_GuDianZiYouZHuYi_DEF: "康沃尔共和国"
+ #古典自由主义
+ KER_GuDianZiYouZHuYi_ADJ: "康沃尔"
+ #古典自由主义
+ 
+ KER_SHeHuiMinZHuZHuYi: "康沃尔共和国"
+ #社会民主主义
+ KER_SHeHuiMinZHuZHuYi_DEF: "康沃尔共和国"
+ #社会民主主义
+ KER_SHeHuiMinZHuZHuYi_ADJ: "康沃尔"
+ #社会民主主义
+ 
+ KER_MinZHuSHeHuiZHuYi: "康沃尔共和国"
+ #民主社会主义
+ KER_MinZHuSHeHuiZHuYi_DEF: "康沃尔共和国"
+ #民主社会主义
+ KER_MinZHuSHeHuiZHuYi_ADJ: "康沃尔"
+ #民主社会主义
+ 
+ KER_JiaSuZHuYi: "德兰士瓦先锋国"
+ #加速主义
+ KER_JiaSuZHuYi_DEF: "德兰士瓦先锋国"
+ #加速主义
+ KER_JiaSuZHuYi_ADJ: "康沃尔"
+ #加速主义
+ 
+ KER_BaoSHouZHuYi: "康沃尔共和国"
+ #保守主义
+ KER_BaoSHouZHuYi_DEF: "康沃尔共和国"
+ #保守主义
+ KER_BaoSHouZHuYi_ADJ: "康沃尔"
+ #保守主义
+ 
+ KER_GuiZuBaoSHouZHuYi: "康沃尔共和国"
+ #贵族保守主义
+ KER_GuiZuBaoSHouZHuYi_DEF: "康沃尔共和国"
+ #贵族保守主义
+ KER_GuiZuBaoSHouZHuYi_ADJ: "康沃尔"
+ #贵族保守主义
+ 
+ KER_JiaZHangZHi: "康沃尔议会"
+ #家长制
+ KER_JiaZHangZHi_DEF: "康沃尔议会"
+ #家长制
+ KER_JiaZHangZHi_ADJ: "康沃尔"
+ #家长制
+ 
+ KER_JunZHuZHuYi: "康沃尔公国"
+ #君主主义
+ KER_JunZHuZHuYi_DEF: "康沃尔公国"
+ #君主主义
+ KER_JunZHuZHuYi_ADJ: "康沃尔"
+ #君主主义
+ 
+ KER_ZiBKERuongCHanZHuYi: "康沃尔议会"
+ #资本共产主义
+ KER_ZiBKERuongCHanZHuYi_DEF: "康沃尔议会"
+ #资本共产主义
+ KER_ZiBKERuongCHanZHuYi_ADJ: "康沃尔"
+ #资本共产主义
+ 
+ KER_SHeHuiFaXiSi: "康沃尔凯尔特国"
+ #社会法西斯
+ KER_SHeHuiFaXiSi_DEF: "康沃尔凯尔特国"
+ #社会法西斯
+ KER_SHeHuiFaXiSi_ADJ: "康沃尔"
+ #社会法西斯
+ 
+ KER_SiTeLaSeZHuYi: "康沃尔凯尔特国"
+ #斯特拉瑟主义
+ KER_SiTeLaSeZHuYi_DEF: "康沃尔凯尔特国"
+ #斯特拉瑟主义
+ KER_SiTeLaSeZHuYi_ADJ: "康沃尔"
+ #斯特拉瑟主义
+ 
+ KER_FaXiSiZHuYi: "康沃尔凯尔特国"
+ #法西斯主义
+ KER_FaXiSiZHuYi_DEF: "康沃尔凯尔特国"
+ #法西斯主义
+ KER_FaXiSiZHuYi_ADJ: "康沃尔"
+ #法西斯主义
+ 
+ KER_MinZuSHeHuiZHuYi: "康沃尔凯尔特国"
+ #纳粹
+ KER_MinZuSHeHuiZHuYi_DEF: "康沃尔凯尔特国"
+ #纳粹
+ KER_MinZuSHeHuiZHuYi_ADJ: "康沃尔"
+ #纳粹
+ 
+ KER_BoGenDiTiZHi: "康沃尔凯尔特国"
+ #勃艮第体制
+ KER_BoGenDiTiZHi_DEF: "康沃尔凯尔特国"
+ #勃艮第体制
+ KER_BoGenDiTiZHi_ADJ: "康沃尔"
  #勃艮第体制

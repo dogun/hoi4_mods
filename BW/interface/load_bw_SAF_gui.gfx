@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_CHaoSiJian_NanFeiNeiZHan"
+		texturefile = "gfx/interface/超事件：南非内战.png"
+	}
+}

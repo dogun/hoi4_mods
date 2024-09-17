@@ -3,3 +3,8 @@ music = {
 	file = "起来战斗.ogg"
 	volume = 1
 }
+music = {
+	name = "超事件：南非国歌"
+	file = "南非国歌.ogg"
+	volume = 1
+}

@@ -3704,6 +3704,18 @@ spriteTypes = {
 		name = "GFX_idea_DengSHanZHiRen"
 		texturefile = "gfx/interface/ideas/登山之人.png"
 	}
+	SpriteType = {
+		name = "GFX_ideaSiYouHua"
+		texturefile = "gfx/interface/ideas/全面私有化.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JingJiWeiYuanHui"
+		texturefile = "gfx/interface/ideas/经济委员会.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ToZiDianLiFaZHan"
+		texturefile = "gfx/interface/ideas/投资电力发展.png"
+	}
 	# # # # # #爱尔兰
 	SpriteType = {
 		name = "GFX_idea_Celt"
@@ -3727,6 +3739,19 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_DaXiaoTiao"
 		texturefile = "gfx/interface/ideas/大萧条.png"
+	}
+	# # # # # #德兰士瓦
+	SpriteType = {
+		name = "GFX_idea_DiSanCiBuErZHanZHeng"
+		texturefile = "gfx/interface/ideas/第三次布尔战争.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ossewa_brandwag"
+		texturefile = "gfx/interface/ideas/奥瑟瓦-布兰德维格.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_BuErMinZuZHuYi"
+		texturefile = "gfx/interface/ideas/布尔民族主义.png"
 	}
 	# # #单位
 	# # # # # #堑壕步兵

@@ -1,0 +1,184 @@
+ENG_TanHeWeiJi_1 = {
+#决议组id
+	ENG_TanHeWeiJi_2 = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		visible = {
+#展示条件
+			original_tag = ENG
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+		}
+
+		activation = {
+#在什么情况下，任务被激活并开始倒计时：
+			has_idea = bw_FRA_DaXiaoTiao
+		}
+		available = { 
+			always = no 
+		} 
+		cancel_trigger = {
+			has_completed_focus = 脱离泥沼
+		}
+		is_good = no                           # 这个任务的颜色编码是有益事情（非危机）
+		selectable_mission = no                # 这个任务将在玩家点选任务时完成，而非自动完成
+		days_mission_timeout = 30              # 距离任务失败前有多少天？
+		timeout_effect = {                      # 当任务失败时会发生什么？
+			complete_national_focus = 辞职
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+		}
+	}
+
+	ENG_LaLongYiYuan = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_remove = 10
+
+		visible = {
+#展示条件
+			original_tag = ENG
+			OR ={
+				has_idea = bw_FRA_DaXiaoTiao
+				has_idea = bw_ENG_DaXiaoTiao_1
+				has_idea = bw_ENG_DaXiaoTiao_2
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_days_mission_timeout = {
+				mission = ENG_TanHeWeiJi_2
+				days = 5
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 10000000
+		}
+	}
+
+	ENG_SHuoFuGuoHui = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 20
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_remove = 20
+
+		visible = {
+#展示条件
+			original_tag = ENG
+			OR ={
+				has_idea = bw_FRA_DaXiaoTiao
+				has_idea = bw_ENG_DaXiaoTiao_1
+				has_idea = bw_ENG_DaXiaoTiao_2
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_days_mission_timeout = {
+				mission = ENG_TanHeWeiJi_2
+				days = 10
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 10000000
+		}
+	}
+
+	ENG_ZaiGuoHuiYanJiang = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 40
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_remove = 40
+
+		visible = {
+#展示条件
+			original_tag = ENG
+			OR ={
+				has_idea = bw_FRA_DaXiaoTiao
+				has_idea = bw_ENG_DaXiaoTiao_1
+				has_idea = bw_ENG_DaXiaoTiao_2
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_days_mission_timeout = {
+				mission = ENG_TanHeWeiJi_2
+				days = 20
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 10000000
+		}
+	}
+}

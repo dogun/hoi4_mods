@@ -102,10 +102,19 @@ country_event = { #胜利
 #		add_state_core = 58
 
 		hidden_effect = {
-			country_event = {
-				id = bw_GER_XinWen.1
-				days = 1
+			if = {
+				every_other_country = {
+					limit = {
+						always = yes
+					}
+					news_event = {
+						id = bw_GER_XinWen.1
+						days = 1
+						random = 0
+					}
+				}
 			}
+
 			GSR = {
 				remove_state_core = 51
 				remove_state_core = 42

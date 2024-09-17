@@ -13,7 +13,7 @@ ideas = {
 				army_core_defence_factor = -0.05
 				mobilization_speed = -0.1
 				consumer_goods_factor = 0.05
-				conscription = -0.3
+				conscription = -0.01 #-0.3
 				stability_factor = -0.2
 				stability_weekly = -0.001
 			}
@@ -57,6 +57,92 @@ ideas = {
 			}
 			targeted_modifier = {
 
+			}
+		}
+
+		bw_ENG_DaXiaoTiao_1 = {	#大萧条
+			picture = DaXiaoTiao
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.2
+				min_export = -0.25
+				weekly_manpower = -500
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_DaXiaoTiao_2 = {	#大萧条
+			picture = DaXiaoTiao
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.2
+				min_export = -0.25
+				weekly_manpower = -500
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_SiYouHua = {	#私有化
+			picture = SiYouHua
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_JingJiWeiYuanHui = {	#经济委员会
+			picture = JingJiWeiYuanHui
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_ToZiDianLiFaZHan = {	#投资电力发展
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+			targeted_modifier = {
 			}
 		}
 

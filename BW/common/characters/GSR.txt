@@ -1,0 +1,17 @@
+characters={
+	GSR_Ernst_Johannes_Fritz_Thalmann={
+		name=GSR_Ernst_Johannes_Fritz_Thalmann
+		portraits={
+			civilian={
+				large="gfx/leaders/台尔曼.dds"
+			}
+		}
+		country_leader={
+			ideology=MaKeSi_LieNingZHuYi_c
+			traits={ GeMingLingXiu }
+			expire="9999.01.01.1"
+			id=-1
+		}
+
+	}
+}

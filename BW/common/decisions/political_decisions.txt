@@ -1,0 +1,1286 @@
+political_actions = {	#政治行动
+#决议组id
+	anti_WuZHengFuGuongCHanZHuYi_raids = {	逮捕反政府武装
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			WuZHengFuGuongCHanZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			WuZHengFuGuongCHanZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = WuZHengFuGuongCHanZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				WuZHengFuGuongCHanZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_GuongTuanZHuYi_raids = {	逮捕激进工人
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			GuongTuanZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			GuongTuanZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = GuongTuanZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				GuongTuanZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_MaKeSi_LieNingZHuYi_raids = {	逮捕左翼知识分子
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			MaKeSi_LieNingZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			MaKeSi_LieNingZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = MaKeSi_LieNingZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				MaKeSi_LieNingZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_TuoLuoSiJiZHuYi_raids = {	逮捕先锋队成员
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			TuoLuoSiJiZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			TuoLuoSiJiZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = TuoLuoSiJiZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				TuoLuoSiJiZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_SiDaLingZHuYi_raids = {	逮捕共产国际成员
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			SiDaLingZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			SiDaLingZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = SiDaLingZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				SiDaLingZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_YuanSHiZHuYi_raids = {	逮捕先进科学家
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			YuanSHiZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			YuanSHiZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = YuanSHiZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				YuanSHiZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_JunZHengGuongCHanZHuYi_raids = {	逮捕红色军人
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			JunZHengGuongCHanZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			JunZHengGuongCHanZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = JunZHengGuongCHanZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				JunZHengGuongCHanZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_JunZHuBuErSHiWeiKe_raids = {	逮捕共产主义贵族
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			JunZHuBuErSHiWeiKe > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			JunZHuBuErSHiWeiKe_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = JunZHuBuErSHiWeiKe }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				JunZHuBuErSHiWeiKe > 0.45
+			}
+		}
+	}
+
+	anti_GuDianZiYouZHuYi_raids = {	逮捕哈耶克主义者
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			GuDianZiYouZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			GuDianZiYouZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = GuDianZiYouZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				JunZHuBuErSHiWeiKe > 0.45
+			}
+		}
+	}
+
+	anti_SHeHuiMinZHuZHuYi_raids = {	逮捕凯恩斯主义者
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			SHeHuiMinZHuZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			SHeHuiMinZHuZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = SHeHuiMinZHuZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				SHeHuiMinZHuZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_MinZHuSHeHuiZHuYi_raids = {	逮捕温和共产主义者
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			MinZHuSHeHuiZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			MinZHuSHeHuiZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = MinZHuSHeHuiZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				MinZHuSHeHuiZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_JunZHuZHuYi_raids = {	逮捕保皇派
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			JunZHuZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			JunZHuZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = JunZHuZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				JunZHuZHuYi > 0.45
+			}
+		}
+	}
+
+	anti_MinZuSHeHuiZHuYi_raids = {	逮捕极端民族主义者
+#决议id
+
+		icon = generic_civil_support
+#图片
+
+		available = {
+#前提条件
+			MinZuSHeHuiZHuYi > 0.1
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		days_remove = 120
+#持续时间
+		remove_effect = {
+#持续时间结束后效果
+		}
+		modifier = {
+#持续时间内效果（写修正）
+			MinZuSHeHuiZHuYi_drift = -0.05
+			stability_weekly = 0.007
+		}
+
+		visible = {
+#展示条件
+			NOT = { has_government = MinZuSHeHuiZHuYi }
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_stability = -0.1
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+			modifier = {
+				add = 1
+				MinZuSHeHuiZHuYi > 0.45
+			}
+		}
+	}
+
+    anti_democratic_raids = {
+
+    	icon = generic_civil_support
+
+    	visible = {
+			NOT = { has_government = democratic }
+		}
+
+		available = {
+            democratic > 0.1
+            if = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+        }
+	
+		modifier = {
+			democratic_drift = -0.05
+			stability_weekly = 0.007
+		}
+	
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+		
+		remove_effect = {
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+    anti_communist_raids = {
+
+    	icon = generic_civil_support
+
+    	visible = {
+			NOT = { has_government = communism }
+		}
+
+		available = {
+            communism > 0.1
+            if = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+        }
+	
+		modifier = {
+			communism_drift = -0.05
+			stability_weekly = 0.007
+		}
+	
+		days_remove = 120
+		cost = 50
+
+		complete_effect = {
+			add_stability = -0.1
+		}
+		
+		remove_effect = {
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
+    
+	ban_fascist_party = {
+
+		icon = generic_civil_support
+
+		available = {
+			fascism < 0.2
+			IF = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+			IF = {
+				limit = {
+					has_aat = yes 
+					original_tag = NOR 
+				}
+				NOT = {
+					has_idea = NOR_anti_communist_sentiment_ns
+				}
+			}
+			IF = {
+				limit = {
+					# TODO JA, add the correct dlc requirements
+					has_dlc = "Arms Against Tyranny"
+					original_tag = CHL
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHL_can_not_have_anarchy_tt
+					NOT = {
+						OR = {
+							has_idea = idea_CHL_near_anarchic_society
+							has_idea = idea_CHL_near_anarchic_society_2
+							has_idea = idea_CHL_near_anarchic_society_3
+							has_idea = idea_CHL_near_anarchic_society_4
+						}
+					}
+				}
+			}
+		}
+
+		visible = {
+			NOT = { has_government = fascism }
+			fascism > 0
+			IF = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"	
+				}
+				NOT = { original_tag = GRE }
+			}
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				OR = {
+					has_government = fascism
+					has_country_flag = DEN_allow_fascism_flag
+				}
+			}
+		}
+	
+		modifier = {
+			fascism_drift = -0.05
+		}
+	
+		days_remove = -1
+		cost = 100
+		
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@fascism
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_fascism_flag
+			}
+			remove_fascist_spirits_effect = yes
+			custom_effect_tooltip = ban_fascist_party_tt
+			add_stability = ban_ideology_var
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	ban_democratic_party = {
+
+		icon = generic_civil_support
+
+		available = {
+			democratic < 0.2
+			IF = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+		}
+
+		visible = {
+			NOT = { has_government = democratic }
+			democratic > 0
+			IF = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"	
+				}
+				NOT = { original_tag = GRE }
+			}
+			IF = {
+				limit = {
+					# TODO JA, change to the correct dlc target
+					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = { original_tag = CHL }
+			}
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				OR = {
+					has_country_flag = DEN_allow_democratic_flag
+					has_government = democratic
+				}
+			}
+		}
+	
+		modifier = {
+			democratic_drift = -0.05
+		}
+	
+		days_remove = -1
+		cost = 100
+		
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@democratic
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_democratic_flag				
+			}
+			remove_democratic_spirits_effect = yes 
+			custom_effect_tooltip = ban_democratic_party_tt
+			add_stability = ban_ideology_var
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	ban_communist_party = {
+
+		icon = generic_civil_support
+
+		available = {
+			communism < 0.2
+			IF = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+			IF = {
+				limit = {
+					# TODO JA, add the correct dlc requirements
+					has_dlc = "Arms Against Tyranny"
+					original_tag = CHL
+				}
+				custom_trigger_tooltip = {
+					tooltip = CHL_can_not_have_anarchy_tt
+					NOT = {
+						OR = {
+							has_idea = idea_CHL_near_anarchic_society
+							has_idea = idea_CHL_near_anarchic_society_2
+							has_idea = idea_CHL_near_anarchic_society_3
+							has_idea = idea_CHL_near_anarchic_society_4
+						}
+					}
+				}
+			}
+		}
+
+		visible = {
+			NOT = { has_government = communism }
+			communism > 0
+			IF = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"	
+				}
+				NOT = { original_tag = GRE }
+			}
+		}
+
+		remove_trigger = {
+			hidden_trigger = {
+				OR = {
+					has_government = communism
+					has_country_flag = DEN_allow_communism_flag
+				}
+			}
+		}
+	
+		modifier = {
+			communism_drift = -0.05
+		}
+	
+		days_remove = -1
+		cost = 100
+		
+		complete_effect = {
+			hidden_effect = {
+				set_temp_variable = {
+					var = ban_ideology_var
+					value = party_popularity@communism
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = -1
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = ban_ideology_var
+				}
+				multiply_temp_variable = {
+					var = ban_ideology_var
+					value = 0.66
+				}
+				set_country_flag = banned_communism_flag
+				if = {#NSB -> If country has Trotskyist Revolutionary Uprisings NS, swap it with the weakened version
+					limit = {
+						has_idea = SOV_trotskyist_revolutionary_agitation
+					}
+					swap_ideas = {
+						remove_idea = SOV_trotskyist_revolutionary_agitation
+						add_idea = SOV_trotskyist_revolutionary_agitation_weakened
+					}
+				}
+			}
+			remove_communist_spirits_effect = yes
+			custom_effect_tooltip = ban_communist_party_tt
+			add_stability = ban_ideology_var
+		}
+		
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				add = 2000
+				original_tag = FIN
+				FIN_is_historical_ai = yes
+				OR = {
+					has_idea = communist_pressure
+					communism > 0.08
+				}
+				NOT = { has_completed_focus = FIN_the_lone_wolf }
+			}
+		}
+	}
+	
+	institute_press_censorship_fascist_state = {
+
+		icon = generic_political_discourse
+
+		available = {
+			if = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Battle for the Bosporus"
+					original_tag = BUL
+				}
+				NOT = {
+					has_country_flag = {
+						flag = BUL_freedom_of_press_flag
+						days < 365
+					}
+					focus_progress = {
+						focus = BUL_freedom_of_press
+						progress > 0
+					}
+				}
+			}
+		}
+
+		visible = {
+			has_government = fascism
+			if = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = { original_tag = GRE }
+			}
+		}
+	
+		modifier = {
+			communism_drift = -0.01
+			fascism_drift = 0.03
+			democratic_drift = -0.01
+			neutrality_drift = -0.01
+		}
+	
+		days_remove = 360
+		cost = 150
+	
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	institute_press_censorship_democratic_state = {
+
+		icon = generic_political_discourse
+
+		available = {
+			if = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+			if = {
+				limit = {
+					tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = {
+					has_completed_focus = TUR_privatize_the_anadolu_agency
+				}
+			}
+			if = {
+				limit = {
+					original_tag = BUL
+					has_dlc = "Battle for the Bosporus"				
+				}
+				NOT = {
+					has_country_flag = {
+						flag = BUL_freedom_of_press_flag
+						days < 365
+					}
+					focus_progress = {
+						focus = BUL_freedom_of_press
+						progress > 0
+					}
+				}
+			}
+		}
+
+		visible = {
+			has_government = democratic
+			if = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = { original_tag = GRE }
+			}
+		}
+		
+		modifier = {
+			communism_drift = -0.01
+			fascism_drift = -0.01
+			democratic_drift = 0.03
+			neutrality_drift = -0.01
+		}
+	
+		days_remove = 360
+		cost = 150
+	
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	institute_press_censorship_communist_state = {
+
+		icon = generic_political_discourse
+
+		available = {
+			if = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+			if = {
+				limit = {
+					original_tag = BUL
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = {
+					has_country_flag = {
+						flag = BUL_freedom_of_press_flag
+						days < 365
+					}
+					focus_progress = {
+						focus = BUL_freedom_of_press
+						progress > 0
+					}
+				}
+			}
+		}
+
+		visible = {
+			has_government = communism
+			if = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = { original_tag = GRE }
+			}
+		}
+	
+		modifier = {
+			communism_drift = 0.03
+			fascism_drift = -0.01
+			democratic_drift = -0.01
+			neutrality_drift = -0.01
+		}
+	
+		days_remove = 360
+		cost = 150
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	institute_press_censorship_neutrality_state = {
+
+		icon = generic_political_discourse
+
+		available = {
+			if = {
+				limit = {
+					tag = SPR
+				}
+				NOT = {
+					has_idea = SPR_political_violence
+				}
+			}
+			if = {
+				limit = {
+					tag = TUR
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = {
+					has_completed_focus = TUR_privatize_the_anadolu_agency
+				}
+			}
+			if = {
+				limit = {
+					original_tag = BUL
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = {
+					has_country_flag = {
+						flag = BUL_freedom_of_press_flag
+						days < 365
+					}
+					focus_progress = {
+						focus = BUL_freedom_of_press
+						progress > 0
+					}
+				}
+			}
+		}
+
+		visible = {
+			has_government = neutrality
+			if = { 
+				limit = { 
+					has_dlc = "Battle for the Bosporus"
+				}
+				NOT = { original_tag = GRE }
+			}
+		}
+	
+		modifier = {
+			communism_drift = -0.01
+			fascism_drift = -0.01
+			democratic_drift = -0.01
+			neutrality_drift = 0.03
+		}
+	
+		days_remove = 360
+		cost = 150
+		
+		ai_will_do = {
+			factor = 0
+			modifier = { #Help Historical AI Finland
+				add = 10
+				has_dlc = "Arms Against Tyranny"
+				original_tag = FIN
+				FIN_is_historical_ai = yes
+				has_government = neutrality
+				NOT = { has_completed_focus = FIN_the_lone_wolf }
+				neutrality < 0.85
+			}
+		}
+	}
+}

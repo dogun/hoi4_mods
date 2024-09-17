@@ -4,7 +4,7 @@
 
 add_namespace = bw_SAF
 
-country_event = { #布尔人叛乱
+country_event = { #奥瑟瓦-布兰德维格游行
 	id = bw_SAF.1
 	title = bw_SAF.1.t
 	desc = bw_SAF.1.d
@@ -17,7 +17,30 @@ country_event = { #布尔人叛乱
 	}
 	mean_time_to_happen = { days = 10 }
 	option = {
-		name = bw_SAF.1.a  #在不列颠的统治下好好跪着
+		name = bw_SAF.1.a  #希望不要出什么事
+		add_stability = -0.1
+		719 = {
+			set_demilitarized_zone = yes
+		}
+		hidden_effect = {
+			country_event = { id = bw_SAF.2 days = 10 }
+		}
+	}
+}
+
+country_event = { #布尔人叛乱
+	id = bw_SAF.2
+	title = bw_SAF.2.t
+	desc = bw_SAF.2.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = SAF
+	}
+	mean_time_to_happen = { days = 10 }
+	option = {
+		name = bw_SAF.2.a  #不好的消息
 		SAR = {
 			transfer_state = 719
 			declare_war_on = {
@@ -25,14 +48,40 @@ country_event = { #布尔人叛乱
 				type = independence_wargoal
 			}
 		}
+
 		news_event = {
-			id = bw_FRA_XinWen.1
+			id = bw_SAF_XinWen.1
 			days = 1
 			random = 0
 		}
+
+		if = {
+			every_other_country = {
+				limit = {
+					always = yes
+				}
+				news_event = {
+					id = bw_SAF_XinWen.1
+					days = 1
+					random = 0
+				}
+			}
+		}
+
+
+		hidden_effect = {
+			SAR = {
+				inherit_technology = SAF
+				load_oob = "SAR"
+				add_timed_idea = {
+					idea = bw_SAR_DiSanCiBuErZHanZHeng
+					days = 365
+				}
+			}
+		}
 	}
 	option = {
-		name = bw_SAF.1.b  #为了荷兰的荣耀！！！
+		name = bw_SAF.2.b  #为了荷兰的荣耀！！！（扮演德兰士瓦）
 		SAR = {
 			transfer_state = 719
 			declare_war_on = {
@@ -41,10 +90,35 @@ country_event = { #布尔人叛乱
 			}
 		}
 		SAR = { change_tag_from = ROOT }
+
 		news_event = {
-			id = bw_FRA_XinWen.1
+			id = bw_SAF_XinWen.1
 			days = 1
 			random = 0
+		}
+
+		if = {
+			every_other_country = {
+				limit = {
+					always = yes
+				}
+				news_event = {
+					id = bw_SAF_XinWen.1
+					days = 1
+					random = 0
+				}
+			}
+		}
+
+		hidden_effect = {
+			SAR = {
+				inherit_technology = SAF
+				load_oob = "SAR"
+				add_timed_idea = {
+					idea = bw_SAR_DiSanCiBuErZHanZHeng
+					days = 365
+				}
+			}
 		}
 	}
 }

@@ -9,3 +9,8 @@ set_politics = {
 set_popularities = {
 	MinZuSHeHuiZHuYi = 100
 }
+
+add_ideas = {
+	bw_SAR_ossewa_brandwag
+	bw_SAR_BuErMinZuZHuYi
+}

@@ -19,10 +19,18 @@ country_event = { #巴黎股市彻底崩盘
 	mean_time_to_happen = { days = 1 }
 	option = {
 		name = bw_American_Civil_War.1.a  #这不怪我
-		news_event = {
-			id = bw_FRA_XinWen.1
-			days = 1
-			random = 0
+
+		if = {
+			every_other_country = {
+				limit = {
+					always = yes
+				}
+				news_event = {
+					id = bw_FRA_XinWen.1
+					days = 1
+					random = 0
+				}
+			}
 		}
 
 		if = {

@@ -1,0 +1,24 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_SAF_XinWen
+
+news_event = { #第三次布尔战争
+	id = bw_SAF_XinWen.1
+	title = bw_SAF_XinWen.1.t
+	desc = bw_SAF_XinWen.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_SAF_XinWen.1.a #德兰士瓦打赢复活赛了
+
+		hidden_effect = {
+			set_country_flag = load_bw_SAF.1
+			ROOT = {
+				play_song = 超事件：南非国歌
+			}
+		}
+	}
+}

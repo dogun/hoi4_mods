@@ -1,5 +1,10 @@
 #reload countrycolors
 
+KER = {
+	color = rgb { 125 100 10 }
+	color_ui = rgb { 125 100 10 }
+}
+
 SAR = {
 	color = rgb { 0 56 132 }
 	color_ui = rgb { 0 56 132 }

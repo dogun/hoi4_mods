@@ -430,6 +430,22 @@
  bw_ENG_DengSHanZHiRen: "登山之人"
  bw_ENG_DengSHanZHiRen_desc: "在1924年我们攀登了珠穆朗玛峰，成为了第一个登顶的国家，事实证明大英帝国荣光仍在！"
  
+ bw_ENG_DaXiaoTiao_1: "大萧条"
+ bw_ENG_DaXiaoTiao_1_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
+ 
+ bw_ENG_DaXiaoTiao_2: "大萧条"
+ bw_ENG_DaXiaoTiao_2_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
+ 
+ bw_ENG_SiYouHua: "私有化"
+ bw_ENG_SiYouHua_desc: "将国有企业出售换取资金。"
+ 
+ bw_ENG_JingJiWeiYuanHui: "经济委员会"
+ #bw_ENG_JingJiWeiYuanHei_desc: "政府任命一些经济学家组成委员会控制支出和投资。"
+ bw_ENG_JingJiWeiYuanHui_desc: "政府任命一些经济学家组成委员会协助财政大臣工作。"
+ 
+ bw_ENG_ToZiDianLiFaZHan: "投资电力发展"
+ bw_ENG_ToZiDianLiFaZHan_desc: "政府出钱保持基础设施的稳定。"
+ 
  # # #GSR
  
  bw_GSR_FenSuiXiTeLe: "粉碎希特勒"
@@ -470,6 +486,22 @@
  # # #教宗国
  
  bw_PAP_ALiYaYunDong: "阿利亚运动"
+ 
+ # # #德兰士瓦
+ 
+ bw_SAR_DiSanCiBuErZHanZHeng: "第三次布尔战争"
+ bw_SAR_DiSanCiBuErZHanZHeng_desc: "在第二次布尔战争中我们被吞并，现在我们绝对不会失败！"
+ 
+ bw_SAR_ossewa_brandwag: "奥瑟瓦-布兰德维格"
+ bw_SAR_ossewa_brandwag_desc: "奥瑟瓦-布兰德维格（ossewa brandwag）直译为牛\n车哨兵，其中牛车是为了纪念牛车大迁徙中的“先民”\n（该条只是对于名字的解释）\n\n奥瑟瓦-布兰德维格是一个布尔人民族主义组织，与纳粹党有着密切的联系。该组织要求给予德兰士瓦自主权，在之前组织过大规模游行和恐怖袭击，但在集权政策生效后就沉寂下来......吗？\n\n并没有，在1936年发生在德班的游行就是由它组织的，在沉寂的时间里它在默默发育，建立准军事组织，直到德班的枪响，重建德兰士瓦共和国。"
+ 
+ bw_SAR_BuErMinZuZHuYi: "布尔民族主义"
+ bw_SAR_BuErMinZuZHuYi_desc: "我们永远不会忘记英国人对我们做的一切。"
+ 
+ # # #南非
+ 
+ bw_SAF_ossewa_brandwag: "奥瑟瓦-布兰德维格"
+ bw_SAF_ossewa_brandwag_desc: "奥瑟瓦-布兰德维格（ossewa brandwag）直译为牛\n车哨兵，其中牛车是为了纪念牛车大迁徙中的“先民”\n（该条只是对于名字的解释）\n\n奥瑟瓦-布兰德维格是一个布尔人民族主义组织，与纳粹党有着密切的联系。该组织要求给予德兰士瓦自主权，在之前组织过大规模游行和恐怖袭击，但在集权政策生效后就沉寂下来......吗？"
  
  # # #通用
  
@@ -520,6 +552,11 @@
  
  bw_WanJvGouHuo: "万具篝火"
  bw_WanJvGouHuo_desc: "在一个黑暗的世界里一具篝火的力量很微弱，那十具、千具、万具呢？现在每个人都是一具篝火，我们将照亮世界。"
+ 
+ # # #法国
+ 
+ bw_FRA_DaXiaoTiao: "大萧条"
+ bw_FRA_DaXiaoTiao_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
  
  # # #阿巴阿巴
  
@@ -619,11 +656,13 @@
  
  # # #普鲁士
  
- PRE_Wilhelm_II: "腓特烈·威廉·维克托·阿尔贝特·冯·普鲁士"
+ PRE_Wilhelm_II: "腓特烈·威廉二世·维克托·阿尔贝特·冯·普鲁士"
  
  # # #英国
  
  ENG_Stanley_Baldwin: "斯坦利·鲍德温"
+ 
+ ENG_Edward_VIII: "爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫"
  
  # # #梵蒂冈
  
@@ -640,6 +679,14 @@
  # # #日本
  
  JAP_ZHaoHe: "昭和天皇"
+ 
+ # # #康沃尔
+ 
+ KER_Edward_VIII: "爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫"
+ 
+ # # #德共
+ 
+ GSR_Ernst_Johannes_Fritz_Thalmann: "恩斯特·约翰内斯·弗里兹·台尔曼"
  
  #个人特征
  
@@ -659,6 +706,7 @@
  
  YongYuanDeZongTong: "永远的总统"
  
+ GeMingLingXiu: "革命领袖"
  
  # # #顾问
  
@@ -897,6 +945,13 @@
  bw_FRA_XinWen.1.d: "欢迎来到世界新闻，今天巴黎股市平均下降72个百分点，其中雷诺，伊拉克石油，安盛等下降率高达90%以上，达到历史新高。许多企业不得不通过裁员等方式度过这场危机，对此全法各地都出现失业民众的游行，巴黎甚至都出现有人手举红旗高唱国际歌和马赛曲。\n\n巴黎方面表示已经在努力度过这场危机，但据专家预测今年法国GDP将下降10%左右，其中著名经济学家哈耶克表示：就是以为法国干预市场的行为导致了这场危机，只要法国政府放弃干预市场经济就会缓慢恢复。"
  bw_FRA_XinWen.1.a: "法兰西就此陨落"
  
+ # # #南非新闻
+ 
+ bw_SAF_XinWen.1: "第三次布尔战争"
+ bw_SAF_XinWen.1.t: "第三次布尔战争"
+ bw_SAF_XinWen.1.d: "第二次布尔战争以后德兰士瓦共和国等布尔人国家就被英国吞并，近几年由奥瑟瓦-布兰德维格为首的布尔人民族主义组织崛起，他们要求在南非联邦的基础上建立德兰士瓦自治区，但伦敦方面一直拒绝他们的请求。虽然延续了博纳·劳的集权政策，但南非的矛盾越发严重。\n\n今天德班市发生大规模游行示威，示威者再次要求德兰士瓦的自主权，在警察镇压游行以后布尔民族主义被彻底点燃，整个纳塔尔都民族者占领，他们宣布纳塔尔脱离南非统治，重建德兰士瓦共和国。"
+ bw_SAF_XinWen.1.a: "德兰士瓦打赢复活赛了"
+ 
  # # #波兰
  
  bw_POL.1: "进军马祖伦"
@@ -942,7 +997,7 @@
  bw_American_Civil_War.7.t: "德克萨斯独立"
  bw_American_Civil_War.7.d: ""
  bw_American_Civil_War.7.a: "德克萨斯人，别捣乱！"
- bw_American_Civil_War.7.b: "孤星崛起！（控制德克萨斯）"
+ bw_American_Civil_War.7.b: "孤星崛起！（扮演德克萨斯）"
  
  bw_American_Civil_War.8: "迪克西人起义"
  bw_American_Civil_War.8.t: "迪克西人起义"
@@ -1029,11 +1084,29 @@
  
  # # #南非
  
- bw_SAF.1: "布尔人叛乱"
- bw_SAF.1.t: "布尔人叛乱"
- bw_SAF.1.d: "总理阁下，今天在德班市发生了一场大规模游行，示威者要求给予德兰士瓦自主权，这种游行很明显很明显是不合规的。\n德班警察已经镇压示威者，但有证据表明布尔正在策划叛乱"
- bw_SAF.1.a: "在不列颠的统治下好好跪着"
- bw_SAF.1.b: "为了荷兰的荣耀！！！"
+ bw_SAF.1: "奥瑟瓦-布兰德维格游行"
+ bw_SAF.1.t: "奥瑟瓦-布兰德维格游行"
+ bw_SAF.1.d: "总理阁下，今天在德班市奥瑟瓦-布兰德维格组织了一起大规模游行，他们再次要求给予德兰士瓦自主权，但我们已经将这种破坏集权政策的行为视为非法，他们已经忽视法律了！\n甚至我已经联系不到市长了！\n整个纳塔尔可能都陷入了混乱或者奥瑟瓦-布兰德维格控制！"
+ bw_SAF.1.a: "希望不要出什么事"
+ 
+ bw_SAF.2: "布尔人叛乱"
+ bw_SAF.2.t: "布尔人叛乱"
+ bw_SAF.2.d: "总理阁下，我们已经确定了纳塔尔的情况，奥瑟瓦-布兰德维格真的控制了纳塔尔，现在正在往比勒陀利亚前进，他们貌似要脱离帝国（大英帝国）统治，重建德兰士瓦共和国。"
+ #bw_SAF.2.a: "在不列颠的统治下好好跪着"
+ bw_SAF.2.a: "不好的消息"
+ bw_SAF.2.b: "为了荷兰的荣耀！（扮演德兰士瓦）"
+ 
+ bw_SAF.3: "非国大游行"
+ bw_SAF.3.t: "非国大游行"
+ bw_SAF.3.d: "总理阁下，今天在德班市发生了一场大规模游行，示威者要求给予德兰士瓦自主权，这种游行很明显很明显是不合规的。\n德班警察已经镇压示威者，但有证据表明布尔正在策划叛乱"
+ bw_SAF.3.a: "在不列颠的统治下好好跪着"
+ bw_SAF.3.b: "为了非洲的解放！（扮演泛非联盟）"
+ 
+ bw_SAF.3: "非国大游行"
+ bw_SAF.3.t: "非国大游行"
+ bw_SAF.3.d: "总理阁下，今天在德班市发生了一场大规模游行，示威者要求给予德兰士瓦自主权，这种游行很明显很明显是不合规的。\n德班警察已经镇压示威者，但有证据表明布尔正在策划叛乱"
+ bw_SAF.3.a: "在不列颠的统治下好好跪着"
+ bw_SAF.3.b: "为了非洲的解放！（扮演泛非联盟）"
  
  # # #疯子希特勒
  
@@ -1153,6 +1226,30 @@
 
  #决议
 
+ political_actions: "政治行动"
+ anti_WuZHengFuGuongCHanZHuYi_raids: "逮捕反政府武装"
+ anti_GuongTuanZHuYi_raids: "逮捕激进工人"
+ anti_MaKeSi_LieNingZHuYi_raids: "逮捕左翼知识分子"
+ anti_TuoLuoSiJiZHuYi_raids: "逮捕先锋队成员"
+ anti_SiDaLingZHuYi_raids: "逮捕共产国际成员"
+ anti_YuanSHiZHuYi_raids: "逮捕先进科学家"
+ anti_JunZHengGuongCHanZHuYi_raids: "逮捕红色军人"
+ anti_JunZHuBuErSHiWeiKe_raids: "逮捕共产主义贵族"
+ anti_GuDianZiYouZHuYi_raids: "逮捕哈耶克主义者"
+ anti_SHeHuiMinZHuZHuYi_raids: "逮捕凯恩斯主义者"
+ anti_MinZHuSHeHuiZHuYi_raids: "逮捕温和共产主义者"
+ anti_JunZHuZHuYi_raids: "逮捕保皇派"
+ anti_ZiBenGuongCHanZHuYi_raids: "逮捕资本家"
+ anti__raids: "逮捕"
+ anti__raids: "逮捕"
+ anti__raids: "逮捕"
+ 
+ ENG_TanHeWeiJi_1: "弹劾危机"
+ ENG_TanHeWeiJi_2: "弹劾危机"
+ ENG_LaLongYiYuan: "拉拢议员"
+ ENG_SHuoFuGuoHui: "说服国会"
+ ENG_ZaiGuoHuiYanJiang: "在国会演讲"
+ 
  Tong_Yi_De: "德意志再一统"
  Bei_De: "建立北德联邦"
  De: "统一的德意志"
@@ -1545,6 +1642,7 @@
  ZHou: "州"
  ZongDuXiaQv: "总督辖区"
  JunQv: "军区"
+ FengCHen: "封臣"
  
  #自定义游戏规则
  
@@ -1565,6 +1663,14 @@
  
  #超事件
  
- load_bw_GER.1_BiaoTi: "纳粹党赢得德国内战"
- load_bw_GER.1_AnNiu: "满目疮痍"
- load_bw_GER.1_MingRenMingYan: "一个国家，一个民族，一个元首\n——纳粹德国宣传海报"
+ # # #德国
+ 
+ load_bw_GER.1_t: "纳粹党赢得德国内战"
+ load_bw_GER.1_d: "一个国家，一个民族，一个元首\n——纳粹德国宣传海报"
+ load_bw_GER.1_a: "满目疮痍"
+ 
+ # # #德国
+ 
+ load_bw_SAF.1_t: "南非内战"
+ load_bw_SAF.1_d: "受压迫的民族只要下定决心赢得自由，\n世上便没有力量得以阻挡。\n——纳尔逊·罗利拉拉·曼德拉"
+ load_bw_SAF.1_a: "大英帝国的明珠熄灭了"

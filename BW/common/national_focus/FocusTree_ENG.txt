@@ -8,22 +8,44 @@ focus_tree = {
 		}
 	}
 	default = no
+
+#经济国策
+
 	focus = {
 		id = 解决经济危机
 		icon = GFX_goal_unknown
 		cost = 5.00
 		x = 5
 		y = 0
-
+		available = {
+			has_idea = bw_FRA_DaXiaoTiao
+		}
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
-		id = 辞职
+		id = 扩招军队
 		icon = GFX_goal_unknown
-		cost = 0.00
-		x = 15
-		y = 0
-
+		cost = 5.00
+		prerequisite = {
+			focus = 解决经济危机
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			add_ideas = limited_conscription
+			capital_scope = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
+# # #国王分支
 	focus = {
 		id = 国王方案
 		icon = GFX_goal_unknown
@@ -36,7 +58,12 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-
+		completion_reward = {
+			add_popularity = {
+				ideology = JunZHuZHuYi
+				popularity = 0.1
+			}
+		}
 	}
 	focus = {
 		id = 实行经济紧缩政策
@@ -47,7 +74,12 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_FRA_DaXiaoTiao
+				add_idea = bw_ENG_DaXiaoTiao_1
+			}
+		}
 	}
 	focus = {
 		id = 鼓励节俭
@@ -58,7 +90,12 @@ focus_tree = {
 		}
 		x = 3
 		y = 3
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_ENG_DaXiaoTiao_1
+				add_idea = bw_ENG_DaXiaoTiao_2
+			}
+		}
 	}
 	focus = {
 		id = 全面私有化
@@ -69,10 +106,19 @@ focus_tree = {
 		}
 		x = 3
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_ENG_DaXiaoTiao_2
+				add_idea = bw_ENG_DaXiaoTiao_1
+			}
+			add_timed_idea = {
+				idea = bw_ENG_SiYouHua
+				days = 180
+			}
+		}
 	}
 	focus = {
-		id = 相信无形的大手
+		id = 相信市场的力量
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -80,19 +126,14 @@ focus_tree = {
 		}
 		x = 3
 		y = 5
-
-	}
-	focus = {
-		id = 裁军
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 解决经济危机
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_ENG_DaXiaoTiao_1
+				add_idea = bw_ENG_DaXiaoTiao_2
+			}
 		}
-		x = 5
-		y = 2
-
 	}
+# # #国会分支
 	focus = {
 		id = 国会方案
 		icon = GFX_goal_unknown
@@ -105,7 +146,16 @@ focus_tree = {
 		}
 		x = 7
 		y = 1
-
+		completion_reward = {
+			add_popularity = {
+				ideology = SHeHuiMinZHuZHuYi
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = MinZHuSHeHuiZHuYi
+				popularity = 0.1
+			}
+		}
 	}
 	focus = {
 		id = 国有化外企
@@ -116,7 +166,12 @@ focus_tree = {
 		}
 		x = 7
 		y = 2
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_FRA_DaXiaoTiao
+				add_idea = bw_ENG_DaXiaoTiao_1
+			}
+		}
 	}
 	focus = {
 		id = 建立经济委员会
@@ -127,7 +182,13 @@ focus_tree = {
 		}
 		x = 7
 		y = 3
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_ENG_DaXiaoTiao_1
+				add_idea = bw_ENG_DaXiaoTiao_2
+			}
+			add_ideas = bw_ENG_JingJiWeiYuanHui
+		}
 	}
 	focus = {
 		id = 投资电力发展
@@ -138,10 +199,19 @@ focus_tree = {
 		}
 		x = 7
 		y = 4
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_ENG_DaXiaoTiao_2
+				add_idea = bw_ENG_DaXiaoTiao_1
+			}
+			add_timed_idea = {
+				idea = bw_ENG_ToZiDianLiFaZHan
+				days = 180
+			}
+		}
 	}
 	focus = {
-		id = 信大手不如信政府
+		id = 信市场不如信政府
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -149,18 +219,43 @@ focus_tree = {
 		}
 		x = 7
 		y = 5
-
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_ENG_DaXiaoTiao_1
+				add_idea = bw_ENG_DaXiaoTiao_2
+			}
+		}
 	}
 	focus = {
 		id = 脱离泥沼
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = 相信无形的大手
-			focus = 信大手不如信政府
+			focus = 相信市场的力量
+			focus = 信市场不如信政府
 		}
 		x = 5
 		y = 6
 
 	}
+
+
+#政治国策
+
+	focus = {
+		id = 辞职
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 15
+		y = 0
+		available = {
+			always = no
+		}
+		completion_reward = {
+			set_politics = {
+				ruling_party = GuiZuBaoSHouZHuYi
+			}
+		}
+	}
+
 }

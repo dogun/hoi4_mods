@@ -1,0 +1,16 @@
+scripted_gui = {
+	load_bw_SAF.1 = {
+		context_type = player_context
+		window_name = "load_bw_SAF.1"
+		visible = {
+			ROOT = {
+				has_country_flag = "load_bw_SAF.1"
+			}
+		}
+		effects = {
+			load_bw_SAF.1_AnNiu_click = {
+				clr_country_flag = "load_bw_SAF.1"
+			}
+		}
+	}
+}

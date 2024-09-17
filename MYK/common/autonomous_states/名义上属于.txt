@@ -34,11 +34,11 @@ autonomy_state = {
 	}
 
 	allowed_levels_filter = {
-#是否和在通常情况下不显示，如果是的化就把自己的id写上去
+#是否和在通常情况下不显示，如果是的化就把自己的id写上去（配合allowed使用）
 		MingYiSHangSHuYv
 	}
 	allowed = {
-#在什么情况下允许使用
+#是否和在通常情况下不显示，如果是的化就把自己的id写上去（配合allowed_levels_filter使用）
 		has_autonomy_state = MingYiSHangSHuYv
 	}
 

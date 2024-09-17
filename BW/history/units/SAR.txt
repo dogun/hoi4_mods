@@ -1,0 +1,155 @@
+﻿division_template = {
+#编制
+	name = "民兵"
+#名称
+
+	division_names_group = ""
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = {
+#支援连
+
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 1468
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 1468
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 4696
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 4696
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 1833
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 4584
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 7576
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 4556
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 1494
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 7900
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "民兵"
+#名称
+		location = 8178
+#位置 ###ps：要写地块
+		division_template = "民兵"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+}

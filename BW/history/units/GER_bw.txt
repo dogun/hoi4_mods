@@ -623,5 +623,41 @@ units = {
 		start_experience_factor = 0.6
 #经验
 	}
+}
 
+create_equipment_variant = {
+	name = "条顿"
+	type = medium_tank_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot=tank_close_support_gun
+		engine_type_slot=tank_gasoline_engine
+		special_type_slot_1=secondary_turret_hmg
+		turret_type_slot=tank_medium_two_man_tank_turret
+		suspension_type_slot=tank_bogie_suspension
+		armor_type_slot=tank_riveted_armor
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_GER_basic_medium_tank_medium"
+}
+
+create_equipment_variant = {
+	name = "改装拖拉机"
+	type = light_tank_chassis_0
+	parent_version = 0
+	modules = {
+		main_armament_slot=tank_heavy_machine_gun
+		engine_type_slot=tank_gasoline_engine
+		turret_type_slot=tank_light_one_man_tank_turret
+		suspension_type_slot=tank_bogie_suspension
+		armor_type_slot=tank_riveted_armor
+	}
+	upgrades = {
+		tank_nsb_engine_upgrade = 0
+		tank_nsb_armor_upgrade = 0
+	}
+	icon = "GFX_GER_basic_medium_tank_medium"
 }

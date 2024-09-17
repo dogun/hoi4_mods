@@ -13,11 +13,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_CHaoSiJian_HeiDeYingNeiZHan"
-		texturefile = "gfx/interface/超事件：黑德嬴内战.png"
-	}
-	
-	SpriteType = {
 		name = "GFX_CHaoSiJian_MingRenMingYan"
 		texturefile = "gfx/interface/超事件：名人名言.png"
 	}

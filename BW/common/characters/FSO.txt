@@ -1,45 +1,15 @@
 characters={
-	GER_Gregor_Strasser = {
-		name = GER_Gregor_Strasser
+	FSO_WenHao = {
+		name = FSO_WenHao
 		portraits={
 			civilian={
 				large="gfx/leaders/Gregor Strasser.dds"
 			}
 		}
 		country_leader={
-			ideology=SiTeLaSeZHuYi_c
+			ideology=JiaSuZHuYi_c
 			traits={ dictator }
 			expire="9999.1.1.1"
-			id=-1
-		}
-	}
-
-	GER_adolf_hitler_BW={
-		name=GER_adolf_hitler
-		portraits={
-			civilian={
-				large="gfx/leaders/小胡子.dds"
-			}
-		}
-		country_leader={
-			ideology=MinZuSHeHuiZHuYi_c
-			traits={ dictator }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	GER_Heinrich_Himmler_BW={
-		name=Heinrich_Himmler
-		portraits={
-			civilian={
-				large="gfx/leaders/希姆莱.dds"
-			}
-		}
-		country_leader={
-			ideology=BoGenDiTiZHi_c
-			traits={ dictator }
-			expire="1965.1.1.1"
 			id=-1
 		}
 	}

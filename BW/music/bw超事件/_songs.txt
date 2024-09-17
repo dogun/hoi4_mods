@@ -6,6 +6,14 @@ music = {
 	chance = {
 		modifier = {
 			factor = 0
-		}		
+		}
+	}
+}
+music = {
+	song = "超事件：南非国歌"
+	chance = {
+		modifier = {
+			factor = 0
+		}
 	}
 }

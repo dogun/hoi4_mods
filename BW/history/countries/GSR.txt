@@ -46,3 +46,5 @@ add_ideas = {
 	bw_GSR_FaErSaiTiaoYueDeYvBo
 	bw_GER_YingFaFanDui
 }
+
+recruit_character = GSR_Ernst_Johannes_Fritz_Thalmann

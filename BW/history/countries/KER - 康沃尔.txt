@@ -1,0 +1,19 @@
+﻿ capital = 123
+
+set_politics = {
+	ruling_party = JunZHuZHuYi
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	JunZHuZHuYi = 100
+}
+
+add_ideas = {
+	disarmed_nation
+	closed_economy
+}
+
+recruit_character = KER_Edward_VIII
+

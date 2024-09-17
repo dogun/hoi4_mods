@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+		bw_SAR_DiSanCiBuErZHanZHeng = {	#第三次布尔战争
+			picture = DiSanCiBuErZHanZHeng
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				war_support_factor = 0.1
+				supply_combat_penalties_on_core_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_SAR_ossewa_brandwag = {	#奥瑟瓦-布兰德维格
+			picture = ossewa_brandwag
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription_factor = 0.33
+				party_popularity_stability_factor = 0.1
+				MinZuSHeHuiZHuYi_drift = 0.01
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_SAR_BuErMinZuZHuYi = {	#布尔民族主义
+			picture = BuErMinZuZHuYi
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+			}
+			targeted_modifier = {
+				tag = ENG
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+	}
+}

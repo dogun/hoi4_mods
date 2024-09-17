@@ -4,21 +4,40 @@
 
 add_namespace = bw_ENG
 
-country_event = { #不列颠削减自治权
+#country_event = { #不列颠削减自治权
+#	id = bw_ENG.1
+#	title = bw_ENG.1.t
+#	desc = bw_ENG.1.d
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = bw_ENG.1.a #谁叫他是我们的宗主
+#		ENG = {
+#			add_political_power = 50
+#			annex_country = {
+#				target = RAJ
+#				transfer_troops = yes
+#			}
+#		}
+#	}
+#}
+
+country_event = { #国王驾崩
 	id = bw_ENG.1
 	title = bw_ENG.1.t
 	desc = bw_ENG.1.d
-	is_triggered_only = yes
+	fire_only_once = yes
+	is_triggered_only = no
 
+	fire_only_once = yes
+	trigger = {
+		tag = ENG
+		date = "1937.01.20"
+	}
+	mean_time_to_happen = { days = 1 }
 	option = {
-		name = bw_ENG.1.a #谁叫他是我们的宗主
-		ENG = {
-			add_political_power = 50
-			annex_country = {
-				target = RAJ
-				transfer_troops = yes
-			}
-		}
+		name = bw_ENG.1.a #愿他安息
+		kill_ideology_leader = JunZHuZHuYi
 	}
 }
 
