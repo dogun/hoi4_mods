@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=JunZHuZHuYi_c
 			traits={
-				
+				inexperienced_imperialist
 			}
 			expire="1972.5.28.1"
 			id=-1

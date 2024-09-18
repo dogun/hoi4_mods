@@ -17,7 +17,7 @@ ENG_TanHeWeiJi_1 = {
 #是否一次性
 		visible = {
 #展示条件
-			original_tag = ENG
+			tag = ENG
 		}
 
 #		cancel_if_not_visible = yes
@@ -30,6 +30,7 @@ ENG_TanHeWeiJi_1 = {
 		activation = {
 #在什么情况下，任务被激活并开始倒计时：
 			has_idea = bw_FRA_DaXiaoTiao
+			tag = ENG
 		}
 		available = { 
 			always = no 

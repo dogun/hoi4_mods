@@ -17,4 +17,38 @@ characters={
 		}
 	}
 
+	RNG_George_V={
+		name=ENG_George_V
+		portraits={
+			civilian={
+				large="gfx/leaders/乔老五.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={
+				popular_figurehead
+			}
+			expire="1937.1.20.1"
+			id=-1
+		}
+	}
+
+	ENG_Edward_VIII={
+		name=ENG_Edward_VIII
+		portraits={
+			civilian={
+				large="gfx/leaders/爱老八.dds"
+			}
+		}
+		country_leader={
+			ideology=JunZHuZHuYi_c
+			traits={
+				inexperienced_imperialist
+			}
+			expire="1972.5.28.1"
+			id=-1
+		}
+	}
+
 }
