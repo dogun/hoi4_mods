@@ -1,6 +1,6 @@
 political_actions = {	#政治行动
 #决议组id
-	anti_WuZHengFuGuongCHanZHuYi_raids = {	逮捕反政府武装
+	anti_WuZHengFuGuongCHanZHuYi_raids = {	#逮捕反政府武装
 #决议id
 
 		icon = generic_civil_support
@@ -51,7 +51,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_GuongTuanZHuYi_raids = {	逮捕激进工人
+	anti_GuongTuanZHuYi_raids = {	#逮捕激进工人
 #决议id
 
 		icon = generic_civil_support
@@ -102,7 +102,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_MaKeSi_LieNingZHuYi_raids = {	逮捕左翼知识分子
+	anti_MaKeSi_LieNingZHuYi_raids = {	#逮捕左翼知识分子
 #决议id
 
 		icon = generic_civil_support
@@ -153,7 +153,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_TuoLuoSiJiZHuYi_raids = {	逮捕先锋队成员
+	anti_TuoLuoSiJiZHuYi_raids = {	#逮捕先锋队成员
 #决议id
 
 		icon = generic_civil_support
@@ -204,7 +204,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_SiDaLingZHuYi_raids = {	逮捕共产国际成员
+	anti_SiDaLingZHuYi_raids = {	#逮捕共产国际成员
 #决议id
 
 		icon = generic_civil_support
@@ -255,7 +255,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_YuanSHiZHuYi_raids = {	逮捕先进科学家
+	anti_YuanSHiZHuYi_raids = {	#逮捕先进科学家
 #决议id
 
 		icon = generic_civil_support
@@ -306,7 +306,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_JunZHengGuongCHanZHuYi_raids = {	逮捕红色军人
+	anti_JunZHengGuongCHanZHuYi_raids = {	#逮捕红色军人
 #决议id
 
 		icon = generic_civil_support
@@ -357,7 +357,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_JunZHuBuErSHiWeiKe_raids = {	逮捕共产主义贵族
+	anti_JunZHuBuErSHiWeiKe_raids = {	#逮捕共产主义贵族
 #决议id
 
 		icon = generic_civil_support
@@ -408,7 +408,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_GuDianZiYouZHuYi_raids = {	逮捕哈耶克主义者
+	anti_GuDianZiYouZHuYi_raids = {	#逮捕哈耶克主义者
 #决议id
 
 		icon = generic_civil_support
@@ -459,7 +459,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_SHeHuiMinZHuZHuYi_raids = {	逮捕凯恩斯主义者
+	anti_SHeHuiMinZHuZHuYi_raids = {	#逮捕凯恩斯主义者
 #决议id
 
 		icon = generic_civil_support
@@ -510,7 +510,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_MinZHuSHeHuiZHuYi_raids = {	逮捕温和共产主义者
+	anti_MinZHuSHeHuiZHuYi_raids = {	#逮捕温和共产主义者
 #决议id
 
 		icon = generic_civil_support
@@ -561,7 +561,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_JunZHuZHuYi_raids = {	逮捕保皇派
+	anti_JunZHuZHuYi_raids = {	#逮捕保皇派
 #决议id
 
 		icon = generic_civil_support
@@ -612,7 +612,7 @@ political_actions = {	#政治行动
 		}
 	}
 
-	anti_MinZuSHeHuiZHuYi_raids = {	逮捕极端民族主义者
+	anti_MinZuSHeHuiZHuYi_raids = {	#逮捕极端民族主义者
 #决议id
 
 		icon = generic_civil_support

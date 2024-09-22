@@ -10,7 +10,7 @@ set_convoys = 20
 #recruit_character = GAB_acr
 
 set_politics = {
-	ruling_party = guojiafaxisi
+	ruling_party = FaXiSiZHuYi
 }
 
 set_popularities = {

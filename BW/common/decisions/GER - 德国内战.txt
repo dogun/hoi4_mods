@@ -850,7 +850,6 @@ GER_DeGuoNeiZHan = {
 		ai_will_do = {
 #ai倾向
 			factor = 99999
-			}
 		}
 	}
 }

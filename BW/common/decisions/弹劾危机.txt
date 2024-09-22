@@ -67,6 +67,10 @@ ENG_TanHeWeiJi_1 = {
 		fire_only_once = no
 #是否一次性
 		days_remove = 10
+		modifier = {
+#持续时间内效果（写修正）
+			political_power_cost = 0.1
+		}
 
 		visible = {
 #展示条件
@@ -111,6 +115,10 @@ ENG_TanHeWeiJi_1 = {
 		fire_only_once = no
 #是否一次性
 		days_remove = 20
+		modifier = {
+#持续时间内效果（写修正）
+			political_power_cost = 0.1
+		}
 
 		visible = {
 #展示条件
@@ -155,6 +163,10 @@ ENG_TanHeWeiJi_1 = {
 		fire_only_once = no
 #是否一次性
 		days_remove = 40
+		modifier = {
+#持续时间内效果（写修正）
+			political_power_cost = 0.1
+		}
 
 		visible = {
 #展示条件

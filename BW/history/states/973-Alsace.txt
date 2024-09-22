@@ -26,9 +26,12 @@ state=
 		add_core_of = FRA
 	}
 
-	provinces=
-	{
-11516 521 11642 698	}
+	provinces={
+		11516
+		521
+		#11642
+		#698
+	}
 
 	local_supplies=0.0 
 }

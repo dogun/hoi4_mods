@@ -1,4 +1,7 @@
-﻿recruit_character = ENG_Stanley_Baldwin
+﻿
+
+recruit_character = ENG_Stanley_Baldwin
+recruit_character = ENG_Winston_Churchill
 recruit_character = ENG_George_V
 
 recruit_character = ENG_Edward_VIII

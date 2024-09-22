@@ -14,7 +14,7 @@ set_politics = {
 }
 
 set_popularities = {
-	junzhengfu = 40
+	JiaZHangZHi = 40
 	neutrality = 60
 }
 

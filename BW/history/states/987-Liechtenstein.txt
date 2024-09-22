@@ -17,11 +17,10 @@ state=
 			industrial_complex = 1
 		}
 		add_core_of = LUX
-	}
-
 		victory_points = {
 			13364 1 
 		}
+	}
 
 	provinces=
 	{

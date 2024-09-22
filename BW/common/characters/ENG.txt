@@ -17,7 +17,24 @@ characters={
 		}
 	}
 
-	RNG_George_V={
+	ENG_Winston_Churchill={
+		name=ENG_Winston_Churchill
+		portraits={
+			civilian={
+				large="gfx/leaders/丘吉尔.dds"
+			}
+		}
+		country_leader={
+			ideology=GuiZuBaoSHouZHuYi_c
+			traits={
+				british_bulldog
+			}
+			expire="1965.1.24.1"
+			id=-1
+		}
+	}
+
+	ENG_George_V={
 		name=ENG_George_V
 		portraits={
 			civilian={

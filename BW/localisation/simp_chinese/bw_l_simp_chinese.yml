@@ -15,7 +15,8 @@
  STATE_970: "萨尔"
  STATE_971: "马祖伦"
  STATE_972: "外卢森堡"
- STATE_973: "下阿尔萨斯"
+ #STATE_973: "下阿尔萨斯"
+ STATE_973: "南锡"
  STATE_974: "莫雷斯内特"
  STATE_975: "威廉港"
  STATE_976: "不来梅"
@@ -34,12 +35,14 @@
  STATE_989: "加莱"
  STATE_990: "北巴勒斯坦"
  STATE_991: "耶路撒冷"
+ 
  STATE_5: "埃姆兰"
  STATE_233: "索契山区"
  STATE_454: "南巴勒斯坦"
  STATE_217: "伏尔加格勒"
  STATE_227: "顿涅茨克"
  STATE_742: "杜尚别"
+ STATE_29: "诺尔"
  
  #城市
  
@@ -661,6 +664,8 @@
  # # #英国
  
  ENG_Stanley_Baldwin: "斯坦利·鲍德温"
+ 
+ ENG_Winston_Churchill: "温斯顿·伦纳德·斯宾塞-丘吉尔"
  
  ENG_George_V: "乔治五世·弗雷德里克·恩斯特·阿尔伯特"
  
