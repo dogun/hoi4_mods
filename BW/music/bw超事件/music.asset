@@ -8,3 +8,8 @@ music = {
 	file = "南非国歌.ogg"
 	volume = 1
 }
+music = {
+	name = "超事件：齐格纳维森"
+	file = "齐格纳维森，作品20.ogg"
+	volume = 1
+}

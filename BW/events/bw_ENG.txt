@@ -56,10 +56,27 @@ add_namespace = bw_ENG
 #	}
 #}
 
-country_event = { #国王驾崩
+country_event = { #辞职
 	id = bw_ENG.1
 	title = bw_ENG.1.t
 	desc = bw_ENG.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.1.a #丘吉尔
+		set_politics = {
+			ruling_party = GuiZuBaoSHouZHuYi
+		}
+	}
+	option = {
+		name = bw_ENG.1.b #张伯伦
+	}
+}
+
+country_event = { #国王驾崩
+	id = bw_ENG.2
+	title = bw_ENG.2.t
+	desc = bw_ENG.2.d
 	fire_only_once = yes
 	is_triggered_only = no
 
@@ -70,7 +87,7 @@ country_event = { #国王驾崩
 	}
 	mean_time_to_happen = { days = 1 }
 	option = {
-		name = bw_ENG.1.a #先皇已逝
+		name = bw_ENG.2.a #先皇已逝
 		kill_ideology_leader = JunZHuZHuYi
 		custom_effect_tooltip = ZHaoMu_ENG_Edward_VIII
 		annex_country = {
@@ -78,49 +95,50 @@ country_event = { #国王驾崩
 			transfer_troops = yes
 		}
 		news_event = {
-			id = bw_ENG.2
+			id = bw_ENG.3
 			days = 5
 			random = 0
 		}
 		hidden_effect = {
 			recruit_character = ENG_Edward_VIII
-			news_event = {
-				id = bw_ENG.3
-				days = 365
-				random = 0
-			}
 		}
 	}
 }
 
 country_event = { #葬礼
-	id = bw_ENG.2
-	title = bw_ENG.2.t
-	desc = bw_ENG.2.d
-	is_triggered_only = yes
-
-	option = {
-		name = bw_ENG.2.a #愿他安息
-		add_political_power  = 10
-		add_stability = 0.05
-	}
-}
-
-country_event = { #爱德华八世退位危机
 	id = bw_ENG.3
 	title = bw_ENG.3.t
 	desc = bw_ENG.3.d
 	is_triggered_only = yes
 
 	option = {
-		name = bw_ENG.3.a #国王一意孤行...
+		name = bw_ENG.3.a #愿他安息
+		add_political_power  = 10
+		add_stability = 0.05
+	}
+}
+
+country_event = { #爱德华八世退位危机
+	id = bw_ENG.4
+	title = bw_ENG.4.t
+	desc = bw_ENG.4.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.4.a #国王一意孤行...
 		custom_effect_tooltip = TiaoZHenHangXian
+
+		complete_national_focus = 爱德华八世退位危机
+
 		add_political_power  = -50
 		add_stability = -0.05
 	}
 	option = {
-		name = bw_ENG.3.b #那就只能退位...
+		name = bw_ENG.4.b #那就只能退位...
 		custom_effect_tooltip = PingWenHangXing
+
+		complete_national_focus = 爱德华八世退位危机
+
 		retire_ideology_leader = JunZHuZHuYi
 	}
 }

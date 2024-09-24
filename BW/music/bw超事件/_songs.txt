@@ -17,3 +17,11 @@ music = {
 		}
 	}
 }
+music = {
+	song = "超事件：齐格纳维森"
+	chance = {
+		modifier = {
+			factor = 0
+		}
+	}
+}

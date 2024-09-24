@@ -3705,7 +3705,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/登山之人.png"
 	}
 	SpriteType = {
-		name = "GFX_ideaSiYouHua"
+		name = "GFX_idea_SiYouHua"
 		texturefile = "gfx/interface/ideas/全面私有化.png"
 	}
 	SpriteType = {
@@ -3715,6 +3715,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_ToZiDianLiFaZHan"
 		texturefile = "gfx/interface/ideas/投资电力发展.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_CHongZHengJunBei"
+		texturefile = "gfx/interface/ideas/重整军备.png"
 	}
 	# # # # # #爱尔兰
 	SpriteType = {

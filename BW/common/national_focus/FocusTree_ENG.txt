@@ -12,7 +12,7 @@ focus_tree = {
 #经济国策
 
 	focus = {
-		id = 解决经济危机
+		id = ENG_JiejueJingJiWeiJi #解决经济危机
 		icon = GFX_goal_unknown
 		cost = 5.00
 		x = 5
@@ -25,16 +25,20 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = 扩招军队
+		id = ENG_KuoZHaoJunDui #扩招军队
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = 解决经济危机
+			focus = ENG_JiejueJingJiWeiJi #解决经济危机
 		}
 		x = 5
 		y = 2
 		completion_reward = {
 			add_ideas = limited_conscription
+			swap_ideas = {
+				remove_idea = bw_ENG_CHongZHengJunBei_1
+				add_idea = bw_ENG_CHongZHengJunBei_2
+			}
 			capital_scope = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -51,7 +55,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = 解决经济危机
+			focus = ENG_JiejueJingJiWeiJi #解决经济危机
 		}
 		mutually_exclusive = {
 			focus = 国会方案
@@ -139,7 +143,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = 解决经济危机
+			focus = ENG_JiejueJingJiWeiJi #解决经济危机
 		}
 		mutually_exclusive = {
 			focus = 国王方案
@@ -248,13 +252,281 @@ focus_tree = {
 		cost = 0.00
 		x = 15
 		y = 0
+		allow_branch = {
+			#has_completed_focus = 辞职
+		}
+		completion_reward = {
+			news_event = {
+				id = bw_ENG.1
+				days = 0
+				random = 0
+			}
+			swap_ideas = {
+				remove_idea = bw_ENG_TanHeWeiJi
+				add_idea = bw_ENG_TanHeWeiJiDeYvBo
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	focus = {
+		id = 重组内阁
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 辞职
+		}
+		x = 15
+		y = 1
+		completion_reward = {
+			add_political_power = 50
+			remove_ideas = bw_ENG_TanHeWeiJiDeYvBo
+		}
+	}
+	focus = {
+		id = 稳定国内
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 重组内阁
+		}
+		x = 15
+		y = 2
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = 世界的十字路口
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 稳定国内
+		}
+		x = 15
+		y = 3
+		completion_reward = {
+			add_war_support = 0.1
+			hidden_effect = {
+				news_event = {
+					id = bw_ENG.4
+					days = 5
+					random = 0
+				}
+			}
+		}
+	}
+	focus = {
+		id = 爱德华八世退位危机
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 世界的十字路口
+		}
+		x = 15
+		y = 4
 		available = {
 			always = no
 		}
 		completion_reward = {
-			set_politics = {
-				ruling_party = GuiZuBaoSHouZHuYi
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+		}
+	}
+# # #蓝色大分支
+	focus = {
+		id = ENG_JiuSHiJieDeHanWeiZHe #旧世界的捍卫者
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 爱德华八世退位危机
+		}
+		x = 15
+		y = 6
+		completion_reward = {
+			add_ideas = bw_ENG_JiuSHiJieDeHanWeiZHe
+		}
+	}
+# # # # # #苏格兰中分支
+	focus = {
+		id = ENG_DuiSuGeLanZHengCe #对苏格兰政策
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = 爱德华八世退位危机
+		}
+		x = 26
+		y = 6
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+# # # # # # # # #妥协小分支
+	focus = {
+		id = ENG_TuoXie #妥协
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_DuiSuGeLanZHengCe #对苏格兰政策
+		}
+		x = 22
+		y = 7
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = ENG_LiangDinWangGuan #两顶王冠
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_TuoXie #妥协
+		}
+		mutually_exclusive = {
+			focus = ENG_JianLiZiZHiQv #建立自治区
+			focus = ENG_PingDengDeYingLianBangWangGuo #平等的英联邦王国
+		}
+		x = 19
+		y = 8
+		completion_reward = {
+			add_political_power = 10
+
+			release_autonomy = {
+				target = SCO
+				autonomy_state = FengCHen
 			}
+			set_cosmetic_tag = ENG_england
+		}
+	}
+	focus = {
+		id = ENG_JianLiZiZHiQv #建立自治区
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_TuoXie #妥协
+		}
+		mutually_exclusive = {
+			focus = ENG_LiangDinWangGuan #两顶王冠
+			focus = ENG_PingDengDeYingLianBangWangGuo #平等的英联邦王国
+		}
+		x = 22
+		y = 8
+		completion_reward = {
+			add_political_power = 20
+
+			release_autonomy = {
+				target = SCO
+				autonomy_state = ZiZHiQv
+			}
+			set_cosmetic_tag = ENG_england
+		}
+	}
+	focus = {
+		id = ENG_PingDengDeYingLianBangWangGuo #平等的英联邦王国
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_TuoXie #妥协
+		}
+		mutually_exclusive = {
+			focus = ENG_LiangDinWangGuan #两顶王冠
+			focus = ENG_JianLiZiZHiQv #建立自治区
+		}
+		x = 25
+		y = 8
+		completion_reward = {
+			add_political_power = 30
+
+			release_autonomy = {
+				target = SCO
+				autonomy_state = BaoHuGuo
+			}
+			set_cosmetic_tag = ENG_england
+		}
+	}
+	focus = {
+		id = ENG_YvSuGeLanRenHeJie #与苏格兰人和解
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_LiangDinWangGuan #两顶王冠
+			focus = ENG_JianLiZiZHiQv #建立自治区
+			focus = ENG_PingDengDeYingLianBangWangGuo #平等的英联邦王国
+		}
+		x = 22
+		y = 9
+		completion_reward = {
+			remove_ideas = bw_ENG_SuGeLanFanDuiPai
+		}
+	}
+# # # # # # # # #铁拳小分支
+	focus = {
+		id = ENG_TieQvan #铁拳
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_DuiSuGeLanZHengCe #对苏格兰政策
+		}
+		x = 30
+		y = 7
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = ENG_KongZHiSuGeLanJingCHa #控制苏格兰警察
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_TieQvan #铁拳
+		}
+		x = 30
+		y = 8
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = ENG_ZHuanYiWuQiZHuangBei #转移武器装备
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_KongZHiSuGeLanJingCHa #控制苏格兰警察
+		}
+		x = 30
+		y = 9
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = ENG_KuangRenXingDong #“狂人”行动
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_ZHuanYiWuQiZHuangBei #转移武器装备
+		}
+		x = 30
+		y = 10
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -10
+			release_on_controlled = SCO
+		}
+	}
+	focus = {
+		id = ENG_YaSeWangXingDong #“亚瑟王”行动
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_KuangRenXingDong #“狂人”行动
+		}
+		x = 30
+		y = 11
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = -10
 		}
 	}
 

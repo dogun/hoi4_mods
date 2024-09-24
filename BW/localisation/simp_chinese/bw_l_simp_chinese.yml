@@ -63,13 +63,7 @@
  STRATEGICREGION_267: "希瓦"
  STRATEGICREGION_269: "布哈拉"
  STRATEGICREGION_248: "两广"
- 
- 
- 
- 
- 
- 
- 
+
  #国家
   
  GSR: "德意志社会主义苏维埃共和国"
@@ -440,14 +434,25 @@
  bw_ENG_DaXiaoTiao_2_desc: "股市的下架率达到80%，股民从天而降，街上全是失业的人。"
  
  bw_ENG_SiYouHua: "私有化"
- bw_ENG_SiYouHua_desc: "将国有企业出售换取资金。"
+ #bw_ENG_SiYouHua_desc: "将国有企业出售换取资金。"
  
  bw_ENG_JingJiWeiYuanHui: "经济委员会"
  #bw_ENG_JingJiWeiYuanHei_desc: "政府任命一些经济学家组成委员会控制支出和投资。"
- bw_ENG_JingJiWeiYuanHui_desc: "政府任命一些经济学家组成委员会协助财政大臣工作。"
+ #bw_ENG_JingJiWeiYuanHui_desc: "政府任命一些经济学家组成委员会协助财政大臣工作。"
  
  bw_ENG_ToZiDianLiFaZHan: "投资电力发展"
- bw_ENG_ToZiDianLiFaZHan_desc: "政府出钱保持基础设施的稳定。"
+ #bw_ENG_ToZiDianLiFaZHan_desc: "政府出钱保持基础设施的稳定。"
+ 
+ bw_ENG_TanHeWeiJi: "弹劾危机"
+ 
+ bw_ENG_TanHeWeiJiDeYvBo: "弹劾危机的余波"
+ 
+ bw_ENG_JiuSHiJieDeHanWeiZHe: "旧世界的捍卫者"
+ 
+ bw_ENG_CHongZHengJunBei_1: "重整军备"
+ bw_ENG_CHongZHengJunBei_1_desc: "“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ bw_ENG_CHongZHengJunBei_2: "重整军备"
+ bw_ENG_CHongZHengJunBei_2_desc: "“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
  
  # # #GSR
  
@@ -814,21 +819,27 @@
  #bw_ENG.3.d: ""
  #bw_ENG.3.a: "旧友"
  
- bw_ENG.1: "国王驾崩"
- bw_ENG.1.t: "国王驾崩"
+ bw_ENG.1: "辞职"
+ bw_ENG.1.t: "辞职"
  bw_ENG.1.d: ""
- bw_ENG.1.a: "先皇已逝"
+ bw_ENG.1.a: "丘吉尔"
+ bw_ENG.1.b: "张伯伦"
  
- bw_ENG.2: "葬礼"
- bw_ENG.2.t: "葬礼"
+ bw_ENG.2: "国王驾崩"
+ bw_ENG.2.t: "国王驾崩"
  bw_ENG.2.d: ""
- bw_ENG.2.a: "愿他安息"
+ bw_ENG.2.a: "先皇已逝"
  
- bw_ENG.3: "爱德华八世退位危机"
- bw_ENG.3.t: "爱德华八世退位危机"
+ bw_ENG.3: "葬礼"
+ bw_ENG.3.t: "葬礼"
  bw_ENG.3.d: ""
- bw_ENG.3.a: "国王一意孤行..."
- bw_ENG.3.b: "那就只能退位..."
+ bw_ENG.3.a: "愿他安息"
+ 
+ bw_ENG.4: "爱德华八世退位危机"
+ bw_ENG.4.t: "爱德华八世退位危机"
+ bw_ENG.4.d: ""
+ bw_ENG.4.a: "国王一意孤行..."
+ bw_ENG.4.b: "那就只能退位..."
  
  # # #德三
  
@@ -1204,6 +1215,8 @@
  
  #文本
  
+ JieSuoXiaYiBuGuoCe: "解锁下一步国策"
+ 
  Treaty_of_Trianon_CZE_W: "捷克将被称为$CZE$"
  
  SOV_QieHuanXiaYiJieDuanGuoCe: "§R切换下一阶段国策§!"
@@ -1335,12 +1348,20 @@
  
  # # #大不列颠
  
- Government_of_India_Act_1935: "最终通过《1935年印度政府法案》"
- Government_of_India_Act_1935_desc: "《1935年印度政府法案》听名字就知道是1935年提出的，结果到现在都没通过。\n“和这群虫豸在一起，怎么能搞好政治！”"
+ #Government_of_India_Act_1935: "最终通过《1935年印度政府法案》"
+ #Government_of_India_Act_1935_desc: "《1935年印度政府法案》听名字就知道是1935年提出的，结果到现在都没通过。\n“和这群虫豸在一起，怎么能搞好政治！”"
+ #
+ #KaiSHiCHongZHengJunBei: "开始重整军备"
+ #KaiSHiCHongZHengJunBei_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ #
+ #ZongBeiHouSHou: "准备后手"
+ #ZongBeiHouSHou_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
  
- KaiSHiCHongZHengJunBei: "开始重整军备"
- KaiSHiCHongZHengJunBei_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ ENG_JiejueJingJiWeiJi: "解决经济危机"
+ ENG_JiejueJingJiWeiJi_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
  
+ ENG_KuoZHaoJunDui: "扩招军队"
+ ENG_KuoZHaoJunDui_desc: "大萧条使超过455K人失业，军备重整计划也使军队急需人手，可以把失业的人拉到军队以减轻社会负担，当然这也会加重政府赤字。"
  
  ZongBeiHouSHou: "准备后手"
  ZongBeiHouSHou_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"

@@ -188,6 +188,7 @@ add_ideas = {
 	george_v
 	bw_ENG_SuGeLanFanDuiPai
 	bw_ENG_RiLuoDiGuo
+	bw_ENG_CHongZHengJunBei_1
 }
 
 add_timed_idea = {

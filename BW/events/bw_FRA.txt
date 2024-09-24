@@ -14,5 +14,12 @@ country_event = { #大萧条此卷$ROOT$
 	option = {
 		name = bw_FRA.1.a #赶快拯救经济
 		add_ideas = bw_FRA_DaXiaoTiao
+		if = {
+			limit = {
+				tag = ENG
+			}
+			activate_mission = ENG_TanHeWeiJi_2
+			add_ideas = bw_ENG_TanHeWeiJi
+		}
 	}
 }

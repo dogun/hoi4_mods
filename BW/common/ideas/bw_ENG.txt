@@ -146,5 +146,95 @@ ideas = {
 			}
 		}
 
+		bw_ENG_TanHeWeiJi = {	#弹劾危机
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_cost = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_TanHeWeiJiDeYvBo = {	#弹劾危机的余波
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_cost = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_JiuSHiJieDeHanWeiZHe = {	#旧世界的捍卫者
+			picture = ToZiDianLiFaZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_attack_against_major_factor = 0.1
+
+				army_org_factor = 0.1
+
+				mobilization_speed = 0.05
+			}
+			targeted_modifier = {
+				tag = GER
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		bw_ENG_CHongZHengJunBei_1 = {	#重整军备
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_CHongZHengJunBei_2 = {	#重整军备
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+			targeted_modifier = {
+			}
+		}
+
 	}
 }
