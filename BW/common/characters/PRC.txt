@@ -8,8 +8,38 @@ characters={
 		}
 		country_leader={
 			ideology=GuongTuanZHuYi_c
-			traits={  }
+			traits={ cornered_fox }
 			expire="1976.09.09.1"
+			id=-1
+		}
+	}
+
+	PRC_LiDaZHao={
+		name=PRC_LiDaZHao
+		portraits={
+			civilian={
+				large="gfx/leaders/李大钊.dds"
+			}
+		}
+		country_leader={
+			ideology=MaKeSi_LieNingZHuYi_c
+			traits={ GongCHanDangDeDiZaoZHe }
+			expire="1937.01.01.1"
+			id=-1
+		}
+	}
+
+	PRC_CHenDuXiu={
+		name=PRC_CHenDuXiu
+		portraits={
+			civilian={
+				large="gfx/leaders/陈独秀.dds"
+			}
+		}
+		country_leader={
+			ideology=TuoLuoSiJiZHuYi_c
+			traits={  }
+			expire="1942.05.027.1"
 			id=-1
 		}
 	}

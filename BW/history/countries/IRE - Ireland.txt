@@ -3,6 +3,7 @@
 	add_ideas = {
 		bw_IRE_Celt
 		bw_IRE_FeiCuiZHiDao
+		bw_IRE_YingAiMaoYiZHan
 	}
 
 oob = "IRE_1936"
@@ -90,22 +91,13 @@ recruit_character = IRE_sean_ceallaigh
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = BaoSHouZHuYi
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1938.6.17"
-		election_frequency = 48
-		elections_allowed = yes
-	}
+	BaoSHouZHuYi = 50
+	JiaZHangZHi = 25
+	MinZuSHeHuiZHuYi = 25
 }

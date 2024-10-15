@@ -3,25 +3,20 @@ state = {
 	name = "STATE_875" #Chukchi Peninsula
 
 	history = {
-		owner = FER
+		owner = AUR
 		victory_points = {
-			13204 1 
+			5042 1 
 		}
-		buildings = {
-			infrastructure = 1
-			13204 ={
-				naval_base = 1
-			}
-		}
-		add_core_of = CKK
-		add_core_of = FER
-
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = AUR
 	}
 
 	provinces = {
-		13204 13254
+		5042 
 	}
-	manpower = 30000
+	manpower = 24000
 	buildings_max_level_factor = 1
 	state_category = "pastoral"
 

@@ -3720,6 +3720,10 @@ spriteTypes = {
 		name = "GFX_idea_CHongZHengJunBei"
 		texturefile = "gfx/interface/ideas/重整军备.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_MeiNiuXeiDing"
+		texturefile = "gfx/interface/ideas/煤牛协定.png"
+	}
 	# # # # # #爱尔兰
 	SpriteType = {
 		name = "GFX_idea_Celt"
@@ -3728,6 +3732,30 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_FeiCuiZHiDao"
 		texturefile = "gfx/interface/ideas/翡翠之岛.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_YingAiMaoYiZHan"
+		texturefile = "gfx/interface/ideas/英爱贸易战.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_YingGuoToZi"
+		texturefile = "gfx/interface/ideas/英国投资.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_CHuSHouMeiNiu"
+		texturefile = "gfx/interface/ideas/出售煤牛.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_YingAiMaoYiTiaoYue"
+		texturefile = "gfx/interface/ideas/英爱贸易条约.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_BeiFengSuoDeJingJi"
+		texturefile = "gfx/interface/ideas/被封锁的经济.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_KongHuangQingXvManYan"
+		texturefile = "gfx/interface/ideas/恐慌情绪蔓延.png"
 	}
 	# # # # # #中国
 	SpriteType = {

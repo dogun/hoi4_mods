@@ -1,0 +1,6 @@
+opinion_modifiers = {
+
+	bw_HeJieZHengCe_opinion_modifiers = {
+		value = 10
+	}
+}

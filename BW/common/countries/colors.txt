@@ -1,5 +1,15 @@
 #reload countrycolors
 
+AUR = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
+NMK = {
+	color = rgb { 0 108 183 }
+	color_ui = rgb { 0 108 183 }
+}
+
 KER = {
 	color = rgb { 125 100 10 }
 	color_ui = rgb { 125 100 10 }

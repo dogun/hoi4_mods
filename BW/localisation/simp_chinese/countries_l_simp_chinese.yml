@@ -2260,60 +2260,60 @@
  IRE_communism_ADJ:0 "爱尔兰"
  #共产（原版）
  ###
- IRE_WuZHengFuGuongCHanZHuYi: "德意志无政府联盟"
+ IRE_WuZHengFuGuongCHanZHuYi: "翡翠公社"
  #无政府共产主义
- IRE_WuZHengFuGuongCHanZHuYi_DEF: "德意志无政府联盟"
+ IRE_WuZHengFuGuongCHanZHuYi_DEF: "翡翠公社"
  #无政府共产主义
- IRE_WuZHengFuGuongCHanZHuYi_ADJ: "德意志联盟"
+ IRE_WuZHengFuGuongCHanZHuYi_ADJ: "爱尔兰"
  #无政府共产主义
  
- IRE_GuongTuanZHuYi: "柏林公社"
+ IRE_GuongTuanZHuYi: "翡翠公社"
  #工团主义
- IRE_GuongTuanZHuYi_DEF: "柏林公社"
+ IRE_GuongTuanZHuYi_DEF: "翡翠公社"
  #工团主义
- IRE_GuongTuanZHuYi_ADJ: "柏林"
+ IRE_GuongTuanZHuYi_ADJ: "爱尔兰"
  #工团主义
  
- IRE_MaKeSi_LieNingZHuYi: "德意志社会主义共和国"
+ IRE_MaKeSi_LieNingZHuYi: "爱尔兰苏维埃人民共和国"
  #马克思 - 列宁主义
- IRE_MaKeSi_LieNingZHuYi_DEF: "德意志社会主义共和国"
+ IRE_MaKeSi_LieNingZHuYi_DEF: "爱尔兰苏维埃人民共和国"
  #马克思 - 列宁主义
- IRE_MaKeSi_LieNingZHuYi_ADJ: "德国"
+ IRE_MaKeSi_LieNingZHuYi_ADJ: "爱尔兰"
  #马克思 - 列宁主义
  
- IRE_TuoLuoSiJiZHuYi: "德国革命军"
+ IRE_TuoLuoSiJiZHuYi: "爱尔兰苏维埃人民共和国"
  #托洛斯基
- IRE_TuoLuoSiJiZHuYi_DEF: "德国革命军"
+ IRE_TuoLuoSiJiZHuYi_DEF: "爱尔兰苏维埃人民共和国"
  #托洛斯基
- IRE_TuoLuoSiJiZHuYi_ADJ: "德国"
+ IRE_TuoLuoSiJiZHuYi_ADJ: "爱尔兰"
  #托洛斯基
   
- IRE_SiDaLingZHuYi: "德意志社会主义共和国"
+ IRE_SiDaLingZHuYi: "爱尔兰苏维埃人民共和国"
  #斯大林主义
- IRE_SiDaLingZHuYi_DEF: "德意志社会主义共和国"
+ IRE_SiDaLingZHuYi_DEF: "爱尔兰苏维埃人民共和国"
  #斯大林主义
- IRE_SiDaLingZHuYi_ADJ: "德国"
+ IRE_SiDaLingZHuYi_ADJ: "爱尔兰"
  #斯大林主义
  
- IRE_YuanSHiZHuYi: "德意志社会技官国"
+ IRE_YuanSHiZHuYi: "爱尔兰苏维埃人民共和国"
  #远视主义
- IRE_YuanSHiZHuYi_DEF: "德意志社会技官国"
+ IRE_YuanSHiZHuYi_DEF: "爱尔兰苏维埃人民共和国"
  #远视主义
- IRE_YuanSHiZHuYi_ADJ: "德国"
+ IRE_YuanSHiZHuYi_ADJ: "爱尔兰"
  #远视主义
  
- IRE_JunZHengGuongCHanZHuYi: "德意志共产主义军区"
+ IRE_JunZHengGuongCHanZHuYi: "爱尔兰苏维埃人民共和国"
  #军政共产主义
- IRE_JunZHengGuongCHanZHuYi_DEF: "德意志共产主义军区"
+ IRE_JunZHengGuongCHanZHuYi_DEF: "爱尔兰苏维埃人民共和国"
  #军政共产主义
- IRE_JunZHengGuongCHanZHuYi_ADJ: "德共军"
+ IRE_JunZHengGuongCHanZHuYi_ADJ: "爱尔兰"
  #军政共产主义
  
- IRE_JunZHuBuErSHiWeiKe: "德意志君主共和国"
+ IRE_JunZHuBuErSHiWeiKe: "爱尔兰苏维埃人民共和国"
  #君主布尔什维克
- IRE_JunZHuBuErSHiWeiKe_DEF: "德意志君主共和国"
+ IRE_JunZHuBuErSHiWeiKe_DEF: "爱尔兰苏维埃人民共和国"
  #君主布尔什维克
- IRE_JunZHuBuErSHiWeiKe_ADJ: "德国"
+ IRE_JunZHuBuErSHiWeiKe_ADJ: "爱尔兰"
  #君主布尔什维克
  
  IRE_GuDianZiYouZHuYi: "爱尔兰共和国"
@@ -2337,9 +2337,9 @@
  IRE_MinZHuSHeHuiZHuYi_ADJ: "爱尔兰"
  #民主社会主义
  
- IRE_JiaSuZHuYi: "德意志先锋国"
+ IRE_JiaSuZHuYi: "爱尔兰先锋国"
  #加速主义
- IRE_JiaSuZHuYi_DEF: "德意志先锋国"
+ IRE_JiaSuZHuYi_DEF: "爱尔兰先锋国"
  #加速主义
  IRE_JiaSuZHuYi_ADJ: "爱尔兰"
  #加速主义
@@ -2358,9 +2358,9 @@
  IRE_GuiZuBaoSHouZHuYi_ADJ: "爱尔兰"
  #贵族保守主义
  
- IRE_JiaZHangZHi: "爱尔兰国"
+ IRE_JiaZHangZHi: "爱尔兰邦"
  #家长制
- IRE_JiaZHangZHi_DEF: "爱尔兰国"
+ IRE_JiaZHangZHi_DEF: "爱尔兰邦"
  #家长制
  IRE_JiaZHangZHi_ADJ: "爱尔兰"
  #家长制
@@ -4762,21 +4762,201 @@
  QAT: "卡塔尔"
  QAT_DEF: "卡塔尔"
  QAT_ADJ: "卡塔尔"
- SCO_fascism: "喀里多尼亚"
- SCO_fascism_DEF: "喀里多尼亚"
- SCO_democratic: "苏格兰"
- SCO_democratic_DEF: "苏格兰"
- SCO_neutrality: "苏格兰王国"
- SCO_neutrality_DEF: "苏格兰王国"
- SCO_communism: "阿尔巴联邦"
- SCO_communism_DEF: "阿尔巴联邦"
- SCO_fascism_ADJ: "喀里多尼亚"
- SCO_democratic_ADJ: "苏格兰"
- SCO_neutrality_ADJ: "苏格兰"
- SCO_communism_ADJ: "阿尔巴"
+ 
+ #苏格兰
+ 
  SCO: "苏格兰"
+ #通用
  SCO_DEF: "苏格兰"
+ #通用
  SCO_ADJ: "苏格兰"
+ #通用
+ SCO_autonomy_puppet: "$OVERLORDADJ$属苏格兰"
+ #傀儡
+ SCO_autonomy_puppet_DEF: "$OVERLORDADJ$属苏格兰"
+ #傀儡
+ 
+ SCO_fascism: "喀里多尼亚"
+ #法西斯（原版）
+ SCO_fascism_DEF: "喀里多尼亚"
+ #法西斯（原版）
+ SCO_fascism_ADJ: "喀里多尼亚"
+ #法西斯（原版）
+ SCO_democratic: "苏格兰"
+ #民主（原版）
+ SCO_democratic_DEF: "苏格兰"
+ #民主（原版）
+ SCO_democratic_ADJ: "苏格兰"
+ #民主（原版）
+ SCO_neutrality: "苏格兰王国"
+ #中立（原版）
+ SCO_neutrality_DEF: "苏格兰王国"
+ #中立（原版）
+ SCO_neutrality_ADJ: "苏格兰"
+ #中立（原版）
+ SCO_communism: "阿尔巴联邦"
+ #共产（原版）
+ SCO_communism_DEF: "阿尔巴联邦"
+ #共产（原版）
+ SCO_communism_ADJ: "阿尔巴"
+ #共产（原版）
+ ###
+ SCO_WuZHSCOFuGuongCHanZHuYi: "高地苏维埃"
+ #无政府共产主义
+ SCO_WuZHSCOFuGuongCHanZHuYi_DEF: "高地苏维埃"
+ #无政府共产主义
+ SCO_WuZHSCOFuGuongCHanZHuYi_ADJ: "高地"
+ #无政府共产主义
+ 
+ SCO_GuongTuanZHuYi: "高地苏维埃"
+ #工团主义
+ SCO_GuongTuanZHuYi_DEF: "高地苏维埃"
+ #工团主义
+ SCO_GuongTuanZHuYi_ADJ: "高地"
+ #工团主义
+ 
+ SCO_MaKeSi_LieNingZHuYi: "高地苏维埃"
+ #马克思 - 列宁主义
+ SCO_MaKeSi_LieNingZHuYi_DEF: "高地苏维埃"
+ #马克思 - 列宁主义
+ SCO_MaKeSi_LieNingZHuYi_ADJ: "高地"
+ #马克思 - 列宁主义
+ 
+ SCO_TuoLuoSiJiZHuYi: "高地苏维埃"
+ #托洛斯基
+ SCO_TuoLuoSiJiZHuYi_DEF: "高地苏维埃"
+ #托洛斯基
+ SCO_TuoLuoSiJiZHuYi_ADJ: "高地"
+ #托洛斯基
+  
+ SCO_SiDaLingZHuYi: "高地苏维埃"
+ #斯大林主义
+ SCO_SiDaLingZHuYi_DEF: "高地苏维埃"
+ #斯大林主义
+ SCO_SiDaLingZHuYi_ADJ: "高地"
+ #斯大林主义
+ 
+ SCO_YuanSHiZHuYi: "高地苏维埃"
+ #远视主义
+ SCO_YuanSHiZHuYi_DEF: "高地苏维埃"
+ #远视主义
+ SCO_YuanSHiZHuYi_ADJ: "高地"
+ #远视主义
+ 
+ SCO_JunZHSCOGuongCHanZHuYi: "高地苏维埃"
+ #军政共产主义
+ SCO_JunZHSCOGuongCHanZHuYi_DEF: "高地苏维埃"
+ #军政共产主义
+ SCO_JunZHSCOGuongCHanZHuYi_ADJ: "高地"
+ #军政共产主义
+ 
+ SCO_JunZHuBuErSHiWeiKe: "高地苏维埃"
+ #君主布尔什维克
+ SCO_JunZHuBuErSHiWeiKe_DEF: "高地苏维埃"
+ #君主布尔什维克
+ SCO_JunZHuBuErSHiWeiKe_ADJ: "高地"
+ #君主布尔什维克
+ 
+ SCO_GuDianZiYouZHuYi: "苏格兰共和国"
+ #古典自由主义
+ SCO_GuDianZiYouZHuYi_DEF: "苏格兰共和国"
+ #古典自由主义
+ SCO_GuDianZiYouZHuYi_ADJ: "苏格兰"
+ #古典自由主义
+ 
+ SCO_SHeHuiMinZHuZHuYi: "苏格兰共和国"
+ #社会民主主义
+ SCO_SHeHuiMinZHuZHuYi_DEF: "苏格兰共和国"
+ #社会民主主义
+ SCO_SHeHuiMinZHuZHuYi_ADJ: "苏格兰"
+ #社会民主主义
+ 
+ SCO_MinZHuSHeHuiZHuYi: "苏格兰共和国"
+ #民主社会主义
+ SCO_MinZHuSHeHuiZHuYi_DEF: "苏格兰共和国"
+ #民主社会主义
+ SCO_MinZHuSHeHuiZHuYi_ADJ: "苏格兰"
+ #民主社会主义
+ 
+ SCO_JiaSuZHuYi: "苏格兰先锋国"
+ #加速主义
+ SCO_JiaSuZHuYi_DEF: "苏格兰先锋国"
+ #加速主义
+ SCO_JiaSuZHuYi_ADJ: "苏格兰"
+ #加速主义
+ 
+ SCO_BaoSHouZHuYi: "苏格兰共和国"
+ #保守主义
+ SCO_BaoSHouZHuYi_DEF: "苏格兰共和国"
+ #保守主义
+ SCO_BaoSHouZHuYi_ADJ: "苏格兰"
+ #保守主义
+ 
+ SCO_GuiZuBaoSHouZHuYi: "苏格兰共和国"
+ #贵族保守主义
+ SCO_GuiZuBaoSHouZHuYi_DEF: "苏格兰共和国"
+ #贵族保守主义
+ SCO_GuiZuBaoSHouZHuYi_ADJ: "苏格兰"
+ #贵族保守主义
+ 
+ SCO_JiaZHangZHi: "苏格兰共和军"
+ #家长制
+ SCO_JiaZHangZHi_DEF: "苏格兰共和军"
+ #家长制
+ SCO_JiaZHangZHi_ADJ: "苏格兰"
+ #家长制
+ 
+ SCO_JunZHuZHuYi: "苏格兰王国"
+ #君主主义
+ SCO_JunZHuZHuYi_DEF: "苏格兰王国"
+ #君主主义
+ SCO_JunZHuZHuYi_ADJ: "苏格兰"
+ #君主主义
+ 
+ SCO_ZiBSCOuongCHanZHuYi: "苏格兰共和国"
+ #资本共产主义
+ SCO_ZiBSCOuongCHanZHuYi_DEF: "苏格兰共和国"
+ #资本共产主义
+ SCO_ZiBSCOuongCHanZHuYi_ADJ: "苏格兰"
+ #资本共产主义
+ 
+ SCO_SHeHuiFaXiSi: "阿尔巴民族国"
+ #社会法西斯
+ SCO_SHeHuiFaXiSi_DEF: "阿尔巴民族国"
+ #社会法西斯
+ SCO_SHeHuiFaXiSi_ADJ: "阿尔巴"
+ #社会法西斯
+ 
+ SCO_SiTeLaSeZHuYi: "阿尔巴民族国"
+ #斯特拉瑟主义
+ SCO_SiTeLaSeZHuYi_DEF: "阿尔巴民族国"
+ #斯特拉瑟主义
+ SCO_SiTeLaSeZHuYi_ADJ: "阿尔巴"
+ #斯特拉瑟主义
+ 
+ SCO_FaXiSiZHuYi: "阿尔巴民族国"
+ #法西斯主义
+ SCO_FaXiSiZHuYi_DEF: "阿尔巴民族国"
+ #法西斯主义
+ SCO_FaXiSiZHuYi_ADJ: "阿尔巴"
+ #法西斯主义
+ 
+ SCO_MinZuSHeHuiZHuYi: "阿尔巴民族国"
+ #纳粹
+ SCO_MinZuSHeHuiZHuYi_DEF: "阿尔巴民族国"
+ #纳粹
+ SCO_MinZuSHeHuiZHuYi_ADJ: "阿尔巴"
+ #纳粹
+ 
+ SCO_BoGenDiTiZHi: "阿尔巴民族国"
+ #勃艮第体制
+ SCO_BoGenDiTiZHi_DEF: "阿尔巴民族国"
+ #勃艮第体制
+ SCO_BoGenDiTiZHi_ADJ: "阿尔巴"
+ #勃艮第体制
+ 
+ #斯里兰卡
+ 
  SRL_fascism: "锡兰国"
  SRL_fascism_DEF: "锡兰国"
  SRL_democratic: "斯里兰卡民主社会主义共和国"
@@ -5703,6 +5883,9 @@
  MAC: "马其顿"
  MAC_DEF: "马其顿"
  MAC_ADJ: "马其顿"
+ 
+ #北爱尔兰
+ 
  NIR_fascism: "阿尔斯特国"
  NIR_fascism_DEF: "阿尔斯特国"
  NIR_democratic: "北爱尔兰"
@@ -5718,6 +5901,9 @@
  NIR: "北爱尔兰"
  NIR_DEF: "北爱尔兰"
  NIR_ADJ: "北爱尔兰"
+ 
+ #西班牙
+ 
  SPA_fascism: "西班牙国"
  SPA_fascism_DEF: "西班牙国"
  SPA_democratic: "西班牙"
@@ -8712,9 +8898,9 @@
  KER_MinZHuSHeHuiZHuYi_ADJ: "康沃尔"
  #民主社会主义
  
- KER_JiaSuZHuYi: "德兰士瓦先锋国"
+ KER_JiaSuZHuYi: "康沃尔先锋国"
  #加速主义
- KER_JiaSuZHuYi_DEF: "德兰士瓦先锋国"
+ KER_JiaSuZHuYi_DEF: "康沃尔先锋国"
  #加速主义
  KER_JiaSuZHuYi_ADJ: "康沃尔"
  #加速主义
@@ -8788,3 +8974,188 @@
  #勃艮第体制
  KER_BoGenDiTiZHi_ADJ: "康沃尔"
  #勃艮第体制
+ 
+ #克拉科夫
+ 
+ NMK: "克拉科夫"
+ #通用
+ NMK_DEF: "克拉科夫"
+ #通用
+ NMK_ADJ: "克拉科夫"
+ #通用
+ NMK_subject: "$OVERLORDADJ$属克拉科夫"
+ #傀儡
+ NMK_subject_DEF: "$OVERLORDADJ$属克拉科夫"
+ #傀儡
+ NMK_FengCHen: "克拉科夫大公国"
+ #封臣
+ NMK_FengCHen_DEF: "克拉科夫大公国"
+ #封臣
+ ###
+ NMK_WuZHNMKFuGuongCHanZHuYi: "克拉科夫公社"
+ #无政府共产主义
+ NMK_WuZHNMKFuGuongCHanZHuYi_DEF: "克拉科夫公社"
+ #无政府共产主义
+ NMK_WuZHNMKFuGuongCHanZHuYi_ADJ: "克拉科夫"
+ #无政府共产主义
+ 
+ NMK_GuongTuanZHuYi: "克拉科夫公社"
+ #工团主义
+ NMK_GuongTuanZHuYi_DEF: "克拉科夫公社"
+ #工团主义
+ NMK_GuongTuanZHuYi_ADJ: "克拉科夫"
+ #工团主义
+ 
+ NMK_MaKeSi_LieNingZHuYi: "克拉科夫革命点"
+ #马克思 - 列宁主义
+ NMK_MaKeSi_LieNingZHuYi_DEF: "克拉科夫革命点"
+ #马克思 - 列宁主义
+ NMK_MaKeSi_LieNingZHuYi_ADJ: "克拉科夫"
+ #马克思 - 列宁主义
+ 
+ NMK_TuoLuoSiJiZHuYi: "克拉科夫革命点"
+ #托洛斯基
+ NMK_TuoLuoSiJiZHuYi_DEF: "克拉科夫革命点"
+ #托洛斯基
+ NMK_TuoLuoSiJiZHuYi_ADJ: "克拉科夫"
+ #托洛斯基
+  
+ NMK_SiDaLingZHuYi: "克拉科夫革命点"
+ #斯大林主义
+ NMK_SiDaLingZHuYi_DEF: "克拉科夫革命点"
+ #斯大林主义
+ NMK_SiDaLingZHuYi_ADJ: "克拉科夫"
+ #斯大林主义
+ 
+ NMK_YuanSHiZHuYi: "克拉科夫革命点"
+ #远视主义
+ NMK_YuanSHiZHuYi_DEF: "克拉科夫革命点"
+ #远视主义
+ NMK_YuanSHiZHuYi_ADJ: "克拉科夫"
+ #远视主义
+ 
+ NMK_JunZHNMKGuongCHanZHuYi: "克拉科夫革命点"
+ #军政共产主义
+ NMK_JunZHNMKGuongCHanZHuYi_DEF: "克拉科夫革命点"
+ #军政共产主义
+ NMK_JunZHNMKGuongCHanZHuYi_ADJ: "克拉科夫"
+ #军政共产主义
+ 
+ NMK_JunZHuBuErSHiWeiKe: "克拉科夫革命点"
+ #君主布尔什维克
+ NMK_JunZHuBuErSHiWeiKe_DEF: "克拉科夫革命点"
+ #君主布尔什维克
+ NMK_JunZHuBuErSHiWeiKe_ADJ: "克拉科夫"
+ #君主布尔什维克
+ 
+ NMK_GuDianZiYouZHuYi: "克拉科夫自由市"
+ #古典自由主义
+ NMK_GuDianZiYouZHuYi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #古典自由主义
+ NMK_GuDianZiYouZHuYi_ADJ: "克拉科夫"
+ #古典自由主义
+ 
+ NMK_SHeHuiMinZHuZHuYi: "克拉科夫自由市"
+ #社会民主主义
+ NMK_SHeHuiMinZHuZHuYi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #社会民主主义
+ NMK_SHeHuiMinZHuZHuYi_ADJ: "克拉科夫"
+ #社会民主主义
+ 
+ NMK_MinZHuSHeHuiZHuYi: "克拉科夫自由市"
+ #民主社会主义
+ NMK_MinZHuSHeHuiZHuYi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #民主社会主义
+ NMK_MinZHuSHeHuiZHuYi_ADJ: "克拉科夫"
+ #民主社会主义
+ 
+ NMK_JiaSuZHuYi: "克拉科夫先锋国"
+ #加速主义
+ NMK_JiaSuZHuYi_DEF: "克拉科夫先锋国"
+ #加速主义
+ NMK_JiaSuZHuYi_ADJ: "克拉科夫"
+ #加速主义
+ 
+ NMK_BaoSHouZHuYi: "克拉科夫自由市"
+ #保守主义
+ NMK_BaoSHouZHuYi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #保守主义
+ NMK_BaoSHouZHuYi_ADJ: "克拉科夫"
+ #保守主义
+ 
+ NMK_GuiZuBaoSHouZHuYi: "克拉科夫自由市"
+ #贵族保守主义
+ NMK_GuiZuBaoSHouZHuYi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #贵族保守主义
+ NMK_GuiZuBaoSHouZHuYi_ADJ: "克拉科夫"
+ #贵族保守主义
+ 
+ NMK_JiaZHangZHi: "克拉科夫自由市"
+ #家长制
+ NMK_JiaZHangZHi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #家长制
+ NMK_JiaZHangZHi_ADJ: "克拉科夫"
+ #家长制
+ 
+ NMK_JunZHuZHuYi: "克拉科夫大公国"
+ #君主主义
+ NMK_JunZHuZHuYi_DEF: "克拉科夫大公国"
+ #君主主义
+ NMK_JunZHuZHuYi_ADJ: "克拉科夫"
+ #君主主义
+ 
+ NMK_ZiBNMKuongCHanZHuYi: "克拉科夫自由市"
+ #资本共产主义
+ NMK_ZiBNMKuongCHanZHuYi_DEF: "自由、独立且严格中立的克拉科夫市及其领土"
+ #资本共产主义
+ NMK_ZiBNMKuongCHanZHuYi_ADJ: "克拉科夫"
+ #资本共产主义
+ 
+ NMK_SHeHuiFaXiSi: "克拉科夫净化区"
+ #社会法西斯
+ NMK_SHeHuiFaXiSi_DEF: "克拉科夫净化区"
+ #社会法西斯
+ NMK_SHeHuiFaXiSi_ADJ: "克拉科夫"
+ #社会法西斯
+ 
+ NMK_SiTeLaSeZHuYi: "克拉科夫净化区"
+ #斯特拉瑟主义
+ NMK_SiTeLaSeZHuYi_DEF: "克拉科夫净化区"
+ #斯特拉瑟主义
+ NMK_SiTeLaSeZHuYi_ADJ: "克拉科夫"
+ #斯特拉瑟主义
+ 
+ NMK_FaXiSiZHuYi: "克拉科夫净化区"
+ #法西斯主义
+ NMK_FaXiSiZHuYi_DEF: "克拉科夫净化区"
+ #法西斯主义
+ NMK_FaXiSiZHuYi_ADJ: "克拉科夫"
+ #法西斯主义
+ 
+ NMK_MinZuSHeHuiZHuYi: "克拉科夫净化区"
+ #纳粹
+ NMK_MinZuSHeHuiZHuYi_DEF: "克拉科夫净化区"
+ #纳粹
+ NMK_MinZuSHeHuiZHuYi_ADJ: "克拉科夫"
+ #纳粹
+ 
+ NMK_BoGenDiTiZHi: "克拉科夫净化区"
+ #勃艮第体制
+ NMK_BoGenDiTiZHi_DEF: "克拉科夫净化区"
+ #勃艮第体制
+ NMK_BoGenDiTiZHi_ADJ: "克拉科夫"
+ #勃艮第体制
+ 
+ #查谟和克什米尔
+ 
+ AUR: "查谟和克什米尔"
+ #通用
+ AUR_DEF: "查谟和克什米尔"
+ #通用
+ #VEN_ADJ: "查谟和克什米尔"
+ AUR_ADJ: "查谟和克什米尔"
+ #通用
+ AUR_subject: "$OVERLORDADJ$属查谟和克什米尔"
+ #傀儡
+ AUR_subject_DEF: "$OVERLORDADJ$属查谟和克什米尔"
+ #傀儡

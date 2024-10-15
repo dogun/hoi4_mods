@@ -27,8 +27,10 @@
  STATE_981: "巴统"
  STATE_982: "巴登"
  STATE_983: "苏瓦乌基"
- STATE_984: "谢德尔采"
- STATE_985: "拉多姆"
+ #STATE_984: "谢德尔采"
+ #STATE_985: "拉多姆"
+ STATE_984: "塔尔努夫"
+ STATE_985: "小波兰"
  STATE_986: "摩纳哥"
  STATE_987: "列支敦士登"
  STATE_988: "安道尔"
@@ -43,6 +45,12 @@
  STATE_227: "顿涅茨克"
  STATE_742: "杜尚别"
  STATE_29: "诺尔"
+ STATE_561: "外阿穆尔"
+ STATE_714: "阿穆尔"
+ STATE_761: "阿尔巴津"
+ STATE_86: "西大波兰"
+ STATE_87: "东大波兰"
+ STATE_875: "阿克塞钦"
  
  #城市
  
@@ -56,6 +64,8 @@
  VICTORY_POINTS_6474: "顿涅茨克"
  
  VICTORY_POINTS_1384: "杜尚别"
+ 
+ VICTORY_POINTS_5042: "阿里"
  
  #战略地区
  
@@ -414,7 +424,23 @@
  bw_IRE_Celt_desc: "在独立战争胜利后爱尔兰出现了泛凯尔特主义；既然爱尔兰已经从英格兰的统治下独立，那么为什么不把苏格兰、威尔士、布列塔尼，甚至是中西欧，这些凯尔特人的土地从日耳曼蛮子的手里解放出来。"
  
  bw_IRE_FeiCuiZHiDao: "翡翠之岛"
- bw_IRE_FeiCuiZHiDao_desc: " "
+ bw_IRE_FeiCuiZHiDao_desc: ""
+ 
+ bw_IRE_YingAiMaoYiZHan_1: "英爱贸易战"
+ bw_IRE_YingAiMaoYiZHan_1_desc: "在独立战争后不列颠一直跟爱尔兰保持敌对关系，他们要求所有英联邦国家不与爱尔兰贸易，我们只能通过偷渡等方式进口必要资源。"
+ 
+ bw_IRE_YingAiMaoYiZHan_2: "英爱贸易战"
+ bw_IRE_YingAiMaoYiZHan_2_desc: "在独立战争后不列颠一直跟爱尔兰保持敌对关系，他们要求所有英联邦国家不与爱尔兰贸易，我们只能通过偷渡等方式进口必要资源。"
+ 
+ bw_IRE_YingGuoToZi: "英国投资"
+ 
+ bw_IRE_CHuSHouMeiNiu: "出售煤牛"
+ 
+ bw_IRE_YingAiMaoYiTiaoYue: "英爱贸易条约"
+ 
+ bw_IRE_BeiFengSuoDeJingJi: "被封锁的经济"
+ 
+ bw_IRE_KongHuangQingXvManYan: "恐慌情绪蔓延"
  
  # # #大不列颠
  
@@ -448,11 +474,36 @@
  bw_ENG_TanHeWeiJiDeYvBo: "弹劾危机的余波"
  
  bw_ENG_JiuSHiJieDeHanWeiZHe: "旧世界的捍卫者"
+ bw_ENG_JiuSHiJieDeHanWeiZHe_desc: "整个欧陆都被长筒靴践踏，现在我们将拯救和捍卫旧世界。"
  
  bw_ENG_CHongZHengJunBei_1: "重整军备"
  bw_ENG_CHongZHengJunBei_1_desc: "“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
  bw_ENG_CHongZHengJunBei_2: "重整军备"
  bw_ENG_CHongZHengJunBei_2_desc: "“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ 
+ bw_ENG_BeiYingGuoRenPaoQi: "被英国人抛弃"
+ bw_ENG_BeiYingGuoRenPaoQi_desc: "该死英国老居然将我们抛弃了，埃塞俄比亚和德国的事充分证明了“今天是我们，明天就轮到你们”这句话的正确性，你们竟然还不知道？"
+ 
+ bw_ENG_FanFaXiSiDeWeiDaZHanZHeng: "反法西斯的伟大战争"
+ 
+ bw_ENG_hut_1: "hut 1"
+ bw_ENG_hut_2: "hut 2"
+ bw_ENG_hut_3: "hut 3"
+ bw_ENG_hut_4: "hut 4"
+ bw_ENG_hut_5: "hut 5"
+ bw_ENG_hut_6: "hut 6"
+ bw_ENG_hut_7: "hut 7"
+ bw_ENG_hut_8: "hut 8"
+ 
+ bw_ENG_LiMingXingDong: "“黎明”行动"
+ #bw_ENG_LiMingXingDong_desc: "德国的单兵实力强悍，但兵力不足全靠美国人填线，我们可以通过登陆制造新的战线让德军兵力分散，这将使欧陆脱离黑日的阴影。"
+ bw_ENG_LiMingXingDong_desc: "德国的单兵实力强悍，但兵力不足全靠美国人填线，我们可以通过登陆制造新的战线让德军兵力分散，这是使欧陆脱离黑日的唯一希望。"
+ 
+ bw_ENG_KuangRenXingDong: "“狂人”行动"
+ 
+ bw_ENG_MeiNiuXeiDing: "煤牛协定"
+ 
+ bw_ENG_YingAiMaoYiTiaoYue: "英爱贸易条约"
  
  # # #GSR
  
@@ -668,6 +719,8 @@
  
  # # #英国
  
+ ENG_NeiGeWeiJi: "内阁危机"
+ 
  ENG_Stanley_Baldwin: "斯坦利·鲍德温"
  
  ENG_Winston_Churchill: "温斯顿·伦纳德·斯宾塞-丘吉尔"
@@ -683,6 +736,10 @@
  # # #中共
  
  PRC_MaoZeDong: "毛泽东"
+ 
+ PRC_LiDaZHao: "李大钊"
+ 
+ PRC_CHenDuXiu: "陈独秀"
  
  # # #中国
  
@@ -720,6 +777,7 @@
  
  GeMingLingXiu: "革命领袖"
  
+ GongCHanDangDeDiZaoZHe: "共产党的缔造者"
  # # #顾问
  
  fascist_demagogue: "民粹煽动家"
@@ -840,6 +898,185 @@
  bw_ENG.4.d: ""
  bw_ENG.4.a: "国王一意孤行..."
  bw_ENG.4.b: "那就只能退位..."
+ 
+ bw_ENG.5: "王党成立"
+ bw_ENG.5.t: "王党成立"
+ bw_ENG.5.d: ""
+ bw_ENG.5.a: "民心所向"
+ 
+ bw_ENG.6: "内阁集体辞职"
+ bw_ENG.6.t: "内阁集体辞职"
+ bw_ENG.6.d: ""
+ bw_ENG.6.a: "让他们滚蛋"
+ 
+ bw_ENG.7: "王党接管政府"
+ bw_ENG.7.t: "王党接管政府"
+ bw_ENG.7.d: ""
+ bw_ENG.7.a: "丘吉尔继续担任首相"
+ bw_ENG.7.b: "大护国公于今日抵达他忠诚的伦敦"
+ bw_ENG.7.c: "国王亲自领导"
+ 
+ bw_ENG.8: "联合王国战时整合"
+ bw_ENG.8.t: "联合王国战时整合"
+ bw_ENG.8.d: ""
+ bw_ENG.8.a: "我们永远忠于伦敦"
+ 
+ bw_ENG.9: "英国要求我们遵守英埃协定"
+ bw_ENG.9.t: "英国要求我们遵守英埃协定"
+ bw_ENG.9.d: ""
+ bw_ENG.9.a: "我们会遵守条约的"
+ bw_ENG.9.b: "他们多心了"
+ 
+ bw_ENG.10: "埃及遵守协定"
+ bw_ENG.10.t: "埃及遵守协定"
+ bw_ENG.10.d: ""
+ bw_ENG.10.a: "向的黎波里进军！"
+ 
+ bw_ENG.11: "埃及拒绝"
+ bw_ENG.11.t: "埃及拒绝"
+ bw_ENG.11.d: ""
+ bw_ENG.11.a: "他们已经上了德国人的贼船！？"
+ bw_ENG.11.b: "我们确实多心了"
+ 
+ bw_ENG.12: "英国试图控制我国"
+ bw_ENG.12.t: "英国试图控制我国"
+ bw_ENG.12.d: ""
+ bw_ENG.12.a: "他们休想！"
+ bw_ENG.12.b: "为了世界和平......我们同意"
+ 
+ bw_ENG.13: "比利时拒绝参战"
+ bw_ENG.13.t: "比利时拒绝参战"
+ bw_ENG.13.d: ""
+ bw_ENG.13.a: "为了世界和平......进攻"
+ bw_ENG.13.b: "我们尊重他的主权"
+ 
+ bw_ENG.14: "英国结束贸易战"
+ bw_ENG.14.t: "英国结束贸易战"
+ bw_ENG.14.d: ""
+ bw_ENG.14.a: "终于结束了"
+ 
+ bw_ENG.15: "英国投资我国企业"
+ bw_ENG.15.t: "英国投资我国企业"
+ bw_ENG.15.d: ""
+ bw_ENG.15.a: "他们是良心发现了？"
+ 
+ bw_ENG.16: "英国以北爱尔兰问题进行谈判"
+ bw_ENG.16.t: "英国以北爱尔兰问题进行谈判"
+ bw_ENG.16.d: ""
+ bw_ENG.16.a: "寸土不让"
+ bw_ENG.16.b: "允许自治"
+ bw_ENG.16.c: "归还领土"
+ 
+ bw_ENG.17: "绝不妥协"
+ bw_ENG.17.t: "绝不妥协"
+ bw_ENG.17.d: ""
+ bw_ENG.17.a: "那就算了"
+ bw_ENG.17.b: "加重筹码"
+ bw_ENG.17.c: "准备执行“亚瑟王”行动"
+ 
+ bw_ENG.18: "加重筹码"
+ bw_ENG.18.t: "加重筹码"
+ bw_ENG.18.d: ""
+ bw_ENG.18.a: "我也加"
+ bw_ENG.18.b: "部分妥协"
+ bw_ENG.18.c: "妥协"
+ 
+ bw_ENG.19: "部分妥协"
+ bw_ENG.19.t: "部分妥协"
+ bw_ENG.19.d: ""
+ bw_ENG.19.a: "就这样吧了"
+ bw_ENG.19.b: "加重筹码"
+ 
+ bw_ENG.20: "加重筹码"
+ bw_ENG.20.t: "加重筹码"
+ bw_ENG.20.d: ""
+ bw_ENG.20.a: "我改变主意了"
+ bw_ENG.20.b: "我也加"
+ bw_ENG.20.c: "妥协"
+ 
+ bw_ENG.21: "妥协"
+ bw_ENG.21.t: "妥协"
+ bw_ENG.21.d: ""
+ bw_ENG.21.a: "非常好"
+ 
+ bw_ENG.22: "英国请求购买煤牛"
+ bw_ENG.22.t: "英国请求购买煤牛"
+ bw_ENG.22.d: ""
+ bw_ENG.22.a: "反正没啥损失"
+ bw_ENG.22.b: "这是非卖品"
+ 
+ bw_ENG.23: "爱尔兰出售煤牛"
+ bw_ENG.23.t: "爱尔兰出售煤牛"
+ bw_ENG.23.d: ""
+ bw_ENG.23.a: "给我们的国王尝尝鲜"
+ 
+ bw_ENG.24: "爱尔兰拒绝出售煤牛"
+ bw_ENG.24.t: "爱尔兰拒绝出售煤牛"
+ bw_ENG.24.d: ""
+ bw_ENG.24.a: "我们英国牛也不差"
+ 
+ bw_ENG.25: "英国请求签署贸易条约"
+ bw_ENG.25.t: "英国请求签署贸易条约"
+ bw_ENG.25.d: ""
+ bw_ENG.25.a: "他们能从我们这买点啥？"
+ bw_ENG.25.b: "爱尔兰市场必须拥有完整主权"
+ 
+ bw_ENG.26: "爱尔兰签署贸易条约"
+ bw_ENG.26.t: "爱尔兰签署贸易条约"
+ bw_ENG.26.d: ""
+ bw_ENG.26.a: "英爱市场逐渐一体化了"
+ 
+ bw_ENG.27: "爱尔兰拒绝签署贸易条约"
+ bw_ENG.27.t: "爱尔兰拒绝签署贸易条约"
+ bw_ENG.27.d: ""
+ bw_ENG.27.a: "难道他们看透了？"
+ 
+ bw_ENG.28: "英国邀请加入英联邦"
+ bw_ENG.28.t: "英国邀请加入英联邦"
+ bw_ENG.28.d: ""
+ bw_ENG.28.a: "他们暴露了？"
+ bw_ENG.28.b: "为英爱友谊干杯"
+ 
+ bw_ENG.29: "爱尔兰拒绝加入英联邦"
+ bw_ENG.29.t: "爱尔兰拒绝加入英联邦"
+ bw_ENG.29.d: ""
+ bw_ENG.29.a: "至少防止了爱尔兰倒向德国"
+ bw_ENG.29.b: "准备执行“亚瑟王”行动"
+ 
+ bw_ENG.30: "爱尔兰加入英联邦"
+ bw_ENG.30.t: "爱尔兰加入英联邦"
+ bw_ENG.30.d: ""
+ bw_ENG.30.a: "成了"
+ 
+ bw_ENG.31: "英国加强贸易战"
+ bw_ENG.31.t: "英国加强贸易战"
+ bw_ENG.31.d: ""
+ bw_ENG.31.a: "不妙的消息"
+ 
+ bw_ENG.32: "英国封锁爱尔兰领海"
+ bw_ENG.32.t: "英国封锁爱尔兰领海"
+ bw_ENG.32.d: ""
+ bw_ENG.32.a: "联系中立国，立刻！"
+ 
+ bw_ENG.33: "北爱尔兰独立游行"
+ bw_ENG.33.t: "北爱尔兰独立游行"
+ bw_ENG.33.d: ""
+ bw_ENG.33.a: "肯定是英国人搞得鬼"
+ 
+ bw_ENG.34: "恐慌情绪蔓延"
+ bw_ENG.34.t: "恐慌情绪蔓延"
+ bw_ENG.34.d: ""
+ bw_ENG.34.a: "只要黑市发起进攻，一切都会好起来的"
+ 
+ bw_ENG.35: "英国警告我们"
+ bw_ENG.35.t: "英国警告我们"
+ bw_ENG.35.d: ""
+ bw_ENG.35.a: "果然..."
+ 
+ bw_ENG.36: "北爱尔兰叛乱！"
+ bw_ENG.36.t: "北爱尔兰叛乱！"
+ bw_ENG.36.d: ""
+ bw_ENG.36.a: "该死的"
  
  # # #德三
  
@@ -1238,9 +1475,17 @@
  
  ZHaoMu_ENG_Edward_VIII: "§Y爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫§!成为§Y君主主义§!领导人。\n  §Y经验尚浅的帝王§!\n  - 政治点数：§R-30%§!\n  - 稳定度：§G+5.00%§!\n  - 正当化战争目标所需时间：§G+25.0%§!"
  
- TiaoZHenHangXian: "收杋，前方有一场风暴\n"
+ bw_ENG_TiaoZHenHangXian: "收杋，前方有一场风暴\n"
  
- PingWenHangXing: "一切正常，继续航线\n"
+ bw_ENG_PingWenHangXing: "一切正常，继续航线\n"
+ 
+ World_War_II_YES: "二战已经开始"
+ World_War_II_NO: "二战已经结束"
+ 
+ YiCiZHiNengJinXingYiXiangXingDong: "一次只能进行一项行动"
+ 
+ bw_ENG_KongZHiSuGeLanJingCHa: "在独立战争开始时，获得3支缺乏训练的含§Y3个非正规步兵营§!的部队"
+ bw_ENG_ZHuanYiWuQiZHuangBei: "在独立战争开始时，苏格兰不会获得额外的军用工厂"
  
  #权力平衡
  
@@ -1291,6 +1536,11 @@
  ENG_LaLongYiYuan: "拉拢议员"
  ENG_SHuoFuGuoHui: "说服国会"
  ENG_ZaiGuoHuiYanJiang: "在国会演讲"
+ 
+ ENG_SuGeLanDuLiZHanZHeng: "苏格兰独立战争"
+ ENG_PanLuan: "叛乱！"
+ ENG_ZHenYaBaoLuan: "镇压暴乱"
+ ENG_ZuoCHuSHaoLiangTuoXie: "做出少量妥协"
  
  Tong_Yi_De: "德意志再一统"
  Bei_De: "建立北德联邦"
@@ -1358,13 +1608,153 @@
  #ZongBeiHouSHou_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
  
  ENG_JiejueJingJiWeiJi: "解决经济危机"
- ENG_JiejueJingJiWeiJi_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ #ENG_JiejueJingJiWeiJi_desc: "大萧条已经席卷大不列颠，但我们为什么要为法国人负责？股市崩盘是他们的事，我们既然受到了影响，法国必须赔偿。"
+ ENG_JiejueJingJiWeiJi_desc: "大萧条已经席卷大不列颠，我们得解决它，要不然保守党政府的垮台就是时间问题。"
  
  ENG_KuoZHaoJunDui: "扩招军队"
  ENG_KuoZHaoJunDui_desc: "大萧条使超过455K人失业，军备重整计划也使军队急需人手，可以把失业的人拉到军队以减轻社会负担，当然这也会加重政府赤字。"
  
- ZongBeiHouSHou: "准备后手"
- ZongBeiHouSHou_desc: "大陆的极权主义正在盛行，法国开始让共党进入政府，德国的共党已经上台，法西斯匪徒将巴伐利亚和亚平宁绑上了战车。\n“轰炸机总有一天会到来，而唯一的防范就是进攻。”"
+ 
+ ENG_CiZHi: "辞职"
+ ENG_CiZHi_desc: "首相没有在国会的指定时间内解决经济危机，已被弹劾下台，弹劾危机导致的国会混乱也就结束了，但还有影响，一些议员仍然不信任保守党政府。"
+ 
+ ENG_CHongZuNeiGe: "重组内阁"
+ ENG_CHongZuNeiGe_desc: ""
+ 
+ ENG_WenDinGuoNei: "稳定国内"
+ ENG_WenDinGuoNei_desc: "大萧条导致国内及其不稳定，我们得让它变得稳定一点，让保守党政府不至于下台。"
+ 
+ ENG_SHiJieDeSHiZiLuKou: "世界的十字路口"
+ ENG_SHiJieDeSHiZiLuKou_desc: "现在世界正处于十字路口，左右翼纷纷崛起，一场新的大战正在向世界靠近，事实将证明终结一切战争的战争什么也终结。"
+ 
+ ENG_AiDeHuaBaSHiTuiWeiWeiJi: "爱德华八世退位危机"
+ ENG_AiDeHuaBaSHiTuiWeiWeiJi_desc: "爱德华八世退位危机使建制派和王室的矛盾越发严重，我们可能会因此改变，或者一切如常。"
+ 
+ ENG_JiuSHiJieDeHanWeiZHe: "旧世界的捍卫者"
+ ENG_JiuSHiJieDeHanWeiZHe_desc: ""
+ 
+ ENG_LianHeWangGuoZHanSHiZHengHe: "联合王国战时整合"
+ ENG_LianHeWangGuoZHanSHiZHengHe_desc: ""
+ 
+ ENG_BaoHu_ENG_Zai_EGY_LiYi: "保护$ENG$在$EGY$利益"
+ ENG_BaoHu_ENG_Zai_EGY_LiYi_desc: ""
+ 
+ ENG_KongZHiBiLiSHi: "控制比利时"
+ ENG_KongZHiBiLiSHi_desc: ""
+ 
+ ENG_PaoQiFaGuo: "抛弃法国"
+ ENG_PaoQiFaGuo_desc: ""
+ 
+ ENG_FanFaXiSiDeWeiDaZHanZHeng: "反法西斯的伟大战争"
+ ENG_FanFaXiSiDeWeiDaZHanZHeng_desc: ""
+ 
+ ENG_hut_JiHua: "“hut”计划"
+ ENG_hut_JiHua_desc: ""
+ 
+ ENG_hut_1: "hut 1"
+ ENG_hut_1_desc: ""
+ 
+ ENG_hut_2: "hut 2"
+ ENG_hut_2_desc: ""
+ 
+ ENG_hut_3: "hut 3"
+ ENG_hut_3_desc: ""
+ 
+ ENG_hut_4: "hut 4"
+ ENG_hut_4_desc: ""
+ 
+ ENG_hut_5: "hut 5"
+ ENG_hut_5_desc: ""
+ 
+ ENG_hut_6: "hut 6"
+ ENG_hut_6_desc: ""
+ 
+ ENG_hut_7: "hut 7"
+ ENG_hut_7_desc: ""
+ 
+ ENG_hut_8: "hut 8"
+ ENG_hut_8_desc: ""
+ 
+ ENG_LiMingXingDong: "“黎明”行动"
+ ENG_LiMingXingDong_desc: ""
+ 
+ ENG_TieMuYiJingLuoXia: "铁幕已经落下"
+ ENG_TieMuYiJingLuoXia_desc: ""
+ 
+ ENG_DuiSuGeLanZHengCe: "对苏格兰政策"
+ ENG_DuiSuGeLanZHengCe_desc: ""
+ 
+ ENG_TuoXie: "妥协"
+ ENG_TuoXie_desc: ""
+ 
+ ENG_LiangDinWangGuan: "两顶王冠"
+ ENG_LiangDinWangGuan_desc: ""
+ 
+ ENG_JianLiZiZHiQv: "建立自治区"
+ ENG_JianLiZiZHiQv_desc: ""
+ 
+ ENG_PingDengDeYingLianBangWangGuo: "平等的英联邦王国"
+ ENG_PingDengDeYingLianBangWangGuo_desc: ""
+ 
+ ENG_YvSuGeLanRenHeJie: "与苏格兰人和解"
+ ENG_YvSuGeLanRenHeJie_desc: ""
+ 
+ ENG_TieQvan: "铁拳"
+ ENG_TieQvan_desc: ""
+ 
+ ENG_KongZHiSuGeLanJingCHa: "控制苏格兰警察"
+ ENG_KongZHiSuGeLanJingCHa_desc: ""
+ 
+ ENG_ZHuanYiWuQiZHuangBei: "转移武器装备"
+ ENG_ZHuanYiWuQiZHuangBei_desc: ""
+ 
+ ENG_KuangRenXingDong: "“狂人”行动"
+ ENG_KuangRenXingDong_desc: ""
+ 
+ ENG_DuiAiErLanZHengCe: "对爱尔兰政策"
+ ENG_DuiAiErLanZHengCe_desc: ""
+ 
+ ENG_YvAiErLanRenHeJie: "与爱尔兰人和解"
+ ENG_YvAiErLanRenHeJie_desc: ""
+ 
+ ENG_JieSHuMaoYiZHan: "结束贸易战"
+ ENG_JieSHuMaoYiZHan_desc: ""
+ 
+ ENG_TouZiAiErLanQiYe: "投资爱尔兰企业"
+ ENG_TouZiAiErLanQiYe_desc: ""
+ 
+ ENG_BeiAiErLanWenTi: "北爱尔兰问题"
+ ENG_BeiAiErLanWenTi_desc: ""
+ 
+ ENG_MeiNiuXeiDing: "煤牛协定"
+ ENG_MeiNiuXeiDing_desc: ""
+ 
+ ENG_GuLiTongSHang: "鼓励通商"
+ ENG_GuLiTongSHang_desc: ""
+ 
+ ENG_YingLianBangXinCHengYuan: "英联邦新成员"
+ ENG_YingLianBangXinCHengYuan_desc: ""
+ 
+ ENG_JiaQiangMaoYiZHan: "加强贸易战"
+ ENG_JiaQiangMaoYiZHan_desc: ""
+ 
+ ENG_JingJiFengSuo: "经济封锁"
+ ENG_JingJiFengSuo_desc: ""
+ 
+ ENG_GuDongBeiAiYingGuoRen: "鼓动北爱英国人"
+ ENG_GuDongBeiAiYingGuoRen_desc: ""
+ 
+ ENG_SanBoKongHuang: "散播恐慌"
+ ENG_SanBoKongHuang_desc: ""
+ 
+ ENG_JingGaoAiErLan: "警告爱尔兰"
+ ENG_JingGaoAiErLan_desc: ""
+ 
+ ENG_SHanDongFanAiQingXv: "煽动反爱情绪"
+ ENG_SHanDongFanAiQingXv_desc: ""
+ 
+ ENG_YaSeWangXingDong: "“亚瑟王”行动"
+ ENG_YaSeWangXingDong_desc: ""
  
  # # #德国
  
@@ -1724,3 +2114,7 @@
  load_bw_SAF.1_t: "南非内战"
  load_bw_SAF.1_d: "受压迫的民族只要下定决心赢得自由，\n世上便没有力量得以阻挡。\n——纳尔逊·罗利拉拉·曼德拉"
  load_bw_SAF.1_a: "大英帝国的明珠熄灭了"
+ 
+ #好感修正
+ 
+ bw_HeJieZHengCe_opinion_modifiers: "和解政策"

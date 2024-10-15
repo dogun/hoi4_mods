@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SHiQiSHiDai_techtree_bg"
+		textureFile = "gfx/interface/techtree/SHiQiSHiDai_techtree_bg.dds"
+	}
+}

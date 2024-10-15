@@ -15,7 +15,7 @@ news_event = { #巴黎股市崩盘
 		name = bw_FRA_XinWen.1.a #法兰西就此陨落
 
 		hidden_effect = {
-			play_song = 超事件：马赛曲
+			scoped_play_song = 超事件：齐格纳维森
 			set_country_flag = load_bw_FRA.1
 		}
 	}

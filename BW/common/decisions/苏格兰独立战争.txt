@@ -1,0 +1,181 @@
+ENG_SuGeLanDuLiZHanZHeng = {
+#决议组id
+	ENG_PanLuan = {	#叛乱！
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		visible = {
+#展示条件
+			tag = ENG
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+		}
+
+		activation = {
+#在什么情况下，任务被激活并开始倒计时：
+			has_completed_focus = ENG_TieQvan #铁拳
+			tag = ENG
+		}
+		available = {
+			NOT = {
+				has_idea = bw_ENG_SuGeLanFanDuiPai
+			}
+		}
+		is_good = no                           # 这个任务的颜色编码是有益事情（非危机）
+		selectable_mission = no                # 这个任务将在玩家点选任务时完成，而非自动完成
+		days_mission_timeout = 10              # 距离任务失败前有多少天？
+		timeout_effect = {                      # 当任务失败时会发生什么？
+			add_stability = -0.1
+			add_political_power = -10
+			release_on_controlled = SCO
+			SCO = {
+				declare_war_on = {
+					target = ENG
+					type = independence_wargoal
+				}
+			}
+			remove_ideas = bw_ENG_SuGeLanFanDuiPai
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+		}
+	}
+
+	ENG_ZHenYaBaoLuan = {	镇压暴乱
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			custom_trigger_tooltip = {
+				tooltip = YiCiZHiNengJinXingYiXiangXingDong
+				NOT = {
+					has_variable = SuGeLanDuLiZHanZHeng
+				}
+			}
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_remove = 5
+		remove_effect = {
+#持续时间结束后效果
+			hidden_effect = {
+				clear_variable = SuGeLanDuLiZHanZHeng
+			}
+		}
+		modifier = {
+#持续时间内效果（写修正）
+		}
+
+		visible = {
+#展示条件
+			original_tag = ENG
+			has_completed_focus = ENG_TieQvan #铁拳
+			has_idea = bw_ENG_SuGeLanFanDuiPai
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_days_mission_timeout = {
+				mission = ENG_PanLuan
+				days = 10
+			}
+			hidden_effect = {
+				set_variable = { SuGeLanDuLiZHanZHeng = 100 }
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 10000000
+		}
+	}
+
+	ENG_ZuoCHuSHaoLiangTuoXie = {	做出少量妥协
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+			custom_trigger_tooltip = {
+				tooltip = YiCiZHiNengJinXingYiXiangXingDong
+				NOT = {
+					has_variable = SuGeLanDuLiZHanZHeng
+				}
+			}
+		}
+
+		cost = 50
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+		days_remove = 5
+		remove_effect = {
+#持续时间结束后效果
+			add_stability = 0.05
+			hidden_effect = {
+				clear_variable = SuGeLanDuLiZHanZHeng
+			}
+		}
+		modifier = {
+#持续时间内效果（写修正）
+		}
+
+		visible = {
+#展示条件
+			original_tag = ENG
+			has_completed_focus = ENG_TieQvan #铁拳
+			has_idea = bw_ENG_SuGeLanFanDuiPai
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			add_days_mission_timeout = {
+				mission = ENG_PanLuan
+				days = 10
+			}
+			hidden_effect = {
+				set_variable = { SuGeLanDuLiZHanZHeng = 100 }
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 10000000
+		}
+	}
+
+}

@@ -79,6 +79,12 @@ leader_traits = {
 		surrender_limit = 0.1
 	}
 
+	GongCHanDangDeDiZaoZHe = {
+		random = no
+		MaKeSi_LieNingZHuYi_drift = 0.1
+		stability_factor = 0.15
+	}
+
 #顾问
 
 	fascist_demagogue = {

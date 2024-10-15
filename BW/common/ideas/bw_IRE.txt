@@ -13,8 +13,10 @@ ideas = {
 				conscription = 0.05
 				war_support_factor = 0.2
 				stability_factor = 0.05
-				offence = 0.05
-				defence = 0.05
+#				offence = 0.05
+#				defence = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
 				industrial_capacity_dockyard = 1
 
 				MinZuSHeHuiZHuYi_drift = 0.05
@@ -26,8 +28,10 @@ ideas = {
 			targeted_modifier = {
 #				hidden_effect = {
 					tag = ENG
-					offence = 0.25
-					defence = 0.1
+#					offence = 0.25
+#					defence = 0.1
+					army_attack_factor = 0.25
+					army_defence_factor = 0.1
 #				}
 			}
 		}
@@ -44,6 +48,127 @@ ideas = {
 			modifier = {
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_IRE_YingAiMaoYiZHan_1 = {	#英爱贸易战
+			picture = YingAiMaoYiZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				min_export = -0.15
+				production_lack_of_resource_penalty_factor = 0.1
+				trade_opinion_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_IRE_YingAiMaoYiZHan_2 = {	#英爱贸易战
+			picture = YingAiMaoYiZHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.20
+				min_export = -0.20
+				production_lack_of_resource_penalty_factor = 0.15
+				trade_opinion_factor = -0.15
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_IRE_YingGuoToZi = {	#英国投资
+			picture = YingGuoToZi
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_IRE_CHuSHouMeiNiu = {	#出售煤牛
+			picture = CHuSHouMeiNiu
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				min_export = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_IRE_YingAiMaoYiTiaoYue = {	#英爱贸易条约
+			picture = YingAiMaoYiTiaoYue
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = ENG
+				trade_opinion_factor = 0.1
+				min_export = 0.1
+			}
+		}
+
+		bw_IRE_BeiFengSuoDeJingJi = {	#被封锁的经济
+			picture = BeiFengSuoDeJingJi
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				trade_opinion_factor = -0.5
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_IRE_KongHuangQingXvManYan = {	#恐慌情绪蔓延
+			picture = KongHuangQingXvManYan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = -0.5
 			}
 			targeted_modifier = {
 			}

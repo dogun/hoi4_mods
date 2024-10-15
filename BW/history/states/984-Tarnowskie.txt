@@ -1,0 +1,33 @@
+state={
+	id=984
+	name="STATE_984"
+	manpower = 2722184 #2983390
+	
+	state_category = town
+	
+	history={
+		owner = POL
+#		victory_points = {
+#			9427 20 
+#		}
+		victory_points = {
+			442 3 
+		}
+		victory_points = {
+			9494 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+
+		}
+		add_core_of = POL
+	}
+	provinces={
+417 442 466 3410 3434 6499 6522 9494 11398 11413 11507 
+	}
+
+	local_supplies=0.0 
+}

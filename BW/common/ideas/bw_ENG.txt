@@ -236,5 +236,258 @@ ideas = {
 			}
 		}
 
+		bw_ENG_BeiYingGuoRenPaoQi = {	#被英国人抛弃
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = -0.1
+
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_FanFaXiSiDeWeiDaZHanZHeng = {	#反法西斯的伟大战争
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = GER
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+			targeted_modifier = {
+				tag = CSA
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		bw_ENG_hut_1 = {	#hut 1
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				research_speed_factor = 0.1
+				recon_factor = 0.1
+				agency_upgrade_time = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_hut_2 = {	#hut 2
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				supply_combat_penalties_on_core_factor = -0.1
+				no_supply_grace = 24
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_hut_3 = {	#hut 3
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				intel_network_gain_factor = 0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_hut_4 = {	#hut 4
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				crypto_strength = 1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_hut_5 = {	#hut 5
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				decryption_power_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_hut_6 = {	#hut 6
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				air_cas_efficiency = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_hut_7 = {	#hut 7
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = CSA
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		bw_ENG_hut_8 = {	#hut 8
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				decryption_power_factor = 0.1
+				convoy_escort_efficiency = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_LiMingXingDong = {	#“黎明”行动
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				war_support_factor = 0.1
+
+				naval_invasion_penalty = -0.5
+				invasion_preparation = -0.3
+				no_supply_grace = 120
+
+				army_attack_factor = 0.25
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_KuangRenXingDong = {	#“狂人”行动
+			picture = CHongZHengJunBei
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = SCO
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		bw_ENG_MeiNiuXeiDing = {	#煤牛协定
+			picture = MeiNiuXeiDing
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				supply_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_YingAiMaoYiTiaoYue = {	#英爱贸易条约
+			picture = YingAiMaoYiTiaoYue
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = IRE
+				trade_opinion_factor = 0.1
+				min_export = 0.1
+			}
+		}
+
 	}
 }

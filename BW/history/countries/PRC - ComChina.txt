@@ -45,13 +45,15 @@ recruit_character = PRC_he_yuandang
 save_global_event_target_as = WTT_communist_china
 
 set_politics = {
-	ruling_party = GuongTuanZHuYi
+	ruling_party = MaKeSi_LieNingZHuYi
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	GuongTuanZHuYi = 100
+	MaKeSi_LieNingZHuYi = 50
+	GuongTuanZHuYi = 25
+	TuoLuoSiJiZHuYi = 25
 }
 
 add_ideas = {
@@ -61,6 +63,8 @@ add_ideas = {
 	PRC_power_struggles
 }
 
-add_opinion_modifier = { target = CHI modifier = hostile_status }
+#add_opinion_modifier = { target = CHI modifier = hostile_status }
 
 recruit_character = PRC_MaoZeDong
+recruit_character = PRC_LiDaZHao
+recruit_character = PRC_CHenDuXiu

@@ -126,19 +126,708 @@ country_event = { #爱德华八世退位危机
 
 	option = {
 		name = bw_ENG.4.a #国王一意孤行...
-		custom_effect_tooltip = TiaoZHenHangXian
+		custom_effect_tooltip = bw_ENG_TiaoZHenHangXian
 
-		complete_national_focus = 爱德华八世退位危机
+		complete_national_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
 
 		add_political_power  = -50
 		add_stability = -0.05
+
+		hidden_effect = {
+			news_event = {
+				id = bw_ENG.5
+				days = 10
+				random = 0
+			}
+		}
 	}
 	option = {
 		name = bw_ENG.4.b #那就只能退位...
-		custom_effect_tooltip = PingWenHangXing
+		custom_effect_tooltip = bw_ENG_PingWenHangXing
 
-		complete_national_focus = 爱德华八世退位危机
+		complete_national_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
 
 		retire_ideology_leader = JunZHuZHuYi
+	}
+}
+
+country_event = { #王党成立
+	id = bw_ENG.5
+	title = bw_ENG.5.t
+	desc = bw_ENG.5.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.5.a #民心所向
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = SiTeLaSeZHuYi
+			popularity = 0.1
+		}
+		add_stability = -0.05
+
+		hidden_effect = {
+			news_event = {
+				id = bw_ENG.6
+				days = 10
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #内阁集体辞职
+	id = bw_ENG.6
+	title = bw_ENG.6.t
+	desc = bw_ENG.6.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.6.a #让他们滚蛋
+		set_politics = {
+			ruling_party = JiaZHangZHi
+		}
+		retire_ideology_leader = JiaZHangZHi
+		recruit_character = ENG_NeiGeWeiJi
+
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = SiTeLaSeZHuYi
+			popularity = 0.1
+		}
+		add_political_power  = -50
+
+		hidden_effect = {
+			news_event = {
+				id = bw_ENG.7
+				days = 5
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #王党接管政府
+	id = bw_ENG.7
+	title = bw_ENG.7.t
+	desc = bw_ENG.7.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.7.a #丘吉尔继续担任首相
+		add_political_power  = 20
+		set_politics = {
+			ruling_party = GuiZuBaoSHouZHuYi
+		}
+	}
+	option = {
+		name = bw_ENG.7.b #大护国公于今日抵达他忠诚的伦敦
+		set_politics = {
+			ruling_party = SiTeLaSeZHuYi
+		}
+	}
+	option = {
+		name = bw_ENG.7.c #国王亲自领导
+		set_politics = {
+			ruling_party = JunZHuZHuYi
+		}
+	}
+}
+
+country_event = { #联合王国战时整合
+	id = bw_ENG.8
+	title = bw_ENG.8.t
+	desc = bw_ENG.8.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.8.a #忠于英王政府！
+		ENG = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+	}
+}
+
+country_event = { #英国要求我们遵守英埃协定
+	id = bw_ENG.9
+	title = bw_ENG.9.t
+	desc = bw_ENG.9.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.9.a #我们会遵守条约的
+		ENG = {
+			news_event = {
+				id = bw_ENG.10
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.9.b #他们多心了
+		ENG = {
+			news_event = {
+				id = bw_ENG.11
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #埃及遵守协定
+	id = bw_ENG.10
+	title = bw_ENG.10.t
+	desc = bw_ENG.10.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.10.a #向的黎波里进军！
+		annex_country = {
+			target = EGY
+			transfer_troops = no
+		}
+	}
+}
+
+country_event = { #埃及拒绝
+	id = bw_ENG.11
+	title = bw_ENG.11.t
+	desc = bw_ENG.11.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.11.a #他们已经上了德国人的贼船！？
+		create_wargoal = {
+			type = annex_everything
+			target = EGY
+		}
+	}
+	option = {
+		name = bw_ENG.11.b #我们确实多心了
+	}
+}
+
+country_event = { #英国试图控制我国
+	id = bw_ENG.12
+	title = bw_ENG.12.t
+	desc = bw_ENG.12.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.12.a #他们休想！
+		ENG = {
+			news_event = {
+				id = bw_ENG.13
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.12.b #为了世界和平......我们同意
+		ENG = { add_to_faction = ROOT }
+	}
+}
+
+country_event = { #比利时拒绝参战
+	id = bw_ENG.13
+	title = bw_ENG.13.t
+	desc = bw_ENG.13.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.13.a #为了世界和平……进攻
+		create_wargoal = {
+			type = topple_government
+			target = BEL
+		}
+	}
+	option = {
+		name = bw_ENG.13.b #我们尊重他的主权
+	}
+}
+
+country_event = { #英国结束贸易战
+	id = bw_ENG.14
+	title = bw_ENG.14.t
+	desc = bw_ENG.14.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.14.a #终于结束了
+		remove_ideas = bw_IRE_YingAiMaoYiZHan
+	}
+}
+
+country_event = { #英国投资我国企业
+	id = bw_ENG.15
+	title = bw_ENG.15.t
+	desc = bw_ENG.15.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.15.a #他们是良心发现了？
+		add_ideas = bw_IRE_YingGuoToZi
+	}
+}
+
+country_event = { #英国以北爱尔兰问题进行谈判
+	id = bw_ENG.16
+	title = bw_ENG.16.t
+	desc = bw_ENG.16.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.16.a #寸土不让
+		add_political_power = 10
+		ENG = {
+			news_event = {
+				id = bw_ENG.17
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.16.b #允许自治
+		ENG = {
+			news_event = {
+				id = bw_ENG.19
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.16.c #归还领土
+		add_political_power = -10
+		ENG = {
+			news_event = {
+				id = bw_ENG.21
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #绝不妥协
+	id = bw_ENG.17
+	title = bw_ENG.17.t
+	desc = bw_ENG.17.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.17.a #那就算了
+	}
+	option = {
+		name = bw_ENG.17.b #加重筹码
+		trigger = { has_political_power > 20 }
+		add_political_power = -20
+		IRE = {
+			news_event = {
+				id = bw_ENG.18
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.17.c #准备执行“亚瑟王”行动
+		complete_national_focus = ENG_YaSeWangXingDong #“亚瑟王”行动
+	}
+}
+
+country_event = { #加重筹码
+	id = bw_ENG.18
+	title = bw_ENG.18.t
+	desc = bw_ENG.18.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.18.a #我也加
+		trigger = { has_political_power > 20 }
+		add_political_power = -20
+		ENG = {
+			news_event = {
+				id = bw_ENG.17
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.18.b #部分妥协
+		ENG = {
+			news_event = {
+				id = bw_ENG.19
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.18.c #妥协
+		ENG = {
+			news_event = {
+				id = bw_ENG.21
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #部分妥协
+	id = bw_ENG.19
+	title = bw_ENG.19.t
+	desc = bw_ENG.19.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.19.a #就这样吧了
+		NIR = {
+			add_state_core = 119
+		}
+		IRE = {
+			release_autonomy = {
+				target = NIR
+				autonomy_state = ZiZHiQv
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.19.b #加重筹码
+		trigger = { has_political_power > 20 }
+		add_political_power = -20
+	}
+}
+
+country_event = { #加重筹码
+	id = bw_ENG.20
+	title = bw_ENG.20.t
+	desc = bw_ENG.20.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.20.a #我改变主意了
+		trigger = { has_political_power > 40 }
+		add_political_power = -40
+		ENG = {
+			news_event = {
+				id = bw_ENG.17
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.20.b #我也加
+		trigger = { has_political_power > 20 }
+		add_political_power = -20
+		ENG = {
+			news_event = {
+				id = bw_ENG.19
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.20.c #妥协
+		ENG = {
+			news_event = {
+				id = bw_ENG.21
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #妥协
+	id = bw_ENG.21
+	title = bw_ENG.21.t
+	desc = bw_ENG.21.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.21.a #非常好
+		transfer_state = 119
+		add_state_core = 119
+	}
+}
+
+country_event = { #英国请求购买煤牛
+	id = bw_ENG.22
+	title = bw_ENG.22.t
+	desc = bw_ENG.22.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.22.a #反正没啥损失
+		add_timed_idea = {
+			idea = bw_IRE_CHuSHouMeiNiu
+			days = 365
+		}
+		ENG = {
+			news_event = {
+				id = bw_ENG.23
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.22.b #这是非卖品
+		ENG = {
+			news_event = {
+				id = bw_ENG.24
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #爱尔兰出售煤牛
+	id = bw_ENG.23
+	title = bw_ENG.23.t
+	desc = bw_ENG.23.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.23.a #给我们的国王尝尝鲜
+		add_ideas = bw_ENG_MeiNiuXeiDing
+	}
+}
+
+country_event = { #爱尔兰拒绝出售煤牛
+	id = bw_ENG.24
+	title = bw_ENG.24.t
+	desc = bw_ENG.24.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.23.a #我们英国牛也不差
+	}
+}
+
+country_event = { #英国请求签署贸易条约
+	id = bw_ENG.25
+	title = bw_ENG.25.t
+	desc = bw_ENG.25.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.25.a #他们能从我们这买点啥？
+		add_ideas = bw_IRE_YingAiMaoYiTiaoYue
+		ENG = {
+			news_event = {
+				id = bw_ENG.26
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.25.b #爱尔兰市场必须拥有完整主权
+		ENG = {
+			news_event = {
+				id = bw_ENG.27
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #爱尔兰签署贸易条约
+	id = bw_ENG.26
+	title = bw_ENG.26.t
+	desc = bw_ENG.26.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.26.a #英爱市场逐渐一体化了
+		add_ideas = bw_ENG_YingAiMaoYiTiaoYue
+	}
+}
+
+country_event = { #爱尔兰拒绝签署贸易条约
+	id = bw_ENG.27
+	title = bw_ENG.27.t
+	desc = bw_ENG.27.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.27.a #难道他们看透了？
+	}
+}
+
+country_event = { #英国邀请加入英联邦
+	id = bw_ENG.28
+	title = bw_ENG.28.t
+	desc = bw_ENG.28.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.28.a #他们暴露了
+		ENG = {
+			news_event = {
+				id = bw_ENG.29
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG.28.b #为英爱友谊干杯
+		ENG = {
+			news_event = {
+				id = bw_ENG.30
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #爱尔兰拒绝加入英联邦
+	id = bw_ENG.29
+	title = bw_ENG.29.t
+	desc = bw_ENG.29.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.29.a #至少防止了爱尔兰倒向德国
+	}
+	option = {
+		name = bw_ENG.29.b #准备执行“亚瑟王”行动
+		complete_national_focus = ENG_YaSeWangXingDong #“亚瑟王”行动
+	}
+}
+
+country_event = { #爱尔兰加入英联邦
+	id = bw_ENG.30
+	title = bw_ENG.30.t
+	desc = bw_ENG.30.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.30.a #成了
+		set_autonomy = {
+			target = IRE
+			autonomous_state = ZiZHiQv
+		}
+	}
+}
+
+country_event = { #英国加强贸易战
+	id = bw_ENG.31
+	title = bw_ENG.31.t
+	desc = bw_ENG.31.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.31.a #不妙的消息
+		swap_ideas = {
+			remove_idea = bw_IRE_YingAiMaoYiZHan_1
+			add_idea = bw_IRE_YingAiMaoYiZHan_2
+		}
+	}
+}
+
+country_event = { #英国封锁爱尔兰领海
+	id = bw_ENG.32
+	title = bw_ENG.32.t
+	desc = bw_ENG.32.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.32.a #联系中立国，立刻！
+		add_ideas = bw_IRE_BeiFengSuoDeJingJi
+	}
+}
+
+country_event = { #北爱尔兰独立游行
+	id = bw_ENG.33
+	title = bw_ENG.33.t
+	desc = bw_ENG.33.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.33.a #肯定是英国人搞得鬼
+		add_stability = -0.1
+		damage_building = {
+			type = infrastructure
+			damage = 1
+		}
+	}
+}
+
+country_event = { #恐慌情绪蔓延
+	id = bw_ENG.34
+	title = bw_ENG.34.t
+	desc = bw_ENG.34.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.34.a #只要黑市发起进攻，一切都会好起来的
+		add_stability = -0.1
+		add_timed_idea = {
+			idea = bw_IRE_KongHuangQingXvManYan
+			days = 365
+		}
+	}
+}
+
+country_event = { #英国警告我们
+	id = bw_ENG.35
+	title = bw_ENG.35.t
+	desc = bw_ENG.35.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.35.a #果然...
+		add_political_power = -50
+	}
+}
+
+country_event = { #北爱尔兰叛乱！
+	id = bw_ENG.36
+	title = bw_ENG.36.t
+	desc = bw_ENG.36.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG.36.a #该死的
+		NIR = {
+			add_state_core = 119
+		}
+		release_on_controlled = NIR
+		NIR = {
+			declare_war_on = {
+				target = IRE
+				type = independence_wargoal
+			}
+		}
+		hidden_effect = {
+			NIR = {
+				inherit_technology = IRE
+				load_oob = "NIR"
+			}
+		}
 	}
 }

@@ -25,6 +25,12 @@ ENG_TanHeWeiJi_1 = {
 
 		complete_effect = {
 #效果
+			add_stability = 0.1
+			add_political_power = 10
+			add_popularity = {
+				ideology = BaoSHouZHuYi
+				popularity = 0.1
+			}
 		}
 
 		activation = {
@@ -32,17 +38,14 @@ ENG_TanHeWeiJi_1 = {
 			has_idea = bw_FRA_DaXiaoTiao
 			tag = ENG
 		}
-		available = { 
-			always = no 
-		} 
-		cancel_trigger = {
+		available = {
 			has_completed_focus = 脱离泥沼
 		}
 		is_good = no                           # 这个任务的颜色编码是有益事情（非危机）
 		selectable_mission = no                # 这个任务将在玩家点选任务时完成，而非自动完成
 		days_mission_timeout = 30              # 距离任务失败前有多少天？
 		timeout_effect = {                      # 当任务失败时会发生什么？
-			complete_national_focus = 辞职
+			complete_national_focus = ENG_CiZHi #辞职
 		}
 
 		ai_will_do = {
@@ -75,6 +78,9 @@ ENG_TanHeWeiJi_1 = {
 		visible = {
 #展示条件
 			original_tag = ENG
+			NOT = {
+				has_completed_focus = ENG_CiZHi #辞职
+			}
 			OR ={
 				has_idea = bw_FRA_DaXiaoTiao
 				has_idea = bw_ENG_DaXiaoTiao_1
@@ -123,6 +129,9 @@ ENG_TanHeWeiJi_1 = {
 		visible = {
 #展示条件
 			original_tag = ENG
+			NOT = {
+				has_completed_focus = ENG_CiZHi #辞职
+			}
 			OR ={
 				has_idea = bw_FRA_DaXiaoTiao
 				has_idea = bw_ENG_DaXiaoTiao_1
@@ -171,6 +180,9 @@ ENG_TanHeWeiJi_1 = {
 		visible = {
 #展示条件
 			original_tag = ENG
+			NOT = {
+				has_completed_focus = ENG_CiZHi #辞职
+			}
 			OR ={
 				has_idea = bw_FRA_DaXiaoTiao
 				has_idea = bw_ENG_DaXiaoTiao_1

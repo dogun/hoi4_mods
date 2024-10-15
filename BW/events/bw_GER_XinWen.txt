@@ -16,9 +16,7 @@ news_event = { #纳粹党赢得德国内战
 
 		hidden_effect = {
 			set_country_flag = load_bw_GER.1
-			ROOT = {
-				play_song = 超事件：起来战斗
-			}
+			scoped_play_song = 超事件：起来战斗
 		}
 	}
 }

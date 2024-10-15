@@ -1,4 +1,21 @@
 characters={
+	ENG_NeiGeWeiJi={
+		name=ENG_NeiGeWeiJi
+		portraits={
+			civilian={
+				large="gfx/leaders/内阁危机.dds"
+			}
+		}
+		country_leader={
+			ideology=JiaZHangZHi_c
+			traits={
+				cabinet_crisis
+			}
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
 	ENG_Stanley_Baldwin={
 		name=ENG_Stanley_Baldwin
 		portraits={
