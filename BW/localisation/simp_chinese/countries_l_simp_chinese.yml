@@ -9159,3 +9159,16 @@
  #傀儡
  AUR_subject_DEF: "$OVERLORDADJ$属查谟和克什米尔"
  #傀儡
+ 
+ #朱纳格特
+ 
+ JUN: "朱纳格特"
+ #通用
+ JUN_DEF: "朱纳格特"
+ #通用
+ JUN_ADJ: "朱纳格特"
+ #通用
+ JUN_subject: "$OVERLORDADJ$属朱纳格特"
+ #傀儡
+ JUN_subject_DEF: "$OVERLORDADJ$属朱纳格特"
+ #傀儡

@@ -1,0 +1,29 @@
+
+state={
+	id=993
+	name="STATE_993"
+	manpower = 10590200
+	
+	
+	state_category = rural
+	resources={
+	}
+
+	history={
+		owner = JUN
+		victory_points = {
+			8066 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	add_core_of = JUN
+	add_core_of = RAJ
+	}
+
+	provinces={
+		13368 8098 8066 
+	}
+
+	local_supplies=0.0 
+}
