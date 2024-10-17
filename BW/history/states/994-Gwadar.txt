@@ -1,0 +1,32 @@
+
+state={
+	id=994
+	name="STATE_994"
+	manpower = 53080
+	
+	
+	state_category = wasteland
+	resources={
+	}
+
+	history={
+		owner = KOK
+		victory_points = {
+			13369 1
+		}
+		buildings = {
+			infrastructure = 2
+			13369 = {
+				naval_base = 2
+			}
+		}
+	add_core_of = KOK
+	add_core_of = RAJ
+	}
+
+	provinces={
+		13369 
+	}
+
+	local_supplies=0.0 
+}

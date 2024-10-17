@@ -9172,3 +9172,37 @@
  #傀儡
  JUN_subject_DEF: "$OVERLORDADJ$属朱纳格特"
  #傀儡
+ 
+ #喀拉特
+ 
+ KOK: "喀拉特"
+ #通用
+ KOK_DEF: "喀拉特"
+ #通用
+ KOK_ADJ: "喀拉特"
+ #通用
+ KOK_subject: "$OVERLORDADJ$属喀拉特"
+ #傀儡
+ KOK_subject_DEF: "$OVERLORDADJ$属喀拉特"
+ #傀儡
+ ###
+ KOK_JunZHuZHuYi: "喀拉特汗国"
+ #君主主义
+ KOK_JunZHuZHuYi_DEF: "喀拉特汗国"
+ #君主主义
+ KOK_JunZHuZHuYi_ADJ: "喀拉特"
+ #君主主义
+ 
+ #拉斯贝拉
+ 
+ LAS: "拉斯贝拉"
+ #通用
+ LAS_DEF: "拉斯贝拉"
+ #通用
+ LAS_ADJ: "拉斯贝拉"
+ #通用
+ LAS_subject: "$OVERLORDADJ$属拉斯贝拉"
+ #傀儡
+ LAS_subject_DEF: "$OVERLORDADJ$属拉斯贝拉"
+ #傀儡
+ 

@@ -39,6 +39,8 @@
  STATE_991: "耶路撒冷"
  STATE_992: "朱纳格特"
  STATE_993: "卡拉特"
+ STATE_994: "瓜德尔"
+ STATE_995: "拉斯贝拉"
  
  STATE_5: "埃姆兰"
  STATE_233: "索契山区"
@@ -70,6 +72,8 @@
  VICTORY_POINTS_5042: "阿里"
  
  VICTORY_POINTS_12754: "查谟"
+ 
+ VICTORY_POINTS_1179: "贝拉"
  
  #战略地区
  
