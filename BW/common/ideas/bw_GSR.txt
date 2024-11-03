@@ -42,6 +42,7 @@ ideas = {
 				global_building_slots_factor = -0.1
 				production_factory_max_efficiency_factor = -0.25
 				production_factory_efficiency_gain_factor = -0.25 
+				production_speed_buildings_factor = -0.5 
 			}
 			targeted_modifier = {
 			}
@@ -82,6 +83,26 @@ ideas = {
 				breakthrough_factor = -0.1
 				training_time_factor = 0.1
 				industrial_capacity_dockyard = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+	}
+
+	country = {
+		bw_GSR_JunZHuZHuYiDeYouLing = {	#君主主义的幽灵
+			picture = JunZHuZHuYiDeYouLing
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				global_building_slots_factor = -0.25
+				production_speed_buildings_factor = -0.1 
+				JunZHuZHuYi_drift = 0.05
 			}
 			targeted_modifier = {
 			}

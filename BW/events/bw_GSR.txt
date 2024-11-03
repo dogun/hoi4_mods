@@ -32,10 +32,12 @@ country_event = { #西里西亚社民党游行
 			}
 		}
 		hidden_effect = {
-			news_event = {
-				id = bw_GER.2
-				days = 1
-				random = 0
+			GER ={
+				news_event = {
+					id = bw_GER.2
+					days = 1
+					random = 0
+				}
 			}
 		}
 	}
@@ -53,10 +55,12 @@ country_event = { #西里西亚社民党游行
 		}
 		GLR = { change_tag_from = ROOT }
 		hidden_effect = {
-			news_event = {
-				id = bw_GER.2
-				days = 1
-				random = 0
+			GER ={
+				news_event = {
+					id = bw_GER.2
+					days = 1
+					random = 0
+				}
 			}
 		}
 	}

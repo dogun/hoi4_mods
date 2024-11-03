@@ -156,6 +156,10 @@ focus_tree = {
 			unlock_decision_tooltip = GER_ZHengHeWeiSiTeFaLiYa
 			unlock_decision_tooltip = GER_ZHengHeHeiSen
 			unlock_decision_tooltip = GER_ZHengHeHeErSiTaiYin
+declare_war_on = {
+    target = GSR
+    type = annex_everything
+}
 		}
 	}
 	focus = {

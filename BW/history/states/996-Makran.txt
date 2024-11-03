@@ -1,0 +1,29 @@
+
+state={
+	id=996
+	name="STATE_996"
+	manpower = 20119
+	
+	
+	state_category = pastoral
+	resources={
+	}
+
+	history={
+		owner = MAK
+		victory_points = {
+			12774 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	add_core_of = MAK
+	add_core_of = RAJ
+	}
+
+	provinces={
+		5043 12774 
+	}
+
+	local_supplies=0.0 
+}

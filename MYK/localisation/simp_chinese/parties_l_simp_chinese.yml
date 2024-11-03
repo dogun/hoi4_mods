@@ -401,6 +401,10 @@
  GER_GuiZuBaoSHouZHuYi_party_long: "民族社会主义德国工人党（小斯特拉瑟派）"
  GER_BoGenDiTiZHi_party: "纳粹党（党卫军派）"
  GER_BoGenDiTiZHi_party_long: "民族社会主义德国工人党（党卫军派）"
+ GER_JiaZHangZHi_party: "纳粹党（自由军团派）"    恩斯特·罗姆
+ GER_JiaZHangZHi_party_long: "民族社会主义德国工人党（自由军团派）
+ 
+ GER_BaoSHouZHuYi_party: "巴伐利亚人民党"  弗里茨·舍菲尔
  
  GER_communism_party: "德国共产党"
  GER_democratic_party: "中央党"
@@ -421,10 +425,16 @@
  GSR_SiDaLingZHuYi_party: "德国共产党（共产国际派）"
  GSR_SiDaLingZHuYi_party_long: "德意志共产党（共产国际派）"
  
- GSR_JiaZHangZHi_party: "德国国家人民党（左派）"
- GSR_JiaZHangZHi_party_long: "德意志国家人民党（左派）"
- GSR_FaXiSiZHuYi_party: "德国国家人民党（右派）"
+ GSR_GuiZuBaoSHouZHuYi_party: "德国国家人民党（左派）" 库诺·冯·韦斯塔普
+ GSR_GuiZuBaoSHouZHuYi_party_long: "德意志国家人民党（左派）"
+ GSR_FaXiSiZHuYi_party: "德国国家人民党（右派）"   #阿尔弗雷德·胡根贝格
  GSR_FaXiSiZHuYi_party_long: "德意志国家人民党（右派）"
+ 
+ GER_BaoSHouZHuYi_party: "德国中央党"    威廉·马克思
+ GER_BaoSHouZHuYi_party_long: "天主教中央党"
+ 
+ GSR_SHeHuiMinZHuZHuYi_party: "德国社民党（右派）"   #沙赫塔
+ GSR_SHeHuiMinZHuZHuYi_party_long: "德国社会民主党（右派）"
  
  # # #波兰
  

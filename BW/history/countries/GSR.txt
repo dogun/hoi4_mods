@@ -39,7 +39,7 @@ set_popularities = {
 	FaXiSiZHuYi = 5.57
 }
 add_ideas = {
-	bw_GSR_RongKeGuiZu
+	bw_GSR_JunZHuZHuYiDeYouLing
 	bw_GSR_ZiYouJunTuan
 	bw_GSR_QvanGuoXingJingJiTanHuan
 	bw_GSR_SHeMinDangFanDuiPai

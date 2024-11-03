@@ -3665,7 +3665,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/水晶之夜.png"
 	}
 	# # #国民精神
-	# # # # # #德三
+	# # # # # #黑德
 	SpriteType = {
 		name = "GFX_idea_ZiYouJunTuan"
 		texturefile = "gfx/interface/ideas/自由军团（R）.png"
@@ -3685,6 +3685,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_SHuiJingZHiYe"
 		texturefile = "gfx/interface/ideas/水晶之夜.png"
+	}
+	# # # # # #红德
+	SpriteType = {
+		name = "GFX_idea_JunZHuZHuYiDeYouLing"
+		texturefile = "gfx/interface/ideas/君主主义的幽灵.png"
 	}
 	# # # # # #沙皇
 	SpriteType = {

@@ -9206,3 +9206,29 @@
  LAS_subject_DEF: "$OVERLORDADJ$属拉斯贝拉"
  #傀儡
  
+ #马克兰
+ 
+ MAK: "马克兰"
+ #通用
+ MAK_DEF: "马克兰"
+ #通用
+ MAK_ADJ: "马克兰"
+ #通用
+ MAK_subject: "$OVERLORDADJ$属马克兰"
+ #傀儡
+ MAK_subject_DEF: "$OVERLORDADJ$属马克兰"
+ #傀儡
+ ###
+ MAK_JunZHuBuErSHiWeiKe: "马克思苏丹国"
+ #君主布尔什维克
+ MAK_JunZHuBuErSHiWeiKe_DEF: "马克思苏丹国"
+ #君主布尔什维克
+ MAK_JunZHuBuErSHiWeiKe_ADJ: "马克兰"
+ #君主布尔什维克
+ 
+ MAK_JunZHuZHuYi: "马克兰苏丹国"
+ #君主主义
+ MAK_JunZHuZHuYi_DEF: "马克兰苏丹国"
+ #君主主义
+ MAK_JunZHuZHuYi_ADJ: "马克兰"
+ #君主主义

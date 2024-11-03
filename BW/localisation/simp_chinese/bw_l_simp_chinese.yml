@@ -41,6 +41,7 @@
  STATE_993: "卡拉特"
  STATE_994: "瓜德尔"
  STATE_995: "拉斯贝拉"
+ STATE_996: "马克兰"
  
  STATE_5: "埃姆兰"
  STATE_233: "索契山区"
@@ -74,6 +75,8 @@
  VICTORY_POINTS_12754: "查谟"
  
  VICTORY_POINTS_1179: "贝拉"
+ 
+ VICTORY_POINTS_12774: "凯奇"
  
  #战略地区
  
