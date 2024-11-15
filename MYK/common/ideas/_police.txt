@@ -1,0 +1,72 @@
+ideas = {
+
+	police = {	#警察
+		law = yes
+		use_list_view = yes
+
+		no_police_police = {	#无警察
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		local_police_police = {	#地方警察
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.01
+			}
+			cancel_if_invalid = yes
+		}
+
+		full_time_police_police = {	#专职警察
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.02
+				stability_factor = 0.02
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		militarized_police_police = {	#军事化警察
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				conscription_factor = 0.05
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

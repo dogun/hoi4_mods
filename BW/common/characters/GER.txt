@@ -60,6 +60,14 @@ GER_otto_Strasser = {
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal = {
+			traits = {politically_connected war_hero trickster inspirational_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 
 	GER_Heinrich_Himmler={
@@ -75,6 +83,15 @@ GER_otto_Strasser = {
 			expire="1965.1.1.1"
 			id=-1
 		}
+		field_marshal = {
+			traits = { politically_connected media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+
 	}
 
 	GER_Reinhard_Heydrich={
@@ -160,4 +177,82 @@ GER_otto_Strasser = {
 		}
 	}
 
+	GER_Hermann_Fegelein={
+		name=GER_Hermann_Fegelein
+		portraits={
+			civilian={
+				large="gfx/leaders/飞过来.dds"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected cavalry_leader cavalry_expert }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+
+	GER_Felix_Steiner={
+		name=GER_Felix_Steiner
+		portraits={
+			civilian={
+				large="gfx/leaders/史坦纳.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious defensive_doctrine }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	GER_Ernst_Rohm={
+		name=GER_Ernst_Rohm
+		portraits={
+			civilian={
+				large="gfx/leaders/恩斯特·罗姆.dds"
+			}
+		}
+		corps_commander = {
+			traits = { trait_reckless militias_officer reassigned  organisational_leader infantry_leader infantry_expert }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	GER_Hermann_Goring={
+		name=GER_Hermann_Goring
+		portraits={
+			army={
+				small="gfx/interface/ideas/迈耶.png"
+			}
+		}
+		advisor={
+			slot = economy_chief 
+			idea_token = Hermann_Goring
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				OR = {
+					has_government = SHeHuiFaXiSi 
+					has_government = SiTeLaSeZHuYi 
+					has_government = FaXiSiZHuYi 
+					has_government = MinZuSHeHuiZHuYi 
+					has_government = BoGenDiTiZHi 
+				}
+			}
+			traits = {
+				ZHanZHengJingJiXueJia
+			}
+		}
+	}
 }

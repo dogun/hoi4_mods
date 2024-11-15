@@ -1,0 +1,73 @@
+ideas = {
+
+	union = {	#工会政策
+		law = yes
+		use_list_view = yes
+
+		ban_trade_unions_union = {	#禁止工会
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.04
+				production_factory_efficiency_gain_factor = 0.04
+			}
+			cancel_if_invalid = yes
+		}
+
+		state_controlled_unions_union = {	#国家控制工会
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				production_factory_efficiency_gain_factor = 0.02
+			}
+			cancel_if_invalid = yes
+		}
+
+		allow_depoliticized_unions_union = {	#允许非政治化工会
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.02
+				production_factory_efficiency_gain_factor = -0.2
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		unions_allowed_union = {	#允许工会
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.04
+				production_factory_efficiency_gain_factor = -0.04
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

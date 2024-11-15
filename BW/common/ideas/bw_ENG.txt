@@ -489,5 +489,75 @@ ideas = {
 			}
 		}
 
+		bw_ENG_TianYouGuoWang = {	#天佑国王
+			picture = TianYouGuoWang
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = 0.001
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_ZHengJiuLuenDuen = {	#拯救伦敦
+			picture = ZHengJiuLuenDuen
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				stability_weekly = 0.001
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_ENG_PuTaoJiuXingDong = {	#葡萄酒行动
+			picture = PuTaoJiuXingDong
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				invasion_preparation = -0.15
+			}
+			targeted_modifier = {
+				tag = FRA
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+		}
+
+		bw_ENG_NuoManDiDeYiCHan = {	#诺曼底的遗产
+			picture = NuoManDiDeYiCHan
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				invasion_preparation = -0.15
+				naval_invasion_penalty = -0.15
+
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+			}
+			targeted_modifier = {
+			}
+		}
 	}
 }

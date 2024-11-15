@@ -1,5 +1,5 @@
 ﻿capital = 52
-set_oob = "GER_bw"
+set_oob = " "
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -32,48 +32,6 @@ set_technology = {
 	gwtank_chassis = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	create_equipment_variant = {
-		name = "条顿"
-		type = medium_tank_chassis_0
-		parent_version = 0
-		modules = {
-			main_armament_slot=tank_close_support_gun
-			engine_type_slot=tank_gasoline_engine
-			special_type_slot_1=secondary_turret_hmg
-			turret_type_slot=tank_medium_two_man_tank_turret
-			suspension_type_slot=tank_bogie_suspension
-			armor_type_slot=tank_riveted_armor
-		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 0
-			tank_nsb_armor_upgrade = 0
-		}
-		icon = "GFX_GER_basic_medium_tank_medium"
-	}
-
-	create_equipment_variant = {
-		name = "改装拖拉机"
-		type = light_tank_chassis_0
-		parent_version = 0
-		modules = {
-			main_armament_slot=tank_heavy_machine_gun
-			engine_type_slot=tank_gasoline_engine
-			turret_type_slot=tank_light_one_man_tank_turret
-			suspension_type_slot=tank_bogie_suspension
-			armor_type_slot=tank_riveted_armor
-		}
-		upgrades = {
-			tank_nsb_engine_upgrade = 0
-			tank_nsb_armor_upgrade = 0
-		}
-		icon = "GFX_GER_basic_medium_tank_medium"
-	}
-}
-
 set_variable = { var = ger_gateway_to_europe_influence value = 0 }
 
 set_variable = { var = wehrmacht_anger value = 0 }
@@ -103,13 +61,24 @@ set_popularities = {
 add_ideas = {
 #	sour_loser
 #	general_staff
-	limited_exports
-	limited_conscription
 	partial_economic_mobilisation
 #	SWE_historical_trade_with_Germany_dummy CUT
 	bw_LinSHiZHengFu
 	bw_GER_RiNeiWaTiaoYue_1
 	bw_GER_FaErSaiTiXi
+
+	dictatorship_distribution_of_power
+	no_election_suffrager
+	no_police_police
+	professional_army_army
+	bandit_economy_economy
+	unsystematic_taxation_tax
+
+	no_strike_strike
+	ban_trade_unions_union
+
+	limited_exports
+	limited_conscription
 }
 #add_ideas = GER_mefo_bills_1
 
@@ -119,13 +88,83 @@ declare_war_on = {
 }
 #give_guarantee = ALB
 
+1936.1.1 = {
+	unlock_national_focus = GER_FaXiSiZHiJian #法西斯之剑
+	unlock_national_focus = GER_DongYuanCHongFengDui #动员冲锋队
+	unlock_national_focus = GER_DongYuanDangWeiJun #动员党卫军
+	unlock_national_focus = 团结一致
+	unlock_national_focus = GER_ZHaoMuMinBing #招募民兵
+	unlock_national_focus = GER_ZiYouJiuTuan #自由军团
+	unlock_national_focus = GER_ZHengHeZHanLingQv #整合占领区
+	unlock_national_focus = 威悉行动
+	unlock_national_focus = 与英法谈判
+	unlock_national_focus = 签署日内瓦条约
+	unlock_national_focus = 以萨尔换取支援
+
+	add_stability = 0.1
+	add_war_support = 0.1
+	load_oob = "GER_MinBing"
+
+	set_oob = "GER_bw"
+
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		create_equipment_variant = {
+			name = "条顿"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot=tank_close_support_gun
+				engine_type_slot=tank_gasoline_engine
+				special_type_slot_1=secondary_turret_hmg
+				turret_type_slot=tank_medium_two_man_tank_turret
+				suspension_type_slot=tank_bogie_suspension
+				armor_type_slot=tank_riveted_armor
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
+			}
+			icon = "GFX_GER_basic_medium_tank_medium"
+		}
+
+		create_equipment_variant = {
+			name = "改装拖拉机"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot=tank_heavy_machine_gun
+				engine_type_slot=tank_gasoline_engine
+				turret_type_slot=tank_light_one_man_tank_turret
+				suspension_type_slot=tank_bogie_suspension
+				armor_type_slot=tank_riveted_armor
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
+			}
+			icon = "GFX_GER_basic_medium_tank_medium"
+		}
+	}
+
+}
+
+
 set_cosmetic_tag = GER_LinSHiZHengFu
 
+#领导人
 recruit_character = GER_Gregor_Strasser
 recruit_character = GER_otto_Strasser
 recruit_character = GER_Aldert_Speer
 recruit_character = GER_adolf_hitler
 recruit_character = GER_Heinrich_Himmler
-
+#顾问
 recruit_character = GER_Reinhard_Heydrich
 recruit_character = GER_Paul_Joseph_Goebbels
+recruit_character = GER_Hermann_Goring
+#将领
+recruit_character = GER_Hermann_Fegelein
+recruit_character = GER_Felix_Steiner
+recruit_character = GER_Ernst_Rohm

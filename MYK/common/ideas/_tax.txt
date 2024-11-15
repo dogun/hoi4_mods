@@ -1,0 +1,123 @@
+ideas = {
+
+	tax = {	#税收类型
+		law = yes
+		use_list_view = yes
+
+		no_taxation_tax = {	#无税收
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = 0.05
+				stability_factor = 0.05
+			}
+			cancel_if_invalid = no
+		}
+
+		unsystematic_taxation_tax = {	#未成体系的税收
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = -0.01
+				political_power_cost = 0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		consumption_based_taxation_tax = {	#消费税
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = -0.02
+				political_power_cost = 0.2
+			}
+			cancel_if_invalid = yes
+		}
+
+		cultivators_based_taxation_tax = {	#耕种者税
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = -0.03
+				political_power_cost = 0.3
+			}
+			cancel_if_invalid = yes
+		}
+
+		land_based_taxation_tax = {	#土地税
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = -0.04
+				political_power_cost = 0.4
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		per_capita_taxation_tax = {	#人均税
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = -0.05
+				political_power_cost = 0.5
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		proportional_taxation_tax = {	#比例税
+
+			available = {
+
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_expected_value = -0.06
+				political_power_cost = 0.6
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+	}
+}

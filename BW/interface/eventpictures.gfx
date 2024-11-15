@@ -3602,7 +3602,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_GeRenCHongBai"
-		texturefile = "gfx/interface/goals/个人崇拜.png"
+		texturefile = "gfx/interface/goals/个人崇拜2.png"
 	}
 	SpriteType = {
 		name = "GFX_DongYuanCHongFengDui"
@@ -3664,6 +3664,26 @@ spriteTypes = {
 		name = "GFX_SHuiJingZHiYe"
 		texturefile = "gfx/interface/goals/水晶之夜.png"
 	}
+	SpriteType = {
+		name = "GFX_FanBuErSHiWeiKeZHiYuanJun"
+		texturefile = "gfx/interface/goals/反布尔什维克志愿军.png"
+	}
+	SpriteType = {
+		name = "GFX_XvanCHuanJvDaDeHongSeWeiXie"
+		texturefile = "gfx/interface/goals/宣传巨大的红色威胁.png"
+	}
+	SpriteType = {
+		name = "GFX_NaCuiDeDeYiZHi"
+		texturefile = "gfx/interface/goals/纳粹的德意志.png"
+	}
+	SpriteType = {
+		name = "GFX_CHangDaoZHiYe"
+		texturefile = "gfx/interface/goals/长刀之夜.png"
+	}
+	SpriteType = {
+		name = "GFX_JieJueJingJiWeiTi"
+		texturefile = "gfx/interface/goals/解决经济问题.png"
+	}
 	# # #国民精神
 	# # # # # #黑德
 	SpriteType = {
@@ -3679,14 +3699,18 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/社民党反对派.png"
 	}
 	SpriteType = {
-		name = "GFX_idea_FaErSaiTiaoYueDeYvBo"
-		texturefile = "gfx/interface/ideas/法尔赛条约的遗产（RR）.png"
-	}
-	SpriteType = {
 		name = "GFX_idea_SHuiJingZHiYe"
 		texturefile = "gfx/interface/ideas/水晶之夜.png"
 	}
+	SpriteType = {
+		name = "GFX_idea_JvDaDeHongSeWeiXie"
+		texturefile = "gfx/interface/ideas/巨大的红色威胁.png"
+	}
 	# # # # # #红德
+	SpriteType = {
+		name = "GFX_idea_FaErSaiTiaoYueDeYvBo"
+		texturefile = "gfx/interface/ideas/法尔赛条约的遗产（RR）.png"
+	}
 	SpriteType = {
 		name = "GFX_idea_JunZHuZHuYiDeYouLing"
 		texturefile = "gfx/interface/ideas/君主主义的幽灵.png"
@@ -3728,6 +3752,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_MeiNiuXeiDing"
 		texturefile = "gfx/interface/ideas/煤牛协定.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_TianYouGuoWang"
+		texturefile = "gfx/interface/ideas/天佑国王（R）.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_ZHengJiuLuenDuen"
+		texturefile = "gfx/interface/ideas/拯救伦敦.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_PuTaoJiuXingDong"
+		texturefile = "gfx/interface/ideas/葡萄酒行动.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_NuoManDiDeYiCHan"
+		texturefile = "gfx/interface/ideas/诺曼底的遗产.png"
 	}
 	# # # # # #爱尔兰
 	SpriteType = {

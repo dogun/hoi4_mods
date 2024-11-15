@@ -1,0 +1,210 @@
+ideas = {
+
+	distribution_of_power = {	#权力分配
+		law = yes
+		use_list_view = yes
+
+		dictatorship_distribution_of_power = {	#独裁制
+
+			available = {
+				OR = {
+					has_government = SiDaLingZHuYi
+					has_government = JunZHengGuongCHanZHuYi
+					has_government = JunZHuBuErSHiWeiKe
+					has_government = JiaSuZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = JiaZHangZHi
+					has_government = JunZHuZHuYi
+					has_government = ZiBenGuongCHanZHuYi
+					has_government = SHeHuiFaXiSi
+					has_government = SiTeLaSeZHuYi
+					has_government = FaXiSiZHuYi
+					has_government = MinZuSHeHuiZHuYi
+					has_government = BoGenDiTiZHi
+				}
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = -1
+				political_power_factor = -0.1
+				stability_factor = 0.1
+				party_popularity_stability_factor = -0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		oligarchy_distribution_of_power = {	#寡头制
+
+			available = {
+				OR = {
+					has_government = SiDaLingZHuYi
+					has_government = JunZHengGuongCHanZHuYi
+					has_government = JunZHuBuErSHiWeiKe
+					has_government = JiaSuZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = JiaZHangZHi
+					has_government = ZiBenGuongCHanZHuYi
+					has_government = SHeHuiFaXiSi
+					has_government = SiTeLaSeZHuYi
+					has_government = FaXiSiZHuYi
+					has_government = MinZuSHeHuiZHuYi
+					has_government = BoGenDiTiZHi
+				}
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = -0.6
+				political_power_factor = -0.06
+				stability_factor = 0.06
+				party_popularity_stability_factor = -0.06
+			}
+			cancel_if_invalid = yes
+		}
+
+		classical_republic_distribution_of_power = {	#古典共和制
+
+			available = {
+				OR = {
+					has_government = GuongTuanZHuYi
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+					has_government = GuDianZiYouZHuYi
+					has_government = SHeHuiMinZHuZHuYi
+					has_government = MinZHuSHeHuiZHuYi
+					has_government = JiaSuZHuYi
+					has_government = BaoSHouZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = JiaZHangZHi
+					has_government = ZiBenGuongCHanZHuYi
+					has_government = SHeHuiFaXiSi
+					has_government = SiTeLaSeZHuYi
+					has_government = FaXiSiZHuYi
+					has_government = MinZuSHeHuiZHuYi
+					has_government = BoGenDiTiZHi
+				}
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = -0.2
+				political_power_factor = -0.02
+				stability_factor = 0.02
+				party_popularity_stability_factor = -0.02
+			}
+			cancel_if_invalid = yes
+		}
+
+		high_republic_distribution_of_power = {	#高等共和制
+
+			available = {
+				OR = {
+					has_government = GuongTuanZHuYi
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+					has_government = GuDianZiYouZHuYi
+					has_government = SHeHuiMinZHuZHuYi
+					has_government = MinZHuSHeHuiZHuYi
+					has_government = JiaSuZHuYi
+					has_government = BaoSHouZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = ZiBenGuongCHanZHuYi
+				}
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.2
+				political_power_factor = 0.02
+				stability_factor = -0.02
+				party_popularity_stability_factor = 0.02
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		parliamentary_republic_distribution_of_power = {	#议会共和制
+
+			available = {
+				OR = {
+					has_government = GuongTuanZHuYi
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+					has_government = GuDianZiYouZHuYi
+					has_government = SHeHuiMinZHuZHuYi
+					has_government = MinZHuSHeHuiZHuYi
+					has_government = JiaSuZHuYi
+					has_government = BaoSHouZHuYi
+					has_government = GuiZuBaoSHouZHuYi
+					has_government = ZiBenGuongCHanZHuYi
+				}
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.6
+				political_power_factor = 0.06
+				stability_factor = -0.06
+				party_popularity_stability_factor = 0.06
+			}
+			cancel_if_invalid = yes
+		}
+
+		committee_republic_distribution_of_power = {	#委员会共和制
+
+			available = {
+				OR = {
+					has_government = GuongTuanZHuYi
+					has_government = MaKeSi_LieNingZHuYi
+					has_government = TuoLuoSiJiZHuYi
+					has_government = SiDaLingZHuYi
+					has_government = YuanSHiZHuYi
+				}
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 1
+				political_power_factor = 0.1
+				stability_factor = -0.1
+				party_popularity_stability_factor = 0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		anarchy_distribution_of_power = {	#无政府
+
+			available = {
+				has_government = WuZHengFuGuongCHanZHuYi
+			}
+
+			cost = 1000
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -9.99
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

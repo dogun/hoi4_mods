@@ -1,0 +1,415 @@
+add_namespace = bw_ENG_TuiWeiWeiJi
+
+country_event = { #爱德华八世退位危机
+	id = bw_ENG_TuiWeiWeiJi.1
+	title = bw_ENG_TuiWeiWeiJi.1.t
+	desc = bw_ENG_TuiWeiWeiJi.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.1.a #国王一意孤行...
+
+		add_political_power  = -50
+
+		hidden_effect = {
+			news_event = {
+				id = bw_ENG_TuiWeiWeiJi.2 #媒体反对国王
+				days = 10
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.1.b #那就只能退位...
+		custom_effect_tooltip = bw_ENG_PingWenHangXing
+
+		set_country_flag = bw_ENG_PingWenHangXing
+		complete_national_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+
+		retire_ideology_leader = JunZHuZHuYi
+
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = -0.1
+		}
+	}
+}
+
+country_event = { #媒体反对国王
+	id = bw_ENG_TuiWeiWeiJi.2
+	title = bw_ENG_TuiWeiWeiJi.2.t
+	desc = bw_ENG_TuiWeiWeiJi.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.2.a #政府的傀儡而已
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = -0.1
+		}
+		add_political_power = -50
+		hidden_effect = {
+			if = {
+				every_other_country = {
+					limit = {
+						is_subject_of = ROOT
+						has_autonomy_state = ZiZHiQv
+					}
+					news_event = {
+						id = bw_ENG_TuiWeiWeiJi.3 #（自治领）民众表示疑惑
+						days = 5
+						random = 0
+					}
+				}
+			}
+		}
+	}
+#	option = {
+#		name = bw_ENG_TuiWeiWeiJi.2.b #...他们是对的
+#		custom_effect_tooltip = bw_ENG_WuBao
+#
+#		complete_national_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+#
+#		retire_ideology_leader = JunZHuZHuYi
+#
+#		add_popularity = {
+#			ideology = JunZHuZHuYi
+#			popularity = -0.1
+#		}
+#	}
+}
+
+country_event = { #（自治领）民众表示疑惑
+	id = bw_ENG_TuiWeiWeiJi.3
+	title = bw_ENG_TuiWeiWeiJi.3.t
+	desc = bw_ENG_TuiWeiWeiJi.3.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.3.a #我们只是听从伦敦的安排
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+			ENG = {
+				news_event = {
+					id = bw_ENG_TuiWeiWeiJi.4 #民众表示疑惑
+					days = 0
+					random = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #民众表示疑惑
+	id = bw_ENG_TuiWeiWeiJi.4
+	title = bw_ENG_TuiWeiWeiJi.4.t
+	desc = bw_ENG_TuiWeiWeiJi.4.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.4.a #他们这都敢？！
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+			if = {
+				every_other_country = {
+					limit = {
+						is_subject_of = ROOT
+						has_autonomy_state = ZiZHiQv
+					}
+					news_event = {
+						id = bw_ENG_TuiWeiWeiJi.5 #（自治领）民众支持国王
+						days = 5
+						random = 0
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #（自治领）民众支持国王
+	id = bw_ENG_TuiWeiWeiJi.5
+	title = bw_ENG_TuiWeiWeiJi.5.t
+	desc = bw_ENG_TuiWeiWeiJi.5.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.5.a #不妙的消息
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		ENG = {
+			news_event = {
+				id = bw_ENG_TuiWeiWeiJi.7 #自治领反对国王
+				days = 1
+				random = 0
+			}
+		}
+		hidden_effect = {
+			ENG = {
+				news_event = {
+					id = bw_ENG_TuiWeiWeiJi.6 #民众支持国王
+					days = 0
+					random = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #民众支持国王
+	id = bw_ENG_TuiWeiWeiJi.6
+	title = bw_ENG_TuiWeiWeiJi.6.t
+	desc = bw_ENG_TuiWeiWeiJi.6.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.6.a #不妙的消息
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { #自治领反对国王
+	id = bw_ENG_TuiWeiWeiJi.7
+	title = bw_ENG_TuiWeiWeiJi.7.t
+	desc = bw_ENG_TuiWeiWeiJi.7.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.7.a #告诉莫斯利来白金汉宫一趟
+		add_popularity = {
+			ideology = SiTeLaSeZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+			news_event = {
+				id = bw_ENG_TuiWeiWeiJi.8 #王党成立
+				days = 5
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #王党成立
+	id = bw_ENG_TuiWeiWeiJi.8
+	title = bw_ENG_TuiWeiWeiJi.8.t
+	desc = bw_ENG_TuiWeiWeiJi.8.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.8.a #现在不怕他们辞职了
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = SiTeLaSeZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = FaXiSiZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = MinZuSHeHuiZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+			if = {
+				every_other_country = {
+					limit = {
+						is_subject_of = ROOT
+						has_autonomy_state = ZiZHiQv
+					}
+					news_event = {
+						id = bw_ENG_TuiWeiWeiJi.9 #（自治领）王党成立
+						days = 0
+						random = 0
+					}
+				}
+			}
+			news_event = {
+				id = bw_ENG_TuiWeiWeiJi.10 #国王陛下与华里丝的的婚礼
+				days = 5
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #（自治领）王党成立
+	id = bw_ENG_TuiWeiWeiJi.9
+	title = bw_ENG_TuiWeiWeiJi.9.t
+	desc = bw_ENG_TuiWeiWeiJi.9.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.9.a #......      
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = SiTeLaSeZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = FaXiSiZHuYi
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = MinZuSHeHuiZHuYi
+			popularity = 0.1
+		}
+		add_political_power = -50
+		add_stability = -0.05
+	}
+}
+
+country_event = { #国王陛下与华里丝的的婚礼
+	id = bw_ENG_TuiWeiWeiJi.10
+	title = bw_ENG_TuiWeiWeiJi.10.t
+	desc = bw_ENG_TuiWeiWeiJi.10.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.10.a #但这足以弥合国家的裂痕吗
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.2
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+			if = {
+				every_other_country = {
+					limit = {
+						is_subject_of = ROOT
+						has_autonomy_state = ZiZHiQv
+					}
+					news_event = {
+						id = bw_ENG_TuiWeiWeiJi.11 #（自治领）国王陛下与华里丝的的婚礼
+						days = 0
+						random = 0
+					}
+				}
+			}
+			news_event = {
+				id = bw_ENG_TuiWeiWeiJi.13 #内阁辞职
+				days = 1
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #（自治领）国王陛下与华里丝的的婚礼
+	id = bw_ENG_TuiWeiWeiJi.11
+	title = bw_ENG_TuiWeiWeiJi.11.t
+	desc = bw_ENG_TuiWeiWeiJi.11.d
+	is_triggered_only = yes
+
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.11.a #立刻辞职
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = JunZHuZHuYi
+			popularity = 0.2
+		}
+		add_political_power = -50
+		add_stability = -0.05
+		hidden_effect = {
+			ENG ={
+				news_event = {
+					id = bw_ENG_TuiWeiWeiJi.12 #总督辞职
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #总督集体辞职
+	id = bw_ENG_TuiWeiWeiJi.12
+	title = bw_ENG_TuiWeiWeiJi.12.t
+	desc = bw_ENG_TuiWeiWeiJi.12.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.12.a #让他们滚蛋！
+		add_political_power = -10
+	}
+}
+
+country_event = { #内阁集体辞职
+	id = bw_ENG_TuiWeiWeiJi.13
+	title = bw_ENG_TuiWeiWeiJi.13.t
+	desc = bw_ENG_TuiWeiWeiJi.13.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.13.a #让他们滚蛋！
+		add_political_power = -10
+		hidden_effect = {
+			news_event = {
+				id = bw_ENG_TuiWeiWeiJi.14 #王党接管政府
+				days = 23
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #王党接管政府
+	id = bw_ENG_TuiWeiWeiJi.14
+	title = bw_ENG_TuiWeiWeiJi.14.t
+	desc = bw_ENG_TuiWeiWeiJi.14.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.14.a #天佑国王
+		set_country_flag = bw_ENG_TiaoZHenHangXian
+		complete_national_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+		set_politics = {
+			ruling_party = JunZHuZHuYi
+		}
+	}
+	option = {
+		name = bw_ENG_TuiWeiWeiJi.14.b #拯救伦敦
+		set_country_flag = bw_ENG_TiaoZHenHangXian
+		complete_national_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+		add_popularity = {
+			ideology = SiTeLaSeZHuYi
+			popularity = 0.1
+		}
+		set_politics = {
+			ruling_party = SiTeLaSeZHuYi
+		}
+	}
+}

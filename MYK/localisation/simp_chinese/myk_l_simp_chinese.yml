@@ -20,4 +20,97 @@
  myk_idea_GuoFangJianSHe: "国防建设"
  myk_idea_DisSiTianZai: "~"
  
- economy: "动员法案"
+ 
+ government: "政府"
+ head_of_government: "政府首脑"
+ economy_chief: "经济部长"
+ foreign_affairs_chief: "外交部长"
+ 
+ 
+ advisor: "顾问"
+ high_command: "军事顾问"
+ 
+ mobilization: "动员"
+ mobilization_laws: "人力动员"
+ economy_mobilization: "经济动员"
+ 
+ 
+ nation: "国家"
+ 
+ distribution_of_power: "权力分配"
+ dictatorship_distribution_of_power: "独裁制"
+ oligarchy_distribution_of_power: "寡头制"
+ classical_republic_distribution_of_power: "古典共和制"
+ high_republic_distribution_of_power: "高等共和制"
+ parliamentary_republic_distribution_of_power: "议会共和制"
+ committee_republic_distribution_of_power: "委员会共和制"
+ anarchy_distribution_of_power: "无政府"
+ 
+ suffrage: "选举权"
+ no_election_suffrager: "无选举"
+ single_winner_elections_suffrager: "明面选举"
+ property_vote_suffrager: "财产投票"
+ differentiated_elections_suffrager: "区别选举"
+ qualifying_election_suffrager: "资格性选举"
+ universal_suffrage_suffrager: "普选制"
+ peoples_state_suffrager: "人民国家"
+ 
+ police: "警察机构"
+ no_police_police: "无警察"
+ local_police_police: "地方警察"
+ full_time_police_police: "专职警察"
+ militarized_police_police: "军事化警察"
+ 
+ army: "军队"
+ professional_army_army: "专业军队"
+ wartime_conscription_army: "战时征兵"
+ 
+ economy: "经济模式"
+ chaotic_economy_economy: "混乱经济"
+ bandit_economy_economy: "土匪经济"
+ laissez_faire_economy: "自由放任"
+ Interventionism_economy: "经济干预"
+ reform_and_opening_up_economy: "半计划经济"
+ planned_economy_economy: "计划经济"
+ parecon_economy: "参与型经济"
+ cooperative_economy: "合作社经济"
+ 
+ tax: "税收类型"
+ no_taxation_tax: "无税收"
+ unsystematic_taxation_tax: "未成体系的税收"
+ consumption_based_taxation_tax: "消费税"
+ cultivators_based_taxation_tax: "耕种者税"
+ land_based_taxation_tax: "土地税"
+ per_capita_taxation_tax: "人均税"
+ proportional_taxation_tax: "比例税"
+ 
+ 
+ 
+ worker: "劳工"
+ 
+ strike: "罢工权力"
+ no_strike_strike: "禁止罢工"
+ state_sanctioned_strike: "国家批准罢工"
+ strikes_are_prohibited_during_extraordinary_times_strike: "非常时期禁止罢工"
+ strike_allowed_strike: "允许罢工"
+ 
+ union: "工会政策"
+ ban_trade_unions_union: "禁止工会"
+ state_controlled_unions_union: "国家控制工会"
+ allow_depoliticized_unions_union: "允许非政治化工会"
+ unions_allowed_union: "允许工会"
+ 
+ working_hours: "工作时长"
+ Unlimited_working_hours: "无限制"
+ Maximum_18h_per_day_working_hours: "每日最多18小时"
+ Maximum_16h_per_day_working_hours: "每日最多16小时"
+ Maximum_14h_per_day_working_hours: "每日最多14小时"
+ Maximum_12h_per_day_working_hours: "每日最多12小时"
+ Maximum_10h_per_day_working_hours: "每日最多10小时"
+ Maximum_8h_per_day_working_hours: "每日最多8小时"
+ Maximum_6h_per_day_working_hours: "每日最多6小时"
+ Maximum_4h_per_day_working_hours: "每日最多4小时"
+ 
+ minimum_wage: "最低工资"
+ dole" "救济金"
+ pension: "退休金"

@@ -384,6 +384,9 @@
  
  # # #GER
  
+ bw_GER_JvDaDeHongSeWeiXie: "巨大的红色威胁"
+ bw_GER_JvDaDeHongSeWeiXie_desc: "“在西伯利亚的苦寒之地，斯大林和他的同僚们正在让世界变成红色，德国就是他的桥头堡，而我们的元首就是第一个抵抗这股力量的人。”——德国宣传部"
+ 
  bw_GER_SHengCunKongJian: "生存空间"
  bw_GER_SHengCunKongJian_desc: " "
  
@@ -398,6 +401,7 @@
  
  bw_GER_FaErSaiTiXi: "法尔赛体系"
  bw_GER_FaErSaiTiXi_desc: " "
+ FaErSaiTiXi_tt: "§R在宣战法尔赛体系的国家后其余法尔赛体系国家将向你宣战。§!"
  
  bw_GER_RiNeiWaTiaoYue_1: "日内瓦条约"
  bw_GER_RiNeiWaTiaoYue_1_desc: " "
@@ -708,6 +712,14 @@
  
  GER_Aldert_Speer: "贝特霍尔德·康拉德·赫尔曼·阿尔伯特·施佩尔"
  
+ GER_Hermann_Fegelein: "汉斯·乔治·奥托·赫尔曼·费格莱因"
+ 
+ GER_Felix_Steiner: "费利克斯·马丁·尤利乌斯·施泰纳"
+ 
+ GER_Ernst_Rohm:"恩斯特·尤利乌斯·金特·罗姆"
+ 
+ GER_Hermann_Goring: "赫尔曼·威廉·戈林"
+ 
  # # #奥地利
  
  AUS_Kurt_Schuschnigg_BW: "库尔特·舒施尼格"
@@ -796,6 +808,8 @@
  #fascist_demagogue: "反外国宣传者"
  
  SHaHuangZuiZHongCHengDeJinWeiBing: "沙皇最忠诚的近卫兵"
+ 
+ ZHanZHengJingJiXueJia: "战争经济学家"
  
  #国民精神
 
@@ -1089,6 +1103,81 @@
  bw_ENG.36.d: ""
  bw_ENG.36.a: "该死的"
  
+ # # #爱德华八世退位危机
+ 
+ bw_ENG_TuiWeiWeiJi.1: "爱德华八世退位危机"
+ bw_ENG_TuiWeiWeiJi.1.t: "爱德华八世退位危机"
+ bw_ENG_TuiWeiWeiJi.1.d: "非常最贵的首相，我们的国王爱德华八世于今日宣布了他与华里丝将要结婚的消息，这很明显不符合英国圣公宗的规定，华里丝出身卑微，还有传言说她是美国间谍，而国王坚持要跟她结婚，这该怎么办？"
+ bw_ENG_TuiWeiWeiJi.1.a: "国王一意孤行..."
+ bw_ENG_TuiWeiWeiJi.1.b: "那就只能退位..."
+ 
+ bw_ENG_TuiWeiWeiJi.2: "媒体反对国王"
+ bw_ENG_TuiWeiWeiJi.2.t: "媒体反对国王"
+ bw_ENG_TuiWeiWeiJi.2.d: "国王陛下，今天的泰晤士报刊登了一篇反对您的文章，他们说：“国王应该对国家和圣公宗迎娶一位二婚的美国女人这件事既违反圣公宗规定，也有通敌的嫌疑，所以国王应该放弃王位或者放弃婚姻。”"
+ bw_ENG_TuiWeiWeiJi.2.a: "政府的傀儡而已"
+ bw_ENG_TuiWeiWeiJi.2.b: "...他们是对的"
+ 
+ bw_ENG_TuiWeiWeiJi.3: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.3.t: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.3.d: "总理阁下，今天在发生了游行，他们声称：“政府一直在欺骗我们，我们之前连华里丝是谁都不知道，最开始还是从葡属非洲那边听到的。”"
+ bw_ENG_TuiWeiWeiJi.3.a: "我们只是听从伦敦的安排"
+ 
+ bw_ENG_TuiWeiWeiJi.4: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.4.t: "民众表示疑惑"
+ bw_ENG_TuiWeiWeiJi.4.d: "国王陛下，今天在个自治领和英国本土都发生了游行，尤其是南非，他们声称：“政府一直在欺骗我们，我们之前连华里丝是谁都不知道，最开始还是从葡属非洲那边听到的。”这明显是政府之前在封锁消息，这件事情连国王您都没告诉"
+ bw_ENG_TuiWeiWeiJi.4.a: "他们这都敢？！"
+ 
+ bw_ENG_TuiWeiWeiJi.5: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.5.t: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.5.d: "总理阁下，今天游行的目标发生了变化，他们在了解事情的经过后开始支持国王，认为所有人包括国王的婚姻自由应该受到保障，这可能会让国王更加坚持自己的想法"
+ bw_ENG_TuiWeiWeiJi.5.a: "不妙的消息"
+ 
+ bw_ENG_TuiWeiWeiJi.6: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.6.t: "民众支持国王"
+ bw_ENG_TuiWeiWeiJi.6.d: "国王陛下，今天游行的目标发生了变化，在他们了解事情的经过后开始支持您，他们现在认为所有人包括国王您的婚姻自由应该受到保障，这可能会一些议员导向您"
+ bw_ENG_TuiWeiWeiJi.6.a: "好起来了"
+ 
+ bw_ENG_TuiWeiWeiJi.7: "自治领反对国王"
+ bw_ENG_TuiWeiWeiJi.7.t: "自治领反对国王"
+ bw_ENG_TuiWeiWeiJi.7.d: "国王陛下，今天各自治领总督在看到民众支持您后表示：“如果国王成婚我们会立刻辞职”这是赤裸裸的威胁，但是英国议会也有这种想法，如果是真的联合王国可能就此崩溃，怎么办？"
+ bw_ENG_TuiWeiWeiJi.7.a: "告诉莫斯利来白金汉宫一趟"
+ 
+ bw_ENG_TuiWeiWeiJi.8: "王党成立"
+ bw_ENG_TuiWeiWeiJi.8.t: "王党成立"
+ bw_ENG_TuiWeiWeiJi.8.d: "国王陛下，莫斯利和他的法西斯联盟同意支持您，并且他们改名叫王党，劳合乔治也加入了进去，据说丘吉尔也支持王党。"
+ bw_ENG_TuiWeiWeiJi.8.a: "现在不怕他们辞职了"
+ 
+ bw_ENG_TuiWeiWeiJi.9: "王党成立"
+ bw_ENG_TuiWeiWeiJi.9.t: "王党成立"
+ bw_ENG_TuiWeiWeiJi.9.d: "总理阁下，莫斯利和他的法西斯联盟以及劳合乔治建立了王党，据说丘吉尔也支持王党，这下辞职不管用了，怎么办？"
+ bw_ENG_TuiWeiWeiJi.9.a: "......      "
+ 
+ bw_ENG_TuiWeiWeiJi.10: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.10.t: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.10.d: "王室大婚的良辰吉日终于到来。新人由白金汉宫前往威斯敏斯特修道院，道路两旁人潮汹涌。\n\n国内对婚事的非议之声渐显无力。在集体辞职等诸多手段皆无功而返之后，一切反对声都陷入了死寂。最后的抵抗来自坎特伯雷大主教科斯莫·朗的离职，而他的继任者则对国王的意愿更为……服从。\n\n在这次危机酿成的政治地震震后，当下的庆祝活动不仅是公共秩序的恢复所不可或缺的，更是解决当前政治矛盾的第一步。"
+ bw_ENG_TuiWeiWeiJi.10.a: "但这足以弥合国家的裂痕吗？"
+ 
+ bw_ENG_TuiWeiWeiJi.11: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.11.t: "国王陛下与华里丝的的婚礼"
+ bw_ENG_TuiWeiWeiJi.11.d: "总理阁下。今日国王和华里丝在威斯敏斯特修道院结婚了，这说明让国王退位的想法彻底破产，我们应该"
+ bw_ENG_TuiWeiWeiJi.11.a: "立刻辞职"
+ 
+ bw_ENG_TuiWeiWeiJi.12: "总督集体辞职"
+ bw_ENG_TuiWeiWeiJi.12.t: "总督集体辞职"
+ bw_ENG_TuiWeiWeiJi.12.d: ""
+ bw_ENG_TuiWeiWeiJi.12.a: "让他们滚蛋！"
+ 
+ bw_ENG_TuiWeiWeiJi.13: "内阁集体辞职"
+ bw_ENG_TuiWeiWeiJi.13.t: "内阁集体辞职"
+ bw_ENG_TuiWeiWeiJi.13.d: ""
+ bw_ENG_TuiWeiWeiJi.13.a: "让他们滚蛋！"
+ 
+ bw_ENG_TuiWeiWeiJi.14: "王党接管政府"
+ bw_ENG_TuiWeiWeiJi.14.t: "王党接管政府"
+ bw_ENG_TuiWeiWeiJi.14.d: ""
+ bw_ENG_TuiWeiWeiJi.14.a: "天佑国王"
+ bw_ENG_TuiWeiWeiJi.14.b: "拯救伦敦"
+ 
  # # #德三
  
  #bw_GER.1: "魏玛政府倒台"
@@ -1100,32 +1189,32 @@
  #bw_GER.1.t: "胜利"
  #bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
  #bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
- 
- bw_GER.1: "魏玛政府崩溃"
- bw_GER.1.t: "魏玛政府崩溃"
- bw_GER.1.d: "我的元首，帝国的军队于今日攻破德共总部，但有一份不幸的消息要告诉您，我们未能抓到台尔曼，据可靠信息所称：他已经坐上共产国际的飞机逃之夭夭。其他高官都已被枪毙，前魏玛控制区现以分裂为各个游击队组织和军阀。"
- bw_GER.1.a: "一个国家，一个民族，一个元首"
- 
- bw_GER.2: "德意志自由主义者起义"
- bw_GER.2.t: "德意志自由主义者起义"
- bw_GER.2.d: "我的元首，据可靠信息所称：西里西亚地区于今日发生游行，现以演化为流血事件，他们拥立沙赫特为领袖，宣布西里西亚独立。我们应该以什么样的姿态面对他们？"
- bw_GER.2.a: "碧蓝的天空只允许法西斯之鹰翱翔"
- 
- bw_GER.3: "普鲁士，重归我手！"
- bw_GER.3.t: "普鲁士，重归我手！"
- bw_GER.3.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
- bw_GER.3.a: "欢迎回家"
- 
- bw_GER.4: "普鲁士，重归我手！"
- bw_GER.4.t: "普鲁士，重归我手！"
- bw_GER.4.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
- bw_GER.4.a: "德意志终于完整了"
- 
- bw_GER.5: "最后通牒"
- bw_GER.5.t: "最后通牒"
- bw_GER.5.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
- bw_GER.5.a: "我...我同意"
- bw_GER.5.b: "捷克命不该绝！"
+ #
+ #bw_GER.1: "魏玛政府崩溃"
+ #bw_GER.1.t: "魏玛政府崩溃"
+ #bw_GER.1.d: "我的元首，帝国的军队于今日攻破德共总部，但有一份不幸的消息要告诉您，我们未能抓到台尔曼，据可靠信息所称：他已经坐上共产国际的飞机逃之夭夭。其他高官都已被枪毙，前魏玛控制区现以分裂为各个游击队组织和军阀。"
+ #bw_GER.1.a: "一个国家，一个民族，一个元首"
+ #
+ #bw_GER.2: "德意志自由主义者起义"
+ #bw_GER.2.t: "德意志自由主义者起义"
+ #bw_GER.2.d: "我的元首，据可靠信息所称：西里西亚地区于今日发生游行，现以演化为流血事件，他们拥立沙赫特为领袖，宣布西里西亚独立。我们应该以什么样的姿态面对他们？"
+ #bw_GER.2.a: "碧蓝的天空只允许法西斯之鹰翱翔"
+ #
+ #bw_GER.3: "普鲁士，重归我手！"
+ #bw_GER.3.t: "普鲁士，重归我手！"
+ #bw_GER.3.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ #bw_GER.3.a: "欢迎回家"
+ #
+ #bw_GER.4: "普鲁士，重归我手！"
+ #bw_GER.4.t: "普鲁士，重归我手！"
+ #bw_GER.4.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ #bw_GER.4.a: "德意志终于完整了"
+ #
+ #bw_GER.5: "最后通牒"
+ #bw_GER.5.t: "最后通牒"
+ #bw_GER.5.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
+ #bw_GER.5.a: "我...我同意"
+ #bw_GER.5.b: "捷克命不该绝！"
  
  bw_GER.6: "捷克的命运"
  bw_GER.6.t: "捷克的命运"
@@ -1212,6 +1301,22 @@
  bw_GER.20.d: ""
  bw_GER.20.a: "土匪！！！"
  bw_GER.20.b: "不能冒险"
+ 
+ bw_GER.1: "魏玛政府崩溃"
+ bw_GER.1.t: "魏玛政府崩溃"
+ bw_GER.1.d: "我的元首，帝国的军队于今日攻破德共总部，但有一份不幸的消息要告诉您，我们未能抓到台尔曼，据可靠信息所称：他已经坐上共产国际的飞机逃之夭夭。其他高官都已被枪毙，前魏玛控制区现以分裂为各个游击队组织和军阀。"
+ bw_GER.1.a: "一个国家，一个民族，一个元首"
+ 
+ bw_GER.2: "德意志自由主义者起义"
+ bw_GER.2.t: "德意志自由主义者起义"
+ bw_GER.2.d: "我的元首，据可靠信息所称：西里西亚地区于今日发生游行，现以演化为流血事件，他们拥立沙赫特为领袖，宣布西里西亚独立。我们应该以什么样的姿态面对他们？"
+ bw_GER.2.a: "碧蓝的天空只允许法西斯之鹰翱翔"
+ 
+ bw_GER.3: "经济问题"
+ bw_GER.3.t: "经济问题"
+ bw_GER.3.d: "我的元首，"
+ bw_GER.3.a: "我信任你..."
+ bw_GER.3.a: "但有更好的方案..."
  
  # # #德三新闻
  
@@ -1490,6 +1595,8 @@
  
  bw_ENG_PingWenHangXing: "一切正常，继续航线\n"
  
+ bw_ENG_WuBao: "误报，一切正常"
+ 
  World_War_II_YES: "二战已经开始"
  World_War_II_NO: "二战已经结束"
  
@@ -1641,6 +1748,7 @@
  ENG_AiDeHuaBaSHiTuiWeiWeiJi: "爱德华八世退位危机"
  ENG_AiDeHuaBaSHiTuiWeiWeiJi_desc: "爱德华八世退位危机使建制派和王室的矛盾越发严重，我们可能会因此改变，或者一切如常。"
  
+ 
  ENG_JiuSHiJieDeHanWeiZHe: "旧世界的捍卫者"
  ENG_JiuSHiJieDeHanWeiZHe_desc: ""
  
@@ -1767,6 +1875,31 @@
  ENG_YaSeWangXingDong: "“亚瑟王”行动"
  ENG_YaSeWangXingDong_desc: ""
  
+ 
+ ENG_TianYouGuoWang: "天佑国王"
+ ENG_TianYouGuoWang_desc: "保守党政府已经集体辞职，国王和他的王党已经接管政府，背叛国王的共和制度将被扔进历史的垃圾堆。"
+ 
+ ENG_ZHengJiuLuenDuen: "拯救伦敦"
+ ENG_ZHengJiuLuenDuen_desc: "保守党政府已经集体辞职，国王和他的王党已经接管政府，新首相莫斯利已经准备好接管大英帝国的权杖了。"
+ 
+ ENG_JieSanLianHeWangGuo: "解散联合王国"
+ ENG_JieSanLianHeWangGuo_desc: "联合王国这个丑陋的产物必将废除，谁愿意和苏格兰人合作？"
+ 
+ ENG_CHongSHenZHiMinZHengCe: "重审殖民政策"
+ ENG_CHongSHenZHiMinZHengCe_desc: "各自治领的统治已经崩溃，基本陷入了无政府状态，我们该考虑是否保留这种制度。"
+ 
+ ENG_JiXvBaiNianZHanZHeng: "继续百年战争"
+ ENG_JiXvBaiNianZHanZHeng_desc: "法国人作为我们的仇敌前政府居然和他合作，现在我们要夺回属于我们的一切。"
+ 
+ ENG_PuTaoJiuXingDong: "“葡萄酒”行动"
+ ENG_PuTaoJiuXingDong_desc: "在加莱展开佯攻，主攻诺曼底。"
+ 
+ ENG_CHongFanZuDi: "重返祖地"
+ ENG_CHongFanZuDi_desc: "我们胜利了，回到了祖地。"
+ 
+ ENG_JiaRuZHiXvTongMeng: "加入秩序同盟"
+ ENG_JiaRuZHiXvTongMeng_desc: "德国同为法国的敌人，我们可以与他和合作，建立日耳曼神圣同盟。"
+ 
  # # #德国
  
  GER_YuanSHou: "元首"
@@ -1785,7 +1918,7 @@
  GER_DaYaDangWeiJun_desc: ""
  
  GER_HaiDelLxi: "海德里希"
- 3GER_HaiDelLxi_desc: ""
+ 33GER_HaiDelLxi_desc: ""
  
  GER_DiSanFang: "第三方"
  GER_DiSanFang_desc: ""
@@ -1876,17 +2009,63 @@
  
  # # #GER
  
- GER_FaXiSiZHiJian: "法西斯之剑"
- GER_FaXiSiZHiJian_desc: ""
+ #GER_FaXiSiZHiJian: "法西斯之剑"
+ #GER_FaXiSiZHiJian_desc: ""
+ #
+ #GER_DongYuanCHongFengDui: "动员冲锋队"
+ #GER_DongYuanCHongFengDui_desc: ""
+ #
+ #GER_DongYuanDangWeiJun: "动员党卫军"
+ #GER_DongYuanDangWeiJun_desc: ""
+ #
+ #GER_XiMuLaiJiangJun: "任命希姆莱"
+ #GER_XiMuLaiJiangJun_desc: ""
+ #
+ #GER_ZHaoMuMinBing: "招募民兵"
+ #GER_ZHaoMuMinBing_desc: ""
+ #
+ #GER_ZiYouJiuTuan: "自由军团"
+ #GER_ZiYouJiuTuan_desc: ""
+ #
+ #GER_ZHengHeZHanLingQv: "整合占领区"
+ #GER_ZHengHeZHanLingQv_desc: ""
+ #
+ #GER_JieSHuNeiZHan: "结束内战"
+ #GER_JieSHuNeiZHan_desc: ""
+ #
+ #GER_DeAoHeBing: "德奥合并"
+ #GER_DeAoHeBing_desc: "奥地利自从1866年的普奥战争以后就被排除在德意志里面，很明显这是错误的，大德意志万岁！"
+ #
+ #GER_YvYiDaLiJiaoHao: "对意大利示好"
+ #GER_YvYiDaLiJiaoHao_desc: ""
+ #
+ #GER_SuoQvQiYvAoDiLi: "索取其余奥地利"
+ #GER_SuoQvQiYvAoDiLi_desc: ""
+ #
+ #GER_SuoQvSuTaiDe: "索取苏台德"
+ #GER_SuoQvSuTaiDe_desc: ""
+ #
+ #GER_JieKeDeMingYun: "捷克的命运"
+ #GER_JieKeDeMingYun_desc: ""
+ #
+ # # #黑德
+ 
+ #GER_FaXiSiZHiJian: "法西斯之剑"
+ #GER_FaXiSiZHiJian_desc: "很明显，和平接管德国的计划失败了，共产党上台了，我们很快就会被清算，现在只能再次效仿进军罗马，像一把剑一样冲进柏林活捉台尔曼。"
+ GER_FaXiSiZHiJian: "法西斯之鹰"
+ GER_FaXiSiZHiJian_desc: "很明显，和平接管德国的计划失败了，共产党上台了，我们很快就会被清算，现在只能再次效仿进军罗马。"
  
  GER_DongYuanCHongFengDui: "动员冲锋队"
- GER_DongYuanCHongFengDui_desc: ""
+ GER_DongYuanCHongFengDui_desc: "冲锋队是我们的基干力量，尽管质量差劲，但数量可看应用。"
  
  GER_DongYuanDangWeiJun: "动员党卫军"
- GER_DongYuanDangWeiJun_desc: ""
+ GER_DongYuanDangWeiJun_desc: "党卫军是我们的精锐力量，尽管面对正规军的时候略显劣势，但党卫军骑兵师和装甲掷弹兵师可以快速扩大占领区。"
  
  GER_XiMuLaiJiangJun: "任命希姆莱"
  GER_XiMuLaiJiangJun_desc: ""
+ 
+ GER_TuanJieYiZHi: "团结一致"
+ GER_TuanJieYiZHi_desc: "在此等危急时刻，我们必须团结一致，各派之间不能在内讧了。"
  
  GER_ZHaoMuMinBing: "招募民兵"
  GER_ZHaoMuMinBing_desc: ""
@@ -1895,25 +2074,10 @@
  GER_ZiYouJiuTuan_desc: ""
  
  GER_ZHengHeZHanLingQv: "整合占领区"
- GER_ZHengHeZHanLingQv_desc: ""
+ GER_ZHengHeZHanLingQv_desc: "烦人的游击队......"
  
- GER_JieSHuNeiZHan: "结束内战"
- GER_JieSHuNeiZHan_desc: ""
- 
- GER_DeAoHeBing: "德奥合并"
- GER_DeAoHeBing_desc: "奥地利自从1866年的普奥战争以后就被排除在德意志里面，很明显这是错误的，大德意志万岁！"
- 
- GER_YvYiDaLiJiaoHao: "对意大利示好"
- GER_YvYiDaLiJiaoHao_desc: ""
- 
- GER_SuoQvQiYvAoDiLi: "索取其余奥地利"
- GER_SuoQvQiYvAoDiLi_desc: ""
- 
- GER_SuoQvSuTaiDe: "索取苏台德"
- GER_SuoQvSuTaiDe_desc: ""
- 
- GER_JieKeDeMingYun: "捷克的命运"
- GER_JieKeDeMingYun_desc: ""
+ GER_NaCuiDeDeYiZHi: "纳粹的德意志"
+ GER_NaCuiDeDeYiZHi_desc: "我们赢了！"
  
  # # #通用国策
  
@@ -2129,3 +2293,7 @@
  #好感修正
  
  bw_HeJieZHengCe_opinion_modifiers: "和解政策"
+ 
+ #阵营
+ 
+ bw_ENG_DaYingDiGuo: "大英帝国"

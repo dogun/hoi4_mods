@@ -1,0 +1,153 @@
+ideas = {
+
+	working_hours = {	#工作时长
+		law = yes
+		use_list_view = yes
+
+		Unlimited_working_hours = {	#无限制
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		Maximum_18h_per_day_working_hours = {	#每日最多18小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.075
+				production_factory_max_efficiency_factor = 0.075
+			}
+			cancel_if_invalid = yes
+		}
+
+		Maximum_16h_per_day_working_hours = {	#每日最多16小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+			default = yes
+		}
+
+		Maximum_14h_per_day_working_hours = {	#每日最多14小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.025
+				production_factory_max_efficiency_factor = -0.025
+			}
+			cancel_if_invalid = yes
+		}
+
+		Maximum_12h_per_day_working_hours = {	#每日最多12小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0
+				production_factory_max_efficiency_factor = -0
+			}
+			cancel_if_invalid = yes
+		}
+
+		Maximum_10h_per_day_working_hours = {	#每日最多10小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.025
+				production_factory_max_efficiency_factor = -0.025
+			}
+			cancel_if_invalid = yes
+		}
+
+		Maximum_8h_per_day_working_hours = {	#每日最多8小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		Maximum_6h_per_day_working_hours = {	#每日最多6小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.075
+				production_factory_max_efficiency_factor = -0.075
+			}
+			cancel_if_invalid = yes
+		}
+
+		Maximum_4h_per_day_working_hours = {	#每日最多4小时
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

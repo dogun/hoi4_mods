@@ -252,9 +252,10 @@ focus_tree = {
 		x = 15
 		y = 0
 		allow_branch = {
-			has_completed_focus = ENG_CiZHi #辞职
+		#	has_completed_focus = ENG_CiZHi #辞职
 		}
 		completion_reward = {
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
 			news_event = {
 				id = bw_ENG.1
 				days = 0
@@ -307,7 +308,7 @@ focus_tree = {
 			add_war_support = 0.1
 			hidden_effect = {
 				news_event = {
-					id = bw_ENG.4
+					id = bw_ENG_TuiWeiWeiJi.1 #爱德华八世退位危机
 					days = 5
 					random = 0
 				}
@@ -342,6 +343,7 @@ focus_tree = {
 		x = 15
 		y = 6
 		allow_branch = {
+			has_country_flag = bw_ENG_PingWenHangXing
 			has_completed_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
 		}
 		available = {
@@ -395,6 +397,7 @@ focus_tree = {
 		id = ENG_BaoHu_ENG_Zai_EGY_LiYi #保护英国在埃及利益
 		icon = GFX_goal_unknown
 		cost = 5.00
+		will_lead_to_war_with = EGY
 		prerequisite = {
 			focus = ENG_JiuSHiJieDeHanWeiZHe #旧世界的捍卫者
 		}
@@ -415,6 +418,7 @@ focus_tree = {
 		id = ENG_KongZHiBiLiSHi #控制比利时
 		icon = GFX_goal_unknown
 		cost = 5.00
+		will_lead_to_war_with = BEL
 		prerequisite = {
 			focus = ENG_LianHeWangGuoZHanSHiZHengHe #联合王国战时整合
 			focus = ENG_BaoHu_ENG_Zai_EGY_LiYi #保护英国在埃及利益
@@ -696,6 +700,7 @@ focus_tree = {
 		x = 26
 		y = 6
 		allow_branch = {
+			has_country_flag = bw_ENG_PingWenHangXing
 			has_completed_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
 		}
 		completion_reward = {
@@ -1176,6 +1181,7 @@ focus_tree = {
 		id = ENG_YaSeWangXingDong #“亚瑟王”行动
 		icon = GFX_goal_unknown
 		cost = 5.00
+		will_lead_to_war_with = IRE
 		prerequisite = {
 			focus = ENG_SHanDongFanAiQingXv #煽动反爱情绪
 		}
@@ -1185,6 +1191,596 @@ focus_tree = {
 			create_wargoal = {
 				target = IRE
 				type = annex_everything
+			}
+		}
+	}
+# # #灰黑大分支
+	focus = {
+		id = ENG_TianYouGuoWang #天佑国王
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+		}
+		mutually_exclusive = {
+			focus = ENG_ZHengJiuLuenDuen #拯救伦敦
+		}
+		x = 14
+		y = 5
+		allow_branch = {
+			has_country_flag = bw_ENG_TiaoZHenHangXian
+			has_completed_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+		}
+		available = {
+			has_government = JunZHuZHuYi
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = bw_ENG_TianYouGuoWang
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = ENG_ZHengJiuLuenDuen #拯救伦敦
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+		}
+		mutually_exclusive = {
+			focus = ENG_TianYouGuoWang #天佑国王
+		}
+		x = 16
+		y = 5
+		allow_branch = {
+			has_country_flag = bw_ENG_TiaoZHenHangXian
+			has_completed_focus = ENG_AiDeHuaBaSHiTuiWeiWeiJi #爱德华八世退位危机
+		}
+		available = {
+			has_government = SiTeLaSeZHuYi
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = bw_ENG_ZHengJiuLuenDuen
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = ENG_JieSanLianHeWangGuo #解散联合王国
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_TianYouGuoWang #天佑国王
+			focus = ENG_ZHengJiuLuenDuen #拯救伦敦
+		}
+		x = 15
+		y = 6
+		completion_reward = {
+			set_faction_name = bw_ENG_DaYingDiGuo
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+# # # # # #灰色中分支
+	focus = {
+		id = ENG_CHongSHenZHiMinZHengCe #重审殖民政策
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_JieSanLianHeWangGuo #解散联合王国
+		}
+		x = 15
+		y = 8
+		allow_branch = {
+			has_completed_focus = ENG_JieSanLianHeWangGuo #解散联合王国
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = ENG_CHongHuiKaiLuo #重回开罗
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = EGY
+		prerequisite = {
+			focus = ENG_CHongSHenZHiMinZHengCe #重审殖民政策
+		}
+		x = 15
+		y = 10
+		completion_reward = {
+			create_wargoal = {
+				target = EGY
+				type = annex_everything
+			}
+		}
+	}
+# # # # # # # # #废除自治领小分支
+	focus = {
+		id = ENG_FeiCHucZiZHiLing #废除自治领
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_CHongSHenZHiMinZHengCe #重审殖民政策
+		}
+		mutually_exclusive = {
+			focus = ENG_JiXvSHiXingZiZHi #继续实行自治
+		}
+		x = 13
+		y = 9
+		completion_reward = {
+			add_country_leader_trait = national_integralist
+			annex_country = {
+				target = AST
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = NZL
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = SAF
+				transfer_troops = yes
+			}
+			annex_country = {
+				target = MAL
+				transfer_troops = yes
+			}
+		}
+	}
+	focus = {
+		id = ENG_GengGaiSHengGongZongJiaoYi #更改圣公宗教义
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_FeiCHucZiZHiLing #废除自治领
+		}
+		x = 11
+		y = 10
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = ENG_WeiXinXinYangErZHan #为新信仰而战
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_GengGaiSHengGongZongJiaoYi #更改圣公宗教义
+		}
+		x = 10
+		y = 11
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = ENG_ZHongJieHaXiMuTongZHi #终结哈希姆统治
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = IRQ
+		prerequisite = {
+			focus = ENG_WeiXinXinYangErZHan #为新信仰而战
+		}
+		x = 8
+		y = 12
+		completion_reward = {
+			create_wargoal = {
+				target = IRQ
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ENG_ZHongJieSuoLuoMenTongZHi #终结所罗门统治
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = ETH
+		prerequisite = {
+			focus = ENG_WeiXinXinYangErZHan #为新信仰而战
+		}
+		x = 10
+		y = 12
+		completion_reward = {
+			create_wargoal = {
+				target = ETH
+				type = annex_everything
+			}
+
+		}
+	}
+	focus = {
+		id = ENG_TuiDongYinDuJiQvanHua #推动印度集权化
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_FeiCHucZiZHiLing #废除自治领
+		}
+		x = 13
+		y = 10
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = ENG_FeiCHuDuiEHuanCHongQv #废除对俄缓冲区
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = AFG
+		prerequisite = {
+			focus = ENG_TuiDongYinDuJiQvanHua #推动印度集权化
+		}
+		x = 12
+		y = 12
+		completion_reward = {
+			create_wargoal = {
+				target = AFG
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ENG_XvanCHenSHiJieWuJi #宣称世界屋脊
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = NEP
+		will_lead_to_war_with = BHU
+		will_lead_to_war_with = TIB
+		prerequisite = {
+			focus = ENG_TuiDongYinDuJiQvanHua #推动印度集权化
+		}
+		x = 13
+		y = 11
+		completion_reward = {
+			create_wargoal = {
+				target = NEP
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = BHU
+				type = annex_everything
+			}
+			create_wargoal = {
+				target = TIB
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ENG_FeiCHuDuiFaHuanCHongQv #废除对法缓冲区
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = SIA
+		prerequisite = {
+			focus = ENG_TuiDongYinDuJiQvanHua #推动印度集权化
+		}
+		x = 14
+		y = 12
+		completion_reward = {
+			create_wargoal = {
+				target = SIA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ENG_WeiDuoLiYaDeYiCHan #维多利亚的遗产
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_ZHongJieHaXiMuTongZHi #终结哈希姆统治
+		}
+		prerequisite = {
+			focus = ENG_ZHongJieSuoLuoMenTongZHi #终结所罗门统治
+		}
+		prerequisite = {
+			focus = ENG_FeiCHuDuiEHuanCHongQv #废除对俄缓冲区
+		}
+		prerequisite = {
+			focus = ENG_XvanCHenSHiJieWuJi #宣称世界屋脊
+		}
+		prerequisite = {
+			focus = ENG_FeiCHuDuiFaHuanCHongQv #废除对法缓冲区
+		}
+		x = 11
+		y = 13
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = ENG_ZHongJieDuLi #终结独立
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = CSA
+		prerequisite = {
+			focus = ENG_WeiDuoLiYaDeYiCHan #维多利亚的遗产
+		}
+		x = 10
+		y = 14
+		completion_reward = {
+			create_wargoal = {
+				target = CSA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = ENG_BeiFangMingZHu #北方明珠
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = CAN
+		prerequisite = {
+			focus = ENG_ZHongJieDuLi #终结独立
+		}
+		x = 10
+		y = 15
+		completion_reward = {
+			create_wargoal = {
+				target = CAN
+				type = annex_everything
+			}
+		}
+	}
+# # # # # # # # #继续自治小分支
+	focus = {
+		id = ENG_JiXvSHiXingZiZHi #继续实行自治
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_CHongSHenZHiMinZHengCe #重审殖民政策
+		}
+		mutually_exclusive = {
+			focus = ENG_FeiCHucZiZHiLing #废除自治领
+		}
+		x = 17
+		y = 9
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = ENG_WriZiZHiLingTiaoXvanXinZongDu #为自治领挑选新总督
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_JiXvSHiXingZiZHi #继续实行自治
+		}
+		x = 17
+		y = 10
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = ENG_JianLiSHangNiLuoHeZiZHiLing #建立上尼罗河自治领
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_WriZiZHiLingTiaoXvanXinZongDu #为自治领挑选新总督
+		}
+		x = 17
+		y = 11
+		available = {
+			controls_state = 551
+			controls_state = 549
+			controls_state = 883
+			controls_state = 884
+			controls_state = 885
+			controls_state = 886
+			controls_state = 887
+		}
+		completion_reward = {
+			release_autonomy = {
+				target = SUD
+				autonomy_state = ZiZHiQv
+			}
+		}
+	}
+	focus = {
+		id = ENG_JianLiXiaNiLuoHeZiZHiLing #建立下尼罗河自治领
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_WriZiZHiLingTiaoXvanXinZongDu #为自治领挑选新总督
+		}
+		prerequisite = {
+			focus = ENG_CHongHuiKaiLuo #重回开罗
+		}
+		x = 15
+		y = 11
+		available = {
+			controls_state = 456
+			controls_state = 907
+			controls_state = 447
+			controls_state = 452
+			controls_state = 457
+		}
+		completion_reward = {
+			release_autonomy = {
+				target = EGY
+				autonomy_state = ZiZHiQv
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						EGY = {
+							controls_state = 453
+						}
+					}
+					transfer_state = 453
+				}
+				if = {
+					limit = {
+						EGY = {
+							controls_state = 446
+						}
+					}
+					transfer_state = 446
+				}
+			}
+		}
+	}
+	focus = {
+		id = ENG_TongYiSHangXiaNiLuoHeZiZHiLing #统一上下尼罗河
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_JianLiSHangNiLuoHeZiZHiLing #建立上尼罗河自治领
+		}
+		prerequisite = {
+			focus = ENG_JianLiXiaNiLuoHeZiZHiLing #建立下尼罗河自治领
+		}
+		x = 16
+		y = 12
+		available = {
+			is_puppet_of = EGY
+			is_puppet_of = SUD
+		}
+		completion_reward = {
+			EGY = {
+				annex_country = {
+					target = SUD
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+
+# # # # # #百年战争分支
+	focus = {
+		id = ENG_JiXvBaiNianZHanZHeng #继续百年战争
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_JieSanLianHeWangGuo #解散联合王国
+		}
+		x = 26
+		y = 8
+		allow_branch = {
+			has_completed_focus = ENG_JieSanLianHeWangGuo #解散联合王国
+		}
+		completion_reward = {
+			add_state_claim = 14
+			add_state_claim = 30
+			add_state_claim = 15
+			add_state_claim = 16
+			add_state_claim = 785
+			add_state_claim = 29
+			add_state_claim = 18
+			add_state_claim = 27
+			add_state_claim = 17
+			add_state_claim = 973
+
+			add_state_claim = 19
+			add_state_claim = 806
+		}
+	}
+	focus = {
+		id = ENG_PuTaoJiuXingDong #“葡萄酒”行动
+		icon = GFX_goal_unknown
+		cost = 5.00
+		will_lead_to_war_with = FRA
+		prerequisite = {
+			focus = ENG_JiXvBaiNianZHanZHeng #继续百年战争
+		}
+		x = 25
+		y = 9
+		completion_reward = {
+			create_wargoal = {
+				type = take_claimed_state
+				target = FRA
+				generator = { 14 30 15 16 785 29 18 27 17 973 19 806 }
+			}
+			add_timed_idea = {
+				idea = bw_ENG_PuTaoJiuXingDong
+				days = 180
+			}
+		}
+	}
+	focus = {
+		id = ENG_CHongFanZuDi #重返祖地
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_PuTaoJiuXingDong #“葡萄酒”行动
+		}
+		x = 25
+		y = 10
+		available = {
+			controls_state = 14
+			controls_state = 30
+			controls_state = 15
+			controls_state = 16
+			controls_state = 785
+			controls_state = 29
+			controls_state = 18
+			controls_state = 27
+			controls_state = 17
+			controls_state = 973
+
+			controls_state = 19
+			controls_state = 806
+		}
+		completion_reward = {
+			add_ideas = bw_ENG_NuoManDiDeYiCHan
+			add_state_core = 14
+			add_state_core = 30
+			add_state_core = 15
+			add_state_core = 16
+			add_state_core = 785
+			add_state_core = 29
+			add_state_core = 18
+			add_state_core = 27
+			add_state_core = 17
+			add_state_core = 973
+
+			add_state_core = 19
+			add_state_core = 806
+			hidden_effect = {
+				remove_state_claim = 14
+				remove_state_claim = 30
+				remove_state_claim = 15
+				remove_state_claim = 16
+				remove_state_claim = 785
+				remove_state_claim = 29
+				remove_state_claim = 18
+				remove_state_claim = 27
+				remove_state_claim = 17
+				remove_state_claim = 973
+
+				remove_state_claim = 19
+				remove_state_claim = 806
+				remove_ideas = bw_ENG_PuTaoJiuXingDong
+			}
+		}
+	}
+	focus = {
+		id = ENG_JiaRuZHiXvTongMeng #加入秩序同盟
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = ENG_JiXvBaiNianZHanZHeng #继续百年战争
+		}
+		x = 27
+		y = 9
+		available = {
+			GER = {
+				is_faction_leader = yes
+			}
+		}
+		bypass = {
+			is_ally_with = GER
+		}
+		completion_reward = {
+			GER = {
+				news_event = {
+					id = generic.2
+					days = 1
+					random = 0
+				}
+				
 			}
 		}
 	}

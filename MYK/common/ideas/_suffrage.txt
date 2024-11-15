@@ -1,0 +1,117 @@
+ideas = {
+
+	suffrage = {	#选举权
+		law = yes
+		use_list_view = yes
+
+		no_election_suffrager = {	#无选举
+
+			available = {
+				OR = {
+					has_idea = dictatorship_distribution_of_power
+					has_idea = committee_republic_distribution_of_power
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				party_popularity_stability_factor = 0.0
+			}
+			cancel_if_invalid = yes
+		}
+
+		single_winner_elections_suffrager = {	#明面选举
+
+			available = {
+				OR = {
+					has_idea = dictatorship_distribution_of_power
+					has_idea = oligarchy_distribution_of_power
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				party_popularity_stability_factor = 0.05
+			}
+			cancel_if_invalid = yes
+		}
+
+		differentiated_elections_suffrager = {	#区别选举
+
+			available = {
+				OR = {
+					has_idea = classical_republic_distribution_of_power
+					has_idea = high_republic_distribution_of_power
+					has_idea = parliamentary_republic_distribution_of_power
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				party_popularity_stability_factor = 0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		qualifying_election_suffrager = {	#资格性选举
+
+			available = {
+				OR = {
+					has_idea = classical_republic_distribution_of_power
+					has_idea = high_republic_distribution_of_power
+					has_idea = parliamentary_republic_distribution_of_power
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				party_popularity_stability_factor = 0.15
+			}
+			cancel_if_invalid = yes
+		}
+
+		universal_suffrage_suffrager = {	#普选制
+
+			available = {
+				OR = {
+					has_idea = classical_republic_distribution_of_power
+					has_idea = high_republic_distribution_of_power
+					has_idea = parliamentary_republic_distribution_of_power
+				}
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				party_popularity_stability_factor = 0.2
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		peoples_state_suffrager = {	#人民国家
+
+			available = {
+				has_idea = anarchy_distribution_of_power
+			}
+
+			cost = 500
+			removal_cost = -1
+
+			modifier = {
+				party_popularity_stability_factor = 0.25
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

@@ -1,0 +1,73 @@
+ideas = {
+
+	strike = {	#罢工权力
+		law = yes
+		use_list_view = yes
+
+		no_strike_strike = {	#禁止罢工
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.02
+				party_popularity_stability_factor = -0.04
+			}
+			cancel_if_invalid = yes
+		}
+
+		state_sanctioned_strike = {	#国家批准罢工
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				party_popularity_stability_factor = 0.04
+			}
+			cancel_if_invalid = yes
+		}
+
+		strikes_are_prohibited_during_extraordinary_times_strike = {	#非常时期禁止罢工
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.04
+				party_popularity_stability_factor = 0.08
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		strike_allowed_strike = {	#允许罢工
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.06
+				party_popularity_stability_factor = 0.12
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}

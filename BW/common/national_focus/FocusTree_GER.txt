@@ -24,7 +24,7 @@ focus_tree = {
 			always = yes
 		}
 		completion_reward = {
-			custom_effect_tooltip = 开始内战
+#			custom_effect_tooltip = 开始内战
 #			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
@@ -38,9 +38,6 @@ focus_tree = {
 		}
 		x = 5
 		y = 1
-		bypass = {
-			always = yes
-		}
 		completion_reward = {
 			custom_effect_tooltip = 生成一些冲锋队部队
 #			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
@@ -55,16 +52,13 @@ focus_tree = {
 		}
 		x = 7
 		y = 1
-		bypass = {
-			always = yes
-		}
 		completion_reward = {
 			custom_effect_tooltip = 生成一些党卫军部队
 #			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
 	focus = {
-		id = 团结一致
+		id = GER_TuanJieYiZHi #团结一致
 		icon = GFX_TuanJieYiZHi
 		cost = 5.00
 		prerequisite = {
@@ -75,6 +69,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_war_support = 0.1
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
 	focus = {
@@ -82,7 +77,7 @@ focus_tree = {
 		icon = GFX_SiTeLaSePai_NengDaZHangJiuXing
 		cost = 5.00
 		prerequisite = {
-			focus = 团结一致
+			focus = GER_TuanJieYiZHi #团结一致
 		}
 		x = 2
 		y = 3
@@ -104,7 +99,7 @@ focus_tree = {
 		icon = GFX_ZHaoMuMinBing
 		cost = 5.00
 		prerequisite = {
-			focus = 团结一致
+			focus = GER_TuanJieYiZHi #团结一致
 		}
 		x = 4
 		y = 3
@@ -115,6 +110,7 @@ focus_tree = {
 				load_oob = "GER_MinBing"
 #				set_variable = { GER_ZHaoMuMinBing = 100 }
 			}
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
 	focus = {
@@ -128,7 +124,9 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			unlock_decision_tooltip = GER_GuoYouHuaZiYouJiuTuan
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
+
 	}
 	focus = {
 		id = GER_ZHengHeZHanLingQv #整合占领区
@@ -156,10 +154,7 @@ focus_tree = {
 			unlock_decision_tooltip = GER_ZHengHeWeiSiTeFaLiYa
 			unlock_decision_tooltip = GER_ZHengHeHeiSen
 			unlock_decision_tooltip = GER_ZHengHeHeErSiTaiYin
-declare_war_on = {
-    target = GSR
-    type = annex_everything
-}
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
 	focus = {
@@ -230,6 +225,7 @@ declare_war_on = {
 		cost = 5.00
 		prerequisite = {
 			focus = GER_ZHengHeZHanLingQv #整合占领区
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 		x = 8
 		y = 3
@@ -286,7 +282,7 @@ declare_war_on = {
 	focus = {
 		id = 以萨尔换取支援
 		icon = GFX_YiSaErHuanQvYuanZHu
-		cost = 1.00
+		cost = 5.00
 		prerequisite = {
 			focus = 签署日内瓦条约
 		}
@@ -303,11 +299,24 @@ declare_war_on = {
 		}
 	}
 	focus = {
-		id = 反布尔什维克志愿军
-		icon = GFX_goal_unknown
+		id = GER_XvanCHuanJvDaDeHongSeWeiXie #宣传巨大的红色威胁
+		icon = GFX_XvanCHuanJvDaDeHongSeWeiXie
 		cost = 5.00
 		prerequisite = {
 			focus = 以萨尔换取支援
+		}
+		x = 12
+		y = 4
+		completion_reward = {
+			add_ideas = bw_GER_JvDaDeHongSeWeiXie
+		}
+	}
+	focus = {
+		id = 反布尔什维克志愿军
+		icon = GFX_FanBuErSHiWeiKeZHiYuanJun
+		cost = 5.00
+		prerequisite = {
+			focus = GER_XvanCHuanJvDaDeHongSeWeiXie
 		}
 		prerequisite = {
 			focus = GER_ZiYouJiuTuan #自由军团
@@ -342,14 +351,19 @@ declare_war_on = {
 
 #政治线
 
+# # #第一阶段
 	focus = {
-		id = GER_JieSHuNeiZHan #结束内战
-		icon = GFX_goal_unknown
+		id = GER_NaCuiDeDeYiZHi #纳粹的德意志
+		icon = GFX_NaCuiDeDeYiZHi
 		cost = 0
 		x = 10
 		y = 6
-		available = {
-			always = no
+		allow_branch = {
+			#has_completed_focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
+		}
+		completion_reward = {
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 	focus = {
@@ -357,7 +371,7 @@ declare_war_on = {
 		icon = GFX_SHuiJingZHiYe
 		cost = 5.00
 		prerequisite = {
-			focus = GER_JieSHuNeiZHan #结束内战
+			focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
 		}
 		x = 8
 		y = 7
@@ -370,11 +384,11 @@ declare_war_on = {
 		}
 	}
 	focus = {
-		id = 长刀之夜
-		icon = GFX_goal_unknown
+		id = GER_CHangDaoZHiYe #长刀之夜
+		icon = GFX_CHangDaoZHiYe
 		cost = 5.00
 		prerequisite = {
-			focus = GER_JieSHuNeiZHan #结束内战
+			focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
 		}
 		x = 12
 		y = 7
@@ -387,11 +401,11 @@ declare_war_on = {
 		}
 	}
 	focus = {
-		id = 个人崇拜
+		id = GER_GeRenCHongBai #个人崇拜
 		icon = GFX_GeRenCHongBai
 		cost = 5.00
 		prerequisite = {
-			focus = GER_JieSHuNeiZHan #结束内战
+			focus = GER_NaCuiDeDeYiZHi #纳粹的德意志
 		}
 		x = 10
 		y = 8
@@ -399,894 +413,93 @@ declare_war_on = {
 			add_country_leader_trait = WeiDaDeYuanSHou
 		}
 	}
-# # #东方扩展分支
 	focus = {
-		id = 统一的德意志
-		icon = GFX_goal_unknown
+		id = GER_JieJueJingJiWeiTi #处理经济问题
+		icon = GFX_JieJueJingJiWeiTi
 		cost = 5.00
 		prerequisite = {
-			focus = 个人崇拜
-		}
-		x = 6
-		y = 9
-		completion_reward = {
-			add_ideas = bw_GER_TongYiDeDeYiZH #统一的德意志
-
-			add_state_claim = 807
-			add_state_claim = 763
-			add_state_claim = 5
-			add_state_claim = 971
-		}
-	}
-	focus = {
-		id = 鼓动但泽
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 统一的德意志
-		}
-		x = 5
-		y = 10
-		available = {
-			is_subject = no
-
-			check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
-			custom_trigger_tooltip = {
-			 	tooltip = GER_anschluss_eq_trigger_tt
-			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
-			 }
-			 
-#			NOT = { has_idea = rhineland_challenge_met }
-			if = {
-				limit = {
-					SWI = { has_completed_focus = SWI_gotthard_union }
-				}
-				NOT = { 
-					AUS = { has_idea = SWI_swiss_democratic_propaganda }
-				}
-			}
-		}
-
-		completion_reward = {
-			DNZ = {
-				country_event = {
-					id = bw_GER.7
-					days = 1
-				}
-			}
-		}
-	}
-	focus = {
-		id = 波美拉尼亚或战争
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 统一的德意志
-		}
-		x = 7
-		y = 10
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 249999 }
-		}
-
-		completion_reward = {
-			PRE = {
-				country_event = {
-					id = bw_GER.10
-					days = 1
-				}
-			}
-		}
-	}
-	focus = {
-		id = 普鲁士的命运
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 鼓动但泽
-		}
-		prerequisite = {
-			focus = 波美拉尼亚或战争
-		}
-		x = 5
-		y = 11
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 499999 }
-		}
-
-		completion_reward = {
-			PRE = {
-				country_event = {
-					id = bw_GER.13
-					days = 1
-				}
-			}
-		}
-	}
-	focus = {
-		id = 马祖伦或战争
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 鼓动但泽
-		}
-		prerequisite = {
-			focus = 波美拉尼亚或战争
-		}
-		x = 7
-		y = 11
-		bypass = {
-			has_completed_focus = 普鲁士的命运
-			NOT = {
-				POL = {
-					controls_state = 971
-				}
-			}
-		}
-		available = {
-			has_completed_focus = 普鲁士的命运
-		}
-		completion_reward = {
-			POL = {
-				country_event = {
-					id = bw_GER.17
-					days = 5
-				}
-			}
-			hidden_effect = {
-				ENG = {
-					country_event = {
-						id = bw_ENG.2
-						days = 1
-					}
-				}
-			}
-		}
-	}
-	focus = {
-		id = 要求臣服
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 普鲁士的命运
-		}
-		prerequisite = {
-			focus = 马祖伦或战争
-		}
-		mutually_exclusive = {
-			focus = 斯洛伐克换取臣服
-		}
-		x = 6
-		y = 12
-
-	}
-# # #捷克扩展分支
-	focus = {
-		id = GER_SuoQvSuTaiDe #索取苏台德
-		icon = GFX_SuoQvSuTaiDe
-		cost = 5.00
-		prerequisite = {
-			focus = 个人崇拜
+			focus = GER_GeRenCHongBai #个人崇拜
 		}
 		x = 10
 		y = 9
-		continue_if_invalid = no
-		cancel_if_invalid = no
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 724999 } #80 div		
-		}
-
 		completion_reward = {
-			CZE = {
-				country_event = {
-					id = germany.122
-					days = 1
-				}
+			news_event = {
+				id = bw_GER.3
+				days = 5
+				random = 0
 			}
 		}
 	}
+# # #第二阶段
+# # # # # #信任戈林分支
 	focus = {
-		id = GER_JieKeDeMingYun #捷克的命运
-		icon = GFX_JieKeDeMingYun
+		id = GER_XinRenGeLin #信任戈林
+		icon = GFX_JieJueJingJiWeiTi
 		cost = 5.00
 		prerequisite = {
-			focus = GER_SuoQvSuTaiDe #索取苏台德
-		}
-		x = 10
-		y = 10
-		continue_if_invalid = no
-		cancel_if_invalid = no
-		bypass = {
-			has_war_with = CZE
-		}
-		available = {
-			AND = {
-				controls_state = 69
-				controls_state = 74
-			}
-		}
-		completion_reward = {
-			CZE = { country_event = bw_GER.5 }
-		}
-	}
-	focus = {
-		id = 瓜分斯洛伐克
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_JieKeDeMingYun #捷克的命运
-		}
-		x = 10
-		y = 11
-
-	}
-	focus = {
-		id = 斯洛伐克换取臣服
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 瓜分斯洛伐克
-		}
-		mutually_exclusive = {
-			focus = 要求臣服
-		}
-		x = 10
-		y = 12
-
-	}
-# # #南方扩展分支
-	focus = {
-		id = 赎回萨尔
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 个人崇拜
-		}
-		x = 14
-		y = 9
-
-	}
-	focus = {
-		id = GER_DeAoHeBing #德奥合并
-		icon = GFX_DeAoHeBing
-		cost = 5.00
-		prerequisite = {
-			focus = 赎回萨尔
-		}
-		x = 14
-		y = 10
-		bypass = {
-#			AND = {
-				controls_state = 848
-				controls_state = 153
-				controls_state = 152
-				controls_state = 4
-				controls_state = 102
-				controls_state = 853
-#			}
-		}
-
-		continue_if_invalid = no
-		cancel_if_invalid = no
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 499999 }
-
-			check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
-			custom_trigger_tooltip = {
-			 	tooltip = GER_anschluss_eq_trigger_tt
-			 	check_variable = { num_equipment_in_armies_k@infantry_equipment > 40 }
-			 }
-			 
-#			NOT = { has_idea = rhineland_challenge_met }
-			if = {
-				limit = {
-					SWI = { has_completed_focus = SWI_gotthard_union }
-				}
-				NOT = { 
-					AUS = { has_idea = SWI_swiss_democratic_propaganda }
-				}
-			}
-		}
-
-		completion_reward = {
-			AUS = {
-				country_event = {
-					id = germany.28
-					days = 1
-				}
-			}
-		}
-	}
-	focus = {
-		id = GER_SuoQvQiYvAoDiLi #索取其余奥地利
-		icon = GFX_SuoQvQiYvAoDiLi
-		cost = 5.00
-		prerequisite = {
-			focus = GER_DeAoHeBing #德奥合并
-		}
-		mutually_exclusive = {
-			focus = 对意大利示好
-		}
-		x = 13
-		y = 11
-		bypass = {
-#			AND = {
-				controls_state = 39
-				controls_state = 850
-				controls_state = 736
-				controls_state = 852
-#			}
-		}
-
-		available = {
-			is_subject = no
-			has_army_manpower = { size > 999999 }
-		}
-
-		completion_reward = {
-			ITA = {
-				country_event = {
-					id = bw_GER.14
-					days = 1
-				}
-			}
-		}
-	}
-	focus = {
-		id = 对意大利示好
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_DeAoHeBing #德奥合并
-		}
-		prerequisite = {
-			focus = 慕尼黑阴谋
-		}
-		mutually_exclusive = {
-			focus = GER_SuoQvQiYvAoDiLi #索取其余奥地利
-		}
-		x = 15
-		y = 11
-
-	}
-	focus = {
-		id = 邀请意大利
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 对意大利示好
-		}
-		x = 15
-		y = 12
-
-	}
-# # #二战分支
-	focus = {
-		id = 打碎英法秩序
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 斯洛伐克换取臣服
-			focus = 要求臣服
-		}
-		prerequisite = {
-			focus = GER_SuoQvQiYvAoDiLi #索取其余奥地利
-			focus = 邀请意大利
-		}
-		x = 11
-		y = 13
-		bypass = {
-			OR = {
-				has_war_with = FRA
-				has_war_with = ENG
-			}
-		}
-		completion_reward = {
-			declare_war_on = {
-				target = FRA
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = ENG
-				type = annex_everything
-			}
-		}
-	}
-	focus = {
-		id = 黄色方案
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 打碎英法秩序
-		}
-		x = 10
-		y = 14
-		completion_reward = {
-			declare_war_on = {
-				target = LUX
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = BEL
-				type = annex_everything
-			}
-			create_wargoal = {
-				target = HOL
-				type = annex_everything
-			}
-		}
-	}
-	focus = {
-		id = 海狮行动
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 黄色方案
-		}
-		mutually_exclusive = {
-			focus = 加莱协定
-		}
-		x = 9
-		y = 15
-		completion_reward = {
-			add_timed_idea = {
-				idea = bw_GER_HaiSHiXingDong
-				days = 180
-			}
-		}
-	}
-	focus = {
-		id = 加莱协定
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 黄色方案
-		}
-		mutually_exclusive = {
-			focus = 海狮行动
-		}
-		x = 11
-		y = 15
-		available = {
-			controls_state = 989
-		}
-		completion_reward = {
-			ENG = {
-				create_faction = 联合王国
-			}
-			white_peace = ENG
-		}
-	}
-	focus = {
-		id = 撒丁行动
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 海狮行动
-			focus = 加莱协定
+			focus = GER_JieJueJingJiWeiTi #处理经济问题
 		}
 		x = 8
-		y = 17
+		y = 10
 		completion_reward = {
-			create_wargoal = {
-				target = ITA
-				type = annex_everything
+			activate_advisor = GER_Hermann_Goring
+			set_can_be_fired_in_advisor_role = {
+				character = GER_Hermann_Goring
+				value = no
 			}
+
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 	focus = {
-		id = 圣诞树计划
-		icon = GFX_goal_unknown
+		id = GER_HerGor_ZHaiQvan #菲格债券
+		icon = GFX_JieJueJingJiWeiTi
 		cost = 5.00
 		prerequisite = {
-			focus = 海狮行动
-			focus = 加莱协定
+			focus = GER_XinRenGeLin #信任戈林
+			focus = GER_SHiFangSHaHeTe #释放沙赫特
 		}
 		x = 10
-		y = 17
+		y = 11
+		allow_branch = {
+			has_completed_focus = GER_XinRenGeLin #信任戈林
+		}
 		completion_reward = {
-			create_wargoal = {
-				target = SWI
-				type = annex_everything
-			}
+
 		}
 	}
+# # # # # #释放沙赫特分支
 	focus = {
-		id = 巴巴罗萨
-		icon = GFX_goal_unknown
+		id = GER_SHiFangSHaHeTe #释放沙赫特
+		icon = GFX_JieJueJingJiWeiTi
 		cost = 5.00
 		prerequisite = {
-			focus = 海狮行动
-			focus = 加莱协定
+			focus = GER_JieJueJingJiWeiTi #处理经济问题
 		}
 		x = 12
-		y = 17
+		y = 10
 		completion_reward = {
-			create_wargoal = {
-				target = RFE
-				type = annex_everything
-			}
-			create_wargoal = {
-				target = SOV
-				type = annex_everything
-			}
-			create_wargoal = {
-				target = FER
-				type = annex_everything
-			}
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 	focus = {
-		id = 建立新军队
-		icon = GFX_goal_unknown
+		id = GER_Mefo_Wechsel #梅福券
+		icon = GFX_JieJueJingJiWeiTi
 		cost = 5.00
-		x = 29
-		y = 1
-		bypass = {
-			always = yes
+		prerequisite = {
+			focus = GER_XinRenGeLin #信任戈林
+			focus = GER_SHiFangSHaHeTe #释放沙赫特
+		}
+		x = 10
+		y = 11
+		allow_branch = {
+			has_completed_focus = GER_SHiFangSHaHeTe #释放沙赫特
 		}
 		completion_reward = {
-			army_experience = 10
-			custom_effect_tooltip = 获得精锐编制
-			hidden_effect = {
-				load_oob = "GER_JianLiXinJunDui"
-			}
-#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
-		}
-	}
-	focus = {
-		id = 联络美国
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 建立新军队
-		}
-		x = 19
-		y = 2
-		available = {
-			has_completed_focus = GER_JieSHuNeiZHan #结束内战
-		}
 
-	}
-	focus = {
-		id = 美德贸易协定
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 联络美国
 		}
-		x = 18
-		y = 3
-
-	}
-	focus = {
-		id = 给予援助
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 联络美国
-		}
-		x = 20
-		y = 3
-
-	}
-	focus = {
-		id = 与美国…
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 美德贸易协定
-		}
-		prerequisite = {
-			focus = 给予援助
-		}
-		x = 19
-		y = 4
-
-	}
-	focus = {
-		id = 联合科研
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 与美国…
-		}
-		x = 17
-		y = 5
-
-	}
-	focus = {
-		id = 资源互换
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 与美国…
-		}
-		x = 19
-		y = 5
-
-	}
-	focus = {
-		id = 军事合作
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 与美国…
-		}
-		x = 21
-		y = 5
-
-	}
-	focus = {
-		id = 瓦尔基里行动
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 联合科研
-		}
-		prerequisite = {
-			focus = 资源互换
-		}
-		prerequisite = {
-			focus = 军事合作
-		}
-		prerequisite = {
-			focus = GER_JieSHuNeiZHan #结束内战
-		}
-		mutually_exclusive = {
-			focus = 划分势力范围
-		}
-		x = 20
-		y = 7
-
-	}
-	focus = {
-		id = 划分势力范围
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = GER_JieSHuNeiZHan #结束内战
-		}
-		prerequisite = {
-			focus = 联合科研
-		}
-		prerequisite = {
-			focus = 资源互换
-		}
-		prerequisite = {
-			focus = 军事合作
-		}
-		mutually_exclusive = {
-			focus = 瓦尔基里行动
-		}
-		x = 18
-		y = 7
-
-	}
-	focus = {
-		id = 演讲
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 建立新军队
-		}
-		x = 27
-		y = 2
-
-	}
-	focus = {
-		id = 生存空间
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 演讲
-		}
-		x = 27
-		y = 3
-		completion_reward = {
-			add_ideas = bw_GER_SHengCunKongJian
-		}
-	}
-	focus = {
-		id = 德意志民族主义
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 生存空间
-		}
-		x = 27
-		y = 4
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = bw_GER_SHengCunKongJian
-				add_idea = bw_GER_DeYiZHiMinZuDeSHengCunKongJian
-			}
-		}
-	}
-	focus = {
-		id = 重建轮役制度
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 建立新军队
-		}
-		x = 31
-		y = 2
-		available = {
-			has_completed_focus = GER_JieSHuNeiZHan #结束内战
-		}
-		completion_reward = {
-			add_ideas = bw_GER_LunYiZHiDu
-		}
-	}
-	focus = {
-		id = 秘密训练
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 重建轮役制度
-		}
-		x = 31
-		y = 3
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = bw_GER_RiNeiWaTiaoYue_1
-				add_idea = bw_GER_RiNeiWaTiaoYue_2
-			}
-		}
-	}
-	focus = {
-		id = 公开扩军
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 秘密训练
-		}
-		x = 31
-		y = 4
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = bw_GER_RiNeiWaTiaoYue_2
-				add_idea = bw_GER_RiNeiWaTiaoYue_3
-			}
-		}
-	}
-	focus = {
-		id = 粉碎法尔赛体系
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 公开扩军
-		}
-		prerequisite = {
-			focus = 德意志民族主义
-		}
-		x = 29
-		y = 5
-		completion_reward = {
-			remove_ideas = {
-				bw_GER_RiNeiWaTiaoYue_3
-				bw_GER_FaErSaiTiXi
-			}
-		}
-	}
-	focus = {
-		id = 传统学说
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 建立新军队
-		}
-		mutually_exclusive = {
-			focus = 曼斯坦因
-		}
-		x = 38
-		y = 2
-		available = {
-			has_completed_focus = GER_JieSHuNeiZHan #结束内战
-		}
-
-	}
-	focus = {
-		id = 大炮阵
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 传统学说
-		}
-		x = 37
-		y = 3
-
-	}
-	focus = {
-		id = 机动步兵
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 大炮阵
-		}
-		x = 37
-		y = 4
-
-	}
-	focus = {
-		id = 战场上的皇后
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 机动步兵
-		}
-		x = 38
-		y = 5
-
-	}
-	focus = {
-		id = 曼斯坦因
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 建立新军队
-		}
-		mutually_exclusive = {
-			focus = 传统学说
-		}
-		x = 40
-		y = 2
-		available = {
-			has_completed_focus = GER_JieSHuNeiZHan #结束内战
-		}
-
-	}
-	focus = {
-		id = 慕尼黑阴谋
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 划分势力范围
-		}
-		x = 18
-		y = 8
-		completion_reward = {
-			create_faction = 慕尼黑协定
-			GER = { add_to_faction = CSA }
-		}
-	}
-	focus = {
-		id = 大规模装甲集群
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 曼斯坦因
-		}
-		x = 41
-		y = 3
-
-	}
-	focus = {
-		id = 闪电战
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 装甲先锋
-		}
-		x = 40
-		y = 5
-
-	}
-	focus = {
-		id = 装甲先锋
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = 大规模装甲集群
-		}
-		x = 41
-		y = 4
-
 	}
 
 }
