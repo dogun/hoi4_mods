@@ -21,6 +21,9 @@
  myk_idea_DisSiTianZai: "~"
  
  
+ income_count_1: "[?ROOT.treasury]" #|+
+ income_count_2: "[?ROOT.revenue]" #|=+
+ 
  government: "政府"
  head_of_government: "政府首脑"
  economy_chief: "经济部长"
@@ -112,5 +115,28 @@
  Maximum_4h_per_day_working_hours: "每日最多4小时"
  
  minimum_wage: "最低工资"
+ no_minimum_wage_minimum_wage: "无最低工资"
+ nominal_minimum_wage_minimum_wage: "象征性最低工资"
+ 1_per_hour_minimum_wage: "时薪1元"
+ 2_per_hour_minimum_wage: "时薪2元"
+ 3_per_hour_minimum_wage: "时薪3元"
+ 4_per_hour_minimum_wage: "时薪4元"
+ 5_per_hour_minimum_wage: "时薪5元"
+ 6_per_hour_minimum_wage: "时薪6元"
+ 7_per_hour_minimum_wage: "时薪7元"
+ 8_per_hour_minimum_wage: "时薪8元"
+ 9_per_hour_minimum_wage: "时薪9元"
+ 10_per_hour_minimum_wage: "时薪10元"
+ 11_per_hour_minimum_wage: "时薪11元"
+ 12_per_hour_minimum_wage: "时薪12元"
+ 13_per_hour_minimum_wage: "时薪13元"
+ 14_per_hour_minimum_wage: "时薪14元"
+ 15_per_hour_minimum_wage: "时薪15元"
+ 16_per_hour_minimum_wage: "时薪16元"
+ 17_per_hour_minimum_wage: "时薪17元"
+ 18_per_hour_minimum_wage: "时薪18元"
+ 19_per_hour_minimum_wage: "时薪19元"
+ 20_per_hour_minimum_wage: "时薪20元"
+ 
  dole" "救济金"
  pension: "退休金"

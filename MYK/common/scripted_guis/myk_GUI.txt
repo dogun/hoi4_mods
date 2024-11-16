@@ -1,0 +1,8 @@
+scripted_gui = {
+	myk_income_gui = {
+		window_name = income_W
+		context_type = player_context
+
+		dirty = global.income_gui
+	}
+}

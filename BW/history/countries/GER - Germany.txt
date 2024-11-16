@@ -76,6 +76,8 @@ add_ideas = {
 
 	no_strike_strike
 	ban_trade_unions_union
+	Unlimited_working_hours
+	nominal_minimum_wage_minimum_wage
 
 	limited_exports
 	limited_conscription
@@ -89,6 +91,7 @@ declare_war_on = {
 #give_guarantee = ALB
 
 1936.1.1 = {
+
 	unlock_national_focus = GER_FaXiSiZHiJian #法西斯之剑
 	unlock_national_focus = GER_DongYuanCHongFengDui #动员冲锋队
 	unlock_national_focus = GER_DongYuanDangWeiJun #动员党卫军

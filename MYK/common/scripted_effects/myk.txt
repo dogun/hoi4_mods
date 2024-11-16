@@ -1,0 +1,39 @@
+on_actions = {
+	on_daily = {
+		effect = {
+			update_revenue = yes
+			update_treasury = yes
+			update_income_gui = yes
+		}
+	}
+}
+
+update_income_gui = {
+	if = {
+		limit = {
+			check_variable = {
+				global.income_gui = 0
+			}
+		}
+		set_variable = { global.income_gui = 1 }
+	}
+	if = {
+		limit = {
+			check_variable = {
+				global.income_gui = 1
+			}
+		}
+		set_variable = { global.income_gui = 0 }
+	}
+}
+
+update_revenue = {
+	set_variable = { revenue = TOTAL }
+}
+
+update_treasury = {
+	add_to_variable = {
+		var = treasury
+		value = revenue
+	}
+}

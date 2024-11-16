@@ -1,0 +1,362 @@
+ideas = {
+
+	minimum_wage = {	#最低工资
+		law = yes
+		use_list_view = yes
+
+		no_minimum_wage_minimum_wage = {	#无最低工资
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.12
+				consumer_goods_factor = -0.12
+			}
+			cancel_if_invalid = yes
+		}
+
+		nominal_minimum_wage_minimum_wage = {	#象征性最低工资
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.03
+				stability_factor = -0.1
+				consumer_goods_factor = -0.12
+			}
+			cancel_if_invalid = yes
+		}
+
+		1_per_hour_minimum_wage = {	#时薪1元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.1
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		2_per_hour_minimum_wage = {	#时薪2元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.09
+				consumer_goods_factor = -0.09
+			}
+			cancel_if_invalid = yes
+		}
+
+		3_per_hour_minimum_wage = {	#时薪3元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.08
+				consumer_goods_factor = -0.08
+			}
+			cancel_if_invalid = yes
+		}
+
+		4_per_hour_minimum_wage = {	#时薪4元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.07
+				consumer_goods_factor = -0.07
+			}
+			cancel_if_invalid = yes
+		}
+
+		5_per_hour_minimum_wage = {	#时薪5元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.06
+				consumer_goods_factor = -0.06
+			}
+			cancel_if_invalid = yes
+		}
+
+		6_per_hour_minimum_wage = {	#时薪6元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+			cancel_if_invalid = yes
+		}
+
+		7_per_hour_minimum_wage = {	#时薪7元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.04
+				consumer_goods_factor = -0.04
+			}
+			cancel_if_invalid = yes
+		}
+
+		8_per_hour_minimum_wage = {	#时薪8元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.03
+				consumer_goods_factor = -0.03
+			}
+			cancel_if_invalid = yes
+		}
+
+		9_per_hour_minimum_wage = {	#时薪9元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.02
+				consumer_goods_factor = -0.02
+			}
+			cancel_if_invalid = yes
+		}
+
+		10_per_hour_minimum_wage = {	#时薪10元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.01
+				consumer_goods_factor = -0.01
+			}
+			cancel_if_invalid = yes
+		}
+
+		11_per_hour_minimum_wage = {	#时薪11元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.01
+				consumer_goods_factor = 0.01
+			}
+			cancel_if_invalid = yes
+		}
+
+		12_per_hour_minimum_wage = {	#时薪12元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.02
+				consumer_goods_factor = 0.02
+			}
+			cancel_if_invalid = yes
+		}
+
+		13_per_hour_minimum_wage = {	#时薪13元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.03
+				consumer_goods_factor = 0.03
+			}
+			cancel_if_invalid = yes
+		}
+
+		14_per_hour_minimum_wage = {	#时薪14元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.04
+				consumer_goods_factor = 0.04
+			}
+			cancel_if_invalid = yes
+		}
+
+		15_per_hour_minimum_wage = {	#时薪15元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+			cancel_if_invalid = yes
+		}
+
+		16_per_hour_minimum_wage = {	#时薪16元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.06
+				consumer_goods_factor = 0.06
+			}
+			cancel_if_invalid = yes
+		}
+
+		17_per_hour_minimum_wage = {	#时薪17元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.07
+				consumer_goods_factor = 0.07
+			}
+			cancel_if_invalid = yes
+		}
+
+		18_per_hour_minimum_wage = {	#时薪18元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.08
+				consumer_goods_factor = 0.08
+			}
+			cancel_if_invalid = yes
+		}
+
+		19_per_hour_minimum_wage = {	#时薪19元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.09
+				consumer_goods_factor = 0.09
+			}
+			cancel_if_invalid = yes
+		}
+
+		20_per_hour_minimum_wage = {	#时薪20元
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+	}
+}
