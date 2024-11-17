@@ -32,7 +32,7 @@ update_GDP = { #GDP
 }
 
 update_national_wealth = {	#国民财富
-	add_to_variable = {
+	set_variable = {
 		var = national_wealth
 		value = GDP
 	}
@@ -63,12 +63,37 @@ update_revenue = {	#税
 		var = revenue
 		value = 0.1 #tax_rate
 	}
-
 }
 
-update_treasury = {
+update_military_maintenance_fee = {	#军队维护费
+	set_variable = {
+		var = military_maintenance_fee
+		value = deployed_army_manpower_k
+	}
+	divide_variable = {
+		var = military_maintenance_fee
+		value = 100
+	}
+}
+
+update_real_revenue = {	#真实收入
+	set_variable = {
+		var = real_revenue
+		value = revenue
+	}
+	subtract_from_variable = {
+		var = real_revenue
+		value = military_maintenance_fee
+	}
+}
+
+update_treasury = {	#国库
 	add_to_variable = {
 		var = treasury
 		value = revenue
+	}
+	subtract_from_variable = {
+		var = treasury
+		value = military_maintenance_fee
 	}
 }

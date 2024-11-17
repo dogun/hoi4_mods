@@ -3684,6 +3684,18 @@ spriteTypes = {
 		name = "GFX_JieJueJingJiWeiTi"
 		texturefile = "gfx/interface/goals/解决经济问题.png"
 	}
+	SpriteType = {
+		name = "GFX_XinRenGeLin"
+		texturefile = "gfx/interface/goals/信任戈林2.png"
+	}
+	SpriteType = {
+		name = "GFX_SHiFangSHaHeTe"
+		texturefile = "gfx/interface/goals/释放沙赫特.png"
+	}
+	SpriteType = {
+		name = "GFX_Mefo_Wechsel"
+		texturefile = "gfx/interface/goals/梅芙券.png"
+	}
 	# # #国民精神
 	# # # # # #黑德
 	SpriteType = {

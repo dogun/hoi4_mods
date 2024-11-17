@@ -63,6 +63,40 @@ ideas = {
 			}
 		}
 
+		bw_GER_Mefo_Wechsel = {	#梅芙券
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.05
+			}
+			targeted_modifier = {
+
+			}
+
+		bw_ GER_HerGor_ZHaiQvan = {	#菲格债券
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+			targeted_modifier = {
+
+			}
+		}
+
 #############################
 # 废弃 ## 废弃 ## 废弃 ## 废弃 ## 废弃 #
 #############################

@@ -434,7 +434,7 @@ focus_tree = {
 # # # # # #信任戈林分支
 	focus = {
 		id = GER_XinRenGeLin #信任戈林
-		icon = GFX_JieJueJingJiWeiTi
+		icon = GFX_XinRenGeLin
 		cost = 5.00
 		prerequisite = {
 			focus = GER_JieJueJingJiWeiTi #处理经济问题
@@ -458,21 +458,132 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = GER_XinRenGeLin #信任戈林
-			focus = GER_SHiFangSHaHeTe #释放沙赫特
 		}
-		x = 10
+		x = 8
 		y = 11
 		allow_branch = {
 			has_completed_focus = GER_XinRenGeLin #信任戈林
 		}
 		completion_reward = {
-
+			add_timed_idea = {
+				idea =  bw_ GER_HerGor_ZHaiQvan
+				days = 1460
+			}
+		}
+	}
+	focus = {
+		id = GER_GuoYouHua #国有化
+		icon = GFX_XinRenGeLin
+		cost = 5.00
+		prerequisite = {
+			focus = GER_HerGor_ZHaiQvan #菲格债券
+		}
+		x = 8
+		y = 12
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = is_core_of = GER
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = is_core_of = GER
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = is_core_of = GER
+			}			
+		}
+	}
+	focus = {
+		id = GER_Hermann_Goring_GongCHang #赫尔曼·戈林工厂
+		icon = GFX_XinRenGeLin
+		cost = 5.00
+		prerequisite = {
+			focus = GER_GuoYouHua #国有化
+		}
+		x = 8
+		y = 13
+		completion_reward = {
+			every_state = {
+				limit = { is_core_of = GER }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_ZHanZHengJingJiXue #战争经济学
+		icon = GFX_XinRenGeLin
+		cost = 5.00
+		prerequisite = {
+			focus = GER_Hermann_Goring_GongCHang #赫尔曼·戈林工厂
+		}
+		x = 8
+		y = 14
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = is_core_of = GER
+			}
 		}
 	}
 # # # # # #释放沙赫特分支
 	focus = {
 		id = GER_SHiFangSHaHeTe #释放沙赫特
-		icon = GFX_JieJueJingJiWeiTi
+		icon = GFX_SHiFangSHaHeTe
 		cost = 5.00
 		prerequisite = {
 			focus = GER_JieJueJingJiWeiTi #处理经济问题
@@ -486,19 +597,21 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Mefo_Wechsel #梅福券
-		icon = GFX_JieJueJingJiWeiTi
+		icon = GFX_Mefo_Wechsel
 		cost = 5.00
 		prerequisite = {
-			focus = GER_XinRenGeLin #信任戈林
 			focus = GER_SHiFangSHaHeTe #释放沙赫特
 		}
-		x = 10
+		x = 12
 		y = 11
 		allow_branch = {
 			has_completed_focus = GER_SHiFangSHaHeTe #释放沙赫特
 		}
 		completion_reward = {
-
+			add_timed_idea = {
+				idea = bw_GER_Mefo_Wechsel
+				days = 1460
+			}
 		}
 	}
 

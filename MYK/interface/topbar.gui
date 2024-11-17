@@ -29,6 +29,7 @@ guiTypes = {
 			position = { x= 730 y = 4 } #x= 755 y = 4
 			font = "hoi_18mbs"
 			text = "income_count"
+			pdx_tooltip = "income_count_desc"
 			format = center
 			maxWidth = 70 #44
 			maxHeight = 24
@@ -57,6 +58,21 @@ guiTypes = {
 #				fixedsize = yes
 #		}
 	}
+
+#	containerWindowType = {
+#		name = "income_buttonType"
+#		position = { x=56 y=0 }
+#				
+#		buttonType = {
+#			name = "income_buttonType"
+3			quadTextureSprite ="GFX_topbar_technology"
+#			position = { x= -196 y = 0 }
+3			Orientation = "UPPER_LEFT"
+3			shortcut = "w"
+#			clicksound = click_close
+#			oversound = ui_menu_over
+#		}
+#	}
 
 	##原版
 
@@ -267,7 +283,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "land"
-			position = { x= 796 y = 5}
+			position = { x= 886 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -300,7 +316,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy"
-			position = { x= 854 y = 5}
+			position = { x= 944 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -333,7 +349,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air"
-			position = { x= 912 y = 5}
+			position = { x= 1002 y = 5}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -366,7 +382,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "cp"
-			position = { x= 732 y = 5}
+			position = { x= 822 y = 5}
 			clipping = no
 			size = { width=62 height=30 }
 			Orientation = UPPER_LEFT
