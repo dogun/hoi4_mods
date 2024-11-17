@@ -16,35 +16,46 @@ guiTypes = {
 			position = { x=730 y=5 }
 			Orientation = "UPPER_LEFT"
 		}
-		
-		iconType ={
-			name ="income_icon"
-			spriteType = "GFX_topbar_convoys"
-			position = { x= 729 y = 9 }
-			Orientation = "UPPER_LEFT"
-		}
-	
+
+#		iconType ={
+#			name ="income_icon"
+#			spriteType = "GFX_topbar_convoys"
+#			position = { x= 729 y = 9 }
+#			Orientation = "UPPER_LEFT"
+#		}
+
 		instantTextBoxType = {
-			name ="income_count_1"
-			position = { x= 755 y = 4 }
+			name ="income_count"
+			position = { x= 730 y = 4 } #x= 755 y = 4
 			font = "hoi_18mbs"
-			text = "income_count_1"
+			text = "income_count"
 			format = center
-			maxWidth = 44
+			maxWidth = 70 #44
 			maxHeight = 24
 #				fixedsize = yes
 		}
 
-		instantTextBoxType = {
-			name ="income_count_2"
-			position = { x= 755 y = 12 }
-			font = "hoi_18mbs"
-			text = "income_count_2"
-			format = center
-			maxWidth = 44
-			maxHeight = 24
+#		instantTextBoxType = {
+#			name ="income_count_1"
+#			position = { x= 755 y = 4 }
+#			font = "hoi_18mbs"
+#			text = "income_count_1"
+#			format = center
+#			maxWidth = 44
+#			maxHeight = 24
 #				fixedsize = yes
-		}
+#		}
+
+#		instantTextBoxType = {
+#			name ="income_count_2"
+#			position = { x= 755 y = 12 }
+#			font = "hoi_18mbs"
+#			text = "income_count_2"
+#			format = center
+#			maxWidth = 44
+#			maxHeight = 24
+#				fixedsize = yes
+#		}
 	}
 
 	##原版

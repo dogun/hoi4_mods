@@ -1,13 +1,3 @@
-on_actions = {
-	on_daily = {
-		effect = {
-			update_revenue = yes
-			update_treasury = yes
-			update_income_gui = yes
-		}
-	}
-}
-
 update_income_gui = {
 	if = {
 		limit = {
@@ -17,7 +7,7 @@ update_income_gui = {
 		}
 		set_variable = { global.income_gui = 1 }
 	}
-	if = {
+	else_if = {
 		limit = {
 			check_variable = {
 				global.income_gui = 1
@@ -27,8 +17,53 @@ update_income_gui = {
 	}
 }
 
-update_revenue = {
-	set_variable = { revenue = TOTAL }
+#经济
+
+update_GDP = { #GDP
+	set_variable = {
+		var = GDP
+		value = num_of_factories
+	}
+
+	multiply_variable = {
+		var = GDP
+		value = 50
+	}
+}
+
+update_national_wealth = {	#国民财富
+	add_to_variable = {
+		var = national_wealth
+		value = GDP
+	}
+
+	multiply_variable = {
+		var = wealth_per_capita
+		value = modifier@GDP_conversion_rate
+	}
+}
+
+update_revenue = {	#税
+#	set_variable = {
+#		var = revenue
+#		value = max_manpower_k
+#	}
+
+	set_variable = { #multiply_variable = {
+		var = revenue
+		value = modifier@tax_efficiency
+	}
+
+	multiply_variable = {
+		var = revenue
+		value = national_wealth
+	}
+
+	multiply_variable = {
+		var = revenue
+		value = 0.1 #tax_rate
+	}
+
 }
 
 update_treasury = {

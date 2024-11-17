@@ -14,7 +14,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_expected_value = 0.05
+				tax_efficiency = 1
+#				consumer_goods_expected_value = 0.05
 				stability_factor = 0.05
 			}
 			cancel_if_invalid = no
@@ -30,7 +31,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_expected_value = -0.01
+				tax_efficiency = 0.15
+#				consumer_goods_expected_value = -0.01
 				political_power_cost = 0.1
 			}
 			cancel_if_invalid = yes
@@ -46,7 +48,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_expected_value = -0.02
+				tax_efficiency = 0.3
+#				consumer_goods_expected_value = -0.02
 				political_power_cost = 0.2
 			}
 			cancel_if_invalid = yes
@@ -62,7 +65,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_expected_value = -0.03
+				tax_efficiency = 0.45
+#				consumer_goods_expected_value = -0.03
 				political_power_cost = 0.3
 			}
 			cancel_if_invalid = yes
@@ -78,6 +82,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				tax_efficiency = 0.6
 				consumer_goods_expected_value = -0.04
 				political_power_cost = 0.4
 			}
@@ -95,6 +100,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				tax_efficiency = 0.75
 				consumer_goods_expected_value = -0.05
 				political_power_cost = 0.5
 			}
@@ -112,6 +118,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
+				tax_efficiency = 0.9
 				consumer_goods_expected_value = -0.06
 				political_power_cost = 0.6
 			}

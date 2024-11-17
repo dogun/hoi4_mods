@@ -4,4 +4,14 @@ on_actions = {
 			set_variable = { global.income_gui = 1 }
 		}
 	}
+	on_daily = {
+		effect = {
+			update_GDP = yes
+			update_national_wealth = yes
+			update_revenue = yes
+			update_treasury = yes
+			update_income_gui = yes
+#			update_wealth_per_capita = yes
+		}
+	}
 }

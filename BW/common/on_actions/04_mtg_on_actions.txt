@@ -2,11 +2,20 @@ on_actions = {
 	on_startup = {
 		effect = {
 			GER = {
-				set_variable = { treasury = -200 }
-				set_variable = { revenue = ROOT.total }
-
-				set_variable = { income_count_1 = -200 }
-				set_variable = { income_count_2 = ROOT.total }
+				set_variable = { treasury = -2000000 }
+				set_variable = { revenue = max_manpower_k }
+				multiply_variable = {
+					var = revenue
+					value = modifier@tax_efficiency
+				}
+				multiply_variable = {
+					var = revenue
+					value = national_wealth
+				}
+				multiply_variable = {
+					var = revenue
+					value = 0.1 #tax_rate
+				}
 			}
 
 			if = {
