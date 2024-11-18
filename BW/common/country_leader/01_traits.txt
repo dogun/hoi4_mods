@@ -176,10 +176,17 @@ leader_traits = {
 	ZHanZHengJingJiXueJia = {
 		random = no
 		sprite = 10
-		production_speed_arms_factory_factor = 0.5
-		production_speed_industrial_complex_factor = -0.5
+		arms_factory_maintenance_fee_factor = -0.1
+		industrial_complex_maintenance_fee_factor = 0.05
 	}
 
+	JingJiWuSHi = {
+		random = no
+		sprite = 10
+		industrial_complex_maintenance_fee_factor = -0.1
+		tax_efficiency = 0.1
+	}
+	
 }
 
 

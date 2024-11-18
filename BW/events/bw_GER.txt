@@ -14,14 +14,10 @@ country_event = { #胜利
 	option = {
 		name = bw_GER.1.a #德意志万岁！元首万岁！第三帝国万岁！
 
-		completion_reward = {
-			add_ideas = bw_GER_PoSuiDeJingJi
-		}
+		add_ideas = bw_GER_PoSuiDeJingJi
+
 		drop_cosmetic_tag = yes
-		annex_country = {
-			target = GLR
-			transfer_troops = no
-		}
+
 		remove_ideas = bw_LinSHiZHengFu
 
 		hidden_effect = {

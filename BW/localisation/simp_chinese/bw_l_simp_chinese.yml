@@ -382,10 +382,21 @@
  
  #民族精神
  
- # # #GER
+ # # #黑德
  
  bw_GER_JvDaDeHongSeWeiXie: "巨大的红色威胁"
- bw_GER_JvDaDeHongSeWeiXie_desc: "“在西伯利亚的苦寒之地，斯大林和他的同僚们正在让世界变成红色，德国就是他的桥头堡，而我们的元首就是第一个抵抗这股力量的人。”——德国宣传部"
+ bw_GER_JvDaDeHongSeWeiXie_desc: "“在西伯利亚的苦寒之地，斯大林和他的同僚们正在研究布尔什维克病毒，德国就是第一个被感染的，而我们的元首就是第一个抵抗这股力量的人。”——德国宣传部"
+ 
+ bw_GER_PoSuiDeJingJi: "破碎的经济"
+ #bw_GER_PoSuiDeJingJi_desc: "在德国内战中没人在乎经济，他们通过搜刮劫掠的方式保障自己的生存。但内战结束了，这种方式的后遗症展现了出来，各地出现的经济被分割，企业全部逃走，德国的经济已经完蛋。"
+ bw_GER_PoSuiDeJingJi_desc: "在战火中经济被轰的粉碎，斯特雷泽曼的遗产彻底消失。"
+ 
+ bw_GER_HerGor_ZHaiQvan: "菲格债券"
+ bw_GER_HerGor_ZHaiQvan_desc: "“菲格（HerGör）这个词是赫尔曼和戈林的前三个字母组合起来的组合词，代表菲格债券的提出者赫尔曼·戈林。"
+ 
+ ########################################
+ # 废弃 ## 废弃 ## 废弃 ## 废弃 ## 废弃 #
+ ########################################
  
  bw_GER_SHengCunKongJian: "生存空间"
  bw_GER_SHengCunKongJian_desc: " "
@@ -720,6 +731,8 @@
  
  GER_Hermann_Goring: "赫尔曼·威廉·戈林"
  
+ GER_Hjalmar_Schacht: "亚尔马·贺拉斯·格里莱·沙赫特"
+ 
  # # #奥地利
  
  AUS_Kurt_Schuschnigg_BW: "库尔特·舒施尼格"
@@ -809,7 +822,9 @@
  
  SHaHuangZuiZHongCHengDeJinWeiBing: "沙皇最忠诚的近卫兵"
  
- ZHanZHengJingJiXueJia: "战争经济学家"
+ ZHanZHengJingJiXueJia: "“换生灵”"
+ 
+ JingJiWuSHi: "经济巫师"
  
  #国民精神
 

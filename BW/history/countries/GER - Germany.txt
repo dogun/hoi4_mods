@@ -167,6 +167,7 @@ recruit_character = GER_Heinrich_Himmler
 recruit_character = GER_Reinhard_Heydrich
 recruit_character = GER_Paul_Joseph_Goebbels
 recruit_character = GER_Hermann_Goring
+recruit_character = GER_Hjalmar_Schacht
 #将领
 recruit_character = GER_Hermann_Fegelein
 recruit_character = GER_Felix_Steiner

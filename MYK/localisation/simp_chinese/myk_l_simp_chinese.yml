@@ -25,7 +25,7 @@
  #income_count_1: "[?ROOT.treasury]" #|+
  #income_count_2: "[?ROOT.revenue]" #|=+
  income_count: "[?ROOT.treasury|.1+^2H]\n[?ROOT.real_revenue|.1=+^2H]"
- income_count_desc: "§Y经济§!\n国库：[?ROOT.treasury|Y]克黄金\n收入：[?ROOT.revenue|Y]/日\n赤字：[?ROOT.military_maintenance_fee|Y]/日\n\n目前我们的民众总财富为[?ROOT.national_wealth|.0Y]，税收效率为[?modifier@tax_efficiency|Y%]，税率为§Y10%§!。也就是说我们能收到[?ROOT.national_wealth|.0Y]中的[?modifier@tax_efficiency|Y%]中的§Y10.00%§!。\n"
+ income_count_desc: "§Y经济§!\n国库：[?ROOT.treasury|Y]克黄金\n收入：[?ROOT.revenue|Y]/日\n赤字：[?ROOT.deficit|Y]/日\n\n目前我们的民众总财富为[?ROOT.national_wealth|.0Y]，税收效率为[?modifier@tax_efficiency|Y%]，税率为§Y10%§!，额外收入为[?modifier@extra_income|Y]。也就是说我们能收到[?ROOT.national_wealth|.0Y]中的[?modifier@tax_efficiency|Y%]中的§Y10.00%§!加[?modifier@extra_income|Y]。\n而我们需要支付[?ROOT.military_maintenance_fee|Y]克黄金给军队，支付[?ROOT.arms_factory_maintenance_fee|Y]给军用工厂，支付[?ROOT.industrial_complex_maintenance_fee|Y]给民用工厂。"
  
  INCOME_LABEL: "经济"
  
@@ -33,7 +33,10 @@
  
  tax_efficiency: "税收效率"
  GDP_conversion_rate: "GDP转化率"
-  
+ arms_factory_maintenance_fee_factor: "军用工厂维护费修正"
+ industrial_complex_maintenance_fee_factor: "民用工厂维护费修正"
+ extra_income: "额外收入"
+ 
  #政府
  
  government: "政府"

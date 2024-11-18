@@ -3699,6 +3699,19 @@ spriteTypes = {
 	# # #国民精神
 	# # # # # #黑德
 	SpriteType = {
+		name = "GFX_idea_SHuiJingZHiYe"
+		texturefile = "gfx/interface/ideas/水晶之夜.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_JvDaDeHongSeWeiXie"
+		texturefile = "gfx/interface/ideas/巨大的红色威胁.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_PoSuiDeJingJi"
+		texturefile = "gfx/interface/ideas/破碎的经济.png"
+	}
+	# # # # # #红德
+	SpriteType = {
 		name = "GFX_idea_ZiYouJunTuan"
 		texturefile = "gfx/interface/ideas/自由军团（R）.png"
 	}
@@ -3710,15 +3723,6 @@ spriteTypes = {
 		name = "GFX_idea_SHeMinDangFanDuiPai"
 		texturefile = "gfx/interface/ideas/社民党反对派.png"
 	}
-	SpriteType = {
-		name = "GFX_idea_SHuiJingZHiYe"
-		texturefile = "gfx/interface/ideas/水晶之夜.png"
-	}
-	SpriteType = {
-		name = "GFX_idea_JvDaDeHongSeWeiXie"
-		texturefile = "gfx/interface/ideas/巨大的红色威胁.png"
-	}
-	# # # # # #红德
 	SpriteType = {
 		name = "GFX_idea_FaErSaiTiaoYueDeYvBo"
 		texturefile = "gfx/interface/ideas/法尔赛条约的遗产（RR）.png"

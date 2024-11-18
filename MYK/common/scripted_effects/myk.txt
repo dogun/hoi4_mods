@@ -19,15 +19,37 @@ update_income_gui = {
 
 #经济
 
+update_arms_factory_GDP = {	#军用工厂GDP
+	set_variable = {
+		var = arms_factory_GDP
+		value = num_of_civilian_factories
+	}
+	multiply_variable = {
+		var = arms_factory_GDP
+		value = 5
+	}
+}
+
+update_industrial_complex_GDP = {	#民用工厂GDP
+	set_variable = {
+		var = industrial_complex_GDP
+		value = num_of_civilian_factories
+	}
+	multiply_variable = {
+		var = industrial_complex_GDP
+		value = 110
+	}
+}
+
 update_GDP = { #GDP
 	set_variable = {
 		var = GDP
-		value = num_of_factories
+		value = arms_factory_GDP
 	}
 
-	multiply_variable = {
+	add_to_variable = {
 		var = GDP
-		value = 50
+		value = industrial_complex_GDP
 	}
 }
 
@@ -38,7 +60,7 @@ update_national_wealth = {	#国民财富
 	}
 
 	multiply_variable = {
-		var = wealth_per_capita
+		var = national_wealth
 		value = modifier@GDP_conversion_rate
 	}
 }
@@ -72,7 +94,82 @@ update_military_maintenance_fee = {	#军队维护费
 	}
 	divide_variable = {
 		var = military_maintenance_fee
-		value = 100
+		value = 10
+	}
+}
+
+update_arms_factory_maintenance_fee_factor = {	#军用工厂维护费修正
+	set_variable = {
+		var = arms_factory_maintenance_fee_factor
+		value = modifier@arms_factory_maintenance_fee_factor
+	}
+	add_to_variable = {
+		var = arms_factory_maintenance_fee_factor
+		value = 1
+	}
+}
+
+update_arms_factory_maintenance_fee = {	#军用工厂维护费
+	set_variable = {
+		var = arms_factory_maintenance_fee
+		value = num_of_civilian_factories
+	}
+	multiply_variable = {
+		var = arms_factory_maintenance_fee
+		value = 2.4
+	}
+	multiply_variable = {
+		var = arms_factory_maintenance_fee
+		value = arms_factory_maintenance_fee_factor
+	}
+	divide_variable = {
+		var = arms_factory_maintenance_fee
+		value = 30
+	}
+}
+
+update_industrial_complex_maintenance_fee_factor = {	#民用工厂维护费修正
+	set_variable = {
+		var = industrial_complex_maintenance_fee_factor
+		value = modifier@industrial_complex_maintenance_fee_factor
+	}
+	add_to_variable = {
+		var = industrial_complex_maintenance_fee_factor
+		value = 1
+	}
+}
+
+update_industrial_complex_maintenance_fee = {	#民用工厂维护费
+	set_variable = {
+		var = industrial_complex_maintenance_fee
+		value = num_of_civilian_factories
+	}
+	multiply_variable = {
+		var = industrial_complex_maintenance_fee
+		value = 2.4
+	}
+	multiply_variable = {
+		var = industrial_complex_maintenance_fee
+		value = industrial_complex_maintenance_fee_factor
+	}
+	divide_variable = {
+		var = industrial_complex_maintenance_fee
+		value = 30
+	}
+}
+
+update_deficit = {	#赤字
+	set_variable = {
+		var = deficit
+		value = military_maintenance_fee
+	}
+	add_to_variable = {
+		var = deficit
+		value = arms_factory_maintenance_fee
+	}
+	add_to_variable = {
+		var = deficit
+		value = industrial_complex_maintenance_fee
 	}
 }
 
@@ -83,7 +180,11 @@ update_real_revenue = {	#真实收入
 	}
 	subtract_from_variable = {
 		var = real_revenue
-		value = military_maintenance_fee
+		value = deficit
+	}
+	add_to_variable = {
+		var = real_revenue
+		value = modifier@extra_income
 	}
 }
 
@@ -94,6 +195,10 @@ update_treasury = {	#国库
 	}
 	subtract_from_variable = {
 		var = treasury
-		value = military_maintenance_fee
+		value = deficit
+	}
+	add_to_variable = {
+		var = treasury
+		value = modifier@extra_income
 	}
 }

@@ -465,10 +465,11 @@ focus_tree = {
 			has_completed_focus = GER_XinRenGeLin #信任戈林
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea =  bw_ GER_HerGor_ZHaiQvan
-				days = 1460
-			}
+#			add_timed_idea = {
+#				idea =  bw_GER_HerGor_ZHaiQvan
+#				days = 1460
+#			}
+			add_ideas = bw_GER_HerGor_ZHaiQvan
 		}
 	}
 	focus = {
@@ -591,6 +592,12 @@ focus_tree = {
 		x = 12
 		y = 10
 		completion_reward = {
+			activate_advisor = GER_Hjalmar_Schacht
+			set_can_be_fired_in_advisor_role = {
+				character = GER_Hjalmar_Schacht
+				value = no
+			}
+
 			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
 			mark_focus_tree_layout_dirty = yes
 		}
@@ -608,10 +615,292 @@ focus_tree = {
 			has_completed_focus = GER_SHiFangSHaHeTe #释放沙赫特
 		}
 		completion_reward = {
+#			add_timed_idea = {
+#				idea = bw_GER_Mefo_Wechsel
+#				days = 1460
+#			}
+			add_ideas = bw_GER_Mefo_Wechsel
+		}
+	}
+	focus = {
+		id = GER_JinXingBuTie #进行补贴
+		icon = GFX_Mefo_Wechsel
+		cost = 5.00
+		prerequisite = {
+			focus = GER_Mefo_Wechsel #梅福券
+		}
+		x = 12
+		y = 12
+		completion_reward = {
 			add_timed_idea = {
-				idea = bw_GER_Mefo_Wechsel
-				days = 1460
+				idea = bw_GER_ZHengFuBuTie
+				days = 365
 			}
+		}
+	}
+	focus = {
+		id = GER_Reichsautobahn #帝国高速公路
+		icon = GFX_Mefo_Wechsel
+		cost = 5.00
+		prerequisite = {
+			focus = GER_JinXingBuTie #进行补贴
+		}
+		x = 12
+		y = 13
+		available = {
+			OR = {
+				has_full_control_of_state = 64
+				has_full_control_of_state = 59
+				has_full_control_of_state = 60
+				has_full_control_of_state = 54
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = GER_autobahn_tt
+			hidden_effect = {
+				64 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				59 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				60 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+				54 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 5
+							instant_build = yes
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_CHengNuoTouZiZiYou #承诺投资自由
+		icon = GFX_Mefo_Wechsel
+		cost = 5.00
+		prerequisite = {
+			focus = GER_Reichsautobahn #帝国高速公路
+		}
+		x = 12
+		y = 14
+		completion_reward = {
+			add_ideas = bw_GER_TouZiZHeDeTianTang
+			add_ideas = laissez_faire_economy
+		}
+	}
+# # # # # #四年计划分支
+	focus = {
+		id = GER_SHiXianJingJiFuSu #实现经济复苏
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_ZHanZHengJingJiXue #战争经济学
+			focus = GER_CHengNuoTouZiZiYou #承诺投资自由
+		}
+		x = 10
+		y = 15
+		completion_reward = {
+			remove_ideas = bw_GER_PoSuiDeJingJi
+
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	focus = {
+		id = GER_Vierjahresplan #四年计划
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SHiXianJingJiFuSu #实现经济复苏
+		}
+		x = 10
+		y = 16
+		allow_branch = {
+			has_completed_focus = GER_SHiXianJingJiFuSu #实现经济复苏
+		}
+		completion_reward = {
+			add_ideas = bw_GER_Vierjahresplan
+		}
+	}
+	focus = {
+		id = GER_NiuNaiYvMianBao #牛奶与面包！
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_Vierjahresplan #四年计划
+		}
+		x = 9
+		y = 17
+		completion_reward = {
+			add_ideas = bw_GER_NiuNaiYvMianBao
+		}
+	}
+	focus = {
+		id = GER_Kraft_durch_Freude #欢乐来自力量！
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+		add_stability = 0.05
+			focus = GER_Vierjahresplan #四年计划
+		}
+		x = 11
+		y = 17
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = state_controlled_unions_union
+		}
+	}
+	focus = {
+		id = GER_Volkswagen #大众汽车
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_NiuNaiYvMianBao #牛奶与面包！
+		}
+		prerequisite = {
+			focus = GER_Kraft_durch_Freude #欢乐来自力量！
+		}
+		x = 8
+		y = 18
+		completion_reward = {
+			subtract_from_variable = {
+				var = treasury
+				value = 600
+#				tooltip = sub_100_from_var_tt
+			}
+			add_stability = 0.05
+			add_ideas = bw_GER_Volkswagen
+		}
+	}
+	focus = {
+		id = GER_Wilhelm_Gustloff #威廉号邮轮
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_NiuNaiYvMianBao #牛奶与面包！
+		}
+		prerequisite = {
+			focus = GER_Kraft_durch_Freude #欢乐来自力量！
+		}
+		x = 10
+		y = 18
+		completion_reward = {
+			subtract_from_variable = {
+				var = treasury
+				value = 5000
+#				tooltip = sub_100_from_var_tt
+			}
+			add_stability = 0.05
+			add_ideas = bw_GER_Blohm_Voss
+		}
+	}
+	focus = {
+		id = GER_Seebad_Prora #普洛拉度假村
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_NiuNaiYvMianBao #牛奶与面包！
+		}
+		prerequisite = {
+			focus = GER_Kraft_durch_Freude #欢乐来自力量！
+		}
+		x = 12
+		y = 18
+		completion_reward = {
+			subtract_from_variable = {
+				var = treasury
+				value = 100000
+#				tooltip = sub_100_from_var_tt
+			}
+			add_ideas = bw_GER_Seebad_Prora
+		}
+	}
+	focus = {
+		id = GER_SHengHuoFuZu #生活富足
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_Volkswagen #大众汽车
+		}
+		prerequisite = {
+			focus = GER_Wilhelm_Gustloff #威廉号邮轮
+		}
+		prerequisite = {
+			focus = GER_Seebad_Prora #普洛拉度假村
+		}
+		x = 10
+		y = 19
+		completion_reward = {
+			add_ideas = bw_GER_SHengHuoFuZu
+
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	focus = {
+		id = GER_YanQi_HerGor_Qvan #延期菲格券
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SHengHuoFuZu #生活富足
+		}
+		prerequisite = {
+			focus = GER_ZHanZHengJingJiXue #战争经济学
+		}
+		x = 7
+		y = 20
+		allow_branch = {
+			has_completed_focus = GER_SHengHuoFuZu #生活富足
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_ZHiFu_Mefo_Wechsel #支付梅福券
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SHengHuoFuZu #生活富足
+		}
+		prerequisite = {
+			focus = GER_ZHanZHengJingJiXue #战争经济学
+		}
+		x = 13
+		y = 20
+		allow_branch = {
+			has_completed_focus = GER_SHengHuoFuZu #生活富足
+		}
+		completion_reward = {
+			
 		}
 	}
 

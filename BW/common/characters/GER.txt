@@ -240,6 +240,7 @@ GER_otto_Strasser = {
 			idea_token = Hermann_Goring
 			allowed = {
 				original_tag = GER
+				has_completed_focus = GER_XinRenGeLin
 			}
 			available = {
 				OR = {
@@ -255,4 +256,34 @@ GER_otto_Strasser = {
 			}
 		}
 	}
+
+	GER_Hjalmar_Schacht={
+		name=GER_Hjalmar_Schacht
+		portraits={
+			army={
+				small="gfx/interface/ideas/沙赫特.png"
+			}
+		}
+		advisor={
+			slot = economy_chief 
+			idea_token = Hermann_Goring
+			allowed = {
+				original_tag = GER
+				has_completed_focus = GER_SHiFangSHaHeTe
+			}
+			available = {
+				OR = {
+					has_government = SHeHuiFaXiSi 
+					has_government = SiTeLaSeZHuYi 
+					has_government = FaXiSiZHuYi 
+					has_government = MinZuSHeHuiZHuYi 
+					has_government = BoGenDiTiZHi 
+				}
+			}
+			traits = {
+				JingJiWuSHi
+			}
+		}
+	}
+
 }
