@@ -141,18 +141,18 @@ country_event = { #胜利
 		if = {
 			limit = {
 				NOT = {
-					has_completed_focus = 威悉行动
+					has_completed_focus = GER_WeiXiXingDong #威悉行动
 				}
 			}
-			unlock_national_focus = 威悉行动
+			unlock_national_focus = GER_WeiXiXingDong #威悉行动
 		}
 		if = {
 			limit = {
 				NOT = {
-					has_completed_focus = GER_XiMuLaiJiangJun #希姆莱将军
+					has_completed_focus = GER_GuDongDiFangJiangLing #鼓动敌方将领
 				}
 			}
-			unlock_national_focus = GER_XiMuLaiJiangJun #希姆莱将军
+			unlock_national_focus = GER_GuDongDiFangJiangLing #鼓动敌方将领
 		}
 		if = {
 			limit = {
@@ -195,6 +195,21 @@ country_event = { #胜利
 			unlock_national_focus = 反布尔什维克志愿军
 		}
 
+		delete_unit_template_and_units = {
+			division_template = "反布尔什维克志愿军"
+			disband = no
+		}
+		if = {
+			every_other_country = {
+				limit = {
+					has_country_flag = FanBuErSHiWeiKeZHiYuanJun
+				}
+				country_event = {
+					id = bw_GER_FanBuErSHiWeiKeZHiYuanJun.3
+					days = 1
+				}
+			}
+		}
 	}
 }
 
@@ -214,7 +229,7 @@ country_event = { #德意志自由主义者起义
 	}
 }
 
-country_event = { #经济问题
+country_event = { #保卢斯投靠纳粹党
 	id = bw_GER.3
 	title = bw_GER.3.t
 	desc = bw_GER.3.d
@@ -222,11 +237,40 @@ country_event = { #经济问题
 	is_triggered_only = yes
 
 	option = {
-		name = bw_GER.3.a #我信任你...
-		complete_national_focus = GER_XinRenGeLin #纳粹的德意志
+		name = bw_GER.3.a #希望这是最后一个
+
+		set_nationality = {
+			target_country = GER
+#			character = OMA_sultan
+		}
+	}
+}
+
+country_event = { #保卢斯投靠我们
+	id = bw_GER.4
+	title = bw_GER.4.t
+	desc = bw_GER.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.4.a #非常好
+	}
+}
+
+country_event = { #经济问题
+	id = bw_GER.5
+	title = bw_GER.5.t
+	desc = bw_GER.5.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.5.a #我信任你...
+		complete_national_focus = GER_XinRenGeLin #信任戈林
 	}
 	option = {
-		name = bw_GER.3.b #但有更好的计划...
-
+		name = bw_GER.5.b #但有更好的计划...
+		complete_national_focus = GER_SHiFangSHaHeTe #释放沙赫特
 	}
 }

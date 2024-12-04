@@ -1,0 +1,107 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_GER_FanBuErSHiWeiKeZHiYuanJun
+
+country_event = { #反布尔什维克志愿军
+	id = bw_GER_FanBuErSHiWeiKeZHiYuanJun.1
+	title = bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.t
+	desc = bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.a #我当然愿意帮忙...
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				add = 10
+				has_opinion = {
+					target = GER
+					value = 25
+				}
+			}
+			modifier = {
+				add = 30
+				has_opinion = {
+					target = GER
+					value = 50
+				}
+			}
+		}
+
+		hidden_effect = {
+			set_country_flag = FanBuErSHiWeiKeZHiYuanJun
+		}
+		add_manpower = -3000
+		GER = {
+			country_event = {
+				id = bw_GER_FanBuErSHiWeiKeZHiYuanJun.2
+				days = 1
+			}
+		}
+	}
+	option = {
+		name = bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.b #...但是这是德国自己的事情，与我无关
+
+
+		ai_chance = {
+			factor = 80
+			modifier = {
+				add = 50
+				strength_ratio = {
+					tag = GER
+					ratio > 1
+				}
+			}
+			modifier = {
+				add = -10
+				has_war = yes
+			}
+		}
+	}
+}
+
+country_event = { #反布尔什维克志愿军
+	id = bw_GER_FanBuErSHiWeiKeZHiYuanJun.2
+	title = bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.t
+	desc = bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.a #非常好
+
+		custom_effect_tooltip = bw_GER_FanBuErSHiWeiKeZHiYuanJun.tt
+		hidden_effect = {
+			load_oob = "GER_FanBuErSHiWeiKeZHiYuanJun_2"
+		}
+	}
+	option = {
+		name = bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.a #希望他们不要脏了慕尼黑的街
+
+		custom_effect_tooltip = bw_GER_FanBuErSHiWeiKeZHiYuanJun.tt
+		hidden_effect = {
+			load_oob = "GER_FanBuErSHiWeiKeZHiYuanJun_2"
+		}
+	}
+}
+
+country_event = { #反布尔什维克志愿军归家
+	id = bw_GER_FanBuErSHiWeiKeZHiYuanJun.3
+	title = bw_GER_FanBuErSHiWeiKeZHiYuanJun.3.t
+	desc = bw_GER_FanBuErSHiWeiKeZHiYuanJun.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_GER.3.a #现在共产势力应该不敢这么猖狂了
+
+		hidden_effect = {
+			clr_global_flag = FanBuErSHiWeiKeZHiYuanJun
+		}
+		add_manpower = 3000
+	}
+}

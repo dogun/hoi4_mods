@@ -1199,7 +1199,7 @@
  #bw_GER.1.t: "魏玛政府倒台"
  #bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
  #bw_GER.1.a: "德意志万岁！元首万岁！第三帝国万岁！"
- 
+ #
  #bw_GER.1: "胜利"
  #bw_GER.1.t: "胜利"
  #bw_GER.1.d: "德意志统一了，虽然台尔曼拒不投降，但他能干什么？打游击吗？"
@@ -1230,92 +1230,92 @@
  #bw_GER.5.d: "自从威廉二世将普鲁士独立以后普鲁士终于重新并入了德意志"
  #bw_GER.5.a: "我...我同意"
  #bw_GER.5.b: "捷克命不该绝！"
- 
- bw_GER.6: "捷克的命运"
- bw_GER.6.t: "捷克的命运"
- bw_GER.6.d_2: "我的元首，捷克接受了我们的最后通牒，现在我们可以任意摆弄它，海德里希希望建立一个保护国进行管理。\n\n\n但更多人认为应该直接吞并，毕竟捷克也是在大德意志的范围之中的。"
- bw_GER.6.a: "建立保护国"
- bw_GER.6.b: "全境归帝国所有"
- 
- bw_GER.7: "神秘人"
- bw_GER.7.t: "神秘人"
- bw_GER.7.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
- bw_GER.7.a: "谁？"
- 
- bw_GER.8: "反布尔什维克志愿军"
- bw_GER.8.t: "反布尔什维克志愿军"
- bw_GER.8.d: ""
- bw_GER.8.a: "我当然愿意帮忙…"
- bw_GER.8.b: "但是这是德国自己的事情，与我无关"
- 
- bw_GER.9: "反布尔什维克志愿军"
- bw_GER.9.t: "反布尔什维克志愿军"
- bw_GER.9.d: ""
- bw_GER.9.a: "非常好"
- bw_GER.9.b: "希望他们不要脏了慕尼黑的街"
- 
- bw_GER.10: "波美拉尼亚或战争"
- bw_GER.10.t: "波美拉尼亚或战争"
- bw_GER.10.d: ""
- bw_GER.10.a: "我们只能妥协"
- bw_GER.10.b: "奥地利下士别嚣张"
- 
- bw_GER.11: "普鲁士妥协"
- bw_GER.11.t: "普鲁士妥协"
- bw_GER.11.d: ""
- bw_GER.11.a: "太好了"
- 
- bw_GER.12: "普鲁士拒不退让"
- bw_GER.12.t: "普鲁士拒不退让"
- bw_GER.12.d: ""
- bw_GER.12.a: "开战！"
- 
- bw_GER.13: "普鲁士的命运"
- bw_GER.13.t: "普鲁士的命运"
- bw_GER.13.d: ""
- bw_GER.13.a: "我在这也够久了"
- bw_GER.13.b: "共和派还想把我逼到什么地方？"
- 
- bw_GER.14: "$GER$索取南蒂罗尔和滨海区"
- bw_GER.14.t: "$GER$索取南蒂罗尔和滨海区"
- bw_GER.14.d: ""
- bw_GER.14.a: "几块烂地？可以"
- bw_GER.14.b: "滚"
- 
- bw_GER.15: "意大利同意割让领土"
- bw_GER.15.t: "意大利同意割让领土"
- bw_GER.15.d: ""
- bw_GER.15.a: "识时务者为俊杰"
- 
- bw_GER.16: "意大利拒绝割让领土"
- bw_GER.16.t: "意大利拒绝割让领土"
- bw_GER.16.d: ""
- bw_GER.16.a: "准备执行撒丁行动"
- bw_GER.16.b: "现在还不是时候"
- 
- bw_GER.17: "马祖伦或战争"
- bw_GER.17.t: "马祖伦或战争"
- bw_GER.17.d: ""
- bw_GER.17.a: "本来也不属于我"
- bw_GER.17.b: "拿但泽交换如何？"
- bw_GER.17.c: "已经拿到的领土为什么要吐出来？"
- 
- bw_GER.18: "波兰同意归还领土"
- bw_GER.18.t: "波兰同意归还领土"
- bw_GER.18.d: ""
- bw_GER.18.a: "算他识相"
- 
- bw_GER.19: "交易"
- bw_GER.19.t: "交易"
- bw_GER.19.d: ""
- bw_GER.19.a: "以后一定让他吐出来"
- bw_GER.19.b: "算是谈崩了？"
- 
- bw_GER.20: "波兰拒绝归还领土"
- bw_GER.20.t: "波兰拒绝归还领土"
- bw_GER.20.d: ""
- bw_GER.20.a: "土匪！！！"
- bw_GER.20.b: "不能冒险"
+ #
+ #bw_GER.6: "捷克的命运"
+ #bw_GER.6.t: "捷克的命运"
+ #bw_GER.6.d_2: "我的元首，捷克接受了我们的最后通牒，现在我们可以任意摆弄它，海德里希希望建立一个保护国进行管理。\n\n\n但更多人认为应该直接吞并，毕竟捷克也是在大德意志的范围之中的。"
+ #bw_GER.6.a: "建立保护国"
+ #bw_GER.6.b: "全境归帝国所有"
+ #
+ #bw_GER.7: "神秘人"
+ #bw_GER.7.t: "神秘人"
+ #bw_GER.7.d: "今天在市长下班后，他发现好像有人跟踪他。\n\n“有人吗”\n“你觉得呢”\n“你是谁”\n“这不重要”\n\n市长突然感觉眼前一黑就倒了下去。\n\n\n等他醒来……"
+ #bw_GER.7.a: "谁？"
+ #
+ #bw_GER.8: "反布尔什维克志愿军"
+ #bw_GER.8.t: "反布尔什维克志愿军"
+ #bw_GER.8.d: ""
+ #bw_GER.8.a: "我当然愿意帮忙…"
+ #bw_GER.8.b: "但是这是德国自己的事情，与我无关"
+ #
+ #bw_GER.9: "反布尔什维克志愿军"
+ #bw_GER.9.t: "反布尔什维克志愿军"
+ #bw_GER.9.d: ""
+ #bw_GER.9.a: "非常好"
+ #bw_GER.9.b: "希望他们不要脏了慕尼黑的街"
+ #
+ #bw_GER.10: "波美拉尼亚或战争"
+ #bw_GER.10.t: "波美拉尼亚或战争"
+ #bw_GER.10.d: ""
+ #bw_GER.10.a: "我们只能妥协"
+ #bw_GER.10.b: "奥地利下士别嚣张"
+ #
+ #bw_GER.11: "普鲁士妥协"
+ #bw_GER.11.t: "普鲁士妥协"
+ #bw_GER.11.d: ""
+ #bw_GER.11.a: "太好了"
+ #
+ #bw_GER.12: "普鲁士拒不退让"
+ #bw_GER.12.t: "普鲁士拒不退让"
+ #bw_GER.12.d: ""
+ #bw_GER.12.a: "开战！"
+ #
+ #bw_GER.13: "普鲁士的命运"
+ #bw_GER.13.t: "普鲁士的命运"
+ #bw_GER.13.d: ""
+ #bw_GER.13.a: "我在这也够久了"
+ #bw_GER.13.b: "共和派还想把我逼到什么地方？"
+ #
+ #bw_GER.14: "$GER$索取南蒂罗尔和滨海区"
+ #bw_GER.14.t: "$GER$索取南蒂罗尔和滨海区"
+ #bw_GER.14.d: ""
+ #bw_GER.14.a: "几块烂地？可以"
+ #bw_GER.14.b: "滚"
+ #
+ #bw_GER.15: "意大利同意割让领土"
+ #bw_GER.15.t: "意大利同意割让领土"
+ #bw_GER.15.d: ""
+ #bw_GER.15.a: "识时务者为俊杰"
+ #
+ #bw_GER.16: "意大利拒绝割让领土"
+ #bw_GER.16.t: "意大利拒绝割让领土"
+ #bw_GER.16.d: ""
+ #bw_GER.16.a: "准备执行撒丁行动"
+ #bw_GER.16.b: "现在还不是时候"
+ #
+ #bw_GER.17: "马祖伦或战争"
+ #bw_GER.17.t: "马祖伦或战争"
+ #bw_GER.17.d: ""
+ #bw_GER.17.a: "本来也不属于我"
+ #bw_GER.17.b: "拿但泽交换如何？"
+ #bw_GER.17.c: "已经拿到的领土为什么要吐出来？"
+ #
+ #bw_GER.18: "波兰同意归还领土"
+ #bw_GER.18.t: "波兰同意归还领土"
+ #bw_GER.18.d: ""
+ #bw_GER.18.a: "算他识相"
+ #
+ #bw_GER.19: "交易"
+ #bw_GER.19.t: "交易"
+ #bw_GER.19.d: ""
+ #bw_GER.19.a: "以后一定让他吐出来"
+ #bw_GER.19.b: "算是谈崩了？"
+ #
+ #bw_GER.20: "波兰拒绝归还领土"
+ #bw_GER.20.t: "波兰拒绝归还领土"
+ #bw_GER.20.d: ""
+ #bw_GER.20.a: "土匪！！！"
+ #bw_GER.20.b: "不能冒险"
  
  bw_GER.1: "魏玛政府崩溃"
  bw_GER.1.t: "魏玛政府崩溃"
@@ -1327,11 +1327,24 @@
  bw_GER.2.d: "我的元首，据可靠信息所称：西里西亚地区于今日发生游行，现以演化为流血事件，他们拥立沙赫特为领袖，宣布西里西亚独立。我们应该以什么样的姿态面对他们？"
  bw_GER.2.a: "碧蓝的天空只允许法西斯之鹰翱翔"
  
- bw_GER.3: "经济问题"
- bw_GER.3.t: "经济问题"
- bw_GER.3.d: "我的元首，"
- bw_GER.3.a: "我信任你..."
- bw_GER.3.a: "但有更好的方案..."
+ # # #反布尔什维克志愿军
+ 
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.1: "反布尔什维克志愿军"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.t: "反布尔什维克志愿军"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.d: "{领导人尊称}，$GER$的临时外交部今天来访问时表示：“德国深受共产党的暴政，全世界的共产分子也越来越多，我们必须一起对抗共产主义。”"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.a: "我当然愿意帮忙..."
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.1.b: "...但是这是德国自己的事情，与我无关"
+ 
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.2: "反布尔什维克志愿军"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.t: "反布尔什维克志愿军"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.d: ""
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.a: "非常好"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.2.b: "希望他们不要脏了慕尼黑的街"
+ 
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.3: "反布尔什维克志愿军归家"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.3.t: "反布尔什维克志愿军归家"
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.3.d: ""
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.3.a: "现在共产势力应该不敢这么猖狂了"
  
  # # #德三新闻
  
@@ -1619,6 +1632,8 @@
  
  bw_ENG_KongZHiSuGeLanJingCHa: "在独立战争开始时，获得3支缺乏训练的含§Y3个非正规步兵营§!的部队"
  bw_ENG_ZHuanYiWuQiZHuangBei: "在独立战争开始时，苏格兰不会获得额外的军用工厂"
+ 
+ bw_GER_FanBuErSHiWeiKeZHiYuanJun.tt: "在慕尼黑生成1个反布尔什维克志愿军师"
  
  #权力平衡
  
@@ -2023,7 +2038,7 @@
  GER_MeiFuQvan_desc: ""
  
  # # #GER
- 
+ #
  #GER_FaXiSiZHiJian: "法西斯之剑"
  #GER_FaXiSiZHiJian_desc: ""
  #
@@ -2076,23 +2091,35 @@
  GER_DongYuanDangWeiJun: "动员党卫军"
  GER_DongYuanDangWeiJun_desc: "党卫军是我们的精锐力量，尽管面对正规军的时候略显劣势，但党卫军骑兵师和装甲掷弹兵师可以快速扩大占领区。"
  
- GER_XiMuLaiJiangJun: "任命希姆莱"
- GER_XiMuLaiJiangJun_desc: ""
+ #GER_XiMuLaiJiangJun: "任命希姆莱"
+ #GER_XiMuLaiJiangJun_desc: ""
  
  GER_TuanJieYiZHi: "团结一致"
  GER_TuanJieYiZHi_desc: "在此等危急时刻，我们必须团结一致，各派之间不能在内讧了。"
  
+ GER_SiTeLaSePai_NengDaZHangJiuXing: "斯特拉瑟派？能打仗就行"
+ GER_SiTeLaSePai_NengDaZHangJiuXing_desc: "尽管斯特拉瑟派与元首不和，但他们也是人，能去当兵。"
+ 
  GER_ZHaoMuMinBing: "招募民兵"
- GER_ZHaoMuMinBing_desc: ""
+ GER_ZHaoMuMinBing_desc: "面对紧急的战线我们不得不招募民兵作战。"
  
  GER_ZiYouJiuTuan: "自由军团"
- GER_ZiYouJiuTuan_desc: ""
+ GER_ZiYouJiuTuan_desc: "我们会或许可以招募极右翼准军事组织自由军团为我们所用。"
  
  GER_ZHengHeZHanLingQv: "整合占领区"
  GER_ZHengHeZHanLingQv_desc: "烦人的游击队......"
  
+ GER_DuoNaoFangXian: "多瑙防线"
+ GER_DuoNaoFangXian_desc: "我们可以在德属多瑙上修一条防线，在可能没什么用，但以备不时之需。"
+ 
+ GER_WeiXiXingDong: "威悉行动"
+ GER_WeiXiXingDong_desc: "戈林提出了一个计划：“主要是沿着维希河北上，切断莱茵兰方向的补给，让他们在惊惧与恐惧中死亡。”"
+ 
+ GER_GuDongDiFangJiangLing: "鼓动敌方将领"
+ GER_GuDongDiFangJiangLing_desc: "对面的将领有很多是军国派，我们可以让对方的将领投靠我们。"
+ 
  GER_NaCuiDeDeYiZHi: "纳粹的德意志"
- GER_NaCuiDeDeYiZHi_desc: "我们赢了！"
+ GER_NaCuiDeDeYiZHi_desc: "在魏玛政府崩溃后，很明显我们成为了唯一合法政府。"
  
  # # #通用国策
  
