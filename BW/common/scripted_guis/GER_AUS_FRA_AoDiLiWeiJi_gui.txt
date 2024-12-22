@@ -1,0 +1,52 @@
+scripted_gui = {
+
+	GER_AUS_FRA_AoDiLiWeiJi_gui_1 = {
+		context_type = decision_category
+		window_name = "GER_AUS_FRA_AoDiLiWeiJi_gui_window_1"
+
+		properties = {
+			senate_icon = {
+				frame = current_senate_icon_frame
+			}
+
+			house_icon = {
+				frame = current_house_icon_frame
+			}
+		}
+	}
+	GER_AUS_FRA_AoDiLiWeiJi_gui_2 = {
+		context_type = decision_category
+		window_name = "GER_AUS_FRA_AoDiLiWeiJi_gui_window_2"
+
+		properties = {
+			senate_icon = {
+				frame = current_senate_icon_frame
+			}
+
+			house_icon = {
+				frame = current_house_icon_frame
+			}
+		}
+	}
+	FRA_ZHiCHiAoDiLi_gui_1 = {
+		context_type = player_context
+		window_name = "GER_AUS_FRA_AoDiLiWeiJi_gui_window_1"
+		visible = {
+			FRA = {
+				has_country_flag = FRA_ZHiCHiAoDiLi
+			}
+		}
+	}
+	FRA_FangQiZHiCHiAoDiLi_gui_2 = {
+		context_type = player_context
+		window_name = "GER_AUS_FRA_AoDiLiWeiJi_gui_window_2"
+		visible = {
+			NOT = {
+				FRA = {
+					has_country_flag = FRA_ZHiCHiAoDiLi
+				}
+			}
+		}
+	}
+}
+

@@ -157,19 +157,19 @@ country_event = { #胜利
 		if = {
 			limit = {
 				NOT = {
-					has_completed_focus = 与英法谈判
+					has_completed_focus = GER_YvYingFaTanPan #与英法谈判
 				}
 			}
-			unlock_national_focus = 与英法谈判
+			unlock_national_focus = GER_YvYingFaTanPan #与英法谈判
 		}
-		if = {
-			limit = {
-				NOT = {
-					has_completed_focus = 签署日内瓦条约
-				}
-			}
-			unlock_national_focus = 签署日内瓦条约
-		}
+#		if = {
+#			limit = {
+#				NOT = {
+#					has_completed_focus = 签署日内瓦条约
+#				}
+#			}
+#			unlock_national_focus = 签署日内瓦条约
+#		}
 		if = {
 			limit = {
 				NOT = {
@@ -239,9 +239,16 @@ country_event = { #保卢斯投靠纳粹党
 	option = {
 		name = bw_GER.3.a #希望这是最后一个
 
-		set_nationality = {
-			target_country = GER
+#		set_nationality = {
+#			target_country = GER
 #			character = OMA_sultan
+#		}
+		GER = {
+			news_event = {
+				id = bw_GER.4
+				days = 1
+				random = 0
+			}
 		}
 	}
 }
@@ -255,6 +262,8 @@ country_event = { #保卢斯投靠我们
 
 	option = {
 		name = bw_GER.4.a #非常好
+
+		add_ideas = bw_GER_JunGuoPaiGuoFangJunTaoKaoWoMen
 	}
 }
 

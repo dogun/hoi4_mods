@@ -154,7 +154,17 @@
  20_per_hour_minimum_wage: "时薪20元"
  
  dole: "救济金"
- pension: "退休金"
+ no_benefits_dole: "无救济"
+ symbolic_relief_dole: "象征性救济"
+ wage_subsidy_dole: "工资补贴"
+ unemployment_benefits_dole: "失业补助"
+ wage_subsidy_unemployment_benefits_dole: "工资补贴+失业补助"
+ 
+ pension: "养老金"
+ no_pension_pension: "无养老金"
+ token_pension_pension: "象征性养老金"
+ Pensions_based_on_position_pension: "按职位发放养老金"
+ fixed_pension_pension: "固定养老金"
  
  #事件
  

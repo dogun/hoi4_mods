@@ -1,0 +1,83 @@
+﻿division_template = {
+#编制
+	name = "武装工人"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+	}
+	support = {
+#支援连
+		maintenance_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+#部队
+		name = "武装工人"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "武装工人"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装工人"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "武装工人"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装工人"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "武装工人"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+	division = {
+#部队
+		name = "武装工人"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "武装工人"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+
+
+	division = {
+#部队
+		name = "武装工人"
+#名称
+		location = 6521
+#位置 ###ps：要写地块
+		division_template = "武装工人"
+#编制
+		start_experience_factor = 0.4
+#经验
+	}
+}

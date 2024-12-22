@@ -1407,23 +1407,195 @@
  
  #法国
  
- FRA_fascism: "法兰西国"
- FRA_fascism_DEF: "法兰西国"
- FRA_democratic: "法国"
- FRA_democratic_DEF: "法国"
- FRA_neutrality: "波旁法国"
- FRA_neutrality_DEF: "波旁法国"
- FRA_communism: "法兰西公社"
- FRA_communism_DEF: "法兰西公社"
- FRA_fascism_ADJ: "法国"
- FRA_democratic_ADJ: "法国"
- FRA_neutrality_ADJ: "法国"
- FRA_communism_ADJ: "法国"
  FRA: "法国"
+ #通用
  FRA_DEF: "法国"
+ #通用
  FRA_ADJ: "法国"
+ #通用
  FRA_subject: "$OVERLORDADJ$属$FRA$"
+ #傀儡
  FRA_subject_DEF: "$OVERLORDADJ$属$FRA$"
+ #傀儡
+ 
+ FRA_fascism: "法兰西国"
+ #法西斯（原版）
+ FRA_fascism_DEF: "法兰西国"
+ #法西斯（原版）
+ FRA_fascism_ADJ: "法国"
+ #法西斯（原版）
+ FRA_democratic: "法国"
+ #民主（原版）
+ FRA_democratic_DEF: "法国"
+ #民主（原版）
+ FRA_democratic_ADJ: "法国"
+ #民主（原版）
+ FRA_neutrality: "波旁法国"
+ #中立（原版）
+ FRA_neutrality_DEF: "波旁法国"
+ #中立（原版）
+ FRA_neutrality_ADJ: "法国"
+ #中立（原版）
+ FRA_communism: "法兰西公社"
+ #共产（原版）
+ FRA_communism_DEF: "法兰西公社"
+ #共产（原版）
+ FRA_communism_ADJ: "法国"
+ #共产（原版）
+ ###
+ FRA_WuZHengFuGuongCHanZHuYi: "法兰西公社"
+ #无政府共产主义
+ FRA_WuZHengFuGuongCHanZHuYi_DEF: "法兰西公社"
+ #无政府共产主义
+ FRA_WuZHengFuGuongCHanZHuYi_ADJ: "法兰西"
+ #无政府共产主义
+ 
+ FRA_GuongTuanZHuYi: "法兰西公社"
+ #工团主义
+ FRA_GuongTuanZHuYi_DEF: "法兰西公社"
+ #工团主义
+ FRA_GuongTuanZHuYi_ADJ: "法兰西"
+ #工团主义
+ 
+ FRA_MaKeSi_LieNingZHuYi: "法兰西人民共和国"
+ #马克思 - 列宁主义
+ FRA_MaKeSi_LieNingZHuYi_DEF: "法兰西人民共和国"
+ #马克思 - 列宁主义
+ FRA_MaKeSi_LieNingZHuYi_ADJ: "法兰西"
+ #马克思 - 列宁主义
+ 
+ FRA_TuoLuoSiJiZHuYi: "法兰西人民共和国"
+ #托洛斯基
+ FRA_TuoLuoSiJiZHuYi_DEF: "法兰西人民共和国"
+ #托洛斯基
+ FRA_TuoLuoSiJiZHuYi_ADJ: "法兰西"
+ #托洛斯基
+  
+ FRA_SiDaLingZHuYi: "法兰西人民共和国"
+ #斯大林主义
+ FRA_SiDaLingZHuYi_DEF: "法兰西人民共和国"
+ #斯大林主义
+ FRA_SiDaLingZHuYi_ADJ: "法兰西"
+ #斯大林主义
+ 
+ FRA_YuanSHiZHuYi: "法兰西人民共和国"
+ #远视主义
+ FRA_YuanSHiZHuYi_DEF: "法兰西人民共和国"
+ #远视主义
+ FRA_YuanSHiZHuYi_ADJ: "法兰西"
+ #远视主义
+ 
+ FRA_JunZHengGuongCHanZHuYi: "法兰西人民共和国"
+ #军政共产主义
+ FRA_JunZHengGuongCHanZHuYi_DEF: "法兰西人民共和国"
+ #军政共产主义
+ FRA_JunZHengGuongCHanZHuYi_ADJ: "法兰西"
+ #军政共产主义
+ 
+ FRA_JunZHuBuErSHiWeiKe: "法兰西人民共和国"
+ #君主布尔什维克
+ FRA_JunZHuBuErSHiWeiKe_DEF: "法兰西人民共和国"
+ #君主布尔什维克
+ FRA_JunZHuBuErSHiWeiKe_ADJ: "法兰西"
+ #君主布尔什维克
+ 
+ FRA_GuDianZiYouZHuYi: "法兰西共和国"
+ #古典自由主义
+ FRA_GuDianZiYouZHuYi_DEF: "法兰西共和国"
+ #古典自由主义
+ FRA_GuDianZiYouZHuYi_ADJ: "法兰西"
+ #古典自由主义
+ 
+ FRA_SHeHuiMinZHuZHuYi: "法兰西共和国"
+ #社会民主主义
+ FRA_SHeHuiMinZHuZHuYi_DEF: "法兰西共和国"
+ #社会民主主义
+ FRA_SHeHuiMinZHuZHuYi_ADJ: "法兰西"
+ #社会民主主义
+ 
+ FRA_MinZHuSHeHuiZHuYi: "法兰西共和国"
+ #民主社会主义
+ FRA_MinZHuSHeHuiZHuYi_DEF: "法兰西共和国"
+ #民主社会主义
+ FRA_MinZHuSHeHuiZHuYi_ADJ: "法兰西"
+ #民主社会主义
+ 
+ FRA_JiaSuZHuYi: "法兰西先锋国"
+ #加速主义
+ FRA_JiaSuZHuYi_DEF: "法兰西先锋国"
+ #加速主义
+ FRA_JiaSuZHuYi_ADJ: "法兰西"
+ #加速主义
+ 
+ FRA_BaoSHouZHuYi: "法兰西共和国"
+ #保守主义
+ FRA_BaoSHouZHuYi_DEF: "法兰西共和国"
+ #保守主义
+ FRA_BaoSHouZHuYi_ADJ: "法兰西"
+ #保守主义
+ 
+ FRA_GuiZuBaoSHouZHuYi: "法兰西共和国"
+ #贵族保守主义
+ FRA_GuiZuBaoSHouZHuYi_DEF: "法兰西共和国"
+ #贵族保守主义
+ FRA_GuiZuBaoSHouZHuYi_ADJ: "法兰西"
+ #贵族保守主义
+ 
+ FRA_JiaZHangZHi: "法兰西国"
+ #家长制
+ FRA_JiaZHangZHi_DEF: "法兰西国"
+ #家长制
+ FRA_JiaZHangZHi_ADJ: "法兰西"
+ #家长制
+ 
+ FRA_JunZHuZHuYi: "法兰西王国"
+ #君主主义
+ FRA_JunZHuZHuYi_DEF: "法兰西王国"
+ #君主主义
+ FRA_JunZHuZHuYi_ADJ: "法兰西"
+ #君主主义
+ 
+ FRA_ZiBenGuongCHanZHuYi: "法兰西共和国"
+ #资本共产主义
+ FRA_ZiBenGuongCHanZHuYi_DEF: "法兰西共和国"
+ #资本共产主义
+ FRA_ZiBenGuongCHanZHuYi_ADJ: "法兰西"
+ #资本共产主义
+ 
+ FRA_SHeHuiFaXiSi: "法兰西国"
+ #社会法西斯
+ FRA_SHeHuiFaXiSi_DEF: "法兰西国"
+ #社会法西斯
+ FRA_SHeHuiFaXiSi_ADJ: "法兰西"
+ #社会法西斯
+ 
+ FRA_SiTeLaSeZHuYi: "法兰西国"
+ #斯特拉瑟主义
+ FRA_SiTeLaSeZHuYi_DEF: "法兰西国"
+ #斯特拉瑟主义
+ FRA_SiTeLaSeZHuYi_ADJ: "法兰西"
+ #斯特拉瑟主义
+ 
+ FRA_FaXiSiZHuYi: "法兰西国"
+ #法西斯主义
+ FRA_FaXiSiZHuYi_DEF: "法兰西国"
+ #法西斯主义
+ FRA_FaXiSiZHuYi_ADJ: "法兰西"
+ #法西斯主义
+ 
+ FRA_MinZuSHeHuiZHuYi: "法兰西国"
+ #纳粹
+ FRA_MinZuSHeHuiZHuYi_DEF: "法兰西国"
+ #纳粹
+ FRA_MinZuSHeHuiZHuYi_ADJ: "法兰西"
+ #纳粹
+ 
+ FRA_BoGenDiTiZHi: "法兰西国"
+ #勃艮第体制
+ FRA_BoGenDiTiZHi_DEF: "法兰西国"
+ #勃艮第体制
+ FRA_BoGenDiTiZHi_ADJ: "法兰西"
+ #勃艮第体制
  
  #卢森堡
  
@@ -1485,7 +1657,7 @@
  HOL_FRA_democratic_subject: "巴达维亚共和国"
  HOL_FRA_democratic_subject_DEF: "巴达维亚共和国"
  
- #捷克斯洛伐克
+ #捷克
  
  CZE_fascism: "波希米亚帝国"
  CZE_fascism_DEF: "波希米亚帝国"
@@ -1505,9 +1677,9 @@
  CZE_subject: "$OVERLORDADJ$属$CZE$"
  CZE_subject_DEF: "$OVERLORDADJ$属$CZE$"
  
- CZE_GER_MinZuSHeHuiZHuYi_subject: "波西米亚和摩拉维亚保护国"
+ CZE_GER_MinZuSHeHuiZHuYi_subject: "波希米亚和摩拉维亚保护国"
  #法西斯德国傀儡
- CZE_GER_MinZuSHeHuiZHuYi_subject_DEF: "波西米亚和摩拉维亚保护国"
+ CZE_GER_MinZuSHeHuiZHuYi_subject_DEF: "波希米亚和摩拉维亚保护国"
  #法西斯德国傀儡
  
  #波兰

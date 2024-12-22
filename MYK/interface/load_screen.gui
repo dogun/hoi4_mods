@@ -1,6 +1,4 @@
 guiTypes = {
-	
-
 	windowType = {
 		name = "load_screen"
 		backGround =""
@@ -41,13 +39,13 @@ guiTypes = {
 			
 			iconType = {
 				name ="bg_load_screen2"
-				spriteType = "GFX_SSV_loadingstatus_bg"
-				position = { x= -900 y = 0 }
+				spriteType = "GFX_loadingstatus_bg"
+				position = { x= -700 y = 0 }
 			}
 			
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -4000 y = 13 }
+				position = { x = -400 y = 13 }
 				textureFile = ""
 				font = "loadscreen_header"
 				borderSize = {x = 0 y = 0}
@@ -58,11 +56,10 @@ guiTypes = {
 				format = centre
 			}	
 		
-			iconType = 
-			{
+			iconType = {
 				name = "progressbar"
 				spriteType = "GFX_loadingstatus_progress"
-				position = { x=-268 y=160 }
+				position = { x=-468 y=62 }
 			}
 		}
 		
@@ -81,13 +78,13 @@ guiTypes = {
 				
 			iconType = {
 				name ="bg_load_screen"
-				spriteType = "GFX_SSV_loadingtips_bg"
-				position = { x= -700 y = -144 }
+				spriteType = "GFX_loadingtip_bg"
+				position = { x= -700 y = -147 }
 			}		
 
 			instantTextBoxType = {
 				name = "text"
-				position = { x = -450 y = -167 }
+				position = { x = -450 y = -157 }
 				textureFile = ""
 				font = "loadscreen_tip"
 				borderSize = {x = 0 y = 0}
@@ -100,5 +97,4 @@ guiTypes = {
 			}
 		}		
 	}
-	
 }

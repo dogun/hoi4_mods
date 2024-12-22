@@ -1,0 +1,157 @@
+﻿###########################
+# BW Events
+###########################
+
+add_namespace = bw_german_civil_war
+
+country_event = { #议会选举
+	id = bw_german_civil_war.1
+	title = bw_german_civil_war.1.t
+	desc = bw_german_civil_war.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_german_civil_war.1.a #人民已经做出选择
+		set_politics = {
+			ruling_party = MaKeSi_LieNingZHuYi
+		}
+
+		custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+
+country_event = { #右翼的反扑
+	id = bw_german_civil_war.2
+	title = bw_german_civil_war.2.t
+	desc = bw_german_civil_war.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_german_civil_war.2.a #他们先一步行动了
+		GER = {
+			transfer_state = 52
+			transfer_state = 53
+			add_state_core = 52
+			add_state_core = 53
+			declare_war_on = {
+				target = GSR
+				type = civil_war
+			}
+		}
+		set_country_flag = german_civil_war
+
+		custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+		mark_focus_tree_layout_dirty = yes
+		hidden_effect = {
+			news_event = {
+				id = bw_german_civil_war.3
+				days = 1
+				random = 0
+			}
+		}
+	}
+	option = {
+		name = bw_german_civil_war.2.b #为了德意志的荣耀（扮演全德法西斯临时政府）
+		GER = {
+			transfer_state = 52
+			transfer_state = 53
+			add_state_core = 52
+			add_state_core = 53
+			declare_war_on = {
+				target = GSR
+				type = civil_war
+			}
+			change_tag_from = GSR
+		}
+
+		custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+		mark_focus_tree_layout_dirty = yes
+		hidden_effect = {
+			news_event = {
+				id = bw_german_civil_war.3
+				days = 30
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #西里西亚出现游行
+	id = bw_german_civil_war.3
+	title = bw_german_civil_war.3.t
+	desc = bw_german_civil_war.3.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_german_civil_war.3.a #我们是一票票选出来的，凭什么说我们不民主？
+		add_ideas = bw_GSR_SHeMinDangFanDuiPai
+		hidden_effect = {
+			news_event = {
+				id = bw_german_civil_war.4
+				days = 30
+				random = 0
+			}
+		}
+	}
+}
+
+country_event = { #游行加剧
+	id = bw_german_civil_war.4
+	title = bw_german_civil_war.4.t
+	desc = bw_german_civil_war.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = bw_german_civil_war.3.a #希望不要出事
+		remove_ideas = bw_GSR_SHeMinDangFanDuiPai
+		GLR = {
+			transfer_state = 66
+			add_state_core = 66
+			transfer_state = 67
+			add_state_core = 67
+			declare_war_on = {
+				target = GSR
+				type = civil_war
+			}
+		}
+		hidden_effect = {
+			GER ={
+				news_event = {
+					id = bw_GER.2
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+	option = {
+		name = bw_german_civil_war.3.b #粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）
+		remove_ideas = bw_GSR_SHeMinDangFanDuiPai
+		GLR = {
+			transfer_state = 66
+			add_state_core = 66
+			transfer_state = 67
+			add_state_core = 67
+			declare_war_on = {
+				target = GSR
+				type = civil_war
+			}
+		}
+		GLR = { change_tag_from = ROOT }
+		hidden_effect = {
+			GER ={
+				news_event = {
+					id = bw_GER.2
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,95 @@
+ideas = {
+
+	dole = {	#救济金
+		law = yes
+		use_list_view = yes
+
+		no_benefits_dole = {	#无救济
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				GDP_conversion_rate = -0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		symbolic_relief_dole = {	#象征性救济
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 0.03
+				stability_factor = -0.07
+				GDP_conversion_rate = -0.1
+			}
+			cancel_if_invalid = yes
+		}
+
+		wage_subsidy_dole = {	#工资补贴
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				GDP_conversion_rate = 0.05
+				arms_factory_maintenance_fee_factor = 0.05
+				industrial_complex_maintenance_fee_factor = 0.05
+			}
+			default = yes
+			cancel_if_invalid = yes
+		}
+
+		unemployment_benefits_dole = {	#失业补助
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				GDP_conversion_rate = 0.05
+				extra_income = -5
+			}
+			cancel_if_invalid = yes
+		}
+
+		wage_subsidy_unemployment_benefits_dole = {	#工资补贴+失业补助
+
+			available = {
+
+			}
+
+			cost = 250
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				GDP_conversion_rate = 0.1
+				arms_factory_maintenance_fee_factor = 0.05
+				industrial_complex_maintenance_fee_factor = 0.05
+				extra_income = -5
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}

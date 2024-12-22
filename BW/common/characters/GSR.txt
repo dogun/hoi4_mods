@@ -1,4 +1,5 @@
 characters={
+#共产党
 	GSR_Ernst_Johannes_Fritz_Thalmann={
 		name=GSR_Ernst_Johannes_Fritz_Thalmann
 		portraits={
@@ -8,10 +9,145 @@ characters={
 		}
 		country_leader={
 			ideology=MaKeSi_LieNingZHuYi_c
-			traits={ GeMingLingXiu }
+			traits={  }
 			expire="9999.01.01.1"
 			id=-1
 		}
-
 	}
+#纳粹党
+	GSR_otto_Strasser = {
+		name = GER_otto_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/小斯特拉瑟.dds"
+			}
+		}
+		country_leader={
+			ideology=GuiZuBaoSHouZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	GSR_Gregor_Strasser = {
+		name = GER_Gregor_Strasser
+		portraits={
+			civilian={
+				large="gfx/leaders/Gregor Strasser.dds"
+			}
+		}
+		country_leader={
+			ideology=SiTeLaSeZHuYi_c
+			traits={ dictator }
+			expire="9999.1.1.1"
+			id=-1
+		}
+	}
+
+	GSR_Aldert_Speer={
+		name=GER_Aldert_Speer
+		portraits={
+			civilian={
+				large="gfx/leaders/施佩尔.dds"
+			}
+		}
+		country_leader={
+			ideology=FaXiSiZHuYi_c
+			traits={ dictator }
+			expire="1981.9.1.1"
+			id=-1
+		}
+	}
+
+	GSR_adolf_hitler={
+		name=GER_adolf_hitler
+		portraits={
+			civilian={
+				large="gfx/leaders/希特勒.dds"
+			}
+		}
+		country_leader={
+			ideology=MinZuSHeHuiZHuYi_c
+			traits={
+				dictator
+				great_war_hero
+			}
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = {politically_connected war_hero trickster inspirational_leader }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	GSR_Heinrich_Himmler={
+		name=GER_Heinrich_Himmler
+		portraits={
+			civilian={
+				large="gfx/leaders/希姆莱.dds"
+			}
+		}
+		country_leader={
+			ideology=BoGenDiTiZHi_c
+			traits={ dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = { politically_connected media_personality }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+#政治联盟
+	GSR_Gustav_Stresemann={
+		name=GSR_Gustav_Stresemann
+		portraits={
+			civilian={
+				large="gfx/leaders/斯特雷泽曼.dds"
+			}
+		}
+		country_leader={
+			ideology=GuDianZiYouZHuYi_c
+			traits={ smooth_talking_charmer }
+			expire="9999.01.01.1"
+			id=-1
+		}
+	}
+	GSR_Hjalmar_Schacht={
+		name=GSR_Hjalmar_Schacht
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/沙赫特.png"
+				large="gfx/leaders/沙赫特.dds"
+			}
+		}
+		country_leader={
+			ideology=SHeHuiMinZHuZHuYi_c
+			traits={ JingJiWuSHi }
+			expire="9999.01.01.1"
+			id=-1
+		}
+		advisor={
+			slot = economy_chief 
+			idea_token = Hjalmar_Schacht
+			allowed = {
+			}
+			available = {
+			}
+			traits = {
+				JingJiWuSHi
+			}
+		}
+	}
+
 }

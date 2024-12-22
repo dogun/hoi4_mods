@@ -1,5 +1,163 @@
 ideas = {
 	country = {
+		bw_GER_FeiFaGuoJia = {	#非法国家
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_factor = -0.5
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GER_FaErSaiTiXi = {	#法尔赛体系
+			picture = generic_war_preparation
+
+			allowed = {
+				OR = {
+					has_war_with = FRA
+					has_war_with = ENG
+				}
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				generate_wargoal_tension = 0.25
+				political_power_factor = -0.1
+				custom_modifier_tooltip = FaErSaiTiXi_tt
+			}
+			targeted_modifier = {
+			}
+		}
+
+
+		bw_GER_RiNeiWaTiaoYue = {	#日内瓦条约
+			picture = generic_war_preparation
+
+			allowed = {
+				OR = {
+					has_war_with = FRA
+					has_war_with = ENG
+				}
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription = -0.01
+				justify_war_goal_time = 0.3
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GER_FaErSaiTiaoYue = {	#法尔赛条约
+			picture = generic_war_preparation
+
+			allowed = {
+				OR = {
+					has_war_with = FRA
+					has_war_with = ENG
+				}
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription = -0.02
+				justify_war_goal_time = 0.6
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GER_JunGuoPaiGuoFangJunTaoKaoWoMen ={	#军国派国防军投靠我们
+			picture = JvDaDeHongSeWeiXie
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				weekly_manpower = 50
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GER_GuoFangJun ={	#国防军
+			picture = JvDaDeHongSeWeiXie
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				command_power_gain_mult = 0.1
+				ai_focus_aggressive_factor = 0.1
+				winter_attrition_factor = 0.1
+				required_garrison_factor = -0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GER_SHengCunKongJian = {	#生存空间
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				breakthrough_factor = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
+		bw_GER_DeYiZHiMinZuDeSHengCunKongJian = {	#德意志民族的生存空间
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				breakthrough_factor = 0.1
+
+				army_attack_against_major_factor = 0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+
+				MinZuSHeHuiZHuYi_drift = 0.1
+			}
+			targeted_modifier = {
+			}
+		}
+
 		bw_GER_JvDaDeHongSeWeiXie ={	#巨大的红色威胁
 			picture = JvDaDeHongSeWeiXie
 
@@ -372,33 +530,33 @@ ideas = {
 #			targeted_modifier = {
 #			}
 #		}
-
-		bw_GER_HaiSHiXingDong = {	#海狮行动
-			picture = generic_war_preparation
-
-			allowed = {
-				NOT = {
-					has_war_with = ENG
-				}
-			}
-
-			allowed_civil_war = {
-			}
-
-			modifier = {
-				air_attack_factor = 0.3
-				air_mission_efficiency = 0.3
-			}
-			equipment_bonus = {
-				small_plane_airframe = {
-					build_cost_ic = -0.25
-					instant = yes
-				}
-			}
-			targeted_modifier = {
-			}
-		}
-
+#
+#		bw_GER_HaiSHiXingDong = {	#海狮行动
+#			picture = generic_war_preparation
+#
+#			allowed = {
+#				NOT = {
+#					has_war_with = ENG
+#				}
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				air_attack_factor = 0.3
+#				air_mission_efficiency = 0.3
+#			}
+#			equipment_bonus = {
+#				small_plane_airframe = {
+#					build_cost_ic = -0.25
+#					instant = yes
+#				}
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+#
 		bw_GER_YingFaFanDui = {	#英法反对
 			picture = generic_war_preparation
 
@@ -418,28 +576,28 @@ ideas = {
 			targeted_modifier = {
 			}
 		}
-
-		bw_GER_FaErSaiTiXi = {	#法尔赛体系
-			picture = generic_war_preparation
-
-			allowed = {
-				OR = {
-					has_war_with = FRA
-					has_war_with = ENG
-				}
-			}
-
-			allowed_civil_war = {
-			}
-
-			modifier = {
-				generate_wargoal_tension = 0.25
-				political_power_factor = -0.1
-				custom_modifier_tooltip = FaErSaiTiXi_tt
-			}
-			targeted_modifier = {
-			}
-		}
+#
+#		bw_GER_FaErSaiTiXi = {	#法尔赛体系
+#			picture = generic_war_preparation
+#
+#			allowed = {
+#				OR = {
+#					has_war_with = FRA
+#					has_war_with = ENG
+#				}
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				generate_wargoal_tension = 0.25
+#				political_power_factor = -0.1
+#				custom_modifier_tooltip = FaErSaiTiXi_tt
+#			}
+#			targeted_modifier = {
+#			}
+#		}
 
 		bw_GER_RiNeiWaTiaoYue_1 = {	#日内瓦条约
 			picture = generic_war_preparation

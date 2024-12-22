@@ -1,0 +1,17 @@
+GER_ENG_FRA_RiNeiWaHeiYi = {
+#决议组id
+	icon = ger_mefo_bills
+#图片
+	priority = 100
+#位置，越大越上，越小越下
+
+	visible = {
+#展示条件
+		NOT = {
+			has_variable = GER_ENG_FRA_RiNeiWaHeiYi
+		}
+		GER= {
+			has_completed_focus = GER_YvYingFaTanPan #与英法谈判
+		}
+	}
+}

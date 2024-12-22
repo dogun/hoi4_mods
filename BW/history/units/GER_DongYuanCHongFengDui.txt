@@ -1,0 +1,291 @@
+﻿division_template = {
+#编制
+	name = "冲锋队"
+#名称
+
+	division_names_group = GER_Inf_01
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	support = {
+#支援连
+
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "冲锋队第Ⅰ队 “闪电”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅱ队 “威廉”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅲ队 “德意志”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅳ队 “希姆莱”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅴ队 “北欧”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅵ队 “灰烬”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅵ队 “工兵”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅶ队 “撒哈拉”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅷ队 “耶路撒冷”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅸ队 “恶犬”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅹ队 “野猪”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅺ队 “达尔文”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第Ⅻ队 “计划”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅢ队 “学者”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅣ队 “人”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅤ队 “冯”"	#von
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅥ队 “萨克森”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅦ队 “诺曼”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅧ队 “卡尔”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅨ队 “诺斯”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅩ队 “盎格利亚”"	#萨克森公国
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+
+	division = {
+#部队
+		name = "冲锋队第ⅩⅪ队 “查理”"
+#名称
+		location = 692
+#位置 ###ps：要写地块
+		division_template = "冲锋队"
+#编制
+		start_experience_factor = 0.2
+#经验
+	}
+}

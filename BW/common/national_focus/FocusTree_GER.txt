@@ -39,7 +39,10 @@ focus_tree = {
 		x = 5
 		y = 1
 		completion_reward = {
-			custom_effect_tooltip = 生成一些冲锋队部队
+			custom_effect_tooltip = GER_DongYuanCHongFengDui_tt
+			hidden_effect = {
+				load_oob = "GER_DongYuanCHongFengDui"
+			}
 #			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
@@ -224,19 +227,8 @@ focus_tree = {
 		icon = GFX_WeiXiXingDong
 		cost = 5.00
 		prerequisite = {
-			focus = GER_ZHengHeZHanLingQv #整合占领区
-#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
-		}
-		x = 8
-		y = 3
-
-	}
-	focus = {
-		id = GER_GuDongDiFangJiangLing #鼓动敌方将领
-		icon = GFX_GuDongDiFangJiangLing
-		cost = 5.00
-		prerequisite = {
 			focus = GER_DongYuanDangWeiJun #动员党卫军
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 		x = 8
 		y = 2
@@ -244,53 +236,61 @@ focus_tree = {
 	}
 # # #外交分支
 	focus = {
-		id = 与英法谈判
-		icon = GFX_YvYingFaTanPan
+		id = GER_JianLinSHiWaiJiaoBuJiXvanCHuanBu #建立临时外交部及宣传部
+		icon = GFX_JianLinSHiWaiJiaoBuJiXvanCHuanBu
 		cost = 5.00
 		prerequisite = {
 			focus = GER_FaXiSiZHiJian #法西斯之剑
 		}
-		x = 12
+		x = 11
 		y = 1
-		bypass = {
-			always = yes
-		}
 		completion_reward = {
 			add_political_power = 10
 #			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
 	focus = {
-		id = 签署日内瓦条约
-		icon = GFX_QianSHuRiNeiWaTiaoYue
-		cost = 0.50
+		id = GER_YvYingFaTanPan #与英法谈判
+		icon = GFX_YvYingFaTanPan
+		cost = 5.00
 		prerequisite = {
-			focus = 与英法谈判
+			focus = GER_JianLinSHiWaiJiaoBuJiXvanCHuanBu #建立临时外交部及宣传部
 		}
-		x = 12
+		x = 11
 		y = 2
-		bypass = {
-			always = yes
-		}
 		completion_reward = {
-			add_ideas = bw_GER_FaErSaiTiXi
-			add_ideas = bw_GER_RiNeiWaTiaoYue_1
-			remove_ideas = bw_GER_YingFaFanDui
+			add_political_power = 10
 #			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
 		}
 	}
+#	focus = {
+#		id = 签署日内瓦条约
+#		icon = GFX_QianSHuRiNeiWaTiaoYue
+#		cost = 0.50
+#		prerequisite = {
+#			focus = 与英法谈判
+#		}
+#		x = 12
+#		y = 2
+#		bypass = {
+#			always = yes
+#		}
+#		completion_reward = {
+#			add_ideas = bw_GER_FaErSaiTiXi
+#			add_ideas = bw_GER_RiNeiWaTiaoYue_1
+#			remove_ideas = bw_GER_YingFaFanDui
+#			custom_effect_tooltip = （从设定上来说，这个国策已经被完成了）
+#		}
+#	}
 	focus = {
 		id = 以萨尔换取支援
 		icon = GFX_YiSaErHuanQvYuanZHu
 		cost = 5.00
 		prerequisite = {
-			focus = 签署日内瓦条约
+			focus = GER_YvYingFaTanPan #与英法谈判
 		}
-		x = 12
+		x = 11
 		y = 3
-		bypass = {
-			always = yes
-		}
 		completion_reward = {
 			FRA = {
 				set_state_owner = 970
@@ -305,10 +305,75 @@ focus_tree = {
 		prerequisite = {
 			focus = 以萨尔换取支援
 		}
-		x = 12
+		x = 11
 		y = 4
 		completion_reward = {
 			add_ideas = bw_GER_JvDaDeHongSeWeiXie
+		}
+	}
+# # #军事分支
+	focus = {
+		id = GER_GuDongDiFangJiangLing #鼓动敌方将领
+		icon = GFX_GuDongDiFangJiangLing
+		cost = 5.00
+		prerequisite = {
+			focus = GER_FaXiSiZHiJian #法西斯之剑
+		}
+		x = 13
+		y = 1
+		completion_reward = {
+			GSR = {
+				news_event = {
+					id = bw_GER.3
+					days = 1
+					random = 0
+				}
+			}
+		}
+	}
+	focus = {
+		id = GER_CHongZuJunGuoPaiGuoFangJun #重组军国派国防军
+		icon = GFX_CHongZuJunGuoPaiGuoFangJun
+		cost = 5.00
+		prerequisite = {
+			focus = GER_GuDongDiFangJiangLing #鼓动敌方将领
+		}
+		x = 13
+		y = 2
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_GER_JunGuoPaiGuoFangJunTaoKaoWoMen
+				add_idea = bw_GER_GuoFangJun 
+			}
+		}
+	}
+	focus = {
+		id = GER_XvanCHuanSHengCuenKingJianLuen #宣传生存空间论
+		icon = GFX_CHongZuJunGuoPaiGuoFangJun
+		cost = 5.00
+		prerequisite = {
+			focus = GER_CHongZuJunGuoPaiGuoFangJun #重组军国派国防军
+		}
+		x = 13
+		y = 3
+		completion_reward = {
+			add_ideas = bw_GER_SHengCunKongJian
+		}
+	}
+	focus = {
+		id = GER_JiaRuRiErManMinZuZHuYi #加入日耳曼民族主义
+		icon = GFX_CHongZuJunGuoPaiGuoFangJun
+		cost = 5.00
+		prerequisite = {
+			focus = GER_XvanCHuanSHengCuenKingJianLuen #宣传生存空间论
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = bw_GER_SHengCunKongJian
+				add_idea = bw_GER_DeYiZHiMinZuDeSHengCunKongJian
+			}
 		}
 	}
 	focus = {
@@ -316,12 +381,12 @@ focus_tree = {
 		icon = GFX_FanBuErSHiWeiKeZHiYuanJun
 		cost = 5.00
 		prerequisite = {
-			focus = GER_XvanCHuanJvDaDeHongSeWeiXie
+			focus = GER_XvanCHuanJvDaDeHongSeWeiXie #宣传巨大的红色威胁
 		}
 		prerequisite = {
-			focus = GER_ZiYouJiuTuan #自由军团
+			focus = GER_JiaRuRiErManMinZuZHuYi #加入日耳曼民族主义
 		}
-		x = 10
+		x = 12
 		y = 5
 		completion_reward = {
 			hidden_effect = {
@@ -367,7 +432,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = 水晶之夜
+		id = GER_Reichspogromnacht #水晶之夜
 		icon = GFX_SHuiJingZHiYe
 		cost = 5.00
 		prerequisite = {
@@ -384,7 +449,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_CHangDaoZHiYe #长刀之夜
+		id = GER_Nacht_der_langen_Messer #长刀之夜
 		icon = GFX_CHangDaoZHiYe
 		cost = 5.00
 		prerequisite = {
@@ -445,7 +510,7 @@ focus_tree = {
 			always = no
 		}
 		completion_reward = {
-			activate_advisor = GER_Hermann_Goring
+			activate_advisor = Hermann_Goring
 			set_can_be_fired_in_advisor_role = {
 				character = GER_Hermann_Goring
 				value = no
@@ -598,7 +663,7 @@ focus_tree = {
 			always = no
 		}
 		completion_reward = {
-			activate_advisor = GER_Hjalmar_Schacht
+			activate_advisor = Hjalmar_Schacht
 			set_can_be_fired_in_advisor_role = {
 				character = GER_Hjalmar_Schacht
 				value = no
@@ -725,7 +790,7 @@ focus_tree = {
 # # # # # #四年计划分支
 	focus = {
 		id = GER_SHiXianJingJiFuSu #实现经济复苏
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_SHiXianJingJiFuSu
 		cost = 5.00
 		prerequisite = {
 			focus = GER_ZHanZHengJingJiXue #战争经济学
@@ -742,7 +807,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Vierjahresplan #四年计划
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_Vierjahresplan
 		cost = 5.00
 		prerequisite = {
 			focus = GER_SHiXianJingJiFuSu #实现经济复苏
@@ -758,7 +823,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_NiuNaiYvMianBao #牛奶与面包！
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_NiuNaiYvMianBao
 		cost = 5.00
 		prerequisite = {
 			focus = GER_Vierjahresplan #四年计划
@@ -771,7 +836,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Kraft_durch_Freude #欢乐来自力量！
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_Kraft_durch_Freude
 		cost = 5.00
 		prerequisite = {
 		add_stability = 0.05
@@ -786,7 +851,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Volkswagen #大众汽车
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_Volkswagen
 		cost = 5.00
 		prerequisite = {
 			focus = GER_NiuNaiYvMianBao #牛奶与面包！
@@ -865,7 +930,10 @@ focus_tree = {
 		x = 10
 		y = 19
 		completion_reward = {
-			add_ideas = bw_GER_SHengHuoFuZu
+			swap_ideas = {
+				remove_idea = bw_FRA_DaXiaoTiao
+				add_idea = bw_GER_SHengHuoFuZu
+			}
 
 			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
 			mark_focus_tree_layout_dirty = yes
@@ -1075,6 +1143,9 @@ focus_tree = {
 		y = 26
 		completion_reward = {
 			add_ideas = planned_economy_economy
+
+			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策
+			mark_focus_tree_layout_dirty = yes
 		}
 	}
 	focus = {
@@ -1120,6 +1191,9 @@ focus_tree = {
 		}
 		x = 9
 		y = 27
+		allow_branch = {
+			has_completed_focus = GER_SHiXingJiHuaJingJi #实行计划经济
+		}
 		completion_reward = {
 			add_ideas = bw_GER_YinYingXiaDeGuoDu
 		}
@@ -1134,8 +1208,78 @@ focus_tree = {
 		x = 9
 		y = 28
 		completion_reward = {
+			AUS = {
+				leave_faction = yes
+			}
 			declare_war_on = {
 				target = AUS
+				type = annex_everything
+			}
+
+			custom_effect_tooltip = GER_AUS_FRA_AoDiLiWeiJi_tt
+
+			set_variable = { FRA_ZHiCHiAoDiLi = 40 }
+			set_variable = { FRA_FangQiZHiCHiAoDiLi = 60 }
+
+			FRA = {
+				set_country_flag = FRA_ZHiCHiAoDiLi
+			}
+		}
+	}
+	focus = {
+		id = GER_WeiYeNaHuiYi #维也纳会议
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+		}
+		x = 7
+		y = 29
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_SaDingXingDong #“萨丁”行动
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_WeiYeNaHuiYi #维也纳会议
+		}
+		x = 7
+		y = 30
+		completion_reward = {
+			declare_war_on = {
+				target = ITA
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_MuNiHeiHuiYi #慕尼黑会议
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+		}
+		x = 11
+		y = 29
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GER_XieSeXingDong #“血色”行动
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_MuNiHeiHuiYi #但泽会议
+		}
+		x = 11
+		y = 30
+		completion_reward = {
+			declare_war_on = {
+				target = CZE
 				type = annex_everything
 			}
 		}
@@ -1147,7 +1291,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_YiCHangJunSHiDuBou #一场军事赌博
 		}
-		x = 10
+		x = 9
 		y = 29
 		completion_reward = {
 			
@@ -1160,7 +1304,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_DanZuHuiYi #但泽会议
 		}
-		x = 10
+		x = 9
 		y = 30
 		completion_reward = {
 			declare_war_on = {
@@ -1169,5 +1313,40 @@ focus_tree = {
 			}
 		}
 	}
-
+	focus = {
+		id = GER_SuoQvMaZuLun #索取马祖伦
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_NiAoErDeXingDong #“尼奥尔德”行动
+		}
+		x = 9
+		y = 31
+		completion_reward = {
+			declare_war_on = {
+				target = POL
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_GuanHuDeYiZHiMingYvDeYiZHan #关乎德意志命运的一战
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_SuoQvMaZuLun #索取马祖伦
+		}
+		x = 9
+		y = 32
+		completion_reward = {
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ENG
+				type = annex_everything
+			}
+		}
+	}
 }

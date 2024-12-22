@@ -1,0 +1,225 @@
+GER_AUS_FRA_AoDiLiWeiJi = {
+#决议组id
+	GER_AUS_FRA_AoDiLiWeiJi_WeiJiDaoJiSHi = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+		visible = {
+#展示条件
+			NOT = {
+				has_variable = GER_AUS_FRA_AoDiLiWeiJi
+			}
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			set_variable = { GER_AUS_FRA_AoDiLiWeiJi = 100 }
+		}
+
+		war_with_on_remove = GER
+		war_with_on_remove = FRA
+
+		activation = {
+#在什么情况下，任务被激活并开始倒计时：
+			GER= {
+				has_completed_focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+			}
+		}
+		available = {
+			AUS = {
+				exists = no
+			}
+		}
+		is_good = no                           # 这个任务的颜色编码是有益事情（非危机）
+		selectable_mission = no                # 这个任务将在玩家点选任务时完成，而非自动完成
+		days_mission_timeout = 30              # 距离任务失败前有多少天？
+		timeout_effect = {                      # 当任务失败时会发生什么？
+			set_variable = { GER_AUS_FRA_AoDiLiWeiJi = 100 }
+			FRA = {
+				if = {
+					limit = {
+						has_country_flag = FRA_ZHiCHiAoDiLi
+					}
+					custom_effect_tooltip = ZHiCHiAoDiLi_tt
+					hidden_effect = {
+#						AUS = {
+							FRA = { add_to_faction = AUS }
+#						}
+					}
+				}
+				else_if = {
+					limit = {
+						NOT = {
+							has_country_flag = FRA_ZHiCHiAoDiLi
+						}
+					}
+					custom_effect_tooltip = FangQiZHiCHiAoDiLi_tt
+				}
+			}
+			FRA = {
+				custom_effect_tooltip = MinZHongZHiCHiAoDiLi_tt
+			}
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 0
+		}
+	}
+
+	FRA_ZHiCHiAoDiLi = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		visible = {
+#展示条件
+			tag = FRA
+			NOT = {
+				has_country_flag = FRA_ZHiCHiAoDiLi
+				has_variable = GER_AUS_FRA_AoDiLiWeiJi
+			}
+			GER= {
+				has_completed_focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+			}
+		}
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			set_country_flag = FRA_ZHiCHiAoDiLi
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 1
+			modifier = {
+				add = FRA_ZHiCHiAoDiLi
+				always = yes
+			}
+		}
+	}
+
+	FRA_FangQiZHiCHiAoDiLi = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 10
+#花费政治点数
+
+		fire_only_once = no
+#是否一次性
+
+		visible = {
+#展示条件
+			tag = FRA
+			has_country_flag = FRA_ZHiCHiAoDiLi
+			NOT = {
+				has_variable = GER_AUS_FRA_AoDiLiWeiJi
+			}
+			GER= {
+				has_completed_focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+			}
+		}
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			clr_country_flag = FRA_ZHiCHiAoDiLi
+		}
+
+		ai_will_do = {
+#ai倾向
+			factor = 1
+			modifier = {
+				add = 80
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				add = FRA_FangQiZHiCHiAoDiLi
+				always = yes
+			}
+		}
+	}
+
+	GER_SHanDongSuiJingQingXv = {
+#决议id
+
+		icon = ger_mefo_bills
+#图片
+
+		available = {
+#前提条件
+		}
+
+		cost = 0
+#花费政治点数
+
+		fire_only_once = yes
+#是否一次性
+
+		visible = {
+#展示条件
+			tag = GER
+			NOT = {
+				has_variable = GER_AUS_FRA_AoDiLiWeiJi
+			}
+			has_completed_focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+		}
+
+#		cancel_if_not_visible = yes
+#不知道有啥用
+
+		complete_effect = {
+#效果
+			custom_effect_tooltip = GER_SHanDongSuiJingQingXv_tt
+			add_to_variable = {
+				var = FRA_ZHiCHiAoDiLi
+				value = -5
+			}
+			add_to_variable = {
+				var = FRA_FangQiZHiCHiAoDiLi
+				value = 5
+			}
+		}
+
+		ai_will_do = {
+#这个也不知道有啥用（教程没讲）
+			factor = 50
+		}
+	}
+
+}

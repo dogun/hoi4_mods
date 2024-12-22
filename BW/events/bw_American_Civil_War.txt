@@ -15,7 +15,8 @@ country_event = { #巴黎股市彻底崩盘
 	trigger = {
 		tag = FRA
 #		date = "1937.04.05"
-		date = "1937.02.18"
+#		date = "1937.02.18"
+		date = "1936.01.01"
 	}
 	mean_time_to_happen = { days = 1 }
 	option = {

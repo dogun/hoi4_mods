@@ -25,8 +25,7 @@ ideas = {
 #				breakthrough_factor = -0.05
 #			}
 		}
-	}
-	country = {
+
 		bw_GSR_QvanGuoXingJingJiTanHuan = {	#全国性经济瘫痪
 			picture = QvanGuoXingJingJiTanHuan
 
@@ -47,8 +46,7 @@ ideas = {
 			targeted_modifier = {
 			}
 		}
-	}
-	country = {
+
 		bw_GSR_SHeMinDangFanDuiPai = {	#社民党反对派
 			picture = SHeMinDangFanDuiPai
 
@@ -66,9 +64,28 @@ ideas = {
 			targeted_modifier = {
 			}
 		}
-	}
-	country = {
-		bw_GSR_FaErSaiTiaoYueDeYvBo = {	#法尔赛条约的余波
+
+#		bw_GSR_FaErSaiTiaoYueDeYvBo = {	#法尔赛条约的余波
+#			picture = FaErSaiTiaoYueDeYvBo
+#
+#			allowed = {
+#			}
+#
+#			allowed_civil_war = {
+#			}
+#
+#			modifier = {
+#				offence = -0.1
+#				defence = -0.1
+#				breakthrough_factor = -0.1
+#				training_time_factor = 0.1
+#				industrial_capacity_dockyard = -0.1
+#			}
+#			targeted_modifier = {
+#			}
+#		}
+
+		bw_GSR_FaErSaiTiaoYue = {	#法尔赛条约
 			picture = FaErSaiTiaoYueDeYvBo
 
 			allowed = {
@@ -78,6 +95,9 @@ ideas = {
 			}
 
 			modifier = {
+				production_speed_arms_factory_factor = -0.5
+				conscription = -0.01
+				justify_war_goal_time = 0.5
 				offence = -0.1
 				defence = -0.1
 				breakthrough_factor = -0.1
@@ -87,9 +107,7 @@ ideas = {
 			targeted_modifier = {
 			}
 		}
-	}
 
-	country = {
 		bw_GSR_JunZHuZHuYiDeYouLing = {	#君主主义的幽灵
 			picture = JunZHuZHuYiDeYouLing
 
@@ -100,13 +118,105 @@ ideas = {
 			}
 
 			modifier = {
-				global_building_slots_factor = -0.25
+				global_building_slots_factor = -0.1
 				production_speed_buildings_factor = -0.1 
 				JunZHuZHuYi_drift = 0.05
 			}
 			targeted_modifier = {
 			}
 		}
-	}
 
+		bw_GSR_RongKeGuiZu = {	#容克贵族
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				GDP_conversion_rate = -0.5
+				global_building_slots_factor = -0.25
+				production_speed_buildings_factor = -0.5 
+				production_speed_industrial_complex_factor = -0.25 
+			}
+		}
+
+		bw_GSR_DiGuoYiHui = {	#帝国议会
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_cost = 0.5
+				party_popularity_stability_factor = -0.25
+			}
+		}
+
+		bw_GSR_SuWeiAiYiHui = {	#苏维埃议会
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				political_power_cost = 0.5
+				party_popularity_stability_factor = 0.25
+			}
+		}
+
+		bw_GSR_ZenZHiWeiYuan = {	#政治委员
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				army_org_factor = 0.1
+				army_org_regain = 0.1
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}
+
+		bw_GSR_WuZHuangGongRenBing = {	#武装工人兵
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				conscription_factor = 0.25
+			}
+		}
+
+		bw_GSR_YouJiDui = {	#游击队
+			picture = CZE_divided_nation
+
+			allowed = {
+			}
+
+			allowed_civil_war = {
+			}
+
+			modifier = {
+				resistance_damage_to_garrison_on_our_occupied_states = 0.1
+			}
+		}
+
+	}
 }

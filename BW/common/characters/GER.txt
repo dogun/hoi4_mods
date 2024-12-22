@@ -91,7 +91,6 @@ GER_otto_Strasser = {
 			planning_skill = 2
 			logistics_skill = 1
 		}
-
 	}
 
 	GER_Reinhard_Heydrich={
@@ -266,7 +265,7 @@ GER_otto_Strasser = {
 		}
 		advisor={
 			slot = economy_chief 
-			idea_token = Hermann_Goring
+			idea_token = Hjalmar_Schacht
 			allowed = {
 				original_tag = GER
 				has_completed_focus = GER_SHiFangSHaHeTe

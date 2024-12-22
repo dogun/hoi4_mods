@@ -533,8 +533,8 @@
  
  # # #GSR
  
- bw_GSR_FenSuiXiTeLe: "粉碎希特勒"
- bw_GSR_FenSuiXiTeLe_desc: "希特勒和他的法西斯政权必将毁灭！！！"
+ #bw_GSR_FenSuiXiTeLe: "粉碎希特勒"
+ #bw_GSR_FenSuiXiTeLe_desc: "希特勒和他的法西斯政权必将毁灭！！！"
  
  bw_GSR_RongKeGuiZu: "容克贵族"
  bw_GSR_RongKeGuiZu_desc: " "
@@ -546,13 +546,18 @@
  bw_GSR_ZiYouJunTuan_desc: "自由军团原本是雇佣兵，但在德国内战以后就因其支持纳粹的政治立场改组为反政府武装。"
  
  bw_GSR_QvanGuoXingJingJiTanHuan: "全国性经济瘫痪"
- bw_GSR_QvanGuoXingJingJiTanHuan_desc: "内战和社民党的反对导致经济瘫痪。"
+ #bw_GSR_QvanGuoXingJingJiTanHuan_desc: "内战和社民党的反对导致经济瘫痪。"
+ bw_GSR_QvanGuoXingJingJiTanHuan_desc: "社民党和容克的反对、未完成的公有化以及巴黎股市的崩盘都进一步引发经济瘫痪。"
  
  bw_GSR_SHeMinDangFanDuiPai: "社民党反对派"
  bw_GSR_SHeMinDangFanDuiPai_desc: "社民党反对我们的专制统治，他们时刻都有可能脱离国家统治。"
  
- bw_GSR_FaErSaiTiaoYueDeYvBo: "法尔赛条约的余波"
- bw_GSR_FaErSaiTiaoYueDeYvBo_desc: "虽然我们撕毁了法尔赛条约，但军队还受他们影响。"
+ #bw_GSR_FaErSaiTiaoYueDeYvBo: "法尔赛条约的余波"
+ #bw_GSR_FaErSaiTiaoYueDeYvBo_desc: "虽然我们撕毁了法尔赛条约，但军队还受他们影响。"
+ 
+ bw_GSR_DiGuoYiHui: "帝国议会"
+ bw_GSR_DiGuoYiHui_desc: "帝国议会上无休无止的扯皮和争论让我们的行政系统无比低下。"
+ 
  
  # # #奥地利
  
@@ -1441,8 +1446,37 @@
  bw_GSR.1: "西里西亚社民党游行"
  bw_GSR.1.t: "西里西亚社民党游行"
  bw_GSR.1.d: "粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！"
- bw_GSR.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？
+ bw_GSR.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？"
  bw_GSR.1.b: "粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）"
+ 
+ # # #德国内战
+ 
+ #bw_german_civil_war.1: "议会选举"
+ #bw_german_civil_war.1.t: "议会选举"
+ #bw_german_civil_war.1.d: "时间一分一秒的流去，纳粹党和共产党都势必要拿下这场选举，他们用语言充分表达意见，或用肢体表达意见，在最后公布选举结果的时候人们屏住呼吸，最终：共产党赢得多数，恩斯特·台尔曼成为德国新元首。"
+ #bw_german_civil_war.1.a: "人民已经做出选择"
+ 
+ bw_german_civil_war.1: "议会选举"
+ bw_german_civil_war.1.t: "议会选举"
+ bw_german_civil_war.1.d: "总书记，哦不，我现在应该称呼您为“我的元首”，我的元首，选举嬴了，我们现在是执政党了，现在我们应该组阁，您说应该和谁组？"
+ bw_german_civil_war.1.a: "我觉得不用组阁，另外，不用叫元首"
+ 
+ bw_german_civil_war.2: "右翼的反扑"
+ bw_german_civil_war.2.t: "右翼的反扑"
+ bw_german_civil_war.2.d: "总书记，在我们准备清算右翼的时候，他们对我们发起了进攻，我们和自由军团以及冲锋队已经在萨克森和巴伐利亚交上手了。"
+ bw_german_civil_war.2.a: "该死的，他们先一步行动了"
+ bw_german_civil_war.2.b: "为了德意志的荣耀\n（扮演全德法西斯临时政府）"
+ 
+ bw_german_civil_war.3: "西里西亚出现游行"
+ bw_german_civil_war.3.t: "西里西亚出现游行"
+ bw_german_civil_war.3.d: "总书记，西里西亚地区于今日发生游行，他们是社民党的人，认为我们是独裁者，与法西斯是一种人。"
+ bw_german_civil_war.3.a: "我们是一票票选出来的，凭什么说我们不民主？"
+ 
+ bw_german_civil_war.4: "游行加剧"
+ bw_german_civil_war.4.t: "游行加剧"
+ bw_german_civil_war.4.d: "总书记，西里西亚地区于今日发生的游行，现以演化为流血事件，怎么办？"
+ bw_german_civil_war.4.a: "希望不要出事"
+ bw_german_civil_war.4.b: "粉碎苏维埃独裁！重建自由民主！\n（扮演德意志自由主义者起义）"
  
  # # #日本
  
@@ -1742,6 +1776,25 @@
  QunXing_QiDong: "群星，启动！"
  SHiZHeJunSi: "逝者军势"
  
+ #危机
+ 
+ GER_AUS_FRA_AoDiLiWeiJi_tt: "激活危机：§Y奥地利危机§!"
+ GER_AUS_FRA_AoDiLiWeiJi: "奥地利危机"
+ GER_AUS_FRA_AoDiLiWeiJi_WeiJiDaoJiSHi: "危机倒计时"
+ GER_AUS_FRA_WeiJiDaoJiSHi_desc: "在§Y$GER$§!对§Y$AUS$§!开战后§Y小协约国§!方面就与§Y$GER$§!展开谈判，而在一段时间后§Y$FRA$§!就会表态......"
+ ZHiCHiAoDiLi_tt: "将§Y支持奥地利§!"
+ FangQiZHiCHiAoDiLi_tt: "将§Y放弃奥地利§!"
+ MinZHongZHiCHiAoDiLi_tt: "民众支持：\n - 民众倾向于支持奥地利[?FRA_ZHiCHiAoDiLi|Y%%0]\n - 民众倾向于放弃奥地利[?var_FRA_FangQiZHiCHiAoDiLi|Y%%0]"
+ FRA_ZHiCHiAoDiLi: "支持奥地利"
+ FRA_FangQiZHiCHiAoDiLi: "放弃支持奥地利"
+ GER_SHanDongSuiJingQingXv: "煽动绥靖情绪"
+ GER_SHanDongSuiJingQingXv_tt: "法国民众将趋向于放弃奥地利"
+ 
+ GER_ENG_FRA_RiNeiWaHeiYi_tt: "激活危机：§日内瓦会议§!"
+ GER_ENG_FRA_RiNeiWaHeiYi: "日内瓦会议"
+ GER_ENG_FRA_RiNeiWaHeiYi_WeiJiDaoJiSHi: "危机倒计时"
+ GER_ENG_FRA_RiNeiWaHeiYi_WeiJiDaoJiSHi_desc: "§Y$GER$§!和§Y$ENG$§!§Y$FRA$§!在日内瓦对法尔赛条约展开谈判"
+ 
  #国策
  
  # # #大不列颠
@@ -1931,31 +1984,31 @@
  ENG_JiaRuZHiXvTongMeng_desc: "德国同为法国的敌人，我们可以与他和合作，建立日耳曼神圣同盟。"
  
  # # #德国
- 
- GER_YuanSHou: "元首"
- GER_YuanSHou_desc: "给洗头老加个baff，随便讲一下剧情，点就完了，反正不点也没法继续"
- 
- GER_WaiJiaoBu: "外交部"
- GER_WaiJiaoBu_desc: "新生的德国，得有一个外交部，虽然没什么用，\n但它可以用来外交谈判、改善关系、同盟等……\n好吧，他确实没什么用。"
- 
- GER_ErDuGongSHi: "二度攻势"
- GER_ErDuGongSHi_desc: ""
- 
- GER_BoLin: "柏林"
- GER_ErDuGongSHi_desc: ""
- 
- GER_DaYaDangWeiJun: "打压党卫军"
- GER_DaYaDangWeiJun_desc: ""
- 
- GER_HaiDelLxi: "海德里希"
- 33GER_HaiDelLxi_desc: ""
- 
- GER_DiSanFang: "第三方"
- GER_DiSanFang_desc: ""
- 
- GER_NaCuiDeDeYiZHi: "纳粹的德意志"
- GER_NaCuiDeDeYiZHi_desc: "我们赢了！"
- 
+ #
+ #GER_YuanSHou: "元首"
+ #GER_YuanSHou_desc: "给洗头老加个baff，随便讲一下剧情，点就完了，反正不点也没法继续"
+ #
+ #GER_WaiJiaoBu: "外交部"
+ #GER_WaiJiaoBu_desc: "新生的德国，得有一个外交部，虽然没什么用，\n但它可以用来外交谈判、改善关系、同盟等……\n好吧，他确实没什么用。"
+ #
+ #GER_ErDuGongSHi: "二度攻势"
+ #GER_ErDuGongSHi_desc: ""
+ #
+ #GER_BoLin: "柏林"
+ #GER_ErDuGongSHi_desc: ""
+ #
+ #GER_DaYaDangWeiJun: "打压党卫军"
+ #GER_DaYaDangWeiJun_desc: ""
+ #
+ #GER_HaiDelLxi: "海德里希"
+ #33GER_HaiDelLxi_desc: ""
+ #
+ #GER_DiSanFang: "第三方"
+ #GER_DiSanFang_desc: ""
+ #
+ #GER_NaCuiDeDeYiZHi: "纳粹的德意志"
+ #GER_NaCuiDeDeYiZHi_desc: "我们赢了！"
+ #
  GER_DeAoHeBing: "德奥合并"
  GER_DeAoHeBing_desc: "奥地利自从1866年的普奥战争以后就被排除在德意志里面，很明显这是错误的，大德意志万岁！"
  
@@ -2087,6 +2140,7 @@
  
  GER_DongYuanCHongFengDui: "动员冲锋队"
  GER_DongYuanCHongFengDui_desc: "冲锋队是我们的基干力量，尽管质量差劲，但数量可看应用。"
+ GER_DongYuanCHongFengDui_tt: "在慕尼黑生成22个冲锋队师"
  
  GER_DongYuanDangWeiJun: "动员党卫军"
  GER_DongYuanDangWeiJun_desc: "党卫军是我们的精锐力量，尽管面对正规军的时候略显劣势，但党卫军骑兵师和装甲掷弹兵师可以快速扩大占领区。"
@@ -2113,13 +2167,88 @@
  GER_DuoNaoFangXian_desc: "我们可以在德属多瑙上修一条防线，在可能没什么用，但以备不时之需。"
  
  GER_WeiXiXingDong: "威悉行动"
- GER_WeiXiXingDong_desc: "戈林提出了一个计划：“主要是沿着维希河北上，切断莱茵兰方向的补给，让他们在惊惧与恐惧中死亡。”"
+ GER_WeiXiXingDong_desc: "戈林提出了一个计划：“沿着维希河北上，切断莱茵兰方向的补给，让他们在惊惧与恐惧中死亡。”"
  
  GER_GuDongDiFangJiangLing: "鼓动敌方将领"
  GER_GuDongDiFangJiangLing_desc: "对面的将领有很多是军国派，我们可以让对方的将领投靠我们。"
  
  GER_NaCuiDeDeYiZHi: "纳粹的德意志"
  GER_NaCuiDeDeYiZHi_desc: "在魏玛政府崩溃后，很明显我们成为了唯一合法政府。"
+ 
+ GER_Reichspogromnacht: "水晶之夜"
+ GER_Reichspogromnacht_desc: "在内战中国库赤字严重，而国内的犹太人格外有钱，我们要没收他们的财产。"
+ 
+ GER_Nacht_der_langen_Messer: "长刀之夜"
+ #GER_Nacht_der_langen_Messer_desc: "我们国内大体上可以分成五派，分别是由大小斯特拉瑟领导的斯特拉瑟派、希姆莱的党卫军、罗姆的冲锋队、阿尔伯特·施佩尔领导的中间派和由小黄领导的左派，其中斯特拉瑟派、党卫军和冲锋队都威胁我们的统治。"
+ GER_Nacht_der_langen_Messer_desc: "斯特拉瑟派、党卫军和冲锋队都威胁我们的统治。"
+ 
+ GER_GeRenCHongBai: "个人崇拜"
+ GER_GeRenCHongBai_desc: "元首在微笑。"
+ 
+ GER_JieJueJingJiWeiTi: "处理经济问题"
+ GER_JieJueJingJiWeiTi_desc: "很明显元首根本不会经济。"
+ 
+ GER_XinRenGeLin: "信任戈林"
+ GER_XinRenGeLin_desc: ""
+ 
+ GER_HerGor_ZHaiQvan: "菲格债券"
+ GER_HerGor_ZHaiQvan_desc: ""
+ 
+ GER_GuoYouHua: "国有化"
+ GER_GuoYouHua_desc: ""
+ 
+ GER_Reichswerke_Hermann_Gpring: "赫尔曼·戈林国家工厂"
+ GER_Reichswerke_Hermann_Gpring_desc: ""
+ 
+ GER_ZHanZHengJingJiXue: "战争经济学"
+ GER_ZHanZHengJingJiXue_desc: ""
+ 
+ # # #红德
+ 
+ GSR_YiHuiXvanJv: "议会选举"
+ GSR_YiHuiXvanJv_desc: "这场选举将成为德国的十字路口。"
+ 
+ GSR_QingSuanZHiRi: "清算之日"
+ GSR_QingSuanZHiRi_desc: "与右翼勾心斗角了这么久，总算可以将他们赶出德国。"
+ 
+ GSR_XvanBuJinJiZHuangTai: "宣布紧急状态"
+ GSR_XvanBuJinJiZHuangTai_desc: "根据宪法地48条，总统可以宣布国家进入紧急状态，此时114条到124条都会失效，我们就可以进行共产化改革了。"
+ 
+ GSR_GaiZuYiHui: "改组议会"
+ GSR_GaiZuYiHui_desc: "我们可以将议会中的右翼政党给赶出去，让帝国议会变成苏维埃议会。"
+ 
+ GSR_JieSHanYiHui: "解散议会"
+ GSR_JieSHanYiHui_desc: "帝国议会就是资产阶级的产物，在怎么改造都掩盖不了他的本质，所以我们得解散它，然后建立委员会。"
+ 
+ #GSR_YvSHeMinDangHeDangZHanKaiTanPan: "与社民党展开谈判"
+ #GSR_YvSHeMinDangHeDangZHanKaiTanPan_desc: "社民党怎么说都是一个左派政党，虽然现任领袖是偏右的，但我们还是能进行谈判，让他们承认我们。"
+ #GSR_YvSHeMinDangHeDangZHanKaiTanPan_tooltip_tt: "没有：社民党公开反对我们"
+ #GSR_YvSHeMinDangHeDangZHanKaiTanPan_tt: "社民党公不会开反对我们"
+ 
+ GSR_LianXiGongCHanGuoJi: "联系共产国际"
+ GSR_LianXiGongCHanGuoJi_desc: ""
+ 
+ GSR_SiHuiFaErSaiTiaoYue: "撕毁法尔赛条约"
+ GSR_SiHuiFaErSaiTiaoYue_desc: ""
+ 
+ GSR_WeiLeGeMingHeMeiHaoSHengHuo: "为了革命和美好生活"
+ GSR_WeiLeGeMingHeMeiHaoSHengHuo_desc: ""
+ 
+ GSR_DaDaoBiSHouZHuYi: "打到匕首主义"
+ GSR_DaDaoBiSHouZHuYi_desc: "匕首主义是错误的，战争的失败是因为帝国主义，而不是犹太人。"
+ 
+ GSR_RongKeYvZHiBen: "容克与资本"
+ GSR_RongKeYvZHiBen_desc: "。"
+ 
+ GSR_JianLiZenZHiWeiYuan: "建立政治委员"
+ GSR_JianLiZenZHiWeiYuan_desc: ""
+ 
+ GSR_WuZHuangGongRenBing: "武装工人兵"
+ GSR_WuZHuangGongRenBing_desc: ""
+ GSR_WuZHuangGongRenBing_tt: "在柏林生成5个武装工人师"
+ 
+ GSR_ZuJianYouJiDui: "组建游击队"
+ GSR_ZuJianYouJiDui_desc: ""
  
  # # #通用国策
  

@@ -3578,155 +3578,175 @@ spriteTypes = {
 	SpriteType = {
 	# # # # # #德三
 		name = "GFX_DeAoHeBing"
-		texturefile = "gfx/interface/goals/德奥合并.png"
+		texturefile = "gfx/interface/goals/GER/德奥合并.png"
 	}
 	SpriteType = {
 		name = "GFX_SuoQvSuTaiDe"
-		texturefile = "gfx/interface/goals/索取苏台德.png"
+		texturefile = "gfx/interface/goals/GER/索取苏台德.png"
 	}
 	SpriteType = {
 		name = "GFX_JieKeDeMingYun"
-		texturefile = "gfx/interface/goals/捷克斯洛伐克的命运.png"
+		texturefile = "gfx/interface/goals/GER/捷克斯洛伐克的命运.png"
 	}
 	SpriteType = {
 		name = "GFX_SuoQvQiYvAoDiLi"
-		texturefile = "gfx/interface/goals/索取其余奥地利.png"
+		texturefile = "gfx/interface/goals/GER/索取其余奥地利.png"
 	}
 	SpriteType = {
 		name = "GFX_DuiRiSHiHao"
-		texturefile = "gfx/interface/goals/对日友好.png"
+		texturefile = "gfx/interface/goals/GER/对日友好.png"
 	}
 	SpriteType = {
 		name = "GFX_DuiHuaSHiHao"
-		texturefile = "gfx/interface/goals/对中友好.png"
+		texturefile = "gfx/interface/goals/GER/对中友好.png"
 	}
 	SpriteType = {
 		name = "GFX_GeRenCHongBai"
-		texturefile = "gfx/interface/goals/个人崇拜2.png"
+		texturefile = "gfx/interface/goals/GER/个人崇拜2.png"
 	}
 	SpriteType = {
 		name = "GFX_DongYuanCHongFengDui"
-		texturefile = "gfx/interface/goals/动员冲锋队.png"
+		texturefile = "gfx/interface/goals/GER/动员冲锋队.png"
 	}
 	SpriteType = {
 		name = "GFX_DongYuanDangWeiJun"
-		texturefile = "gfx/interface/goals/动员党卫军.png"
+		texturefile = "gfx/interface/goals/GER/动员党卫军.png"
 	}
 	SpriteType = {
 		name = "GFX_FaXiSiZHiJian"
-		texturefile = "gfx/interface/goals/法西斯之剑2.png"
+		texturefile = "gfx/interface/goals/GER/法西斯之剑2.png"
 	}
 #	SpriteType = {
 #		name = "GFX_XiMuLaiJiangJun"
-#		texturefile = "gfx/interface/goals/希姆莱将军.png"
+#		texturefile = "gfx/interface/goals/GER/希姆莱将军.png"
 #	}
 	SpriteType = {
 		name = "GFX_GuDongDiFangJiangLing"
-		texturefile = "gfx/interface/goals/鼓动敌方将领.png"
+		texturefile = "gfx/interface/goals/GER/鼓动敌方将领.png"
 	}
 	SpriteType = {
 		name = "GFX_SiTeLaSePai_NengDaZHangJiuXing"
-		texturefile = "gfx/interface/goals/斯特拉瑟派？能打仗就行2.png"
+		texturefile = "gfx/interface/goals/GER/斯特拉瑟派？能打仗就行2.png"
 	}
 	SpriteType = {
 		name = "GFX_DuoNaoFangXian"
-		texturefile = "gfx/interface/goals/多瑙防线.png"
+		texturefile = "gfx/interface/goals/GER/多瑙防线.png"
 	}
 	SpriteType = {
 		name = "GFX_WeiXiXingDong"
-		texturefile = "gfx/interface/goals/威悉行动.png"
+		texturefile = "gfx/interface/goals/GER/威悉行动.png"
 	}
 	SpriteType = {
 		name = "GFX_ZiYouJunTuan"
-		texturefile = "gfx/interface/goals/自由军团.png"
+		texturefile = "gfx/interface/goals/GER/自由军团.png"
 	}
 	SpriteType = {
 		name = "GFX_ZHaoMuMinBing"
-		texturefile = "gfx/interface/goals/招募民兵.png"
+		texturefile = "gfx/interface/goals/GER/招募民兵.png"
 	}
 	SpriteType = {
 		name = "GFX_TuanJieYiZHi"
-		texturefile = "gfx/interface/goals/团结一致2.png"
+		texturefile = "gfx/interface/goals/GER/团结一致2.png"
 	}
 	SpriteType = {
 		name = "GFX_YvYingFaTanPan"
-		texturefile = "gfx/interface/goals/与英法谈判.png"
+		texturefile = "gfx/interface/goals/GER/与英法谈判.png"
 	}
 	SpriteType = {
 		name = "GFX_YiSaErHuanQvYuanZHu"
-		texturefile = "gfx/interface/goals/以萨尔换取援助.png"
+		texturefile = "gfx/interface/goals/GER/以萨尔换取援助.png"
 	}
 	SpriteType = {
 		name = "GFX_QianSHuRiNeiWaTiaoYue"
-		texturefile = "gfx/interface/goals/签署日内瓦条约.png"
+		texturefile = "gfx/interface/goals/GER/签署日内瓦条约.png"
 	}
 	SpriteType = {
 		name = "GFX_ZHengHeZHanLingQv"
-		texturefile = "gfx/interface/goals/整合占领区.png"
+		texturefile = "gfx/interface/goals/GER/整合占领区.png"
 	}
 	SpriteType = {
 		name = "GFX_SHuiJingZHiYe"
-		texturefile = "gfx/interface/goals/水晶之夜.png"
+		texturefile = "gfx/interface/goals/GER/水晶之夜.png"
 	}
 	SpriteType = {
 		name = "GFX_FanBuErSHiWeiKeZHiYuanJun"
-		texturefile = "gfx/interface/goals/反布尔什维克志愿军.png"
+		texturefile = "gfx/interface/goals/GER/反布尔什维克志愿军.png"
 	}
 	SpriteType = {
 		name = "GFX_XvanCHuanJvDaDeHongSeWeiXie"
-		texturefile = "gfx/interface/goals/宣传巨大的红色威胁.png"
+		texturefile = "gfx/interface/goals/GER/宣传巨大的红色威胁.png"
 	}
 	SpriteType = {
 		name = "GFX_NaCuiDeDeYiZHi"
-		texturefile = "gfx/interface/goals/纳粹的德意志.png"
+		texturefile = "gfx/interface/goals/GER/纳粹的德意志.png"
 	}
 	SpriteType = {
 		name = "GFX_CHangDaoZHiYe"
-		texturefile = "gfx/interface/goals/长刀之夜.png"
+		texturefile = "gfx/interface/goals/GER/长刀之夜.png"
 	}
 	SpriteType = {
 		name = "GFX_JieJueJingJiWeiTi"
-		texturefile = "gfx/interface/goals/解决经济问题.png"
+		texturefile = "gfx/interface/goals/GER/解决经济问题.png"
 	}
 	SpriteType = {
 		name = "GFX_XinRenGeLin"
-		texturefile = "gfx/interface/goals/信任戈林2.png"
+		texturefile = "gfx/interface/goals/GER/信任戈林2.png"
 	}
 	SpriteType = {
 		name = "GFX_SHiFangSHaHeTe"
-		texturefile = "gfx/interface/goals/释放沙赫特.png"
+		texturefile = "gfx/interface/goals/GER/释放沙赫特.png"
 	}
 	SpriteType = {
 		name = "GFX_Mefo_Wechsel"
-		texturefile = "gfx/interface/goals/梅芙券.png"
+		texturefile = "gfx/interface/goals/GER/梅芙券.png"
 	}
 	SpriteType = {
 		name = "GFX_HerGor_ZHaiQvan"
-		texturefile = "gfx/interface/goals/菲格债券.png"
+		texturefile = "gfx/interface/goals/GER/菲格债券.png"
 	}
 	SpriteType = {
 		name = "GFX_GuoYouHua"
-		texturefile = "gfx/interface/goals/国有化.png"
+		texturefile = "gfx/interface/goals/GER/国有化.png"
 	}
 	SpriteType = {
 		name = "GFX_Reichswerke_Hermann_Gpring"
-		texturefile = "gfx/interface/goals/赫尔曼·戈林工厂.png"
+		texturefile = "gfx/interface/goals/GER/赫尔曼·戈林工厂.png"
 	}
 	SpriteType = {
 		name = "GFX_ZHanZHengJingJiXue"
-		texturefile = "gfx/interface/goals/战争经济学.png"
+		texturefile = "gfx/interface/goals/GER/战争经济学.png"
 	}
 	SpriteType = {
 		name = "GFX_JinXingBuTie"
-		texturefile = "gfx/interface/goals/进行补贴.png"
+		texturefile = "gfx/interface/goals/GER/进行补贴.png"
 	}
 	SpriteType = {
 		name = "GFX_Reichsautobahn"
-		texturefile = "gfx/interface/goals/帝国高速公路.png"
+		texturefile = "gfx/interface/goals/GER/帝国高速公路.png"
 	}
 	SpriteType = {
 		name = "GFX_CHengNuoTouZiZiYou"
-		texturefile = "gfx/interface/goals/承诺投资自由.png"
+		texturefile = "gfx/interface/goals/GER/承诺投资自由.png"
+	}
+	SpriteType = {
+		name = "GFX_SHiXianJingJiFuSu"
+		texturefile = "gfx/interface/goals/GER/实现经济复苏.png"
+	}
+	SpriteType = {
+		name = "GFX_Vierjahresplan"
+		texturefile = "gfx/interface/goals/GER/四年计划.png"
+	}
+	SpriteType = {
+		name = "GFX_NiuNaiYvMianBao"
+		texturefile = "gfx/interface/goals/GER/牛奶与面包.png"
+	}
+	SpriteType = {
+		name = "GFX_Kraft_durch_Freude"
+		texturefile = "gfx/interface/goals/GER/力量来自欢乐.png"
+	}
+	SpriteType = {
+		name = "GFX_Volkswagen"
+		texturefile = "gfx/interface/goals/GER/大众汽车.png"
 	}
 	# # #国民精神
 	# # # # # #黑德

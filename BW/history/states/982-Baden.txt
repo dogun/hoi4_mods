@@ -10,7 +10,7 @@ state={
 #		victory_points = {
 #			577 1 
 #		}
-		owner = GER
+		owner = GSR
 		buildings = {
 
 		}
@@ -19,6 +19,9 @@ state={
 			industrial_complex = 3
 		}
 		add_core_of = GSR
+		1936.1.1 = {
+			owner = GER
+		}
 	}
 	provinces={
 		6581 6568 3530 6542 6712 11640 3679 3692 694

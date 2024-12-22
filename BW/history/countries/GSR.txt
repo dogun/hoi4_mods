@@ -22,29 +22,59 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1	
 	tech_engineers = 1
+	tech_maintenance_company = 1
 }
 
 set_convoys = 20
 
-#recruit_character = GAB_acr
-
 set_politics = {
-	ruling_party = MaKeSi_LieNingZHuYi
+	ruling_party = GuDianZiYouZHuYi
 }
+
+#set_popularities = {
+#	MaKeSi_LieNingZHuYi = 53.03 #48.22 #2=53.39
+#	SHeHuiMinZHuZHuYi = 27.53
+#	MinZHuSHeHuiZHuYi = 13.87
+#	FaXiSiZHuYi = 5.57
+#}
 
 set_popularities = {
-	MaKeSi_LieNingZHuYi = 53.03 #48.22 #2=53.39
-	SHeHuiMinZHuZHuYi = 27.53
-	MinZHuSHeHuiZHuYi = 13.87
-	FaXiSiZHuYi = 5.57
+	MinZuSHeHuiZHuYi = 24.27
+	MaKeSi_LieNingZHuYi = 25.32
+	SHeHuiMinZHuZHuYi = 21.58
+	GuDianZiYouZHuYi = 23.19
+	GuiZuBaoSHouZHuYi = 1.28
+	FaXiSiZHuYi = 1.91
+	BaoSHouZHuYi = 2.45
 }
+
 add_ideas = {
 	bw_GSR_JunZHuZHuYiDeYouLing
-	bw_GSR_ZiYouJunTuan
-	bw_GSR_QvanGuoXingJingJiTanHuan
-	bw_GSR_SHeMinDangFanDuiPai
-	bw_GSR_FaErSaiTiaoYueDeYvBo
-	bw_GER_YingFaFanDui
+	bw_GSR_RongKeGuiZu
+	bw_GSR_DiGuoYiHui
+	bw_GSR_FaErSaiTiaoYue
+}	
+
+1936.1.1 = {
+	set_politics = {
+		ruling_party = MaKeSi_LieNingZHuYi
+	}
+
+	add_ideas = {
+		bw_GSR_ZiYouJunTuan
+		bw_GSR_QvanGuoXingJingJiTanHuan
+		bw_GSR_SHeMinDangFanDuiPai
+		bw_GER_YingFaFanDui
+	}
 }
 
 recruit_character = GSR_Ernst_Johannes_Fritz_Thalmann
+
+recruit_character = GSR_otto_Strasser
+recruit_character = GSR_Gregor_Strasser
+recruit_character = GSR_Aldert_Speer
+recruit_character = GSR_adolf_hitler
+recruit_character = GSR_Heinrich_Himmler
+
+recruit_character = GSR_Gustav_Stresemann
+recruit_character = GSR_Hjalmar_Schacht

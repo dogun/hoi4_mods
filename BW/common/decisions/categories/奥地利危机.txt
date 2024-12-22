@@ -1,0 +1,19 @@
+GER_AUS_FRA_AoDiLiWeiJi = {
+#	scripted_gui = GER_AUS_FRA_AoDiLiWeiJi_gui_1
+#	scripted_gui = GER_AUS_FRA_AoDiLiWeiJi_gui_2
+#决议组id
+	icon = ger_mefo_bills
+#图片
+	priority = 100
+#位置，越大越上，越小越下
+
+	visible = {
+#展示条件
+		NOT = {
+			has_variable = GER_AUS_FRA_AoDiLiWeiJi
+		}
+		GER= {
+			has_completed_focus = GER_YiCHangJunSHiDuBou #一场军事赌博
+		}
+	}
+}
