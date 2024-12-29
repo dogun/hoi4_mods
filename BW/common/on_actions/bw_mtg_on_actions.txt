@@ -1,0 +1,792 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = {
+				set_variable = { treasury = -293114 } #2000000
+				set_variable = { revenue = 0 }
+			}
+
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = MeiZHoZHuangTai
+						option = MeiZHoQvDiGuoHua
+					}
+				}
+				CSA = {
+					release = MEX
+					release = CAN
+					release = GUA
+					release = BLZ
+					release = HON
+					release = ELS
+					release = NIC
+					release = COS
+					release = PAN
+					release = DEN
+				}
+				ADS = {
+					release = BRA
+					release = VEN
+					release = URG
+					release = PAR
+					release = ARG
+					release = GYA
+					release = SUR
+					release = CAY
+					release = BOL
+				}
+				ANT = {
+					release = ARG
+					release = BOL
+					release = CHL
+					release = PRU
+					release = ECU
+					release = COL
+				}
+				CAN = {
+					set_capital = {state = 276}
+
+#					transfer_state = 739
+#					transfer_state = 740
+
+#					transfer_state = 864
+#					transfer_state = 471
+#					transfer_state = 473
+				}
+			}
+		}
+	}
+	on_capitulation = {
+
+		effect = {	#黑德打败红德
+			if = {
+				limit = {
+					tag = GSR
+					FROM = { tag = GER }
+				}
+				GER = {
+					white_peace = {
+						tag = GSR
+						message = bw_GER_GSR_message
+					}
+					annex_country = {
+						target = GSR
+						transfer_troops = no
+					}
+					country_event = {
+						id = bw_GER.1
+						days = 0
+					}
+				}
+			}
+		}
+
+		effect = {	#红德打败黑德
+			if = {
+				limit = {
+					tag = GER
+					FROM = { tag = GSR }
+				}
+				GSR = {
+					white_peace = {
+						tag = GER
+						message = bw_GSR_GER_message
+					}
+					annex_country = {
+						target = GER
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#黑德打败蓝德
+			if = {
+				limit = {
+					tag = GLR
+					FROM = { tag = GER }
+				}
+				GER = {
+					white_peace = {
+						tag = GLR
+						message = bw_GER_GLR_message
+					}
+					annex_country = {
+						target = GLR
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#红德打败蓝德
+			if = {
+				limit = {
+					tag = GLR
+					FROM = { tag = GSR }
+				}
+				GSR = {
+					white_peace = {
+						tag = GLR
+						message = bw_GSR_GLR_message
+					}
+					annex_country = {
+						target = GLR
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#土邦打败印度
+			if = {
+				limit = {
+					tag = RAJ
+					OR = {
+						FROM = { tag = HYD }
+						FROM = { tag = GWA }
+						FROM = { tag = MAR }
+						FROM = { tag = JUN }
+						FROM = { tag = LAS }
+						FROM = { tag = KOK }
+						FROM = { tag = MAK }
+						FROM = { tag = SOK }
+						FROM = { tag = AUR }
+					}
+				}
+				HYD = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 426
+					add_state_core = 426
+					transfer_state = 429
+					add_state_core = 429
+				}
+				GWA = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 436
+					add_state_core = 436
+					transfer_state = 438
+					add_state_core = 438
+				}
+				MAR = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 439
+					add_state_core = 439
+				}
+				JUN = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 428
+					add_state_core = 428
+				}
+
+				LAS = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+				}
+				KOK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+				}
+				MAK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+				}
+				SOK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+				}
+				AUR = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+				}
+				RAJ = {
+					release = BRM
+				}
+			}
+		}
+
+		effect = {	#土邦打败印度（巴基斯坦不存在）
+			if = {
+				limit = {
+					tag = RAJ
+					OR = {
+						FROM = { tag = HYD }
+						FROM = { tag = GWA }
+						FROM = { tag = MAR }
+						FROM = { tag = JUN }
+						FROM = { tag = LAS }
+						FROM = { tag = KOK }
+						FROM = { tag = MAK }
+						FROM = { tag = SOK }
+						FROM = { tag = AUR }
+					}
+					PAK = {
+						exists = no
+					}
+				}
+				HYD = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 426
+					add_state_core = 426
+					transfer_state = 429
+					add_state_core = 429
+				}
+				GWA = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 436
+					add_state_core = 436
+					transfer_state = 438
+					add_state_core = 438
+				}
+				MAR = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 439
+					add_state_core = 439
+					transfer_state = 440
+					add_state_core = 440
+				}
+				JUN = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 428
+					add_state_core = 428
+				}
+
+				LAS = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 443
+					add_state_core = 443
+				}
+				KOK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 445
+					add_state_core = 445
+				}
+				MAK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+				}
+				SOK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 444
+					add_state_core = 444
+				}
+				AUR = {
+					white_peace = {
+						tag = RAJ
+						message = bw_HYD_RAJ_message
+					}
+					transfer_state = 442
+					add_state_core = 442
+				}
+				RAJ = {
+					release = BRM
+				}
+			}
+		}
+
+		effect = {	#土邦打败巴基斯坦
+			if = {
+				limit = {
+					tag = PAK
+					OR = {
+						FROM = { tag = HYD }
+						FROM = { tag = GWA }
+						FROM = { tag = MAR }
+						FROM = { tag = JUN }
+						FROM = { tag = LAS }
+						FROM = { tag = KOK }
+						FROM = { tag = MAK }
+						FROM = { tag = SOK }
+						FROM = { tag = AUR }
+					}
+				}
+				HYD = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+				}
+				GWA = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+				}
+				MAR = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+				}
+				JUN = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+				}
+
+				LAS = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+					transfer_state = 443
+					add_state_core = 443
+				}
+				KOK = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+					transfer_state = 445
+					add_state_core = 445
+				}
+				MAK = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+				}
+				SOK = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+					transfer_state = 444
+					add_state_core = 444
+				}
+				AUR = {
+					white_peace = {
+						tag = PAK
+						message = bw_HYD_PAK_message
+					}
+					transfer_state = 442
+					add_state_core = 442
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败印度
+			if = {
+				limit = {
+					tag = RAJ
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_PAK_RAJ_message
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败巴基斯坦
+			if = {
+				limit = {
+					tag = PAK
+					FROM = { tag = RAJ }
+				}
+				PAK = {
+					white_peace = {
+						tag = RAJ
+						message = bw_RAJ_PAK_message
+					}
+					annex_country = {
+						target = RAJ
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败海得拉巴
+			if = {
+				limit = {
+					tag = HYD
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = HYD
+						message = bw_RAJ_HYD_message
+					}
+					annex_country = {
+						target = HYD
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败瓜廖尔
+			if = {
+				limit = {
+					tag = GWA
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = GWA
+						message = bw_RAJ_GWA_message
+					}
+					annex_country = {
+						target = GWA
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败马尔瓦尔
+			if = {
+				limit = {
+					tag = MAR
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = MAR
+						message = bw_RAJ_MAR_message
+					}
+					annex_country = {
+						target = MAR
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败朱纳格特
+			if = {
+				limit = {
+					tag = JUN
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = JUN
+						message = bw_RAJ_JUN_message
+					}
+					annex_country = {
+						target = JUN
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败拉斯贝拉
+			if = {
+				limit = {
+					tag = LAS
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = LAS
+						message = bw_RAJ_LAS_message
+					}
+					annex_country = {
+						target = LAS
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败喀拉特
+			if = {
+				limit = {
+					tag = KOK
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = KOK
+						message = bw_RAJ_KOK_message
+					}
+					annex_country = {
+						target = KOK
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败马克兰
+			if = {
+				limit = {
+					tag = MAK
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = MAK
+						message = bw_RAJ_MAK_message
+					}
+					annex_country = {
+						target = MAK
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打卡兰
+			if = {
+				limit = {
+					tag = SOK
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = SOK
+						message = bw_RAJ_SOK_message
+					}
+					annex_country = {
+						target = SOK
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#印度打败查谟和克什米尔
+			if = {
+				limit = {
+					tag = AUR
+					FROM = { tag = RAJ }
+				}
+				RAJ = {
+					white_peace = {
+						tag = AUR
+						message = bw_RAJ_AUR_message
+					}
+					annex_country = {
+						target = AUR
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败海得拉巴
+			if = {
+				limit = {
+					tag = HYD
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = HYD
+						message = bw_PAK_HYD_message
+					}
+					annex_country = {
+						target = HYD
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败瓜廖尔
+			if = {
+				limit = {
+					tag = GWA
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = GWA
+						message = bw_PAK_GWA_message
+					}
+					annex_country = {
+						target = GWA
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败马尔瓦尔
+			if = {
+				limit = {
+					tag = MAR
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = MAR
+						message = bw_PAK_MAR_message
+					}
+					annex_country = {
+						target = MAR
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败朱纳格特
+			if = {
+				limit = {
+					tag = JUN
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = JUN
+						message = bw_PAK_JUN_message
+					}
+					annex_country = {
+						target = JUN
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败拉斯贝拉
+			if = {
+				limit = {
+					tag = LAS
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = LAS
+						message = bw_PAK_LAS_message
+					}
+					annex_country = {
+						target = LAS
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败喀拉特
+			if = {
+				limit = {
+					tag = KOK
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = KOK
+						message = bw_PAK_KOK_message
+					}
+					annex_country = {
+						target = KOK
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败马克兰
+			if = {
+				limit = {
+					tag = MAK
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = MAK
+						message = bw_PAK_MAK_message
+					}
+					annex_country = {
+						target = MAK
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打卡兰
+			if = {
+				limit = {
+					tag = SOK
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = SOK
+						message = bw_PAK_SOK_message
+					}
+					annex_country = {
+						target = SOK
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {	#巴基斯坦打败查谟和克什米尔
+			if = {
+				limit = {
+					tag = AUR
+					FROM = { tag = PAK }
+				}
+				PAK = {
+					white_peace = {
+						tag = AUR
+						message = bw_PAK_AUR_message
+					}
+					annex_country = {
+						target = AUR
+						transfer_troops = no
+					}
+				}
+			}
+		}
+
+	}
+}

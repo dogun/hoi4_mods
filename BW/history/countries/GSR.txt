@@ -66,6 +66,17 @@ add_ideas = {
 		bw_GSR_SHeMinDangFanDuiPai
 		bw_GER_YingFaFanDui
 	}
+
+	unlock_national_focus = GSR_YiHuiXvanJv #议会选举
+	unlock_national_focus = GSR_XvanBuJinJiZHuangTai #宣布紧急状态
+	unlock_national_focus = GSR_JieSHanYiHui #解散议会
+	unlock_national_focus = GSR_LianXiGongCHanGuoJi #联系共产国际
+	unlock_national_focus = GSR_SiHuiFaErSaiTiaoYue #撕毁法尔赛条约
+	unlock_national_focus = GSR_WeiLeGeMingHeMeiHaoSHengHuo #为了革命和美好生活
+	unlock_national_focus = GSR_WuZHuangGongRenBing #武装工人兵
+	unlock_national_focus = GSR_ZuJianYouJiDui #组建游击队
+
+	set_country_flag = german_civil_war
 }
 
 recruit_character = GSR_Ernst_Johannes_Fritz_Thalmann

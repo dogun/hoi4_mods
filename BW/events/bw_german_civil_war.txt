@@ -89,13 +89,13 @@ country_event = { #西里西亚出现游行
 	option = {
 		name = bw_german_civil_war.3.a #我们是一票票选出来的，凭什么说我们不民主？
 		add_ideas = bw_GSR_SHeMinDangFanDuiPai
-		hidden_effect = {
-			news_event = {
-				id = bw_german_civil_war.4
-				days = 30
-				random = 0
-			}
-		}
+#		hidden_effect = {
+#			news_event = {
+#				id = bw_german_civil_war.4
+#				days = 30
+#				random = 0
+#			}
+#		}
 	}
 }
 
@@ -103,11 +103,20 @@ country_event = { #游行加剧
 	id = bw_german_civil_war.4
 	title = bw_german_civil_war.4.t
 	desc = bw_german_civil_war.4.d
-
-	is_triggered_only = yes
-
+	fire_only_once = yes
+	is_triggered_only = no
+	trigger = {
+		has_idea = bw_GSR_SHeMinDangFanDuiPai
+		tag =GSR
+		date > "1936.09.03"
+		OR = {
+			controls_state = 66
+			controls_state = 67
+		}
+	}
+	mean_time_to_happen = { days = 1 }
 	option = {
-		name = bw_german_civil_war.3.a #希望不要出事
+		name = bw_german_civil_war.4.a #希望不要出事
 		remove_ideas = bw_GSR_SHeMinDangFanDuiPai
 		GLR = {
 			transfer_state = 66
@@ -130,7 +139,7 @@ country_event = { #游行加剧
 		}
 	}
 	option = {
-		name = bw_german_civil_war.3.b #粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）
+		name = bw_german_civil_war.4.b #粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）
 		remove_ideas = bw_GSR_SHeMinDangFanDuiPai
 		GLR = {
 			transfer_state = 66

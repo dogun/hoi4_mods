@@ -252,7 +252,7 @@ focus_tree = {
 		x = 15
 		y = 0
 		allow_branch = {
-		#	has_completed_focus = ENG_CiZHi #辞职
+			has_completed_focus = ENG_CiZHi #辞职
 		}
 		completion_reward = {
 			custom_effect_tooltip = JieSuoXiaYiBuGuoCe #解锁下一步国策

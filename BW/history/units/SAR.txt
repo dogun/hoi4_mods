@@ -3,7 +3,7 @@
 	name = "民兵"
 #名称
 
-	division_names_group = ""
+	division_names_group = "民兵"
 #番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
 
 	regiments = {

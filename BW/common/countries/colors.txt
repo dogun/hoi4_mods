@@ -1,5 +1,30 @@
 #reload countrycolors
 
+SSD = {
+	color = HSV { 0.0 0.05 0.3 }
+	color_ui = rgb { 138 155 116 }
+}
+
+MAR = {
+	color = rgb { 255 230 51 }
+	color_ui = rgb { 255 230 51 }
+}
+
+GWA = {
+	color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
+
+HYD = {
+	color = rgb { 244 180 26 }
+	color_ui = rgb { 244 180 26 }
+}
+
+SOK = {
+	color = rgb { 0 145 255 }
+	color_ui = rgb { 0 145 255 }
+}
+
 MAK = {
 	color = rgb { 0 128 0 }
 	color_ui = rgb { 0 128 0 }

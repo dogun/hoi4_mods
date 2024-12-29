@@ -4,64 +4,89 @@
 
 add_namespace = bw_GSR
 
-country_event = { #西里西亚社民党游行
+#country_event = { #西里西亚社民党游行
+#	id = bw_GSR.1
+#	title = bw_GSR.1.t
+#	desc = bw_GSR.1.d
+#	fire_only_once = yes
+#	is_triggered_only = no
+#	trigger = {
+#		tag =GSR
+#		date = "1936.09.03"
+#		OR = {
+#			controls_state = 66
+#			controls_state = 67
+#		}
+#	}
+#	mean_time_to_happen = { days = 1 }
+#	option = {
+#		name = bw_GSR.1.a #我们可是被一票一票的被选出来的，你凭什么认为我们不民主？
+#		GLR = {
+#			transfer_state = 66
+#			add_state_core = 66
+#			transfer_state = 67
+#			add_state_core = 67
+#			declare_war_on = {
+#				target = GSR
+#				type = civil_war
+#			}
+#		}
+#		hidden_effect = {
+#			GER ={
+#				news_event = {
+#					id = bw_GER.2
+#					days = 1
+#					random = 0
+#				}
+#			}
+#		}
+#	}
+#	option = {
+#		name = bw_GSR.1.a #粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）
+#		GLR = {
+#			transfer_state = 66
+#			add_state_core = 66
+#			transfer_state = 67
+#			add_state_core = 67
+#			declare_war_on = {
+#				target = GSR
+#				type = civil_war
+#			}
+#		}
+#		GLR = { change_tag_from = ROOT }
+#		hidden_effect = {
+#			GER ={
+#				news_event = {
+#					id = bw_GER.2
+#					days = 1
+#					random = 0
+#				}
+#			}
+#		}
+#	}
+#}
+
+country_event = { #苏维埃会议
 	id = bw_GSR.1
 	title = bw_GSR.1.t
 	desc = bw_GSR.1.d
-	fire_only_once = yes
-	is_triggered_only = no
-	trigger = {
-		tag =GSR
-		date = "1936.09.03"
-		OR = {
-			controls_state = 66
-			controls_state = 67
-		}
-	}
-	mean_time_to_happen = { days = 1 }
+
+	is_triggered_only = yes
+
 	option = {
-		name = bw_GSR.1.a #我们可是被一票一票的被选出来的，你凭什么认为我们不民主？
-		GLR = {
-			transfer_state = 66
-			add_state_core = 66
-			transfer_state = 67
-			add_state_core = 67
-			declare_war_on = {
-				target = GSR
-				type = civil_war
-			}
-		}
-		hidden_effect = {
-			GER ={
-				news_event = {
-					id = bw_GER.2
-					days = 1
-					random = 0
-				}
-			}
-		}
+		name = bw_GSR.1.a #正统派：台尔曼
+		complete_national_focus = GSR_ZHengTongMaLieDeSHengLi #正统马列的胜利！
 	}
 	option = {
-		name = bw_GSR.1.a #粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）
-		GLR = {
-			transfer_state = 66
-			add_state_core = 66
-			transfer_state = 67
-			add_state_core = 67
-			declare_war_on = {
-				target = GSR
-				type = civil_war
-			}
-		}
-		GLR = { change_tag_from = ROOT }
-		hidden_effect = {
-			GER ={
-				news_event = {
-					id = bw_GER.2
-					days = 1
-					random = 0
-				}
-			}
-		}
+		name = bw_GSR.2.b #共产国际派：皮克
+		
+	}
+	option = {
+		name = bw_GSR.3.c #工团派：卢森堡
+		
+	}
+	option = {
+		name = bw_GSR.4.d #刺刀派：李卜克内西
+		
 	}
 }

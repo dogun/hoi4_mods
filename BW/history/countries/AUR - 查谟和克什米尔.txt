@@ -1,4 +1,5 @@
 ﻿capital = 441
+set_oob = "AUR"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8

@@ -1,4 +1,5 @@
 ﻿capital = 995
+set_oob = "LAS"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8

@@ -1200,10 +1200,10 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_YiCHangJunSHiDuBou #一场军事赌博
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_DeAoHeBing
 		cost = 5.00
 		prerequisite = {
-			focus = GER_YinYingXiaDeGuoDu #阴影下的国度
+			#focus = GER_YinYingXiaDeGuoDu #阴影下的国度
 		}
 		x = 9
 		y = 28
@@ -1228,7 +1228,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_WeiYeNaHuiYi #维也纳会议
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_SuoQvQiYvAoDiLi
 		cost = 5.00
 		prerequisite = {
 			focus = GER_YiCHangJunSHiDuBou #一场军事赌博
@@ -1240,7 +1240,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_SaDingXingDong #“萨丁”行动
+		id = GER_ZiSeFangAn #紫色方案
 		icon = GFX_SHiFangSHaHeTe
 		cost = 5.00
 		prerequisite = {
@@ -1257,7 +1257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_MuNiHeiHuiYi #慕尼黑会议
-		icon = GFX_SHiFangSHaHeTe
+		icon = GFX_SuoQvSuTaiDe
 		cost = 5.00
 		prerequisite = {
 			focus = GER_YiCHangJunSHiDuBou #一场军事赌博
@@ -1269,8 +1269,8 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_XieSeXingDong #“血色”行动
-		icon = GFX_SHiFangSHaHeTe
+		id = GER_HongSeFangAn #红色方案
+		icon = GFX_JieKeDeMingYun
 		cost = 5.00
 		prerequisite = {
 			focus = GER_MuNiHeiHuiYi #但泽会议
@@ -1298,7 +1298,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_NiAoErDeXingDong #“尼奥尔德”行动
+		id = GER_QingSeFangAn #青色方案
 		icon = GFX_SHiFangSHaHeTe
 		cost = 5.00
 		prerequisite = {
@@ -1318,7 +1318,7 @@ focus_tree = {
 		icon = GFX_SHiFangSHaHeTe
 		cost = 5.00
 		prerequisite = {
-			focus = GER_NiAoErDeXingDong #“尼奥尔德”行动
+			focus = GER_QingSeFangAn #青色方案
 		}
 		x = 9
 		y = 31
@@ -1345,6 +1345,99 @@ focus_tree = {
 			}
 			declare_war_on = {
 				target = ENG
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_HuangSeFangAn #黄色方案
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_GuanHuDeYiZHiMingYvDeYiZHan #关乎德意志命运的一战
+		}
+		x = 8
+		y = 33
+		completion_reward = {
+			declare_war_on = {
+				target = LUX
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BEL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HOL
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_LvSeFangAn #绿色方案
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_GuanHuDeYiZHiMingYvDeYiZHan #关乎德意志命运的一战
+		}
+		x = 10
+		y = 33
+		completion_reward = {
+			declare_war_on = {
+				target = SWI
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_BaiSeFangAn #白色方案
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_HuangSeFangAn #黄色方案
+			focus = GER_LvSeFangAn #绿色方案
+		}
+		x = 9
+		y = 34
+		completion_reward = {
+			declare_war_on = {
+				target = RFE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = DON
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = GER_LanSeFangAn #蓝色方案
+		icon = GFX_SHiFangSHaHeTe
+		cost = 5.00
+		prerequisite = {
+			focus = GER_BaiSeFangAn #白色方案
+		}
+		x = 9
+		y = 35
+		completion_reward = {
+			declare_war_on = {
+				target = KUB
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GSK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GEO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ARM
 				type = annex_everything
 			}
 		}

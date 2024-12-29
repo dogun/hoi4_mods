@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
  
- #德国
+ #黑德
  
  GER: "德国"
  #通用
@@ -384,7 +384,7 @@
  GER_LinSHiZHengFu_BoGenDiTiZHi_ADJ: "法西斯德国"
  #勃艮第体制
  
- #德共
+ #红德
  
  GSR: "德国"
  #通用
@@ -766,6 +766,173 @@
  GSR_ZHonOu_BoGenDiTiZHi_DEF: "日耳曼尼亚"
  #勃艮第体制
  GSR_ZHonOu_BoGenDiTiZHi_ADJ: "日耳曼"
+ #勃艮第体制
+ 
+ #党卫军德国
+ 
+ SSD: "德国"
+ #通用
+ SSD_DEF: "德国"
+ #通用
+ SSD_ADJ: "德国"
+ #通用
+ SSD_autonomy_puppet: "$OVERLORDADJ$属德国"
+ #傀儡
+ SSD_autonomy_puppet_DEF: "$OVERLORDADJ$属德国"
+ #傀儡
+ ###
+ SSD_WuZHengFuGuongCHanZHuYi: "德意志无政府联盟"
+ #无政府共产主义
+ SSD_WuZHengFuGuongCHanZHuYi_DEF: "德意志无政府联盟"
+ #无政府共产主义
+ SSD_WuZHengFuGuongCHanZHuYi_ADJ: "德意志联盟"
+ #无政府共产主义
+ 
+ SSD_GuongTuanZHuYi: "柏林公社"
+ #工团主义
+ SSD_GuongTuanZHuYi_DEF: "柏林公社"
+ #工团主义
+ SSD_GuongTuanZHuYi_ADJ: "柏林"
+ #工团主义
+ 
+ SSD_MaKeSi_LieNingZHuYi: "德意志社会主义共和国"
+ #马克思 - 列宁主义
+ SSD_MaKeSi_LieNingZHuYi_DEF: "德意志社会主义共和国"
+ #马克思 - 列宁主义
+ SSD_MaKeSi_LieNingZHuYi_ADJ: "德国"
+ #马克思 - 列宁主义
+ 
+ SSD_TuoLuoSiJiZHuYi: "德国革命军"
+ #托洛斯基
+ SSD_TuoLuoSiJiZHuYi_DEF: "德国革命军"
+ #托洛斯基
+ SSD_TuoLuoSiJiZHuYi_ADJ: "德国"
+ #托洛斯基
+  
+ SSD_SiDaLingZHuYi: "德意志社会主义共和国"
+ #斯大林主义
+ SSD_SiDaLingZHuYi_DEF: "德意志社会主义共和国"
+ #斯大林主义
+ SSD_SiDaLingZHuYi_ADJ: "德国"
+ #斯大林主义
+ 
+ SSD_YuanSHiZHuYi: "德意志社会技官国"
+ #远视主义
+ SSD_YuanSHiZHuYi_DEF: "德意志社会技官国"
+ #远视主义
+ SSD_YuanSHiZHuYi_ADJ: "德国"
+ #远视主义
+ 
+ SSD_JunZHengGuongCHanZHuYi: "德意志共产主义军区"
+ #军政共产主义
+ SSD_JunZHengGuongCHanZHuYi_DEF: "德意志共产主义军区"
+ #军政共产主义
+ SSD_JunZHengGuongCHanZHuYi_ADJ: "德共军"
+ #军政共产主义
+ 
+ SSD_JunZHuBuErSHiWeiKe: "德意志君主共和国"
+ #君主布尔什维克
+ SSD_JunZHuBuErSHiWeiKe_DEF: "德意志君主共和国"
+ #君主布尔什维克
+ SSD_JunZHuBuErSHiWeiKe_ADJ: "德国"
+ #君主布尔什维克
+ 
+ SSD_GuDianZiYouZHuYi: "德意志共和国"
+ #古典自由主义
+ SSD_GuDianZiYouZHuYi_DEF: "德意志共和国"
+ #古典自由主义
+ SSD_GuDianZiYouZHuYi_ADJ: "德国"
+ #古典自由主义
+ 
+ SSD_SHeHuiMinZHuZHuYi: "德意志共和国"
+ #社会民主主义
+ SSD_SHeHuiMinZHuZHuYi_DEF: "德意志共和国"
+ #社会民主主义
+ SSD_SHeHuiMinZHuZHuYi_ADJ: "德国"
+ #社会民主主义
+ 
+ SSD_MinZHuSHeHuiZHuYi: "德意志共和国"
+ #民主社会主义
+ SSD_MinZHuSHeHuiZHuYi_DEF: "德意志共和国"
+ #民主社会主义
+ SSD_MinZHuSHeHuiZHuYi_ADJ: "德国"
+ #民主社会主义
+ 
+ SSD_JiaSuZHuYi: "德意志先锋国"
+ #加速主义
+ SSD_JiaSuZHuYi_DEF: "德意志先锋国"
+ #加速主义
+ SSD_JiaSuZHuYi_ADJ: "德国"
+ #加速主义
+ 
+ SSD_BaoSHouZHuYi: "德意志共和国"
+ #保守主义
+ SSD_BaoSHouZHuYi_DEF: "德意志共和国"
+ #保守主义
+ SSD_BaoSHouZHuYi_ADJ: "德国"
+ #保守主义
+ 
+ SSD_GuiZuBaoSHouZHuYi: "德意志共和国"
+ #贵族保守主义
+ SSD_GuiZuBaoSHouZHuYi_DEF: "德意志共和国"
+ #贵族保守主义
+ SSD_GuiZuBaoSHouZHuYi_ADJ: "德国"
+ #贵族保守主义
+ 
+ SSD_JiaZHangZHi: "德意志国"
+ #家长制
+ SSD_JiaZHangZHi_DEF: "德意志国"
+ #家长制
+ SSD_JiaZHangZHi_ADJ: "德国"
+ #家长制
+ 
+ SSD_JunZHuZHuYi: "德意志帝国"
+ #君主主义
+ SSD_JunZHuZHuYi_DEF: "德意志帝国"
+ #君主主义
+ SSD_JunZHuZHuYi_ADJ: "德国"
+ #君主主义
+ 
+ SSD_ZiBenGuongCHanZHuYi: "德意志企业帝国"
+ #资本共产主义
+ SSD_ZiBenGuongCHanZHuYi_DEF: "德意志企业帝国"
+ #资本共产主义
+ SSD_ZiBenGuongCHanZHuYi_ADJ: "德国"
+ #资本共产主义
+ 
+ SSD_SHeHuiFaXiSi: "党卫军全国总部"
+ #社会法西斯
+ SSD_SHeHuiFaXiSi_DEF: "党卫军全国总部"
+ #社会法西斯
+ SSD_SHeHuiFaXiSi_ADJ: "党卫军"
+ #社会法西斯
+ 
+ SSD_SiTeLaSeZHuYi: "党卫军全国总部"
+ #斯特拉瑟主义
+ SSD_SiTeLaSeZHuYi_DEF: "党卫军全国总部"
+ #斯特拉瑟主义
+ SSD_SiTeLaSeZHuYi_ADJ: "党卫军"
+ #斯特拉瑟主义
+ 
+ SSD_FaXiSiZHuYi: "党卫军全国总部"
+ #法西斯主义
+ SSD_FaXiSiZHuYi_DEF: "党卫军全国总部"
+ #法西斯主义
+ SSD_FaXiSiZHuYi_ADJ: "党卫军"
+ #法西斯主义
+ 
+ SSD_MinZuSHeHuiZHuYi: "党卫军全国总部"
+ #纳粹
+ SSD_MinZuSHeHuiZHuYi_DEF: "党卫军全国总部"
+ #纳粹
+ SSD_MinZuSHeHuiZHuYi_ADJ: "党卫军"
+ #纳粹
+ 
+ SSD_BoGenDiTiZHi: "党卫军全国总部"
+ #勃艮第体制
+ SSD_BoGenDiTiZHi_DEF: "党卫军全国总部"
+ #勃艮第体制
+ SSD_BoGenDiTiZHi_ADJ: "党卫军"
  #勃艮第体制
  
  #英国
@@ -3827,6 +3994,20 @@
  LIB: "利比里亚"
  LIB_DEF: "利比里亚"
  LIB_ADJ: "利比里亚"
+ 
+ #印度
+ 
+ RAJ: "印度"
+ #通用
+ RAJ_DEF: "印度"
+ #通用
+ RAJ_ADJ: "印度"
+ #通用
+ RAJ_subject: "$OVERLORDADJ$属印度"
+ #傀儡
+ RAJ_subject_DEF: "$OVERLORDADJ$属印度"
+ #傀儡
+ 
  RAJ_fascism: "自由印度"
  RAJ_fascism_DEF: "自由印度"
  RAJ_democratic: "印度"
@@ -3839,9 +4020,9 @@
  RAJ_democratic_ADJ: "印度"
  RAJ_neutrality_ADJ: "印度"
  RAJ_communism_ADJ: "印度"
- RAJ: "印度"
- RAJ_DEF: "印度"
- RAJ_ADJ: "印度"
+ 
+ #克罗地亚
+ 
  CRO_fascism: "克罗地亚独立国"
  CRO_fascism_DEF: "克罗地亚独立国"
  CRO_democratic: "克罗地亚共和国"
@@ -9403,4 +9584,63 @@
  MAK_JunZHuZHuYi_DEF: "马克兰苏丹国"
  #君主主义
  MAK_JunZHuZHuYi_ADJ: "马克兰"
+ #君主主义
+ 
+ #卡兰
+ 
+ SOK: "卡兰"
+ #通用
+ SOK_DEF: "卡兰"
+ #通用
+ SOK_ADJ: "卡兰"
+ #通用
+ SOK_subject: "$OVERLORDADJ$属卡兰"
+ #傀儡
+ SOK_subject_DEF: "$OVERLORDADJ$属卡兰"
+ #傀儡
+ 
+ #海得拉巴
+ 
+ HYD: "海得拉巴"
+ #通用
+ HYD_DEF: "海得拉巴"
+ #通用
+ HYD_ADJ: "海得拉巴"
+ #通用
+ HYD_subject: "$OVERLORDADJ$属海得拉巴"
+ #傀儡
+ HYD_subject_DEF: "$OVERLORDADJ$属海得拉巴"
+ #傀儡
+ 
+ #瓜廖尔
+ 
+ GWA: "瓜廖尔"
+ #通用
+ GWA_DEF: "瓜廖尔"
+ #通用
+ GWA_ADJ: "瓜廖尔"
+ #通用
+ GWA_subject: "$OVERLORDADJ$属瓜廖尔"
+ #傀儡
+ GWA_subject_DEF: "$OVERLORDADJ$属瓜廖尔"
+ #傀儡
+ 
+ #马尔瓦尔
+ 
+ MAR: "马尔瓦尔"
+ #通用
+ MAR_DEF: "马尔瓦尔"
+ #通用
+ MAR_ADJ: "马尔瓦尔"
+ #通用
+ MAR_subject: "$OVERLORDADJ$属马尔瓦尔"
+ #傀儡
+ MAR_subject_DEF: "$OVERLORDADJ$属马尔瓦尔"
+ #傀儡
+ ###
+ MAR_JunZHuZHuYi: "马尔瓦尔王国"
+ #君主主义
+ MAR_JunZHuZHuYi_DEF: "马尔瓦尔王国"
+ #君主主义
+ MAR_JunZHuZHuYi_ADJ: "马尔瓦尔"
  #君主主义

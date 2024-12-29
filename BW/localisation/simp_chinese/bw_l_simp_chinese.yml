@@ -42,6 +42,7 @@
  STATE_994: "瓜德尔"
  STATE_995: "拉斯贝拉"
  STATE_996: "马克兰"
+ STATE_997: "卡兰"
  
  STATE_5: "埃姆兰"
  STATE_233: "索契山区"
@@ -1443,11 +1444,19 @@
  
  # # #GSR
  
- bw_GSR.1: "西里西亚社民党游行"
- bw_GSR.1.t: "西里西亚社民党游行"
- bw_GSR.1.d: "粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！"
- bw_GSR.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？"
- bw_GSR.1.b: "粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）"
+ #bw_GSR.1: "西里西亚社民党游行"
+ #bw_GSR.1.t: "西里西亚社民党游行"
+ #bw_GSR.1.d: "粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！粉碎苏维埃独裁！重建自由民主！"
+ #bw_GSR.1.a: "我们可是被一票一票的被选出来的，你凭什么认为我们不民主？"
+ #bw_GSR.1.b: "粉碎苏维埃独裁！重建自由民主！（扮演德意志自由主义者起义）"
+ 
+ bw_GSR.1: "苏维埃会议"
+ bw_GSR.1.t: "苏维埃会议"
+ bw_GSR.1.d: ""
+ bw_GSR.1.a: "正统派：台尔曼"
+ bw_GSR.1.b: "共产国际派：皮克"
+ bw_GSR.1.c: "工团派：卢森堡"
+ bw_GSR.1.d: "刺刀派：李卜克内西"
  
  # # #德国内战
  
@@ -1646,11 +1655,7 @@
  MiHeMaoDuen_Z: "解锁§Y矛盾§!决议组\n\n解锁决议§Y向委员会让步§!\n解锁决议§Y给予委员会更多权力§!"
  
  bw_American_Civil_War_10: "总督辖区将会崩溃，你将接管剩余领土。"
- 
- bw_GER_GSR_message: "在德意志命运的斗争中，@GER §Y全德法西斯临时政府§!以击败 @GSR §Y德意志社会主义苏维埃共和国§!及其盟友\n\n\n经过持续数年的内战，民族主义和复仇主义席卷了德国。"
- 
- bw_SSD_GER_message: "在德意志命运的斗争中，@SSD §党卫军全国总部§!以击败 @GER §德意志国§!及其盟友\n\n\n第二次内战中，党卫军的军鞋踏破了德国的一切，它会不断的流血，直到希姆莱的末日。"
- 
+
  ZHaoMu_ENG_Edward_VIII: "§Y爱德华八世·阿尔伯特·克里斯蒂安·乔治·安德鲁·帕特里克·大卫§!成为§Y君主主义§!领导人。\n  §Y经验尚浅的帝王§!\n  - 政治点数：§R-30%§!\n  - 稳定度：§G+5.00%§!\n  - 正当化战争目标所需时间：§G+25.0%§!"
  
  bw_ENG_TiaoZHenHangXian: "收杋，前方有一场风暴\n"
@@ -1766,6 +1771,7 @@
  debug: "调试模式"
  KaiQiYvLeMoSHi: "开启娱乐模式"
  DaYingDeGuoNeiZHan: "打赢德国内战"
+ YinDuNeiZHan: "印度内战"
  
  YvLeMoSHi: "娱乐模式"
  GuanBiYvLeMoSHi: "关闭娱乐模式"
@@ -2250,6 +2256,15 @@
  GSR_ZuJianYouJiDui: "组建游击队"
  GSR_ZuJianYouJiDui_desc: ""
  
+ GSR_XianFengDui: "先锋队"
+ GSR_XianFengDui_desc: ""
+ 
+ GSR_RenMingJunDui: "人民军队"
+ GSR_RenMingJunDui_desc: ""
+ 
+ GSR_DiYiCiSuWuiAiHuiYi: "第一次苏维埃会议"
+ GSR_DiYiCiSuWuiAiHuiYi_desc: ""
+ 
  # # #通用国策
  
  ZHengZHiJueCe: "政治决策"
@@ -2455,7 +2470,7 @@
  load_bw_GER.1_d: "一个国家，一个民族，一个元首\n——纳粹德国宣传海报"
  load_bw_GER.1_a: "满目疮痍"
  
- # # #德国
+ # # #南非
  
  load_bw_SAF.1_t: "南非内战"
  load_bw_SAF.1_d: "受压迫的民族只要下定决心赢得自由，\n世上便没有力量得以阻挡。\n——纳尔逊·罗利拉拉·曼德拉"
@@ -2468,3 +2483,45 @@
  #阵营
  
  bw_ENG_DaYingDiGuo: "大英帝国"
+ 
+ bw_HYD_TuBangLianMeng: "土邦联盟"
+ 
+ #战争
+ 
+ bw_GER_GSR_message: "在德意志命运的斗争中，@GER §Y全德法西斯临时政府§!以击败 @GSR §Y德意志社会主义苏维埃共和国§!\n\n\n经过持续数年的内战，民族主义和复仇主义席卷了德国。"
+ bw_GSR_GER_message: "在德意志命运的斗争中，@GSR §Y德意志社会主义苏维埃\n共和国§!以击败 @GER §全德法西斯临时政府§!\n\n\n纳粹的褐衣暴徒终将失败。"
+ 
+ bw_GER_GLR_message: "在德意志命运的斗争中，@GER §Y全德法西斯临时政府§!以击败 @GLR §Y德意志自由主义者起义§!\n\n\自由之梦，付之于去。"
+ 
+ bw_GSR_GLR_message: "在德意志命运的斗争中，@GSR §Y德意志\n社会主义苏维埃共和国§!以击败 @GLR §Y德意志自由主义者起义§!\n\n\自由之梦，付之于去。"
+ 
+ 
+ bw_SSD_GER_message: "在德意志命运的斗争中，@SSD §Y党卫军全国总部§!以击败 @GER §Y德意志国§!\n\n\n第二次内战中，党卫军的军鞋踏破了德国的一切，它会不断的流血，直到希姆莱的末日。"
+ bw_GER_SSD_message: "在德意志命运的斗争中，@GER §Y德意志国§!以击败 @SSD §Y党卫军全国总部§!\n\n\n忠于元首。"
+ 
+ 
+ bw_HYD_RAJ_message: "在印度命运的斗争中，@HYD@GWA@MAR@JUN@LAS@KOK@MAK@SOK@AUR §Y土邦联盟§!以击败 @RAJ §Y印度共和国§!\n\n\n滚蛋吧！不列颠尼亚！。"
+ bw_HYD_PAK_message: "在印度命运的斗争中，@HYD@GWA@MAR@JUN@LAS@KOK@MAK@SOK@AUR §Y土邦联盟§!以击败 @PAK §Y巴基斯坦伊斯兰共和国§!\n\n\n印度重归分裂......"
+ 
+ bw_PAK_RAJ_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @RAJ §Y印度共和国§!\n\n\n哦，莫卧儿。"
+ bw_RAJ_PAK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @PAK §Y巴基斯坦伊斯兰共和国§!\n\n\n哦，孔雀。"
+ 
+ bw_RAJ_HYD_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @HYD §Y海得拉巴§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_GWA_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @GWA §Y瓜廖尔§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_MAR_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @MAR §Y马尔瓦尔§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_JUN_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @JUN §Y朱纳格特§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_LAS_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @LAS §Y拉斯贝拉§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_KOK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @KOK §Y喀拉特§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_MAK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @MAK §Y马克兰§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_SOK_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @SOK §Y卡兰§!\n\n\n印度离统一更近一步。"
+ bw_RAJ_AUR_message: "在印度命运的斗争中，@RAJ §Y印度共和国§!以击败 @AUR §Y查谟和克什米尔§!\n\n\n印度离统一更近一步。"
+ 
+ bw_PAK_HYD_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @HYD §Y海得拉巴§!\n\n\n印度离统一更近一步。"
+ bw_PAK_GWA_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @GWA §Y瓜廖尔§!\n\n\n印度离统一更近一步。"
+ bw_PAK_MAR_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @MAR §Y马尔瓦尔§!\n\n\n印度离统一更近一步。"
+ bw_PAK_JUN_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @JUN §Y朱纳格特§!\n\n\n印度离统一更近一步。"
+ bw_PAK_LAS_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @LAS §Y拉斯贝拉§!\n\n\n印度离统一更近一步。"
+ bw_PAK_KOK_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @KOK §Y喀拉特§!\n\n\n印度离统一更近一步。"
+ bw_PAK_MAK_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @MAK §Y马克兰§!\n\n\n印度离统一更近一步。"
+ bw_PAK_SOK_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @SOK §Y卡兰§!\n\n\n印度离统一更近一步。"
+ bw_PAK_AUR_message: "在印度命运的斗争中，@PAK §Y巴基斯坦伊斯兰共和国§!以击败 @AUR §Y查谟和克什米尔§!\n\n\n印度离统一更近一步。"

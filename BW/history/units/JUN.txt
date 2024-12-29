@@ -1,0 +1,46 @@
+﻿division_template = {
+#编制
+	name = "土邦卫队"
+#名称
+
+#	division_names_group = "土邦卫队"
+#番号组 ###举例：第一步兵师、第二步兵师、第三步兵师
+
+	regiments = {
+#部队内容 ###左上是 x0 y0
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+#支援连
+	}
+}
+
+units = {
+#部队
+	division = {
+#部队
+		name = "土邦卫队"
+#名称
+		location = 4090
+#位置 ###ps：要写地块
+		division_template = "土邦卫队"
+#编制
+		start_experience_factor = 0.3
+#经验
+
+	}
+
+	division = {
+#部队
+		name = "土邦卫队"
+#名称
+		location = 4090
+#位置 ###ps：要写地块
+		division_template = "土邦卫队"
+#编制
+		start_experience_factor = 0.3
+#经验
+	}
+}

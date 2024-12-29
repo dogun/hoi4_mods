@@ -2,7 +2,7 @@
 state={
 	id=996
 	name="STATE_996"
-	manpower = 20119
+	manpower = 268625
 	
 	
 	state_category = pastoral
@@ -17,8 +17,8 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-	add_core_of = MAK
-	add_core_of = RAJ
+		add_core_of = MAK
+		add_core_of = RAJ
 	}
 
 	provinces={

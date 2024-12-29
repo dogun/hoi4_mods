@@ -1,4 +1,5 @@
 ﻿capital = 996
+set_oob = "MAK"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8

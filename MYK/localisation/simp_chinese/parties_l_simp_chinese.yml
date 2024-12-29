@@ -875,6 +875,13 @@
  SWI_neutrality_party_long: "自由民主党"
  SWI_fascism_party: "阵线运动"
  SWI_fascism_party_long: "阵线运动"
+ 
+ #印度
+ 
+ RAJ_SHeHuiMinZHuZHuYi_party: "国民大会党"
+ RAJ_JiaZHangZHi_party: "英国殖民政府"
+ RAJ_JunZHuZHuYi_party: "莫卧儿王朝"
+ 
  RAJ_neutrality_party: "印度国民大会党"
  RAJ_neutrality_party_long: "印度国民大会党"
  RAJ_communism_party: "印度共产党"
@@ -883,6 +890,8 @@
  RAJ_democratic_party_long: "印度独立运动"
  RAJ_fascism_party: "印度教大斋会"
  RAJ_fascism_party_long: "印度教大斋会"
+ 
+ 
  PER_communism_party: "人民党"
  PER_communism_party_long: "人民党"
  PER_neutrality_party: "巴列维王朝"
@@ -1112,9 +1121,15 @@
  BLR_democratic_party: "白俄罗斯基督教民主党"
  BLR_communism_party: "白俄罗斯共产党"
  BLR_neutrality_party: "白俄罗斯社会主义大会"
+ 
+ #巴基斯坦
+ 
  PAK_democratic_party: "共和党"
  PAK_communism_party: "巴基斯坦社会党"
  PAK_neutrality_party: "穆斯林联盟"
+ 
+ #中国共产党
+ 
  PRC_democratic_party: "国民党-革命委员会"
  PRC_democratic_party_long: "国民党-革命委员会"
  PRC_communism_party: "中国共产党"

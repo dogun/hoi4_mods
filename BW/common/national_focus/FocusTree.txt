@@ -1,11 +1,7 @@
 focus_tree = {
-	id = FocusTree_0
+	id = FocusTree
 	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = AUS
-		}
+		factor = 1
 	}
 
 #	continuous_focus_position = { x = 1600 y = 500 }

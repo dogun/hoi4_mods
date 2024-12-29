@@ -20,8 +20,8 @@ state={
 				naval_base = 2
 			}
 		}
-	add_core_of = KOK
-	add_core_of = RAJ
+		add_core_of = KOK
+		add_core_of = RAJ
 	}
 
 	provinces={

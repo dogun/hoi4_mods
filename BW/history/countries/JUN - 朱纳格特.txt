@@ -1,4 +1,5 @@
 ﻿capital = 992
+set_oob = "JUN"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
